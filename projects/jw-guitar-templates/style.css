@@ -6,11 +6,12 @@ body {
 }
 
 .container {
-    padding: 5px 200px 0px 5px;
-    margin: 5px 200px 0px 5px;
+    padding: 10px 20px 0px 10px;
+    margin: 10px 430px 0px 10px;
+    text-align: center;
 }
 
-#songNumber {
+#song, #songNumber {
     font-family: 'Avenir', sans-serif;
     font-size: 30pt;
     margin: unset;
@@ -23,7 +24,7 @@ body {
     margin: unset;
 }
 
-#bibleVerse {
+#parentheses, #bibleVerse {
     font-family: 'Archerpro Thin';
     font-size: 27pt;
     margin: unset;
