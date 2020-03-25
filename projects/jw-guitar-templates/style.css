@@ -1,25 +1,29 @@
 body {
     color: blanchedalmond;
-    background-image: url(guitarImage.png);
-    background-size: cover;
     line-height: 100px;
 }
 
+.outer {
+    background-image: url(guitarImage.png);
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
 .container {
-    padding: 10px 20px 0px 10px;
-    margin: 10px 430px 0px 10px;
+    padding: 40px 20px 80px 10px;
+    margin: 100px 570px 75px 10px;
     text-align: center;
 }
 
 #song, #songNumber {
     font-family: 'Avenir', sans-serif;
     font-size: 30pt;
-    margin: unset;
+    margin: 0em;
 }
 
 #songTitle {
     font-family: 'Charter', serif;
-    font-size: 77pt;
+    font-size: 75pt;
     font-weight: bold;
     margin: unset;
 }
