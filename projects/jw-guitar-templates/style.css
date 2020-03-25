@@ -1,0 +1,30 @@
+body {
+    color: blanchedalmond;
+    background-image: url(guitarImage.png);
+    background-size: cover;
+    line-height: 100px;
+}
+
+.container {
+    padding: 5px 200px 0px 5px;
+    margin: 5px 200px 0px 5px;
+}
+
+#songNumber {
+    font-family: 'Avenir', sans-serif;
+    font-size: 30pt;
+    margin: unset;
+}
+
+#songTitle {
+    font-family: 'Charter', serif;
+    font-size: 77pt;
+    font-weight: bold;
+    margin: unset;
+}
+
+#bibleVerse {
+    font-family: 'Archerpro Thin';
+    font-size: 27pt;
+    margin: unset;
+}
