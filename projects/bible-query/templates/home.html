@@ -2,17 +2,31 @@
 <html>
 <head>
 	<title>home</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
 	<h1>Bible Quiz</h1>
-		<!-- primary button -->
-		<button>Play</button> 
-		<button>Settings</button> 
-		<button>Rules</button>
-		<button>About</button>
-		<button>Tell Your Friends!</button>
-<!-- Tell Your Friends pop-up message:
-You are temporarily leaving the game to send a recommendation using your preferred messaging application. -->
-		<button>Quit</button>
+		<a class='btn my-2 my-sm-0' href='levels.html'>PLAY</a> <br><br>
+		<a class='btn my-2 my-sm-0' href='settings.html'>Settings</a> <br><br>
+		<a class='btn my-2 my-sm-0' href='rules.html'>Rules</a> <br><br>
+		<a class='btn my-2 my-sm-0' href='about.html'>About</a> <br><br>
+		<button class='btn my-2 my-sm-0' 
+		onclick="alert('You are temporarily leaving the game to send a recommendation using your preferred messaging application.')">
+		Tell Your Friends!</button> <br><br>
+		<button class='btn my-2 my-sm-0' onclick="myFunction()">Quit</button>
+		<p id="demo"></p>
+		
+
 </body>
+<script>
+	function myFunction() {
+	var txt;
+	if (confirm("Are you sure you want to quit?")) {
+		txt = "Bye!";
+	} else {
+		txt = "Welcome back!";
+	}
+	document.getElementById("demo").innerHTML = txt;
+	}
+	</script>
 </html>
