@@ -1,45 +1,46 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>GAME SETTINGS</title>
-    <link rel="stylesheet" href="../style/style.css">
-</head>
-<body>
-	<h1>GAME SETTINGS</h1>
-	<br>
-		<input type="checkbox" value="Music">
-		<label for="Music">Music</label>
-		<br>
-		<input type="checkbox" value="Sound Effects">
-		<label for="Sound Effects">Sound Effects</label>	
-		<br>	
-		<input type="checkbox" value="Play with time limit">
-		<label for="Play with time limit">Time Limit</label>
-		<p>
-			(Learn more about Time Limit on the game's
-			<a href="rules.html">Rules</a>).
-		</p>			
-		<h2>Language</h2>
-			<input type="radio" name="language" value="English">
-			<label for="English">English</label>
-			<br>
-			<input type="radio" name="language" value="Tagalog">
-			<label for="Tagalog">Tagalog</label>
-			<br><br>
-		<button class='btn my-2 my-sm-0' onclick="myFunction()">Reset Game</button>
-		<p id="demo"></p> <br>
+  <head>
+    <title>GAME SETTINGS</title>
+    <link rel="stylesheet" href="../style/style.css" />
+  </head>
+  <body>
+    <h1>GAME SETTINGS</h1>
+    <br />
+    <input type="checkbox" value="Music" />
+    <label for="Music">Music</label>
+    <br />
+    <input type="checkbox" value="Sound Effects" />
+    <label for="Sound Effects">Sound Effects</label>
+    <br />
+    <input type="checkbox" value="Play with time limit" />
+    <label for="Play with time limit">Time Limit</label>
+    <p>
+      (Learn more about Time Limit on the game's
+      <a href="rules.html">Rules</a>).
+    </p>
+    <h2>Language</h2>
+    <input type="radio" name="language" value="English" />
+    <label for="English">English</label>
+    <br />
+    <input type="radio" name="language" value="Tagalog" />
+    <label for="Tagalog">Tagalog</label>
+    <br /><br />
+    <button class="btn my-2 my-sm-0" onclick="myFunction()">Reset Game</button>
+    <p id="demo"></p>
+    <br />
 
-		<a class='btn my-2 my-sm-0' href='home.html'>BACK</a><br>
-</body>
-<script>
-	function myFunction() {
-	var txt;
-	if (confirm("Are you sure you want to reset the game?")) {
-		txt = "Nooo!!!";
-	} else {
-		txt = "I'm saved!";
-	}
-	document.getElementById("demo").innerHTML = txt;
-	}
-	</script>
+    <a class="btn my-2 my-sm-0" href="home.html">BACK</a><br />
+  </body>
+  <script>
+    function myFunction() {
+      var txt;
+      if (confirm("Are you sure you want to reset the game?")) {
+        txt = "Nooo!!!";
+      } else {
+        txt = "I'm saved!";
+      }
+      document.getElementById("demo").innerHTML = txt;
+    }
+  </script>
 </html>

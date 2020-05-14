@@ -1,32 +1,33 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>HOME</title>
-    <link rel="stylesheet" href="../style/style.css">
-</head>
-<body>
-	<h1>BIBLE QUIZ</h1>
-		<a class='btn my-2 my-sm-0' href='levels.html'>Play</a> <br><br>
-		<a class='btn my-2 my-sm-0' href='settings.html'>Settings</a> <br><br>
-		<a class='btn my-2 my-sm-0' href='rules.html'>Rules</a> <br><br>
-		<a class='btn my-2 my-sm-0' href='about.html'>About</a> <br><br>
-		<button class='btn my-2 my-sm-0' 
-		onclick="alert('You are temporarily leaving the game to send a recommendation using your preferred messaging application.')">
-		Tell Your Friends!</button> <br><br>
-		<button class='btn my-2 my-sm-0' onclick="myFunction()">Quit</button>
-		<p id="demo"></p>
-		
-
-</body>
-<script>
-	function myFunction() {
-	var txt;
-	if (confirm("Are you sure you want to quit?")) {
-		txt = "Bye!";
-	} else {
-		txt = "Welcome back!";
-	}
-	document.getElementById("demo").innerHTML = txt;
-	}
-	</script>
+  <head>
+    <title>HOME</title>
+    <link rel="stylesheet" href="../style/style.css" />
+  </head>
+  <body>
+    <h1>BIBLE QUIZ</h1>
+    <a class="btn my-2 my-sm-0" href="levels.html">Play</a> <br /><br />
+    <a class="btn my-2 my-sm-0" href="settings.html">Settings</a> <br /><br />
+    <a class="btn my-2 my-sm-0" href="rules.html">Rules</a> <br /><br />
+    <a class="btn my-2 my-sm-0" href="about.html">About</a> <br /><br />
+    <button
+      class="btn my-2 my-sm-0"
+      onclick="alert('You are temporarily leaving the game to send a recommendation using your preferred messaging application.')">
+      Tell Your Friends!
+    </button>
+    <br /><br />
+    <button class="btn my-2 my-sm-0" onclick="myFunction()">Quit</button>
+    <p id="demo"></p>
+  </body>
+  <script>
+    function myFunction() {
+      var txt;
+      if (confirm("Are you sure you want to quit?")) {
+        txt = "Bye!";
+      } else {
+        txt = "Welcome back!";
+      }
+      document.getElementById("demo").innerHTML = txt;
+    }
+  </script>
 </html>
