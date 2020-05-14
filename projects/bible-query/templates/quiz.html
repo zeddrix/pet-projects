@@ -1,27 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>QUIZ</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style/style.css">
 </head>
 <body>
-    <!-- question -->
-    <p>
-        Who asked the Israelites to separate from their foreign wives?
-    </p>
-    <!-- <button>Show Clue</button>
-    Job 42:10 (Bible verse quote) -->
-    <!-- choices -->
-        <button onclick="wrongAnswer()">Asa</button><br><br>
-        <button onclick="wrongAnswer()">Moses</button><br><br>
-        <button onclick="wrongAnswer()">Nehemiah</button><br><br>
-        <button onclick="rightAnswer()">Ezra</button><br><br>
-
+    <div id="container">
+        <div id="start">Start Bible Quiz!</div>
+        <div id="quiz" style="display: none">
+            <div id="question"></div>
+            <div id="choices">
+                <div class="choice" id="A" onclick="checkAnswer('A')"></div><br><br>
+                <div class="choice" id="B" onclick="checkAnswer('B')"></div><br><br>
+                <div class="choice" id="C" onclick="checkAnswer('C')"></div><br><br>
+                <div class="choice" id="D" onclick="checkAnswer('D')"></div><br><br>
+            </div>
+            <div id="timer">
+                <div id="counter"></div>
+                <div id="bTimeGauge"></div>
+                <div id="timeGauge"></div>
+            </div>
+            <div id="progress"></div>
+        </div>
+        <div id="scoreContainer" style="display: none"></div>
+    </div>
+    
     <a class='btn my-2 my-sm-0' href='home.html'>BACK</a> <br> 
     <button>QUIT</button>
 </body>
-<script src="../scripts/app.js"></script>
 <script src="../scripts/quiz.js"></script>
-<script src="./node_modules/axios/dist/axios.min.js"></script>
-<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="../scripts/app.js"></script>
+<!-- <script src="./node_modules/axios/dist/axios.min.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script> -->
 </html>
