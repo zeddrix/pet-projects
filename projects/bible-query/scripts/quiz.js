@@ -1,4 +1,4 @@
-const questionsAboutMen = [
+let questionsAboutMen = [
   // {
   //     question : ,
   //     clue : ,
@@ -12,7 +12,7 @@ const questionsAboutMen = [
     question: "Who asked the Israelites to separate from their foreign wives?",
     clue:
       'Ezra 10:10, 11: Then Ezra the priest rose and said to them: "You have acted unfaithfully by marrying foreign women, and so you have added to the guilt of Israel."',
-    choiceA: "Asa",
+    choiceA: "Aaron",
     choiceB: "Moses",
     choiceC: "Nehemiah",
     choiceD: "Ezra",
@@ -27,7 +27,7 @@ const questionsAboutMen = [
     choiceB: "Silas",
     choiceC: "Paul",
     choiceD: "Timothy",
-    correctAnswer: "Timothy",
+    correctAnswer: "D",
   },
   {
     question:
@@ -38,7 +38,7 @@ const questionsAboutMen = [
     choiceB: "Gideon",
     choiceC: "Samuel",
     choiceD: "Jephthah",
-    correctAnswer: "Gideon",
+    correctAnswer: "B",
   },
   {
     question:
@@ -49,7 +49,7 @@ const questionsAboutMen = [
     choiceB: "Cain",
     choiceC: "Enoch",
     choiceD: "Noah",
-    correctAnswer: "Cain",
+    correctAnswer: "B",
   },
   {
     question: "He asked Jesus: “Are you the King of the Jews?”",
@@ -59,7 +59,7 @@ const questionsAboutMen = [
     choiceB: "Nicodemus",
     choiceC: "Pilate",
     choiceD: "Philip",
-    correctAnswer: "Pilate",
+    correctAnswer: "D",
   },
   {
     question:
@@ -69,7 +69,7 @@ const questionsAboutMen = [
     choiceB: "Noah",
     choiceC: "Aaron",
     choiceD: "Eleazer",
-    correctAnswer: "Noah",
+    correctAnswer: "B",
   },
   {
     question:
@@ -80,7 +80,7 @@ const questionsAboutMen = [
     choiceB: "Enoch",
     choiceC: "John",
     choiceD: "Elijah",
-    correctAnswer: "Elijah",
+    correctAnswer: "D",
   },
   {
     question: "He is a friend of Jesus who was raised from the dead.",
@@ -90,7 +90,7 @@ const questionsAboutMen = [
     choiceB: "Judah",
     choiceC: "Lazarus",
     choiceD: "John",
-    correctAnswer: "Lazarus",
+    correctAnswer: "C",
   },
   {
     question:
@@ -100,7 +100,7 @@ const questionsAboutMen = [
     choiceB: "Job",
     choiceC: "Hezekiah",
     choiceD: "Hagai",
-    correctAnswer: "Jonah",
+    correctAnswer: "A",
   },
   {
     question: "Who formed a golden calf while Moses was on Mount Sinai?",
@@ -110,7 +110,7 @@ const questionsAboutMen = [
     choiceB: "Aaron",
     choiceC: "Korah",
     choiceD: "Abiram",
-    correctAnswer: "Aaron",
+    correctAnswer: "B",
   },
   {
     question: "The father of John the Baptizer.",
@@ -120,7 +120,7 @@ const questionsAboutMen = [
     choiceB: "Zedekiah",
     choiceC: "Zechariah",
     choiceD: "Zadok",
-    correctAnswer: "Zechariah",
+    correctAnswer: "C",
   },
   {
     question:
@@ -131,7 +131,7 @@ const questionsAboutMen = [
     choiceB: "Balak",
     choiceC: "Hosea",
     choiceD: "Barak",
-    correctAnswer: "Balaam",
+    correctAnswer: "A",
   },
   {
     question:
@@ -142,7 +142,7 @@ const questionsAboutMen = [
     choiceB: "James",
     choiceC: "John",
     choiceD: "Paul",
-    correctAnswer: "Paul",
+    correctAnswer: "D",
   },
   {
     question:
@@ -153,7 +153,7 @@ const questionsAboutMen = [
     choiceB: "Isaac",
     choiceC: "Joseph",
     choiceD: "Jacob",
-    correctAnswer: "Isaac",
+    correctAnswer: "B",
   },
   {
     question:
@@ -164,7 +164,7 @@ const questionsAboutMen = [
     choiceB: "Jonah",
     choiceC: "Shadrach",
     choiceD: "Meshach",
-    correctAnswer: "Daniel",
+    correctAnswer: "A",
   },
   {
     question:
@@ -175,7 +175,7 @@ const questionsAboutMen = [
     choiceB: "Joseph",
     choiceC: "Moses",
     choiceD: "Aaron",
-    correctAnswer: "Job",
+    correctAnswer: "A",
   },
   {
     question:
@@ -186,7 +186,7 @@ const questionsAboutMen = [
     choiceB: "Shadrach",
     choiceC: "Mordecai",
     choiceD: "Abednego",
-    correctAnswer: "Mordecai",
+    correctAnswer: "C",
   },
   {
     question:
@@ -197,7 +197,7 @@ const questionsAboutMen = [
     choiceB: "Absalom",
     choiceC: "Adonijah",
     choiceD: "Amnon",
-    correctAnswer: "Absalom",
+    correctAnswer: "B",
   },
   {
     question:
@@ -208,7 +208,7 @@ const questionsAboutMen = [
     choiceB: "Mark",
     choiceC: "John",
     choiceD: "Luke",
-    correctAnswer: "Matthew",
+    correctAnswer: "A",
   },
   {
     question:
@@ -219,6 +219,6 @@ const questionsAboutMen = [
     choiceB: "Barak",
     choiceC: "Joshua",
     choiceD: "Samson",
-    correctAnswer: "Samson",
+    correctAnswer: "D",
   },
 ];
