@@ -59,7 +59,7 @@ let questionsAboutMen = [
     choiceB: "Nicodemus",
     choiceC: "Pilate",
     choiceD: "Philip",
-    correctAnswer: "D",
+    correctAnswer: "C",
   },
   {
     question:
@@ -86,8 +86,8 @@ let questionsAboutMen = [
     question: "He is a friend of Jesus who was raised from the dead.",
     clue:
       "John 11:43: When he had said these things, he cried out with a loud voice: “Lazarus, come out!”",
-    choiceA: "Matthew",
-    choiceB: "Judah",
+    choiceA: "Elijah",
+    choiceB: "Moses",
     choiceC: "Lazarus",
     choiceD: "John",
     correctAnswer: "C",
@@ -97,9 +97,9 @@ let questionsAboutMen = [
       "He became hot with anger with Jehovah for not destroying Nineveh.",
     clue: "He was swallowed by a huge fish.—Jonah 1:17",
     choiceA: "Jonah",
-    choiceB: "Job",
-    choiceC: "Hezekiah",
-    choiceD: "Hagai",
+    choiceB: "Jeremias",
+    choiceC: "Ezra",
+    choiceD: "Nehemias",
     correctAnswer: "A",
   },
   {
@@ -179,7 +179,7 @@ let questionsAboutMen = [
   },
   {
     question:
-      "A Jew who refused to prostrate himself before the Amalekite Haman.",
+      "A Jew who staunchly refused to prostrate himself before (the Amalekite) Haman.",
     clue:
       "Esther 3:2: And all the king’s servants who were in the king’s gate would bow low and prostrate themselves to Haman, for this is what the king had commanded respecting him. But Mordecai refused to bow low or prostrate himself.",
     choiceA: "Meshach",
