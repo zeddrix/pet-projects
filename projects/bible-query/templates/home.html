@@ -5,18 +5,28 @@
     <link rel="stylesheet" href="../style/style.css" />
   </head>
   <body>
-    <div class="container">
+    <div class="container" id="bk-img">
       <h1>BIBLE QUIZ</h1>
-      <a class="button" href="levels.html">Play</a>
-      <a class="button" href="settings.html">Settings</a>
-      <a class="button" href="rules.html">Rules</a>
-      <a class="button" href="about.html">About</a>
-      <a
-        class="button"
-        onclick="alert('You are temporarily leaving the game to send a recommendation using your preferred messaging application.')">
-        Tell Your Friends!
-      </a>
-      <a class="button" onclick="myFunction()">Quit</a>
+      <div id="all-long-btns">
+        <a href="levels.html">
+          <img src="../img/play-btn.jpg" class="long-btn"/>
+        </a>
+        <a href="settings.html">
+          <img src="../img/settings-btn.jpg" class="long-btn"/>
+        </a>
+        <a href="rules.html" >
+          <img src="../img/rules-btn.jpg" class="long-btn"/>
+        </a>
+        <a href="about.html">
+          <img src="../img/about-btn.jpg" class="long-btn" />
+        </a>
+          <!-- tell your friends! -->
+        <img class="long-btn" src="../img/tell-your-friends-btn.jpg"
+        onclick="alert('You are temporarily leaving the game to send a recommendation using your preferred messaging application.')"/>
+        <!-- quit -->
+        <img class="long-btn" src="../img/quit-btn.jpg"
+        onclick="myFunction()" />
+      </div>
       <p id="demo"></p>
     </div>
   </body>
