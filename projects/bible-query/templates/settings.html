@@ -5,32 +5,31 @@
     <link rel="stylesheet" href="../style/style.css" />
   </head>
   <body>
-    <h1>GAME SETTINGS</h1>
-    <br />
-    <input type="checkbox" value="Music" />
-    <label for="Music">Music</label>
-    <br />
-    <input type="checkbox" value="Sound Effects" />
-    <label for="Sound Effects">Sound Effects</label>
-    <br />
-    <input type="checkbox" value="Play with time limit" />
-    <label for="Play with time limit">Time Limit</label>
-    <p>
-      (Learn more about Time Limit on the game's
-      <a href="rules.html">Rules</a>).
-    </p>
-    <h2>Language</h2>
-    <input type="radio" name="language" value="English" />
-    <label for="English">English</label>
-    <br />
-    <input type="radio" name="language" value="Tagalog" />
-    <label for="Tagalog">Tagalog</label>
-    <br /><br />
-    <button class="btn my-2 my-sm-0" onclick="myFunction()">Reset Game</button>
-    <p id="demo"></p>
-    <br />
-
-    <a class="btn my-2 my-sm-0" href="home.html">BACK</a><br />
+    <div class="container">
+      <h1>GAME SETTINGS</h1>
+      <br />
+      <input type="checkbox" value="Music" />
+      <label for="Music">Music</label>
+      <br />
+      <input type="checkbox" value="Sound Effects" />
+      <label for="Sound Effects">Sound Effects</label>
+      <br />
+      <input type="checkbox" value="Play with time limit" />
+      <label for="Play with time limit">Enable Time Limit</label>
+      <p>
+        (Learn more about Time Limit on the game's
+        <a href="rules.html">Rules</a>).
+      </p>
+      <h2>Language</h2>
+      <input type="radio" name="language" value="English" />
+      <label for="English">English</label>
+      <br />
+      <input type="radio" name="language" value="Tagalog" />
+      <label for="Tagalog">Tagalog</label>
+      <a class="button" onclick="myFunction()">Reset Game</a>
+      <p id="demo"></p>
+      <a class="button" href="home.html">BACK</a>
+    </div>
   </body>
   <script>
     function myFunction() {

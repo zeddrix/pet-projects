@@ -5,19 +5,20 @@
     <link rel="stylesheet" href="../style/style.css" />
   </head>
   <body>
-    <h1>BIBLE QUIZ</h1>
-    <a class="btn my-2 my-sm-0" href="levels.html">Play</a> <br /><br />
-    <a class="btn my-2 my-sm-0" href="settings.html">Settings</a> <br /><br />
-    <a class="btn my-2 my-sm-0" href="rules.html">Rules</a> <br /><br />
-    <a class="btn my-2 my-sm-0" href="about.html">About</a> <br /><br />
-    <button
-      class="btn my-2 my-sm-0"
-      onclick="alert('You are temporarily leaving the game to send a recommendation using your preferred messaging application.')">
-      Tell Your Friends!
-    </button>
-    <br /><br />
-    <button class="btn my-2 my-sm-0" onclick="myFunction()">Quit</button>
-    <p id="demo"></p>
+    <div class="container">
+      <h1>BIBLE QUIZ</h1>
+      <a class="button" href="levels.html">Play</a>
+      <a class="button" href="settings.html">Settings</a>
+      <a class="button" href="rules.html">Rules</a>
+      <a class="button" href="about.html">About</a>
+      <a
+        class="button"
+        onclick="alert('You are temporarily leaving the game to send a recommendation using your preferred messaging application.')">
+        Tell Your Friends!
+      </a>
+      <a class="button" onclick="myFunction()">Quit</a>
+      <p id="demo"></p>
+    </div>
   </body>
   <script>
     function myFunction() {

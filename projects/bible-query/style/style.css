@@ -1,29 +1,96 @@
 body {
-  font-size: 20px;
-  font-family: monospace;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
 }
 
-#container {
-  margin: 20px auto;
-  background-color: white;
-  height: 700px;
-  width: 700px;
-  border-radius: 5px;
-  box-shadow: 0px 5px 15px 0px;
-  position: relative;
+a {
+  text-decoration: none;
 }
+
+h1, h3 {
+  text-align: center;
+}
+
+h2, p {
+  margin: 10px;
+}
+
+img {
+  max-width: 100%;
+  max-height:100%;
+  display: flex;
+  align-self: center;
+}
+
+.img-container {
+  margin: 10px;
+}
+
+.container {
+  margin: auto;
+  height: 700px;
+  width: 500px;
+  border-radius: 5px;
+  border: 1px;
+  border-style: solid;
+  text-align: left;
+  /* box-shadow: 0px 5px 15px 0px; */
+  position: relative;
+  width: 400px;
+  overflow:auto;
+}
+
+.button {
+  appearance: button;
+  margin: 5px;
+  text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  justify-content: center;
+  margin: 40px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+a.quiz-menu-btn {
+  padding: 20px;
+  appearance: button;
+  margin: 5px;
+  text-decoration: none;
+}
+
+.quiz-menu-btn-container {
+  bottom: 20px;
+  position: absolute;
+  width: 100%;
+}
+
+#quiz {
+  display: flex;
+  text-align: center;
+}
+
 #start {
   font-size: 1.5em;
   font-weight: bolder;
-  /* word-break: break-all; */
   width: 100px;
   height: 150px;
   border: 2px solid lightgrey;
   text-align: center;
   cursor: pointer;
   position: absolute;
-  left: 300px;
-  top: 50px;
+  display: flex;
+  align-self: center;
+  justify-content: center;
   color: lightgrey;
 }
 #start:hover {
@@ -31,39 +98,16 @@ body {
   color: lightseagreen;
 }
 
-#qImg {
-  width: 200px;
-  height: 200px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-}
-#qImg img {
-  width: 200px;
-  height: 200px;
-  border-top-left-radius: 5px;
-}
-
 #question {
-  width: 500px;
-  height: 125px;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-#question p {
-  margin: 0;
-  padding: 15px;
+  text-align: center;
   font-size: 1.25em;
+  padding: 40px;
 }
 
 #choices {
-  width: 480px;
-  position: absolute;
-  right: 0;
-  top: 125px;
-  padding: 10px;
+  padding: 0;
 }
+
 .choice {
   display: inline-block;
   width: 135px;
@@ -71,14 +115,14 @@ body {
   border: 1px solid grey;
   border-radius: 5px;
   cursor: pointer;
-  padding: 5px;
+  padding: 20px 100px;
 }
 .choice:hover {
   border: 2px solid grey;
   font-weight: bold;
 }
 
-#timer {
+/* #timer {
   position: absolute;
   height: 100px;
   width: 200px;
@@ -101,14 +145,65 @@ body {
   background-color: mediumseagreen;
   margin-top: -10px;
   margin-left: 25px;
-}
-#progress {
-  width: 500px;
+} */
+
+section {
+	display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  bottom: 150px;
   position: absolute;
-  bottom: 0px;
-  right: 0px;
-  padding: 5px;
-  text-align: right;
+}
+
+timer {
+  height: 9px;
+	width: 20px;
+	background-color: #E1E4E6;
+	border-radius: 2px;
+	margin-left: 2.5%;
+  margin-right: 2.5%;
+  animation: timer 10s infinite;
+}
+#div2 {
+	animation: timer 10s 1s infinite;
+}
+#div3 {
+	animation: timer 10s 2s infinite;
+}
+#div4 {
+	animation: timer 10s 3s infinite;
+}
+#div5 {
+	animation: timer 10s 4s infinite;
+}
+#div6 {
+	animation: timer 10s 5s infinite;
+}
+#div7 {
+	animation: timer 10s 6s infinite;
+}
+#div8 {
+	animation: timer 10s 7s infinite;
+}
+#div9 {
+	animation: timer 10s 8s infinite;
+}
+#div10 {
+	animation: timer 10s 9s infinite;
+}
+@keyframes timer {
+	0% { background-color: #E1E4E6; }
+	5% { background-color: #E80C7A; transform:     scale(1.1, 1.1); }
+	10% { background-color: #E1E4E6; }
+}
+
+#progress {
+  width: 100%;
+  position: absolute;
+  /* bottom: 60px; */
+  text-align: center;
+  bottom: 60px;
 }
 .progress {
   width: 25px;
@@ -119,6 +214,7 @@ body {
   margin-left: 5px;
   margin-right: 5px;
 }
+
 #scoreContainer {
   margin: 20px auto;
   background-color: white;
@@ -145,58 +241,4 @@ body {
   font-size: 1.5em;
   font-weight: bold;
   text-align: center;
-}
-
-from Bootstrap .btn:not(:disabled):not(.disabled) {
-  cursor: pointer;
-}
-.mb-2,
-.my-2 {
-  margin-bottom: 0.5rem !important;
-}
-.mt-2,
-.my-2 {
-  margin-top: 0.5rem !important;
-}
-.btn {
-  display: inline-block;
-  font-weight: 400;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  user-select: none;
-  border: 1px solid transparent;
-  padding: 0.375rem 0.75rem;
-  font-size: 1rem;
-  line-height: 1.5;
-  border-radius: 0.25rem;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-}
-a {
-  color: #007bff;
-  text-decoration: none;
-  background-color: transparent;
-}
-*,
-::after,
-::before {
-  box-sizing: border-box;
-}
-user agent stylesheet a:-webkit-any-link {
-  color: -webkit-link;
-  cursor: pointer;
-  text-decoration: underline;
-}
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol";
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #212529;
-  text-align: left;
-  background-color: #fff;
 }

@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="../style/style.css" />
   </head>
   <body>
-    <div id="container">
+    <div class="container">
       <div id="start">Start Bible Quiz!</div>
       <div id="quiz" style="display: none;">
         <div id="question"></div>
@@ -20,17 +20,21 @@
           <div class="choice" id="D" onclick="checkAnswer('D')"></div>
           <br /><br />
         </div>
-        <div id="timer">
+        <!-- <div id="timer">
           <div id="counter"></div>
           <div id="bTimeGauge"></div>
           <div id="timeGauge"></div>
-        </div>
+        </div> -->
+        <section id="timer">
+          <timer id="div1"></timer><timer id="div2"></timer><timer id="div3"></timer><timer id="div4"></timer><timer id="div5"></timer><timer id="div6"></timer><timer id="div7"></timer><timer id="div8"></timer><timer id="div9"></timer><timer id="div10"></timer>
+        </section>
         <div id="progress"></div>
+        <div class="quiz-menu-btn-container">
+          <a href="levels.html" class="quiz-menu-btn">BACK</a><a href="home.html" class="quiz-menu-btn">QUIT</a>
+        </div>
       </div>
       <div id="scoreContainer" style="display: none;"></div>
     </div>
-    <a class="btn my-2 my-sm-0" href="levels.html">BACK</a> <br />
-    <a class="btn my-2 my-sm-0" href="home.html">QUIT</a> <br />
   </body>
   <script src="../scripts/quiz.js"></script>
   <script src="../scripts/app.js"></script>
