@@ -20,7 +20,7 @@ let questionsAboutMen = [
   },
   // questionsAboutMen0.choiceD -> Ezra
   {
-    question: "He was Eunice’s son and Lois’s grandson.",
+    question: "He was Eunice's son and Lois' grandson.",
     clue:
       "2 Timothy 1:5: For I recall your unhypocritical faith, which dwelled first in your grandmother Loʹis and your mother Euʹnice, but which I am confident is also in you.",
     choiceA: "Philip",
