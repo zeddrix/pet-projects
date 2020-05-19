@@ -31,7 +31,8 @@ p {
 }
 
 #rules-table {
-  max-width: 100%;
+  display: block;
+  max-width: 95%;
   display: flex;
   align-self: center;
   margin: 10px;
@@ -52,6 +53,15 @@ p {
   max-width: 100%;
   display: flex;
   align-self: center;
+}
+
+.sm-btn {
+  display: block;
+  margin: 30px auto 10px auto;
+  width: 25%;
+  border: 0;
+  text-decoration: none;
+  outline: none;
 }
 
 .long-btn:hover {
