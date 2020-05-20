@@ -14,7 +14,7 @@ const lastQuestion = questionsAboutMen.length - 1;
 let currentQuestion = 0;
 let count = 0;
 const questionTime = 10; // 10s
-const gaugeWidth = 150; // 150px
+const gaugeWidth = 350; // 150px
 const gaugeUnit = gaugeWidth / questionTime;
 let Timer;
 let score = 0;
