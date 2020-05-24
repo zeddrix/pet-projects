@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="../styles/style.css" />
   </head>
   <body>
+  <div class="outer-container" id="bk-img">
     <div class="container" id="bk-img">
       <h1>GAME SETTINGS</h1>
       <br />
@@ -26,12 +27,17 @@
       <br />
       <input type="radio" name="language" value="Tagalog" />
       <label for="Tagalog">Tagalog</label>
-      <a class="button" onclick="myFunction()">Reset Game</a>
       <p id="demo"></p>
-      <a href="../index.html">
-        <img src="../img/back-sm-btn.jpg" class="sm-btn"/>
-      </a>
+      <div id="settings-btns">
+        <a class="button" onclick="myFunction()">
+          <img src="../img/reset-game-btn.jpg" class="sm-btn"/>
+        </a>
+        <a href="../index.html">
+          <img src="../img/back-sm-btn.jpg" class="sm-btn"/>
+        </a>
+      </div>
     </div>
+  </div>
   </body>
   <script>
     function myFunction() {

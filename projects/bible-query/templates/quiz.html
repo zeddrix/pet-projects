@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="../styles/style.css" />
   </head>
   <body>
+  <div class="outer-container" id="bk-img">
     <div class="container" id="bk-img">
       <div id="start">Start Bible Quiz!</div>
       <div id="quiz" style="display: none;">
@@ -21,15 +22,18 @@
           <div id="timeGauge"></div>
         </div>
         <div id="progress"></div>
-        <div class="quiz-menu-btn-container">
+        <div class="quiz-menu-btns">
           <a href="levels.html">
             <img src="../img/back-sm-btn.jpg" class="sm-btn"/>
           </a>
-          <a href="../index.html" class="quiz-menu-btn">QUIT</a>
-        </div>
+          <a href="../index.html">
+            <img src="../img/quit-sm-btn.jpg" class="sm-btn"/>
+          </a>
+        </div> 
       </div>
       <div id="scoreContainer" style="display: none;"></div>
     </div>
+  </div>
   </body>
   <script src="../scripts/quiz.js"></script>
   <script src="../scripts/app.js"></script>

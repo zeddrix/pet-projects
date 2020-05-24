@@ -7,73 +7,51 @@ body {
   line-height: 1.5;
   color: white;
   text-align: center;
+  margin: 0em;
+}
+
+#bible-query-title {
+  text-align: center;
+  font-size: 5em;
+}
+
+h2 {
+  /* headings on settings, rules, about. Not centered */
+  font-size: 3.5em;
+  margin: 0.5em;
+}
+
+h3 {
+  /* heading on levels. Centered */
+  font-size: 3em;
+  text-align: center;
+}
+
+p {
+  font-size: 2.5em;
+  margin: 0.5em;
 }
 
 a {
   text-decoration: none;
-  color: rgb(211, 211, 211);
+  color: rgb(81, 220, 245);
 }
 
-h1,
-h3 {
-  text-align: center;
+label {
+  font-size: 2.5em;
 }
 
-h2,
-p {
-  margin: 10px;
-}
-
-#bk-img {
-  background: url(../img/bk-img.jpg);
-  background-repeat: no-repeat;
-  background-size: auto;
-}
-
-#rules-table {
-  display: block;
-  max-width: 95%;
-  display: flex;
-  align-self: center;
-  margin: 10px;
-}
-
-#all-long-btns {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 75%;
-  border: 0;
-  text-decoration: none;
-  outline: none;
-}
-
-.long-btn {
-  margin-top: 10px;
-  max-width: 100%;
-  display: flex;
-  align-self: center;
-}
-
-.sm-btn {
-  display: block;
-  margin: 30px auto 10px auto;
-  width: 25%;
-  border: 0;
-  text-decoration: none;
-  outline: none;
-}
-
-.long-btn:hover {
-  cursor: pointer;
+input {
+  width: 2.5em;
+  height: 2.5em;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 .container {
-  margin: auto;
-  height: 730px;
-  width: 400px;
-  border-radius: 5px;
-  border: 1px;
+  padding: 0em;
+  border-top: 0;
+  border-bottom: 0;
   border-style: solid;
   text-align: left;
   /* box-shadow: 0px 5px 15px 0px; */
@@ -81,33 +59,64 @@ p {
   overflow: auto;
 }
 
-.button {
-  appearance: button;
-  margin: 5px;
-  text-decoration: none;
+#bk-img {
+  background: url(../img/bk-img.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+#long-btn-container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+.long-btn {
+  max-width: 100%;
   display: flex;
-  flex-wrap: wrap;
-  align-content: flex-end;
-  justify-content: center;
-  margin: 40px;
-}
-
-.button:hover {
-  cursor: pointer;
-}
-
-a.quiz-menu-btn {
-  padding: 20px;
-  appearance: button;
-  margin: 5px;
+  align-self: center;
+  padding: 0.7em 0;
+  /* remove the blue line around the button upon clicking */
+  border: 0;
   text-decoration: none;
-  display:inline-block; 
+  outline: none;
 }
 
-.quiz-menu-btn-container {
+.sm-btn {
+  margin: 10px;
+  width: 25%;
+  border: 0;
+  text-decoration: none;
+  outline: none;
+}
+
+#rules-table-container {
+  text-align: center;
+}
+
+#rules-table-img {
+  padding: 1em;
+  width: 90%;
+}
+
+.quiz-menu-btns {
   bottom: 20px;
   position: absolute;
   width: 100%;
+}
+
+.centered-sm-btns {
+  text-align: center;
+}
+
+/* settings back button */
+#settings-btns {
+  padding-top: 36em;
+  text-align: center;
+}
+
+.long-btn:hover, .button:hover, .choice, #start {
+  cursor: pointer;
 }
 
 #quiz {
@@ -122,7 +131,6 @@ a.quiz-menu-btn {
   height: 150px;
   border: 2px solid lightgrey;
   text-align: center;
-  cursor: pointer;
   position: absolute;
   display: flex;
   align-self: center;
@@ -134,10 +142,25 @@ a.quiz-menu-btn {
   color: lightseagreen;
 }
 
+#counter {
+  font-size: 0;
+  padding: 1em;
+}
+#timeGauge {
+  width: 400px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: white;
+  margin-top: -10px;
+  margin-left: 25px;
+  position: absolute;
+  top: 195px;
+  text-align: center;
+}
+
 #question {
   text-align: center;
   font-size: 1.2em;
-  font-size: 2.5vh;
   height: 130px;
   max-height: 130px;
   padding: 20px;
@@ -156,33 +179,12 @@ a.quiz-menu-btn {
   text-align: center;
   border: 1px solid grey;
   border-radius: 5px;
-  cursor: pointer;
   padding: 20px 100px;
   margin: 7px 0px;
 }
 .choice:hover {
   border: 2px solid grey;
   font-weight: bold;
-}
-
-#timer {
-  position: absolute;
-  height: 100px;
-  width: 200px;
-  top: 195px;
-  text-align: center;
-}
-#counter {
-  font-size: 0;
-  padding: 1em;
-}
-#timeGauge {
-  width: 400px;
-  height: 10px;
-  border-radius: 10px;
-  background-color: white;
-  margin-top: -10px;
-  margin-left: 25px;
 }
 
 #progress {
@@ -212,7 +214,7 @@ a.quiz-menu-btn {
 }
 
 #scoreContainer img {
-  position: absolute;  
+  position: absolute;
   top: 800px;
   left: 170px;
 }

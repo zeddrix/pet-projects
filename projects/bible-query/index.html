@@ -5,29 +5,33 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    <div class="container" id="bk-img">
-      <h1>BIBLE QUERY</h1>
-      <div id="all-long-btns">
-        <a href="templates/levels.html">
-          <img src="img/play-btn.jpg" class="long-btn"/>
-        </a>
-        <a href="templates/settings.html">
-          <img src="img/settings-btn.jpg" class="long-btn"/>
-        </a>
-        <a href="templates/rules.html" >
-          <img src="img/rules-btn.jpg" class="long-btn"/>
-        </a>
-        <a href="templates/about.html">
-          <img src="img/about-btn.jpg" class="long-btn" />
-        </a>
+    <div class="outer-container" id="bk-img">
+      <div class="container" id="bk-img">
+        <h1 id="bible-query-title">BIBLE QUERY</h1>
+        <div id="long-btn-container">
+          <a href="templates/levels.html">
+            <img src="img/play-btn.jpg" class="long-btn" />
+          </a>
+          <a href="templates/settings.html">
+            <img src="img/settings-btn.jpg" class="long-btn" />
+          </a>
+          <a href="templates/rules.html">
+            <img src="img/rules-btn.jpg" class="long-btn" />
+          </a>
+          <a href="templates/about.html">
+            <img src="img/about-btn.jpg" class="long-btn" />
+          </a>
           <!-- tell your friends! -->
-        <img class="long-btn" src="img/tell-your-friends-btn.jpg"
-        onclick="alert('You are temporarily leaving the game to send a recommendation using your preferred messaging application.')"/>
-        <!-- quit -->
-        <img class="long-btn" src="img/quit-btn.jpg"
-        onclick="myFunction()" />
+          <img
+            src="img/tell-your-friends-btn.jpg"
+            class="long-btn"
+            onclick="alert('You are temporarily leaving the game to send a recommendation using your preferred messaging application.')"
+          />
+          <!-- quit -->
+          <img src="img/quit-btn.jpg" class="long-btn" onclick="myFunction()" />
+        </div>
+        <p id="demo"></p>
       </div>
-      <p id="demo"></p>
     </div>
   </body>
   <script>
