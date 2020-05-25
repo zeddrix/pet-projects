@@ -2,47 +2,215 @@
 <html>
   <head>
     <title>BIBLE QUERY</title>
-    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="outer-container" id="bk-img">
       <div class="container" id="bk-img">
         <h1 id="bible-query-title">BIBLE QUERY</h1>
         <div id="long-btn-container">
-          <a href="templates/levels.html">
-            <img src="img/play-btn.jpg" class="long-btn" />
-          </a>
-          <a href="templates/settings.html">
-            <img src="img/settings-btn.jpg" class="long-btn" />
-          </a>
-          <a href="templates/rules.html">
-            <img src="img/rules-btn.jpg" class="long-btn" />
-          </a>
-          <a href="templates/about.html">
-            <img src="img/about-btn.jpg" class="long-btn" />
-          </a>
-          <!-- tell your friends! -->
-          <img
-            src="img/tell-your-friends-btn.jpg"
-            class="long-btn"
-            onclick="alert('You are temporarily leaving the game to send a recommendation using your preferred messaging application.')"
-          />
-          <!-- quit -->
-          <img src="img/quit-btn.jpg" class="long-btn" onclick="myFunction()" />
+          <img onclick="playButton()" id="play-btn" class="long-btn" src="img/play-btn.jpg" />
+          <img onclick="settingsButton()" id="settings-btn" class="long-btn" src="img/settings-btn.jpg" />
+          <img onclick="rulesButton()" id="rules-btn" class="long-btn" src="img/rules-btn.jpg" />
+          <img onclick="aboutButton()" id="about-btn" class="long-btn" src="img/about-btn.jpg" />
+          <img id="tell-your-friends-btn" class="long-btn" src="img/tell-your-friends-btn.jpg" onclick="alert('You are temporarily leaving the game to send a recommendation using your preferred messaging application.')"/>
+          <img src="img/quit-btn.jpg" id="quit-btn" class="long-btn" onclick="quitGame()" />
+          <p id="quit-game"></p>
         </div>
-        <p id="demo"></p>
-      </div>
-    </div>
+        
+        <!-- Upon clicking PLAY -->
+        <div id="levels-block" style="display: none;">
+          <h1>SELECT A LEVEL</h1>
+          <h3>Stars: 0</h3>
+          <div onclick="playLevel()" id="level-number">1</div>
+          <div id="centered-sm-btns">
+            <a href="../index.html">
+              <img src="../img/back-sm-btn.jpg" class="sm-btn"/>
+            </a>      
+            <a href="settings.html">
+              <img src="../img/settings-sm-btn.jpg" class="sm-btn"/>
+            </a>
+          </div>
+        </div>
+
+        <!-- Upon selecting a level -->
+        <div id="quiz" style="display: none;">
+          <div id="question"></div>
+          <div id="choices">
+            <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+            <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+            <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+            <div class="choice" id="D" onclick="checkAnswer('D')"></div>
+          </div>
+          <div id="timer">
+            <div id="counter"></div>
+            <div id="timeGauge"></div>
+          </div>
+          <div id="progress"></div>
+          <div class="quiz-menu-btns">
+            <a href="levels.html">
+              <img src="../img/back-sm-btn.jpg" class="sm-btn"/>
+            </a>
+            <a href="../index.html">
+              <img src="../img/quit-sm-btn.jpg" class="sm-btn"/>
+            </a>
+          </div> 
+        </div>
+        <div id="scoreContainer" style="display: none;"></div>
+
+        <!-- Upon clicking on SETTINGS -->
+        <div id="settings-block" style="display:none;">
+          <h1>GAME SETTINGS</h1>
+          <br />
+          <input type="checkbox" value="Music" />
+          <label for="Music">Music</label>
+          <br />
+          <input type="checkbox" value="Sound Effects" />
+          <label for="Sound Effects">Sound Effects</label>
+          <br />
+          <input type="checkbox" value="Enable Time Limit" />
+          <label for="Enable Time Limit">Enable Time Limit</label>
+          <p>
+            (Learn more about Time Limit on the game's
+            <a href="rules.html">Rules</a>).
+          </p>
+          <h2>Language</h2>
+          <input type="radio" name="language" value="English" />
+          <label for="English">English</label>
+          <br />
+          <input type="radio" name="language" value="Tagalog" />
+          <label for="Tagalog">Tagalog</label>
+          <p id="reset-game"></p>
+          <div id="settings-btns">
+            <a class="button" onclick="resetGame()">
+              <img src="../img/reset-game-btn.jpg" class="sm-btn"/>
+            </a>
+            <a href="../index.html">
+              <img src="../img/back-sm-btn.jpg" class="sm-btn"/>
+            </a>
+          </div>
+        </div>
+        <!-- Upon clicking on RULES -->
+        <div id="rules-block" style="display:none;">
+          <h1>GAME RULES</h1>
+            <h2>Clues</h2>
+            <p>
+              You can only get 3 clues for each level. After you've used all 3, you
+              would be answering the next questions without any clue, of course. So use
+              it wisely.
+            </p>
+            <h2>Time Limit</h2>
+            <p>
+              You can enable and disable this option on the
+              <a href="settings.html">Settings</a>. When enabled, you have exactly 10
+              seconds to answer each question. Once the time is up without you answering
+              the current question, it will proceed to the next question. Consequently,
+              you won't earn a point for this.
+            </p>
+            <h2>Stars</h2>
+            <p>
+              These are the number of stars required to unlock each level:
+            </p>
+            <div id="rules-table-container">
+              <img id="rules-table-img" src="../img/levels-stars.jpg" />
+            </div>
+            <div class="centered-sm-btns">
+              <a href="../index.html">
+                <img src="../img/back-sm-btn.jpg" class="sm-btn"/>
+              </a>
+            </div>
+          </div>
+          <!-- Upon clicking on ABOUT -->
+          <div id="about-block" style="display: none;">
+            <h1>ABOUT</h1>
+            <h2>About Bible Quiz</h2>
+            <p>
+              This is just a simple Bible game that we can play with our friends and
+            families. If you're one of Jehovah's Witnesses, you can play this game on
+            your next 
+            <a href="https://www.jw.org/en/library/books/jehovahs-will/jehovahs-witnesses-family-worship/" target="_blank">
+              family worship</a>. 
+            </p>
+            <p>
+              The Bible verses that served as clues in this game are all from 
+              the 
+              <a href="https://www.jw.org/en/library/bible/study-bible/books/" target="_blank">
+                New World Translation of the Holy Scriptures</a>.
+                While the other clues are from some Bible-based publications also published by
+                <a href="https://wol.jw.org/en/wol/d/r1/lp-e/1200276161" target="_blank"> 
+                  The Watch Tower Bible and Tract Society of Pennsylvania</a>.
+                  You can always visit the official website of Jehovah’s Witnesses on
+                  <a href="https://www.jw.org/en/" target="_blank">
+                    www.jw.org/en</a>.
+                  </p>
+                  <p>
+                    To know the rules of the game, please go to
+                    <a href="rules.html">Rules</a>.
+                  </p>
+                  <h2>About the Developer</h2>
+                  <p>
+                    My name is Zedd, but I'm not the <a href="https://www.thetoptens.com/best-zedd-songs/" target="_blank">
+                      DJ Zedd</a>. I like his music, though.
+                      Anyways, I was baptized as one of 
+                      <a href="https://www.jw.org/en/jehovahs-witnesses/" target="_blank">
+                        Jehovah’s Witnesses</a> 
+                        on February 21, 2016. I started 
+                        <a href="https://www.jw.org/en/library/books/jehovahs-will/jw-pioneer/" target="_blank">
+                          regular pioneering</a> 
+                          last March 2020. I'd like to volunteer in 
+                          <a href="https://www.jw.org/en/library/books/jehovahs-will/what-is-bethel/" target="_blank">
+                            Bethel
+                          </a>
+                          someday.
+                        </p>
+                        <p>
+                          After going in a private school for 8 years and in a public school for
+                          2 years, this 2019, I started 
+                          <a href="https://zeddrix.com/" target="_blank">
+                            homeschooling</a> 
+                            as a grade 11 student.
+                          </p>
+                          <p>
+            Besides of being a developer, I am also a blogger. You can always check my
+            blog at <a href="https://zeddrix.com/" target="_blank">zeddrix.com</a>. I always blog about what I learn in my 
+            independent homeschooling. And, I promise that
+            you'll know me better after you've read the
+            <a href="https://zeddrix.com/about-zedd/" target="_blank">ABOUT ZEDD</a> page, that's also
+            on my blog.
+          </p>
+          <div class="centered-sm-btns">
+            <a href="../index.html">
+              <img src="../img/back-sm-btn.jpg" class="sm-btn"/>
+            </a>
+          </div>
+        </div>
+      </div><!-- container -->
+    </div><!-- outer-container -->
   </body>
+  <!-- RESET GAME -->
   <script>
-    function myFunction() {
+    function resetGame() {
       var txt;
-      if (confirm("Are you sure you want to quit?")) {
-        txt = "Bye!";
+      if (confirm("Are you sure you want to reset the game?")) {
+        txt = "Nooo!!!";
       } else {
-        txt = "Welcome back!";
+        txt = "I'm saved!";
       }
-      document.getElementById("demo").innerHTML = txt;
+      document.getElementById("reset-game").innerHTML = txt;
     }
-  </script>
+    </script>
+    <!-- QUIT -->
+    <script>
+      function quitGame() {
+        var txt;
+        if (confirm("Are you sure you want to quit?")) {
+          txt = "Bye!";
+        } else {
+          txt = "Welcome back!";
+        }
+        document.getElementById("quit-game").innerHTML = txt;
+      }
+    </script>
+  <script src="../scripts/quiz.js"></script>
+  <script src="../scripts/app.js"></script>
 </html>

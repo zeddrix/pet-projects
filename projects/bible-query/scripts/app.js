@@ -1,4 +1,14 @@
-const start = document.getElementById("start");
+const BibleQuery = document.getElementById("bible-query-title");
+// home buttons
+const PLAY = document.getElementById("play-btn");
+const SETTINGS = document.getElementById("settings-btn");
+const RULES = document.getElementById("rules-btn");
+const ABOUT = document.getElementById("about-btn");
+const TELLYOURFRIENDS = document.getElementById("tell-your-friends-btn");
+const QUIT = document.getElementById("quit-btn");
+
+const levelsBlock = document.getElementById("levels-block");
+
 const quiz = document.getElementById("quiz");
 const question = document.getElementById("question");
 const choiceA = document.getElementById("A");
@@ -10,7 +20,6 @@ const timeGauge = document.getElementById("timeGauge");
 const progress = document.getElementById("progress");
 const scoreDiv = document.getElementById("scoreContainer");
 
-const lastQuestion = questionsAboutMen.length - 1;
 let currentQuestion = 0;
 let count = 0;
 const questionTime = 10; // 10s
@@ -19,6 +28,69 @@ const gaugeUnit = gaugeWidth / questionTime;
 let Timer;
 let score = 0;
 
+// PLAY BUTTON
+const playButton = () => {
+  BibleQuery.style.display = "none";
+  PLAY.style.display = "none";
+  SETTINGS.style.display = "none";
+  RULES.style.display = "none";
+  ABOUT.style.display = "none";
+  TELLYOURFRIENDS.style.display = "none";
+  QUIT.style.display = "none";
+  
+  levelsBlock.style.display = "block";
+};
+
+// levels
+const playLevel = () => {
+  levelsBlock.style.display = "none";
+  renderQuestion();
+  quiz.style.display = "block";
+  renderProgress();
+  renderCounter();
+  Timer = setInterval(renderCounter, 1000); // 1000ms = 1s
+};
+
+const settingsButton = () => {
+  const settingsBlock = document.getElementById("settings-block");
+  BibleQuery.style.display = "none";
+  PLAY.style.display = "none";
+  SETTINGS.style.display = "none";
+  RULES.style.display = "none";
+  ABOUT.style.display = "none";
+  TELLYOURFRIENDS.style.display = "none";
+  QUIT.style.display = "none";
+  
+  settingsBlock.style.display = "block";
+};
+
+const rulesButton = () => {
+  const rulesBlock = document.getElementById("rules-block")
+  BibleQuery.style.display = "none";
+  PLAY.style.display = "none";
+  SETTINGS.style.display = "none";
+  RULES.style.display = "none";
+  ABOUT.style.display = "none";
+  TELLYOURFRIENDS.style.display = "none";
+  QUIT.style.display = "none";
+
+  rulesBlock.style.display = "block";
+}
+
+const aboutButton = () => {
+  const aboutBlock = document.getElementById("about-block")
+  BibleQuery.style.display = "none";
+  PLAY.style.display = "none";
+  SETTINGS.style.display = "none";
+  RULES.style.display = "none";
+  ABOUT.style.display = "none";
+  TELLYOURFRIENDS.style.display = "none";
+  QUIT.style.display = "none";
+
+  aboutBlock.style.display = "block";
+}
+
+const lastQuestion = questionsAboutMen.length - 1;
 const renderQuestion = () => {
   let q = questionsAboutMen[currentQuestion];
 
@@ -28,17 +100,6 @@ const renderQuestion = () => {
   choiceC.innerHTML = q.choiceC;
   choiceD.innerHTML = q.choiceD;
 };
-
-const startQuiz = () => {
-  start.style.display = "none";
-  renderQuestion();
-  quiz.style.display = "block";
-  renderProgress();
-  renderCounter();
-  Timer = setInterval(renderCounter, 1000); // 1000ms = 1s
-};
-
-start.addEventListener("click", startQuiz);
 
 const renderProgress = () => {
   for (let qIndex = 0; qIndex <= lastQuestion; qIndex++) {

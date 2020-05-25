@@ -6,7 +6,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: white;
-  text-align: center;
+  text-align: left;
   padding: 0;
   margin: 0;
 }
@@ -252,7 +252,7 @@ a {
   width: 100%;
 }
 
-.centered-sm-btns {
+#centered-sm-btns {
   text-align: center;
 }
 
@@ -264,7 +264,7 @@ a {
 .long-btn:hover,
 .button:hover,
 .choice,
-#start {
+#level {
   cursor: pointer;
 }
 
@@ -273,20 +273,16 @@ a {
   text-align: center;
 }
 
-#start {
+#level-number {
   font-size: 1.5em;
+  padding: 0.1em 0.5em;
   font-weight: bolder;
-  width: 100px;
-  height: 150px;
   border: 2px solid lightgrey;
   text-align: center;
   position: absolute;
-  display: flex;
-  align-self: center;
-  justify-content: center;
   color: lightgrey;
 }
-#start:hover {
+#level-number:hover {
   border: 3px solid lightseagreen;
   color: lightseagreen;
 }
