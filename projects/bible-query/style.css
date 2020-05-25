@@ -234,6 +234,7 @@ a {
   label {
     font-size: 4em;
   }
+  /* settings */
   #learn-more {
     font-size: 3em;
     padding: 0em;
@@ -247,6 +248,7 @@ a {
   #settings-btns {
     padding-top: 30em;
   }
+  /* query */
   #level-theme {
     font-size: 2em;
     padding: 1.3em;
@@ -315,21 +317,28 @@ a {
     font-size: 1.1em;
     margin: 0.5em;
   }
+  /* settings */
   input {
     width: 1.5em;
     height: 1.5em;
-    margin-left: 0.5em;
+    margin-left: 1em;
     margin-right: 0;
   }
   label {
     font-size: 1.5em;
   }
+  #language-header {
+    font-size: 2em;
+    padding-bottom: 0.4em;
+    margin-bottom: 0em;
+  }
+  #settings-btns {
+    padding-top: 30em;
+  }
   #settings-btns {
     padding-top: 15em;
   }
-  a.button {
-    margin: 1em;
-  }
+  /* query */
   #level-theme {
     padding: 0.7em;
   }
@@ -338,7 +347,34 @@ a {
     padding-bottom: 0em;
     width: 100%;
   }
-  #progress {
-    padding-top: 1em;
+  #question {
+    font-size: 1.2em;
+  }
+  .question-container {
+    height: 12em;
+    margin: 0.5em;
+  }
+  .choice {
+    font-size: 1em;
+    width: 17em;
+    padding: 1.2em 3em;
+    margin: 0.3em 0em;
+  }
+  #progress-container {
+    padding-top: 0.5em;
+  }
+  .progress {
+    width: 0.9em;
+    height: 0.9em;
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+  .query-menu-btns {
+    padding: 0em;
+    width: 100%;
+  }
+  #ads {
+    font-size: 1em;
+    padding: 0.8em;
   }
 }
