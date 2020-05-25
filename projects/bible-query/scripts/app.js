@@ -1,12 +1,4 @@
-const BibleQuery = document.getElementById("bible-query-title");
-// home buttons
-const PLAY = document.getElementById("play-btn");
-const SETTINGS = document.getElementById("settings-btn");
-const RULES = document.getElementById("rules-btn");
-const ABOUT = document.getElementById("about-btn");
-const TELLYOURFRIENDS = document.getElementById("tell-your-friends-btn");
-const QUIT = document.getElementById("quit-btn");
-
+const homepage = document.getElementById("homepage")
 const levelsBlock = document.getElementById("levels-block");
 
 const quiz = document.getElementById("quiz");
@@ -23,24 +15,16 @@ const scoreDiv = document.getElementById("scoreContainer");
 let currentQuestion = 0;
 let count = 0;
 const questionTime = 10; // 10s
-const gaugeWidth = 350; // 350px
+const gaugeWidth = 24.3; // em
 const gaugeUnit = gaugeWidth / questionTime;
 let Timer;
 let score = 0;
 
 // PLAY BUTTON
 const playButton = () => {
-  BibleQuery.style.display = "none";
-  PLAY.style.display = "none";
-  SETTINGS.style.display = "none";
-  RULES.style.display = "none";
-  ABOUT.style.display = "none";
-  TELLYOURFRIENDS.style.display = "none";
-  QUIT.style.display = "none";
-  
+  homepage.style.display = "none";
   levelsBlock.style.display = "block";
 };
-
 // levels
 const playLevel = () => {
   levelsBlock.style.display = "none";
@@ -53,40 +37,19 @@ const playLevel = () => {
 
 const settingsButton = () => {
   const settingsBlock = document.getElementById("settings-block");
-  BibleQuery.style.display = "none";
-  PLAY.style.display = "none";
-  SETTINGS.style.display = "none";
-  RULES.style.display = "none";
-  ABOUT.style.display = "none";
-  TELLYOURFRIENDS.style.display = "none";
-  QUIT.style.display = "none";
-  
+  homepage.style.display = "none";
   settingsBlock.style.display = "block";
 };
 
 const rulesButton = () => {
   const rulesBlock = document.getElementById("rules-block")
-  BibleQuery.style.display = "none";
-  PLAY.style.display = "none";
-  SETTINGS.style.display = "none";
-  RULES.style.display = "none";
-  ABOUT.style.display = "none";
-  TELLYOURFRIENDS.style.display = "none";
-  QUIT.style.display = "none";
-
+  homepage.style.display = "none";
   rulesBlock.style.display = "block";
 }
 
 const aboutButton = () => {
   const aboutBlock = document.getElementById("about-block")
-  BibleQuery.style.display = "none";
-  PLAY.style.display = "none";
-  SETTINGS.style.display = "none";
-  RULES.style.display = "none";
-  ABOUT.style.display = "none";
-  TELLYOURFRIENDS.style.display = "none";
-  QUIT.style.display = "none";
-
+  homepage.style.display = "none";
   aboutBlock.style.display = "block";
 }
 
@@ -110,7 +73,7 @@ const renderProgress = () => {
 const renderCounter = () => {
   if (count <= questionTime) {
     counter.innerHTML = count;
-    timeGauge.style.width = count * gaugeUnit + "px";
+    timeGauge.style.width = count * gaugeUnit + "em";
     count++;
   } else {
     count = 0;

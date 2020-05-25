@@ -13,7 +13,6 @@ body {
 
 #bible-query-title {
   text-align: center;
-  font-size: 5em;
 }
 
 h1 {
@@ -181,43 +180,54 @@ a {
   }
   h1 {
     font-size: 2.3em;
-  }
+  }  
   h2 {
     font-size: 1.5em;
     margin: 0.3em;
-  }
+  }  
   p {
     font-size: 1.1em;
     margin: 0.5em;
-  }
+  }  
   input {
     width: 1.5em;
     height: 1.5em;
     margin-left: 0.5em;
     margin-right: 0;
-  }
+  }  
   label {
     font-size: 1.5em;
-  }
+  }  
   #settings-btns {
     padding-top: 15em;
-  }
+  }  
   a.button {
     margin: 1em;
+  }  
+  #level-theme {
+    padding: 0.7em;
   }
-}
+  .quiz-menu-btns {
+    padding-top: 1em;
+    padding-bottom: 0em;
+    width: 100%;
+  }
+  #progress {
+    padding-top: 1em;
+  }
+}  
 
 .bk-img {
   background: url(img/bk-img.jpg) no-repeat center center fixed;
   background-size: cover;
-}
+}  
 
 #long-btn-container {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 75%;
-}
+}  
 
 .long-btn {
   max-width: 100%;
@@ -227,7 +237,7 @@ a {
   border: 0;
   text-decoration: none;
   outline: none;
-}
+}  
 
 .sm-btn {
   margin: 10px;
@@ -235,22 +245,16 @@ a {
   border: 0;
   text-decoration: none;
   outline: none;
-}
+}  
 
 #rules-table-container {
   text-align: center;
-}
+}  
 
 #rules-table-img {
   padding: 1em;
   width: 90%;
-}
-
-.quiz-menu-btns {
-  bottom: 20px;
-  position: absolute;
-  width: 100%;
-}
+}  
 
 #centered-sm-btns {
   text-align: center;
@@ -287,27 +291,26 @@ a {
   color: lightseagreen;
 }
 
+#timer {
+  text-align: center;
+}
 #counter {
   font-size: 0;
   padding: 1em;
 }
 #timeGauge {
-  width: 400px;
-  height: 10px;
-  border-radius: 10px;
+  height: 0.8em;
+  border-radius: 1em;
   background-color: white;
-  margin-top: -10px;
-  margin-left: 25px;
-  position: absolute;
-  top: 195px;
-  text-align: center;
+  margin: 0.1em;
 }
 
 #question {
+  padding-top: 7em;
   text-align: center;
   font-size: 1.2em;
-  height: 130px;
-  max-height: 130px;
+  height: 6.8em;
+  max-height: 6.8em;
   padding: 20px;
   border: 1px solid grey;
   border-radius: 5px;
@@ -334,9 +337,7 @@ a {
 
 #progress {
   width: 100%;
-  position: absolute;
   text-align: center;
-  bottom: 180px;
 }
 .progress {
   width: 15px;
