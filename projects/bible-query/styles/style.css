@@ -16,37 +16,18 @@ body {
   font-size: 5em;
 }
 
-h2 {
-  /* headings on settings, rules, about. Not centered */
-  font-size: 3.5em;
-  margin: 0.5em;
+h1 {
+  text-align: center;
 }
 
 h3 {
   /* heading on levels. Centered */
-  font-size: 3em;
   text-align: center;
-}
-
-p {
-  font-size: 2.5em;
-  margin: 0.5em;
 }
 
 a {
   text-decoration: none;
   color: rgb(81, 220, 245);
-}
-
-label {
-  font-size: 2.5em;
-}
-
-input {
-  width: 2.5em;
-  height: 2.5em;
-  margin-left: 1em;
-  margin-right: 1em;
 }
 
 .container {
@@ -67,181 +48,163 @@ input {
 
 /* PHONE */
 /* ----------- iPhone 4 and 4S ----------- */
-@media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
 }
 /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
 }
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
-
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
 }
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
 }
 /* ----------- iPhone X ----------- */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
 }
 /* ----------- Galaxy S3 ----------- */
-@media screen 
-  and (device-width: 320px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 2) 
-  and (orientation: portrait) {
-
-}
-/* ----------- Galaxy S4, S5 and Note 3 ----------- */
-@media screen 
-  and (max-width: 320px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 3) 
-  and (orientation: portrait) {
-    .outer-container {
-      padding: 0 10em;
-    }
-    #bible-query-title {
-      font-size: 20em;
-    }
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) {
 }
 /* ----------- Galaxy S6 ----------- */
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 4) 
-  and (orientation: portrait) {
-
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) and (orientation: portrait) {
 }
 /* ----------- Windows Phone ----------- */
-@media screen 
-  and (device-width: 480px) 
-  and (device-height: 800px)  
-  and (orientation: portrait) {
-
+@media screen and (device-width: 480px) and (device-height: 800px) and (orientation: portrait) {
 }
 
 /* TABLET */
 /* ----------- iPad 1, 2, Mini and Air ----------- */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: portrait) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
 }
 /* ----------- iPad 3, 4 and Pro 9.7" ----------- */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: portrait) 
-  and (-webkit-min-device-pixel-ratio: 2) {
-
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
 }
 /* ----------- iPad Pro 10.5" ----------- */
 /* Declare the same value for min- and max-width to avoid colliding with desktops */
 /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
-@media only screen 
-  and (min-device-width: 834px) 
-  and (max-device-width: 834px) 
-  and (orientation: portrait) 
-  and (-webkit-min-device-pixel-ratio: 2) {
-
+@media only screen and (min-device-width: 834px) and (max-device-width: 834px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
 }
 /* ----------- iPad Pro 12.9" ----------- */
 /* Declare the same value for min- and max-width to avoid colliding with desktops */
 /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
-@media only screen 
-  and (min-device-width: 1024px) 
-  and (max-device-width: 1024px) 
-  and (orientation: portrait) 
-  and (-webkit-min-device-pixel-ratio: 2) {
-
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
 }
 /* ----------- Galaxy Tab 2 ----------- */
-@media 
-  (max-device-width: 800px) 
-  and (orientation: portrait) { 
-
+@media (max-device-width: 800px) and (orientation: portrait) {
 }
 /* ----------- Galaxy Tab S ----------- */
-@media 
-  (max-device-width: 800px) 
-  and (orientation: portrait)
-  and (-webkit-min-device-pixel-ratio: 2) { 
-
+@media (max-device-width: 800px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
 }
 /* ----------- Nexus 7 ----------- */
-@media screen 
-  and (device-width: 601px) 
-  and (device-height: 906px) 
-  and (-webkit-min-device-pixel-ratio: 1.331) 
-  and (-webkit-max-device-pixel-ratio: 1.332) 
-  and (orientation: portrait) {
-
+@media screen and (device-width: 601px) and (device-height: 906px) and (-webkit-min-device-pixel-ratio: 1.331) and (-webkit-max-device-pixel-ratio: 1.332) and (orientation: portrait) {
 }
 /* ----------- Nexus 9 ----------- */
-@media screen 
-  and (device-width: 1536px) 
-  and (device-height: 2048px) 
-  and (-webkit-min-device-pixel-ratio: 1.331) 
-  and (-webkit-max-device-pixel-ratio: 1.332) 
-  and (orientation: portrait) {
+@media screen and (device-width: 1536px) and (device-height: 2048px) and (-webkit-min-device-pixel-ratio: 1.331) and (-webkit-max-device-pixel-ratio: 1.332) and (orientation: portrait) {
+}
 
+/* ----------- Galaxy S4, S5 and Note 3 ----------- */
+@media screen and (min-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+  h1 {
+    font-size: 5em;
+  }
+  h2 {
+    font-size: 3em;
+    margin-left: 0.6em;
+  }
+  p {
+    font-size: 1.1em;
+    margin: 1.5em;
+  }
+  .long-btn {
+    padding: 0.5em 0;
+  }
+  input {
+    width: 3.5em;
+    height: 3.5em;
+    margin-left: 2em;
+    margin-right: 1em;
+  }
+  label {
+    font-size: 4em;
+  }
+  #settings-btns {
+    padding-top: 15em;
+  }
 }
 
 /* DESKTOP */
-/* ----------- Non-Retina Screens ----------- */
-@media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
-    .outer-container {
-      padding: 0 37em;
-    }
-    .long-btn {
-      padding: 0.3em 0;
-    }
-    #bible-query-title {
-      font-size: 2.2em;
-    }
+
+/* ---------------1400px---------------- */
+@media screen and (min-device-width: 1400px) {
+  .outer-container {
+    padding: 0 3em;
+  }
+  .long-btn {
+    padding: 0.3em 0;
+  }
+  #bible-query-title {
+    font-size: 2.2em;
+  }
+  h1 {
+    font-size: 2.3em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  p {
+    font-size: 1.1em;
+  }
+  input {
+    width: 1.5em;
+    height: 1.5em;
+    margin-left: 0.5em;
+    margin-right: 0;
+  }
+  label {
+    font-size: 1.5em;
+  }
+  #settings-btns {
+    padding-top: 15em;
+  }
 }
 
-/* ----------- Retina Screens ----------- */
-@media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (min-resolution: 192dpi) { 
-    .outer-container {
-      padding: 0 37em;
-    }
-    .long-btn {
-      padding: 0.3em 0;
-    }
-    #bible-query-title {
-      font-size: 2.2em;
-    }
+/* ---------------1600px---------------- */
+@media screen and (min-device-width: 1600px) {
+  .outer-container {
+    padding: 0 37em;
+  }
+  .long-btn {
+    padding: 0.3em 0;
+  }
+  #bible-query-title {
+    font-size: 2.2em;
+  }
+  h1 {
+    font-size: 2.3em;
+  }
+  h2 {
+    font-size: 1.5em;
+    margin: 0.3em;
+  }
+  p {
+    font-size: 1.1em;
+    margin: 0.5em;
+  }
+  input {
+    width: 1.5em;
+    height: 1.5em;
+    margin-left: 0.5em;
+    margin-right: 0;
+  }
+  label {
+    font-size: 1.5em;
+  }
+  #settings-btns {
+    padding-top: 15em;
+  }
+  a.button {
+    margin: 1em;
+  }
 }
 
 #bk-img {
@@ -295,11 +258,13 @@ input {
 
 /* settings back button */
 #settings-btns {
-  padding-top: 36em;
   text-align: center;
 }
 
-.long-btn:hover, .button:hover, .choice, #start {
+.long-btn:hover,
+.button:hover,
+.choice,
+#start {
   cursor: pointer;
 }
 
