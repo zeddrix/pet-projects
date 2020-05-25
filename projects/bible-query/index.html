@@ -72,18 +72,22 @@
         <!-- Upon selecting a level -->
         <div id="query" style="display: none;">
           <div id="level-theme">level theme here</div>
-          <div id="question"></div>
+          <div class="question-container">
+            <div id="question"></div>
+          </div>
           <div id="timer">
             <div id="counter"></div>
             <div id="timeGauge"></div>
           </div>
-          <div id="choices">
+          <div id="choices-container">
             <div class="choice" id="A" onclick="checkAnswer('A')"></div>
             <div class="choice" id="B" onclick="checkAnswer('B')"></div>
             <div class="choice" id="C" onclick="checkAnswer('C')"></div>
             <div class="choice" id="D" onclick="checkAnswer('D')"></div>
           </div>
-          <div id="progress"></div>
+          <div id="progress-container">
+            <div id="progress"></div>
+          </div>
           <div class="query-menu-btns">
             <img
               onclick="levelsPage()"
@@ -96,7 +100,7 @@
               class="sm-btn"
             />
           </div>
-          <p>advertisment here</p>
+          <p id="ads">advertisment here</p>
         </div>
         <div id="scoreContainer" style="display: none;"></div>
 
@@ -112,11 +116,11 @@
           <br />
           <input type="checkbox" value="Enable Time Limit" />
           <label for="Enable Time Limit">Enable Time Limit</label>
-          <p>
+          <p id="learn-more">
             (Learn more about Time Limit on the game's
             <a href="rules.html">Rules</a>).
           </p>
-          <h2>Language</h2>
+          <h2 id="language-header">Language</h2>
           <input type="radio" name="language" value="English" />
           <label for="English">English</label>
           <br />

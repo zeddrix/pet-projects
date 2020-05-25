@@ -126,8 +126,53 @@ a {
   label {
     font-size: 4em;
   }
+  #learn-more {
+    font-size: 3em;
+    padding: 0em;
+    margin: 0.5em;
+  }
+  #language-header {
+    font-size: 4em;
+    padding-bottom: 0em;
+    margin-bottom: 0em;
+  }
   #settings-btns {
-    padding-top: 15em;
+    padding-top: 30em;
+  }
+  #level-theme {
+    font-size: 2em;
+    padding: 1.3em;
+  }
+  #question {
+    font-size: 2.8em;
+  }
+  .question-container {
+    height: 30em;
+    margin: 0em 2em;
+  }
+  .choice {
+    font-size: 2.5em;
+    width: 15.5em;
+    padding: 1.2em 3em;
+    margin: 0.3em 0em;
+  }
+  #progress-container {
+    padding-top: 1em;
+  }
+  .progress {
+    width: 2.4em;
+    height: 2.4em;
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+  .query-menu-btns {
+    /* padding-top: 20em; */
+    padding-bottom: 0em;
+    width: 100%;
+  }
+  #ads {
+    font-size: 2em;
+    padding: 0.5em;
   }
 }
 
@@ -268,6 +313,7 @@ a {
 .long-btn:hover,
 .button:hover,
 .choice,
+.sm-btn,
 #level {
   cursor: pointer;
 }
@@ -305,30 +351,24 @@ a {
   margin: 0.1em;
 }
 
-#question {
-  padding-top: 7em;
+.question-container {
   text-align: center;
-  font-size: 1.2em;
-  height: 6.8em;
-  max-height: 6.8em;
-  padding: 20px;
   border: 1px solid grey;
   border-radius: 5px;
-  margin: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
-#choices {
+#choices-container {
   padding: 0;
 }
 
 .choice {
-  display: inline-block;
-  width: 135px;
   text-align: center;
+  display: inline-block;
   border: 1px solid grey;
   border-radius: 5px;
-  padding: 20px 100px;
-  margin: 7px 0px;
 }
 .choice:hover {
   border: 2px solid grey;
@@ -340,13 +380,9 @@ a {
   text-align: center;
 }
 .progress {
-  width: 15px;
-  height: 15px;
   border: 1px solid #000;
   display: inline-block;
-  border-radius: 50%;
-  margin-left: 1px;
-  margin-right: 1px;
+  border-radius: 40%;
 }
 
 #scoreContainer {
@@ -367,7 +403,6 @@ a {
 
 #scoreContainer p {
   position: absolute;
-  display: block;
   font-size: 1.5em;
   font-weight: bold;
   top: 850px;
