@@ -208,7 +208,7 @@ a {
 }
 
 #bk-img {
-  background: url(../img/bk-img.jpg) no-repeat center center fixed;
+  background: url(img/bk-img.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 
