@@ -17,7 +17,7 @@
               src="img/play-btn.jpg"
             />
             <img
-              onclick="settingsButton()"
+              onclick="settingsLongButton()"
               id="settings-btn"
               class="long-btn"
               src="img/settings-btn.jpg"
@@ -55,13 +55,17 @@
           <h1>SELECT A LEVEL</h1>
           <h3>Stars: 0</h3>
           <div onclick="playLevel()" id="level-number">1</div>
-          <div id="centered-sm-btns">
-            <a href="index.html">
-              <img src="img/back-sm-btn.jpg" class="sm-btn" />
-            </a>
-            <a href="settings.html">
-              <img src="img/settings-sm-btn.jpg" class="sm-btn" />
-            </a>
+          <div class="centered-sm-btns">
+            <img
+              onclick="bibleQueryHomepage()"
+              src="img/back-sm-btn.jpg"
+              class="sm-btn"
+            />
+            <img
+              onclick="settingsSmallButton()"
+              src="img/settings-sm-btn.jpg"
+              class="sm-btn"
+            />
           </div>
         </div>
 
@@ -81,12 +85,16 @@
           </div>
           <div id="progress"></div>
           <div class="quiz-menu-btns">
-            <a href="levels.html">
-              <img src="img/back-sm-btn.jpg" class="sm-btn" />
-            </a>
-            <a href="index.html">
-              <img src="img/quit-sm-btn.jpg" class="sm-btn" />
-            </a>
+            <img
+              onclick="backQuizButton()"
+              src="img/back-sm-btn.jpg"
+              class="sm-btn"
+            />
+            <img
+              onclick="bibleQueryHomepage()"
+              src="img/quit-sm-btn.jpg"
+              class="sm-btn"
+            />
           </div>
           <p>advertisment here</p>
         </div>
@@ -116,12 +124,12 @@
           <label for="Tagalog">Tagalog</label>
           <p id="reset-game"></p>
           <div id="settings-btns">
-            <a class="button" onclick="resetGame()">
-              <img src="img/reset-game-btn.jpg" class="sm-btn" />
-            </a>
-            <a href="index.html">
-              <img src="img/back-sm-btn.jpg" class="sm-btn" />
-            </a>
+              <img onclick="resetGame()" src="img/reset-game-btn.jpg" class="sm-btn button" />
+            <img
+              onclick="bibleQueryHomepage()"
+              src="img/back-sm-btn.jpg"
+              class="sm-btn"
+            />
           </div>
         </div>
         <!-- Upon clicking on RULES -->
@@ -149,9 +157,11 @@
             <img id="rules-table-img" src="img/levels-stars.jpg" />
           </div>
           <div class="centered-sm-btns">
-            <a href="index.html">
-              <img src="img/back-sm-btn.jpg" class="sm-btn" />
-            </a>
+            <img
+              onclick="bibleQueryHomepage()"
+              src="img/back-sm-btn.jpg"
+              class="sm-btn"
+            />
           </div>
         </div>
         <!-- Upon clicking on ABOUT -->
@@ -237,9 +247,11 @@
             page, that's also on my blog.
           </p>
           <div class="centered-sm-btns">
-            <a href="index.html">
-              <img src="img/back-sm-btn.jpg" class="sm-btn" />
-            </a>
+            <img
+              onclick="bibleQueryHomepage()"
+              src="img/back-sm-btn.jpg"
+              class="sm-btn"
+            />
           </div>
         </div>
       </div>

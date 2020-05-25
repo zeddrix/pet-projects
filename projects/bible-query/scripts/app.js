@@ -1,5 +1,8 @@
 const homepage = document.getElementById("homepage")
 const levelsBlock = document.getElementById("levels-block");
+const settingsBlock = document.getElementById("settings-block");
+const rulesBlock = document.getElementById("rules-block")
+const aboutBlock = document.getElementById("about-block")
 
 const quiz = document.getElementById("quiz");
 const question = document.getElementById("question");
@@ -23,6 +26,10 @@ let score = 0;
 // PLAY BUTTON
 const playButton = () => {
   homepage.style.display = "none";
+  quiz.style.display = "none"
+  rulesBlock.style.display = "none";
+  aboutBlock.style.display = "none";
+  settingsBlock.style.display = "none";
   levelsBlock.style.display = "block";
 };
 // levels
@@ -35,22 +42,58 @@ const playLevel = () => {
   Timer = setInterval(renderCounter, 1000); // 1000ms = 1s
 };
 
-const settingsButton = () => {
-  const settingsBlock = document.getElementById("settings-block");
+const settingsLongButton = () => {
   homepage.style.display = "none";
+  quiz.style.display = "none"
+  rulesBlock.style.display = "none";
+  aboutBlock.style.display = "none";
+  levelsBlock.style.display = "none";
   settingsBlock.style.display = "block";
 };
 
 const rulesButton = () => {
-  const rulesBlock = document.getElementById("rules-block")
   homepage.style.display = "none";
+  quiz.style.display = "none"
+  aboutBlock.style.display = "none";
+  settingsBlock.style.display = "none";
+  levelsBlock.style.display = "none";
   rulesBlock.style.display = "block";
 }
 
 const aboutButton = () => {
-  const aboutBlock = document.getElementById("about-block")
   homepage.style.display = "none";
+  quiz.style.display = "none"
+  rulesBlock.style.display = "none";
+  settingsBlock.style.display = "none";
+  levelsBlock.style.display = "none";
   aboutBlock.style.display = "block";
+}
+
+const bibleQueryHomepage = () => {
+  quiz.style.display = "none"
+  rulesBlock.style.display = "none";
+  settingsBlock.style.display = "none";
+  levelsBlock.style.display = "none";
+  aboutBlock.style.display = "none";
+  homepage.style.display = "block"
+}
+
+const settingsSmallButton = () => {
+  homepage.style.display = "none"
+  quiz.style.display = "none"
+  rulesBlock.style.display = "none";
+  levelsBlock.style.display = "none";
+  aboutBlock.style.display = "none";
+  settingsBlock.style.display = "block";
+}
+
+const backQuizButton = () => {
+  homepage.style.display = "none"
+  quiz.style.display = "none"
+  rulesBlock.style.display = "none";
+  aboutBlock.style.display = "none";
+  settingsBlock.style.display = "none";
+  levelsBlock.style.display = "block";
 }
 
 const lastQuestion = questionsAboutMen.length - 1;
