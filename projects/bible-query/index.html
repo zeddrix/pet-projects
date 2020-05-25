@@ -11,25 +11,25 @@
           <h1 id="bible-query-title">BIBLE QUERY</h1>
           <div id="long-btn-container">
             <img
-              onclick="playButton()"
+              onclick="levelsPage()"
               id="play-btn"
               class="long-btn"
               src="img/play-btn.jpg"
             />
             <img
-              onclick="settingsLongButton()"
+              onclick="settingsPage()"
               id="settings-btn"
               class="long-btn"
               src="img/settings-btn.jpg"
             />
             <img
-              onclick="rulesButton()"
+              onclick="rulesPage()"
               id="rules-btn"
               class="long-btn"
               src="img/rules-btn.jpg"
             />
             <img
-              onclick="aboutButton()"
+              onclick="aboutPage()"
               id="about-btn"
               class="long-btn"
               src="img/about-btn.jpg"
@@ -54,7 +54,7 @@
         <div id="levels-block" style="display: none;">
           <h1>SELECT A LEVEL</h1>
           <h3>Stars: 0</h3>
-          <div onclick="playLevel()" id="level-number">1</div>
+          <div onclick="queryPage()" id="level-number">1</div>
           <div class="centered-sm-btns">
             <img
               onclick="bibleQueryHomepage()"
@@ -62,7 +62,7 @@
               class="sm-btn"
             />
             <img
-              onclick="settingsSmallButton()"
+              onclick="settingsPage()"
               src="img/settings-sm-btn.jpg"
               class="sm-btn"
             />
@@ -70,7 +70,7 @@
         </div>
 
         <!-- Upon selecting a level -->
-        <div id="quiz" style="display: none;">
+        <div id="query" style="display: none;">
           <div id="level-theme">level theme here</div>
           <div id="question"></div>
           <div id="timer">
@@ -84,9 +84,9 @@
             <div class="choice" id="D" onclick="checkAnswer('D')"></div>
           </div>
           <div id="progress"></div>
-          <div class="quiz-menu-btns">
+          <div class="query-menu-btns">
             <img
-              onclick="backQuizButton()"
+              onclick="levelsPage()"
               src="img/back-sm-btn.jpg"
               class="sm-btn"
             />
@@ -124,7 +124,11 @@
           <label for="Tagalog">Tagalog</label>
           <p id="reset-game"></p>
           <div id="settings-btns">
-              <img onclick="resetGame()" src="img/reset-game-btn.jpg" class="sm-btn button" />
+            <img
+              onclick="resetGame()"
+              src="img/reset-game-btn.jpg"
+              class="sm-btn button"
+            />
             <img
               onclick="bibleQueryHomepage()"
               src="img/back-sm-btn.jpg"
@@ -167,7 +171,7 @@
         <!-- Upon clicking on ABOUT -->
         <div id="about-block" style="display: none;">
           <h1>ABOUT</h1>
-          <h2>About Bible Quiz</h2>
+          <h2>About Bible query</h2>
           <p>
             This is just a simple Bible game that we can play with our friends
             and families. If you're one of Jehovah's Witnesses, you can play
@@ -283,6 +287,6 @@
       document.getElementById("quit-game").innerHTML = txt;
     }
   </script>
-  <script src="scripts/quiz.js"></script>
+  <script src="scripts/query.js"></script>
   <script src="scripts/app.js"></script>
 </html>

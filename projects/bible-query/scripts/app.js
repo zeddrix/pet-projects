@@ -1,10 +1,10 @@
-const homepage = document.getElementById("homepage")
+const homepage = document.getElementById("homepage");
 const levelsBlock = document.getElementById("levels-block");
 const settingsBlock = document.getElementById("settings-block");
-const rulesBlock = document.getElementById("rules-block")
-const aboutBlock = document.getElementById("about-block")
+const rulesBlock = document.getElementById("rules-block");
+const aboutBlock = document.getElementById("about-block");
 
-const quiz = document.getElementById("quiz");
+const query = document.getElementById("query");
 const question = document.getElementById("question");
 const choiceA = document.getElementById("A");
 const choiceB = document.getElementById("B");
@@ -24,77 +24,59 @@ let Timer;
 let score = 0;
 
 // PLAY BUTTON
-const playButton = () => {
+const levelsPage = () => {
   homepage.style.display = "none";
-  quiz.style.display = "none"
+  query.style.display = "none";
   rulesBlock.style.display = "none";
   aboutBlock.style.display = "none";
   settingsBlock.style.display = "none";
   levelsBlock.style.display = "block";
 };
 // levels
-const playLevel = () => {
+const queryPage = () => {
   levelsBlock.style.display = "none";
   renderQuestion();
-  quiz.style.display = "block";
+  query.style.display = "block";
   renderProgress();
   renderCounter();
   Timer = setInterval(renderCounter, 1000); // 1000ms = 1s
 };
 
-const settingsLongButton = () => {
+const settingsPage = () => {
   homepage.style.display = "none";
-  quiz.style.display = "none"
+  query.style.display = "none";
   rulesBlock.style.display = "none";
   aboutBlock.style.display = "none";
   levelsBlock.style.display = "none";
   settingsBlock.style.display = "block";
 };
 
-const rulesButton = () => {
+const rulesPage = () => {
   homepage.style.display = "none";
-  quiz.style.display = "none"
+  query.style.display = "none";
   aboutBlock.style.display = "none";
   settingsBlock.style.display = "none";
   levelsBlock.style.display = "none";
   rulesBlock.style.display = "block";
-}
+};
 
-const aboutButton = () => {
+const aboutPage = () => {
   homepage.style.display = "none";
-  quiz.style.display = "none"
+  query.style.display = "none";
   rulesBlock.style.display = "none";
   settingsBlock.style.display = "none";
   levelsBlock.style.display = "none";
   aboutBlock.style.display = "block";
-}
+};
 
 const bibleQueryHomepage = () => {
-  quiz.style.display = "none"
+  query.style.display = "none";
   rulesBlock.style.display = "none";
   settingsBlock.style.display = "none";
   levelsBlock.style.display = "none";
   aboutBlock.style.display = "none";
-  homepage.style.display = "block"
-}
-
-const settingsSmallButton = () => {
-  homepage.style.display = "none"
-  quiz.style.display = "none"
-  rulesBlock.style.display = "none";
-  levelsBlock.style.display = "none";
-  aboutBlock.style.display = "none";
-  settingsBlock.style.display = "block";
-}
-
-const backQuizButton = () => {
-  homepage.style.display = "none"
-  quiz.style.display = "none"
-  rulesBlock.style.display = "none";
-  aboutBlock.style.display = "none";
-  settingsBlock.style.display = "none";
-  levelsBlock.style.display = "block";
-}
+  homepage.style.display = "block";
+};
 
 const lastQuestion = questionsAboutMen.length - 1;
 const renderQuestion = () => {
@@ -126,7 +108,7 @@ const renderCounter = () => {
       currentQuestion++;
       renderQuestion();
     } else {
-      // end the quiz and show the score
+      // end the query and show the score
       clearInterval(Timer);
       scoreRender();
     }
@@ -147,7 +129,7 @@ const checkAnswer = (answer) => {
     currentQuestion++;
     renderQuestion();
   } else {
-    // end the quiz and show the score
+    // end the query and show the score
     clearInterval(Timer);
     scoreRender();
   }
