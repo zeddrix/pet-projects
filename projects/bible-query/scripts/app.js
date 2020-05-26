@@ -13,7 +13,11 @@ const choiceD = document.getElementById("D");
 const counter = document.getElementById("counter");
 const timeGauge = document.getElementById("timeGauge");
 const progress = document.getElementById("progress");
-const scoreDiv = document.getElementById("scoreContainer");
+
+const finalScoreContainer = document.getElementById("final-score-container");
+const finalScore = document.getElementById("final-score");
+const finalScoreImg = document.getElementById("final-score-img");
+const finalScorePercentage = document.getElementById("final-score-percentage");
 
 let currentQuestion = 0;
 let count = 0;
@@ -110,7 +114,7 @@ const renderCounter = () => {
     } else {
       // end the query and show the score
       clearInterval(Timer);
-      scoreRender();
+      finalScoreRender();
     }
   }
 };
@@ -131,7 +135,7 @@ const checkAnswer = (answer) => {
   } else {
     // end the query and show the score
     clearInterval(Timer);
-    scoreRender();
+    finalScoreRender();
   }
 };
 
@@ -143,26 +147,30 @@ const answerIsWrong = () => {
   document.getElementById(currentQuestion).style.backgroundColor = "red";
 };
 
-const scoreRender = () => {
-  scoreDiv.style.display = "block";
+const finalScoreRender = () => {
+  homepage.style.display = "none";
+  query.style.display = "none";
+  rulesBlock.style.display = "none";
+  aboutBlock.style.display = "none";
+  settingsBlock.style.display = "none";
+  levelsBlock.style.display = "none";
+  finalScoreContainer.style.display = "block";
 
   // calculate the amount of question percent answered by the user
   const scorePercent = Math.round((100 * score) / questionsAboutMen.length);
 
   // choose the image based on the scorePerCent
   let img =
-    scorePercent >= 80
-      ? "../img/5.png"
-      : scorePercent >= 60
-      ? "../img/4.png"
-      : scorePercent >= 40
-      ? "../img/3.png"
-      : scorePercent >= 20
-      ? "../img/2.png"
-      : "../img/1.png";
+    scorePercent >= 99
+      ? "../img/3-star.png"
+      : scorePercent >= 66
+      ? "../img/2-star.png"
+      : scorePercent >= 33
+      ? "../img/1-star.png"
+      : "../img/0-star.png";
 
-  scoreDiv.innerHTML = "<img src=" + img + ">";
-  scoreDiv.innerHTML += "<p>" + scorePercent + "%</p>";
+  finalScoreImg.innerHTML = "<img src=" + img + ">";
+  finalScorePercentage.innerHTML += "<p>" + scorePercent + "%</p>";
 };
 
 // for (let c = 0; c < arrayLength; c++) {

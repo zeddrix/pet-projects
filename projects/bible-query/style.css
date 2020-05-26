@@ -167,29 +167,8 @@ a {
   display: inline-block;
   border-radius: 40%;
 }
-
-#scoreContainer {
-  margin: auto;
-  background-color: grey;
-  opacity: 0.8;
-  height: 730px;
-  width: 400px;
-  border-radius: 5px;
-  display: none;
-}
-
-#scoreContainer img {
-  position: absolute;
-  top: 800px;
-  left: 170px;
-}
-
-#scoreContainer p {
-  position: absolute;
-  font-size: 1.5em;
-  font-weight: bold;
-  top: 850px;
-  left: 170px;
+#final-score {
+  text-align: center;
 }
 
 /* media-queries */
@@ -284,6 +263,19 @@ a {
     font-size: 2em;
     padding: 0.5em;
   }
+  #final-score {
+    padding: 45em 0em 33em;
+  }
+  #final-score-percentage {
+    font-size: 3em;
+    padding: 0em;
+  }
+  #final-score-img {
+    display: block;
+  }
+  img {
+    width: 90%;
+  }
 }
 
 /* TABLET */
@@ -377,4 +369,7 @@ a {
     font-size: 1em;
     padding: 0.8em;
   }
+  #final-score {
+    padding: 20.3em 0em;
+  } 
 }
