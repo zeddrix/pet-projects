@@ -16,7 +16,7 @@ const progress = document.getElementById("progress");
 
 const finalScoreContainer = document.getElementById("final-score-container");
 const finalScore = document.getElementById("final-score");
-const finalScoreImg = document.getElementById("final-score-img");
+const finalScoreImgDiv = document.getElementById("final-score-img-div");
 const finalScorePercentage = document.getElementById("final-score-percentage");
 
 let currentQuestion = 0;
@@ -169,7 +169,7 @@ const finalScoreRender = () => {
       ? "../img/1-star.png"
       : "../img/0-star.png";
 
-  finalScoreImg.innerHTML = "<img src=" + img + ">";
+  finalScoreImgDiv.innerHTML = "<img id='final-score-img' src=" + img + ">";
   finalScorePercentage.innerHTML += "<p>" + scorePercent + "%</p>";
 };
 
