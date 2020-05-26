@@ -19,6 +19,8 @@ const finalScore = document.getElementById("final-score");
 const finalScoreImgDiv = document.getElementById("final-score-img-div");
 const finalScorePercentage = document.getElementById("final-score-percentage");
 
+const queryMenuBtns = document.getElementById("query-menu-btns");
+
 let currentQuestion = 0;
 let count = 0;
 const questionTime = 10; // 10s
@@ -27,59 +29,95 @@ const gaugeUnit = gaugeWidth / questionTime;
 let Timer;
 let score = 0;
 
-// PLAY BUTTON
-const levelsPage = () => {
-  homepage.style.display = "none";
+const bibleQueryHomepage = () => {
+  homepage.style.display = "block";
   query.style.display = "none";
+  levelsBlock.style.display = "none";
+  queryMenuBtns.style.display = "none";
+  finalScoreContainer.style.display = "none";
+  settingsBlock.style.display = "none";
   rulesBlock.style.display = "none";
   aboutBlock.style.display = "none";
-  settingsBlock.style.display = "none";
+};
+
+// PLAY button
+const levelsPage = () => {
+  homepage.style.display = "none";
   levelsBlock.style.display = "block";
+  query.style.display = "none";
+  queryMenuBtns.style.display = "none";
+  finalScoreContainer.style.display = "none";
+  settingsBlock.style.display = "none";
+  rulesBlock.style.display = "none";
+  aboutBlock.style.display = "none";
 };
 // levels
 const queryPage = () => {
   levelsBlock.style.display = "none";
-  renderQuestion();
   query.style.display = "block";
+  queryMenuBtns.style.display = "block";
+  finalScoreContainer.style.display = "none";
+
+  renderQuestion();
   renderProgress();
   renderCounter();
   Timer = setInterval(renderCounter, 1000); // 1000ms = 1s
 };
 
-const settingsPage = () => {
+const finalScoreRender = () => {
   homepage.style.display = "none";
+  levelsBlock.style.display = "none";
   query.style.display = "none";
+  finalScoreContainer.style.display = "block";
+  settingsBlock.style.display = "none";
   rulesBlock.style.display = "none";
   aboutBlock.style.display = "none";
+
+  // calculate the amount of question percent answered by the user
+  const scorePercent = Math.round((100 * score) / questionsAboutMen.length);
+
+  // choose the image based on the scorePerCent
+  let img =
+    scorePercent >= 99
+      ? "../img/3-star.png"
+      : scorePercent >= 66
+      ? "../img/2-star.png"
+      : scorePercent >= 33
+      ? "../img/1-star.png"
+      : "../img/0-star.png";
+
+  finalScoreImgDiv.innerHTML = "<img id='final-score-img' src=" + img + ">";
+  finalScorePercentage.innerHTML += "<p>" + scorePercent + "%</p>";
+};
+
+const settingsPage = () => {
+  homepage.style.display = "none";
   levelsBlock.style.display = "none";
+  query.style.display = "none";
+  queryMenuBtns.style.display = "none";
   settingsBlock.style.display = "block";
+  rulesBlock.style.display = "none";
+  aboutBlock.style.display = "none";
 };
 
 const rulesPage = () => {
   homepage.style.display = "none";
   query.style.display = "none";
-  aboutBlock.style.display = "none";
-  settingsBlock.style.display = "none";
   levelsBlock.style.display = "none";
+  queryMenuBtns.style.display = "none";
+  settingsBlock.style.display = "none";
   rulesBlock.style.display = "block";
+  aboutBlock.style.display = "none";
 };
 
 const aboutPage = () => {
   homepage.style.display = "none";
   query.style.display = "none";
-  rulesBlock.style.display = "none";
-  settingsBlock.style.display = "none";
   levelsBlock.style.display = "none";
+  queryMenuBtns.style.display = "none";
+  settingsBlock.style.display = "none";
+  rulesBlock.style.display = "none";
   aboutBlock.style.display = "block";
-};
-
-const bibleQueryHomepage = () => {
-  query.style.display = "none";
-  rulesBlock.style.display = "none";
-  settingsBlock.style.display = "none";
-  levelsBlock.style.display = "none";
-  aboutBlock.style.display = "none";
-  homepage.style.display = "block";
 };
 
 const lastQuestion = questionsAboutMen.length - 1;
@@ -147,31 +185,6 @@ const answerIsWrong = () => {
   document.getElementById(currentQuestion).style.backgroundColor = "red";
 };
 
-const finalScoreRender = () => {
-  homepage.style.display = "none";
-  query.style.display = "none";
-  rulesBlock.style.display = "none";
-  aboutBlock.style.display = "none";
-  settingsBlock.style.display = "none";
-  levelsBlock.style.display = "none";
-  finalScoreContainer.style.display = "block";
-
-  // calculate the amount of question percent answered by the user
-  const scorePercent = Math.round((100 * score) / questionsAboutMen.length);
-
-  // choose the image based on the scorePerCent
-  let img =
-    scorePercent >= 99
-      ? "../img/3-star.png"
-      : scorePercent >= 66
-      ? "../img/2-star.png"
-      : scorePercent >= 33
-      ? "../img/1-star.png"
-      : "../img/0-star.png";
-
-  finalScoreImgDiv.innerHTML = "<img id='final-score-img' src=" + img + ">";
-  finalScorePercentage.innerHTML += "<p>" + scorePercent + "%</p>";
-};
 
 // for (let c = 0; c < arrayLength; c++) {
 // const button = document.createElement("button");

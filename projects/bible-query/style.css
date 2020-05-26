@@ -254,10 +254,11 @@ a {
     margin-left: 1px;
     margin-right: 1px;
   }
-  .query-menu-btns {
-    /* padding-top: 20em; */
-    padding-bottom: 0em;
+  #query-menu-btns {
+    padding-top: 0.5em;
+    padding-bottom: 8em;
     width: 100%;
+    text-align: center;
   }
   #ads {
     font-size: 2em;
@@ -331,11 +332,6 @@ a {
   #level-theme {
     padding: 0.7em;
   }
-  .query-menu-btns {
-    padding-top: 1em;
-    padding-bottom: 0em;
-    width: 100%;
-  }
   #question {
     font-size: 1.2em;
   }
@@ -358,9 +354,11 @@ a {
     margin-left: 1px;
     margin-right: 1px;
   }
-  .query-menu-btns {
-    padding: 0em;
+  #query-menu-btns {
+    padding-top: 0.5em;
+    padding-bottom: 3.5em;
     width: 100%;
+    text-align: center;
   }
   #ads {
     font-size: 1em;
