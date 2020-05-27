@@ -16,8 +16,10 @@ const progress = document.getElementById("progress");
 
 const finalScoreContainer = document.getElementById("final-score-container");
 const finalScore = document.getElementById("final-score");
+const scorePhrase1Div = document.getElementById("score-phrase-1-div");
 const finalScoreImgDiv = document.getElementById("final-score-img-div");
-const finalScorePercentage = document.getElementById("final-score-percentage");
+const finalScorePercentageDiv = document.getElementById("final-score-percentage-div");
+const scorePhrase2Div = document.getElementById("score-phrase-2-div");
 const finalScoreMenuBtns = document.getElementById("final-score-menu-btns");
 
 const queryMenuBtns = document.getElementById("query-menu-btns");
@@ -89,14 +91,34 @@ const finalScoreRender = () => {
   let img =
     scorePercent >= 100
       ? "img/3-star.jpg"
-      : scorePercent >= 66
+      : scorePercent >= 60
       ? "img/2-star.jpg"
-      : scorePercent >= 33
+      : scorePercent >= 30
       ? "img/1-star.jpg"
       : "img/0-star.jpg";
 
+  let sp1d =
+    scorePercent >= 100
+      ? "Perfect!"
+      : scorePercent >= 60
+      ? "Good!"
+      : scorePercent >= 30
+      ? "How sad!"
+      : "How awful!";
+
+  let sp2d =
+    scorePercent >= 100
+      ? "Nicely done!"
+      : scorePercent >= 60
+      ? "Almost had it!"
+      : scorePercent >= 30
+      ? "Try to nail this level next time!"
+      : "Don't give up!";
+
+  scorePhrase1Div.innerHTML = "<h1 id='score-phrase-1'>" + sp1d + "</h1>";
   finalScoreImgDiv.innerHTML = "<img id='final-score-img' src=" + img + ">";
-  finalScorePercentage.innerHTML += "<p>" + scorePercent + "%</p>";
+  finalScorePercentageDiv.innerHTML += "<p id='final-score-percentage'>" + scorePercent + "%</p>";
+  scorePhrase2Div.innerHTML = "<p id='score-phrase-2'>" + sp2d + "</p>";
 };
 
 const settingsPage = () => {
@@ -125,9 +147,11 @@ const rulesPage = () => {
 
 const aboutPage = () => {
   homepage.style.display = "none";
-  query.style.display = "none";
   levelsBlock.style.display = "none";
-
+  query.style.display = "none";
+  queryMenuBtns.style.display = "none";
+  finalScoreContainer.style.display = "none";
+  finalScoreMenuBtns.style.display = "none";
   settingsBlock.style.display = "none";
   rulesBlock.style.display = "none";
   aboutBlock.style.display = "block";
