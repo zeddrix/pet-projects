@@ -18,6 +18,7 @@ const finalScoreContainer = document.getElementById("final-score-container");
 const finalScore = document.getElementById("final-score");
 const finalScoreImgDiv = document.getElementById("final-score-img-div");
 const finalScorePercentage = document.getElementById("final-score-percentage");
+const finalScoreMenuBtns = document.getElementById("final-score-menu-btns");
 
 const queryMenuBtns = document.getElementById("query-menu-btns");
 
@@ -31,10 +32,11 @@ let score = 0;
 
 const bibleQueryHomepage = () => {
   homepage.style.display = "block";
-  query.style.display = "none";
   levelsBlock.style.display = "none";
+  query.style.display = "none";
   queryMenuBtns.style.display = "none";
   finalScoreContainer.style.display = "none";
+  finalScoreMenuBtns.style.display = "none";
   settingsBlock.style.display = "none";
   rulesBlock.style.display = "none";
   aboutBlock.style.display = "none";
@@ -47,17 +49,22 @@ const levelsPage = () => {
   query.style.display = "none";
   queryMenuBtns.style.display = "none";
   finalScoreContainer.style.display = "none";
+  finalScoreMenuBtns.style.display = "none";
   settingsBlock.style.display = "none";
   rulesBlock.style.display = "none";
   aboutBlock.style.display = "none";
 };
 // levels
 const queryPage = () => {
+  homepage.style.display = "none";
   levelsBlock.style.display = "none";
   query.style.display = "block";
   queryMenuBtns.style.display = "block";
   finalScoreContainer.style.display = "none";
-
+  finalScoreMenuBtns.style.display = "none";
+  settingsBlock.style.display = "none";
+  rulesBlock.style.display = "none";
+  aboutBlock.style.display = "none";
   renderQuestion();
   renderProgress();
   renderCounter();
@@ -68,7 +75,9 @@ const finalScoreRender = () => {
   homepage.style.display = "none";
   levelsBlock.style.display = "none";
   query.style.display = "none";
+  queryMenuBtns.style.display = "none";
   finalScoreContainer.style.display = "block";
+  finalScoreMenuBtns.style.display = "block";
   settingsBlock.style.display = "none";
   rulesBlock.style.display = "none";
   aboutBlock.style.display = "none";
@@ -95,6 +104,8 @@ const settingsPage = () => {
   levelsBlock.style.display = "none";
   query.style.display = "none";
   queryMenuBtns.style.display = "none";
+  finalScoreContainer.style.display = "none";
+  finalScoreMenuBtns.style.display = "none";
   settingsBlock.style.display = "block";
   rulesBlock.style.display = "none";
   aboutBlock.style.display = "none";
@@ -102,9 +113,11 @@ const settingsPage = () => {
 
 const rulesPage = () => {
   homepage.style.display = "none";
-  query.style.display = "none";
   levelsBlock.style.display = "none";
+  query.style.display = "none";
   queryMenuBtns.style.display = "none";
+  finalScoreContainer.style.display = "none";
+  finalScoreMenuBtns.style.display = "none";
   settingsBlock.style.display = "none";
   rulesBlock.style.display = "block";
   aboutBlock.style.display = "none";
@@ -114,7 +127,7 @@ const aboutPage = () => {
   homepage.style.display = "none";
   query.style.display = "none";
   levelsBlock.style.display = "none";
-  queryMenuBtns.style.display = "none";
+
   settingsBlock.style.display = "none";
   rulesBlock.style.display = "none";
   aboutBlock.style.display = "block";
@@ -184,7 +197,6 @@ const answerIsCorrect = () => {
 const answerIsWrong = () => {
   document.getElementById(currentQuestion).style.backgroundColor = "red";
 };
-
 
 // for (let c = 0; c < arrayLength; c++) {
 // const button = document.createElement("button");
