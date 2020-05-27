@@ -187,7 +187,7 @@ a {
 }
 
 /* -------------------------OPPO A71------------------------- */
-@media screen and (min-width: 275px) and (device-height: 550px) {
+@media screen and (min-width: 275px) and (min-height: 550px) {
   #bible-query-title {
     font-size: 6.5em;
     margin: 0.2em 0em;
