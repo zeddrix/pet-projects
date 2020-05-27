@@ -79,12 +79,12 @@ const finalScoreRender = () => {
   // choose the image based on the scorePerCent
   let img =
     scorePercent >= 99
-      ? "../img/3-star.png"
+      ? "../img/3-star.jpg"
       : scorePercent >= 66
-      ? "../img/2-star.png"
+      ? "../img/2-star.jpg"
       : scorePercent >= 33
-      ? "../img/1-star.png"
-      : "../img/0-star.png";
+      ? "../img/1-star.jpg"
+      : "../img/0-star.jpg";
 
   finalScoreImgDiv.innerHTML = "<img id='final-score-img' src=" + img + ">";
   finalScorePercentage.innerHTML += "<p>" + scorePercent + "%</p>";
