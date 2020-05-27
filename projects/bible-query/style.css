@@ -11,6 +11,14 @@ body {
   margin: 0;
 }
 
+.long-btn:hover,
+.button:hover,
+.choice,
+.sm-btn,
+#level {
+  cursor: pointer;
+}
+
 #bible-query-title {
   text-align: center;
 }
@@ -29,6 +37,14 @@ a {
   color: rgb(81, 220, 245);
 }
 
+.bk-img {
+  background: url(img/bk-img.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+.outer-container {
+  padding: 0;
+  margin: 0;
+}
 .container {
   padding: 0em;
   border-top: 0;
@@ -40,22 +56,11 @@ a {
   overflow: auto;
 }
 
-.outer-container {
-  padding: 0;
-  margin: 0;
-}
-
-.bk-img {
-  background: url(img/bk-img.jpg) no-repeat center center fixed;
-  background-size: cover;
-}
-
 #long-btn-container {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-
 .long-btn {
   max-width: 100%;
   display: flex;
@@ -65,7 +70,6 @@ a {
   text-decoration: none;
   outline: none;
 }
-
 .sm-btn {
   margin: 10px;
   width: 25%;
@@ -73,16 +77,6 @@ a {
   text-decoration: none;
   outline: none;
 }
-
-#rules-table-container {
-  text-align: center;
-}
-
-#rules-table-img {
-  padding: 1em;
-  width: 90%;
-}
-
 .centered-sm-btns {
   text-align: center;
 }
@@ -91,18 +85,12 @@ a {
 #settings-btns {
   text-align: center;
 }
-
-.long-btn:hover,
-.button:hover,
-.choice,
-.sm-btn,
-#level {
-  cursor: pointer;
-}
-
-#query {
-  display: flex;
+#rules-table-container {
   text-align: center;
+}
+#rules-table-img {
+  padding: 1em;
+  width: 90%;
 }
 
 #level-number {
@@ -117,6 +105,18 @@ a {
   color: lightseagreen;
 }
 
+#query {
+  display: flex;
+  text-align: center;
+}
+.question-container {
+  text-align: center;
+  border: 1px solid grey;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 #timer {
   text-align: center;
 }
@@ -130,20 +130,9 @@ a {
   background-color: white;
   margin: 0.1em;
 }
-
-.question-container {
-  text-align: center;
-  border: 1px solid grey;
-  border-radius: 5px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
 #choices-container {
   padding: 0;
 }
-
 .choice {
   text-align: center;
   display: inline-block;
@@ -154,7 +143,6 @@ a {
   border: 2px solid grey;
   font-weight: bold;
 }
-
 #progress {
   width: 100%;
   text-align: center;
@@ -168,7 +156,8 @@ a {
   text-align: center;
 }
 
-/* media-queries */
+/* ------------------------------------------------MEDIA QUERIES------------------------------------------------ */
+
 /* PHONE */
 /* ----------- iPhone 4 and 4S ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
@@ -185,17 +174,8 @@ a {
 /* ----------- iPhone X ----------- */
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
 }
-
 /* -------------------------OPPO A71------------------------- */
-@media screen and (min-width: 275px) and (min-height: 550px) {
-  #bible-query-title {
-    font-size: 6.5em;
-    margin: 0.2em 0em;
-  }
-  #long-btn-container {
-    width: 80%;
-    margin-bottom: 11em;
-  }
+@media screen and (min-width: 275px) and (min-height: 480px) {
   h1 {
     font-size: 5em;
   }
@@ -219,20 +199,13 @@ a {
   label {
     font-size: 4em;
   }
-  /* settings */
-  #learn-more {
-    font-size: 3em;
-    padding: 0em;
-    margin: 0.5em;
+  #bible-query-title {
+    font-size: 6.3em;
+    margin: 0.2em 0em;
   }
-  #language-header {
-    font-size: 4em;
-    padding-bottom: 0em;
-    margin-bottom: 0em;
-  }
-  #settings-btns {
-    padding-top: 36em;
-    padding-bottom: 8em;
+  #long-btn-container {
+    width: 66%;
+    margin-bottom: 11em;
   }
   #stars {
     font-size: 3em;
@@ -243,7 +216,7 @@ a {
     margin: 1em;
   }
   #levels-sm-btns {
-    padding-top: 80em;
+    padding-top: 65em;
     padding-bottom: 9em;
   }
   /* query */
@@ -255,12 +228,12 @@ a {
     font-size: 3.5em;
   }
   .question-container {
-    height: 32em;
+    height: 30em;
     margin: 0em 2em;
   }
   .choice {
-    font-size: 3em;
-    width: 13em;
+    font-size: 2.2em;
+    width: 20em;
     padding: 1.2em 3em;
     margin: 0.3em 0em;
   }
@@ -284,7 +257,7 @@ a {
     padding: 0.5em;
   }
   #final-score {
-    padding: 49em 0em 17em;
+    padding: 43em 0em 16em;
   }
   #final-score-percentage {
     font-size: 3em;
@@ -294,23 +267,30 @@ a {
     width: 90%;
   }
   #final-score-menu-btns {
-    padding-top: 10em;
-    padding-bottom: 7em;
+    padding-top: 1em;
+    padding-bottom: 8em;
     width: 100%;
     text-align: center;
+  }
+  /* settings */
+  #learn-more {
+    font-size: 3em;
+    padding: 0em;
+    margin: 0.5em;
+  }
+  #language-header {
+    font-size: 4em;
+    padding-bottom: 0em;
+    margin-bottom: 0em;
+  }
+  #settings-btns {
+    padding-top: 21em;
+    padding-bottom: 8em;
   }
 }
 
 /* ----------- Galaxy S4, S5 and Note 3 ----------- */
 @media screen and (min-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
-  #bible-query-title {
-    font-size: 6.5em;
-    margin: 0.2em 0em;
-  }
-  #long-btn-container {
-    width: 67%;
-    margin-bottom: 11em;
-  }
   h1 {
     font-size: 5em;
   }
@@ -334,6 +314,14 @@ a {
   label {
     font-size: 4em;
   }
+  #bible-query-title {
+    font-size: 6.5em;
+    margin: 0.2em 0em;
+  }
+  #long-btn-container {
+    width: 67%;
+    margin-bottom: 11em;
+  }
   #stars {
     font-size: 3em;
   }
@@ -344,21 +332,6 @@ a {
   }
   #levels-sm-btns {
     padding-top: 68em;
-    padding-bottom: 8em;
-  }
-  /* settings */
-  #learn-more {
-    font-size: 3em;
-    padding: 0em;
-    margin: 0.5em;
-  }
-  #language-header {
-    font-size: 4em;
-    padding-bottom: 0em;
-    margin-bottom: 0em;
-  }
-  #settings-btns {
-    padding-top: 22em;
     padding-bottom: 8em;
   }
   /* query */
@@ -394,10 +367,6 @@ a {
     width: 100%;
     text-align: center;
   }
-  #ads {
-    font-size: 2em;
-    padding: 0.5em;
-  }
   #final-score {
     padding: 45em 0em 17em;
   }
@@ -414,33 +383,35 @@ a {
     width: 100%;
     text-align: center;
   }
+  #ads {
+    font-size: 2em;
+    padding: 0.5em;
+  }
+  /* settings */
+  #learn-more {
+    font-size: 3em;
+    padding: 0em;
+    margin: 0.5em;
+  }
+  #language-header {
+    font-size: 4em;
+    padding-bottom: 0em;
+    margin-bottom: 0em;
+  }
+  #settings-btns {
+    padding-top: 22em;
+    padding-bottom: 8em;
+  }
 }
 
 /* TABLET */
 /* ----------- iPad 1, 2, Mini and Air ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
-}
-/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
 }
 
 /* DESKTOP */
 /* ---------------1600px---------------- */
 @media screen and (min-device-width: 1600px) {
-  .outer-container {
-    padding: 0 37em;
-  }
-  .long-btn {
-    padding: 0.3em 0;
-  }
-  #bible-query-title {
-    font-size: 2.8em;
-    margin: 0.2em 0em;
-  }
-  #long-btn-container {
-    width: 74%;
-    margin-bottom: 3.1em;
-  }
   h1 {
     font-size: 2.3em;
   }
@@ -462,14 +433,19 @@ a {
   label {
     font-size: 1.5em;
   }
-  #language-header {
-    font-size: 2em;
-    padding-bottom: 0.4em;
-    margin-bottom: 0em;
+  .outer-container {
+    padding: 0 37em;
   }
-  #settings-btns {
-    padding-top: 12em;
-    padding-bottom: 2em;
+  .long-btn {
+    padding: 0.3em 0;
+  }
+  #bible-query-title {
+    font-size: 2.8em;
+    margin: 0.2em 0em;
+  }
+  #long-btn-container {
+    width: 74%;
+    margin-bottom: 3.1em;
   }
   /* query */
   #level-theme {
@@ -503,10 +479,6 @@ a {
     width: 100%;
     text-align: center;
   }
-  #ads {
-    font-size: 1em;
-    padding: 0.8em;
-  }
   #final-score {
     padding: 20.3em 0em 9em;
   }
@@ -518,5 +490,19 @@ a {
     padding-bottom: 2.5em;
     width: 100%;
     text-align: center;
+  }
+  #ads {
+    font-size: 1em;
+    padding: 0.8em;
+  }
+  /* settings */
+  #language-header {
+    font-size: 2em;
+    padding-bottom: 0.4em;
+    margin-bottom: 0em;
+  }
+  #settings-btns {
+    padding-top: 12em;
+    padding-bottom: 2em;
   }
 }
