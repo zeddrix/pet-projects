@@ -18,7 +18,9 @@ const progress = document.getElementById("progress");
 const finalScore = document.getElementById("final-score");
 const scorePhrase1Div = document.getElementById("score-phrase-1-div");
 const finalScoreImgDiv = document.getElementById("final-score-img-div");
-const finalScorePercentageDiv = document.getElementById("final-score-percentage-div");
+const finalScorePercentageDiv = document.getElementById(
+  "final-score-percentage-div"
+);
 const scorePhrase2Div = document.getElementById("score-phrase-2-div");
 const finalScoreMenuBtns = document.getElementById("final-score-menu-btns");
 
@@ -86,35 +88,42 @@ const finalScoreRender = () => {
 
   // choose the image based on the scorePerCent
   let img =
-    scorePercent >= 100
-      ? "img/3-star.jpg"
-      : scorePercent >= 60
-      ? "img/2-star.jpg"
-      : scorePercent >= 30
-      ? "img/1-star.jpg"
-      : "img/0-star.jpg";
+    scorePercent == 100
+      ? "img/three-stars.png"
+      : scorePercent >= 82
+      ? "img/two-and-a-half-stars.png"
+      : scorePercent >= 66
+      ? "img/two-star.png"
+      : scorePercent >= 50
+      ? "img/one-and-a-half-star.png"
+      : scorePercent >= 33
+      ? "img/one-star.png"
+      : scorePercent >= 16
+      ? "img/one-half-star.png"
+      : "img/zero-star.png";
 
   let sp1d =
-    scorePercent >= 100
+    scorePercent == 100 || scorePercent >= 82
       ? "Perfect!"
-      : scorePercent >= 60
+      : scorePercent >= 66 || scorePercent >= 50
       ? "Good!"
-      : scorePercent >= 30
+      : scorePercent >= 33 || scorePercent >= 16
       ? "How sad!"
       : "How awful!";
 
   let sp2d =
-    scorePercent >= 100
+    scorePercent == 100 || scorePercent >= 82
       ? "Nicely done!"
-      : scorePercent >= 60
+      : scorePercent >= 66 || scorePercent >= 50
       ? "Almost had it!"
-      : scorePercent >= 30
+      : scorePercent >= 33 || scorePercent >= 16
       ? "Try to nail this level next time!"
       : "Don't give up!";
 
   scorePhrase1Div.innerHTML = "<h1 id='score-phrase-1'>" + sp1d + "</h1>";
   finalScoreImgDiv.innerHTML = "<img id='final-score-img' src=" + img + ">";
-  finalScorePercentageDiv.innerHTML = "<p id='final-score-percentage'>" + scorePercent + "%</p>";
+  finalScorePercentageDiv.innerHTML =
+    "<p id='final-score-percentage'>" + scorePercent + "%</p>";
   scorePhrase2Div.innerHTML = "<p id='score-phrase-2'>" + sp2d + "</p>";
 };
 
