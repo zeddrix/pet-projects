@@ -90,35 +90,45 @@ const finalScoreRender = () => {
   let img =
     scorePercent == 100
       ? "img/three-stars.png"
-      : scorePercent >= 82
+      : scorePercent >= 90
       ? "img/two-and-a-half-stars.png"
-      : scorePercent >= 66
-      ? "img/two-star.png"
+      : scorePercent >= 70
+      ? "img/two-stars.png"
       : scorePercent >= 50
       ? "img/one-and-a-half-star.png"
-      : scorePercent >= 33
+      : scorePercent >= 30
       ? "img/one-star.png"
-      : scorePercent >= 16
+      : scorePercent >= 15
       ? "img/one-half-star.png"
       : "img/zero-star.png";
 
   let sp1d =
-    scorePercent == 100 || scorePercent >= 82
-      ? "Perfect!"
-      : scorePercent >= 66 || scorePercent >= 50
+    scorePercent == 100
+      ? "Well done!"
+      : scorePercent >= 90
+      ? "Excellent!"
+      : scorePercent >= 51
       ? "Good!"
-      : scorePercent >= 33 || scorePercent >= 16
+      : scorePercent >= 50
+      ? "Nice!"
+      : scorePercent >= 30
+      ? "Okay!"
+      : scorePercent >= 15
       ? "How sad!"
       : "How awful!";
 
   let sp2d =
-    scorePercent == 100 || scorePercent >= 82
-      ? "Nicely done!"
-      : scorePercent >= 66 || scorePercent >= 50
-      ? "Almost had it!"
-      : scorePercent >= 33 || scorePercent >= 16
+    scorePercent == 100
+      ? "You got it all right!"
+      : scorePercent >= 90
+      ? "You almost perfected this level!"
+      : scorePercent >= 51
+      ? "Not bad!"
+      : scorePercent == 50
+      ? "You got half the questions right!"
+      : scorePercent >= 30
       ? "Try to nail this level next time!"
-      : "Don't give up!";
+      : "Try to nail this level next time!";
 
   scorePhrase1Div.innerHTML = "<h1 id='score-phrase-1'>" + sp1d + "</h1>";
   finalScoreImgDiv.innerHTML = "<img id='final-score-img' src=" + img + ">";
