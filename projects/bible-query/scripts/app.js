@@ -14,7 +14,7 @@ const counter = document.getElementById("counter");
 const timeGauge = document.getElementById("timeGauge");
 const progress = document.getElementById("progress");
 
-const finalScoreContainer = document.getElementById("final-score-container");
+const finalScoreBlock = document.getElementById("final-score-block");
 const finalScore = document.getElementById("final-score");
 const scorePhrase1Div = document.getElementById("score-phrase-1-div");
 const finalScoreImgDiv = document.getElementById("final-score-img-div");
@@ -37,7 +37,7 @@ const bibleQueryHomepage = () => {
   levelsBlock.style.display = "none";
   query.style.display = "none";
   queryMenuBtns.style.display = "none";
-  finalScoreContainer.style.display = "none";
+  finalScoreBlock.style.display = "none";
   finalScoreMenuBtns.style.display = "none";
   settingsBlock.style.display = "none";
   rulesBlock.style.display = "none";
@@ -50,7 +50,7 @@ const levelsPage = () => {
   levelsBlock.style.display = "block";
   query.style.display = "none";
   queryMenuBtns.style.display = "none";
-  finalScoreContainer.style.display = "none";
+  finalScoreBlock.style.display = "none";
   finalScoreMenuBtns.style.display = "none";
   settingsBlock.style.display = "none";
   rulesBlock.style.display = "none";
@@ -62,7 +62,7 @@ const queryPage = () => {
   levelsBlock.style.display = "none";
   query.style.display = "block";
   queryMenuBtns.style.display = "block";
-  finalScoreContainer.style.display = "none";
+  finalScoreBlock.style.display = "none";
   finalScoreMenuBtns.style.display = "none";
   settingsBlock.style.display = "none";
   rulesBlock.style.display = "none";
@@ -78,7 +78,7 @@ const finalScoreRender = () => {
   levelsBlock.style.display = "none";
   query.style.display = "none";
   queryMenuBtns.style.display = "none";
-  finalScoreContainer.style.display = "block";
+  finalScoreBlock.style.display = "block";
   finalScoreMenuBtns.style.display = "block";
   settingsBlock.style.display = "none";
   rulesBlock.style.display = "none";
@@ -126,7 +126,7 @@ const settingsPage = () => {
   levelsBlock.style.display = "none";
   query.style.display = "none";
   queryMenuBtns.style.display = "none";
-  finalScoreContainer.style.display = "none";
+  finalScoreBlock.style.display = "none";
   finalScoreMenuBtns.style.display = "none";
   settingsBlock.style.display = "block";
   rulesBlock.style.display = "none";
@@ -138,7 +138,7 @@ const rulesPage = () => {
   levelsBlock.style.display = "none";
   query.style.display = "none";
   queryMenuBtns.style.display = "none";
-  finalScoreContainer.style.display = "none";
+  finalScoreBlock.style.display = "none";
   finalScoreMenuBtns.style.display = "none";
   settingsBlock.style.display = "none";
   rulesBlock.style.display = "block";
@@ -150,7 +150,7 @@ const aboutPage = () => {
   levelsBlock.style.display = "none";
   query.style.display = "none";
   queryMenuBtns.style.display = "none";
-  finalScoreContainer.style.display = "none";
+  finalScoreBlock.style.display = "none";
   finalScoreMenuBtns.style.display = "none";
   settingsBlock.style.display = "none";
   rulesBlock.style.display = "none";
