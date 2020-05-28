@@ -1,10 +1,11 @@
 const homepage = document.getElementById("homepage");
 const levelsBlock = document.getElementById("levels-block");
+const finalScoreBlock = document.getElementById("final-score-block");
 const settingsBlock = document.getElementById("settings-block");
 const rulesBlock = document.getElementById("rules-block");
 const aboutBlock = document.getElementById("about-block");
 
-const query = document.getElementById("query");
+const queryBlock = document.getElementById("query-block");
 const question = document.getElementById("question");
 const choiceA = document.getElementById("A");
 const choiceB = document.getElementById("B");
@@ -14,7 +15,6 @@ const counter = document.getElementById("counter");
 const timeGauge = document.getElementById("timeGauge");
 const progress = document.getElementById("progress");
 
-const finalScoreBlock = document.getElementById("final-score-block");
 const finalScore = document.getElementById("final-score");
 const scorePhrase1Div = document.getElementById("score-phrase-1-div");
 const finalScoreImgDiv = document.getElementById("final-score-img-div");
@@ -35,7 +35,7 @@ let score = 0;
 const bibleQueryHomepage = () => {
   homepage.style.display = "block";
   levelsBlock.style.display = "none";
-  query.style.display = "none";
+  queryBlock.style.display = "none";
   queryMenuBtns.style.display = "none";
   finalScoreBlock.style.display = "none";
   finalScoreMenuBtns.style.display = "none";
@@ -48,7 +48,7 @@ const bibleQueryHomepage = () => {
 const levelsPage = () => {
   homepage.style.display = "none";
   levelsBlock.style.display = "block";
-  query.style.display = "none";
+  queryBlock.style.display = "none";
   queryMenuBtns.style.display = "none";
   finalScoreBlock.style.display = "none";
   finalScoreMenuBtns.style.display = "none";
@@ -60,7 +60,7 @@ const levelsPage = () => {
 const queryPage = () => {
   homepage.style.display = "none";
   levelsBlock.style.display = "none";
-  query.style.display = "block";
+  queryBlock.style.display = "block";
   queryMenuBtns.style.display = "block";
   finalScoreBlock.style.display = "none";
   finalScoreMenuBtns.style.display = "none";
@@ -76,7 +76,7 @@ const queryPage = () => {
 const finalScoreRender = () => {
   homepage.style.display = "none";
   levelsBlock.style.display = "none";
-  query.style.display = "none";
+  queryBlock.style.display = "none";
   queryMenuBtns.style.display = "none";
   finalScoreBlock.style.display = "block";
   finalScoreMenuBtns.style.display = "block";
@@ -124,7 +124,7 @@ const finalScoreRender = () => {
 const settingsPage = () => {
   homepage.style.display = "none";
   levelsBlock.style.display = "none";
-  query.style.display = "none";
+  queryBlock.style.display = "none";
   queryMenuBtns.style.display = "none";
   finalScoreBlock.style.display = "none";
   finalScoreMenuBtns.style.display = "none";
@@ -136,7 +136,7 @@ const settingsPage = () => {
 const rulesPage = () => {
   homepage.style.display = "none";
   levelsBlock.style.display = "none";
-  query.style.display = "none";
+  queryBlock.style.display = "none";
   queryMenuBtns.style.display = "none";
   finalScoreBlock.style.display = "none";
   finalScoreMenuBtns.style.display = "none";
@@ -148,7 +148,7 @@ const rulesPage = () => {
 const aboutPage = () => {
   homepage.style.display = "none";
   levelsBlock.style.display = "none";
-  query.style.display = "none";
+  queryBlock.style.display = "none";
   queryMenuBtns.style.display = "none";
   finalScoreBlock.style.display = "none";
   finalScoreMenuBtns.style.display = "none";
