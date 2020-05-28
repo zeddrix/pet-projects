@@ -26,9 +26,6 @@ const queryMenuBtns = document.getElementById("query-menu-btns");
 
 let currentQuestion = 0;
 let count = 0;
-const questionTime = 10; // 10s
-const gaugeWidth = 24.3; // em
-const gaugeUnit = gaugeWidth / questionTime;
 let Timer;
 let score = 0;
 
@@ -85,7 +82,7 @@ const finalScoreRender = () => {
   aboutBlock.style.display = "none";
 
   // calculate the amount of question percent answered by the user
-  const scorePercent = Math.round((100 * score) / questionsAboutMen.length);
+  const scorePercent = Math.round((100 * score) / men.length);
 
   // choose the image based on the scorePerCent
   let img =
@@ -117,7 +114,7 @@ const finalScoreRender = () => {
 
   scorePhrase1Div.innerHTML = "<h1 id='score-phrase-1'>" + sp1d + "</h1>";
   finalScoreImgDiv.innerHTML = "<img id='final-score-img' src=" + img + ">";
-  finalScorePercentageDiv.innerHTML += "<p id='final-score-percentage'>" + scorePercent + "%</p>";
+  finalScorePercentageDiv.innerHTML = "<p id='final-score-percentage'>" + scorePercent + "%</p>";
   scorePhrase2Div.innerHTML = "<p id='score-phrase-2'>" + sp2d + "</p>";
 };
 
@@ -157,9 +154,9 @@ const aboutPage = () => {
   aboutBlock.style.display = "block";
 };
 
-const lastQuestion = questionsAboutMen.length - 1;
+const lastQuestion = men.length - 1;
 const renderQuestion = () => {
-  let q = questionsAboutMen[currentQuestion];
+  let q = men[currentQuestion];
 
   question.innerHTML = "<p>" + q.question + "</p>";
   choiceA.innerHTML = q.choiceA;
@@ -173,6 +170,26 @@ const renderProgress = () => {
     progress.innerHTML += "<div class='progress' id=" + qIndex + "></div>";
   }
 };
+
+const questionTime = 10; // 10s
+let gaugeWidth = 24.3; // em
+const gaugeUnit = gaugeWidth / questionTime;
+// const responsiveTimeGauge = (oppo, galaxy, desktop) => {
+//   if (oppo.matches) {
+//     timeGauge.style.width = "40em";
+//   } else if (galaxy.matches) {
+//     timeGauge.style.width = "40em";
+//   } else if (desktop.matches) {
+//     timeGauge.style.width = "24.3em";
+//   } else {
+//     timeGauge.style.width = "24.3em";
+//   }
+// };
+
+// const oppo = window.matchMedia("(min-width: 275px)");
+// const galaxy = window.matchMedia("(min-width: 360px)");
+// const desktop = window.matchMedia("(min-device-width: 1600px)");
+// responsiveTimeGauge(oppo, galaxy, desktop);
 
 const renderCounter = () => {
   if (count <= questionTime) {
@@ -195,7 +212,7 @@ const renderCounter = () => {
 };
 
 const checkAnswer = (answer) => {
-  if (answer == questionsAboutMen[currentQuestion].correctAnswer) {
+  if (answer == men[currentQuestion].correctAnswer) {
     score++;
     answerIsCorrect();
     // change progress color to green

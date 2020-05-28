@@ -1,4 +1,4 @@
-let questionsAboutMen = [
+let men = [
   // {
   //     question : ,
   //     clue : ,
@@ -10,8 +10,9 @@ let questionsAboutMen = [
   // },
   {
     question: "Who asked the Israelites to separate from their foreign wives?",
-    clue:
-      'Ezra 10:10, 11: Then Ezra the priest rose and said to them: "You have acted unfaithfully by marrying foreign women, and so you have added to the guilt of Israel."',
+    clueSource: "Ezra 10:10, 11",
+    clueSourceContent:
+      "Then Ezra the priest rose and said to them: “You have acted unfaithfully by marrying foreign women, and so you have added to the guilt of Israel.”",
     choiceA: "Aaron",
     choiceB: "Moses",
     choiceC: "Nehemiah",
@@ -21,8 +22,9 @@ let questionsAboutMen = [
   // questionsAboutMen0.choiceD -> Ezra
   {
     question: "He was Eunice's son and Lois' grandson.",
-    clue:
-      "2 Timothy 1:5: For I recall your unhypocritical faith, which dwelled first in your grandmother Loʹis and your mother Euʹnice, but which I am confident is also in you.",
+    clueSource: "2 Timothy 1:5",
+    clueSourceContent:
+      "For I recall your unhypocritical faith, which dwelled first in your grandmother Lois and your mother Eunice, but which I am confident is also in you.",
     choiceA: "Philip",
     choiceB: "Silas",
     choiceC: "Paul",
@@ -32,8 +34,9 @@ let questionsAboutMen = [
   {
     question:
       "The judge that Jehovah used to defeat a Midian army with only 300 men.",
-    clue:
-      "Judges 7:7: Jehovah now said to Gidʹe·on: “I will save you with the 300 men who lapped the water, and I will give Midian into your hand. But let all the other people go back home.”",
+    clueSource: "Judges 7:7",
+    clueSourceContent:
+      "Jehovah now said to Gideon: “I will save you with the 300 men who lapped the water, and I will give Midian into your hand. But let all the other people go back home.”",
     choiceA: "Joshua",
     choiceB: "Gideon",
     choiceC: "Samuel",
@@ -43,8 +46,9 @@ let questionsAboutMen = [
   {
     question:
       "Jehovah set up a sign for him “in order that no one finding him would strike him.”",
-    clue:
-      "Genesis 4:15: So Jehovah said to him: “For that reason, anyone who kills Cain will suffer vengeance seven times.” So Jehovah set up a sign for Cain in order that no one finding him would strike him.",
+    clueSource: "Genesis 4:15",
+    clueSourceContent:
+      "So Jehovah said to him: “For that reason, anyone who kills Cain will suffer vengeance seven times.” So Jehovah set up a sign for Cain in order that no one finding him would strike him.",
     choiceA: "Abel",
     choiceB: "Cain",
     choiceC: "Enoch",
@@ -53,8 +57,9 @@ let questionsAboutMen = [
   },
   {
     question: "He asked Jesus: “Are you the King of the Jews?”",
-    clue:
-      "Matthew 27:2: After binding him, they led him off and handed him over to Pilate, the governor.",
+    clueSource: "Matthew 27:2",
+    clueSourceContent:
+      "After binding him, they led him off and handed him over to Pilate, the governor.",
     choiceA: "Herod",
     choiceB: "Nicodemus",
     choiceC: "Pilate",
@@ -63,8 +68,10 @@ let questionsAboutMen = [
   },
   {
     question:
-      "Jehovah, for the first time, allowed this man to have meat as food.",
-    clue: "He and his family survived the Flood.",
+      "Jehovah, for the first time, allowed this man to have “every moving animal that is alive” as food.",
+    clueSource: "Genesis 9:3",
+    clueSourceContent:
+      "Every moving animal that is alive may serve as food for you. Just as I gave you the green vegetation, I give them all to you.",
     choiceA: "Moses",
     choiceB: "Noah",
     choiceC: "Aaron",
@@ -74,8 +81,9 @@ let questionsAboutMen = [
   {
     question:
       "Who, other than Moses, appeared at the transfiguration of Jesus?",
-    clue:
-      "Mark 9:4: Also, Elijah with Moses appeared to them, and they were conversing with Jesus.",
+    clueSource: "Mark 9:4",
+    clueSourceContent:
+      "Also, Elijah with Moses appeared to them, and they were conversing with Jesus.",
     choiceA: "Eli",
     choiceB: "Enoch",
     choiceC: "John",
@@ -84,8 +92,9 @@ let questionsAboutMen = [
   },
   {
     question: "He is a friend of Jesus who was raised from the dead.",
-    clue:
-      "John 11:43: When he had said these things, he cried out with a loud voice: “Lazarus, come out!”",
+    clueSource: "John 11:43",
+    clueSourceContent:
+      "When he had said these things, he cried out with a loud voice: “Lazarus, come out!”",
     choiceA: "Elijah",
     choiceB: "Moses",
     choiceC: "Lazarus",
@@ -95,7 +104,9 @@ let questionsAboutMen = [
   {
     question:
       "He became hot with anger with Jehovah for not destroying Nineveh.",
-    clue: "He was swallowed by a huge fish.—Jonah 1:17",
+    clueSource: "Jonah 1:17",
+    clueSourceContent:
+      "Jehovah now sent a huge fish to swallow Jonah, so that Jonah came to be in the belly of the fish for three days and three nights.",
     choiceA: "Jonah",
     choiceB: "Jeremias",
     choiceC: "Ezra",
@@ -104,8 +115,9 @@ let questionsAboutMen = [
   },
   {
     question: "Who formed a golden calf while Moses was on Mount Sinai?",
-    clue:
-      "Exodus 32:3: So all the people began taking off the gold earrings that were in their ears and bringing them to Aaron.",
+    clueSource: "Exodus 32:3",
+    clueSourceContent:
+      "So all the people began taking off the gold earrings that were in their ears and bringing them to Aaron.",
     choiceA: "Jeroboam",
     choiceB: "Aaron",
     choiceC: "Korah",
@@ -114,8 +126,9 @@ let questionsAboutMen = [
   },
   {
     question: "The father of John the Baptizer.",
-    clue:
-      "Luke 1:13: However, the angel said to him: “Do not be afraid, Zechariah, because your supplication has been favorably heard, and your wife Elizabeth will bear you a son, and you are to name him John.",
+    clueSource: "Luke 1:13",
+    clueSourceContent:
+      "However, the angel said to him: “Do not be afraid, Zechariah, because your supplication has been favorably heard, and your wife Elizabeth will bear you a son, and you are to name him John.",
     choiceA: "Zerubbabel",
     choiceB: "Zedekiah",
     choiceC: "Zechariah",
@@ -125,8 +138,9 @@ let questionsAboutMen = [
   {
     question:
       "His own female donkey spoke to him after beating it for three times.",
-    clue:
-      "Numbers 22:28: Finally Jehovah caused the donkey to speak, and it said to Balaam: “What have I done to you to make you beat me these three times?”",
+    clueSource: "Numbers 22:28",
+    clueSourceContent:
+      "Finally Jehovah caused the donkey to speak, and it said to Balaam: “What have I done to you to make you beat me these three times?”",
     choiceA: "Balaam",
     choiceB: "Balak",
     choiceC: "Hosea",
@@ -136,8 +150,9 @@ let questionsAboutMen = [
   {
     question:
       "After Ananias talked to him about being anointed by holy spirit, “what looked like scales fell from his eyes, and he recovered his sight.”",
-    clue:
-      "Acts 9:17: So Ananias went and entered the house, and he laid his hands on him and said: “Saul, brother, the Lord Jesus, who appeared to you on the road along which you were coming, has sent me so that you may recover sight and be filled with holy spirit.”",
+    clueSource: "Acts 9:17",
+    clueSourceContent:
+      "So Ananias went and entered the house, and he laid his hands on him and said: “Saul, brother, the Lord Jesus, who appeared to you on the road along which you were coming, has sent me so that you may recover sight and be filled with holy spirit.”",
     choiceA: "Peter",
     choiceB: "James",
     choiceC: "John",
@@ -147,8 +162,9 @@ let questionsAboutMen = [
   {
     question:
       "Who, because of his poor eyesight, blessed Jacob instead of Esau?",
-    clue:
-      "Genesis 27:27: Then Isaac his father said to him: “Come near, please, and kiss me, my son.” So he came near and kissed him, and he could smell the scent of his garments. Then he blessed him.",
+    clueSource: "Genesis 27:27",
+    clueSourceContent:
+      "Then Isaac his father said to him: “Come near, please, and kiss me, my son.” So he came near and kissed him, and he could smell the scent of his garments. Then he blessed him.",
     choiceA: "Abraham",
     choiceB: "Isaac",
     choiceC: "Joseph",
@@ -157,9 +173,10 @@ let questionsAboutMen = [
   },
   {
     question:
-      "King Nebuchadnezzar gave this prophet of Jehovah the name ‘Belteshazzar’.",
-    clue:
-      "Daniel 5:12: For Daniel, whom the king named Bel·te·shazʹzar, had an extraordinary spirit and knowledge and insight to interpret dreams, to explain riddles, and to solve knotty problems.",
+      "King Nebuchadnezzar gave this prophet of Jehovah the name “Belteshazzar.”",
+    clueSource: "Daniel 5:12",
+    clueSourceContent:
+      "For Daniel, whom the king named Belteshazzar, had an extraordinary spirit and knowledge and insight to interpret dreams, to explain riddles, and to solve knotty problems.",
     choiceA: "Daniel",
     choiceB: "Jonah",
     choiceC: "Shadrach",
@@ -168,9 +185,10 @@ let questionsAboutMen = [
   },
   {
     question:
-      'After he lost everything he had, "Jehovah gave him double what he had before" for his faithfulness in the end.',
-    clue:
-      'Job 42:10: "After Job had prayed for his companions, Jehovah removed Job’s tribulation and restored his prosperity. Jehovah gave him double what he had before."',
+      "After he lost everything he had, “Jehovah gave him double what he had before” for his faithfulness in the end.",
+    clueSource: "Job 42:10",
+    clueSourceContent:
+      "After Job had prayed for his companions, Jehovah removed Job’s tribulation and restored his prosperity. Jehovah gave him double what he had before.",
     choiceA: "Job",
     choiceB: "Joseph",
     choiceC: "Moses",
@@ -180,8 +198,9 @@ let questionsAboutMen = [
   {
     question:
       "A Jew who staunchly refused to prostrate himself before (the Amalekite) Haman.",
-    clue:
-      "Esther 3:2: And all the king’s servants who were in the king’s gate would bow low and prostrate themselves to Haman, for this is what the king had commanded respecting him. But Mordecai refused to bow low or prostrate himself.",
+    clueSource: "Esther 3:2",
+    clueSourceContent:
+      "And all the king’s servants who were in the king’s gate would bow low and prostrate themselves to Haman, for this is what the king had commanded respecting him. But Mordecai refused to bow low or prostrate himself.",
     choiceA: "Meshach",
     choiceB: "Shadrach",
     choiceC: "Mordecai",
@@ -191,8 +210,9 @@ let questionsAboutMen = [
   {
     question:
       "One of David’s sons who was highly praised for his handsome appearance in all Israel.",
-    clue:
-      "2 Samuel 14:25: Now in all Israel, no man was as highly praised for his handsome appearance as Absalom. From the sole of his foot to the crown of his head, there was no flaw in him.",
+    clueSource: "2 Samuel 14:25",
+    clueSourceContent:
+      "Now in all Israel, no man was as highly praised for his handsome appearance as Absalom. From the sole of his foot to the crown of his head, there was no flaw in him.",
     choiceA: "Solomon",
     choiceB: "Absalom",
     choiceC: "Adonijah",
@@ -202,8 +222,9 @@ let questionsAboutMen = [
   {
     question:
       "An apostle who spread a big reception feast for Jesus in his house. He’s also called ‘Levi’.",
-    clue:
-      "Luke 5:29: Then Levi spread a big reception feast for him in his house, and there was a large crowd of tax collectors and others who were dining with them.",
+    clueSource: "Luke 5:29",
+    clueSourceContent:
+      "Then Levi spread a big reception feast for him in his house, and there was a large crowd of tax collectors and others who were dining with them.",
     choiceA: "Matthew",
     choiceB: "Mark",
     choiceC: "John",
@@ -213,8 +234,9 @@ let questionsAboutMen = [
   {
     question:
       "Delilah betrayed this Nazarite judge in exchange for 1,100 silver pieces.",
-    clue:
-      "Judges 16:18: So he finally opened his heart to her, saying: “A razor has never touched my head, because I am a Nazirite of God from birth. If I am shaved, my power will leave me and I will grow weak and become like all other men.”",
+    clueSource: "Judges 16:18",
+    clueSourceContent:
+      "So he finally opened his heart to her, saying: “A razor has never touched my head, because I am a Nazirite of God from birth. If I am shaved, my power will leave me and I will grow weak and become like all other men.”",
     choiceA: "Gideon",
     choiceB: "Barak",
     choiceC: "Joshua",
