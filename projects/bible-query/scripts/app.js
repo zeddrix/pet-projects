@@ -5,6 +5,7 @@ const settingsBlock = document.getElementById("settings-block");
 const rulesBlock = document.getElementById("rules-block");
 const aboutBlock = document.getElementById("about-block");
 const tellYourFriendsBtn = document.getElementById("tell-your-friends-btn");
+// const okayBtn = document.getElementById("okay-sm-btn")
 
 const queryBlock = document.getElementById("query-block");
 const question = document.getElementById("question");
@@ -44,7 +45,7 @@ tellYourFriendsBtn.onclick = function () {
 };
 
 // When the user clicks on <span> (x), close the modal
-span.onclick = function () {
+const closeModal = () => {
   modal.style.display = "none";
 };
 

@@ -16,7 +16,6 @@ body {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -32,30 +31,18 @@ body {
   color: black;
 }
 
-/* Modal Footer */
-#tell-your-friends-modal-footer {
-  padding: 2px 16px;
-  background-color: rgb(160, 110, 46);
-  color: black;
-}
-
 /* Modal Content */
 #tell-your-friends-modal-content {
   position: relative;
-  background-color: #fefefe;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: grey;
   margin: auto;
-  padding: 0;
-  border: 1px solid #888;
-  width: 80%;
+  border: 0.3em solid rgb(90, 88, 88);
+  border-radius: 0.1em;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-  animation-name: animatetop;
-  animation-duration: 0.4s
-}
-
-/* Add Animation */
-@keyframes animatetop {
-  from {top: -300px; opacity: 0}
-  to {top: 0; opacity: 1}
+  animation-name: zoomIn;
+  animation-duration: 0.1s
 }
 
 /* The Close Button */
@@ -78,7 +65,8 @@ a,
 .button:hover,
 .choice,
 .sm-btn,
-#level {
+#level,
+#okay-sm-btn {
   cursor: pointer;
 }
 
@@ -132,6 +120,16 @@ a {
   border: 0;
   text-decoration: none;
   outline: none;
+}
+#okay-sm-btn {
+  margin: 10px;
+  width: 25%;
+  border: 0;
+  text-decoration: none;
+  outline: none;
+}
+#okay-sm-btn-container {
+  text-align: center;
 }
 .sm-btn {
   margin: 10px;
@@ -532,6 +530,13 @@ a {
   #long-btn-container {
     width: 74%;
     margin-bottom: 3.1em;
+  }
+  .modal {
+    padding-top: 16em; /* Location of the box */
+  }
+  #tell-your-friends-modal-content {
+    padding: 0;
+    width: 20%;
   }
   /* levels */
   #stars {
