@@ -41,6 +41,7 @@
               id="tell-your-friends-btn"
               class="long-btn"
               src="img/tell-your-friends-btn.jpg"
+              onclick="tellYourFriends()"
             />
             <img
               src="img/quit-btn.jpg"
@@ -50,26 +51,23 @@
             />
             <p id="quit-game"></p>
           </div>
-
-          <!-- The Modal -->
-          <div id="tell-your-friends-modal" class="modal">
-            <!-- Modal content -->
-            <div id="tell-your-friends-modal-content">
-              <div id="tell-your-friends-modal-header">
-                <!-- <h2>Modal Header</h2> Uncomment this tag to get the code for the CLUES -->
-              </div>
-              <div id="tell-your-friends-modal-body">
-                <p>You are now temporarily leaving the game to send a recommendation using your preferred messaging application.</p>
-              </div>
-              <div id="okay-sm-btn-container">
-                  <img
-                  src="img/okay-sm-btn.jpg"
-                  id="okay-sm-btn"
-                  onclick="closeModal()"
-                />
+        </div>
+            <div id="tell-your-friends-modal" class="modal">
+              <div id="tell-your-friends-modal-content">
+                <div id="tell-your-friends-modal-header">
+                </div>
+                <div id="tell-your-friends-modal-body">
+                  <p>You are now temporarily leaving the game to send a recommendation using your preferred messaging application.</p>
+                </div>
+                <div id="okay-sm-btn-container">
+                    <img
+                    src="img/okay-sm-btn.jpg"
+                    id="okay-sm-btn"
+                    onclick="closeModal()"
+                  />
+                </div>
               </div>
             </div>
-        </div>
 
         <!-- Upon clicking PLAY -->
         <div id="levels-block" style="display: none;">

@@ -1,22 +1,25 @@
+// HOME BUTTONS
 const homepage = document.getElementById("homepage");
 const levelsBlock = document.getElementById("levels-block");
 const finalScoreBlock = document.getElementById("final-score-block");
 const settingsBlock = document.getElementById("settings-block");
 const rulesBlock = document.getElementById("rules-block");
 const aboutBlock = document.getElementById("about-block");
-const tellYourFriendsBtn = document.getElementById("tell-your-friends-btn");
-// const okayBtn = document.getElementById("okay-sm-btn")
-
+const tellYourFriendsModal = document.getElementById("tell-your-friends-modal");
+// QUERY
 const queryBlock = document.getElementById("query-block");
 const question = document.getElementById("question");
 const choiceA = document.getElementById("A");
 const choiceB = document.getElementById("B");
 const choiceC = document.getElementById("C");
 const choiceD = document.getElementById("D");
+let currentQuestion = 0;
+let count = 0;
+let Timer;
+let score = 0;
 const counter = document.getElementById("counter");
 const timeGauge = document.getElementById("timeGauge");
 const progress = document.getElementById("progress");
-
 const finalScore = document.getElementById("final-score");
 const scorePhrase1Div = document.getElementById("score-phrase-1-div");
 const finalScoreImgDiv = document.getElementById("final-score-img-div");
@@ -25,36 +28,8 @@ const finalScorePercentageDiv = document.getElementById(
 );
 const scorePhrase2Div = document.getElementById("score-phrase-2-div");
 const finalScoreMenuBtns = document.getElementById("final-score-menu-btns");
-
 const queryMenuBtns = document.getElementById("query-menu-btns");
 
-let currentQuestion = 0;
-let count = 0;
-let Timer;
-let score = 0;
-
-// Modal
-const modal = document.getElementById("tell-your-friends-modal");
-
-// Get the <span> element that closes the modal
-const span = document.getElementsByClassName("close")[0];
-
-// When the user clicks the button, open the modal
-tellYourFriendsBtn.onclick = function () {
-  modal.style.display = "block";
-};
-
-// When the user clicks on <span> (x), close the modal
-const closeModal = () => {
-  modal.style.display = "none";
-};
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function (event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-};
 const bibleQueryHomepage = () => {
   homepage.style.display = "block";
   levelsBlock.style.display = "none";
@@ -107,10 +82,8 @@ const finalScoreRender = () => {
   rulesBlock.style.display = "none";
   aboutBlock.style.display = "none";
 
-  // calculate the amount of question percent answered by the user
   const scorePercent = Math.round((100 * score) / men.length);
 
-  // choose the image based on the scorePerCent
   let img =
     scorePercent == 100
       ? "img/three-stars.png"
@@ -195,6 +168,19 @@ const aboutPage = () => {
   settingsBlock.style.display = "none";
   rulesBlock.style.display = "none";
   aboutBlock.style.display = "block";
+};
+
+const tellYourFriends = () => {
+  tellYourFriendsModal.style.display = "block";
+};
+const closeModal = () => {
+  tellYourFriendsModal.style.display = "none";
+};
+// When the user clicks anywhere outside of the tellYourFriendsModal, close it
+window.onclick = function (event) {
+  if (event.target == tellYourFriendsModal) {
+    tellYourFriendsModal.style.display = "none";
+  }
 };
 
 const lastQuestion = men.length - 1;
