@@ -144,7 +144,7 @@ const finalScoreRender = () => {
 
   let sp2d =
     scorePercent == 100
-      ? "You got it all right!"
+      ? "You got all the questions right!"
       : scorePercent >= 90
       ? "You almost perfected this level!"
       : scorePercent >= 51
