@@ -25,13 +25,13 @@ body {
 }
 
 /* Modal Body */
-#tell-your-friends-modal-body {
+.modal-body {
   padding: 2px 16px;
   color: black;
 }
 
 /* Modal Content */
-#tell-your-friends-modal-content {
+.modal-content {
   position: relative;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
@@ -50,7 +50,9 @@ a,
 .choice,
 .sm-btn,
 #level,
-#okay-sm-btn {
+#okay-sm-btn,
+#yes-sm-btn,
+#no-sm-btn {
   cursor: pointer;
 }
 
@@ -113,6 +115,23 @@ a {
   outline: none;
 }
 #okay-sm-btn-container {
+  text-align: center;
+}
+#yes-sm-btn {
+  margin: 10px;
+  width: 25%;
+  border: 0;
+  text-decoration: none;
+  outline: none;
+}
+#no-sm-btn {
+  margin: 10px;
+  width: 25%;
+  border: 0;
+  text-decoration: none;
+  outline: none;
+}
+#quit-sm-btns-container {
   text-align: center;
 }
 .sm-btn {
@@ -518,7 +537,7 @@ a {
   .modal {
     padding-top: 16em; /* Location of the box */
   }
-  #tell-your-friends-modal-content {
+  .modal-content {
     padding: 0;
     width: 20%;
   }

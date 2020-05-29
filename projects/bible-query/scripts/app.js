@@ -6,6 +6,7 @@ const settingsBlock = document.getElementById("settings-block");
 const rulesBlock = document.getElementById("rules-block");
 const aboutBlock = document.getElementById("about-block");
 const tellYourFriendsModal = document.getElementById("tell-your-friends-modal");
+const quitModal = document.getElementById("quit-modal");
 // QUERY
 const queryBlock = document.getElementById("query-block");
 const question = document.getElementById("question");
@@ -40,6 +41,26 @@ const bibleQueryHomepage = () => {
   settingsBlock.style.display = "none";
   rulesBlock.style.display = "none";
   aboutBlock.style.display = "none";
+};
+
+const showTellYourFriendsModal = () => {
+  tellYourFriendsModal.style.display = "block";
+};
+const closeTellYourFriendsModal = () => {
+  tellYourFriendsModal.style.display = "none";
+};
+// When the user clicks anywhere outside of the tellYourFriendsModal, close it
+window.onclick = function (event) {
+  if (event.target == tellYourFriendsModal) {
+    tellYourFriendsModal.style.display = "none";
+  }
+};
+
+const showQuitModal = () => {
+  quitModal.style.display = "block";
+};
+const closeQuitModal = () => {
+  quitModal.style.display = "none";
 };
 
 // PLAY button
@@ -168,19 +189,6 @@ const aboutPage = () => {
   settingsBlock.style.display = "none";
   rulesBlock.style.display = "none";
   aboutBlock.style.display = "block";
-};
-
-const tellYourFriends = () => {
-  tellYourFriendsModal.style.display = "block";
-};
-const closeModal = () => {
-  tellYourFriendsModal.style.display = "none";
-};
-// When the user clicks anywhere outside of the tellYourFriendsModal, close it
-window.onclick = function (event) {
-  if (event.target == tellYourFriendsModal) {
-    tellYourFriendsModal.style.display = "none";
-  }
 };
 
 const lastQuestion = men.length - 1;

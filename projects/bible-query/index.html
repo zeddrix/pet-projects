@@ -41,29 +41,47 @@
               id="tell-your-friends-btn"
               class="long-btn"
               src="img/tell-your-friends-btn.jpg"
-              onclick="tellYourFriends()"
+              onclick="showTellYourFriendsModal()"
             />
             <img
               src="img/quit-btn.jpg"
               id="quit-btn"
               class="long-btn"
-              onclick="quitGame()"
+              onclick="showQuitModal()"
             />
-            <p id="quit-game"></p>
           </div>
         </div>
+            <!-- TELL YOUR FRIENDS -->
             <div id="tell-your-friends-modal" class="modal">
-              <div id="tell-your-friends-modal-content">
-                <div id="tell-your-friends-modal-header">
-                </div>
-                <div id="tell-your-friends-modal-body">
+              <div class="modal-content">
+                <div class="modal-body">
                   <p>You are now temporarily leaving the game to send a recommendation using your preferred messaging application.</p>
                 </div>
                 <div id="okay-sm-btn-container">
                     <img
                     src="img/okay-sm-btn.jpg"
                     id="okay-sm-btn"
-                    onclick="closeModal()"
+                    onclick="closeTellYourFriendsModal()"
+                  />
+                </div>
+              </div>
+            </div>
+            <!-- QUIT -->
+            <div id="quit-modal" class="modal">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <p>Are you sure you want to quit?</p>
+                </div>
+                <div id="quit-sm-btns-container">
+                    <img
+                    src="img/yes-sm-btn.jpg"
+                    id="yes-sm-btn"
+                    onclick="confirmQuit()"
+                  />
+                  <img
+                    src="img/no-sm-btn.jpg"
+                    id="no-sm-btn"
+                    onclick="closeQuitModal()"
                   />
                 </div>
               </div>
@@ -316,18 +334,6 @@
         txt = "I'm saved!";
       }
       document.getElementById("reset-game").innerHTML = txt;
-    }
-  </script>
-  <!-- QUIT -->
-  <script>
-    function quitGame() {
-      var txt;
-      if (confirm("Are you sure you want to quit?")) {
-        txt = "Bye!";
-      } else {
-        txt = "Welcome back!";
-      }
-      document.getElementById("quit-game").innerHTML = txt;
     }
   </script>
   <script src="scripts/query.js"></script>
