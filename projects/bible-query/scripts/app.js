@@ -7,6 +7,7 @@ const rulesBlock = document.getElementById("rules-block");
 const aboutBlock = document.getElementById("about-block");
 const tellYourFriendsModal = document.getElementById("tell-your-friends-modal");
 const quitModal = document.getElementById("quit-modal");
+const resetGameModal = document.getElementById("reset-game-modal");
 // QUERY
 const queryBlock = document.getElementById("query-block");
 const question = document.getElementById("question");
@@ -42,25 +43,31 @@ const bibleQueryHomepage = () => {
   rulesBlock.style.display = "none";
   aboutBlock.style.display = "none";
 };
-
+// TELL YOUR FRIENDS
 const showTellYourFriendsModal = () => {
   tellYourFriendsModal.style.display = "block";
 };
 const closeTellYourFriendsModal = () => {
   tellYourFriendsModal.style.display = "none";
 };
-// When the user clicks anywhere outside of the tellYourFriendsModal, close it
 window.onclick = function (event) {
   if (event.target == tellYourFriendsModal) {
     tellYourFriendsModal.style.display = "none";
   }
 };
-
+// QUIT
 const showQuitModal = () => {
   quitModal.style.display = "block";
 };
 const closeQuitModal = () => {
   quitModal.style.display = "none";
+};
+// RESET GAME
+const showResetGameModal = () => {
+  resetGameModal.style.display = "block";
+};
+const closeResetGameModal = () => {
+  resetGameModal.style.display = "none";
 };
 
 // PLAY button

@@ -186,7 +186,7 @@
           <p id="reset-game"></p>
           <div id="settings-btns">
             <img
-              onclick="resetGame()"
+              onclick="showResetGameModal()"
               src="img/reset-game-btn.jpg"
               class="sm-btn button"
             />
@@ -195,6 +195,26 @@
               src="img/back-sm-btn.jpg"
               class="sm-btn"
             />
+          </div>
+        </div>
+        <!-- RESET GAME -->
+        <div id="reset-game-modal" class="modal">
+          <div class="modal-content">
+            <div class="modal-body">
+              <p>This means clearing all the data of the game! Are you sure you want to continue this procedure?</p>
+            </div>
+            <div id="reset-game-container">
+                <img
+                src="img/yes-sm-btn.jpg"
+                id="yes-sm-btn"
+                onclick="confirmResetGame()"
+              />
+              <img
+                src="img/no-sm-btn.jpg"
+                id="no-sm-btn"
+                onclick="closeResetGameModal()"
+              />
+            </div>
           </div>
         </div>
         <!-- Upon clicking on RULES -->
@@ -324,18 +344,6 @@
     </div>
     <!-- outer-container -->
   </body>
-  <!-- RESET GAME -->
-  <script>
-    function resetGame() {
-      var txt;
-      if (confirm("This means clearing all the data of the game! Are you sure you want to continue this procedure?")) {
-        txt = "Nooo!!!";
-      } else {
-        txt = "I'm saved!";
-      }
-      document.getElementById("reset-game").innerHTML = txt;
-    }
-  </script>
   <script src="scripts/query.js"></script>
   <script src="scripts/app.js"></script>
 </html>
