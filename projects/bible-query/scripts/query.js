@@ -566,7 +566,7 @@ const kings = [
   },
   {
     question: "This king's name came from the root meaning “peace”.",
-    clueSource: "Insight on the Scriptures pp. 986-993",
+    clueSource: "Insight on the Scriptures, Volume 2 pp. 986-993",
     clueSourceContent:
       "(Solʹo·mon) [from a root meaning “peace”]. Son of King David of the line of Judah; king of Israel from 1037 to 998 B.C.E.",
     choiceA: "David",
@@ -714,5 +714,238 @@ const kings = [
     choiceC: "Hezekiah",
     choiceD: "David",
     correctAnswer: "A",
+  },
+];
+
+const numbersAndDates = [
+  {
+    question: "On what “day” did God create man?",
+    clueSource: "Genesis 1:31",
+    clueSourceContent:
+      "After that God saw everything he had made, and look! it was very good. And there was evening and there was morning, a sixth day.",
+    choiceA: "on the first “day”",
+    choiceB: "on the third “day”",
+    choiceC: "on the fourth “day”",
+    choiceD: "on the sixth “day”",
+    correctAnswer: "D",
+  },
+  {
+    question:
+      "How many living creatures did Ezekiel saw in the vision when he was by the river Chebar?",
+    clueSource: "Ezekiel 1:5",
+    clueSourceContent:
+      "Within it were what looked like four living creatures, and the appearance of each one was like that of a human.",
+    choiceA: "2 creatures",
+    choiceB: "4 creatures",
+    choiceC: "7 creatures",
+    choiceD: "12 creatures",
+    correctAnswer: "B",
+  },
+  {
+    question: "What was the first world power of Bible history?",
+    clueSource: "Awake! November 2010 p. 15",
+    clueSourceContent:
+      "EGYPT, famous for its pyramids and the Nile River, was the first world power of Bible history. Under its shadow the nation of Israel was formed. Moses, who penned the first five books of the Bible, was born and educated in Egypt. Do secular history and archaeology corroborate what Moses wrote about that ancient land? Consider some examples.",
+    choiceA: "Rome",
+    choiceB: "Greece",
+    choiceC: "Assyria",
+    choiceD: "Egypt",
+    correctAnswer: "D",
+  },
+  {
+    question: "When was Jerusalem destroyed by the Romans?",
+    clueSource: "Insight on the Scriptures, Volume 2 p. 49",
+    clueSourceContent:
+      "Neither Jesus nor his apostles foretold any restoration by God of earthly Jerusalem and its temple to come after the city’s divinely decreed destruction, which occurred in 70 C.E.",
+    choiceA: "33 C.E.",
+    choiceB: "70 C.E",
+    choiceC: "607 B.C.E.",
+    choiceD: "607 C.E.",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "According to Jesus' illustration, the Kingdom of the heavens may be likened to how many virgins who took their lamps and went out to meet the bridegroom?",
+    clueSource: "Matthew 25:1",
+    clueSourceContent:
+      "Then the Kingdom of the heavens may be likened to ten virgins who took their lamps and went out to meet the bridegroom.",
+    choiceA: "3 virgins",
+    choiceB: "5 virgins",
+    choiceC: "7 virgins",
+    choiceD: "10 virgins",
+    correctAnswer: "D",
+  },
+  {
+    question: "How old was Josiah when he began to rule as king of Judah?",
+    clueSource: "2 Kings 22:1",
+    clueSourceContent:
+      "Jo·siʹah was eight years old when he became king, and he reigned for 31 years in Jerusalem. His mother’s name was Je·diʹdah the daughter of A·daiʹah from Bozʹkath.",
+    choiceA: "7 years old",
+    choiceB: "8 years old",
+    choiceC: "9 years old",
+    choiceD: "10 years old",
+    correctAnswer: "B",
+  },
+  {
+    question: "What does the number '6' mean in the Bible?",
+    clueSource: "Insight on the Scriptures, Volume 2 p. 512",
+    clueSourceContent:
+      "Six. This number at times represents imperfection. The number of “the wild beast” is 666 and is called “a man’s number,” indicating that it has to do with imperfect, fallen man, and it seems to symbolize the imperfection of that which is represented by “the wild beast.” The number six being emphasized to a third degree (the six appearing in the position of units, tens, and hundreds) therefore highlights the imperfection and deficiency of that which the beast represents, or pictures.​—Re 13:18.",
+    choiceA: "Perfection",
+    choiceB: "Imperfection",
+    choiceC: "Unity",
+    choiceD: "Completeness",
+    correctAnswer: "B",
+  },
+  {
+    question: "What does the number '7' mean in the Bible?",
+    clueSource: "Insight on the Scriptures, Volume 2 p. 512",
+    clueSourceContent:
+      "Seven. Seven is used frequently in the Scriptures to signify completeness. At times it has reference to bringing a work toward completion. Or it can refer to the complete cycle of things as established or allowed by God. By completing his work toward the earth in six creative days and resting on the seventh day, Jehovah set the pattern for the whole Sabbath arrangement, from the seven-day week to the Jubilee year that followed the seven-times-seven–year cycle. (Ex 20:10; Le 25:2, 6, 8) The Festival of Unleavened Bread and the Festival of Booths were each seven days long. (Ex 34:18; Le 23:34) Seven appears often in connection with the Levitical rules for offerings (Le 4:6; 16:14, 19; Nu 28:11) and for cleansings.​—Le 14:7, 8, 16, 27, 51; 2Ki 5:10.",
+    choiceA: "Perfection",
+    choiceB: "Imperfection",
+    choiceC: "Unity",
+    choiceD: "Completeness",
+    correctAnswer: "D",
+  },
+  {
+    question:
+      "How long did the rain poured down on the earth, causing the Flood?",
+    clueSource: "Genesis 7:12",
+    clueSourceContent:
+      "And the rain poured down on the earth for 40 days and 40 nights.",
+    choiceA: "3 days and 3 nights",
+    choiceB: "4 days and 4 nights",
+    choiceC: "40 days and 40 nights",
+    choiceD: "40 days and 40 years",
+    correctAnswer: "C",
+  },
+  {
+    question:
+      "On what year was the holy spirit poured out by Jesus Chirst on the group of about 120 disciples?",
+    clueSource: "Insight on the Scriptures, Volume 2 p. 599",
+    clueSourceContent:
+      "Symbolic Significance of the Festival. It was on the day of Pentecost that the holy spirit was poured out by Jesus Christ on the group of about 120 disciples in the upper room at Jerusalem in the year 33 C.E. (Ac 1:13-15) Jesus had been resurrected on Nisan 16, the day of the offering of the barley sheaf by the high priest.",
+    choiceA: "1 C.E.",
+    choiceB: "29 C.E.",
+    choiceC: "30 C.E.",
+    choiceD: "33 C.E.",
+    correctAnswer: "D",
+  },
+  {
+    question:
+      "Jehovah promised Gideon how many men to conquer the 135,000 Midianite soldiers?",
+    clueSource: "Judges 7:7",
+    clueSourceContent:
+      "Jehovah now said to Gidʹe·on: “I will save you with the 300 men who lapped the water, and I will give Midʹi·an into your hand. But let all the other people go back home.”",
+    choiceA: "300 men",
+    choiceB: "3,000 men",
+    choiceC: "30,000 men",
+    choiceD: "185,000 men",
+    correctAnswer: "A",
+  },
+  {
+    question: "How many years did the devastation of the land of Judah occur?",
+    clueSource: "Daniel 9:2",
+    clueSourceContent:
+      "In the first year of his reign I, Daniel, discerned by the books the number of years mentioned in the word of Jehovah to Jeremiah the prophet to fulfill the desolation of Jerusalem, namely, 70 years.",
+    choiceA: "7 years",
+    choiceB: "40 years",
+    choiceC: "69 years",
+    choiceD: "70 years",
+    correctAnswer: "D",
+  },
+  {
+    question: "How many sons and daughters did Job have?",
+    clueSource: "Job 42:13",
+    clueSourceContent:
+      "He also came to have seven more sons and three more daughters.",
+    choiceA: "He had no children",
+    choiceB: "10 children",
+    choiceC: "20 children",
+    choiceD: "40 children",
+    correctAnswer: "C",
+  },
+  {
+    question: "On what year did Jesus Christ became a Messiah?",
+    clueSource: "What Can the Bible Teach Us?, Chapter 4, par. 8",
+    clueSourceContent:
+      "Jehovah has made it very clear that Jesus is the Messiah. God promised to give John the Baptizer a sign so that he would know who the Messiah was. When Jesus went to John to get baptized in the Jordan River in the year 29 C.E., John saw that sign. The Bible tells us what happened: “After being baptized, Jesus immediately came up from the water; and look! the heavens were opened up, and he saw God’s spirit descending like a dove and coming upon him. Look! Also, a voice from the heavens said: ‘This is my Son, the beloved, whom I have approved.’” (Matthew 3:16, 17) When John saw and heard this sign, he knew that Jesus was the Messiah. (John 1:32-34) On that day, when Jehovah poured out his spirit  on him, Jesus became the Messiah. He was the one whom God had chosen to be Leader and King.​—Isaiah 55:4.",
+    choiceA: "1 C.E.",
+    choiceB: "29 C.E.",
+    choiceC: "30 C.E.",
+    choiceD: "33 C.E.",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "On the first occasion, how many loaves and fish did Jesus feed a crowd?",
+    clueSource: "Mark 6:41",
+    clueSourceContent:
+      "Taking now the five loaves and the two fish, he looked up to heaven and said a blessing. Then he broke the loaves up and began giving them to the disciples to place them before the people, and he divided up the two fish for all.",
+    choiceA: "2 loaves and 5 fish",
+    choiceB: "5 loaves and 2 fish",
+    choiceC: "3 loaves and 5 fish",
+    choiceD: "5 loaves and 3 fish",
+    correctAnswer: "B",
+  },
+  {
+    question: "How many years did it take to complete the Bible?",
+    clueSource: "What Can the Bible Teach Us?, Chapter 2, par. 6",
+    clueSourceContent:
+      "It took more than 1,600 years to write the Bible. Its writers lived at different times. Some were well-educated and others were not. For example, one was a doctor. Others were farmers, fishermen, shepherds, prophets, judges, and kings. Even though there were different writers, all parts of the Bible agree. It doesn’t say one thing in one chapter and the opposite in another.",
+    choiceA: "1,200 years",
+    choiceB: "1,600 years",
+    choiceC: "1,914 years",
+    choiceD: "2,000 years",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "When did the Babylonians, under king Nebuchadnezzar, invade Jerusalem and its temple?",
+    clueSource:
+      "nwt A6-B, Chart: Prophets and Kings of Judah and of Israel (Part 2)",
+    clueSourceContent:
+      "Zedekiah: 11 years. Jerusalem and its temple are destroyed by the invading Babylonians under Nebuchadnezzar. Zedekiah, the last earthly king in the Davidic line, is dethroned.",
+    choiceA: "537 B.C.E",
+    choiceB: "607 B.C.E.",
+    choiceC: "33 C.E.",
+    choiceD: "1914 C.E.",
+    correctAnswer: "B",
+  },
+  {
+    question: "According to the Jewish calendar, on what date did Jesus die?",
+    clueSource: "What Can the Bible Teach Us?, Chapter 5 par. 13",
+    clueSourceContent:
+      "How was the ransom paid? Jesus gave his Father the value of his life. In the year 33, on Nisan 14 of the Jewish calendar, Jehovah allowed Jesus’ enemies to kill him. (Hebrews 10:10) Three days after that, Jehovah brought Jesus back to life, not as a human, but as a spirit person. Later, when Jesus returned to his Father in heaven, he presented the value of his perfect human life to Jehovah as the ransom. (Hebrews 9:24) Now that the ransom has been paid, we have the opportunity to be set free from sin and death.​—Read Romans 3:23, 24.",
+    choiceA: "Nisan 40",
+    choiceB: "Nisan 13",
+    choiceC: "Nisan 14",
+    choiceD: "Nisan 33",
+    correctAnswer: "C",
+  },
+  {
+    question:
+      "How many years did Jehovah made Israel wander about in the wilderness?",
+    clueSource: "Numbers 32:13",
+    clueSourceContent:
+      "So Jehovah’s anger blazed against Israel and he made them wander about in the wilderness for 40 years, until all the generation that was doing evil in the eyes of Jehovah came to its end.",
+    choiceA: "20 years",
+    choiceB: "40 years",
+    choiceC: "70 years",
+    choiceD: "80 years",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "When did Jehovah God made Jesus, the Messiah, King of God’s Kingdom in heaven?",
+    clueSource: "What Can the Bible Teach Us?, Endnote 22",
+    clueSourceContent:
+      "The length of the “seven times”: The “seven times” lasted for 2,520 years. If we count 2,520 years from the year 607 B.C.E., we end up at the year 1914. That was when Jehovah made Jesus, the Messiah, King of God’s Kingdom in heaven.",
+    choiceA: "607 B.C.E.",
+    choiceB: "29 C.E.",
+    choiceC: "33 C.E.",
+    choiceD: "1914 C.E.",
+    correctAnswer: "D",
   },
 ];
