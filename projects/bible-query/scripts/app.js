@@ -8,6 +8,7 @@ const aboutBlock = document.getElementById("about-block");
 const tellYourFriendsModal = document.getElementById("tell-your-friends-modal");
 const quitModal = document.getElementById("quit-modal");
 const resetGameModal = document.getElementById("reset-game-modal");
+const clueModal = document.getElementById("show-clue-modal");
 // QUERY
 const queryBlock = document.getElementById("query-block");
 const question = document.getElementById("question");
@@ -68,6 +69,13 @@ const showResetGameModal = () => {
 };
 const closeResetGameModal = () => {
   resetGameModal.style.display = "none";
+};
+
+const showClueModal = () => {
+  clueModal.style.display = "block";
+};
+const closeClueModal = () => {
+  clueModal.style.display = "none";
 };
 
 // PLAY button

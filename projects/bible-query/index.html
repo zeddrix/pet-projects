@@ -111,6 +111,11 @@
           <div id="level-theme">level theme here</div>
           <div class="question-container">
             <div id="question"></div>
+            <div id="scc">
+              <div id="show-clue-container">
+                <div onclick="showClueModal()" id="show-clue-btn">?</div>
+              </div>
+            </div>
           </div>
           <div id="timer">
             <div id="counter"></div>
@@ -136,6 +141,23 @@
               src="img/quit-sm-btn.jpg"
               class="sm-btn"
             />
+          </div>
+        </div>
+        <div id="show-clue-modal" class="modal">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2>Bible verse</h2>
+            </div>
+            <div class="modal-body">
+              <p id="show-clue">This is the content of the Bible verse.</p>
+            </div>
+            <div id="okay-sm-btn-container">
+                <img
+                src="img/okay-sm-btn.jpg"
+                id="okay-sm-btn"
+                onclick="closeClueModal()"
+              />
+            </div>
           </div>
         </div>
 

@@ -1,7 +1,8 @@
 const men = [
   // {
-  //     question : ,
-  //     clue : ,
+  //     question: ,
+  //     clueSource: ,
+  //     clueSourceContent: ,
   //     choiceA : ,
   //     choiceB: ,
   //     choiceC: ,
@@ -475,6 +476,243 @@ const women = [
     choiceB: "Hannah",
     choiceC: "Penninah",
     choiceD: "Sapphira",
+    correctAnswer: "A",
+  },
+];
+
+const kings = [
+  {
+    question:
+      "The king of Israel who was known as someone who drives his chariot like a madman.",
+    clueSource: "2 Kings 9:20, 21",
+    clueSourceContent:
+      "The watchman then reported: “He reached them, but he has not returned, and the driving is like the driving of Jehu the grandson of Nimshi, for he drives like a madman.”",
+    choiceA: "Ahaziah",
+    choiceB: "Ahab",
+    choiceC: "Jehu",
+    choiceD: "Elijah",
+    correctAnswer: "C",
+  },
+  {
+    question: "Who was the last of the Judean kings to reign at Jerusalem?",
+    clueSource: "2 Kings 24:17",
+    clueSourceContent:
+      "The king of Babylon made Mattaniah, Jehoiachin’s uncle, king in his place and changed his name to Zedekiah.",
+    choiceA: "Zedekiah",
+    choiceB: "Zechariah",
+    choiceC: "Josiah",
+    choiceD: "Solomon",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "He disguised himself and went to a woman who is a spirit medium in En-dor with two of his men",
+    clueSource: "1 Samuel 28:7, 8",
+    clueSourceContent:
+      "Finally Saul said to his servants: “Find me a woman who is a spirit medium, and I will go and consult her.” His servants replied: “Look! There is a woman who is a spirit medium in En-dor.” 8 So Saul disguised himself and put on other garments and went to the woman by night with two of his men. He said: “Use divination, please, by acting as a spirit medium,m and bring up for me the one whom I designate to you.”",
+    choiceA: "Zedekiah",
+    choiceB: "Saul",
+    choiceC: "Ahab",
+    choiceD: "Jeroboam",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "This king saw the fingers of a man’s hand that began writing on the plaster of the wall of the king’s palace opposite the lampstand.",
+    clueSource: "Daniel 5:1-5",
+    clueSourceContent:
+      "As regards King Belshazzar, he held a great feast for a thousand of his nobles, and he was drinking wine in front of them. 2 While under the influence of the wine, Belshazzar gave an order to bring in the vessels of gold and silver that his father Nebuchadnezzar had taken from the temple in Jerusalem, so that the king and his nobles, his concubines and his secondary wives could drink from them. 3 Then they brought in the gold vessels that had been taken from the temple of the house of God in Jerusalem, and the king and his nobles, his concubines and his secondary wives drank from them. 4 They drank wine, and they praised the gods of gold and silver, of copper, iron, wood, and stone. 5 At that very moment the fingers of a man’s hand appeared and began writing on the plaster of the wall of the king’s palace opposite the lampstand, and the king could see the back of the hand as it was writing.",
+    choiceA: "Cyrus",
+    choiceB: "Nebuchadnezzar",
+    choiceC: "Belshazzar",
+    choiceD: "Darius",
+    correctAnswer: "C",
+  },
+  {
+    question:
+      "To whom did the prophet Ahijah give 10 pieces of a robe, that has been torn to 12?",
+    clueSource: "1 Kings 11:29-31",
+    clueSourceContent:
+      "During that time Jeroboam went out from Jerusalem, and the prophet Ahijah the Shilonite found him on the road. Ahijah was wearing a new garment, and the two of them were by themselves in the field. 30 Ahijah took hold of the new garment he was wearing and ripped it into 12 pieces. 31 Then he said to Jeroboam: “Take ten pieces for yourself, for this is what Jehovah the God of Israel says: ‘Here I am ripping the kingdom out of the hand of Solomon, and I will give you ten tribes.",
+    choiceA: "Josiah",
+    choiceB: "Jeroboam",
+    choiceC: "Rehoboam",
+    choiceD: "Abijah",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "Elijah reproved this king because he has abandoned the commandments of Jehovah and followed the Baals.",
+    clueSource: "1 Kings 18:17, 18",
+    clueSourceContent:
+      "17 As soon as Ahab saw Elijah, he said to him: “Is this you, the one bringing great trouble on Israel?” 18 To this he said: “I have not brought trouble on Israel, but you and the house of your father have, by abandoning the commandments of Jehovah and by following the Baals.",
+    choiceA: "Abijah",
+    choiceB: "Joash",
+    choiceC: "Ahab",
+    choiceD: "Jeroboam",
+    correctAnswer: "C",
+  },
+  {
+    question:
+      "He was deceived by Haman, and gave the order to annihilate, to kill, and to destroy all the Jews in a single day.",
+    clueSource: "Esther 3:12, 13",
+    clueSourceContent:
+      "12 The king’s secretaries were then called on the 13th day of the first month. They put in writing all of Haman’s orders to the king’s satraps, the governors who were over the provinces, and the princes of the different peoples, to each province in its own script and to each people in its own language. It was written in the name of King Ahasuerus and sealed with the king’s signet ring. 13 The letters were sent by means of couriers to all the king’s provinces, giving the order to annihilate, to kill, and to destroy all the Jews, young and old alike, children and women, on a single day, on the 13th day of the 12th month, that is, the month of Adar, and to seize their possessions.",
+    choiceA: "Cyrus",
+    choiceB: "Ahasuerus",
+    choiceC: "Zedekiah",
+    choiceD: "Ahab",
+    correctAnswer: "B",
+  },
+  {
+    question: "This king's name came from the root meaning “peace”.",
+    clueSource: "Insight on the Scriptures pp. 986-993",
+    clueSourceContent:
+      "(Solʹo·mon) [from a root meaning “peace”]. Son of King David of the line of Judah; king of Israel from 1037 to 998 B.C.E.",
+    choiceA: "David",
+    choiceB: "Jesse",
+    choiceC: "Solomon",
+    choiceD: "Josiah",
+    correctAnswer: "C",
+  },
+  {
+    question:
+      "He was the grandson of Herod the Great who became ruler and reigned up to the time of the Jewish revolt against Rome.",
+    clueSource: "nwt Glossary",
+    clueSourceContent:
+      "The family name of a dynasty that ruled over the Jews by appointment from Rome. Herod the Great was famous for rebuilding the temple in Jerusalem and for ordering the slaughter of children in an attempt to destroy Jesus. (Mt 2:16; Lu 1:5) Herod Archelaus and Herod Antipas, sons of Herod the Great, were appointed over sections of their father’s domain. (Mt 2:22) Antipas was a tetrarch, popularly referred to as “king,” who ruled during Christ’s three-and-a-half-year ministry and through the period up to Acts chapter 12. (Mr 6:14-17; Lu 3:1, 19, 20; 13:31, 32; 23:6-15; Ac 4:27; 13:1) After that, Herod Agrippa I, grandson of Herod the Great, was executed by God’s angel after ruling for a short time. (Ac 12:1-6, 18-23) His son, Herod Agrippa II, became ruler and reigned up to the time of the Jewish revolt against Rome.​—Ac 23:35; 25:13, 22-27; 26:1, 2, 19-32.",
+    choiceA: "Herod Archelaus",
+    choiceB: "Herod Antipas",
+    choiceC: "Herod Agrippa I",
+    choiceD: "Herod Agrippa II",
+    correctAnswer: "D",
+  },
+  {
+    question:
+      "Who was famous for rebuilding the temple in Jerusalem and for ordering the slaughter of children in an attempt to destroy Jesus?",
+    clueSource: "nwt Glossary",
+    clueSourceContent:
+      "The family name of a dynasty that ruled over the Jews by appointment from Rome. Herod the Great was famous for rebuilding the temple in Jerusalem and for ordering the slaughter of children in an attempt to destroy Jesus. (Mt 2:16; Lu 1:5) Herod Archelaus and Herod Antipas, sons of Herod the Great, were appointed over sections of their father’s domain. (Mt 2:22) Antipas was a tetrarch, popularly referred to as “king,” who ruled during Christ’s three-and-a-half-year ministry and through the period up to Acts chapter 12. (Mr 6:14-17; Lu 3:1, 19, 20; 13:31, 32; 23:6-15; Ac 4:27; 13:1) After that, Herod Agrippa I, grandson of Herod the Great, was executed by God’s angel after ruling for a short time. (Ac 12:1-6, 18-23) His son, Herod Agrippa II, became ruler and reigned up to the time of the Jewish revolt against Rome.​—Ac 23:35; 25:13, 22-27; 26:1, 2, 19-32.",
+    choiceA: "Herod Archelaus",
+    choiceB: "Herod the Great",
+    choiceC: "Herod Agrippa I",
+    choiceD: "Pilate",
+    correctAnswer: "B",
+  },
+  {
+    question: "More than half of the Psalms are attributed to this king.",
+    clueSource: "Psalm 51 superscription",
+    clueSourceContent:
+      "To the director. A melody of David, when Nathan the prophet came in to him after David had relations with Bath-sheʹba.",
+    choiceA: "Moses",
+    choiceB: "David",
+    choiceC: "Solomon",
+    choiceD: "Saul",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "Abraham gave his 'tenth of everything' to this king of Salem, who was also the priest of the Most High God.",
+    clueSource: "Genesis 14:18-20",
+    clueSourceContent:
+      "18 And Melchizedek king of Salem brought out bread and wine; he was priest of the Most High God. 19 Then he blessed him and said: “Blessed be Abram by the Most High God, Maker of heaven and earth; 20 And praised be the Most High God, Who has handed your oppressors over to you!” And Abram gave him a tenth of everything.",
+    choiceA: "Melchizedek",
+    choiceB: "Aaron",
+    choiceC: "Moses",
+    choiceD: "Joseph",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "He was considered as the first king after the Flood. He also “became a mighty hunter in opposition to Jehovah.”",
+    clueSource: "Genesis 10:9",
+    clueSourceContent:
+      "He became a mighty hunter in opposition to Jehovah. That is why there is a saying: “Just like Nimrod, a mighty hunter in opposition to Jehovah.”",
+    choiceA: "Melchizedek",
+    choiceB: "Nimrod",
+    choiceC: "Esau",
+    choiceD: "Cain",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "He arrested John the Baptizer and had bound him in prison on account of Herodias, the wife of Philip his brother, because he had married her.",
+    clueSource: "Mark 6:14 study note",
+    clueSourceContent:
+      "King Herod: That is, Herod Antipas, son of Herod the Great. (See Glossary, “Herod.”) Matthew and Luke use Antipas’ official Roman title of “tetrarch,” or “district ruler.” (See study notes on Mt 14:1; Lu 3:1.) His tetrarchy consisted of Galilee and Perea. However, he was popularly referred to as “the king,” the title used once by Matthew (Mt 14:9) and the only title Mark uses with reference to Herod.​—Mr 6:22, 25, 26, 27.",
+    choiceA: "Herod the Great",
+    choiceB: "Herod Antipas",
+    choiceC: "Herod Agrippa",
+    choiceD: "Herod Archelaus",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "Jehovah God answered this king's prayer by sending an angel, wiping out 185,000 Assyrian soldiers their enemy.",
+    clueSource: "1 Chronicles 32:21, 22",
+    clueSourceContent:
+      "21 Then Jehovah sent an angel and wiped out every mighty warrior,a leader, and chief in the camp of the king of Assyria, so that he went back to his own land in disgrace. He later entered the house of his god, and there some of his own sons struck him down with the sword. 22 So Jehovah saved Hezekiah and the inhabitants of Jerusalem from the hand of King Sennacherib of Assyria and from the hand of all others and gave them rest on every side.",
+    choiceA: "Zedekiah",
+    choiceB: "Josiah",
+    choiceC: "Hezekiah",
+    choiceD: "Abijah",
+    correctAnswer: "",
+  },
+  {
+    question:
+      "He neglected the advice of the elders of Israel and followed his young friends’ advice instead.",
+    clueSource: "1 Kings 12:6-8",
+    clueSourceContent:
+      "6 King Rehoboam then consulted with the older men who had served his father Solomon while he was alive, saying: “What advice would you give on how to reply to this people?” 7 They answered him: “If today you would become a servant to this people and submit to their request and give them a favorable answer, they will always be your servants.” 8 However, he rejected the advice that the older men gave him, and he consulted with the young men who had grown up with him and who were now his attendants.",
+    choiceA: "Jeroboam",
+    choiceB: "Rehoboam",
+    choiceC: "Ahab",
+    choiceD: "Solomon",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "This king “was driven away from mankind, and he began to eat vegetation just like bulls.”",
+    clueSource: "Daniel 4:33",
+    clueSourceContent:
+      "At that moment the word was fulfilled on Nebuchadnezzar. He was driven away from mankind, and he began to eat vegetation just like bulls, and his body became wet with the dew of the heavens, until his hair grew long just like eagles’ feathers and his nails were like birds’ claws.",
+    choiceA: "Pharaoh",
+    choiceB: "Nebuchadnezzar",
+    choiceC: "Joseph",
+    choiceD: "Belshazzar",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "He is the king of Tyre that supplied all the timbers of cedar and juniper that Solomon desired.",
+    clueSource: "1 Kings 5:10",
+    clueSourceContent:
+      "So Hiʹram supplied all the timbers of cedar and juniper that Solʹo·mon desired.",
+    choiceA: "David",
+    choiceB: "Josiah",
+    choiceC: "Hiram",
+    choiceD: "Belshazzar",
+    correctAnswer: "C",
+  },
+  {
+    question: "He was just 7 years old when he reigned in Judah.",
+    clueSource: "2 Kings 11:21",
+    clueSourceContent: "Je·hoʹash was seven years old when he became king.",
+    choiceA: "Josiah",
+    choiceB: "Jehoash",
+    choiceC: "Hezekiah",
+    choiceD: "David",
+    correctAnswer: "B",
+  },
+  {
+    question: "He was just 8 years old when he reigned in Judah",
+    clueSource: "2 Kings 22:1",
+    clueSourceContent:
+      "Jo·siʹah was eight years old when he became king, and he reigned for 31 years in Jerusalem. His mother’s name was Je·diʹdah the daughter of A·daiʹah from Bozʹkath.",
+    choiceA: "Josiah",
+    choiceB: "Jehoash",
+    choiceC: "Hezekiah",
+    choiceD: "David",
     correctAnswer: "A",
   },
 ];

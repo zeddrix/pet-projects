@@ -52,7 +52,9 @@ a,
 #level,
 #okay-sm-btn,
 #yes-sm-btn,
-#no-sm-btn {
+#no-sm-btn,
+#level-number,
+#show-clue-container {
   cursor: pointer;
 }
 
@@ -178,6 +180,26 @@ a {
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+#show-clue-container {
+  position: fixed;
+}
+#show-clue-btn {
+  border: 2px solid lightgrey;
+  padding: 0.02em 0.5em;
+  margin: 0;
+  font-size: 1.5em;
+  /* text-align: center; */
+  position: relative;
+  color: lightgrey;
+}
+#show-clue-btn:hover {
+  border: 3px solid lightseagreen;
+  color: lightseagreen;
+}
+#scc {
+  padding-left: 20.5em;
+  text-align: right;
 }
 #timer {
   text-align: center;
