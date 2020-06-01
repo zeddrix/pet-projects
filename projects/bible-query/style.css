@@ -11,6 +11,16 @@ body {
   margin: 0;
 }
 
+hr {
+  border-top: 1px dotted lightgrey;
+  width: 20em;
+  
+}
+
+#hr-container {
+  text-align: center;
+}
+
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -20,8 +30,8 @@ body {
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
 
 /* Modal Body */
@@ -39,9 +49,54 @@ body {
   margin: auto;
   border: 0.3em solid rgb(90, 88, 88);
   border-radius: 0.1em;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   animation-name: zoomIn;
-  animation-duration: 0.1s
+  animation-duration: 0.1s;
+}
+
+/* Show clue modal */
+
+#show-clue-modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#show-clue-modal-effect {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: white;
+  margin: auto;
+  border-radius: 0.1em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  animation-name: zoomIn;
+  animation-duration: 0.1s;
+}
+
+#show-clue-source {
+  font-size: 1em;
+  color: #000;
+  text-align: left;
+  font-family: "Mukta Mahee", sans-serif;
+  padding-top: 0.7em;
+  margin-left: 0.4em;
+}
+
+#show-clue-source-content {
+  font-size: 1em;
+  font-family: NotoSans, Arial, "Arial Unicode MS", sans-serif;
+  color: black;
+  text-align: left;
+  height: 10em;
+  overflow: auto;
 }
 
 a,
@@ -54,7 +109,7 @@ a,
 #yes-sm-btn,
 #no-sm-btn,
 #level-number,
-#show-clue-container {
+#show-clue-btn {
   cursor: pointer;
 }
 
@@ -118,6 +173,7 @@ a {
 }
 #okay-sm-btn-container {
   text-align: center;
+  margin: 0.5em;
 }
 #yes-sm-btn {
   margin: 10px;
@@ -181,15 +237,11 @@ a {
   justify-content: center;
   flex-direction: column;
 }
-#show-clue-container {
-  position: fixed;
-}
 #show-clue-btn {
   border: 2px solid lightgrey;
   padding: 0.02em 0.5em;
   margin: 0;
   font-size: 1.5em;
-  /* text-align: center; */
   position: relative;
   color: lightgrey;
 }
@@ -197,9 +249,11 @@ a {
   border: 3px solid lightseagreen;
   color: lightseagreen;
 }
-#scc {
-  padding-left: 20.5em;
+#show-clue-btn-container {
+  padding-left: 20.3em;
+  padding-top: 9.3em;
   text-align: right;
+  position: absolute;
 }
 #timer {
   text-align: center;
@@ -316,7 +370,7 @@ a {
     width: 20em;
     padding: 1.2em 3em;
     margin: 0.3em 0em;
-    border: 0.3em solid grey;
+    border: 0.1em solid lightgrey;
     border-radius: 0.3em;
   }
   #progress-container {
@@ -444,7 +498,7 @@ a {
     width: 15.5em;
     padding: 1.2em 3em;
     margin: 0.3em 0em;
-    border: 0.3em solid grey;
+    border: 0.3em solid lightgrey;
     border-radius: 0.3em;
   }
   .choice:active {
@@ -563,6 +617,9 @@ a {
     padding: 0;
     width: 20%;
   }
+  #show-clue-modal-effect {
+    width: 22%;
+  }
   /* levels */
   #stars {
     font-size: 2em;
@@ -597,7 +654,7 @@ a {
     margin: 0.3em 0em;
   }
   .choice:hover {
-    border: 0.4em solid rgb(165, 42, 42);
+    border: 0.2em solid lightseagreen;
     font-weight: bold;
   }
   #progress-container {

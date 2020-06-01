@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta+Mahee:wght@300&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
@@ -111,10 +112,8 @@
           <div id="level-theme">level theme here</div>
           <div class="question-container">
             <div id="question"></div>
-            <div id="scc">
-              <div id="show-clue-container">
+              <div id="show-clue-btn-container">
                 <div onclick="showClueModal()" id="show-clue-btn">?</div>
-              </div>
             </div>
           </div>
           <div id="timer">
@@ -144,13 +143,17 @@
           </div>
         </div>
         <div id="show-clue-modal" class="modal">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h2>Bible verse</h2>
+          <div id="show-clue-modal-effect">
+            <div id="show-clue-source">
+              <h2>Clue Source Lorem Ipsum</h2>
             </div>
-            <div class="modal-body">
-              <p id="show-clue">This is the content of the Bible verse.</p>
+            <div id="hr-container">
+              <hr>
             </div>
+            <div id="show-clue-source-content-container">
+              <p id="show-clue-source-content">This is the content of the clue. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad doloribus culpa quas aperiam esse debitis illo deleniti laboriosam quia, tenetur veniam consectetur, corrupti libero consequuntur ipsum voluptatem. Esse, accusamus voluptatem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus in neque ipsam qui laboriosam excepturi sint laborum. Recusandae doloribus, laudantium sapiente aperiam eos tempora quo corporis minus non a reprehenderit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet fugit esse numquam! Illo illum vero, est fugiat impedit aliquid beatae ipsa consequatur dolore? Repellat nam aut id! Dolorum, ipsam recusandae?</p>
+            </div>
+            
             <div id="okay-sm-btn-container">
                 <img
                 src="img/okay-sm-btn.jpg"

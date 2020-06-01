@@ -1,14 +1,4 @@
 const men = [
-  // {
-  //     question: ,
-  //     clueSource: ,
-  //     clueSourceContent: ,
-  //     choiceA : ,
-  //     choiceB: ,
-  //     choiceC: ,
-  //     choiceD: ,
-  //     correctAnswer :
-  // },
   {
     question: "Who asked the Israelites to separate from their foreign wives?",
     clueSource: "Ezra 10:10, 11",
@@ -949,3 +939,14 @@ const numbersAndDates = [
     correctAnswer: "D",
   },
 ];
+
+// {
+//   question: "",
+//   clueSource: "",
+//   clueSourceContent: "",
+//   choiceA: "",
+//   choiceB: "",
+//   choiceC: "",
+//   choiceD: "",
+//   correctAnswer: "",
+// },
