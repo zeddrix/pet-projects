@@ -1,0 +1,288 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: white;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+hr {
+  border-top: 1px dotted lightgrey;
+  width: 20em;
+}
+
+#hr-container {
+  text-align: center;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Body */
+.modal-body {
+  padding: 2px 16px;
+  color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: grey;
+  margin: auto;
+  border: 0.3em solid rgb(90, 88, 88);
+  border-radius: 0.1em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  animation-name: zoomIn;
+  animation-duration: 0.1s;
+}
+
+/* Show clue modal */
+
+#show-clue-modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#show-clue-modal-effect {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: white;
+  margin: auto;
+  border-radius: 0.1em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  animation-name: zoomIn;
+  animation-duration: 0.1s;
+}
+
+#show-clue-source {
+  font-size: 1em;
+  color: #000;
+  text-align: left;
+  font-family: "Mukta Mahee", sans-serif;
+  padding-top: 0.7em;
+  margin-left: 0.4em;
+}
+
+#show-clue-source-content {
+  font-size: 1em;
+  font-family: NotoSans, Arial, "Arial Unicode MS", sans-serif;
+  color: black;
+  text-align: left;
+  height: 10em;
+  overflow: auto;
+}
+
+a,
+.long-btn:hover,
+.button:hover,
+.choice,
+.sm-btn,
+#level,
+#okay-sm-btn,
+#yes-sm-btn,
+#no-sm-btn,
+#level-number,
+#show-clue-btn {
+  cursor: pointer;
+}
+
+#bible-query-title {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  /* heading on levels. Centered */
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(81, 220, 245);
+}
+
+.bk-img {
+  background: url(../img/bk-img.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+.outer-container {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  padding: 0em;
+  border-top: 0;
+  border-bottom: 0;
+  border-style: solid;
+  text-align: left;
+  /* box-shadow: 0px 5px 15px 0px; */
+  position: relative;
+  overflow: auto;
+}
+
+#long-btn-container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.long-btn {
+  max-width: 100%;
+  display: flex;
+  align-self: center;
+  /* remove the blue line around the button upon clicking */
+  border: 0;
+  text-decoration: none;
+  outline: none;
+}
+#okay-sm-btn {
+  margin: 10px;
+  width: 25%;
+  border: 0;
+  text-decoration: none;
+  outline: none;
+}
+#okay-sm-btn-container {
+  text-align: center;
+  margin: 0.5em;
+}
+#yes-sm-btn {
+  margin: 10px;
+  width: 25%;
+  border: 0;
+  text-decoration: none;
+  outline: none;
+}
+#no-sm-btn {
+  margin: 10px;
+  width: 25%;
+  border: 0;
+  text-decoration: none;
+  outline: none;
+}
+#quit-sm-btns-container {
+  text-align: center;
+}
+.sm-btn {
+  margin: 10px;
+  width: 25%;
+  border: 0;
+  text-decoration: none;
+  outline: none;
+}
+.centered-sm-btns {
+  text-align: center;
+}
+
+/* settings back button */
+#settings-btns {
+  text-align: center;
+}
+#rules-table-container {
+  text-align: center;
+}
+#rules-table-img {
+  padding: 1em;
+  width: 90%;
+}
+
+#level-number {
+  font-weight: bolder;
+  border: 2px solid lightgrey;
+  text-align: center;
+  position: absolute;
+  color: lightgrey;
+}
+#level-number:hover {
+  border: 3px solid lightseagreen;
+  color: lightseagreen;
+}
+
+#query-block {
+  display: flex;
+  text-align: center;
+}
+.question-container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#show-clue-btn {
+  border: 2px solid lightgrey;
+  padding: 0.02em 0.5em;
+  margin: 0;
+  font-size: 1.5em;
+  position: relative;
+  color: lightgrey;
+}
+#show-clue-btn:hover {
+  border: 3px solid lightseagreen;
+  color: lightseagreen;
+}
+#show-clue-btn-container {
+  padding-left: 20.3em;
+  padding-top: 9.3em;
+  text-align: right;
+  position: absolute;
+}
+#timer {
+  text-align: center;
+}
+#counter {
+  font-size: 0;
+  padding: 1em;
+}
+#timeGauge {
+  height: 0.8em;
+  border-radius: 1em;
+  background-color: white;
+  margin: 0.1em;
+}
+#choices-container {
+  padding: 0;
+}
+.choice {
+  text-align: center;
+  display: inline-block;
+}
+#progress {
+  width: 100%;
+  text-align: center;
+}
+.progress {
+  border: 1px solid #000;
+  display: inline-block;
+  border-radius: 40%;
+}
+#final-score {
+  text-align: center;
+}
