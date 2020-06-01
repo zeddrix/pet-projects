@@ -30,7 +30,7 @@
   }
   p {
     font-size: 0.9em;
-    margin-left: 0.3em;
+    margin: 0em 0.3em;
   }
   .long-btn {
     padding: 0.1em 0;
@@ -147,101 +147,111 @@
 
 /* ----------- Galaxy S4, S5 and Note 3 ----------- */
 @media screen and (min-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
-  h1 {
-    font-size: 5em;
+  #settings-btns,
+  #levels-sm-btns,
+  #query-menu-btns,
+  #final-score-menu-btns {
+    padding-bottom: 2.2em;
   }
-  h2 {
-    font-size: 3em;
-    margin-left: 0.6em;
+  h1 {
+    font-size: 2em;
+  }
+  #bible-query-title {
+    font-size: 2.5em;
+    margin: 0.2em 0em;
   }
   p {
     font-size: 0.9em;
-    margin: 1.5em;
+    margin: 0em 0.6em;
   }
   .long-btn {
-    padding: 0.5em 0;
-  }
-  input {
-    width: 3.5em;
-    height: 3.5em;
-    margin-left: 2em;
-    margin-right: 1em;
-  }
-  label {
-    font-size: 4em;
-  }
-  #bible-query-title {
-    font-size: 6.5em;
-    margin: 0.2em 0em;
+    padding: 0.1em 0;
   }
   #long-btn-container {
-    width: 67%;
-    margin-bottom: 11em;
+    width: 80%;
   }
+  /* settings */
+  input {
+    width: 1em;
+    height: 1em;
+    margin-left: 0.5em;
+  }
+  label {
+    font-size: 1em;
+  }
+  h2 {
+    font-size: 1.3em;
+    margin-left: 0.3em;
+  }
+  #settings-btns {
+    padding-top: 10.7em;
+  }
+  /* levels */
   #stars {
-    font-size: 3em;
+    font-size: 1em;
   }
   #level-number {
-    font-size: 5em;
+    font-size: 1.5em;
     padding: 0.1em 0.5em;
     margin: 1em;
   }
   #levels-sm-btns {
-    padding-top: 68em;
-    padding-bottom: 8em;
+    padding-top: 24.5em;
   }
   /* query */
   #level-theme {
-    font-size: 2em;
-    padding: 1.3em;
+    font-size: 1em;
   }
   #question {
-    font-size: 2.8em;
+    font-size: 1.3em;
   }
   .question-container {
-    height: 30em;
-    margin: 0em 2em;
-  }
-  .choice {
-    font-size: 2.5em;
-    width: 15.5em;
-    padding: 1.2em 3em;
-    margin: 0.3em 0em;
-    border: 0.3em solid lightgrey;
+    height: 10em;
+    margin: 0em 0.5em;
+    border: 0.2em solid rgb(10, 66, 63);
     border-radius: 0.3em;
   }
-  .choice:active {
-    border: 0.5em solid rgb(165, 42, 42);
-    font-weight: bold;
+  #show-clue-btn-container {
+    padding-top: 7.4em;
+    padding-left: 18.2em;
+  }
+  #show-clue-btn {
+    border: 2.5px solid rgb(177, 15, 15);
+    padding: 0.2em 0.7em;
+    font-size: 1.2em;
+  }
+  #show-clue-modal {
+    padding-top: 4.5em;
+  }
+  .choice {
+    font-size: 1em;
+    width: 15em;
+    padding: 0.8em 3em;
+    margin: 0.3em 0em;
+    border: 0.1em solid lightgrey;
+    border-radius: 0.3em;
   }
   #progress-container {
-    padding-top: 1em;
+    padding: 0.1em;
+    margin-top: 0;
+    padding-top: 0;
   }
   .progress {
-    width: 2.4em;
-    height: 2.4em;
-    margin-left: 1px;
-    margin-right: 1px;
+    width: 0.9em;
+    height: 0.9em;
+    margin-left: 0.5px;
+    margin-right: 0.5px;
   }
   #query-menu-btns {
-    padding-top: 0.5em;
-    padding-bottom: 8em;
+    padding-top: 2.4em;
     width: 100%;
     text-align: center;
   }
   #final-score {
-    padding: 15em 0em 25em;
+    padding: 9em 0 0;
   }
   #score-phrase-1 {
-    font-size: 7em;
-    font-family: "Architects Daughter", cursive;
-  }
-  #score-phrase-2 {
     font-size: 3em;
-    font-family: "Architects Daughter", cursive;
-  }
-  #final-score-percentage {
-    font-size: 7em;
     font-family: "Architects Daughter", cursive;
     padding: 0em;
     margin: 0em;
@@ -249,30 +259,21 @@
   #final-score-img {
     width: 90%;
   }
+  #final-score-percentage {
+    font-size: 2.5em;
+    font-family: "Architects Daughter", cursive;
+    padding: 0em;
+    margin: 0em;
+  }
+  #score-phrase-2 {
+    font-size: 1.2em;
+    font-family: "Architects Daughter", cursive;
+    margin: 0em;
+  }
   #final-score-menu-btns {
-    padding-top: 0.5em;
-    padding-bottom: 7em;
+    padding-top: 7.8em;
     width: 100%;
     text-align: center;
-  }
-  #ads {
-    font-size: 2em;
-    padding: 0.5em;
-  }
-  /* settings */
-  #learn-more {
-    font-size: 3em;
-    padding: 0em;
-    margin: 0.5em;
-  }
-  #language-header {
-    font-size: 4em;
-    padding-bottom: 0em;
-    margin-bottom: 0em;
-  }
-  #settings-btns {
-    padding-top: 22em;
-    padding-bottom: 8em;
   }
 }
 
