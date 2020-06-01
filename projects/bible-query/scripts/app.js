@@ -8,7 +8,7 @@ const aboutBlock = document.getElementById("about-block");
 const tellYourFriendsModal = document.getElementById("tell-your-friends-modal");
 const quitModal = document.getElementById("quit-modal");
 const resetGameModal = document.getElementById("reset-game-modal");
-const clueModal = document.getElementById("show-clue-modal");
+const clueModal = document.getElementById("clue-modal");
 // QUERY
 const queryBlock = document.getElementById("query-block");
 const question = document.getElementById("question");
@@ -210,7 +210,7 @@ const renderQuestion = () => {
 
   question.innerHTML = "<p>" + q.question + "</p>";
   clueSource.innerHTML = "<h2>" + q.clueSource + "</h2>";
-  clueSourceContent.innerHTML = q.clueSourceContent;
+  clueSourceContent.innerHTML = "<p>" + q.clueSourceContent + "</p>";
   choiceA.innerHTML = q.choiceA;
   choiceB.innerHTML = q.choiceB;
   choiceC.innerHTML = q.choiceC;

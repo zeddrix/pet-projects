@@ -95,9 +95,9 @@ const men = [
   {
     question:
       "Who became hot with anger with Jehovah for not destroying Nineveh?",
-    clueSource: "Jonah 1:17",
+    clueSource: "Jonah 4:1-3",
     clueSourceContent:
-      "17 Jehovah now sent a huge fish to swallow Joʹnah, so that Joʹnah came to be in the belly of the fish for three days and three nights.",
+      "But this was highly displeasing to Joʹnah, and he became hot with anger. 2  So he prayed to Jehovah: “Ah, now, Jehovah, was this not my concern when I was in my own land? That is why I tried to flee to Tarʹshish in the first place; for I knew that you are a compassionate and merciful God, slow to anger and abundant in loyal love, one who feels grieved over calamity. 3 Now, O Jehovah, please take away my life, for it is better for me to die than to live.”",
     choiceA: "Jonah",
     choiceB: "Jeremias",
     choiceC: "Ezra",

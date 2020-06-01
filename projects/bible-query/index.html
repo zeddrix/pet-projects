@@ -55,42 +55,42 @@
         </div>
             <!-- TELL YOUR FRIENDS -->
             <div id="tell-your-friends-modal" class="modal">
-              <div class="modal-content">
-                <div class="modal-body">
+              <div class="modal-effect">
+                <div class="modal-content">
                   <p>You are now temporarily leaving the game to send a recommendation using your preferred messaging application.</p>
                 </div>
                 <div id="okay-sm-btn-container">
-                    <img
-                    src="img/okay-sm-btn.jpg"
-                    id="okay-sm-btn"
-                    class="no-outline"
-                    onclick="closeTellYourFriendsModal()"
-                  />
+                  <img
+                  src="img/okay-sm-btn.jpg"
+                  id="okay-sm-btn"
+                  class="no-outline"
+                  onclick="closeTellYourFriendsModal()"/>
                 </div>
               </div>
             </div>
             <!-- QUIT -->
             <div id="quit-modal" class="modal">
-              <div class="modal-content">
-                <div class="modal-body">
+              <div class="modal-effect">
+                <div class="modal-content">
                   <p>Are you sure you want to quit?</p>
                 </div>
-                <div id="quit-sm-btns-container">
+                <div id="okay-sm-btn-container">
+                  <div id="quit-sm-btns-container">
                     <img
                     src="img/yes-sm-btn.jpg"
                     id="yes-sm-btn"
                     class="no-outline"
-                    onclick="confirmQuit()"
-                  />
+                    onclick="confirmQuit()"/>
                   <img
                     src="img/no-sm-btn.jpg"
                     id="no-sm-btn"
                     class="no-outline"
-                    onclick="closeQuitModal()"
-                  />
+                    onclick="closeQuitModal()"/>
+                  </div>
                 </div>
               </div>
-            </div>
+            </div>    
+          </div>
 
         <!-- Upon clicking PLAY -->
         <div id="levels-block" style="display: none;">
@@ -146,23 +146,17 @@
             />
           </div>
         </div>
-        <div id="show-clue-modal" class="modal">
-          <div id="show-clue-modal-effect">
-              <h2 id="clue-source">Clue Source Lorem Ipsum</h2>
-            <div id="hr-container">
-              <hr>
-            </div>
-            <div id="clue-source-content-container">
-              <p id="clue-source-content">This is the content of the clue. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad doloribus culpa quas aperiam esse debitis illo deleniti laboriosam quia, tenetur veniam consectetur, corrupti libero consequuntur ipsum voluptatem. Esse, accusamus voluptatem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus in neque ipsam qui laboriosam excepturi sint laborum. Recusandae doloribus, laudantium sapiente aperiam eos tempora quo corporis minus non a reprehenderit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet fugit esse numquam! Illo illum vero, est fugiat impedit aliquid beatae ipsa consequatur dolore? Repellat nam aut id! Dolorum, ipsam recusandae?</p>
-            </div>
-            
+        <div id="clue-modal" class="modal">
+          <div class="modal-effect">
+            <div id="clue-source"></div>
+            <div id="hr-container"><hr></div>
+            <div id="clue-source-content"></div>
             <div id="okay-sm-btn-container">
-                <img
-                src="img/okay-sm-btn.jpg"
-                id="okay-sm-btn"
-                class="no-outline"
-                onclick="closeClueModal()"
-              />
+              <img
+              src="img/okay-sm-btn.jpg"
+              id="okay-sm-btn"
+              class="no-outline"
+              onclick="closeClueModal()"/>
             </div>
           </div>
         </div>
@@ -227,26 +221,26 @@
         </div>
         <!-- RESET GAME -->
         <div id="reset-game-modal" class="modal">
-          <div class="modal-content">
-            <div class="modal-body">
+          <div class="modal-effect">
+            <div class="modal-content">
               <p>This means clearing all the data of the game! Are you sure you want to continue this procedure?</p>
             </div>
-            <div id="reset-game-container">
+            <div id="okay-sm-btn-container">
+              <div id="reset-game-container">
                 <img
                 src="img/yes-sm-btn.jpg"
                 id="yes-sm-btn"
                 class="no-outline"
-                onclick="confirmResetGame()"
-              />
+                onclick="confirmResetGame()"/>
               <img
                 src="img/no-sm-btn.jpg"
                 id="no-sm-btn"
                 class="no-outline"
-                onclick="closeResetGameModal()"
-              />
+                onclick="closeResetGameModal()"/>
+              </div>
             </div>
           </div>
-        </div>
+        </div> 
         <!-- Upon clicking on RULES -->
         <div id="rules-block" style="display: none;">
           <h1>GAME RULES</h1>
