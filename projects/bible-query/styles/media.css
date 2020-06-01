@@ -25,7 +25,7 @@
     font-size: 2em;
   }
   #bible-query-title {
-    font-size: 1.9em;
+    font-size: 2em;
     margin: 0.2em 0em;
   }
   p {
@@ -74,21 +74,34 @@
     font-size: 1em;
   }
   .question-container {
-    height: 7em;
+    height: 8em;
     margin: 0em 0.5em;
     border-radius: 0.3em;
   }
   #show-clue-btn-container {
-    padding-top: 5.3em;
-    padding-left: 13.7em;
+    padding-top: 5.7em;
+    padding-left: 12.5em;
   }
   #show-clue-btn {
-    border: 2px solid rgb(177, 15, 15);
-    padding: 0em 0.5em;
+    border: 2.5px solid rgb(177, 15, 15);
+    padding: 0.2em 0.7em;
+    font-size: 1.2em;
+  }
+  .modal {
+    padding-top: 7em;
+  }
+  #clue-source {
+    font-size: 1em;
+    margin-left: 0.4em;
+    padding-top: 0.7em;
+  }
+  #clue-source-content {
+    max-height: 5em;
     font-size: 1em;
   }
-  #show-clue-modal {
-    padding-top: 4.5em;
+  .modal-content {
+    padding: 3em 1em 1em;
+    font-size: 1.1em;
   }
   .choice {
     font-size: 0.8em;
