@@ -242,7 +242,7 @@ const women = [
     question: "What is the name of Isaac’s wife?",
     clueSource: "Genesis 24:67",
     clueSourceContent:
-      "After that Isaac brought her into the tent of Sarah his mother. Thus he took Rebekah as his wife; and he fell in love with her, and Isaac found comfort after the loss of his mother.",
+      "67 After that Isaac brought her into the tent of Sarah his mother. Thus he took Re·bekʹah as his wife; and he fell in love with her, and Isaac found comfort after the loss of his mother.",
     choiceA: "Rachel",
     choiceB: "Rebekah",
     choiceC: "Sarah",
@@ -253,7 +253,7 @@ const women = [
     question:
       "She is one of Jacob’s wives and her sons were Joseph and Benjamin.",
     clueSource: "Genesis 35:24",
-    clueSourceContent: "The sons by Rachel were Joseph and Benjamin.",
+    clueSourceContent: "24 The sons by Rachel were Joseph and Benjamin.",
     choiceA: "Leah",
     choiceB: "Bilhah",
     choiceC: "Zilpah",
@@ -264,7 +264,7 @@ const women = [
     question: "Who became Boaz’s wife?",
     clueSource: "Ruth 4:13",
     clueSourceContent:
-      "So Boaz took Ruth and she became his wife. He had relations with her, and Jehovah let her conceive and she gave birth to a son.",
+      "13 So Boʹaz took Ruth and she became his wife. He had relations with her, and Jehovah let her conceive and she gave birth to a son.",
     choiceA: "Naomi",
     choiceB: "Ruth",
     choiceC: "Sarah",
@@ -276,7 +276,7 @@ const women = [
       "Her son, Solomon, replaced her husband David to rule as king in Israel.",
     clueSource: "1 Kings 1:11",
     clueSourceContent:
-      "Nathan then said to Bathsheba, Solomon’s mother: “Have you not heard that Adonijah the son of Haggith has become king, and our lord David does not know anything about it?”",
+      "11 Nathan then said to Bath-sheʹba, Solʹo·mon’s mother: “Have you not heard that Ad·o·niʹjah the son of Hagʹgith has become king, and our lord David does not know anything about it?”",
     choiceA: "Ahinoam",
     choiceB: "Abigail",
     choiceC: "Bath-sheba",
@@ -288,7 +288,7 @@ const women = [
       "Who said this to Jesus: “Lord, does it not matter to you that my sister has left me alone to attend to things? Tell her to come and help me.”",
     clueSource: "Luke 10:40",
     clueSourceContent:
-      "Martha, on the other hand, was distracted with attending to many duties. So she came to him and said: “Lord, does it not matter to you that my sister has left me alone to attend to things? Tell her to come and help me.”",
+      "40 Martha, on the other hand, was distracted with attending to many duties. So she came to him and said: “Lord, does it not matter to you that my sister has left me alone to attend to things? Tell her to come and help me.”",
     choiceA: "Mary",
     choiceB: "The Samaritan Woman",
     choiceC: "Martha",
@@ -299,7 +299,7 @@ const women = [
     question: "She was mistreated by Peninnah for being barren.",
     clueSource: "1 Samuel 1:4-6",
     clueSourceContent:
-      "4 One day when Elkanah offered a sacrifice, he gave portions to his wife Peninnah as well as to all her sons and her daughters, 5 but to Hanʹnah he gave a special portion, because Hanʹnah was the one he loved; but Jehovah had not given her children. 6 Moreover, her rival wife taunted her relentlessly in order to upset her because Jehovah had not given her children.",
+      "4 One day when El·kaʹnah offered a sacrifice, he gave portions to his wife Pe·ninʹnah as well as to all her sons and her daughters, 5  but to Hanʹnah he gave a special portion, because Hanʹnah was the one he loved; but Jehovah had not given her children. 6  Moreover, her rival wife taunted her relentlessly in order to upset her because Jehovah had not given her children.",
     choiceA: "Dinah",
     choiceB: "Hannah",
     choiceC: "Penninah",
@@ -311,7 +311,7 @@ const women = [
       "Her house, which was on the wall, remained standing after the fall of the walls of Jericho.",
     clueSource: "Joshua 6:23",
     clueSourceContent:
-      "So the young spies went in and brought out Rahab, along with her father, her mother, her brothers, and all who belonged to her; yes, they brought out her whole family, and they brought them safely to a place outside the camp of Israel.",
+      "23 So the young spies went in and brought out Raʹhab, along with her father, her mother, her brothers, and all who belonged to her; yes, they brought out her whole family, and they brought them safely to a place outside the camp of Israel.",
     choiceA: "Deborah",
     choiceB: "Rahab",
     choiceC: "Jael",
@@ -319,10 +319,10 @@ const women = [
     correctAnswer: "B",
   },
   {
-    question: "She is the mother-in-law of Ruth.",
+    question: "Who was the mother-in-law of Ruth?",
     clueSource: "Ruth 3:1",
     clueSourceContent:
-      "Naomi, her mother-in-law, now said to her: “My daughter, should I not look for a home for you, so that it may go well with you?”",
+      "Na·oʹmi, her mother-in-law, now said to her: “My daughter, should I not look for a home for you, so that it may go well with you? 2 Is not Boʹaz our relative? He is the one whose young women you were with. Tonight he is winnowing barley at the threshing floor.”",
     choiceA: "Orpah",
     choiceB: "Sarah",
     choiceC: "Naomi",
@@ -333,7 +333,7 @@ const women = [
     question: "She got her name from her husband.",
     clueSource: "Genesis 3:20",
     clueSourceContent:
-      "After this Adam named his wife Eve, because she was to become the mother of everyone living.",
+      "20 After this Adam named his wife Eve, because she was to become the mother of everyone living.",
     choiceA: "Eve",
     choiceB: "Sarah",
     choiceC: "Priscilla",
@@ -344,7 +344,7 @@ const women = [
     question: "She is Rebekah’s mother-in-law. She is also Lot’s aunt.",
     clueSource: "Genesis 24:67",
     clueSourceContent:
-      "After that Isaac brought her into the tent of Sarah his mother. Thus he took Rebekah as his wife; and he fell in love with her, and Isaac found comfort after the loss of his mother.",
+      "67 After that Isaac brought her into the tent of Sarah his mother. Thus he took Re·bekʹah as his wife; and he fell in love with her, and Isaac found comfort after the loss of his mother.",
     choiceA: "Rachel",
     choiceB: "Leah",
     choiceC: "Sarah",
@@ -356,7 +356,7 @@ const women = [
       "She is a prophetess who joined Barak in a war with the Canaanites.",
     clueSource: "Judges 4:9",
     clueSourceContent:
-      "To this she said: “I will certainly go with you. However, the campaign you are going on will not bring you glory, for it will be into the hand of a woman that Jehovah will give Sisera.” Then Deborah got up and went with Barak to Kedesh.",
+      "9 To this she said: “I will certainly go with you. However, the campaign you are going on will not bring you glory, for it will be into the hand of a woman that Jehovah will give Sisʹe·ra.” Then Debʹo·rah got up and went with Baʹrak to Keʹdesh.",
     choiceA: "Dinah",
     choiceB: "Jael",
     choiceC: "Deborah",
@@ -368,7 +368,7 @@ const women = [
       "She is a seller of purple from the city of Thyatira, and paid attention to the things Paul was saying.",
     clueSource: "Acts 16:14",
     clueSourceContent:
-      "And a woman named Lydia, a seller of purple from the city of Thyatira and a worshipper of God, was listening, and Jehovah opened her heart wide to pay attention to the things Paul was saying.",
+      "14 And a woman named Lydʹi·a, a seller of purple from the city of Thy·a·tiʹra and a worshipper of God, was listening, and Jehovah opened her heart wide to pay attention to the things Paul was saying.",
     choiceA: "Priscilla",
     choiceB: "Lois",
     choiceC: "Eunice",
@@ -391,7 +391,7 @@ const women = [
     question: "Her priestly father Jethro gave her in marriage to Moses.",
     clueSource: "Exodus 2:21",
     clueSourceContent:
-      "After that Moses consented to stay with the man, and he gave his daughter Zipporah to Moses in marriage.",
+      "21 After that Moses consented to stay with the man, and he gave his daughter Zip·poʹrah to Moses in marriage.",
     choiceA: "Miriam",
     choiceB: "Zipporah",
     choiceC: "Gershom",
@@ -400,10 +400,10 @@ const women = [
   },
   {
     question: "Jehovah used apostle Peter to raise her up from the dead.",
-    clueSource: "Acts 9:39, 40",
+    clueSource: "Acts 9:36-40",
     clueSourceContent:
-      "39 At that Peter got up and went with them. And when he arrived, they led him up into the upper room; and all the widows presented themselves to him, weeping and showing many garments and robes that Dorcas had made while she was with them. 40 Peter then put everyone outside, and kneeling down, he prayed. Then turning toward the body, he said: “Tabitha, rise!” She opened her eyes, and as she caught sight of Peter, she sat up.",
-    choiceA: "Tabitha (Dorcas)",
+      "36 Now there was in Jopʹpa a disciple named Tabʹi·tha, which means, when translated, “Dorʹcas.” She abounded in good deeds and gifts of mercy that she was making. 37  But in those days she fell sick and died. So they bathed her and laid her in an upper room. 38  Since Lydʹda was near Jopʹpa, when the disciples heard that Peter was in that city, they sent two men to him to urge him: “Please come to us without delay.” 39  At that Peter got up and went with them. And when he arrived, they led him up into the upper room; and all the widows presented themselves to him, weeping and showing many garments and robes that Dorʹcas had made while she was with them. 40  Peter then put everyone outside, and kneeling down, he prayed. Then turning toward the body, he said: “Tabʹi·tha, rise!” She opened her eyes, and as she caught sight of Peter, she sat up.",
+    choiceA: "Dorcas",
     choiceB: "Lois",
     choiceC: "Eunice",
     choiceD: "Martha",
@@ -414,7 +414,7 @@ const women = [
       "Her first husband was harsh and behaved badly. But her second husband was a good king.",
     clueSource: "1 Samuel 25:39",
     clueSourceContent:
-      "When David heard that Nabal had died, he said: “Praise Jehovah, who has pleaded my case of reproach from Nabal and has kept his servant from doing anything bad, and Jehovah has brought the badness of Nabal back on his own head!” Then David sent word to propose to Abigail to take her as his wife.",
+      "39 When David heard that Naʹbal had died, he said: “Praise Jehovah, who has pleaded my case of reproach from Naʹbal and has kept his servant from doing anything bad, and Jehovah has brought the badness of Naʹbal back on his own head!” Then David sent word to propose to Abʹi·gail to take her as his wife.",
     choiceA: "Michal",
     choiceB: "Ahinoam",
     choiceC: "Abigail",
@@ -426,7 +426,7 @@ const women = [
       "She replaced Persian Queen Vashti. She is also known as “Hadassah”.",
     clueSource: "Esther 2:7",
     clueSourceContent:
-      "He was the guardian of Hadassah, that is, Esther, the daughter of his father’s brother, for she had neither father nor mother. The young woman was beautifully formed and attractive in appearance, and at the death of her father and her mother, Mordecai took her as his daughter.",
+      "7 He was the guardian of Ha·dasʹsah, that is, Esther, the daughter of his father’s brother, for she had neither father nor mother. The young woman was beautifully formed and attractive in appearance, and at the death of her father and her mother, Morʹde·cai took her as his daughter.",
     choiceA: "Hagar",
     choiceB: "Esther",
     choiceC: "Jezebel",
@@ -438,7 +438,7 @@ const women = [
       "Who plotted against Naboth and got him stoned to death to get his vineyard for her husband, Ahab?",
     clueSource: "1 Kings 21:7-10",
     clueSourceContent:
-      "His wife Jezebel said to him: “Are you not the one ruling as king over Israel? Get up, eat something, and let your heart be cheerful. I will give you the vineyard of Naboth the Jezreelite.” 8 So she wrote letters in Ahab’s name and sealed them with his seal and sent the letters to the elders and the nobles who lived in Naboth’s city. 9 She wrote in the letters: “Proclaim a fast, and have Naboth sit at the head of the people. 10 And have two good-for-nothing men sit in front of him and testify against him, saying, ‘You have cursed God and the king!’ Then bring him out and stone him to death.”",
+      "7 His wife Jezʹe·bel said to him: “Are you not the one ruling as king over Israel? Get up, eat something, and let your heart be cheerful. I will give you the vineyard of Naʹboth the Jezʹre·el·ite.” 8  So she wrote letters in Aʹhab’s name and sealed them with his seal and sent the letters to the elders and the nobles who lived in Naʹboth’s city. 9  She wrote in the letters: “Proclaim a fast, and have Naʹboth sit at the head of the people. 10  And have two good-for-nothing men sit in front of him and testify against him, saying, ‘You have cursed God and the king!’ Then bring him out and stone him to death.”",
     choiceA: "Jehoiada",
     choiceB: "Jezebel",
     choiceC: "Athalia",
@@ -450,7 +450,7 @@ const women = [
       "Jehovah God struck her with leprosy for speaking against Moses because of the Cushite wife he had married.",
     clueSource: "Numbers 12:10",
     clueSourceContent:
-      "The cloud moved away from over the tent, and look! Miriam was struck with leprosy as white as snow. Then Aaron turned toward Miriam, and he saw that she was struck with leprosy.",
+      "10 The cloud moved away from over the tent, and look! Mirʹi·am was struck with leprosy as white as snow. Then Aaron turned toward Mirʹi·am, and he saw that she was struck with leprosy.",
     choiceA: "Hannah",
     choiceB: "Miriam",
     choiceC: "The daughter of Pharaoh",
@@ -462,7 +462,7 @@ const women = [
       "She is Jacob’s daughter by Leah who used to go out to spend time with the young women of Canaan.",
     clueSource: "Genesis 34:1",
     clueSourceContent:
-      "Now Dinah, Jacob’s daughter by Leah, used to go out to spend time with the young women of the land.",
+      "Now Diʹnah, Jacob’s daughter by Leʹah, used to go out to spend time with the young women of the land.",
     choiceA: "Dinah",
     choiceB: "Hannah",
     choiceC: "Penninah",
