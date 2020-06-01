@@ -169,7 +169,7 @@ a {
   animation-name: zoomIn;
   animation-duration: 0.1s;
 }
-#show-clue-source {
+#clue-source {
   font-size: 1em;
   color: #000;
   text-align: left;
@@ -177,8 +177,8 @@ a {
   padding-top: 0.7em;
   margin-left: 0.4em;
 }
-#show-clue-source-content {
-  font-size: 1em;
+#clue-source-content {
+  font-size: 1.2em;
   font-family: "Mukta Mahee", sans-serif;
   color: black;
   text-align: left;

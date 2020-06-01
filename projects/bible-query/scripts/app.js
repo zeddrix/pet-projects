@@ -12,6 +12,8 @@ const clueModal = document.getElementById("show-clue-modal");
 // QUERY
 const queryBlock = document.getElementById("query-block");
 const question = document.getElementById("question");
+const clueSource = document.getElementById("clue-source");
+const clueSourceContent = document.getElementById("clue-source-content");
 const choiceA = document.getElementById("A");
 const choiceB = document.getElementById("B");
 const choiceC = document.getElementById("C");
@@ -44,6 +46,50 @@ const bibleQueryHomepage = () => {
   rulesBlock.style.display = "none";
   aboutBlock.style.display = "none";
 };
+
+const settingsPage = () => {
+  homepage.style.display = "none";
+  levelsBlock.style.display = "none";
+  queryBlock.style.display = "none";
+  queryMenuBtns.style.display = "none";
+  finalScoreBlock.style.display = "none";
+  finalScoreMenuBtns.style.display = "none";
+  settingsBlock.style.display = "block";
+  rulesBlock.style.display = "none";
+  aboutBlock.style.display = "none";
+};
+
+const rulesPage = () => {
+  homepage.style.display = "none";
+  levelsBlock.style.display = "none";
+  queryBlock.style.display = "none";
+  queryMenuBtns.style.display = "none";
+  finalScoreBlock.style.display = "none";
+  finalScoreMenuBtns.style.display = "none";
+  settingsBlock.style.display = "none";
+  rulesBlock.style.display = "block";
+  aboutBlock.style.display = "none";
+};
+
+const aboutPage = () => {
+  homepage.style.display = "none";
+  levelsBlock.style.display = "none";
+  queryBlock.style.display = "none";
+  queryMenuBtns.style.display = "none";
+  finalScoreBlock.style.display = "none";
+  finalScoreMenuBtns.style.display = "none";
+  settingsBlock.style.display = "none";
+  rulesBlock.style.display = "none";
+  aboutBlock.style.display = "block";
+};
+
+// RESET GAME
+const showResetGameModal = () => {
+  resetGameModal.style.display = "block";
+};
+const closeResetGameModal = () => {
+  resetGameModal.style.display = "none";
+};
 // TELL YOUR FRIENDS
 const showTellYourFriendsModal = () => {
   tellYourFriendsModal.style.display = "block";
@@ -63,14 +109,7 @@ const showQuitModal = () => {
 const closeQuitModal = () => {
   quitModal.style.display = "none";
 };
-// RESET GAME
-const showResetGameModal = () => {
-  resetGameModal.style.display = "block";
-};
-const closeResetGameModal = () => {
-  resetGameModal.style.display = "none";
-};
-
+// SHOW CLUE
 const showClueModal = () => {
   clueModal.style.display = "block";
 };
@@ -117,9 +156,7 @@ const finalScoreRender = () => {
   settingsBlock.style.display = "none";
   rulesBlock.style.display = "none";
   aboutBlock.style.display = "none";
-
   const scorePercent = Math.round((100 * score) / men.length);
-
   let img =
     scorePercent == 100
       ? "img/three-stars.png"
@@ -134,7 +171,6 @@ const finalScoreRender = () => {
       : scorePercent >= 15
       ? "img/one-half-star.png"
       : "img/zero-star.png";
-
   let sp1d =
     scorePercent == 100
       ? "Well done!"
@@ -149,7 +185,6 @@ const finalScoreRender = () => {
       : scorePercent >= 15
       ? "How sad!"
       : "How awful!";
-
   let sp2d =
     scorePercent == 100
       ? "You got all the questions right!"
@@ -162,7 +197,6 @@ const finalScoreRender = () => {
       : scorePercent >= 30
       ? "Try to nail this level next time!"
       : "Try to nail this level next time!";
-
   scorePhrase1Div.innerHTML = "<h1 id='score-phrase-1'>" + sp1d + "</h1>";
   finalScoreImgDiv.innerHTML = "<img id='final-score-img' src=" + img + ">";
   finalScorePercentageDiv.innerHTML =
@@ -170,47 +204,13 @@ const finalScoreRender = () => {
   scorePhrase2Div.innerHTML = "<p id='score-phrase-2'>" + sp2d + "</p>";
 };
 
-const settingsPage = () => {
-  homepage.style.display = "none";
-  levelsBlock.style.display = "none";
-  queryBlock.style.display = "none";
-  queryMenuBtns.style.display = "none";
-  finalScoreBlock.style.display = "none";
-  finalScoreMenuBtns.style.display = "none";
-  settingsBlock.style.display = "block";
-  rulesBlock.style.display = "none";
-  aboutBlock.style.display = "none";
-};
-
-const rulesPage = () => {
-  homepage.style.display = "none";
-  levelsBlock.style.display = "none";
-  queryBlock.style.display = "none";
-  queryMenuBtns.style.display = "none";
-  finalScoreBlock.style.display = "none";
-  finalScoreMenuBtns.style.display = "none";
-  settingsBlock.style.display = "none";
-  rulesBlock.style.display = "block";
-  aboutBlock.style.display = "none";
-};
-
-const aboutPage = () => {
-  homepage.style.display = "none";
-  levelsBlock.style.display = "none";
-  queryBlock.style.display = "none";
-  queryMenuBtns.style.display = "none";
-  finalScoreBlock.style.display = "none";
-  finalScoreMenuBtns.style.display = "none";
-  settingsBlock.style.display = "none";
-  rulesBlock.style.display = "none";
-  aboutBlock.style.display = "block";
-};
-
 const lastQuestion = men.length - 1;
 const renderQuestion = () => {
   let q = men[currentQuestion];
 
   question.innerHTML = "<p>" + q.question + "</p>";
+  clueSource.innerHTML = "<h2>" + q.clueSource + "</h2>";
+  clueSourceContent.innerHTML = q.clueSourceContent;
   choiceA.innerHTML = q.choiceA;
   choiceB.innerHTML = q.choiceB;
   choiceC.innerHTML = q.choiceC;
