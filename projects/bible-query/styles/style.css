@@ -131,7 +131,6 @@ a {
   overflow: auto;
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.4);
-  padding-top: 11em;
 }
 .modal-effect {
   position: relative;
@@ -145,21 +144,17 @@ a {
 }
 
 #clue-source {
-  margin-left: 0.4em;
-  padding-top: 0.7em;
-  font-size: 1em;
   font-family: "Mukta Mahee", sans-serif;
   color: black;
   text-align: left;
 }
-.modal-content, #clue-source-content {
-  font-size: 1.3em;
+.modal-content,
+#clue-source-content {
   font-family: "Mukta Mahee", sans-serif;
   color: black;
-  text-align: left;
 }
 #clue-source-content {
-  max-height: 8em;
+  text-align: left;
   overflow: auto;
 }
 .modal-content {
@@ -190,6 +185,7 @@ a {
   color: lightseagreen;
 }
 .question-container {
+  border: 0.4em solid rgb(7, 128, 119);
   justify-content: center;
   flex-direction: column;
 }

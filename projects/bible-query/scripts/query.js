@@ -116,7 +116,8 @@ const men = [
     correctAnswer: "B",
   },
   {
-    question: "He was unable to speak until John the Baptizer, his own son, was born.",
+    question:
+      "He was unable to speak until John the Baptizer, his own son, was born.",
     clueSource: "Luke 1:18-20",
     clueSourceContent:
       "18 Zech·a·riʹah said to the angel: “How can I be sure of this? For I am old, and my wife is well along in years.” 19 In reply the angel said to him: “I am Gaʹbri·el, who stands near before God, and I was sent to speak with you and to declare this good news to you. 20 But look! you will be silent and unable to speak until the day these things take place, because you did not believe my words, which will be fulfilled in their appointed time.",

@@ -76,7 +76,6 @@
   .question-container {
     height: 7em;
     margin: 0em 0.5em;
-    border: 0.2em solid rgb(10, 66, 63);
     border-radius: 0.3em;
   }
   #show-clue-btn-container {
@@ -208,7 +207,6 @@
   .question-container {
     height: 10em;
     margin: 0em 0.5em;
-    border: 0.2em solid rgb(10, 66, 63);
     border-radius: 0.3em;
   }
   #show-clue-btn-container {
@@ -220,8 +218,23 @@
     padding: 0.2em 0.7em;
     font-size: 1.2em;
   }
-  #show-clue-modal {
-    padding-top: 4.5em;
+  .modal {
+    padding-top: 10em;
+  }
+  #clue-source {
+    margin-left: 0.4em;
+    padding-top: 0.7em;
+    font-size: 1em;
+  }
+  .modal-content,
+  #clue-source-content {
+    font-size: 1.3em;
+  }
+  #clue-source-content {
+    max-height: 8em;
+  }
+  .modal-content {
+    padding: 3em 1em 1em;
   }
   .choice {
     font-size: 1em;
@@ -319,15 +332,32 @@
     width: 74%;
     margin-bottom: 3.1em;
   }
+  /* Modals */
+  #show-clue-btn-container {
+    padding-top: em;
+    padding-left: 18.2em;
+  }
+  #show-clue-btn {
+    border: 2.5px solid rgb(177, 15, 15);
+    padding: 0.2em 0.7em;
+    font-size: 1.5em;
+  }
   .modal {
-    padding-top: 16em; /* Location of the box */
+    position: absolute;
+  }
+  #clue-source {
+    margin-left: 0.4em;
+    padding-top: 0.7em;
+    font-size: 1em;
+  }
+
+  #clue-source-content {
+    max-height: 8em;
+    font-size: 1.1em;
   }
   .modal-content {
-    padding: 0;
-    width: 20%;
-  }
-  #show-clue-modal-effect {
-    width: 22%;
+    font-size: 1.3em;
+    padding: 3em 1em 1em;
   }
   /* levels */
   #stars {
@@ -353,7 +383,6 @@
   .question-container {
     height: 12em;
     margin: 0.5em;
-    border: 0.4em solid rgb(177, 15, 15);
     border-radius: 0.4em;
   }
   #show-clue-btn-container {
