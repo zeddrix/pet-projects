@@ -224,7 +224,7 @@ const renderProgress = () => {
 };
 
 const questionTime = 10; // 10s
-let gaugeWidth = 24.3; // em
+let gaugeWidth = 15; // em
 const gaugeUnit = gaugeWidth / questionTime;
 // const responsiveTimeGauge = (oppo, galaxy, desktop) => {
 //   if (oppo.matches) {

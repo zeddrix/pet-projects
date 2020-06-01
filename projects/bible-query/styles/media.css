@@ -15,131 +15,133 @@
 }
 /* -------------------------OPPO A71------------------------- */
 @media screen and (min-width: 275px) and (min-height: 480px) {
+  #settings-btns,
+  #levels-sm-btns,
+  #query-menu-btns,
+  #final-score-menu-btns {
+    padding-bottom: 2.2em;
+  }
   h1 {
-    font-size: 5em;
+    font-size: 2em;
   }
   #bible-query-title {
-    font-size: 6.3em;
+    font-size: 1.9em;
     margin: 0.2em 0em;
-  }
-  h2 {
-    font-size: 3em;
-    margin-left: 0.6em;
   }
   p {
     font-size: 0.9em;
-    margin: 1.5em;
+    margin-left: 0.3em;
   }
   .long-btn {
-    padding: 0.5em 0;
-  }
-  input {
-    width: 3.5em;
-    height: 3.5em;
-    margin-left: 2em;
-    margin-right: 1em;
-  }
-  label {
-    font-size: 4em;
+    padding: 0.1em 0;
   }
   #long-btn-container {
-    width: 66%;
-    margin-bottom: 11em;
+    width: 75%;
   }
+  /* settings */
+  input {
+    width: 1em;
+    height: 1em;
+    margin-left: 0.5em;
+  }
+  label {
+    font-size: 1em;
+  }
+  h2 {
+    font-size: 1.3em;
+    margin-left: 0.2em;
+  }
+  #settings-btns {
+    padding-top: 0.4em;
+  }
+  /* levels */
   #stars {
-    font-size: 3em;
+    font-size: 1em;
   }
   #level-number {
-    font-size: 5em;
+    font-size: 1.5em;
     padding: 0.1em 0.5em;
     margin: 1em;
   }
   #levels-sm-btns {
-    padding-top: 65em;
-    padding-bottom: 9em;
+    padding-top: 15.4em;
   }
   /* query */
   #level-theme {
-    font-size: 2em;
-    padding: 1.3em;
+    font-size: 1em;
   }
   #question {
-    font-size: 3.5em;
+    font-size: 1em;
   }
   .question-container {
-    height: 30em;
-    margin: 0em 2em;
-    border: 1em solid rgb(177, 15, 15);
-    border-radius: 1em;
+    height: 7em;
+    margin: 0em 0.5em;
+    border: 0.2em solid rgb(10, 66, 63);
+    border-radius: 0.3em;
+  }
+  #show-clue-btn-container {
+    padding-top: 5.3em;
+    padding-left: 13.7em;
+  }
+  #show-clue-btn {
+    border: 2px solid rgb(177, 15, 15);
+    padding: 0em 0.5em;
+    font-size: 1em;
+  }
+  #show-clue-modal {
+    padding-top: 4.5em;
   }
   .choice {
-    font-size: 2.2em;
-    width: 20em;
-    padding: 1.2em 3em;
+    font-size: 0.8em;
+    width: 13em;
+    padding: 0.8em 3em;
     margin: 0.3em 0em;
     border: 0.1em solid lightgrey;
     border-radius: 0.3em;
   }
   #progress-container {
-    padding: 2em;
+    padding: 0.1em;
+    margin-top: 0;
+    padding-top: 0;
   }
   .progress {
-    width: 2.4em;
-    height: 2.4em;
-    margin-left: 1px;
-    margin-right: 1px;
+    width: 0.6em;
+    height: 0.6em;
+    margin-left: 0.5px;
+    margin-right: 0.5px;
   }
   #query-menu-btns {
     padding-top: 0em;
-    padding-bottom: 9em;
     width: 100%;
     text-align: center;
   }
-  #ads {
-    font-size: 2em;
-    padding: 0.5em;
-  }
   #final-score {
-    padding: 13em 0em 9em;
+    padding: 5em 0 0;
   }
   #score-phrase-1 {
-    font-size: 7em;
-    font-family: "Architects Daughter", cursive;
-  }
-  #score-phrase-2 {
     font-size: 3em;
     font-family: "Architects Daughter", cursive;
+    padding: 0em;
     margin: 0em;
   }
   #final-score-img {
     width: 90%;
   }
   #final-score-percentage {
-    font-size: 10em;
+    font-size: 2em;
     font-family: "Architects Daughter", cursive;
     padding: 0em;
     margin: 0em;
   }
+  #score-phrase-2 {
+    font-size: 1em;
+    font-family: "Architects Daughter", cursive;
+    margin: 0em;
+  }
   #final-score-menu-btns {
-    padding-top: 10em;
-    padding-bottom: 8em;
+    padding-top: 5em;
     width: 100%;
     text-align: center;
-  }
-  /* settings */
-  #learn-more {
-    font-size: 3em;
-    padding: 0em;
-    margin: 0.5em;
-  }
-  #language-header {
-    font-size: 4em;
-    padding-bottom: 0em;
-    margin-bottom: 0em;
-  }
-  #settings-btns {
-    padding-top: 21em;
-    padding-bottom: 8em;
   }
 }
 
@@ -293,7 +295,6 @@
     font-size: 1.1em;
     margin: 0.5em;
   }
-  /* settings */
   input {
     width: 1.5em;
     height: 1.5em;
@@ -353,6 +354,10 @@
     margin: 0.5em;
     border: 0.4em solid rgb(177, 15, 15);
     border-radius: 0.4em;
+  }
+  #show-clue-btn-container {
+    padding-top: 9.3em;
+    padding-left: 20.3em;
   }
   .choice {
     font-size: 1em;
