@@ -3,7 +3,7 @@ const men = [
     question: "Who asked the Israelites to separate from their foreign wives?",
     clueSource: "Ezra 10:10, 11",
     clueSourceContent:
-      "Then Ezra the priest rose and said to them: “You have acted unfaithfully by marrying foreign women, and so you have added to the guilt of Israel.”",
+      "10 Then Ezʹra the priest rose and said to them: “You have acted unfaithfully by marrying foreign women, and so you have added to the guilt of Israel. 11  Now make confession to Jehovah the God of your forefathers and do his will. Separate yourselves from the peoples of the land and from these foreign wives.”",
     choiceA: "Aaron",
     choiceB: "Moses",
     choiceC: "Nehemiah",
@@ -15,7 +15,7 @@ const men = [
     question: "He was Eunice's son and Lois' grandson.",
     clueSource: "2 Timothy 1:5",
     clueSourceContent:
-      "For I recall your unhypocritical faith, which dwelled first in your grandmother Lois and your mother Eunice, but which I am confident is also in you.",
+      "5 For I recall your unhypocritical faith, which dwelled first in your grandmother Loʹis and your mother Euʹnice, but which I am confident is also in you.",
     choiceA: "Philip",
     choiceB: "Silas",
     choiceC: "Paul",
@@ -27,7 +27,7 @@ const men = [
       "The judge that Jehovah used to defeat a Midian army with only 300 men.",
     clueSource: "Judges 7:7",
     clueSourceContent:
-      "Jehovah now said to Gideon: “I will save you with the 300 men who lapped the water, and I will give Midian into your hand. But let all the other people go back home.”",
+      "7 Jehovah now said to Gidʹe·on: “I will save you with the 300 men who lapped the water, and I will give Midʹi·an into your hand. But let all the other people go back home.”",
     choiceA: "Joshua",
     choiceB: "Gideon",
     choiceC: "Samuel",
@@ -39,7 +39,7 @@ const men = [
       "Jehovah set up a sign for him “in order that no one finding him would strike him.”",
     clueSource: "Genesis 4:15",
     clueSourceContent:
-      "So Jehovah said to him: “For that reason, anyone who kills Cain will suffer vengeance seven times.” So Jehovah set up a sign for Cain in order that no one finding him would strike him.",
+      "15 So Jehovah said to him: “For that reason, anyone who kills Cain will suffer vengeance seven times.” So Jehovah set up a sign for Cain in order that no one finding him would strike him.",
     choiceA: "Abel",
     choiceB: "Cain",
     choiceC: "Enoch",
@@ -47,14 +47,14 @@ const men = [
     correctAnswer: "B",
   },
   {
-    question: "He asked Jesus: “Are you the King of the Jews?”",
+    question: "Who asked Jesus: “Are you the King of the Jews”?",
     clueSource: "Matthew 27:2",
     clueSourceContent:
-      "After binding him, they led him off and handed him over to Pilate, the governor.",
-    choiceA: "Herod",
+      "2 After binding him, they led him off and handed him over to Pilate, the governor.",
+    choiceA: "Herod the Great",
     choiceB: "Nicodemus",
     choiceC: "Pilate",
-    choiceD: "Philip",
+    choiceD: "Herod Agrippa",
     correctAnswer: "C",
   },
   {
@@ -62,7 +62,7 @@ const men = [
       "Jehovah, for the first time, allowed this man to have “every moving animal that is alive” as food.",
     clueSource: "Genesis 9:3",
     clueSourceContent:
-      "Every moving animal that is alive may serve as food for you. Just as I gave you the green vegetation, I give them all to you.",
+      "3 Every moving animal that is alive may serve as food for you. Just as I gave you the green vegetation, I give them all to you.",
     choiceA: "Moses",
     choiceB: "Noah",
     choiceC: "Aaron",
@@ -74,7 +74,7 @@ const men = [
       "Who, other than Moses, appeared at the transfiguration of Jesus?",
     clueSource: "Mark 9:4",
     clueSourceContent:
-      "Also, Elijah with Moses appeared to them, and they were conversing with Jesus.",
+      "4 Also, E·liʹjah with Moses appeared to them, and they were conversing with Jesus.",
     choiceA: "Eli",
     choiceB: "Enoch",
     choiceC: "John",
@@ -85,7 +85,7 @@ const men = [
     question: "He is a friend of Jesus who was raised from the dead.",
     clueSource: "John 11:43",
     clueSourceContent:
-      "When he had said these things, he cried out with a loud voice: “Lazarus, come out!”",
+      "43 When he had said these things, he cried out with a loud voice: “Lazʹa·rus, come out!”",
     choiceA: "Elijah",
     choiceB: "Moses",
     choiceC: "Lazarus",
@@ -94,10 +94,10 @@ const men = [
   },
   {
     question:
-      "He became hot with anger with Jehovah for not destroying Nineveh.",
+      "Who became hot with anger with Jehovah for not destroying Nineveh?",
     clueSource: "Jonah 1:17",
     clueSourceContent:
-      "Jehovah now sent a huge fish to swallow Jonah, so that Jonah came to be in the belly of the fish for three days and three nights.",
+      "17 Jehovah now sent a huge fish to swallow Joʹnah, so that Joʹnah came to be in the belly of the fish for three days and three nights.",
     choiceA: "Jonah",
     choiceB: "Jeremias",
     choiceC: "Ezra",
@@ -106,9 +106,9 @@ const men = [
   },
   {
     question: "Who formed a golden calf while Moses was on Mount Sinai?",
-    clueSource: "Exodus 32:3",
+    clueSource: "Exodus 32:1-4",
     clueSourceContent:
-      "So all the people began taking off the gold earrings that were in their ears and bringing them to Aaron.",
+      "Meanwhile, the people saw that Moses was taking a long time coming down from the mountain. So the people gathered around Aaron and said to him: “Get up, make for us a god who will go ahead of us, because we do not know what has happened to this Moses, the man who led us up out of the land of Egypt.” 2 At this Aaron said to them: “Take the gold earringsc from the ears of your wives, your sons, and your daughters and bring them to me.” 3 So all the people began taking off the gold earrings that were in their ears and bringing them to Aaron. 4 Then he took the gold from them, and he formed it with an engraving tool and made it into a statue of a calf. They began to say: “This is your God, O Israel, who led you up out of the land of Egypt.”",
     choiceA: "Jeroboam",
     choiceB: "Aaron",
     choiceC: "Korah",
@@ -116,10 +116,10 @@ const men = [
     correctAnswer: "B",
   },
   {
-    question: "The father of John the Baptizer.",
-    clueSource: "Luke 1:13",
+    question: "He was unable to speak until John the Baptizer, his own son, was born.",
+    clueSource: "Luke 1:18-20",
     clueSourceContent:
-      "However, the angel said to him: “Do not be afraid, Zechariah, because your supplication has been favorably heard, and your wife Elizabeth will bear you a son, and you are to name him John.",
+      "18 Zech·a·riʹah said to the angel: “How can I be sure of this? For I am old, and my wife is well along in years.” 19 In reply the angel said to him: “I am Gaʹbri·el, who stands near before God, and I was sent to speak with you and to declare this good news to you. 20 But look! you will be silent and unable to speak until the day these things take place, because you did not believe my words, which will be fulfilled in their appointed time.",
     choiceA: "Zerubbabel",
     choiceB: "Zedekiah",
     choiceC: "Zechariah",
@@ -131,7 +131,7 @@ const men = [
       "His own female donkey spoke to him after beating it for three times.",
     clueSource: "Numbers 22:28",
     clueSourceContent:
-      "Finally Jehovah caused the donkey to speak, and it said to Balaam: “What have I done to you to make you beat me these three times?”",
+      "28 Finally Jehovah caused the donkey to speak, and it said to Baʹlaam: “What have I done to you to make you beat me these three times?”",
     choiceA: "Balaam",
     choiceB: "Balak",
     choiceC: "Hosea",
@@ -141,9 +141,9 @@ const men = [
   {
     question:
       "After Ananias talked to him about being anointed by holy spirit, “what looked like scales fell from his eyes, and he recovered his sight.”",
-    clueSource: "Acts 9:17",
+    clueSource: "Acts 9:17-19",
     clueSourceContent:
-      "So Ananias went and entered the house, and he laid his hands on him and said: “Saul, brother, the Lord Jesus, who appeared to you on the road along which you were coming, has sent me so that you may recover sight and be filled with holy spirit.”",
+      "17 So An·a·niʹas went and entered the house, and he laid his hands on him and said: “Saul, brother, the Lord Jesus, who appeared to you on the road along which you were coming, has sent me so that you may recover sight and be filled with holy spirit.” 18 And immediately, what looked like scales fell from his eyes, and he recovered his sight. He then got up and was baptized, 19 and he ate some food and gained strength.",
     choiceA: "Peter",
     choiceB: "James",
     choiceC: "John",
@@ -153,9 +153,9 @@ const men = [
   {
     question:
       "Who, because of his poor eyesight, blessed Jacob instead of Esau?",
-    clueSource: "Genesis 27:27",
+    clueSource: "Genesis 27:30-33",
     clueSourceContent:
-      "Then Isaac his father said to him: “Come near, please, and kiss me, my son.” So he came near and kissed him, and he could smell the scent of his garments. Then he blessed him.",
+      "30 Now Isaac had just finished blessing Jacob, and Jacob had barely left the presence of his father Isaac when his brother Eʹsau came back from his hunting. 31 He too prepared a tasty dish and brought it to his father, and he said to his father: “Let my father get up and eat some of his son’s game, in order that you may bless me.” 32 At this his father Isaac said to him: “Who are you?” to which he said: “I am your son, your firstborn, Eʹsau.” 33 And Isaac began to tremble violently, so he said: “Who was it, then, who hunted for game and brought it to me? I already ate it before you arrived, and I blessed him—and he will surely be blessed!”",
     choiceA: "Abraham",
     choiceB: "Isaac",
     choiceC: "Joseph",
@@ -167,19 +167,19 @@ const men = [
       "King Nebuchadnezzar gave this prophet of Jehovah the name “Belteshazzar.”",
     clueSource: "Daniel 5:12",
     clueSourceContent:
-      "For Daniel, whom the king named Belteshazzar, had an extraordinary spirit and knowledge and insight to interpret dreams, to explain riddles, and to solve knotty problems.",
+      "12 For Daniel, whom the king named Bel·te·shazʹzar, had an extraordinary spirit and knowledge and insight to interpret dreams, to explain riddles, and to solve knotty problems. Now let Daniel be summoned, and he will tell you the interpretation.”",
     choiceA: "Daniel",
-    choiceB: "Jonah",
+    choiceB: "Abednego",
     choiceC: "Shadrach",
     choiceD: "Meshach",
     correctAnswer: "A",
   },
   {
     question:
-      "After he lost everything he had, “Jehovah gave him double what he had before” for his faithfulness in the end.",
+      "After losing everything he had, “Jehovah gave him double what he had before” in the end for his faithfulness.",
     clueSource: "Job 42:10",
     clueSourceContent:
-      "After Job had prayed for his companions, Jehovah removed Job’s tribulation and restored his prosperity. Jehovah gave him double what he had before.",
+      "10 After Job had prayed for his companions, Jehovah removed Job’s tribulation and restored his prosperity. Jehovah gave him double what he had before.",
     choiceA: "Job",
     choiceB: "Joseph",
     choiceC: "Moses",
@@ -191,7 +191,7 @@ const men = [
       "A Jew who staunchly refused to prostrate himself before (the Amalekite) Haman.",
     clueSource: "Esther 3:2",
     clueSourceContent:
-      "And all the king’s servants who were in the king’s gate would bow low and prostrate themselves to Haman, for this is what the king had commanded respecting him. But Mordecai refused to bow low or prostrate himself.",
+      "2 And all the king’s servants who were in the king’s gate would bow low and prostrate themselves to Haʹman, for this is what the king had commanded respecting him. But Morʹde·cai refused to bow low or prostrate himself.",
     choiceA: "Meshach",
     choiceB: "Shadrach",
     choiceC: "Mordecai",
@@ -200,10 +200,10 @@ const men = [
   },
   {
     question:
-      "One of David’s sons who was highly praised for his handsome appearance in all Israel.",
+      "He is one of David’s sons who was highly praised for his handsome appearance in all Israel.",
     clueSource: "2 Samuel 14:25",
     clueSourceContent:
-      "Now in all Israel, no man was as highly praised for his handsome appearance as Absalom. From the sole of his foot to the crown of his head, there was no flaw in him.",
+      "25 Now in all Israel, no man was as highly praised for his handsome appearance as Abʹsa·lom. From the sole of his foot to the crown of his head, there was no flaw in him.",
     choiceA: "Solomon",
     choiceB: "Absalom",
     choiceC: "Adonijah",
@@ -212,10 +212,10 @@ const men = [
   },
   {
     question:
-      "An apostle who spread a big reception feast for Jesus in his house. He’s also called ‘Levi’.",
+      "He was an apostle who has spread a big reception feast for Jesus in his own house. He’s also known as ‘Levi’.",
     clueSource: "Luke 5:29",
     clueSourceContent:
-      "Then Levi spread a big reception feast for him in his house, and there was a large crowd of tax collectors and others who were dining with them.",
+      "29 Then Leʹvi [Matthew] spread a big reception feast for him in his house, and there was a large crowd of tax collectors and others who were dining with them.",
     choiceA: "Matthew",
     choiceB: "Mark",
     choiceC: "John",
@@ -225,9 +225,9 @@ const men = [
   {
     question:
       "Delilah betrayed this Nazarite judge in exchange for 1,100 silver pieces.",
-    clueSource: "Judges 16:18",
+    clueSource: "Judges 16:18-20",
     clueSourceContent:
-      "So he finally opened his heart to her, saying: “A razor has never touched my head, because I am a Nazirite of God from birth. If I am shaved, my power will leave me and I will grow weak and become like all other men.”",
+      "18 When De·liʹlah saw that he had opened his heart to her, she immediately summoned the Phi·lisʹtine lords, saying: “Come up this time, for he has opened his heart to me.” So the Phi·lisʹtine lords came up to her, bringing the money with them. 19 She made him fall asleep on her knees; then she called the man and had him shave off the seven braids of his head. After that she began to have control over him, for his power was leaving him. 20 Now she called out: “The Phi·lisʹtines are upon you, Samson!” He woke up from his sleep and said: “I will go out as at other timesk and shake myself free.” But he did not know that Jehovah had left him.",
     choiceA: "Gideon",
     choiceB: "Barak",
     choiceC: "Joshua",
