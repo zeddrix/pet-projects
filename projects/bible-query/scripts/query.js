@@ -713,7 +713,7 @@ const numbersAndDates = [
     question: "On what “day” did God create man?",
     clueSource: "Genesis 1:31",
     clueSourceContent:
-      "After that God saw everything he had made, and look! it was very good. And there was evening and there was morning, a sixth day.",
+      "31 After that God saw everything he had made, and look! it was very good. And there was evening and there was morning, a sixth day.",
     choiceA: "on the first “day”",
     choiceB: "on the third “day”",
     choiceC: "on the fourth “day”",
@@ -725,7 +725,7 @@ const numbersAndDates = [
       "How many living creatures did Ezekiel saw in the vision when he was by the river Chebar?",
     clueSource: "Ezekiel 1:5",
     clueSourceContent:
-      "Within it were what looked like four living creatures, and the appearance of each one was like that of a human.",
+      "5 Within it were what looked like four living creatures, and the appearance of each one was like that of a human.",
     choiceA: "2 creatures",
     choiceB: "4 creatures",
     choiceC: "7 creatures",
@@ -757,9 +757,9 @@ const numbersAndDates = [
   {
     question:
       "According to Jesus' illustration, the Kingdom of the heavens may be likened to how many virgins who took their lamps and went out to meet the bridegroom?",
-    clueSource: "Matthew 25:1",
+    clueSource: "Matthew 25:1-12",
     clueSourceContent:
-      "Then the Kingdom of the heavens may be likened to ten virgins who took their lamps and went out to meet the bridegroom.",
+      "“Then the Kingdom of the heavens may be likened to ten virgins who took their lamps and went out to meet the bridegroom. 2  Five of them were foolish, and five were discreet. 3  For the foolish took their lamps but took no oil with them, 4  whereas the discreet took oil in their flasks along with their lamps. 5  While the bridegroom was delaying, they all became drowsy and fell asleep. 6  Right in the middle of the night there was a shout: ‘Here is the bridegroom! Go out to meet him.’ 7  Then all those virgins got up and put their lamps in order. 8  The foolish said to the discreet, ‘Give us some of your oil, because our lamps are about to go out.’ 9  The discreet answered, saying: ‘Perhaps there may not be enough for both us and you. Go instead to those who sell it, and buy some for yourselves.’ 10  While they were going off to buy it, the bridegroom came. The virgins who were ready went in with him to the marriage feast, and the door was shut. 11  Afterward, the rest of the virgins also came, saying, ‘Sir, Sir, open to us!’ 12  In answer he said, ‘I tell you the truth, I do not know you.’",
     choiceA: "3 virgins",
     choiceB: "5 virgins",
     choiceC: "7 virgins",
@@ -804,7 +804,7 @@ const numbersAndDates = [
       "How long did the rain poured down on the earth, causing the Flood?",
     clueSource: "Genesis 7:12",
     clueSourceContent:
-      "And the rain poured down on the earth for 40 days and 40 nights.",
+      "12 And the rain poured down on the earth for 40 days and 40 nights.",
     choiceA: "3 days and 3 nights",
     choiceB: "4 days and 4 nights",
     choiceC: "40 days and 40 nights",
@@ -828,7 +828,7 @@ const numbersAndDates = [
       "Jehovah promised Gideon how many men to conquer the 135,000 Midianite soldiers?",
     clueSource: "Judges 7:7",
     clueSourceContent:
-      "Jehovah now said to Gidʹe·on: “I will save you with the 300 men who lapped the water, and I will give Midʹi·an into your hand. But let all the other people go back home.”",
+      "7 Jehovah now said to Gidʹe·on: “I will save you with the 300 men who lapped the water, and I will give Midʹi·an into your hand. But let all the other people go back home.”",
     choiceA: "300 men",
     choiceB: "3,000 men",
     choiceC: "30,000 men",
@@ -839,7 +839,7 @@ const numbersAndDates = [
     question: "How many years did the devastation of the land of Judah occur?",
     clueSource: "Daniel 9:2",
     clueSourceContent:
-      "In the first year of his reign I, Daniel, discerned by the books the number of years mentioned in the word of Jehovah to Jeremiah the prophet to fulfill the desolation of Jerusalem, namely, 70 years.",
+      "2 In the first year of his reign I, Daniel, discerned by the books the number of years mentioned in the word of Jehovah to Jeremiah the prophet to fulfill the desolation of Jerusalem, namely, 70 years.",
     choiceA: "7 years",
     choiceB: "40 years",
     choiceC: "69 years",
@@ -850,7 +850,7 @@ const numbersAndDates = [
     question: "How many sons and daughters did Job have?",
     clueSource: "Job 42:13",
     clueSourceContent:
-      "He also came to have seven more sons and three more daughters.",
+      "13 He also came to have seven more sons and three more daughters.",
     choiceA: "He had no children",
     choiceB: "10 children",
     choiceC: "20 children",
@@ -861,7 +861,7 @@ const numbersAndDates = [
     question: "On what year did Jesus Christ became a Messiah?",
     clueSource: "What Can the Bible Teach Us?, Chapter 4, par. 8",
     clueSourceContent:
-      "Jehovah has made it very clear that Jesus is the Messiah. God promised to give John the Baptizer a sign so that he would know who the Messiah was. When Jesus went to John to get baptized in the Jordan River in the year 29 C.E., John saw that sign. The Bible tells us what happened: “After being baptized, Jesus immediately came up from the water; and look! the heavens were opened up, and he saw God’s spirit descending like a dove and coming upon him. Look! Also, a voice from the heavens said: ‘This is my Son, the beloved, whom I have approved.’” (Matthew 3:16, 17) When John saw and heard this sign, he knew that Jesus was the Messiah. (John 1:32-34) On that day, when Jehovah poured out his spirit  on him, Jesus became the Messiah. He was the one whom God had chosen to be Leader and King.​—Isaiah 55:4.",
+      "8 Jehovah has made it very clear that Jesus is the Messiah. God promised to give John the Baptizer a sign so that he would know who the Messiah was. When Jesus went to John to get baptized in the Jordan River in the year 29 C.E., John saw that sign. The Bible tells us what happened: “After being baptized, Jesus immediately came up from the water; and look! the heavens were opened up, and he saw God’s spirit descending like a dove and coming upon him. Look! Also, a voice from the heavens said: ‘This is my Son, the beloved, whom I have approved.’” (Matthew 3:16, 17) When John saw and heard this sign, he knew that Jesus was the Messiah. (John 1:32-34) On that day, when Jehovah poured out his spirit  on him, Jesus became the Messiah. He was the one whom God had chosen to be Leader and King.​—Isaiah 55:4.",
     choiceA: "1 C.E.",
     choiceB: "29 C.E.",
     choiceC: "30 C.E.",
@@ -873,7 +873,7 @@ const numbersAndDates = [
       "On the first occasion, how many loaves and fish did Jesus feed a crowd?",
     clueSource: "Mark 6:41",
     clueSourceContent:
-      "Taking now the five loaves and the two fish, he looked up to heaven and said a blessing. Then he broke the loaves up and began giving them to the disciples to place them before the people, and he divided up the two fish for all.",
+      "41 Taking now the five loaves and the two fish, he looked up to heaven and said a blessing. Then he broke the loaves up and began giving them to the disciples to place them before the people, and he divided up the two fish for all.",
     choiceA: "2 loaves and 5 fish",
     choiceB: "5 loaves and 2 fish",
     choiceC: "3 loaves and 5 fish",
@@ -884,7 +884,7 @@ const numbersAndDates = [
     question: "How many years did it take to complete the Bible?",
     clueSource: "What Can the Bible Teach Us?, Chapter 2, par. 6",
     clueSourceContent:
-      "It took more than 1,600 years to write the Bible. Its writers lived at different times. Some were well-educated and others were not. For example, one was a doctor. Others were farmers, fishermen, shepherds, prophets, judges, and kings. Even though there were different writers, all parts of the Bible agree. It doesn’t say one thing in one chapter and the opposite in another.",
+      "6 It took more than 1,600 years to write the Bible. Its writers lived at different times. Some were well-educated and others were not. For example, one was a doctor. Others were farmers, fishermen, shepherds, prophets, judges, and kings. Even though there were different writers, all parts of the Bible agree. It doesn’t say one thing in one chapter and the opposite in another.",
     choiceA: "1,200 years",
     choiceB: "1,600 years",
     choiceC: "1,914 years",
@@ -908,7 +908,7 @@ const numbersAndDates = [
     question: "According to the Jewish calendar, on what date did Jesus die?",
     clueSource: "What Can the Bible Teach Us?, Chapter 5 par. 13",
     clueSourceContent:
-      "How was the ransom paid? Jesus gave his Father the value of his life. In the year 33, on Nisan 14 of the Jewish calendar, Jehovah allowed Jesus’ enemies to kill him. (Hebrews 10:10) Three days after that, Jehovah brought Jesus back to life, not as a human, but as a spirit person. Later, when Jesus returned to his Father in heaven, he presented the value of his perfect human life to Jehovah as the ransom. (Hebrews 9:24) Now that the ransom has been paid, we have the opportunity to be set free from sin and death.​—Read Romans 3:23, 24.",
+      "13 How was the ransom paid? Jesus gave his Father the value of his life. In the year 33, on Nisan 14 of the Jewish calendar, Jehovah allowed Jesus’ enemies to kill him. (Hebrews 10:10) Three days after that, Jehovah brought Jesus back to life, not as a human, but as a spirit person. Later, when Jesus returned to his Father in heaven, he presented the value of his perfect human life to Jehovah as the ransom. (Hebrews 9:24) Now that the ransom has been paid, we have the opportunity to be set free from sin and death.​—Read Romans 3:23, 24.",
     choiceA: "Nisan 40",
     choiceB: "Nisan 13",
     choiceC: "Nisan 14",
@@ -920,7 +920,7 @@ const numbersAndDates = [
       "How many years did Jehovah made Israel wander about in the wilderness?",
     clueSource: "Numbers 32:13",
     clueSourceContent:
-      "So Jehovah’s anger blazed against Israel and he made them wander about in the wilderness for 40 years, until all the generation that was doing evil in the eyes of Jehovah came to its end.",
+      "13 So Jehovah’s anger blazed against Israel and he made them wander about in the wilderness for 40 years, until all the generation that was doing evil in the eyes of Jehovah came to its end.",
     choiceA: "20 years",
     choiceB: "40 years",
     choiceC: "70 years",
