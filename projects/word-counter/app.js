@@ -8,4 +8,13 @@ const displayText = () => {
   // diplay user's inputted text
   document.getElementById("display-user-text").innerText = inputtedTextValue;
   countPage.style.display = "block";
+  console.log(countWords(inputtedTextValue));
 };
+
+const countWords = (str) => {
+  return str.split(" ").length;
+}
+
+const renderWordCount = () => {
+   document.getElementById("word-count") = wordCount;
+}
