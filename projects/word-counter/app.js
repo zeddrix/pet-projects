@@ -21,6 +21,33 @@ const displayText = () => {
     const wordCountDiv = document.getElementById("word-count");
     wordCountDiv.innerHTML = "<h1> Words Counted: " + wordCount + "</h1>";
   };
+  
+  const getWordDensity = (str) => {
+    let wordList = {};
+    str.split(/\s+/).forEach(word => {
+      if(typeof wordList[word] == "undefined"){
+        wordList[word] = 1;
+      }
+      else{
+        wordList[word]++;
+      }
+    });
+    return wordList;
+  };
+  const wordDensity = (getWordDensity(textValue));
+  
+  const renderWordDensity = () => {
+    const wordDensityDiv = document.getElementById("word-density");
+    
+    let table = "<table>";
+    for(let word in wordDensity){
+      table += "<tr><td>" + word + "</td><td>" + wordDensity[word] + "</td></tr>";
+    }
+    table += "</table>";
+    
+    wordDensityDiv.innerHTML = "<h1> Word Density: </h1>" + table;
+  };
 
   renderWordCount();
+  renderWordDensity();
 };
