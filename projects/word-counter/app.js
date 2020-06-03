@@ -1,24 +1,26 @@
 const displayText = () => {
   const inputPage = document.getElementById("input-page");
   const countPage = document.getElementById("count-page");
-  const inputtedText = document.getElementById("inputted-text");
-  const inputtedTextValue = inputtedText.value;
+  const text = document.getElementById("text");
+  const textValue = text.value;
 
-  if (inputtedText.value !== "") { // normal flow will continue if the text-area is not empty
+  if (text.value !== "") { // normal flow will continue if the text-area is not empty
     inputPage.style.display = "none";
-    document.getElementById("display-user-text").innerText = inputtedTextValue;
+    document.getElementById("display-text").innerText = textValue;
     countPage.style.display = "block";
   } else { // if the text-area is empty, it will issue a warning.
-    alert("This area required")
+    alert("Please enter some text first.")
   }
 
-  console.log(countWords(inputtedTextValue));
-};
+  const countWords = (str) => {
+    return str.split(" ").length;
+  };
+  const wordCount = (countWords(textValue));
 
-const countWords = (str) => {
-  return str.split(" ").length;
-};
+  const renderWordCount = () => {
+    const wordCountDiv = document.getElementById("word-count");
+    wordCountDiv.innerHTML = "<h1> Words Counted: " + wordCount + "</h1>";
+  };
 
-const renderWordCount = () => {
-  document.getElementById("word-count") = wordCount;
+  renderWordCount();
 };

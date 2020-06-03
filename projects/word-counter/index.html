@@ -7,7 +7,7 @@
     <div id="input-page">
       <h1>Word Counter</h1>
       <form action="">
-        <textarea id="inputted-text" type="text" rows="22" cols="60"></textarea>
+        <textarea id="text" type="text" rows="22" cols="60"></textarea>
         <br />
       </form>
       <button onclick="displayText()">COUNT</button>
@@ -15,9 +15,9 @@
 
     <div id="count-page" style="display: none;">
       <h1>Your Text:</h1>
-      <p id="display-user-text"></p>
-      <div>
-         <h1 id="word-count">Count: </h1>
+      <p id="display-text"></p>
+      
+      <div id="word-count"></div>
       </div>
     </div>
   </body>
