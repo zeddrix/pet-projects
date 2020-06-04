@@ -557,7 +557,7 @@ const kings = [
   },
   {
     question: "This king's name came from the root meaning “peace”.",
-    clueSource: "Insight on the Scriptures, Volume 2 pp. 986-993",
+    clueSource: "Insight on the Scriptures Volume 2, [Solomon] pp. 986-993",
     clueSourceContent:
       "(Solʹo·mon) [from a root meaning “peace”]. Son of King David of the line of Judah; king of Israel from 1037 to 998 B.C.E. The Bible record, after reporting the death of the son born to David through his illicit relations with Bath-sheba, continues: “And David began to comfort Bath-sheba his wife. Further, he came in to her and lay down with her. In time she bore a son, and his name came to be called Solomon. And Jehovah himself did love him. So he sent by means of Nathan the prophet and called his name Jedidiah, for the sake of Jehovah.” (2Sa 12:24, 25) Solomon later had three full brothers, sons of David and Bath-sheba: Shimea, Shobab, and Nathan.​—1Ch 3:5.",
     choiceA: "David",
@@ -745,7 +745,7 @@ const numbersAndDates = [
   },
   {
     question: "When was Jerusalem destroyed by the Romans?",
-    clueSource: "Insight on the Scriptures, Volume 2 p. 49",
+    clueSource: "Insight on the Scriptures Volume 2, [Jerusalem] p. 49",
     clueSourceContent:
       "Neither Jesus nor his apostles foretold any restoration by God of earthly Jerusalem and its temple to come after the city’s divinely decreed destruction, which occurred in 70 C.E.",
     choiceA: "33 C.E.",
@@ -779,7 +779,7 @@ const numbersAndDates = [
   },
   {
     question: "What does the number '6' mean in the Bible?",
-    clueSource: "Insight on the Scriptures, Volume 2 p. 512",
+    clueSource: "Insight on the Scriptures Volume 2, [Number, Numeral] p. 512",
     clueSourceContent:
       "Six. This number at times represents imperfection. The number of “the wild beast” is 666 and is called “a man’s number,” indicating that it has to do with imperfect, fallen man, and it seems to symbolize the imperfection of that which is represented by “the wild beast.” The number six being emphasized to a third degree (the six appearing in the position of units, tens, and hundreds) therefore highlights the imperfection and deficiency of that which the beast represents, or pictures.​—Re 13:18.",
     choiceA: "Perfection",
@@ -790,7 +790,7 @@ const numbersAndDates = [
   },
   {
     question: "What does the number '7' mean in the Bible?",
-    clueSource: "Insight on the Scriptures, Volume 2 p. 512",
+    clueSource: "Insight on the Scriptures Volume 2, [Number, Numeral] p. 512",
     clueSourceContent:
       "Seven. Seven is used frequently in the Scriptures to signify completeness. At times it has reference to bringing a work toward completion. Or it can refer to the complete cycle of things as established or allowed by God. By completing his work toward the earth in six creative days and resting on the seventh day, Jehovah set the pattern for the whole Sabbath arrangement, from the seven-day week to the Jubilee year that followed the seven-times-seven–year cycle. (Ex 20:10; Le 25:2, 6, 8) The Festival of Unleavened Bread and the Festival of Booths were each seven days long. (Ex 34:18; Le 23:34) Seven appears often in connection with the Levitical rules for offerings (Le 4:6; 16:14, 19; Nu 28:11) and for cleansings.​—Le 14:7, 8, 16, 27, 51; 2Ki 5:10.",
     choiceA: "Perfection",
@@ -814,7 +814,7 @@ const numbersAndDates = [
   {
     question:
       "On what year was the holy spirit poured out by Jesus Chirst on the group of about 120 disciples?",
-    clueSource: "Insight on the Scriptures, Volume 2 p. 599",
+    clueSource: "Insight on the Scriptures Volume 2, [Pentecost] p. 599",
     clueSourceContent:
       "Symbolic Significance of the Festival. It was on the day of Pentecost that the holy spirit was poured out by Jesus Christ on the group of about 120 disciples in the upper room at Jerusalem in the year 33 C.E. (Ac 1:13-15) Jesus had been resurrected on Nisan 16, the day of the offering of the barley sheaf by the high priest.",
     choiceA: "1 C.E.",
@@ -943,9 +943,11 @@ const numbersAndDates = [
 
 const places = [
   {
-    question: "Where was Daniel, Shadrach, Meshach, and Abednego been taken captive?",
+    question:
+      "Where was Daniel, Shadrach, Meshach, and Abednego been taken captive?",
     clueSource: "Daniel 1:1-7",
-    clueSourceContent: "In the third year of the kingship of King Je·hoiʹa·kim of Judah, King Neb·u·chad·nezʹzar of Babylon came to Jerusalem and besieged it. 2  In time Jehovah gave King Je·hoiʹa·kim of Judah into his hand, along with some of the utensils of the house of the true God, and he brought them to the land of Shiʹnar to the house of his god. He placed the utensils in the treasury of his god. 3  Then the king ordered Ashʹpe·naz his chief court official to bring some of the Israelites, including those of royal and noble descent. 4  They were to be youths without any defect, of good appearance, endowed with wisdom, knowledge, and discernment, and capable of serving in the king’s palace. He was to teach them the writing and the language of the Chal·deʹans. 5  Furthermore, the king assigned to them a daily ration from the king’s delicacies and from the wine he drank. They were to be trained for three years, and at the end of that time they were to enter the king’s service. 6  Now among them were some from the tribe of Judah: Daniel, Han·a·niʹah, Mishʹa·el, and Az·a·riʹah. 7  And the principal court official assigned names to them; he gave to Daniel the name Bel·te·shazʹzar, to Han·a·niʹah the name Shaʹdrach, to Mishʹa·el the name Meʹshach, and to Az·a·riʹah the name A·bedʹne·go.",
+    clueSourceContent:
+      "In the third year of the kingship of King Je·hoiʹa·kim of Judah, King Neb·u·chad·nezʹzar of Babylon came to Jerusalem and besieged it. 2  In time Jehovah gave King Je·hoiʹa·kim of Judah into his hand, along with some of the utensils of the house of the true God, and he brought them to the land of Shiʹnar to the house of his god. He placed the utensils in the treasury of his god. 3  Then the king ordered Ashʹpe·naz his chief court official to bring some of the Israelites, including those of royal and noble descent. 4  They were to be youths without any defect, of good appearance, endowed with wisdom, knowledge, and discernment, and capable of serving in the king’s palace. He was to teach them the writing and the language of the Chal·deʹans. 5  Furthermore, the king assigned to them a daily ration from the king’s delicacies and from the wine he drank. They were to be trained for three years, and at the end of that time they were to enter the king’s service. 6  Now among them were some from the tribe of Judah: Daniel, Han·a·niʹah, Mishʹa·el, and Az·a·riʹah. 7  And the principal court official assigned names to them; he gave to Daniel the name Bel·te·shazʹzar, to Han·a·niʹah the name Shaʹdrach, to Mishʹa·el the name Meʹshach, and to Az·a·riʹah the name A·bedʹne·go.",
     choiceA: "Persia",
     choiceB: "Babylon",
     choiceC: "Rome",
@@ -953,9 +955,11 @@ const places = [
     correctAnswer: "B",
   },
   {
-    question: "Where did the test of Elijah against the 450 prophets of Baal occur?",
+    question:
+      "Where did the test of Elijah against the 450 prophets of Baal occur?",
     clueSource: "1 Kings 18:18-20",
-    clueSourceContent: "18 To this he said: “I have not brought trouble on Israel, but you and the house of your father have, by abandoning the commandments of Jehovah and by following the Baʹals. 19  And now summon all Israel to me at Mount Carʹmel, as well as the 450 prophets of Baʹal and the 400 prophets of the sacred pole, who are eating at the table of Jezʹe·bel.” 20  So Aʹhab sent word among all the people of Israel and collected the prophets together at Mount Carʹmel.",
+    clueSourceContent:
+      "18 To this he said: “I have not brought trouble on Israel, but you and the house of your father have, by abandoning the commandments of Jehovah and by following the Baʹals. 19  And now summon all Israel to me at Mount Carʹmel, as well as the 450 prophets of Baʹal and the 400 prophets of the sacred pole, who are eating at the table of Jezʹe·bel.” 20  So Aʹhab sent word among all the people of Israel and collected the prophets together at Mount Carʹmel.",
     choiceA: "Mount Ararat",
     choiceB: "Mount Horeb",
     choiceC: "Mount Carmel",
@@ -963,9 +967,11 @@ const places = [
     correctAnswer: "C",
   },
   {
-    question: "This is the land that Jehovah wanted Abraham and Sarah to see after leaving their homeland.",
+    question:
+      "This is the land that Jehovah wanted Abraham and Sarah to see after leaving their homeland.",
     clueSource: "Genesis 15:5-7",
-    clueSourceContent: "5 He now brought him outside and said: “Look up, please, to the heavens and count the stars, if you are able to do so.” Then he said to him: “So your offspring will become.” 6  And he put faith in Jehovah, and He counted it to him as righteousness. 7 Then he added: “I am Jehovah, who brought you out of Ur of the Chal·deʹans to give you this land as your possession.”",
+    clueSourceContent:
+      "5 He now brought him outside and said: “Look up, please, to the heavens and count the stars, if you are able to do so.” Then he said to him: “So your offspring will become.” 6  And he put faith in Jehovah, and He counted it to him as righteousness. 7 Then he added: “I am Jehovah, who brought you out of Ur of the Chal·deʹans to give you this land as your possession.”",
     choiceA: "Ur",
     choiceB: "Haran",
     choiceC: "Babel",
@@ -973,9 +979,11 @@ const places = [
     correctAnswer: "D",
   },
   {
-    question: "Where did the princes of Jerusalem throw Jeremiah into for simply telling Jehovah's prophecy to them?",
+    question:
+      "Where did the princes of Jerusalem throw Jeremiah into for simply telling Jehovah's prophecy to them?",
     clueSource: "Jeremiah 38:4-6",
-    clueSourceContent: "4 The princes said to the king: “Please have this man put to death, for this is how he is weakening the morale of the soldiers who are left in this city, as well as that of all the people, by speaking such words to them. For this man seeks, not the peace of this people, but their calamity.” 5  King Zed·e·kiʹah replied: “Look! He is in your hands, for the king cannot do anything to stop you.” 6  So they took Jeremiah and threw him into the cistern of Mal·chiʹjah the son of the king, which was in the Courtyard of the Guard. They let Jeremiah down by ropes. Now there was no water in the cistern, only mud, and Jeremiah began to sink down into the mud.",
+    clueSourceContent:
+      "4 The princes said to the king: “Please have this man put to death, for this is how he is weakening the morale of the soldiers who are left in this city, as well as that of all the people, by speaking such words to them. For this man seeks, not the peace of this people, but their calamity.” 5  King Zed·e·kiʹah replied: “Look! He is in your hands, for the king cannot do anything to stop you.” 6  So they took Jeremiah and threw him into the cistern of Mal·chiʹjah the son of the king, which was in the Courtyard of the Guard. They let Jeremiah down by ropes. Now there was no water in the cistern, only mud, and Jeremiah began to sink down into the mud.",
     choiceA: "Into a cistern",
     choiceB: "Into a dungeon",
     choiceC: "Into a furnace",
@@ -985,7 +993,8 @@ const places = [
   {
     question: "Which one is not included on the four rivers of Eden?",
     clueSource: "Genesis 2:10-14",
-    clueSourceContent: "10 Now there was a river flowing out of Eʹden to water the garden, and from there it divided into four rivers. 11  The name of the first is Piʹshon; it is the one encircling the entire land of Havʹi·lah, where there is gold. 12  The gold of that land is good. Bdellium gum and onyx stone are also there. 13  The name of the second river is Giʹhon; it is the one encircling the entire land of Cush. 14  The name of the third river is Hidʹde·kel; it is the one going to the east of As·syrʹi·a. And the fourth river is the Eu·phraʹtes.",
+    clueSourceContent:
+      "10 Now there was a river flowing out of Eʹden to water the garden, and from there it divided into four rivers. 11  The name of the first is Piʹshon; it is the one encircling the entire land of Havʹi·lah, where there is gold. 12  The gold of that land is good. Bdellium gum and onyx stone are also there. 13  The name of the second river is Giʹhon; it is the one encircling the entire land of Cush. 14  The name of the third river is Hidʹde·kel; it is the one going to the east of As·syrʹi·a. And the fourth river is the Eu·phraʹtes.",
     choiceA: "Pishon",
     choiceB: "Nile",
     choiceC: "Hiddekel",
@@ -995,7 +1004,8 @@ const places = [
   {
     question: "On what river was Jesus Christ baptized?",
     clueSource: "Matthew 3:13",
-    clueSourceContent: "13 Then Jesus came from Galʹi·lee to the Jordan to John, in order to be baptized by him.",
+    clueSourceContent:
+      "13 Then Jesus came from Galʹi·lee to the Jordan to John, in order to be baptized by him.",
     choiceA: "Jordan",
     choiceB: "Nile",
     choiceC: "Hiddekel",
@@ -1005,7 +1015,8 @@ const places = [
   {
     question: "On what city did Jesus perform his first miracle?",
     clueSource: "John 2:1-11",
-    clueSourceContent: "And on the third day a marriage feast took place in Caʹna of Galʹi·lee, and the mother of Jesus was there. 2  Jesus and his disciples were also invited to the marriage feast. 3  When the wine ran short, the mother of Jesus said to him: “They have no wine.” 4  But Jesus said to her: “Woman, why is that of concern to me and to you? My hour has not yet come.” 5  His mother said to those serving: “Do whatever he tells you.” 6  Now there were six stone water jars sitting there as required by the purification rules of the Jews, each able to hold two or three liquid measures. 7  Jesus said to them: “Fill the jars with water.” So they filled them to the brim. 8  Then he said to them: “Now draw some out and take it to the director of the feast.” So they took it. 9  When the director of the feast tasted the water that had now been turned into wine, not knowing where it came from (although the servants who had drawn out the water knew), the director of the feast called the bridegroom 10  and said to him: “Everyone else puts out the fine wine first, and when people are intoxicated, the inferior. You have saved the fine wine until now.” 11  Jesus did this in Caʹna of Galʹi·lee as the beginning of his signs, and he made his glory manifest, and his disciples put their faith in him.",
+    clueSourceContent:
+      "And on the third day a marriage feast took place in Caʹna of Galʹi·lee, and the mother of Jesus was there. 2  Jesus and his disciples were also invited to the marriage feast. 3  When the wine ran short, the mother of Jesus said to him: “They have no wine.” 4  But Jesus said to her: “Woman, why is that of concern to me and to you? My hour has not yet come.” 5  His mother said to those serving: “Do whatever he tells you.” 6  Now there were six stone water jars sitting there as required by the purification rules of the Jews, each able to hold two or three liquid measures. 7  Jesus said to them: “Fill the jars with water.” So they filled them to the brim. 8  Then he said to them: “Now draw some out and take it to the director of the feast.” So they took it. 9  When the director of the feast tasted the water that had now been turned into wine, not knowing where it came from (although the servants who had drawn out the water knew), the director of the feast called the bridegroom 10  and said to him: “Everyone else puts out the fine wine first, and when people are intoxicated, the inferior. You have saved the fine wine until now.” 11  Jesus did this in Caʹna of Galʹi·lee as the beginning of his signs, and he made his glory manifest, and his disciples put their faith in him.",
     choiceA: "Capernaum",
     choiceB: "Bethlehem",
     choiceC: "Cana",
@@ -1013,9 +1024,11 @@ const places = [
     correctAnswer: "C",
   },
   {
-    question: "Where did Naomi's family came from before residing in Moab as a foreigner?",
+    question:
+      "Where did Naomi's family came from before residing in Moab as a foreigner?",
     clueSource: "Ruth 1:1, 2",
-    clueSourceContent: "Now in the days when the judges administered justice, a famine occurred in the land; and a man went from Bethʹle·hem in Judah to reside as a foreigner in the fields of Moʹab, he along with his wife and his two sons. 2  The man’s name was E·limʹe·lech, his wife’s name was Na·oʹmi, and the names of his two sons were Mahʹlon and Chilʹi·on. They were Ephʹrath·ites from Bethʹle·hem in Judah. And they came to the fields of Moʹab and remained there.",
+    clueSourceContent:
+      "Now in the days when the judges administered justice, a famine occurred in the land; and a man went from Bethʹle·hem in Judah to reside as a foreigner in the fields of Moʹab, he along with his wife and his two sons. 2  The man’s name was E·limʹe·lech, his wife’s name was Na·oʹmi, and the names of his two sons were Mahʹlon and Chilʹi·on. They were Ephʹrath·ites from Bethʹle·hem in Judah. And they came to the fields of Moʹab and remained there.",
     choiceA: "Bethlehem Ephrathah",
     choiceB: "Moab",
     choiceC: "Edom",
@@ -1025,7 +1038,8 @@ const places = [
   {
     question: "Where did Rahab hide the 2 spies sent by Joshua?",
     clueSource: "Joshua 2:1-6",
-    clueSourceContent: "Then Joshua the son of Nun secretly sent two men out from Shitʹtim as spies. He told them: “Go and inspect the land, especially Jerʹi·cho.” So they went and came to the house of a prostitute named Raʹhab, and they stayed there. 2  The king of Jerʹi·cho was told: “Look! Israelite men have come in here tonight to spy out the land.” 3  At that the king of Jerʹi·cho sent word to Raʹhab: “Bring out the men who came and are staying in your house, for they have come to spy out the entire land.” 4  But the woman took the two men and hid them. Then she said: “Yes, the men came to me, but I did not know where they were from. 5  And at dark when the city gate was about to be closed, the men went out. I do not know where the men went, but if you quickly chase after them, you will catch up with them.” 6  (However, she had taken them up to the roof and hidden them among stalks of flax laid in rows on the roof.)",
+    clueSourceContent:
+      "Then Joshua the son of Nun secretly sent two men out from Shitʹtim as spies. He told them: “Go and inspect the land, especially Jerʹi·cho.” So they went and came to the house of a prostitute named Raʹhab, and they stayed there. 2  The king of Jerʹi·cho was told: “Look! Israelite men have come in here tonight to spy out the land.” 3  At that the king of Jerʹi·cho sent word to Raʹhab: “Bring out the men who came and are staying in your house, for they have come to spy out the entire land.” 4  But the woman took the two men and hid them. Then she said: “Yes, the men came to me, but I did not know where they were from. 5  And at dark when the city gate was about to be closed, the men went out. I do not know where the men went, but if you quickly chase after them, you will catch up with them.” 6  (However, she had taken them up to the roof and hidden them among stalks of flax laid in rows on the roof.)",
     choiceA: "In her basement",
     choiceB: "In her closet",
     choiceC: "On her roof",
@@ -1035,7 +1049,8 @@ const places = [
   {
     question: "Where is Job's homeland?",
     clueSource: "Job 1:1",
-    clueSourceContent: "There was a man in the land of Uz whose name was Job. He was an upright man of integrity; her feared God and shunned what was bad.",
+    clueSourceContent:
+      "There was a man in the land of Uz whose name was Job. He was an upright man of integrity; her feared God and shunned what was bad.",
     choiceA: "Ur",
     choiceB: "Uz",
     choiceC: "Edom",
@@ -1045,7 +1060,8 @@ const places = [
   {
     question: "Where was Paul taken into custody for 2 years?",
     clueSource: "Acts 28:30",
-    clueSourceContent: "30 So he remained there for an entire two years in his own rented house, and he would kindly receive all those who came to him.",
+    clueSourceContent:
+      "30 So he remained there for an entire two years in his own rented house, and he would kindly receive all those who came to him.",
     choiceA: "In prison",
     choiceB: "In his own house",
     choiceC: "In a cave",
@@ -1055,7 +1071,8 @@ const places = [
   {
     question: "Where was Jeremiah taken after the destruction of Jerusalem?",
     clueSource: "Jeremiah 43:6, 7",
-    clueSourceContent: "6 They took the men, the women, the children, the daughters of the king, and everyone whom Neb·uʹzar·adʹan the chief of the guard had left with Ged·a·liʹah the son of A·hiʹkam the son of Shaʹphan, as well as Jeremiah the prophet and Barʹuch the son of Ne·riʹah. 7  And they went into the land of Egypt, for they did not obey the voice of Jehovah, and they went as far as Tahʹpan·hes.",
+    clueSourceContent:
+      "6 They took the men, the women, the children, the daughters of the king, and everyone whom Neb·uʹzar·adʹan the chief of the guard had left with Ged·a·liʹah the son of A·hiʹkam the son of Shaʹphan, as well as Jeremiah the prophet and Barʹuch the son of Ne·riʹah. 7  And they went into the land of Egypt, for they did not obey the voice of Jehovah, and they went as far as Tahʹpan·hes.",
     choiceA: "Jerusalem",
     choiceB: "Greece",
     choiceC: "Babylon",
@@ -1065,7 +1082,8 @@ const places = [
   {
     question: "Where did Abraham bury his wife Sarah?",
     clueSource: "Genesis 23:19, 20",
-    clueSourceContent: "19 After that Abraham buried his wife Sarah in the cave of the field of Mach·peʹlah in front of Mamʹre, that is, Hebʹron, in the land of Caʹnaan. 20  Thus the field and the cave that was in it were transferred by the sons of Heth to Abraham as property for a burial place.",
+    clueSourceContent:
+      "19 After that Abraham buried his wife Sarah in the cave of the field of Mach·peʹlah in front of Mamʹre, that is, Hebʹron, in the land of Caʹnaan. 20  Thus the field and the cave that was in it were transferred by the sons of Heth to Abraham as property for a burial place.",
     choiceA: "Machpelah",
     choiceB: "Mamre",
     choiceC: "Hebron",
@@ -1073,9 +1091,11 @@ const places = [
     correctAnswer: "A",
   },
   {
-    question: "Where did Moses see a thornbush in flame that wasn't consumed by fire?",
+    question:
+      "Where did Moses see a thornbush in flame that wasn't consumed by fire?",
     clueSource: "Moses 3:1, 2",
-    clueSourceContent: "Moses became a shepherd of the flock of his father-in-law Jethʹro, the priest of Midʹi·an. While he was leading the flock to the west side of the wilderness, he eventually came to the mountain of the true God, to Horʹeb. 2  Then Jehovah’s angel appeared to him in a flame of fire in the midst of a thornbush. As he kept looking, he saw that the thornbush was on fire, and yet the thornbush was not consumed.",
+    clueSourceContent:
+      "Moses became a shepherd of the flock of his father-in-law Jethʹro, the priest of Midʹi·an. While he was leading the flock to the west side of the wilderness, he eventually came to the mountain of the true God, to Horʹeb. 2  Then Jehovah’s angel appeared to him in a flame of fire in the midst of a thornbush. As he kept looking, he saw that the thornbush was on fire, and yet the thornbush was not consumed.",
     choiceA: "Mount Carmel",
     choiceB: "Mount Moriah",
     choiceC: "Mount Horeb",
@@ -1085,7 +1105,8 @@ const places = [
   {
     question: "Where did Solomon build Jehovah's temple?",
     clueSource: "2 Chronicles 3:1",
-    clueSourceContent: "Then Solʹo·mon started to build the house of Jehovah in Jerusalem on Mount Mo·riʹah, where Jehovah had appeared to his father David, in the place that David had prepared on the threshing floor of Orʹnand the Jebʹu·site.",
+    clueSourceContent:
+      "Then Solʹo·mon started to build the house of Jehovah in Jerusalem on Mount Mo·riʹah, where Jehovah had appeared to his father David, in the place that David had prepared on the threshing floor of Orʹnand the Jebʹu·site.",
     choiceA: "Mount Carmel",
     choiceB: "Mount Moriah",
     choiceC: "Mount Horeb",
@@ -1095,7 +1116,8 @@ const places = [
   {
     question: "Where was Jesus born?",
     clueSource: "Matthew 2:1",
-    clueSourceContent: "After Jesus had been born in Bethʹle·hem of Ju·deʹa in the days of Herod the king, look! astrologers from the East came to Jerusalem.",
+    clueSourceContent:
+      "After Jesus had been born in Bethʹle·hem of Ju·deʹa in the days of Herod the king, look! astrologers from the East came to Jerusalem.",
     choiceA: "Bethlehem of Zebulun",
     choiceB: "Bethelem of Judea",
     choiceC: "Nazareth",
@@ -1103,9 +1125,11 @@ const places = [
     correctAnswer: "B",
   },
   {
-    question: "Where did Jehovah tell his prophet Jonah to go to warn the people of this city that they should change their ways?",
+    question:
+      "Where did Jehovah tell his prophet Jonah to go to warn the people of this city that they should change their ways?",
     clueSource: "Jonah 1:1, 2",
-    clueSourceContent: "The word of Jehovah came to Joʹnah the son of A·mitʹtai, saying: 2  “Get up, go to Ninʹe·veh the great city, and proclaim judgment against her, for their wickedness has come to my attention.”",
+    clueSourceContent:
+      "The word of Jehovah came to Joʹnah the son of A·mitʹtai, saying: 2  “Get up, go to Ninʹe·veh the great city, and proclaim judgment against her, for their wickedness has come to my attention.”",
     choiceA: "Tarshish",
     choiceB: "Egypt",
     choiceC: "Jerusalem",
@@ -1113,9 +1137,11 @@ const places = [
     correctAnswer: "D",
   },
   {
-    question: "Where did Jehovah, using Moses, bring the water out from when they began dwelling in Kadesh?",
+    question:
+      "Where did Jehovah, using Moses, bring the water out from when they began dwelling in Kadesh?",
     clueSource: "Numbers 20:8",
-    clueSourceContent: "8 “Take the rod and call the assembly together, you and Aaron your brother, and speak to the crag before their eyes that it may give its water, and you will bring out water for them from the crag and give the assembly and their livestock something to drink.”",
+    clueSourceContent:
+      "8 “Take the rod and call the assembly together, you and Aaron your brother, and speak to the crag before their eyes that it may give its water, and you will bring out water for them from the crag and give the assembly and their livestock something to drink.”",
     choiceA: "From a river",
     choiceB: "From a crag",
     choiceC: "From a tree",
@@ -1123,9 +1149,11 @@ const places = [
     correctAnswer: "B",
   },
   {
-    question: "Where did Jacob reside when he ran from angry Esau, his brother?",
+    question:
+      "Where did Jacob reside when he ran from angry Esau, his brother?",
     clueSource: "Genesis 29:1-4",
-    clueSourceContent: "After that Jacob resumed his journey and traveled on to the land of the people of the East. 2  Now he saw a well in the field and three droves of sheep lying down next to it, because they usually watered the droves from that well. There was a large stone over the mouth of the well. 3  When all the droves had been gathered there, they rolled away the stone from the mouth of the well, and they watered the flocks, after which they returned the stone to its place over the mouth of the well. 4  So Jacob said to them: “My brothers, what place are you from?” to which they said: “We are from Haʹran.”",
+    clueSourceContent:
+      "After that Jacob resumed his journey and traveled on to the land of the people of the East. 2  Now he saw a well in the field and three droves of sheep lying down next to it, because they usually watered the droves from that well. There was a large stone over the mouth of the well. 3  When all the droves had been gathered there, they rolled away the stone from the mouth of the well, and they watered the flocks, after which they returned the stone to its place over the mouth of the well. 4  So Jacob said to them: “My brothers, what place are you from?” to which they said: “We are from Haʹran.”",
     choiceA: "Haran",
     choiceB: "Egypt",
     choiceC: "Shechem",
@@ -1133,9 +1161,11 @@ const places = [
     correctAnswer: "A",
   },
   {
-    question: "On what island did the apostle John live as exile for speaking about God?",
+    question:
+      "On what island did the apostle John live as exile for speaking about God?",
     clueSource: "Revelation 1:9",
-    clueSourceContent: "9 I John, your brother and a sharer with you in the tribulations and kingdom and endurance in association with Jesus, was on the island called Patʹmos for speaking about God and bearing witness concerning Jesus.",
+    clueSourceContent:
+      "9 I John, your brother and a sharer with you in the tribulations and kingdom and endurance in association with Jesus, was on the island called Patʹmos for speaking about God and bearing witness concerning Jesus.",
     choiceA: "Crete",
     choiceB: "Patmos",
     choiceC: "Cyprus",
@@ -1146,9 +1176,11 @@ const places = [
 
 const wars = [
   {
-    question: "In war against the Amalekites, what did Moses, along with Aaron and Hur, have to do to win?",
+    question:
+      "In war against the Amalekites, what did Moses, along with Aaron and Hur, have to do to win?",
     clueSource: "Exodus 17:10-13",
-    clueSourceContent: "10 Then Joshua did just as Moses told him, and he fought against the A·malʹek·ites. And Moses, Aaron, and Hur went up to the top of the hill. 11  As long as Moses kept his hands lifted up, the Israelites prevailed, but as soon as he would let down his hands, the A·malʹek·ites prevailed. 12  When the hands of Moses were heavy, they took a stone and put it under him, and he sat on it. Then Aaron and Hur, one on each side, supported his hands, so that his hands remained steady until the sun set. 13  Thus Joshua defeated Amʹa·lek and his people with the sword.",
+    clueSourceContent:
+      "10 Then Joshua did just as Moses told him, and he fought against the A·malʹek·ites. And Moses, Aaron, and Hur went up to the top of the hill. 11  As long as Moses kept his hands lifted up, the Israelites prevailed, but as soon as he would let down his hands, the A·malʹek·ites prevailed. 12  When the hands of Moses were heavy, they took a stone and put it under him, and he sat on it. Then Aaron and Hur, one on each side, supported his hands, so that his hands remained steady until the sun set. 13  Thus Joshua defeated Amʹa·lek and his people with the sword.",
     choiceA: "Keep his fingers crossed",
     choiceB: "Keep his feet lifted up",
     choiceC: "Keep his hands lifted up",
@@ -1156,9 +1188,10 @@ const wars = [
     correctAnswer: "C",
   },
   {
-    question: "",
-    clueSource: "Insight on the Scriptures, Volume 2 pp. 504-505",
-    clueSourceContent: "[Nineveh's] Destruction Fulfills Prophecy. Although repenting at the preaching of Jonah (Mt 12:41; Lu 11:30, 32), the Ninevites relapsed and again took to their wicked ways. It was some years after Assyrian King Sennacherib had been murdered at Nineveh in the house of his god Nisroch (2Ki 19:36, 37; Isa 37:37, 38) that Nahum (1:1; 2:8–3:19) and Zephaniah (2:13-15) foretold the destruction of that wicked city. Their prophecies were fulfilled when the combined forces of Nabopolassar the king of Babylon and of Cyaxares the Mede besieged and captured Nineveh. The city was evidently subjected to burning, for many Assyrian reliefs show damage or stain from fire and accompanying smoke. With reference to Nineveh, a Babylonian chronicle reports: “They carried off the vast booty of the city and the temple (and) [turned] the city into a ruin heap.” (Assyrian and Babylonian Chronicles, by A. Grayson, 1975, p. 94; PICTURE, Vol. 1, p. 958) To this day Nineveh is a desolate waste, and in the spring, flocks graze near or atop the mound of Kuyunjik.",
+    question: "What nation destroyed the city of Nineveh?",
+    clueSource: "Insight on the Scriptures Volume 2, [Nineveh] pp. 504-505",
+    clueSourceContent:
+      "[Nineveh's] Destruction Fulfills Prophecy. Although repenting at the preaching of Jonah (Mt 12:41; Lu 11:30, 32), the Ninevites relapsed and again took to their wicked ways. It was some years after Assyrian King Sennacherib had been murdered at Nineveh in the house of his god Nisroch (2Ki 19:36, 37; Isa 37:37, 38) that Nahum (1:1; 2:8–3:19) and Zephaniah (2:13-15) foretold the destruction of that wicked city. Their prophecies were fulfilled when the combined forces of Nabopolassar the king of Babylon and of Cyaxares the Mede besieged and captured Nineveh. The city was evidently subjected to burning, for many Assyrian reliefs show damage or stain from fire and accompanying smoke. With reference to Nineveh, a Babylonian chronicle reports: “They carried off the vast booty of the city and the temple (and) [turned] the city into a ruin heap.” (Assyrian and Babylonian Chronicles, by A. Grayson, 1975, p. 94; PICTURE, Vol. 1, p. 958) To this day Nineveh is a desolate waste, and in the spring, flocks graze near or atop the mound of Kuyunjik.",
     choiceA: "Persia",
     choiceB: "Babylon",
     choiceC: "Rome",
@@ -1166,9 +1199,11 @@ const wars = [
     correctAnswer: "B",
   },
   {
-    question: "Who was the Amalekite king that Saul spared after striking down Amalek?",
+    question:
+      "Who was the Amalekite king that Saul spared after striking down Amalek?",
     clueSource: "1 Samuel 15:8, 9",
-    clueSourceContent: "8 He caught Aʹgag the king of Amʹa·lek alive, but all the other people he devoted to destruction with the sword. 9  However, Saul and the people spared Aʹgag and the best of the flock, the herd, the fattened animals, the rams, and all that was good. They did not want to devote them to destruction. But all the goods that were worthless and unwanted, these they devoted to destruction.",
+    clueSourceContent:
+      "8 He caught Aʹgag the king of Amʹa·lek alive, but all the other people he devoted to destruction with the sword. 9  However, Saul and the people spared Aʹgag and the best of the flock, the herd, the fattened animals, the rams, and all that was good. They did not want to devote them to destruction. But all the goods that were worthless and unwanted, these they devoted to destruction.",
     choiceA: "Agag",
     choiceB: "Haman",
     choiceC: "Zobah",
@@ -1176,9 +1211,11 @@ const wars = [
     correctAnswer: "A",
   },
   {
-    question: "The walls of what city fell down flat after the Israelites marched around it 7 times?",
+    question:
+      "The walls of what city fell down flat after the Israelites marched around it 7 times?",
     clueSource: "Joshua 6:1-5",
-    clueSourceContent: "Now Jerʹi·cho was tightly shut up because of the Israelites; no one was leaving and no one was entering. 2  Jehovah then said to Joshua: “See, I have handed over to you Jerʹi·cho and its king and its mighty warriors. 3  All you fighting men should march around the city, going around the city once. That is what you should do for six days. 4  Have seven priests carry seven ram’s horns before the Ark. But on the seventh day, you should march around the city seven times and the priests should blow the horns. 5  When the ram’s horn is sounded—as soon as you hear the sound of the horn—all the people should shout a great war cry. Then the wall of the city will fall down flat, and the people must go up, each one straight ahead.”",
+    clueSourceContent:
+      "Now Jerʹi·cho was tightly shut up because of the Israelites; no one was leaving and no one was entering. 2  Jehovah then said to Joshua: “See, I have handed over to you Jerʹi·cho and its king and its mighty warriors. 3  All you fighting men should march around the city, going around the city once. That is what you should do for six days. 4  Have seven priests carry seven ram’s horns before the Ark. But on the seventh day, you should march around the city seven times and the priests should blow the horns. 5  When the ram’s horn is sounded—as soon as you hear the sound of the horn—all the people should shout a great war cry. Then the wall of the city will fall down flat, and the people must go up, each one straight ahead.”",
     choiceA: "Babylon",
     choiceB: "Nineveh",
     choiceC: "Greece",
@@ -1186,9 +1223,11 @@ const wars = [
     correctAnswer: "D",
   },
   {
-    question: "How many men did Joshua secretly send out as spies on the land of Jericho?",
+    question:
+      "How many men did Joshua secretly send out as spies on the land of Jericho?",
     clueSource: "Joshua 2:1",
-    clueSourceContent: "Then Joshua the son of Nun secretly sent two men out from Shitʹtim as spies. He told them: “Go and inspect the land, especially Jerʹi·cho.” So they went and came to the house of a prostitute named Raʹhab, and they stayed there.",
+    clueSourceContent:
+      "Then Joshua the son of Nun secretly sent two men out from Shitʹtim as spies. He told them: “Go and inspect the land, especially Jerʹi·cho.” So they went and came to the house of a prostitute named Raʹhab, and they stayed there.",
     choiceA: "12 men",
     choiceB: "10 men",
     choiceC: "7 men",
@@ -1196,9 +1235,11 @@ const wars = [
     correctAnswer: "D",
   },
   {
-    question: "Who said to Jehovah before Israel: “Sun, stand still over Gibʹe·on”?",
+    question:
+      "Who said to Jehovah before Israel: “Sun, stand still over Gibʹe·on”?",
     clueSource: "Joshua 10:12",
-    clueSourceContent: "It was then, on the day that Jehovah routed the Amʹor·ites before the eyes of the Israelites, that Joshua said to Jehovah before Israel: “Sun, stand still over Gibʹe·on, And moon, over the Valley of Aiʹja·lon!”",
+    clueSourceContent:
+      "It was then, on the day that Jehovah routed the Amʹor·ites before the eyes of the Israelites, that Joshua said to Jehovah before Israel: “Sun, stand still over Gibʹe·on, And moon, over the Valley of Aiʹja·lon!”",
     choiceA: "Moses",
     choiceB: "Aaron",
     choiceC: "Joshua",
@@ -1206,9 +1247,11 @@ const wars = [
     correctAnswer: "C",
   },
   {
-    question: "Which of the 12 tribes of Israel was exempted from joining wars?",
+    question:
+      "Which of the 12 tribes of Israel was exempted from joining wars?",
     clueSource: "Numbers 2:32, 33",
-    clueSourceContent: "32 These were the Israelites who were registered according to their paternal houses; the total of those in the camps registered for the army was 603,550. 33 But the Levites did not get registered along with the other Israelites, just as Jehovah had commanded Moses.",
+    clueSourceContent:
+      "32 These were the Israelites who were registered according to their paternal houses; the total of those in the camps registered for the army was 603,550. 33 But the Levites did not get registered along with the other Israelites, just as Jehovah had commanded Moses.",
     choiceA: "Judah",
     choiceB: "Levi",
     choiceC: "Reuben",
@@ -1218,7 +1261,8 @@ const wars = [
   {
     question: "How many nations did Israel defeat in the land of promise?",
     clueSource: "Deuteronomy 7:1",
-    clueSourceContent: "When Jehovah your God brings you into the land you are about to enter and take possession of, he will also clear away populous nations from before you: the Hitʹtites, the Girʹga·shites, the Amʹor·ites, the Caʹnaan·ites, the Perʹiz·zites, the Hiʹvites, and the Jebʹu·sites, seven nations more populous and mightier than you are.",
+    clueSourceContent:
+      "When Jehovah your God brings you into the land you are about to enter and take possession of, he will also clear away populous nations from before you: the Hitʹtites, the Girʹga·shites, the Amʹor·ites, the Caʹnaan·ites, the Perʹiz·zites, the Hiʹvites, and the Jebʹu·sites, seven nations more populous and mightier than you are.",
     choiceA: "3 nations",
     choiceB: "12 nations",
     choiceC: "7 nations",
@@ -1228,7 +1272,8 @@ const wars = [
   {
     question: "At what age can an Israelite serve in the army in Israel?",
     clueSource: "Numbers 1:45",
-    clueSourceContent: "45 All the Israelites from 20 years old and up who could serve in the army in Israel were registered by their paternal house.",
+    clueSourceContent:
+      "45 All the Israelites from 20 years old and up who could serve in the army in Israel were registered by their paternal house.",
     choiceA: "18 years old",
     choiceB: "19 years old",
     choiceC: "20 years old",
@@ -1236,9 +1281,11 @@ const wars = [
     correctAnswer: "C",
   },
   {
-    question: "Which city acted shrewdly and pretended that their inhabitants came from a distant land?",
+    question:
+      "Which city acted shrewdly and pretended that their inhabitants came from a distant land?",
     clueSource: "Joshua 9:3-6",
-    clueSourceContent: "3 The inhabitants of Gibʹe·on also heard what Joshua had done to Jerʹi·cho and Aʹi. 4  So they acted shrewdly and put provisions into worn-out sacks on their donkeys, along with worn-out wineskins that had burst and had been mended; 5  they also had worn-out and patched sandals on their feet, and they were wearing worn-out garments. All the bread of their provisions was dry and crumbly. 6  Then they went to Joshua at the camp at Gilʹgal and said to him and the men of Israel: “We have come from a distant land. Now make a covenant with us.”",
+    clueSourceContent:
+      "3 The inhabitants of Gibʹe·on also heard what Joshua had done to Jerʹi·cho and Aʹi. 4  So they acted shrewdly and put provisions into worn-out sacks on their donkeys, along with worn-out wineskins that had burst and had been mended; 5  they also had worn-out and patched sandals on their feet, and they were wearing worn-out garments. All the bread of their provisions was dry and crumbly. 6  Then they went to Joshua at the camp at Gilʹgal and said to him and the men of Israel: “We have come from a distant land. Now make a covenant with us.”",
     choiceA: "Canaan",
     choiceB: "Gibeon",
     choiceC: "Egypt",
@@ -1246,9 +1293,11 @@ const wars = [
     correctAnswer: "B",
   },
   {
-    question: "Who was the judge that struck down 600 Philistine men with a cattle goad?",
+    question:
+      "Who was the judge that struck down 600 Philistine men with a cattle goad?",
     clueSource: "Judges 3:31",
-    clueSourceContent: "31 After him was Shamʹgarh the son of Aʹnath, who struck down 600 Phi·lisʹtine meni with a cattle goad; he too saved Israel.",
+    clueSourceContent:
+      "31 After him was Shamʹgarh the son of Aʹnath, who struck down 600 Phi·lisʹtine meni with a cattle goad; he too saved Israel.",
     choiceA: "Shamgar",
     choiceB: "Ehud",
     choiceC: "Samson",
@@ -1256,7 +1305,8 @@ const wars = [
     correctAnswer: "A",
   },
   {
-    question: "Who blessed Abraham after he has saved his nephew Lot from Chedorlaomer?",
+    question:
+      "Who blessed Abraham after he has saved his nephew Lot from Chedorlaomer?",
     clueSource: "Genesis 14:17-20",
     clueSourceContent:
       "17 After Aʹbram returned from defeating Ched·or·la·oʹmer and the kings who were with him, the king of Sodʹom went out to meet Aʹbram at the Valley of Shaʹveh, that is, the Valley of the King. 18  And Mel·chizʹe·dek king of Saʹlem brought out bread and wine; he was priest of the Most High God. 19  Then he blessed him and said: “Blessed be Aʹbram by the Most High God, Maker of heaven and earth; 20  And praised be the Most High God, Who has handed your oppressors over to you!” And Aʹbram gave him a tenth of everything.",
@@ -1269,7 +1319,8 @@ const wars = [
   {
     question: "This is God’s war to destroy Satan’s world and all wickedness.",
     clueSource: "What Can the Bible Teach Us?, Endnote 10 ARMAGEDDON",
-    clueSourceContent: "This is God’s war to destroy Satan’s world and all wickedness.",
+    clueSourceContent:
+      "This is God’s war to destroy Satan’s world and all wickedness.",
     choiceA: "World War III",
     choiceB: "The Holy War",
     choiceC: "Armageddon",
@@ -1277,9 +1328,11 @@ const wars = [
     correctAnswer: "C",
   },
   {
-    question: "In Hezekiah's time, how many Assyrians did an angel of Jehovah struck down in one night?",
+    question:
+      "In Hezekiah's time, how many Assyrians did an angel of Jehovah struck down in one night?",
     clueSource: "2 Kings 19:35",
-    clueSourceContent: "35 On that very night the angel of Jehovah went out and struck down 185,000 men in the camp of the As·syrʹi·ans. When people rose up early in the morning, they saw all the dead bodies.",
+    clueSourceContent:
+      "35 On that very night the angel of Jehovah went out and struck down 185,000 men in the camp of the As·syrʹi·ans. When people rose up early in the morning, they saw all the dead bodies.",
     choiceA: "144,000",
     choiceB: "185,000",
     choiceC: "183,000",
@@ -1287,9 +1340,11 @@ const wars = [
     correctAnswer: "B",
   },
   {
-    question: "He was a king who died together with his son and armor-bearer in battle.",
+    question:
+      "He was a king who died together with his son and armor-bearer in battle.",
     clueSource: "1 Samuel 31:4-6",
-    clueSourceContent: "4 Then Saul said to his armor-bearer: “Draw your sword and run me through with it, so that these uncircumcised men may not come and run me through and deal ruthlessly with me.” But his armor-bearer was unwilling, because he was very much afraid. So Saul took the sword and fell on it. 5  When his armor-bearer saw that Saul was dead, he too fell on his own sword and died with him. 6  Thus Saul, his three sons, his armor-bearer, and all his men died together on that day.",
+    clueSourceContent:
+      "4 Then Saul said to his armor-bearer: “Draw your sword and run me through with it, so that these uncircumcised men may not come and run me through and deal ruthlessly with me.” But his armor-bearer was unwilling, because he was very much afraid. So Saul took the sword and fell on it. 5  When his armor-bearer saw that Saul was dead, he too fell on his own sword and died with him. 6  Thus Saul, his three sons, his armor-bearer, and all his men died together on that day.",
     choiceA: "Saul",
     choiceB: "David",
     choiceC: "Solomon",
@@ -1297,9 +1352,11 @@ const wars = [
     correctAnswer: "A",
   },
   {
-    question: "David put who on the front lines to be struck down and killed in battle?",
+    question:
+      "David put who on the front lines to be struck down and killed in battle?",
     clueSource: "2 Samuel 11:14, 15",
-    clueSourceContent: "14 In the morning David wrote a letter to Joʹab and sent it by the hand of U·riʹah. 15  He wrote in the letter: “Put U·riʹah in the front lines where the fighting is fiercest. Then retreat from behind him, so that he will be struck down and die.”",
+    clueSourceContent:
+      "14 In the morning David wrote a letter to Joʹab and sent it by the hand of U·riʹah. 15  He wrote in the letter: “Put U·riʹah in the front lines where the fighting is fiercest. Then retreat from behind him, so that he will be struck down and die.”",
     choiceA: "Uzziah",
     choiceB: "Elijah",
     choiceC: "Uriah",
@@ -1307,9 +1364,11 @@ const wars = [
     correctAnswer: "C",
   },
   {
-    question: "Who was the king in Jerusalem who made “engines of war designed by engineers”?",
+    question:
+      "Who was the king in Jerusalem who made “engines of war designed by engineers”?",
     clueSource: "2 Chronicles 26:14, 15",
-    clueSourceContent: "14 Uz·ziʹah equipped the entire army with shields, lances, helmets, coats of mail, bows, and slingstones. 15  Further, in Jerusalem he made engines of war designed by engineers; they were set on the towers and on the corners of the walls and could shoot arrows and large stones. So his fame spread far and wide, for he received tremendous help and he became strong.",
+    clueSourceContent:
+      "14 Uz·ziʹah equipped the entire army with shields, lances, helmets, coats of mail, bows, and slingstones. 15  Further, in Jerusalem he made engines of war designed by engineers; they were set on the towers and on the corners of the walls and could shoot arrows and large stones. So his fame spread far and wide, for he received tremendous help and he became strong.",
     choiceA: "Uzziah",
     choiceB: "Elijah",
     choiceC: "Uriah",
@@ -1319,7 +1378,8 @@ const wars = [
   {
     question: "Who released the Israelites from Babylonian slavery?",
     clueSource: "Isaiah 13:17-19",
-    clueSourceContent: "17  Here I am raising up against them the Medes, Who regard silver as nothing And who take no delight in gold. 18  Their bows will shatter young men; They will show no pity on the fruit of the womb Nor mercy to children. 19  And Babylon, the most glorious of kingdoms, The beauty and the pride of the Chal·deʹans, Will be like Sodʹom and Go·morʹrah when God overthrew them.",
+    clueSourceContent:
+      "17  Here I am raising up against them the Medes, Who regard silver as nothing And who take no delight in gold. 18  Their bows will shatter young men; They will show no pity on the fruit of the womb Nor mercy to children. 19  And Babylon, the most glorious of kingdoms, The beauty and the pride of the Chal·deʹans, Will be like Sodʹom and Go·morʹrah when God overthrew them.",
     choiceA: "The Egyptians",
     choiceB: "The Romans",
     choiceC: "The Assyrians",
@@ -1329,7 +1389,8 @@ const wars = [
   {
     question: "Who was the first servant of Jehovah God to wage war?",
     clueSource: "Genesis 14:14-16",
-    clueSourceContent: "14 Thus Aʹbram heard that his relative had been taken captive. With that he mobilized his trained men, 318 servants born in his household, and went in pursuit up to Dan. 15  During the night, he divided his forces, and he and his servants attacked and defeated them. And he pursued them up to Hoʹbah, which is north of Damascus. 16  He recovered all the goods, and he also recovered Lot his relative, his goods, the women, and the other people.",
+    clueSourceContent:
+      "14 Thus Aʹbram heard that his relative had been taken captive. With that he mobilized his trained men, 318 servants born in his household, and went in pursuit up to Dan. 15  During the night, he divided his forces, and he and his servants attacked and defeated them. And he pursued them up to Hoʹbah, which is north of Damascus. 16  He recovered all the goods, and he also recovered Lot his relative, his goods, the women, and the other people.",
     choiceA: "Lamech",
     choiceB: "Abraham",
     choiceC: "Jacob",
@@ -1337,24 +1398,251 @@ const wars = [
     correctAnswer: "B",
   },
   {
-    question: "What did Deborah and Barak do on the day they had defeated the Canaanites?",
+    question:
+      "What did Deborah and Barak do on the day they had defeated the Canaanites?",
     clueSource: "Judges 5:12",
-    clueSourceContent: "Awake, awake, O Debʹo·rah! Awake, awake, sing a song! Rise up, Baʹrak! Lead your captives away, you son of A·binʹo·am!",
+    clueSourceContent:
+      "Awake, awake, O Debʹo·rah! Awake, awake, sing a song! Rise up, Baʹrak! Lead your captives away, you son of A·binʹo·am!",
     choiceA: "Offered a sacrifice",
     choiceB: "Sang a song",
     choiceC: "Had a great party",
     choiceD: "Had a great feast",
     correctAnswer: "",
   },
-]
+];
 
-// {
-//   question: "",
-//   clueSource: "",
-//   clueSourceContent: "",
-//   choiceA: "",
-//   choiceB: "",
-//   choiceC: "",
-//   choiceD: "",
-//   correctAnswer: "",
-// },
+const randomCharactersI = [
+  {
+    question:
+      "Jehovah commanded the ravens to bring this prophet bread and meat in the morning and evening.",
+    clueSource: "1 Kings 17:1-4",
+    clueSourceContent:
+      "Now E·liʹjah the Tishʹbite, an inhabitant of Gilʹe·ad, said to Aʹhab: “As surely as Jehovah the God of Israel whom I serve is living, during these years there will be no dew or rain except by my word!” 2  The word of Jehovah came to him, saying: 3  “Leave here, and turn eastward and hide at the Valley of Cheʹrith, east of the Jordan. 4  You should drink from the stream, and I will command the ravens to supply you food there.”",
+    choiceA: "Samuel",
+    choiceB: "Moses",
+    choiceC: "Elijah",
+    choiceD: "Elisha",
+    correctAnswer: "C",
+  },
+  {
+    question: "Who succeeded Moses as the leader of Israel?",
+    clueSource: "Deutoronomy 21:7, 8",
+    clueSourceContent:
+      "7  Moses then called Joshua and said to him before the eyes of all Israel: “Be courageous and strong, for you are the one who will bring this people into the land that Jehovah swore to their forefathers to give to them, and you will give it to them as an inheritance. 8  Jehovah is the one marching before you, and he will continue with you. He will neither desert you nor abandon you. Do not be afraid or be terrified.”",
+    choiceA: "Aaron",
+    choiceB: "Joshua",
+    choiceC: "Caleb",
+    choiceD: "Miriam",
+    correctAnswer: "B",
+  },
+  {
+    question: "Who was surprised that Jesus, a Jew, has talked to her?",
+    clueSource: "John 4:7-10",
+    clueSourceContent:
+      "7  A woman of Sa·marʹi·a came to draw water. Jesus said to her: “Give me a drink.” 8  (For his disciples had gone off into the city to buy food.) 9  So the Sa·marʹi·tan woman said to him: “How is it that you, despite being a Jew, ask me for a drink even though I am a Sa·marʹi·tan woman?” (For Jews have no dealings with Sa·marʹi·tans.) 10  In answer Jesus said to her: “If you had known of the free gift of God and who it is who says to you, ‘Give me a drink,’ you would have asked him, and he would have given you living water.”",
+    choiceA: "Mary",
+    choiceB: "Elizabeth",
+    choiceC: "Martha",
+    choiceD: "The Samaritan woman",
+    correctAnswer: "D",
+  },
+  {
+    question:
+      "Who prayed three times a day at his window that's opened toward Jerusalem?",
+    clueSource: "Daniel 6:10",
+    clueSourceContent:
+      "10 But as soon as Daniel knew that the decree had been signed, he went to his house, which had the windows of his roof chamber open toward Jerusalem. And three times a day he got down on his knees and prayed and offered praise before his God, as he had regularly done prior to this.",
+    choiceA: "Daniel",
+    choiceB: "Abednego",
+    choiceC: "Shadrach",
+    choiceD: "Meshach",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who was the first servant of Jehovah to follow the practice of circumcision?",
+    clueSource: "Genesis 17:9-13",
+    clueSourceContent:
+      "9  God said further to Abraham: “As for you, you are to keep my covenant, you and your offspring after you throughout their generations. 10  This is my covenant between me and you, that you and your offspring after you will keep: Every male among you must get circumcised. 11  You must circumcise the flesh of your foreskins, and it will serve as a sign of the covenant between me and you. 12  Throughout your generations, every male among you eight days old must be circumcised, anyone who is born in the house and anyone who is not one of your offspring and who was purchased with money from a foreigner. 13  Every man born in your house and every man purchased with your money must be circumcised,l and my covenant in your flesh must serve as a lasting covenant.",
+    choiceA: "Adam",
+    choiceB: "Abraham",
+    choiceC: "Abel",
+    choiceD: "Moses",
+    correctAnswer: "B",
+  },
+  {
+    question: "Who was the wife of the Ephrathite from Bethlehem named Mahlon?",
+    clueSource: "Ruth 1:4, 5",
+    clueSourceContent:
+      "2 The man’s name was E·limʹe·lech, his wife’s name was Na·oʹmi, and the names of his two sons were Mahʹlon and Chilʹi·on. They were Ephʹrath·ites from Bethʹle·hem in Judah. And they came to the fields of Moʹab and remained there. 3  After some time E·limʹe·lech, Na·oʹmi’s husband, died, and she was left with her two sons. 4  The men later married Moʹab·ite women; one was named Orʹpah, and the other was named Ruth. They remained there for about ten years. 5  Then the two sons, Mahʹlon and Chilʹi·on, also died, and the woman was left without her two children and her husband.",
+    choiceA: "Orpah",
+    choiceB: "Ruth",
+    choiceC: "Naomi",
+    choiceD: "Mary",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "Who was the prophet-priest of Jehovah that was a captive in Babylon, along with King Jehoiachin?",
+    clueSource: "Ezekiel 1:1-3",
+    clueSourceContent:
+      "In the 30th year, on the fifth day of the fourth month, while I was among the exiled people by the river Cheʹbar, the heavens were opened and I began to see visions of God. 2  On the fifth day of the month—that is, in the fifth year of the exile of King Je·hoiʹa·chin— 3  the word of Jehovah came to Ezekiel son of Buʹzi the priest by the river Cheʹbar in the land of the Chal·deʹans. There the hand of Jehovah came upon him.",
+    choiceA: "Nehemiah",
+    choiceB: "Ezra",
+    choiceC: "Daniel",
+    choiceD: "Ezekiel",
+    correctAnswer: "D",
+  },
+  {
+    question:
+      "To whom did God first show the rainbow and established a covenant with it?",
+    clueSource: "Genesis 9:8-16",
+    clueSourceContent:
+      "8 Then God said to Noah and to his sons with him: 9  “I am now establishing my covenant with you and with your offspring after you, 10  and with every living creature that is with you, the birds, the animals, and all the living creatures of the earth with you, all those that came out of the ark—every living creature of the earth. 11  Yes, I establish my covenant with you: Never again will all flesh be destroyed by the waters of a flood, and never again will a flood bring the earth to ruin.” 12  And God added: “This is the sign of the covenant that I am making between me and you and every living creature that is with you, for all future generations. 13  I put my rainbow in the cloud, and it will serve as a sign of the covenant between me and the earth. 14  Whenever I bring a cloud over the earth, then the rainbow will certainly appear in the cloud. 15  And I will certainly remember my covenant that I made between me and you and every living creature of every kind; and never again will the waters become a flood to destroy all flesh. 16  And the rainbow will occur in the cloud, and I will certainly see it and remember the everlasting covenant between God and every living creature of every kind on the earth.”",
+    choiceA: "Abel",
+    choiceB: "Noah",
+    choiceC: "Abraham",
+    choiceD: "Moses",
+    correctAnswer: "B",
+  },
+  {
+    question: "The apostle Paul called him the “beloved physician.”",
+    clueSource: "Luke 4:14",
+    clueSourceContent:
+      "14 Luke, the beloved physician, sends you his greetings, and so does Deʹmas.",
+    choiceA: "Demas",
+    choiceB: "Archippus",
+    choiceC: "Luke",
+    choiceD: "Timothy",
+    correctAnswer: "C",
+  },
+  {
+    question: "This apostle is also called “Levi.”",
+    clueSource: "Insight on the Scriptures Volume 2, [Levi] p. 240",
+    clueSourceContent:
+      "A tax collector (Mr 2:14; Lu 5:27, 29) who became an apostle of Jesus Christ and was otherwise known as Matthew.​—Mt 9:9; 10:2-4; see MATTHEW.",
+    choiceA: "Matthew",
+    choiceB: "Andrew",
+    choiceC: "John",
+    choiceD: "Peter",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "A man in the land of Uz who “was an upright man of integrity; he feared God and shunned what was bad.”",
+    clueSource: "Job 1:1",
+    clueSourceContent:
+      "There was a man in the land of Uz whose name was Job. He was an upright man of integrity; her feared God and shunned what was bad.",
+    choiceA: "Abraham",
+    choiceB: "Joseph",
+    choiceC: "Job",
+    choiceD: "Moses",
+    correctAnswer: "C",
+  },
+  {
+    question:
+      "Who was the prophet that served Judah and Jerusalem in the days of Kings Uzziah, Jotham, Ahaz, and Hezekiah of Judah?",
+    clueSource: "Insight on the Scriptures Volume 1, [Isaiah] pp. 1218-1219",
+    clueSourceContent:
+      "A prophet, the son of Amoz (not the prophet Amos). He served Judah and Jerusalem in the days of Kings Uzziah, Jotham, Ahaz, and Hezekiah of Judah. (Isa 1:1) Kings Pekah and Hoshea were ruling in the northern kingdom of Israel, which ended in 740 B.C.E., during the time of Isaiah’s prophetic service. Contemporary prophets were Micah, Hosea, and Oded. Isaiah evidently began his prophesying later than Hosea did and before Micah began.​—2Ch 28:9; Ho 1:1; Mic 1:1.",
+    choiceA: "Isaiah",
+    choiceB: "Jeremiah",
+    choiceC: "Zechariah",
+    choiceD: "Malachi",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who was the king Jehovah anointed to strike down the house of Ahab and Jezebel?",
+    clueSource: "2 Kings 9:6-8",
+    clueSourceContent:
+      "6 So Jeʹhu got up and went into the house; the attendant poured the oil out on his head and said to him, “This is what Jehovah the God of Israel says: ‘I anoint you as king over Jehovah’s people, over Israel. 7  You must strike down the house of Aʹhab your lord, and I will avenge the blood of my servants the prophets and of all the servants of Jehovah who died at the hands of Jezʹe·bel. 8  And the whole house of Aʹhab will perish; and I will annihilate from Aʹhab every male, including the helpless and weak in Israel.",
+    choiceA: "Elijah",
+    choiceB: "Jehu",
+    choiceC: "Elisha",
+    choiceD: "Solomon",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "Who was the Hebrew servant of Potiphar that was taken to prison unjustly?",
+    clueSource: "Genesis 39:17-20",
+    clueSourceContent:
+      "17  Then she told him the same thing, saying: “The Hebrew servant whom you brought to us came to me to make me a laughingstock. 18  But as soon as I raised my voice and began to scream, he left his garment beside me and fled outside.” 19  As soon as his master heard the words his wife spoke to him, saying: “These are the things your servant did to me,” his anger blazed. 20  So Joseph’s master took him and gave him over to the prison, the place where the prisoners of the king were kept under arrest, and he remained there in the prison.",
+    choiceA: "Jeremiah",
+    choiceB: "Joseph",
+    choiceC: "Paul",
+    choiceD: "John",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "He warned king Ahasuerus about Bigthan and Teresh, who plotted to do away with the king.",
+    clueSource: "Esther 2:21-23",
+    clueSourceContent:
+      "21 In those days while Morʹde·cai was sitting in the king’s gate, Bigʹthan and Teʹresh, two court officials of the king, doorkeepers, got angry and plotted to do away with King A·has·u·eʹrus. 22  But Morʹde·cai learned about it, and he immediately told Queen Esther. Esther then spoke to the king in Morʹde·cai’s name. 23  So the matter was investigated and eventually confirmed, and both men were hanged on a stake; and this was all recorded in the book of the history of the times in the presence of the king.",
+    choiceA: "Nehemiah",
+    choiceB: "Ezra",
+    choiceC: "Mordecai",
+    choiceD: "Jeremiah",
+    correctAnswer: "C",
+  },
+  {
+    question:
+      "What was the name of the prophet that ensured Bathsheba that Solomon, his son, will become the successor of David on the throne of Israel?",
+    clueSource: "1 Kings 1:11-13",
+    clueSourceContent:
+      "11 Nathann then said to Bath-sheʹba, Solʹo·mon’s mother: “Have you not heard that Ad·o·niʹjah the son of Hagʹgith has become king, and our lord David does not know anything about it? 12  So now come, please, and let me advise you, so that you may save your own life and the life of your son Solʹo·mon. 13  Go in to King David and say to him, ‘Was it not you, my lord the king, who swore to your servant, saying: “Your son Solʹo·mon will become king after me, and he is the one who will sit on my throne”? So why has Ad·o·niʹjah become king?’",
+    choiceA: "Joel",
+    choiceB: "Elisha",
+    choiceC: "Nathan",
+    choiceD: "Amos",
+    correctAnswer: "C",
+  },
+  {
+    question: "What was the name of Ruth's first husband?",
+    clueSource: "Ruth 1:1, 2",
+    clueSourceContent:
+      "Now in the days when the judges administered justice, a famine occurred in the land; and a man went from Bethʹle·hem in Judah to reside as a foreigner in the fields of Moʹab, he along with his wife and his two sons. 2  The man’s name was E·limʹe·lech, his wife’s name was Na·oʹmi, and the names of his two sons were Mahʹlon and Chilʹi·on. They were Ephʹrath·ites from Bethʹle·hem in Judah. And they came to the fields of Moʹab and remained there.",
+    choiceA: "Boaz",
+    choiceB: "Chilion",
+    choiceC: "Elimelech",
+    choiceD: "Mahlon",
+    correctAnswer: "D",
+  },
+  {
+    question:
+      "The apostle Paul said to take a little wine for the sake of whose stomach?",
+    clueSource: "1 Timothy 5:23",
+    clueSourceContent:
+      "Do not drink water any longer, but take a little wine for the sake of your stomach and your frequent cases of sickness.",
+    choiceA: "Timothy",
+    choiceB: "Lydia",
+    choiceC: "Philemon",
+    choiceD: "Titus",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who stood at a distance to see what would happen to his baby brother Moses?",
+    clueSource: "Exodus 2:4",
+    clueSourceContent:
+      "But his sister stood at a distance to see what would happen to him.",
+    choiceA: "Aaron",
+    choiceB: "Jochebed",
+    choiceC: "Joshua",
+    choiceD: "Miriam",
+    correctAnswer: "D",
+  },
+  {
+    question: "Who was the first murderer in the history of mankind?",
+    clueSource: "Genesis 4:8",
+    clueSourceContent:
+      "After that Cain said to his brother Abel: “Let us go over into the field.” So while they were in the field, Cain assaulted his brother Abel and killed him.",
+    choiceA: "Cain",
+    choiceB: "Lamech",
+    choiceC: "Nimrod",
+    choiceD: "Esau",
+    correctAnswer: "A",
+  },
+];
