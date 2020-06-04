@@ -5,35 +5,14 @@ const finalScoreBlock = document.getElementById("final-score-block");
 const settingsBlock = document.getElementById("settings-block");
 const rulesBlock = document.getElementById("rules-block");
 const aboutBlock = document.getElementById("about-block");
-const tellYourFriendsModal = document.getElementById("tell-your-friends-modal");
-const quitModal = document.getElementById("quit-modal");
-const resetGameModal = document.getElementById("reset-game-modal");
-const clueModal = document.getElementById("clue-modal");
 // QUERY
 const queryBlock = document.getElementById("query-block");
-const question = document.getElementById("question");
-const clueSource = document.getElementById("clue-source");
-const clueSourceContent = document.getElementById("clue-source-content");
-const choiceA = document.getElementById("A");
-const choiceB = document.getElementById("B");
-const choiceC = document.getElementById("C");
-const choiceD = document.getElementById("D");
+const queryMenuBtns = document.getElementById("query-menu-btns");
 let currentQuestion = 0;
 let count = 0;
 let Timer;
 let score = 0;
-const counter = document.getElementById("counter");
-const timeGauge = document.getElementById("timeGauge");
-const progress = document.getElementById("progress");
-const finalScore = document.getElementById("final-score");
-const scorePhrase1Div = document.getElementById("score-phrase-1-div");
-const finalScoreImgDiv = document.getElementById("final-score-img-div");
-const finalScorePercentageDiv = document.getElementById(
-  "final-score-percentage-div"
-);
-const scorePhrase2Div = document.getElementById("score-phrase-2-div");
 const finalScoreMenuBtns = document.getElementById("final-score-menu-btns");
-const queryMenuBtns = document.getElementById("query-menu-btns");
 
 const bibleQueryHomepage = () => {
   homepage.style.display = "block";
@@ -84,6 +63,7 @@ const aboutPage = () => {
 };
 
 // RESET GAME
+const resetGameModal = document.getElementById("reset-game-modal");
 const showResetGameModal = () => {
   resetGameModal.style.display = "block";
 };
@@ -91,6 +71,7 @@ const closeResetGameModal = () => {
   resetGameModal.style.display = "none";
 };
 // TELL YOUR FRIENDS
+const tellYourFriendsModal = document.getElementById("tell-your-friends-modal");
 const showTellYourFriendsModal = () => {
   tellYourFriendsModal.style.display = "block";
 };
@@ -103,6 +84,7 @@ window.onclick = function (event) {
   }
 };
 // QUIT
+const quitModal = document.getElementById("quit-modal");
 const showQuitModal = () => {
   quitModal.style.display = "block";
 };
@@ -110,6 +92,7 @@ const closeQuitModal = () => {
   quitModal.style.display = "none";
 };
 // SHOW CLUE
+const clueModal = document.getElementById("clue-modal");
 const showClueModal = () => {
   clueModal.style.display = "block";
 };
@@ -156,6 +139,7 @@ const finalScoreRender = () => {
   settingsBlock.style.display = "none";
   rulesBlock.style.display = "none";
   aboutBlock.style.display = "none";
+
   const scorePercent = Math.round((100 * score) / men.length);
   let img =
     scorePercent == 100
@@ -197,15 +181,26 @@ const finalScoreRender = () => {
       : scorePercent >= 30
       ? "Try to nail this level next time!"
       : "Try to nail this level next time!";
+
+  const scorePhrase1Div = document.getElementById("score-phrase-1-div");
   scorePhrase1Div.innerHTML = "<h1 id='score-phrase-1'>" + sp1d + "</h1>";
+  const finalScoreImgDiv = document.getElementById("final-score-img-div");
   finalScoreImgDiv.innerHTML = "<img id='final-score-img' src=" + img + ">";
-  finalScorePercentageDiv.innerHTML =
-    "<p id='final-score-percentage'>" + scorePercent + "%</p>";
+  const finalScorePercentageDiv = document.getElementById("final-score-percentage-div");
+  finalScorePercentageDiv.innerHTML = "<p id='final-score-percentage'>" + scorePercent + "%</p>";
+  const scorePhrase2Div = document.getElementById("score-phrase-2-div");
   scorePhrase2Div.innerHTML = "<p id='score-phrase-2'>" + sp2d + "</p>";
 };
 
 const lastQuestion = men.length - 1;
 const renderQuestion = () => {
+  const question = document.getElementById("question");
+  const clueSource = document.getElementById("clue-source");
+  const clueSourceContent = document.getElementById("clue-source-content");
+  const choiceA = document.getElementById("A");
+  const choiceB = document.getElementById("B");
+  const choiceC = document.getElementById("C");
+  const choiceD = document.getElementById("D");
   let q = men[currentQuestion];
 
   question.innerHTML = "<p>" + q.question + "</p>";
@@ -218,32 +213,19 @@ const renderQuestion = () => {
 };
 
 const renderProgress = () => {
+  const progress = document.getElementById("progress");
   for (let qIndex = 0; qIndex <= lastQuestion; qIndex++) {
     progress.innerHTML += "<div class='progress' id=" + qIndex + "></div>";
   }
 };
 
-const questionTime = 10; // 10s
-let gaugeWidth = 15; // em
-const gaugeUnit = gaugeWidth / questionTime;
-// const responsiveTimeGauge = (oppo, galaxy, desktop) => {
-//   if (oppo.matches) {
-//     timeGauge.style.width = "40em";
-//   } else if (galaxy.matches) {
-//     timeGauge.style.width = "40em";
-//   } else if (desktop.matches) {
-//     timeGauge.style.width = "24.3em";
-//   } else {
-//     timeGauge.style.width = "24.3em";
-//   }
-// };
-
-// const oppo = window.matchMedia("(min-width: 275px)");
-// const galaxy = window.matchMedia("(min-width: 360px)");
-// const desktop = window.matchMedia("(min-device-width: 1600px)");
-// responsiveTimeGauge(oppo, galaxy, desktop);
-
 const renderCounter = () => {
+  const timeGauge = document.getElementById("time-gauge");
+  const counter = document.getElementById("counter");
+  const questionTime = 10; // 10s
+  let gaugeWidth = 15; // em
+  const gaugeUnit = gaugeWidth / questionTime;
+
   if (count <= questionTime) {
     counter.innerHTML = count;
     timeGauge.style.width = count * gaugeUnit + "em";

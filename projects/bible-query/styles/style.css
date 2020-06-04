@@ -192,7 +192,7 @@ a {
 #counter {
   font-size: 0; /* remove counter */
 }
-#timeGauge {
+#time-gauge {
   background-color: white;
   margin: 0.1em;
   height: 0.8em;
