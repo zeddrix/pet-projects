@@ -223,12 +223,12 @@ const renderCounter = () => {
   const timeGauge = document.getElementById("time-gauge");
   const counter = document.getElementById("counter");
   const questionTime = 10; // 10s
-  let gaugeWidth = 15; // em
+  let gaugeWidth = 100; // em
   const gaugeUnit = gaugeWidth / questionTime;
 
   if (count <= questionTime) {
     counter.innerHTML = count;
-    timeGauge.style.width = count * gaugeUnit + "em";
+    timeGauge.style.width = count * gaugeUnit + "%";
     count++;
   } else {
     count = 0;
