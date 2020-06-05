@@ -41,8 +41,8 @@ a,
 .sm-btn,
 #level,
 #okay-sm-btn,
-#yes-sm-btn,
-#no-sm-btn,
+.yes-sm-btn,
+.no-sm-btn,
 #level-number,
 #show-clue-btn {
   cursor: pointer;
@@ -62,8 +62,8 @@ a,
 .long-btn,
 .sm-btn,
 #okay-sm-btn,
-#yes-sm-btn,
-#no-sm-btn {
+.yes-sm-btn,
+.no-sm-btn {
   border: 0;
 }
 
@@ -73,8 +73,8 @@ a,
 }
 
 .sm-btn,
-#yes-sm-btn,
-#no-sm-btn,
+.yes-sm-btn,
+.no-sm-btn,
 #okay-sm-btn {
   margin: 10px;
   width: 25%;

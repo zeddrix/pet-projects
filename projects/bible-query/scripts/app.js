@@ -24,6 +24,7 @@ const bibleQueryHomepage = () => {
   settingsBlock.style.display = "none";
   rulesBlock.style.display = "none";
   aboutBlock.style.display = "none";
+  closeQuitQueryModal();
 };
 
 const settingsPage = () => {
@@ -36,6 +37,14 @@ const settingsPage = () => {
   settingsBlock.style.display = "block";
   rulesBlock.style.display = "none";
   aboutBlock.style.display = "none";
+};
+// RESET GAME
+const resetGameModal = document.getElementById("reset-game-modal");
+const showResetGameModal = () => {
+  resetGameModal.style.display = "block";
+};
+const closeResetGameModal = () => {
+  resetGameModal.style.display = "none";
 };
 
 const rulesPage = () => {
@@ -62,14 +71,6 @@ const aboutPage = () => {
   aboutBlock.style.display = "block";
 };
 
-// RESET GAME
-const resetGameModal = document.getElementById("reset-game-modal");
-const showResetGameModal = () => {
-  resetGameModal.style.display = "block";
-};
-const closeResetGameModal = () => {
-  resetGameModal.style.display = "none";
-};
 // TELL YOUR FRIENDS
 const tellYourFriendsModal = document.getElementById("tell-your-friends-modal");
 const showTellYourFriendsModal = () => {
@@ -83,6 +84,7 @@ window.onclick = function (event) {
     tellYourFriendsModal.style.display = "none";
   }
 };
+
 // QUIT
 const quitModal = document.getElementById("quit-modal");
 const showQuitModal = () => {
@@ -90,14 +92,6 @@ const showQuitModal = () => {
 };
 const closeQuitModal = () => {
   quitModal.style.display = "none";
-};
-// SHOW CLUE
-const clueModal = document.getElementById("clue-modal");
-const showClueModal = () => {
-  clueModal.style.display = "block";
-};
-const closeClueModal = () => {
-  clueModal.style.display = "none";
 };
 
 // PLAY button
@@ -111,7 +105,9 @@ const levelsPage = () => {
   settingsBlock.style.display = "none";
   rulesBlock.style.display = "none";
   aboutBlock.style.display = "none";
+  closeLevelsModal();
 };
+
 // levels
 const queryPage = () => {
   homepage.style.display = "none";
@@ -129,70 +125,6 @@ const queryPage = () => {
   Timer = setInterval(renderCounter, 1000); // 1000ms = 1s
 };
 
-const finalScoreRender = () => {
-  homepage.style.display = "none";
-  levelsBlock.style.display = "none";
-  queryBlock.style.display = "none";
-  queryMenuBtns.style.display = "none";
-  finalScoreBlock.style.display = "block";
-  finalScoreMenuBtns.style.display = "block";
-  settingsBlock.style.display = "none";
-  rulesBlock.style.display = "none";
-  aboutBlock.style.display = "none";
-
-  const scorePercent = Math.round((100 * score) / men.length);
-  let img =
-    scorePercent == 100
-      ? "img/three-stars.png"
-      : scorePercent >= 90
-      ? "img/two-and-a-half-stars.png"
-      : scorePercent >= 70
-      ? "img/two-stars.png"
-      : scorePercent >= 50
-      ? "img/one-and-a-half-star.png"
-      : scorePercent >= 30
-      ? "img/one-star.png"
-      : scorePercent >= 15
-      ? "img/one-half-star.png"
-      : "img/zero-star.png";
-  let sp1d =
-    scorePercent == 100
-      ? "Well done!"
-      : scorePercent >= 90
-      ? "Excellent!"
-      : scorePercent >= 51
-      ? "Good!"
-      : scorePercent >= 50
-      ? "Nice!"
-      : scorePercent >= 30
-      ? "Okay!"
-      : scorePercent >= 15
-      ? "How sad!"
-      : "How awful!";
-  let sp2d =
-    scorePercent == 100
-      ? "You got all the questions right!"
-      : scorePercent >= 90
-      ? "You almost perfected this level!"
-      : scorePercent >= 51
-      ? "Not bad!"
-      : scorePercent == 50
-      ? "You got half the questions right!"
-      : scorePercent >= 30
-      ? "Try to nail this level next time!"
-      : "Try to nail this level next time!";
-
-  const scorePhrase1Div = document.getElementById("score-phrase-1-div");
-  scorePhrase1Div.innerHTML = "<h1 id='score-phrase-1'>" + sp1d + "</h1>";
-  const finalScoreImgDiv = document.getElementById("final-score-img-div");
-  finalScoreImgDiv.innerHTML = "<img id='final-score-img' src=" + img + ">";
-  const finalScorePercentageDiv = document.getElementById("final-score-percentage-div");
-  finalScorePercentageDiv.innerHTML = "<p id='final-score-percentage'>" + scorePercent + "%</p>";
-  const scorePhrase2Div = document.getElementById("score-phrase-2-div");
-  scorePhrase2Div.innerHTML = "<p id='score-phrase-2'>" + sp2d + "</p>";
-};
-
-const lastQuestion = men.length - 1;
 const renderQuestion = () => {
   const question = document.getElementById("question");
   const clueSource = document.getElementById("clue-source");
@@ -212,6 +144,7 @@ const renderQuestion = () => {
   choiceD.innerHTML = q.choiceD;
 };
 
+const lastQuestion = men.length - 1;
 const renderProgress = () => {
   const progress = document.getElementById("progress");
   for (let qIndex = 0; qIndex <= lastQuestion; qIndex++) {
@@ -271,6 +204,105 @@ const answerIsCorrect = () => {
 
 const answerIsWrong = () => {
   document.getElementById(currentQuestion).style.backgroundColor = "red";
+};
+
+// QUERY MODALS
+const clueModal = document.getElementById("clue-modal");
+const showClueModal = () => {
+  clueModal.style.display = "block";
+};
+const closeClueModal = () => {
+  clueModal.style.display = "none";
+};
+
+const levelsModal = document.getElementById("levels-modal");
+const showLevelsModal = () => {
+  levelsModal.style.display = "block";
+};
+const closeLevelsModal = () => {
+  levelsModal.style.display = "none";
+};
+
+const retryQueryModal = document.getElementById("retry-query-modal");
+const showRetryQueryModal = () => {
+  retryQueryModal.style.display = "block";
+};
+const closeRetryQueryModal = () => {
+  retryQueryModal.style.display = "none";
+};
+
+const quitQueryModal = document.getElementById("quit-query-modal");
+const showQuitQueryModal = () => {
+  quitQueryModal.style.display = "block";
+};
+const closeQuitQueryModal = () => {
+  quitQueryModal.style.display = "none";
+};
+
+const finalScoreRender = () => {
+  homepage.style.display = "none";
+  levelsBlock.style.display = "none";
+  queryBlock.style.display = "none";
+  queryMenuBtns.style.display = "none";
+  finalScoreBlock.style.display = "block";
+  finalScoreMenuBtns.style.display = "block";
+  settingsBlock.style.display = "none";
+  rulesBlock.style.display = "none";
+  aboutBlock.style.display = "none";
+
+  const scorePercent = Math.round((100 * score) / men.length);
+  let img =
+    scorePercent == 100
+      ? "img/three-stars.png"
+      : scorePercent >= 90
+      ? "img/two-and-a-half-stars.png"
+      : scorePercent >= 70
+      ? "img/two-stars.png"
+      : scorePercent >= 50
+      ? "img/one-and-a-half-star.png"
+      : scorePercent >= 30
+      ? "img/one-star.png"
+      : scorePercent >= 15
+      ? "img/one-half-star.png"
+      : "img/zero-star.png";
+  let sp1d =
+    scorePercent == 100
+      ? "Well done!"
+      : scorePercent >= 90
+      ? "Excellent!"
+      : scorePercent >= 51
+      ? "Good!"
+      : scorePercent >= 50
+      ? "Nice!"
+      : scorePercent >= 30
+      ? "Okay!"
+      : scorePercent >= 15
+      ? "Don't give up!"
+      : "Don't give up!";
+  let sp2d =
+    scorePercent == 100
+      ? "You got all the questions right!"
+      : scorePercent >= 90
+      ? "You almost perfected this level!"
+      : scorePercent >= 51
+      ? "Not bad!"
+      : scorePercent == 50
+      ? "You got half the questions right!"
+      : scorePercent >= 30
+      ? "That's okay. Play again and crush this level!"
+      : "Play again and crush this level!";
+
+  const scorePhrase1Div = document.getElementById("score-phrase-1-div");
+  scorePhrase1Div.innerHTML = "<h1 id='score-phrase-1'>" + sp1d + "</h1>";
+  const finalScoreImgDiv = document.getElementById("final-score-img-div");
+  finalScoreImgDiv.innerHTML = "<img id='final-score-img' src=" + img + ">";
+  const finalScorePercentageDiv = document.getElementById(
+    "final-score-percentage-div"
+  );
+  finalScorePercentageDiv.innerHTML =
+    "<p id='final-score-percentage'>" + scorePercent + "%</p>";
+  const scorePhrase2Div = document.getElementById("score-phrase-2-div");
+  scorePhrase2Div.innerHTML = "<p id='score-phrase-2'>" + sp2d + "</p>";
 };
 
 // for (let c = 0; c < arrayLength; c++) {

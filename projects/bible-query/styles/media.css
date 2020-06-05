@@ -111,6 +111,9 @@
     border: 0.1em solid lightgrey;
     border-radius: 0.3em;
   }
+  .choice:active {
+    color: lightskyblue;
+  }
   #progress-container {
     padding: 0.1em;
     margin-top: 0;
@@ -411,6 +414,9 @@
   .choice:hover {
     border: 0.2em solid lightseagreen;
     font-weight: bold;
+  }
+  .choice:active {
+    color: greenyellow;
   }
   #progress-container {
     padding: 0.5em 0 0 0;

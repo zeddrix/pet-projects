@@ -78,12 +78,12 @@
                   <div id="quit-sm-btns-container">
                     <img
                     src="img/yes-sm-btn.jpg"
-                    id="yes-sm-btn"
+                    class="yes-sm-btn"
                     class="no-outline"
                     onclick="confirmQuit()"/>
                   <img
                     src="img/no-sm-btn.jpg"
-                    id="no-sm-btn"
+                    class="no-sm-btn"
                     class="no-outline"
                     onclick="closeQuitModal()"/>
                   </div>
@@ -133,12 +133,17 @@
           </div>
           <div id="query-menu-btns" style="display: none;">
             <img
-              onclick="levelsPage()"
-              src="img/back-sm-btn.jpg"
+              onclick="showLevelsModal()"
+              src="img/levels-sm-btn.jpg"
               class="sm-btn no-outline"
             />
             <img
-              onclick="bibleQueryHomepage()"
+              onclick="showRetryQueryModal()"
+              src="img/retry-sm-btn.jpg"
+              class="sm-btn no-outline"
+            />
+            <img
+              onclick="showQuitQueryModal()"
               src="img/quit-sm-btn.jpg"
               class="sm-btn no-outline"
             />
@@ -158,20 +163,93 @@
             </div>
           </div>
         </div>
+        <div id="levels-modal" class="modal">
+          <div class="modal-effect">
+            <div class="modal-content">
+              <p>You'll lose the progress you've made in this level. Are you sure you want to go to the levels section?</p>
+            </div>
+            <div id="okay-sm-btn-container">
+              <div id="levels-sm-btns-container">
+                <img
+                src="img/yes-sm-btn.jpg"
+                class="yes-sm-btn"
+                class="no-outline"
+                onclick="levelsPage()"/>
+              <img
+                src="img/no-sm-btn.jpg"
+                class="no-sm-btn"
+                class="no-outline"
+                onclick="closeLevelsModal()"/>
+              </div>
+            </div>
+          </div>
+        </div>  
+        <div id="retry-query-modal" class="modal">
+          <div class="modal-effect">
+            <div class="modal-content">
+              <p>You'll lose the progress you've made in this level. Are you sure you want to start over?</p>
+            </div>
+            <div id="okay-sm-btn-container">
+              <div id="retry-query-sm-btns-container">
+                <img
+                src="img/yes-sm-btn.jpg"
+                class="yes-sm-btn"
+                class="no-outline"
+                onclick="closeRetryQueryModal()"/>
+              <img
+                src="img/no-sm-btn.jpg"
+                class="no-sm-btn"
+                class="no-outline"
+                onclick="closeRetryQueryModal()"/>
+              </div>
+            </div>
+          </div>
+        </div>  
+        <div id="quit-query-modal" class="modal">
+          <div class="modal-effect">
+            <div class="modal-content">
+              <p>You'll lose the progress you've made in this level. Are you sure you want to quit and go to the homepage?</p>
+            </div>
+            <div id="okay-sm-btn-container">
+              <div id="quit-query-sm-btns-container">
+                <img
+                src="img/yes-sm-btn.jpg"
+                class="yes-sm-btn"
+                class="no-outline"
+                onclick="bibleQueryHomepage()"/>
+              <img
+                src="img/no-sm-btn.jpg"
+                class="no-sm-btn"
+                class="no-outline"
+                onclick="closeQuitQueryModal()"/>
+              </div>
+            </div>
+          </div>
+        </div>
 
-        <div id="final-score-block" style="display: none;">
+        <form id="final-score-block" style="display: none;">
           <div id="final-score">
             <div id="score-phrase-1-div"></div>
             <div id="final-score-img-div"></div>
             <div id="final-score-percentage-div"></div>
             <div id="score-phrase-2-div"></div>
           </div>
-        </div>
+        </form>
 
         <div id="final-score-menu-btns" style="display: none;">
           <img
             onclick="levelsPage()"
-            src="img/back-sm-btn.jpg"
+            src="img/levels-sm-btn.jpg"
+            class="sm-btn no-outline"
+          />
+          <img
+            onclick=""
+            src="img/play-again-sm-btn.jpg"
+            class="sm-btn no-outline"
+          />
+          <img
+            onclick=""
+            src="img/next-level-sm-btn.jpg"
             class="sm-btn no-outline"
           />
           <img
@@ -227,12 +305,12 @@
               <div id="reset-game-container">
                 <img
                 src="img/yes-sm-btn.jpg"
-                id="yes-sm-btn"
+                class="yes-sm-btn"
                 class="no-outline"
                 onclick="confirmResetGame()"/>
               <img
                 src="img/no-sm-btn.jpg"
-                id="no-sm-btn"
+                class="no-sm-btn"
                 class="no-outline"
                 onclick="closeResetGameModal()"/>
               </div>
