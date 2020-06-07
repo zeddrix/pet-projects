@@ -1786,7 +1786,7 @@ const meaningOfNamesI = [
     choiceB: "Sarah",
     choiceC: "Abigail",
     choiceD: "Jezebel",
-    correctAnswer: "",
+    correctAnswer: "B",
   },
   {
     question: "His name means “Father of a Crowd (Multitude)”; his original name means “Father is High (Exalted)”.",
