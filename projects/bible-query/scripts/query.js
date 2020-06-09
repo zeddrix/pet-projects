@@ -95,7 +95,8 @@ const mainMenCharacters1 = [
     question:
       "Who has wrestled with an angel for a blessing until the break of dawn?",
     clueSource: "Genesis 32:24-30",
-    clueSourceContent: "24  Finally Jacob was left by himself. Then a man began to wrestle with him until the dawn broke. 25  When he saw that he had not prevailed over him, he touched the socket of his hip; and the socket of Jacob’s hip was dislocated during his wrestling with him. 26  After that he said: “Let me go, for the dawn is breaking.” To this he said: “I am not going to let you go until you bless me.” 27  So he said to him: “What is your name?” to which he said: “Jacob.” 28  Then he said: “Your name will no longer be Jacob but Israel, for you have contended with God and with men and you have at last prevailed.” 29  In turn Jacob inquired: “Tell me, please, your name.” However, he said: “Why is it that you ask my name?” With that he blessed him there. 30  So Jacob named the place Pe·niʹel, for he said, “I have seen God face-to-face, yet my life was preserved.”",
+    clueSourceContent:
+      "24  Finally Jacob was left by himself. Then a man began to wrestle with him until the dawn broke. 25  When he saw that he had not prevailed over him, he touched the socket of his hip; and the socket of Jacob’s hip was dislocated during his wrestling with him. 26  After that he said: “Let me go, for the dawn is breaking.” To this he said: “I am not going to let you go until you bless me.” 27  So he said to him: “What is your name?” to which he said: “Jacob.” 28  Then he said: “Your name will no longer be Jacob but Israel, for you have contended with God and with men and you have at last prevailed.” 29  In turn Jacob inquired: “Tell me, please, your name.” However, he said: “Why is it that you ask my name?” With that he blessed him there. 30  So Jacob named the place Pe·niʹel, for he said, “I have seen God face-to-face, yet my life was preserved.”",
     choiceA: "Abraham",
     choiceB: "Jacob",
     choiceC: "Isaac",
@@ -174,7 +175,8 @@ const mainMenCharacters1 = [
   {
     question: "Who bravely fought and killed Goliath?",
     clueSource: "1 Samuel 17:40-51",
-    clueSourceContent: "40 He then took his staff in his hand and chose five smooth stones from the streambed and placed them in the pouch of his shepherd’s bag, and his sling was in his hand. And he began approaching the Phi·lisʹtine. 41  The Phi·lisʹtine came closer and closer to David, and his shield-bearer was ahead of him. 42  When the Phi·lisʹtine looked and saw David, he sneered at him in contempt because he was just a ruddy and handsome boy. 43  So the Phi·lisʹtine said to David: “Am I a dog, so that you are coming against me with sticks?” With that the Phi·lisʹtine cursed David by his gods. 44  The Phi·lisʹtine said to David: “Just come to me, and I will give your flesh to the birds of the heavens and to the beasts of the field.” 45  David replied to the Phi·lisʹtine: “You are coming against me with sword and spear and javelin, but I am coming against you in the name of Jehovah of armies, the God of the battle line of Israel, whom you have taunted.  46  This very day Jehovah will surrender you into my hand, and I will strike you down and cut off your head; and on this day I will give the corpses of the camp of the Phi·lisʹtines to the birds of the heavens and to the wild beasts of the earth; and people of all the earth will know that there is a God in Israel. 47  And all those gathered here will know that it is not with the sword or the spear that Jehovah saves, for the battle belongs to Jehovah, and he will give all of you into our hand.” 48  Then the Phi·lisʹtine rose and drew steadily closer to meet David, but David ran quickly toward the battle line to meet the Phi·lisʹtine. 49  David thrust his hand into his bag and took a stone from there and slung it. He struck the Phi·lisʹtine in the forehead, and the stone sank into his forehead and he fell facedown on the ground. 50  So David prevailed over the Phi·lisʹtine with a sling and a stone; he struck down the Phi·lisʹtine and put him to death, though there was no sword in David’s hand. 51  David continued running and stood over him. Then he took hold of the Phi·lisʹtine’s sword and pulled it out of its sheath and made sure that he was dead by cutting off his head with it. When the Phi·lisʹtines saw that their mighty one had died, they fled.",
+    clueSourceContent:
+      "40 He then took his staff in his hand and chose five smooth stones from the streambed and placed them in the pouch of his shepherd’s bag, and his sling was in his hand. And he began approaching the Phi·lisʹtine. 41  The Phi·lisʹtine came closer and closer to David, and his shield-bearer was ahead of him. 42  When the Phi·lisʹtine looked and saw David, he sneered at him in contempt because he was just a ruddy and handsome boy. 43  So the Phi·lisʹtine said to David: “Am I a dog, so that you are coming against me with sticks?” With that the Phi·lisʹtine cursed David by his gods. 44  The Phi·lisʹtine said to David: “Just come to me, and I will give your flesh to the birds of the heavens and to the beasts of the field.” 45  David replied to the Phi·lisʹtine: “You are coming against me with sword and spear and javelin, but I am coming against you in the name of Jehovah of armies, the God of the battle line of Israel, whom you have taunted.  46  This very day Jehovah will surrender you into my hand, and I will strike you down and cut off your head; and on this day I will give the corpses of the camp of the Phi·lisʹtines to the birds of the heavens and to the wild beasts of the earth; and people of all the earth will know that there is a God in Israel. 47  And all those gathered here will know that it is not with the sword or the spear that Jehovah saves, for the battle belongs to Jehovah, and he will give all of you into our hand.” 48  Then the Phi·lisʹtine rose and drew steadily closer to meet David, but David ran quickly toward the battle line to meet the Phi·lisʹtine. 49  David thrust his hand into his bag and took a stone from there and slung it. He struck the Phi·lisʹtine in the forehead, and the stone sank into his forehead and he fell facedown on the ground. 50  So David prevailed over the Phi·lisʹtine with a sling and a stone; he struck down the Phi·lisʹtine and put him to death, though there was no sword in David’s hand. 51  David continued running and stood over him. Then he took hold of the Phi·lisʹtine’s sword and pulled it out of its sheath and made sure that he was dead by cutting off his head with it. When the Phi·lisʹtines saw that their mighty one had died, they fled.",
     choiceA: "Saul",
     choiceB: "Jonathan",
     choiceC: "David",
@@ -195,7 +197,8 @@ const mainMenCharacters1 = [
   {
     question: "God used his angel to save whom from the lions' pit?",
     clueSource: "Daniel 6:16-23",
-    clueSourceContent: "16  So the king gave the order, and they brought Daniel and threw him into the pit of lions. The king said to Daniel: “Your God whom you are continually serving will rescue you.” 17  Then a stone was brought and placed over the entrance of the pit, and the king sealed it with his signet ring and with the signet ring of his nobles, so that nothing could be changed with regard to Daniel. 18  The king then went to his palace. He passed the night fasting and refused any entertainment, and he could not sleep. 19  Finally at the first light of dawn, the king got up and hurried to the lions’ pit. 20  As he got near the pit, he called out to Daniel with a sad voice. The king asked Daniel: “O Daniel, servant of the living God, has your God whom you are continually serving been able to rescue you from the lions?” 21  Daniel immediately said to the king: “O king, may you live on forever. 22  My God sent his angel and shut the mouth of the lions, and they have not harmed me, for I was found innocent before him; nor have I done any wrong to you, O king.” 23  The king was overjoyed, and he commanded that Daniel be lifted up out of the pit. When Daniel was lifted up out of the pit, he was completely unharmed, because he had trusted in his God.",
+    clueSourceContent:
+      "16  So the king gave the order, and they brought Daniel and threw him into the pit of lions. The king said to Daniel: “Your God whom you are continually serving will rescue you.” 17  Then a stone was brought and placed over the entrance of the pit, and the king sealed it with his signet ring and with the signet ring of his nobles, so that nothing could be changed with regard to Daniel. 18  The king then went to his palace. He passed the night fasting and refused any entertainment, and he could not sleep. 19  Finally at the first light of dawn, the king got up and hurried to the lions’ pit. 20  As he got near the pit, he called out to Daniel with a sad voice. The king asked Daniel: “O Daniel, servant of the living God, has your God whom you are continually serving been able to rescue you from the lions?” 21  Daniel immediately said to the king: “O king, may you live on forever. 22  My God sent his angel and shut the mouth of the lions, and they have not harmed me, for I was found innocent before him; nor have I done any wrong to you, O king.” 23  The king was overjoyed, and he commanded that Daniel be lifted up out of the pit. When Daniel was lifted up out of the pit, he was completely unharmed, because he had trusted in his God.",
     choiceA: "Jonah",
     choiceB: "Daniel",
     choiceC: "Meshach",
@@ -217,7 +220,8 @@ const mainMenCharacters1 = [
   {
     question: "Jehovah used a huge fish to swallow and turn this man around.",
     clueSource: "Jonah 1:17",
-    clueSourceContent: "17  Jehovah now sent a huge fish to swallow Joʹnah, so that Joʹnah came to be in the belly of the fish for three days and three nights.",
+    clueSourceContent:
+      "17  Jehovah now sent a huge fish to swallow Joʹnah, so that Joʹnah came to be in the belly of the fish for three days and three nights.",
     choiceA: "Moses",
     choiceB: "Noah",
     choiceC: "Jonah",
@@ -228,14 +232,16 @@ const mainMenCharacters1 = [
 
 const mainWomenCharacters1 = [
   {
-    question: "Who was the first woman Jehovah God had made from the rib he had taken from Adam?",
+    question:
+      "Who was the first woman Jehovah God had made from the rib he had taken from Adam?",
     clueSource: "Genesis 3:20",
-    clueSourceContent: "20  After this Adam named his wife Eve, because she was to become the mother of everyone living.",
+    clueSourceContent:
+      "20  After this Adam named his wife Eve, because she was to become the mother of everyone living.",
     choiceA: "Sarah",
     choiceB: "Eve",
     choiceC: "Rahab",
     choiceD: "Esther",
-    correctAnswer: "B"
+    correctAnswer: "B",
   },
   {
     question: "She is Rebekah’s mother-in-law. She is also Lot’s aunt.",
@@ -249,17 +255,19 @@ const mainWomenCharacters1 = [
     correctAnswer: "C",
   },
   {
-    question: "She is an Egyptian servant who bore Abraham a son whose name was Ishmael.",
+    question:
+      "She is an Egyptian servant who bore Abraham a son whose name was Ishmael.",
     clueSource: "",
     clueSourceContent: "",
     choiceA: "Sarah",
     choiceB: "Zilpah",
     choiceC: "Hagar",
     choiceD: "Bilhah",
-    correctAnswer: "C"
+    correctAnswer: "C",
   },
   {
-    question: "She began to look back on Sodom, and she became a pillar of salt.",
+    question:
+      "She began to look back on Sodom, and she became a pillar of salt.",
     question:
       "His wife began to look back at the city and became a pillar of salt.",
     clueSource: "Genesis 19:26",
@@ -269,7 +277,7 @@ const mainWomenCharacters1 = [
     choiceB: "Sarah",
     choiceC: "Rachel",
     choiceD: "The wife of Lot",
-    correctAnswer: "D"
+    correctAnswer: "D",
   },
   {
     question: "What is the name of Isaac’s wife?",
@@ -296,12 +304,13 @@ const mainWomenCharacters1 = [
   {
     question: "Who was the older sister of Rachel?",
     clueSource: "Genesis 29:16-27",
-    clueSourceContent: "16  Now Laʹban had two daughters. The name of the older was Leʹah, and the name of the younger, Rachel. 17  But the eyes of Leʹah had no luster, whereas Rachel had become a very attractive and beautiful woman. 18  Jacob had fallen in love with Rachel, so he said: “I am willing to serve you seven years for your younger daughter Rachel.” 19  To this Laʹban said: “It is better for me to give her to you than to give her to another man. Keep dwelling with me.” 20  And Jacob served seven years for Rachel, but in his eyes they were like just a few days because of his love for her. 21  Then Jacob said to Laʹban: “Give over my wife because my days are up, and let me have relations with her.” 22  With that Laʹban gathered all the men of the place and made a feast. 23  But during the evening, he resorted to taking his daughter Leʹah and bringing her to him that he might have relations with her. 24  Laʹban also gave his female servant Zilʹpah to his daughter Leʹah as a servant. 25  In the morning Jacob saw that it was Leʹah! So he said to Laʹban: “What have you done to me? Was it not for Rachel that I served you? Why have you tricked me?” 26  To this Laʹban said: “It is not our custom here to give the younger woman before the firstborn. 27  Celebrate the week of this woman. After that you will also be given this other woman in exchange for serving me seven more years.”",
+    clueSourceContent:
+      "16  Now Laʹban had two daughters. The name of the older was Leʹah, and the name of the younger, Rachel. 17  But the eyes of Leʹah had no luster, whereas Rachel had become a very attractive and beautiful woman. 18  Jacob had fallen in love with Rachel, so he said: “I am willing to serve you seven years for your younger daughter Rachel.” 19  To this Laʹban said: “It is better for me to give her to you than to give her to another man. Keep dwelling with me.” 20  And Jacob served seven years for Rachel, but in his eyes they were like just a few days because of his love for her. 21  Then Jacob said to Laʹban: “Give over my wife because my days are up, and let me have relations with her.” 22  With that Laʹban gathered all the men of the place and made a feast. 23  But during the evening, he resorted to taking his daughter Leʹah and bringing her to him that he might have relations with her. 24  Laʹban also gave his female servant Zilʹpah to his daughter Leʹah as a servant. 25  In the morning Jacob saw that it was Leʹah! So he said to Laʹban: “What have you done to me? Was it not for Rachel that I served you? Why have you tricked me?” 26  To this Laʹban said: “It is not our custom here to give the younger woman before the firstborn. 27  Celebrate the week of this woman. After that you will also be given this other woman in exchange for serving me seven more years.”",
     choiceA: "Leah",
     choiceB: "Zilpah",
     choiceC: "Bilhah",
     choiceD: "Sarah",
-    correctAnswer: "A"
+    correctAnswer: "A",
   },
   {
     question:
@@ -324,20 +333,23 @@ const mainWomenCharacters1 = [
     choiceB: "Rahab",
     choiceC: "Ruth",
     choiceD: "Esther",
-    correctAnswer: "B"
+    correctAnswer: "B",
   },
   {
-    question: "Who took a tent pin and hammer, and drove the pin through Sisera's temples?",
+    question:
+      "Who took a tent pin and hammer, and drove the pin through Sisera's temples?",
     clueSource: "Judges 4:17-21",
-    clueSourceContent: "17  But Sisʹe·ra fled on foot to the tent of Jaʹel the wife of Heʹber the Kenʹite, for there was peace between Jaʹbin the king of Haʹzor and the house of Heʹber the Kenʹite. 18  Then Jaʹel came out to meet Sisʹe·ra and said to him: “Come in, my lord, come in here. Do not be afraid.” So he went into her tent, and she covered him with a blanket. 19  Then he said to her: “Give me, please, a little water to drink, for I am thirsty.” So she opened a skin bottle of milk and gave him a drink, after which she again covered him. 20  He told her: “Stand at the entrance of the tent, and if anybody comes and asks you, ‘Is there a man here?’ say, ‘No!’” 21  But Jaʹel the wife of Heʹber took a tent pin and a hammer in her hand. Then while he was fast asleep and exhausted, she stealthily approached him and drove the pin through his temples and beat it into the ground, and he died.",
+    clueSourceContent:
+      "17  But Sisʹe·ra fled on foot to the tent of Jaʹel the wife of Heʹber the Kenʹite, for there was peace between Jaʹbin the king of Haʹzor and the house of Heʹber the Kenʹite. 18  Then Jaʹel came out to meet Sisʹe·ra and said to him: “Come in, my lord, come in here. Do not be afraid.” So he went into her tent, and she covered him with a blanket. 19  Then he said to her: “Give me, please, a little water to drink, for I am thirsty.” So she opened a skin bottle of milk and gave him a drink, after which she again covered him. 20  He told her: “Stand at the entrance of the tent, and if anybody comes and asks you, ‘Is there a man here?’ say, ‘No!’” 21  But Jaʹel the wife of Heʹber took a tent pin and a hammer in her hand. Then while he was fast asleep and exhausted, she stealthily approached him and drove the pin through his temples and beat it into the ground, and he died.",
     choiceA: "Ruth",
     choiceB: "Deborah",
     choiceC: "Jael",
     choiceD: "Rahab",
-    correctAnswer: "C"
+    correctAnswer: "C",
   },
   {
-    question: "Who insisted on going with Naomi even though Naomi pleaded to abandon her?",
+    question:
+      "Who insisted on going with Naomi even though Naomi pleaded to abandon her?",
     clueSource: "Ruth 1:15-18",
     clueSourceContent:
       "15  So Na·oʹmi said: “Look! Your widowed sister-in-law has returned to her people and her gods. Return with your sister-in-law.” 16  But Ruth said: “Do not plead with me to abandon you, to turn back from accompanying you; for where you go I will go, and where you spend the night, I will spend the night. Your people will be my people, and your God my God. 17  Where you die I will die, and there I will be buried. May Jehovah do so to me and add to it if anything but death should separate me from you.” 18  When Na·oʹmi saw that Ruth insisted on going with her, she stopped trying to convince her.",
@@ -359,14 +371,16 @@ const mainWomenCharacters1 = [
     correctAnswer: "C",
   },
   {
-    question: "She was a barren but Jehovah caused her to give birth to a son, Samuel, in due time.",
+    question:
+      "She was a barren but Jehovah caused her to give birth to a son, Samuel, in due time.",
     clueSource: "1 Samuel 1:4-27",
-    clueSourceContent: "4 One day when El·kaʹnah offered a sacrifice, he gave portions to his wife Pe·ninʹnah as well as to all her sons and her daughters,  5 but to Hanʹnah he gave a special portion, because Hanʹnah was the one he loved; but Jehovah had not given her children.  6 Moreover, her rival wife taunted her relentlessly in order to upset her because Jehovah had not given her children.  7 That is what she would do year after year; whenever Hanʹnah went up to the house of Jehovah, her rival would taunt her so much that she would weep and not eat.  8 But her husband El·kaʹnah said to her: “Hanʹnah, why do you weep, and why do you not eat, and why are you so sad? Am I not better to you than ten sons?” 9 Then Hanʹnah got up after they had finished eating and drinking in Shiʹloh. At the time, Eʹli the priest was sitting on the seat by the doorpost of the temple of Jehovah.  10 Hanʹnah was extremely bitter, and she began to pray to Jehovah and to weep uncontrollably.  11 And she made this vow: “O Jehovah of armies, if you look upon the affliction of your servant and remember me and you do not forget your servant and give to your servant a male child, I will give him to Jehovah all the days of his life, and no razor will touch his head.” 12 While she prayed for a long time before Jehovah, Eʹli was watching her mouth.  13 Hanʹnah was speaking in her heart, only her lips were trembling, but her voice was not heard. So Eʹli thought she was drunk.  14 Eʹli said to her: “How long will you stay drunk? Stop drinking your wine.”  15 At this Hanʹnah answered: “No, my lord! I am a woman under great stress; I have not drunk wine or anything alcoholic, but I am pouring out my soul before Jehovah.  16 Do not take your servant for a worthless woman, for I have been speaking until now out of my great anguish and distress.”  17 Then Eʹli answered: “Go in peace, and may the God of Israel grant your petition that you have asked of him.”  18 To this she said: “Let your servant find favor in your eyes.” And the woman went on her way and ate, and her face was no longer downcast. 19 Then they got up early in the morning and bowed before Jehovah, after which they returned to their house in Raʹmah. El·kaʹnah had sexual relations with his wife Hanʹnah, and Jehovah gave attention to her.  20 Within a year Hanʹnah became pregnant and gave birth to a son and named him Samuel, because, as she said, “it is from Jehovah that I have asked him.” 21 In time El·kaʹnah went up with all his household to offer the yearly sacrifice to Jehovah and to present his vow offering.  22 But Hanʹnah did not go up, for she said to her husband: “As soon as the boy is weaned, I will bring him; then he will appear before Jehovah and remain there from then on.”  23 El·kaʹnah her husband then said to her: “Do what you think is best. Stay at home until you wean him. May Jehovah carry out what you have said.” So the woman stayed at home and nursed her son until she weaned him. 24 As soon as she had weaned him, she took him up to Shiʹloh, along with a three-year-old bull, one eʹphah of flour, and a large jar of wine, and she came to the house of Jehovah in Shiʹloh and brought the young boy with her.  25 Then they slaughtered the bull and brought the boy to Eʹli.  26 With that she said: “Pardon me, my lord! As surely as you live, my lord, I am the woman who was standing with you in this place to pray to Jehovah.  27 It was for this boy that I prayed, and Jehovah granted my petition that I asked of him.",
+    clueSourceContent:
+      "4 One day when El·kaʹnah offered a sacrifice, he gave portions to his wife Pe·ninʹnah as well as to all her sons and her daughters,  5 but to Hanʹnah he gave a special portion, because Hanʹnah was the one he loved; but Jehovah had not given her children.  6 Moreover, her rival wife taunted her relentlessly in order to upset her because Jehovah had not given her children.  7 That is what she would do year after year; whenever Hanʹnah went up to the house of Jehovah, her rival would taunt her so much that she would weep and not eat.  8 But her husband El·kaʹnah said to her: “Hanʹnah, why do you weep, and why do you not eat, and why are you so sad? Am I not better to you than ten sons?” 9 Then Hanʹnah got up after they had finished eating and drinking in Shiʹloh. At the time, Eʹli the priest was sitting on the seat by the doorpost of the temple of Jehovah.  10 Hanʹnah was extremely bitter, and she began to pray to Jehovah and to weep uncontrollably.  11 And she made this vow: “O Jehovah of armies, if you look upon the affliction of your servant and remember me and you do not forget your servant and give to your servant a male child, I will give him to Jehovah all the days of his life, and no razor will touch his head.” 12 While she prayed for a long time before Jehovah, Eʹli was watching her mouth.  13 Hanʹnah was speaking in her heart, only her lips were trembling, but her voice was not heard. So Eʹli thought she was drunk.  14 Eʹli said to her: “How long will you stay drunk? Stop drinking your wine.”  15 At this Hanʹnah answered: “No, my lord! I am a woman under great stress; I have not drunk wine or anything alcoholic, but I am pouring out my soul before Jehovah.  16 Do not take your servant for a worthless woman, for I have been speaking until now out of my great anguish and distress.”  17 Then Eʹli answered: “Go in peace, and may the God of Israel grant your petition that you have asked of him.”  18 To this she said: “Let your servant find favor in your eyes.” And the woman went on her way and ate, and her face was no longer downcast. 19 Then they got up early in the morning and bowed before Jehovah, after which they returned to their house in Raʹmah. El·kaʹnah had sexual relations with his wife Hanʹnah, and Jehovah gave attention to her.  20 Within a year Hanʹnah became pregnant and gave birth to a son and named him Samuel, because, as she said, “it is from Jehovah that I have asked him.” 21 In time El·kaʹnah went up with all his household to offer the yearly sacrifice to Jehovah and to present his vow offering.  22 But Hanʹnah did not go up, for she said to her husband: “As soon as the boy is weaned, I will bring him; then he will appear before Jehovah and remain there from then on.”  23 El·kaʹnah her husband then said to her: “Do what you think is best. Stay at home until you wean him. May Jehovah carry out what you have said.” So the woman stayed at home and nursed her son until she weaned him. 24 As soon as she had weaned him, she took him up to Shiʹloh, along with a three-year-old bull, one eʹphah of flour, and a large jar of wine, and she came to the house of Jehovah in Shiʹloh and brought the young boy with her.  25 Then they slaughtered the bull and brought the boy to Eʹli.  26 With that she said: “Pardon me, my lord! As surely as you live, my lord, I am the woman who was standing with you in this place to pray to Jehovah.  27 It was for this boy that I prayed, and Jehovah granted my petition that I asked of him.",
     choiceA: "Sarah",
     choiceB: "Rachel",
     choiceC: "Elizabeth",
     choiceD: "Hannah",
-    correctAnswer: "D"
+    correctAnswer: "D",
   },
   {
     question:
@@ -381,64 +395,75 @@ const mainWomenCharacters1 = [
     correctAnswer: "B",
   },
   {
-    question: "Saul used her to serve as a snare to David so that the hand of the Philistines may come upon him.",
+    question:
+      "Saul used her to serve as a snare to David so that the hand of the Philistines may come upon him.",
     clueSource: "1 Samuel 18:20-28",
-    clueSourceContent: "20 Now Saul’s daughter Miʹchal was in love with David, and it was reported to Saul, and this pleased him.  21 So Saul said: “I will give her to him to serve as a snare to him, so that the hand of the Phi·lisʹtines may come upon him.” Saul then said to David a second time: “You will form a marriage alliance with me today.”  22 Further, Saul ordered his servants: “Speak to David secretly and say, ‘Look! The king is pleased with you, and all his servants are fond of you. So now form a marriage alliance with the king.’”  23 When Saul’s servants told David these things, David said: “Is it a trivial matter to you to form a marriage alliance with the king when I am a man poor and lightly esteemed?”  24 Then Saul’s servants reported to him: “These are the words that David spoke.” 25 At that Saul said: “This is what you should say to David, ‘The king does not want any bride price except 100 foreskins of the Phi·lisʹtines, to take revenge on the enemies of the king.’” For Saul was scheming to have David fall by the hand of the Phi·lisʹtines.  26 So his servants reported these words to David, and it was pleasing to David to form a marriage alliance with the king. Before the allotted time,  27 David went with his men and struck down 200 Phi·lisʹtine men, and David brought the full number of their foreskins to the king, to form a marriage alliance with the king. Therefore, Saul gave him his daughter Miʹchal as a wife.  28 Saul realized that Jehovah was with David and that his daughter Miʹchal loved him.",
+    clueSourceContent:
+      "20 Now Saul’s daughter Miʹchal was in love with David, and it was reported to Saul, and this pleased him.  21 So Saul said: “I will give her to him to serve as a snare to him, so that the hand of the Phi·lisʹtines may come upon him.” Saul then said to David a second time: “You will form a marriage alliance with me today.”  22 Further, Saul ordered his servants: “Speak to David secretly and say, ‘Look! The king is pleased with you, and all his servants are fond of you. So now form a marriage alliance with the king.’”  23 When Saul’s servants told David these things, David said: “Is it a trivial matter to you to form a marriage alliance with the king when I am a man poor and lightly esteemed?”  24 Then Saul’s servants reported to him: “These are the words that David spoke.” 25 At that Saul said: “This is what you should say to David, ‘The king does not want any bride price except 100 foreskins of the Phi·lisʹtines, to take revenge on the enemies of the king.’” For Saul was scheming to have David fall by the hand of the Phi·lisʹtines.  26 So his servants reported these words to David, and it was pleasing to David to form a marriage alliance with the king. Before the allotted time,  27 David went with his men and struck down 200 Phi·lisʹtine men, and David brought the full number of their foreskins to the king, to form a marriage alliance with the king. Therefore, Saul gave him his daughter Miʹchal as a wife.  28 Saul realized that Jehovah was with David and that his daughter Miʹchal loved him.",
     choiceA: "Bath-sheba",
     choiceB: "Ahinoam",
     choiceC: "Abigail",
     choiceD: "Michal",
-    correctAnswer: "D"
+    correctAnswer: "D",
   },
   {
-    question: "Who acted wisely and restrained David from incurring bloodguilt, who also later became his wife?",
+    question:
+      "Who acted wisely and restrained David from incurring bloodguilt, who also later became his wife?",
     clueSource: "1 Samuel 25:14-42",
-    clueSourceContent: "14 Meanwhile, one of the servants reported to Abʹi·gail, Naʹbal’s wife: “Look! David sent messengers from the wilderness to wish our master well, but he screamed insults at them.  15 Those men were very good to us. They never harmed us, and we did not miss a single thing the whole time we were together with them in the fields.  16 They were like a protective wall around us, both by night and by day, the whole time we were with them shepherding the flock.  17 Now decide what you are going to do, for disaster has been determined against our master and against all his house, and he is such a worthless man that no one can speak to him.” 18 So Abʹi·gail quickly took 200 loaves of bread, two large jars of wine, five dressed sheep, five seah measures of roasted grain, 100 cakes of raisins, and 200 cakes of pressed figs and put all of it on the donkeys.  19 Then she said to her servants: “Go on ahead of me; I will follow you.” But she said nothing to her husband Naʹbal. 20 While she was riding on the donkey and going down under cover of the mountain, just then David and his men were coming down toward her, and she met them.  21 Now David had been saying: “It was for nothing that I guarded everything that belongs to this fellow in the wilderness. Not a single thing belonging to him went missing, and yet he repays me evil for good.  22 May God do the same and more to the enemies of David if I allow a single male of his to survive until the morning.” 23 When Abʹi·gail caught sight of David, she hurried down off the donkey and threw herself facedown before David, bowing to the ground.  24 She then fell at his feet and said: “My lord, let the blame be on me; let your servant girl speak to you, and listen to the words of your servant girl.  25 Please, do not let my lord pay attention to this worthless Naʹbal, for he is just like his name. Naʹbal is his name, and senselessness is with him. But I, your servant girl, did not see my lord’s young men whom you sent.  26 And now, my lord, as surely as Jehovah is living and as you are living, it is Jehovah who has held you back from incurring bloodguilt and from taking revenge with your own hand. May your enemies and those seeking injury to my lord become like Naʹbal.  27 Now let this gift that your servant girl has brought to my lord be given to the young men who are following my lord.  28 Pardon, please, the transgression of your servant girl, for Jehovah will without fail make for my lord a lasting house, because my lord is fighting the wars of Jehovah, and no evil has been found in you all your days.  29 When someone rises up to pursue you and seeks your life, the life of my lord will be wrapped securely in the bag of life with Jehovah your God, but the lives of your enemies he will hurl away like stones from a sling.  30 And when Jehovah has done for my lord all the good things he has promised and he appoints you as leader over Israel,  31 you will have no remorse or regret in your heart for shedding blood without cause and for letting the hand of my lord take revenge. When Jehovah confers good upon my lord, remember your servant girl.” 32 At this David said to Abʹi·gail: “Praise Jehovah the God of Israel, who sent you this day to meet me!  33 And blessed be your good sense! May you be blessed for restraining me this day from incurring bloodguilt and from taking revenge with my own hands.  34 Otherwise, as surely as Jehovah the God of Israel who held me back from harming you is living, if you had not come quickly to meet me, by morning there would not have remained a single male belonging to Naʹbal.”  35 With that David accepted from her what she had brought him and said to her: “Go up in peace to your house. See, I have listened to you, and I will grant your request.” 36 Abʹi·gail later went back to Naʹbal, who was feasting like a king in his house, and Naʹbal was in a good mood and was as drunk as could be. She did not tell him a single thing until the morning light.  37 In the morning, when Naʹbal was sober, his wife told him these things. And his heart became like a dead man’s, and he lay paralyzed like a stone.  38 About ten days later, Jehovah struck Naʹbal, and he died. 39 When David heard that Naʹbal had died, he said: “Praise Jehovah, who has pleaded my case of reproach from Naʹbal and has kept his servant from doing anything bad, and Jehovah has brought the badness of Naʹbal back on his own head!” Then David sent word to propose to Abʹi·gail to take her as his wife.  40 So David’s servants came to Abʹi·gail at Carʹmel and said to her: “David has sent us to you to take you as his wife.”  41 She immediately rose up and bowed with her face to the ground and said: “Here is your slave as a servant to wash the feet of the servants of my lord.”  42 Then Abʹi·gail quickly rose up and rode on her donkey with five of her female servants walking behind her; she accompanied the messengers of David and became his wife.",
+    clueSourceContent:
+      "14 Meanwhile, one of the servants reported to Abʹi·gail, Naʹbal’s wife: “Look! David sent messengers from the wilderness to wish our master well, but he screamed insults at them.  15 Those men were very good to us. They never harmed us, and we did not miss a single thing the whole time we were together with them in the fields.  16 They were like a protective wall around us, both by night and by day, the whole time we were with them shepherding the flock.  17 Now decide what you are going to do, for disaster has been determined against our master and against all his house, and he is such a worthless man that no one can speak to him.” 18 So Abʹi·gail quickly took 200 loaves of bread, two large jars of wine, five dressed sheep, five seah measures of roasted grain, 100 cakes of raisins, and 200 cakes of pressed figs and put all of it on the donkeys.  19 Then she said to her servants: “Go on ahead of me; I will follow you.” But she said nothing to her husband Naʹbal. 20 While she was riding on the donkey and going down under cover of the mountain, just then David and his men were coming down toward her, and she met them.  21 Now David had been saying: “It was for nothing that I guarded everything that belongs to this fellow in the wilderness. Not a single thing belonging to him went missing, and yet he repays me evil for good.  22 May God do the same and more to the enemies of David if I allow a single male of his to survive until the morning.” 23 When Abʹi·gail caught sight of David, she hurried down off the donkey and threw herself facedown before David, bowing to the ground.  24 She then fell at his feet and said: “My lord, let the blame be on me; let your servant girl speak to you, and listen to the words of your servant girl.  25 Please, do not let my lord pay attention to this worthless Naʹbal, for he is just like his name. Naʹbal is his name, and senselessness is with him. But I, your servant girl, did not see my lord’s young men whom you sent.  26 And now, my lord, as surely as Jehovah is living and as you are living, it is Jehovah who has held you back from incurring bloodguilt and from taking revenge with your own hand. May your enemies and those seeking injury to my lord become like Naʹbal.  27 Now let this gift that your servant girl has brought to my lord be given to the young men who are following my lord.  28 Pardon, please, the transgression of your servant girl, for Jehovah will without fail make for my lord a lasting house, because my lord is fighting the wars of Jehovah, and no evil has been found in you all your days.  29 When someone rises up to pursue you and seeks your life, the life of my lord will be wrapped securely in the bag of life with Jehovah your God, but the lives of your enemies he will hurl away like stones from a sling.  30 And when Jehovah has done for my lord all the good things he has promised and he appoints you as leader over Israel,  31 you will have no remorse or regret in your heart for shedding blood without cause and for letting the hand of my lord take revenge. When Jehovah confers good upon my lord, remember your servant girl.” 32 At this David said to Abʹi·gail: “Praise Jehovah the God of Israel, who sent you this day to meet me!  33 And blessed be your good sense! May you be blessed for restraining me this day from incurring bloodguilt and from taking revenge with my own hands.  34 Otherwise, as surely as Jehovah the God of Israel who held me back from harming you is living, if you had not come quickly to meet me, by morning there would not have remained a single male belonging to Naʹbal.”  35 With that David accepted from her what she had brought him and said to her: “Go up in peace to your house. See, I have listened to you, and I will grant your request.” 36 Abʹi·gail later went back to Naʹbal, who was feasting like a king in his house, and Naʹbal was in a good mood and was as drunk as could be. She did not tell him a single thing until the morning light.  37 In the morning, when Naʹbal was sober, his wife told him these things. And his heart became like a dead man’s, and he lay paralyzed like a stone.  38 About ten days later, Jehovah struck Naʹbal, and he died. 39 When David heard that Naʹbal had died, he said: “Praise Jehovah, who has pleaded my case of reproach from Naʹbal and has kept his servant from doing anything bad, and Jehovah has brought the badness of Naʹbal back on his own head!” Then David sent word to propose to Abʹi·gail to take her as his wife.  40 So David’s servants came to Abʹi·gail at Carʹmel and said to her: “David has sent us to you to take you as his wife.”  41 She immediately rose up and bowed with her face to the ground and said: “Here is your slave as a servant to wash the feet of the servants of my lord.”  42 Then Abʹi·gail quickly rose up and rode on her donkey with five of her female servants walking behind her; she accompanied the messengers of David and became his wife.",
     choiceA: "Michal",
     choiceB: "Ahinoam",
     choiceC: "Abigail",
     choiceD: "Bath-sheba",
-    correctAnswer: "C"
+    correctAnswer: "C",
   },
   {
     question: "King David committed adultery with this woman.",
     clueSource: "2 Samuel 11:3, 4",
-    clueSourceContent: "3 David sent someone to inquire about the woman, and he reported: “Is this not Bath-sheʹba the daughter of E·liʹam and the wife of U·riʹah the Hitʹtite?”  4 Then David sent messengers to bring her. So she came in to him, and he lay down with her. (This happened while she was purifying herself from her uncleanness.) Afterward, she returned to her house.",
+    clueSourceContent:
+      "3 David sent someone to inquire about the woman, and he reported: “Is this not Bath-sheʹba the daughter of E·liʹam and the wife of U·riʹah the Hitʹtite?”  4 Then David sent messengers to bring her. So she came in to him, and he lay down with her. (This happened while she was purifying herself from her uncleanness.) Afterward, she returned to her house.",
     choiceA: "Rahab",
     choiceB: "Ahinoam",
     choiceC: "Abigail",
     choiceD: "Bath-sheba",
-    correctAnswer: "D"
+    correctAnswer: "D",
   },
   {
-    question: "She was the wife of Zechariah. She gave birth to a son even though she was well along in years.",
+    question:
+      "She was the wife of Zechariah. She gave birth to a son even though she was well along in years.",
     clueSource: "Luke 1:18-25",
-    clueSourceContent: "18 Zech·a·riʹah said to the angel: “How can I be sure of this? For I am old, and my wife is well along in years.”  19 In reply the angel said to him: “I am Gaʹbri·el, who stands near before God, and I was sent to speak with you and to declare this good news to you.  20 But look! you will be silent and unable to speak until the day these things take place, because you did not believe my words, which will be fulfilled in their appointed time.”  21 Meanwhile, the people continued waiting for Zech·a·riʹah, and they were surprised that he delayed so long in the sanctuary.  22 When he came out, he was unable to speak to them, and they perceived that he had just seen a supernatural sight in the sanctuary. He kept making signs to them but remained speechless.  23 When the days of his holy service were completed, he went off to his home. 24 Some days later Elizabeth his wife became pregnant, and she kept herself secluded for five months, saying:  25 “This is how Jehovah has dealt with me in these days. He has turned his attention to me to take away my reproach among men.”",
+    clueSourceContent:
+      "18 Zech·a·riʹah said to the angel: “How can I be sure of this? For I am old, and my wife is well along in years.”  19 In reply the angel said to him: “I am Gaʹbri·el, who stands near before God, and I was sent to speak with you and to declare this good news to you.  20 But look! you will be silent and unable to speak until the day these things take place, because you did not believe my words, which will be fulfilled in their appointed time.”  21 Meanwhile, the people continued waiting for Zech·a·riʹah, and they were surprised that he delayed so long in the sanctuary.  22 When he came out, he was unable to speak to them, and they perceived that he had just seen a supernatural sight in the sanctuary. He kept making signs to them but remained speechless.  23 When the days of his holy service were completed, he went off to his home. 24 Some days later Elizabeth his wife became pregnant, and she kept herself secluded for five months, saying:  25 “This is how Jehovah has dealt with me in these days. He has turned his attention to me to take away my reproach among men.”",
     choiceA: "Sarah",
     choiceB: "Mary",
     choiceC: "Elizabeth",
     choiceD: "Hannah",
-    correctAnswer: "C"
+    correctAnswer: "C",
   },
   {
-    question: "Who became pregnant and gave birth to a child even though a virgin?",
+    question:
+      "Who became pregnant and gave birth to a child even though a virgin?",
     clueSource: "Luke 1:26-35",
-    clueSourceContent: "26 In her sixth month, the angel Gaʹbri·el was sent from God to a city of Galʹi·lee named Nazʹa·reth,  27 to a virgin promised in marriage to a man named Joseph of David’s house, and the name of the virgin was Mary.  28 And coming in, the angel said to her: “Greetings, you highly favored one, Jehovah is with you.”  29 But she was deeply disturbed at his words and tried to understand what kind of greeting this might be.  30 So the angel said to her: “Do not be afraid, Mary, for you have found favor with God.  31 And look! you will become pregnant and give birth to a son, and you are to name him Jesus.  32 This one will be great and will be called Son of the Most High, and Jehovah God will give him the throne of David his father,  33 and he will rule as King over the house of Jacob forever, and there will be no end to his Kingdom.” 34 But Mary said to the angel: “How is this to be, since I am not having sexual relations with a man?”  35 In answer the angel said to her: “Holy spirit will come upon you, and power of the Most High will overshadow you. And for that reason the one who is born will be called holy, God’s Son.",
+    clueSourceContent:
+      "26 In her sixth month, the angel Gaʹbri·el was sent from God to a city of Galʹi·lee named Nazʹa·reth,  27 to a virgin promised in marriage to a man named Joseph of David’s house, and the name of the virgin was Mary.  28 And coming in, the angel said to her: “Greetings, you highly favored one, Jehovah is with you.”  29 But she was deeply disturbed at his words and tried to understand what kind of greeting this might be.  30 So the angel said to her: “Do not be afraid, Mary, for you have found favor with God.  31 And look! you will become pregnant and give birth to a son, and you are to name him Jesus.  32 This one will be great and will be called Son of the Most High, and Jehovah God will give him the throne of David his father,  33 and he will rule as King over the house of Jacob forever, and there will be no end to his Kingdom.” 34 But Mary said to the angel: “How is this to be, since I am not having sexual relations with a man?”  35 In answer the angel said to her: “Holy spirit will come upon you, and power of the Most High will overshadow you. And for that reason the one who is born will be called holy, God’s Son.",
     choiceA: "Mary",
     choiceB: "Hannah",
     choiceC: "Sarah",
     choiceD: "Ruth",
-    correctAnswer: "A"
+    correctAnswer: "A",
   },
   {
-    question: "Who was distracted with attending to many duties when Jesus was a guest in her house?",
+    question:
+      "Who was distracted with attending to many duties when Jesus was a guest in her house?",
     clueSource: "Luke 10:38-42",
-    clueSourceContent: "38 Now as they went on their way, he entered into a certain village. Here a woman named Martha received him as a guest in her house.  39 She also had a sister called Mary, who sat down at the feet of the Lord and kept listening to what he was saying.  40 Martha, on the other hand, was distracted with attending to many duties. So she came to him and said: “Lord, does it not matter to you that my sister has left me alone to attend to things? Tell her to come and help me.”  41 In answer the Lord said to her: “Martha, Martha, you are anxious and disturbed about many things.  42 A few things, though, are needed, or just one. For her part, Mary chose the good portion, and it will not be taken away from her.”",
+    clueSourceContent:
+      "38 Now as they went on their way, he entered into a certain village. Here a woman named Martha received him as a guest in her house.  39 She also had a sister called Mary, who sat down at the feet of the Lord and kept listening to what he was saying.  40 Martha, on the other hand, was distracted with attending to many duties. So she came to him and said: “Lord, does it not matter to you that my sister has left me alone to attend to things? Tell her to come and help me.”  41 In answer the Lord said to her: “Martha, Martha, you are anxious and disturbed about many things.  42 A few things, though, are needed, or just one. For her part, Mary chose the good portion, and it will not be taken away from her.”",
     choiceA: "Mary",
     choiceB: "Martha",
     choiceC: "Elizabeth",
     choiceD: "The Samaritan woman",
-    correctAnswer: "B"
+    correctAnswer: "B",
   },
 ];
 
