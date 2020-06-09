@@ -381,7 +381,17 @@ const mainWomenCharacters1 = [
     correctAnswer: "B",
   },
   {
-    question: "Who acted wisely and restrained David from incurring bloodguilt and later became his wife?",
+    question: "Saul used her to serve as a snare to David so that the hand of the Philistines may come upon him.",
+    clueSource: "1 Samuel 18:20-28",
+    clueSourceContent: "20 Now Saul’s daughter Miʹchal was in love with David, and it was reported to Saul, and this pleased him.  21 So Saul said: “I will give her to him to serve as a snare to him, so that the hand of the Phi·lisʹtines may come upon him.” Saul then said to David a second time: “You will form a marriage alliance with me today.”  22 Further, Saul ordered his servants: “Speak to David secretly and say, ‘Look! The king is pleased with you, and all his servants are fond of you. So now form a marriage alliance with the king.’”  23 When Saul’s servants told David these things, David said: “Is it a trivial matter to you to form a marriage alliance with the king when I am a man poor and lightly esteemed?”  24 Then Saul’s servants reported to him: “These are the words that David spoke.” 25 At that Saul said: “This is what you should say to David, ‘The king does not want any bride price except 100 foreskins of the Phi·lisʹtines, to take revenge on the enemies of the king.’” For Saul was scheming to have David fall by the hand of the Phi·lisʹtines.  26 So his servants reported these words to David, and it was pleasing to David to form a marriage alliance with the king. Before the allotted time,  27 David went with his men and struck down 200 Phi·lisʹtine men, and David brought the full number of their foreskins to the king, to form a marriage alliance with the king. Therefore, Saul gave him his daughter Miʹchal as a wife.  28 Saul realized that Jehovah was with David and that his daughter Miʹchal loved him.",
+    choiceA: "Bath-sheba",
+    choiceB: "Ahinoam",
+    choiceC: "Abigail",
+    choiceD: "Michal",
+    correctAnswer: "D"
+  },
+  {
+    question: "Who acted wisely and restrained David from incurring bloodguilt, who also later became his wife?",
     clueSource: "1 Samuel 25:14-42",
     clueSourceContent: "14 Meanwhile, one of the servants reported to Abʹi·gail, Naʹbal’s wife: “Look! David sent messengers from the wilderness to wish our master well, but he screamed insults at them.  15 Those men were very good to us. They never harmed us, and we did not miss a single thing the whole time we were together with them in the fields.  16 They were like a protective wall around us, both by night and by day, the whole time we were with them shepherding the flock.  17 Now decide what you are going to do, for disaster has been determined against our master and against all his house, and he is such a worthless man that no one can speak to him.” 18 So Abʹi·gail quickly took 200 loaves of bread, two large jars of wine, five dressed sheep, five seah measures of roasted grain, 100 cakes of raisins, and 200 cakes of pressed figs and put all of it on the donkeys.  19 Then she said to her servants: “Go on ahead of me; I will follow you.” But she said nothing to her husband Naʹbal. 20 While she was riding on the donkey and going down under cover of the mountain, just then David and his men were coming down toward her, and she met them.  21 Now David had been saying: “It was for nothing that I guarded everything that belongs to this fellow in the wilderness. Not a single thing belonging to him went missing, and yet he repays me evil for good.  22 May God do the same and more to the enemies of David if I allow a single male of his to survive until the morning.” 23 When Abʹi·gail caught sight of David, she hurried down off the donkey and threw herself facedown before David, bowing to the ground.  24 She then fell at his feet and said: “My lord, let the blame be on me; let your servant girl speak to you, and listen to the words of your servant girl.  25 Please, do not let my lord pay attention to this worthless Naʹbal, for he is just like his name. Naʹbal is his name, and senselessness is with him. But I, your servant girl, did not see my lord’s young men whom you sent.  26 And now, my lord, as surely as Jehovah is living and as you are living, it is Jehovah who has held you back from incurring bloodguilt and from taking revenge with your own hand. May your enemies and those seeking injury to my lord become like Naʹbal.  27 Now let this gift that your servant girl has brought to my lord be given to the young men who are following my lord.  28 Pardon, please, the transgression of your servant girl, for Jehovah will without fail make for my lord a lasting house, because my lord is fighting the wars of Jehovah, and no evil has been found in you all your days.  29 When someone rises up to pursue you and seeks your life, the life of my lord will be wrapped securely in the bag of life with Jehovah your God, but the lives of your enemies he will hurl away like stones from a sling.  30 And when Jehovah has done for my lord all the good things he has promised and he appoints you as leader over Israel,  31 you will have no remorse or regret in your heart for shedding blood without cause and for letting the hand of my lord take revenge. When Jehovah confers good upon my lord, remember your servant girl.” 32 At this David said to Abʹi·gail: “Praise Jehovah the God of Israel, who sent you this day to meet me!  33 And blessed be your good sense! May you be blessed for restraining me this day from incurring bloodguilt and from taking revenge with my own hands.  34 Otherwise, as surely as Jehovah the God of Israel who held me back from harming you is living, if you had not come quickly to meet me, by morning there would not have remained a single male belonging to Naʹbal.”  35 With that David accepted from her what she had brought him and said to her: “Go up in peace to your house. See, I have listened to you, and I will grant your request.” 36 Abʹi·gail later went back to Naʹbal, who was feasting like a king in his house, and Naʹbal was in a good mood and was as drunk as could be. She did not tell him a single thing until the morning light.  37 In the morning, when Naʹbal was sober, his wife told him these things. And his heart became like a dead man’s, and he lay paralyzed like a stone.  38 About ten days later, Jehovah struck Naʹbal, and he died. 39 When David heard that Naʹbal had died, he said: “Praise Jehovah, who has pleaded my case of reproach from Naʹbal and has kept his servant from doing anything bad, and Jehovah has brought the badness of Naʹbal back on his own head!” Then David sent word to propose to Abʹi·gail to take her as his wife.  40 So David’s servants came to Abʹi·gail at Carʹmel and said to her: “David has sent us to you to take you as his wife.”  41 She immediately rose up and bowed with her face to the ground and said: “Here is your slave as a servant to wash the feet of the servants of my lord.”  42 Then Abʹi·gail quickly rose up and rode on her donkey with five of her female servants walking behind her; she accompanied the messengers of David and became his wife.",
     choiceA: "Michal",
@@ -399,6 +409,16 @@ const mainWomenCharacters1 = [
     choiceC: "Abigail",
     choiceD: "Bath-sheba",
     correctAnswer: "D"
+  },
+  {
+    question: "She was the wife of Zechariah. She gave birth to a son even though she was well along in years.",
+    clueSource: "Luke 1:18-25",
+    clueSourceContent: "18 Zech·a·riʹah said to the angel: “How can I be sure of this? For I am old, and my wife is well along in years.”  19 In reply the angel said to him: “I am Gaʹbri·el, who stands near before God, and I was sent to speak with you and to declare this good news to you.  20 But look! you will be silent and unable to speak until the day these things take place, because you did not believe my words, which will be fulfilled in their appointed time.”  21 Meanwhile, the people continued waiting for Zech·a·riʹah, and they were surprised that he delayed so long in the sanctuary.  22 When he came out, he was unable to speak to them, and they perceived that he had just seen a supernatural sight in the sanctuary. He kept making signs to them but remained speechless.  23 When the days of his holy service were completed, he went off to his home. 24 Some days later Elizabeth his wife became pregnant, and she kept herself secluded for five months, saying:  25 “This is how Jehovah has dealt with me in these days. He has turned his attention to me to take away my reproach among men.”",
+    choiceA: "Sarah",
+    choiceB: "Mary",
+    choiceC: "Elizabeth",
+    choiceD: "Hannah",
+    correctAnswer: "C"
   },
   {
     question: "Who became pregnant and gave birth to a child even though a virgin?",
@@ -419,26 +439,6 @@ const mainWomenCharacters1 = [
     choiceC: "Elizabeth",
     choiceD: "The Samaritan woman",
     correctAnswer: "B"
-  },
-  {
-    question: "She was the wife of Zechariah. She gave birth to a son even though she was well along in years.",
-    clueSource: "Luke 1:18-25",
-    clueSourceContent: "18 Zech·a·riʹah said to the angel: “How can I be sure of this? For I am old, and my wife is well along in years.”  19 In reply the angel said to him: “I am Gaʹbri·el, who stands near before God, and I was sent to speak with you and to declare this good news to you.  20 But look! you will be silent and unable to speak until the day these things take place, because you did not believe my words, which will be fulfilled in their appointed time.”  21 Meanwhile, the people continued waiting for Zech·a·riʹah, and they were surprised that he delayed so long in the sanctuary.  22 When he came out, he was unable to speak to them, and they perceived that he had just seen a supernatural sight in the sanctuary. He kept making signs to them but remained speechless.  23 When the days of his holy service were completed, he went off to his home. 24 Some days later Elizabeth his wife became pregnant, and she kept herself secluded for five months, saying:  25 “This is how Jehovah has dealt with me in these days. He has turned his attention to me to take away my reproach among men.”",
-    choiceA: "Sarah",
-    choiceB: "Mary",
-    choiceC: "Elizabeth",
-    choiceD: "Hannah",
-    correctAnswer: "C"
-  },
-  {
-    question: "Saul used her to serve as a snare to David so that the hand of the Philistines may come upon him.",
-    clueSource: "1 Samuel 18:20-28",
-    clueSourceContent: "20 Now Saul’s daughter Miʹchal was in love with David, and it was reported to Saul, and this pleased him.  21 So Saul said: “I will give her to him to serve as a snare to him, so that the hand of the Phi·lisʹtines may come upon him.” Saul then said to David a second time: “You will form a marriage alliance with me today.”  22 Further, Saul ordered his servants: “Speak to David secretly and say, ‘Look! The king is pleased with you, and all his servants are fond of you. So now form a marriage alliance with the king.’”  23 When Saul’s servants told David these things, David said: “Is it a trivial matter to you to form a marriage alliance with the king when I am a man poor and lightly esteemed?”  24 Then Saul’s servants reported to him: “These are the words that David spoke.” 25 At that Saul said: “This is what you should say to David, ‘The king does not want any bride price except 100 foreskins of the Phi·lisʹtines, to take revenge on the enemies of the king.’” For Saul was scheming to have David fall by the hand of the Phi·lisʹtines.  26 So his servants reported these words to David, and it was pleasing to David to form a marriage alliance with the king. Before the allotted time,  27 David went with his men and struck down 200 Phi·lisʹtine men, and David brought the full number of their foreskins to the king, to form a marriage alliance with the king. Therefore, Saul gave him his daughter Miʹchal as a wife.  28 Saul realized that Jehovah was with David and that his daughter Miʹchal loved him.",
-    choiceA: "Bath-sheba",
-    choiceB: "Ahinoam",
-    choiceC: "Abigail",
-    choiceD: "Michal",
-    correctAnswer: "D"
   },
 ];
 
