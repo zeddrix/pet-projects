@@ -1,155 +1,71 @@
-const men = [
+const mainCharactersMen1 = [
   {
-    question: "Who asked the Israelites to separate from their foreign wives?",
-    clueSource: "Ezra 10:10, 11",
+    question: "Who was the first man God has made out of dust?",
+    clueSource: "1 Chorinthians 15:45",
     clueSourceContent:
-      "10 Then Ezʹra the priest rose and said to them: “You have acted unfaithfully by marrying foreign women, and so you have added to the guilt of Israel. 11  Now make confession to Jehovah the God of your forefathers and do his will. Separate yourselves from the peoples of the land and from these foreign wives.”",
-    choiceA: "Aaron",
-    choiceB: "Moses",
-    choiceC: "Nehemiah",
-    choiceD: "Ezra",
-    correctAnswer: "D",
-  },
-  // questionsAboutMen0.choiceD -> Ezra
-  {
-    question: "He was Eunice's son and Lois' grandson.",
-    clueSource: "2 Timothy 1:5",
-    clueSourceContent:
-      "5 For I recall your unhypocritical faith, which dwelled first in your grandmother Loʹis and your mother Euʹnice, but which I am confident is also in you.",
-    choiceA: "Philip",
-    choiceB: "Silas",
-    choiceC: "Paul",
-    choiceD: "Timothy",
-    correctAnswer: "D",
-  },
-  {
-    question:
-      "The judge that Jehovah used to defeat a Midian army with only 300 men.",
-    clueSource: "Judges 7:7",
-    clueSourceContent:
-      "7 Jehovah now said to Gidʹe·on: “I will save you with the 300 men who lapped the water, and I will give Midʹi·an into your hand. But let all the other people go back home.”",
-    choiceA: "Joshua",
-    choiceB: "Gideon",
-    choiceC: "Samuel",
-    choiceD: "Jephthah",
-    correctAnswer: "B",
-  },
-  {
-    question:
-      "Jehovah set up a sign for him “in order that no one finding him would strike him.”",
-    clueSource: "Genesis 4:15",
-    clueSourceContent:
-      "15 So Jehovah said to him: “For that reason, anyone who kills Cain will suffer vengeance seven times.” So Jehovah set up a sign for Cain in order that no one finding him would strike him.",
-    choiceA: "Abel",
-    choiceB: "Cain",
-    choiceC: "Enoch",
+      "45  So it is written: “The first man Adam became a living person.” The last Adam became a life-giving spirit.",
+    choiceA: "Aman",
+    choiceB: "Adam",
+    choiceC: "Abraham",
     choiceD: "Noah",
     correctAnswer: "B",
   },
   {
-    question: "Who asked Jesus: “Are you the King of the Jews”?",
-    clueSource: "Matthew 27:2",
+    question: "Who was the first victim of a murder?",
+    clueSource: "Genesis 4:3-8",
     clueSourceContent:
-      "2 After binding him, they led him off and handed him over to Pilate, the governor.",
-    choiceA: "Herod the Great",
-    choiceB: "Nicodemus",
-    choiceC: "Pilate",
-    choiceD: "Herod Agrippa",
+      "3 After some time, Cain brought some fruits of the land as an offering to Jehovah. 4  But Abel brought some firstlings of his flock, including their fat. While Jehovah looked with favor on Abel and on his offering, 5  he did not look with any favor on Cain and on his offering. So Cain grew hot with anger and was dejected. 6  Then Jehovah said to Cain: “Why are you so angry and dejected? 7  If you turn to doing good, will you not be restored to favor? But if you do not turn to doing good, sin is crouching at the door, and its craving is to dominate you; but will you get the mastery over it?” 8  After that Cain said to his brother Abel: “Let us go over into the field.” So while they were in the field, Cain assaulted his brother Abel and killed him.",
+    choiceA: "Adam",
+    choiceB: "Cain",
+    choiceC: "Abel",
+    choiceD: "Eve",
     correctAnswer: "C",
   },
   {
-    question:
-      "Jehovah, for the first time, allowed this man to have “every moving animal that is alive” as food.",
-    clueSource: "Genesis 9:3",
+    question: "Who was the first murderer?",
+    clueSource: "John 8:44",
     clueSourceContent:
-      "3 Every moving animal that is alive may serve as food for you. Just as I gave you the green vegetation, I give them all to you.",
+      "44 You are from your father the Devil, and you wish to do the desires of your father. That one was a murderer when he began, and he did not stand fast in the truth, because truth is not in him. When he speaks the lie, he speaks according to his own disposition, because he is a liar and the father of the lie.",
+    choiceA: "Cain",
+    choiceB: "Satan the Devil",
+    choiceC: "Nimrod",
+    choiceD: "Lamech",
+    correctAnswer: "B",
+  },
+  {
+    question: "Who built the ark and survived the Flood with his whole family?",
+    clueSource: "Genesis 7:23",
+    clueSourceContent:
+      "23 So He wiped every living thing from the surface of the earth, including man, animals, creeping animals, and the flying creatures of the sky. They were all wiped off the earth; only Noah and those with him in the ark survived.",
     choiceA: "Moses",
-    choiceB: "Noah",
-    choiceC: "Aaron",
-    choiceD: "Eleazer",
-    correctAnswer: "B",
-  },
-  {
-    question:
-      "Who, other than Moses, appeared at the transfiguration of Jesus?",
-    clueSource: "Mark 9:4",
-    clueSourceContent:
-      "4 Also, E·liʹjah with Moses appeared to them, and they were conversing with Jesus.",
-    choiceA: "Eli",
-    choiceB: "Enoch",
-    choiceC: "John",
-    choiceD: "Elijah",
+    choiceB: "Goliath",
+    choiceC: "Abraham",
+    choiceD: "Noah",
     correctAnswer: "D",
   },
   {
-    question: "He is a friend of Jesus who was raised from the dead.",
-    clueSource: "John 11:43",
-    clueSourceContent:
-      "43 When he had said these things, he cried out with a loud voice: “Lazʹa·rus, come out!”",
-    choiceA: "Elijah",
-    choiceB: "Moses",
-    choiceC: "Lazarus",
-    choiceD: "John",
-    correctAnswer: "C",
-  },
-  {
     question:
-      "Who became hot with anger with Jehovah for not destroying Nineveh?",
-    clueSource: "Jonah 4:1-3",
+      "Who, by faith, obeyed God by going out to a place he was to receive as an inheritance, although not knowing where he was going?",
+    clueSource: "Hebrews 11:8",
     clueSourceContent:
-      "But this was highly displeasing to Joʹnah, and he became hot with anger. 2  So he prayed to Jehovah: “Ah, now, Jehovah, was this not my concern when I was in my own land? That is why I tried to flee to Tarʹshish in the first place; for I knew that you are a compassionate and merciful God, slow to anger and abundant in loyal love, one who feels grieved over calamity. 3 Now, O Jehovah, please take away my life, for it is better for me to die than to live.”",
-    choiceA: "Jonah",
-    choiceB: "Jeremias",
-    choiceC: "Ezra",
-    choiceD: "Nehemias",
-    correctAnswer: "A",
-  },
-  {
-    question: "Who formed a golden calf while Moses was on Mount Sinai?",
-    clueSource: "Exodus 32:1-4",
-    clueSourceContent:
-      "Meanwhile, the people saw that Moses was taking a long time coming down from the mountain. So the people gathered around Aaron and said to him: “Get up, make for us a god who will go ahead of us, because we do not know what has happened to this Moses, the man who led us up out of the land of Egypt.” 2 At this Aaron said to them: “Take the gold earringsc from the ears of your wives, your sons, and your daughters and bring them to me.” 3 So all the people began taking off the gold earrings that were in their ears and bringing them to Aaron. 4 Then he took the gold from them, and he formed it with an engraving tool and made it into a statue of a calf. They began to say: “This is your God, O Israel, who led you up out of the land of Egypt.”",
-    choiceA: "Jeroboam",
-    choiceB: "Aaron",
-    choiceC: "Korah",
-    choiceD: "Abiram",
-    correctAnswer: "B",
-  },
-  {
-    question:
-      "He was unable to speak until John the Baptizer, his own son, was born.",
-    clueSource: "Luke 1:18-20",
-    clueSourceContent:
-      "18 Zech·a·riʹah said to the angel: “How can I be sure of this? For I am old, and my wife is well along in years.” 19 In reply the angel said to him: “I am Gaʹbri·el, who stands near before God, and I was sent to speak with you and to declare this good news to you. 20 But look! you will be silent and unable to speak until the day these things take place, because you did not believe my words, which will be fulfilled in their appointed time.",
-    choiceA: "Zerubbabel",
-    choiceB: "Zedekiah",
-    choiceC: "Zechariah",
-    choiceD: "Zadok",
-    correctAnswer: "C",
-  },
-  {
-    question:
-      "His own female donkey spoke to him after beating it for three times.",
-    clueSource: "Numbers 22:28",
-    clueSourceContent:
-      "28 Finally Jehovah caused the donkey to speak, and it said to Baʹlaam: “What have I done to you to make you beat me these three times?”",
-    choiceA: "Balaam",
-    choiceB: "Balak",
-    choiceC: "Hosea",
-    choiceD: "Barak",
+      "8 By faith Abraham, when he was called, obeyed by going out to a place he was to receive as an inheritance; he went out, although not knowing where he was going.",
+    choiceA: "Abraham",
+    choiceB: "Isaac",
+    choiceC: "Jacob",
+    choiceD: "Joseph",
     correctAnswer: "A",
   },
   {
     question:
-      "After Ananias talked to him about being anointed by holy spirit, “what looked like scales fell from his eyes, and he recovered his sight.”",
-    clueSource: "Acts 9:17-19",
+      "His wife began to look back at the city and became a pillar of salt.",
+    clueSource: "Genesis 19:26",
     clueSourceContent:
-      "17 So An·a·niʹas went and entered the house, and he laid his hands on him and said: “Saul, brother, the Lord Jesus, who appeared to you on the road along which you were coming, has sent me so that you may recover sight and be filled with holy spirit.” 18 And immediately, what looked like scales fell from his eyes, and he recovered his sight. He then got up and was baptized, 19 and he ate some food and gained strength.",
-    choiceA: "Peter",
-    choiceB: "James",
-    choiceC: "John",
-    choiceD: "Paul",
-    correctAnswer: "D",
+      "26 But Lot’s wife, who was behind him, began to look back, and she became a pillar of salt.",
+    choiceA: "Abraham",
+    choiceB: "Lot",
+    choiceC: "Isaac",
+    choiceD: "Moses",
+    correctAnswer: "B",
   },
   {
     question:
@@ -165,15 +81,37 @@ const men = [
   },
   {
     question:
-      "King Nebuchadnezzar gave this prophet of Jehovah the name “Belteshazzar.”",
-    clueSource: "Daniel 5:12",
+      "Who despised the birthright and traded it for bread and lentil stew?",
+    clueSource: "Genesis 25:27-34",
     clueSourceContent:
-      "12 For Daniel, whom the king named Bel·te·shazʹzar, had an extraordinary spirit and knowledge and insight to interpret dreams, to explain riddles, and to solve knotty problems. Now let Daniel be summoned, and he will tell you the interpretation.”",
-    choiceA: "Daniel",
-    choiceB: "Abednego",
-    choiceC: "Shadrach",
-    choiceD: "Meshach",
-    correctAnswer: "A",
+      "27 As the boys got bigger, Eʹsau became a skilled hunter, a man of the field, but Jacob was a blameless man, dwelling in tents. 28 And Isaac loved Eʹsau because it meant game in his mouth, whereas Re·bekʹah loved Jacob. 29 On one occasion Jacob was boiling some stew when Eʹsau returned from the field exhausted. 30 So Eʹsau said to Jacob: “Quick, please, give me some of the red stew that you have there, for I am exhausted!” That is why his name was Eʹdom. 31 To this Jacob said: “First sell me your right as firstborn!” 32 And Eʹsau continued: “Here I am about to die! What use is a birthright to me?” 33 And Jacob added: “Swear to me first!” So he swore to him and sold his right as firstborn to Jacob. 34 Then Jacob gave Eʹsau bread and lentil stew, and he ate and drank, and he got up and went away. Thus Eʹsau despised the birthright.",
+    choiceA: "Isaac",
+    choiceB: "Jacob",
+    choiceC: "Esau",
+    choiceD: "Joseph",
+    correctAnswer: "C",
+  },
+  {
+    question:
+      "Who has wrestled with an angel for a blessing until the break of dawn?",
+    clueSource: "Genesis 32:24-30",
+    clueSourceContent: "24  Finally Jacob was left by himself. Then a man began to wrestle with him until the dawn broke. 25  When he saw that he had not prevailed over him, he touched the socket of his hip; and the socket of Jacob’s hip was dislocated during his wrestling with him. 26  After that he said: “Let me go, for the dawn is breaking.” To this he said: “I am not going to let you go until you bless me.” 27  So he said to him: “What is your name?” to which he said: “Jacob.” 28  Then he said: “Your name will no longer be Jacob but Israel, for you have contended with God and with men and you have at last prevailed.” 29  In turn Jacob inquired: “Tell me, please, your name.” However, he said: “Why is it that you ask my name?” With that he blessed him there. 30  So Jacob named the place Pe·niʹel, for he said, “I have seen God face-to-face, yet my life was preserved.”",
+    choiceA: "Abraham",
+    choiceB: "Jacob",
+    choiceC: "Isaac",
+    choiceD: "Esau",
+    correctAnswer: "B",
+  },
+  {
+    question: "Who was sold by his own brothers as a slave in Egypt?",
+    clueSource: "Genesis 37:25-28",
+    clueSourceContent:
+      "25 Then they sat down to eat. When they looked up, there was a caravan of Ishʹma·el·ites coming from Gilʹe·ad. Their camels were carrying labdanum gum, balsam, and resinous bark, and they were on their way down to Egypt. 26 At this Judah said to his brothers: “What profit would there be if we killed our brother and covered over his blood? 27 Come, now, let us sell him to the Ishʹma·el·ites, and do not let our hand be upon him. After all, he is our brother, our flesh.” So they listened to their brother. 28 And when the Midʹi·an·ite merchants were passing by, they lifted Joseph up out of the waterpit and sold him to the Ishʹma·el·ites for 20 pieces of silver. These men took Joseph into Egypt.",
+    choiceA: "Reuben",
+    choiceB: "Judah",
+    choiceC: "Benjamin",
+    choiceD: "Joseph",
+    correctAnswer: "D",
   },
   {
     question:
@@ -188,52 +126,103 @@ const men = [
     correctAnswer: "A",
   },
   {
-    question:
-      "A Jew who staunchly refused to prostrate himself before (the Amalekite) Haman.",
-    clueSource: "Esther 3:2",
+    question: "Jehovah God used this man to divide the waters of the Red Sea.",
+    clueSource: "Exodus 14:21-28",
     clueSourceContent:
-      "2 And all the king’s servants who were in the king’s gate would bow low and prostrate themselves to Haʹman, for this is what the king had commanded respecting him. But Morʹde·cai refused to bow low or prostrate himself.",
-    choiceA: "Meshach",
-    choiceB: "Shadrach",
-    choiceC: "Mordecai",
-    choiceD: "Abednego",
-    correctAnswer: "C",
-  },
-  {
-    question:
-      "He is one of David’s sons who was highly praised for his handsome appearance in all Israel.",
-    clueSource: "2 Samuel 14:25",
-    clueSourceContent:
-      "25 Now in all Israel, no man was as highly praised for his handsome appearance as Abʹsa·lom. From the sole of his foot to the crown of his head, there was no flaw in him.",
-    choiceA: "Solomon",
-    choiceB: "Absalom",
-    choiceC: "Adonijah",
-    choiceD: "Amnon",
-    correctAnswer: "B",
-  },
-  {
-    question:
-      "He was an apostle who has spread a big reception feast for Jesus in his own house. He’s also known as ‘Levi’.",
-    clueSource: "Luke 5:29",
-    clueSourceContent:
-      "29 Then Leʹvi [Matthew] spread a big reception feast for him in his house, and there was a large crowd of tax collectors and others who were dining with them.",
-    choiceA: "Matthew",
-    choiceB: "Mark",
-    choiceC: "John",
-    choiceD: "Luke",
+      "21  Moses now stretched out his hand over the sea; and Jehovah drove the sea back with a strong east wind all night long, turning the sea basin into dry ground, and the waters divided. 22  So the Israelites went through the midst of the sea on dry ground, while the waters formed a wall on their right hand and on their left. 23  The Egyptians pursued them, and all Pharʹaoh’s horses, his war chariots, and his cavalrymen began going after them into the midst of the sea. 24  During the morning watch, Jehovah looked at the camp of the Egyptians from within the pillar of fire and cloud, and he threw the camp of the Egyptians into confusion. 25  He kept taking wheels off their chariots so that they were driving them with difficulty, and the Egyptians were saying: “Let us flee from any contact with Israel, because Jehovah is fighting for them against the Egyptians.” 26  Then Jehovah said to Moses: “Stretch out your hand over the sea so that the waters may come back over the Egyptians, their war chariots, and their cavalrymen.” 27  Moses at once stretched out his hand over the sea, and as morning approached, the sea returned to its normal condition. As the Egyptians fled from it, Jehovah shook the Egyptians off into the midst of the sea. 28  The returning waters covered the war chariots and the cavalrymen and all of Pharʹaoh’s army who had gone into the sea after them. Not so much as one among them was allowed to survive.",
+    choiceA: "Moses",
+    choiceB: "Noah",
+    choiceC: "Abraham",
+    choiceD: "Aaron",
     correctAnswer: "A",
   },
   {
     question:
-      "Delilah betrayed this Nazarite judge in exchange for 1,100 silver pieces.",
-    clueSource: "Judges 16:18-20",
+      "He became Moses' spokesman and spoke for him to the people of Israel.",
+    clueSource: "Exodus 4:13-16",
     clueSourceContent:
-      "18 When De·liʹlah saw that he had opened his heart to her, she immediately summoned the Phi·lisʹtine lords, saying: “Come up this time, for he has opened his heart to me.” So the Phi·lisʹtine lords came up to her, bringing the money with them. 19 She made him fall asleep on her knees; then she called the man and had him shave off the seven braids of his head. After that she began to have control over him, for his power was leaving him. 20 Now she called out: “The Phi·lisʹtines are upon you, Samson!” He woke up from his sleep and said: “I will go out as at other timesk and shake myself free.” But he did not know that Jehovah had left him.",
-    choiceA: "Gideon",
-    choiceB: "Barak",
-    choiceC: "Joshua",
-    choiceD: "Samson",
+      "13 But he said: “Pardon me, Jehovah, please send anyone whom you want to send.”  14 Then Jehovah’s anger blazed against Moses, and he said: “What about your brother Aaron the Levite? I know that he can speak very well. And he is now on his way here to meet you. When he sees you, his heart will rejoice.  15 So you must speak to him and put the words in his mouth, and I will be with you and him as you speak, and I will teach you men what to do.  16 He will speak for you to the people, and he will be your spokesman, and you will serve as God to him.",
+    choiceA: "Noah",
+    choiceB: "Moses",
+    choiceC: "Joseph",
+    choiceD: "Aaron",
     correctAnswer: "D",
+  },
+  {
+    question:
+      "His own female donkey spoke to him after beating it for three times.",
+    clueSource: "Numbers 22:28",
+    clueSourceContent:
+      "28 Finally Jehovah caused the donkey to speak, and it said to Baʹlaam: “What have I done to you to make you beat me these three times?”",
+    choiceA: "Balaam",
+    choiceB: "Balak",
+    choiceC: "Baal",
+    choiceD: "Barak",
+    correctAnswer: "A",
+  },
+  {
+    question: "Who served at the tabernacle since his youth?",
+    clueSource: "1 Samuel 1:20-28",
+    clueSourceContent:
+      "20 Within a year Hanʹnah became pregnant and gave birth to a son and named him Samuel, because, as she said, “it is from Jehovah that I have asked him.” 21 In time El·kaʹnah went up with all his household to offer the yearly sacrifice to Jehovah and to present his vow offering.  22 But Hanʹnah did not go up, for she said to her husband: “As soon as the boy is weaned, I will bring him; then he will appear before Jehovah and remain there from then on.”  23 El·kaʹnah her husband then said to her: “Do what you think is best. Stay at home until you wean him. May Jehovah carry out what you have said.” So the woman stayed at home and nursed her son until she weaned him. 24 As soon as she had weaned him, she took him up to Shiʹloh, along with a three-year-old bull, one eʹphah of flour, and a large jar of wine, and she came to the house of Jehovah in Shiʹloh and brought the young boy with her.  25 Then they slaughtered the bull and brought the boy to Eʹli.  26 With that she said: “Pardon me, my lord! As surely as you live, my lord, I am the woman who was standing with you in this place to pray to Jehovah.  27 It was for this boy that I prayed, and Jehovah granted my petition that I asked of him.  28 I, in turn, now lend him to Jehovah. For all his days, he is lent to Jehovah.”And he bowed down there to Jehovah.",
+    choiceA: "Eleazer",
+    choiceB: "Samuel",
+    choiceC: "Eli",
+    choiceD: "Aaron",
+    correctAnswer: "B",
+  },
+  {
+    question: "Who bravely fought and killed Goliath?",
+    clueSource: "1 Samuel 17:40-51",
+    clueSourceContent: "40 He then took his staff in his hand and chose five smooth stones from the streambed and placed them in the pouch of his shepherd’s bag, and his sling was in his hand. And he began approaching the Phi·lisʹtine. 41  The Phi·lisʹtine came closer and closer to David, and his shield-bearer was ahead of him. 42  When the Phi·lisʹtine looked and saw David, he sneered at him in contempt because he was just a ruddy and handsome boy. 43  So the Phi·lisʹtine said to David: “Am I a dog, so that you are coming against me with sticks?” With that the Phi·lisʹtine cursed David by his gods. 44  The Phi·lisʹtine said to David: “Just come to me, and I will give your flesh to the birds of the heavens and to the beasts of the field.” 45  David replied to the Phi·lisʹtine: “You are coming against me with sword and spear and javelin, but I am coming against you in the name of Jehovah of armies, the God of the battle line of Israel, whom you have taunted.  46  This very day Jehovah will surrender you into my hand, and I will strike you down and cut off your head; and on this day I will give the corpses of the camp of the Phi·lisʹtines to the birds of the heavens and to the wild beasts of the earth; and people of all the earth will know that there is a God in Israel. 47  And all those gathered here will know that it is not with the sword or the spear that Jehovah saves, for the battle belongs to Jehovah, and he will give all of you into our hand.” 48  Then the Phi·lisʹtine rose and drew steadily closer to meet David, but David ran quickly toward the battle line to meet the Phi·lisʹtine. 49  David thrust his hand into his bag and took a stone from there and slung it. He struck the Phi·lisʹtine in the forehead, and the stone sank into his forehead and he fell facedown on the ground. 50  So David prevailed over the Phi·lisʹtine with a sling and a stone; he struck down the Phi·lisʹtine and put him to death, though there was no sword in David’s hand. 51  David continued running and stood over him. Then he took hold of the Phi·lisʹtine’s sword and pulled it out of its sheath and made sure that he was dead by cutting off his head with it. When the Phi·lisʹtines saw that their mighty one had died, they fled.",
+    choiceA: "Saul",
+    choiceB: "Jonathan",
+    choiceC: "David",
+    choiceD: "Moses",
+    correctAnswer: "C",
+  },
+  {
+    question: "He was the closest friend to David.",
+    clueSource: "1 Samuel 18:1-5",
+    clueSourceContent:
+      "As soon as David had finished speaking to Saul, Jonʹa·than and David became bound together in close friendship, and Jonʹa·than began to love him as himself.  2 From that day, Saul kept David with him, and he did not allow him to return to his father’s house.  3 And Jonʹa·than and David made a covenant, because he loved him as himself.  4 Jonʹa·than took off the sleeveless coat that he wore and gave it to David, along with his gear, his sword, his bow, and his belt.  5 David began going out and was successful wherever Saul would send him. So Saul put him in charge of the fighting men, and this pleased all the people and the servants of Saul.",
+    choiceA: "Jesse",
+    choiceB: "Saul",
+    choiceC: "Abner",
+    choiceD: "Jonathan",
+    correctAnswer: "D",
+  },
+  {
+    question: "God used his angel to save whom from the lions' pit?",
+    clueSource: "Daniel 6:16-23",
+    clueSourceContent: "16  So the king gave the order, and they brought Daniel and threw him into the pit of lions. The king said to Daniel: “Your God whom you are continually serving will rescue you.” 17  Then a stone was brought and placed over the entrance of the pit, and the king sealed it with his signet ring and with the signet ring of his nobles, so that nothing could be changed with regard to Daniel. 18  The king then went to his palace. He passed the night fasting and refused any entertainment, and he could not sleep. 19  Finally at the first light of dawn, the king got up and hurried to the lions’ pit. 20  As he got near the pit, he called out to Daniel with a sad voice. The king asked Daniel: “O Daniel, servant of the living God, has your God whom you are continually serving been able to rescue you from the lions?” 21  Daniel immediately said to the king: “O king, may you live on forever. 22  My God sent his angel and shut the mouth of the lions, and they have not harmed me, for I was found innocent before him; nor have I done any wrong to you, O king.” 23  The king was overjoyed, and he commanded that Daniel be lifted up out of the pit. When Daniel was lifted up out of the pit, he was completely unharmed, because he had trusted in his God.",
+    choiceA: "Jonah",
+    choiceB: "Daniel",
+    choiceC: "Meshach",
+    choiceD: "Abednego",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "Jehovah God saved them and they walked out of the furnace unharmed for being loyal to Him.",
+    clueSource: "Daniel 3:1-30",
+    clueSourceContent:
+      "Neb·u·chad·nezʹzar the king made an image of gold that was 60 cubits high and 6 cubits wide. He set it up on the plain of Duʹra in the province of Babylon.  2 Then King Neb·u·chad·nezʹzar sent word to assemble the satraps, prefects, governors, advisers, treasurers, judges, magistrates, and all the administrators of the provinces to come to the inauguration of the image that King Neb·u·chad·nezʹzar had set up. 3 So the satraps, prefects, governors, advisers, treasurers, judges, magistrates, and all the administrators of the provinces assembled for the inauguration of the image that King Neb·u·chad·nezʹzar had set up. And they stood in front of the image that Neb·u·chad·nezʹzar had set up.  4 The herald loudly proclaimed: “You are commanded, O peoples, nations, and language groups,  5 that when you hear the sound of the horn, pipe, zither, triangular harp, stringed instrument, bagpipe, and all the other musical instruments, you must fall down and worship the image of gold that King Neb·u·chad·nezʹzar has set up.  6 Whoever does not fall down and worship will immediately be thrown into the burning fiery furnace.”  7 So when all the peoples heard the sound of the horn, pipe, zither, triangular harp, stringed instrument, and all the other musical instruments, all the peoples, nations, and language groups fell down and worshipped the image of gold that King Neb·u·chad·nezʹzar had set up. 8 Now at that time some of the Chal·deʹans came forward and accused the Jews.  9 They said to King Neb·u·chad·nezʹzar: “O king, may you live on forever.  10 You, O king, gave the command that every man who hears the sound of the horn, pipe, zither, triangular harp, stringed instrument, bagpipe, and all the other musical instruments should fall down and worship the image of gold;  11 and that whoever would not fall down and worship should be thrown into the burning fiery furnace.  12 But there are certain Jews whom you appointed to administer the province of Babylon: Shaʹdrach, Meʹshach, and A·bedʹne·go. These men have paid no regard to you, O king. They are not serving your gods, and they refuse to worship the image of gold that you have set up.” 13 Then Neb·u·chad·nezʹzar, in a furious rage, ordered Shaʹdrach, Meʹshach, and A·bedʹne·go to be brought in. So these men were brought in before the king.  14 Neb·u·chad·nezʹzar said to them: “Is it really true, Shaʹdrach, Meʹshach, and A·bedʹne·go, that you are not serving my gods and that you refuse to worship the image of gold that I have set up?  15 Now when you hear the sound of the horn, the pipe, the zither, the triangular harp, the stringed instrument, the bagpipe, and all the other musical instruments, if you are ready to fall down and worship the image that I have made, fine. But if you refuse to worship, you will immediately be thrown into the burning fiery furnace. And who is the god who can rescue you out of my hands?” 16 Shaʹdrach, Meʹshach, and A·bedʹne·go answered the king: “O Neb·u·chad·nezʹzar, we have no need to answer you in this matter.  17 If it must be, our God whom we serve is able to rescue us from the burning fiery furnace, O king, and to rescue us from your hand.  18 But even if he does not, let it be known to you, O king, that we will not serve your gods or worship the image of gold that you have set up.” 19 Then Neb·u·chad·nezʹzar became so furious with Shaʹdrach, Meʹshach, and A·bedʹne·go that the expression of his face changed toward them, and he gave orders to heat the furnace seven times hotter than usual.  20 He ordered some of the mighty men from his army to bind Shaʹdrach, Meʹshach, and A·bedʹne·go and to throw them into the burning fiery furnace. 21 So these men were tied up while still wearing their cloaks, garments, caps, and all their other clothing, and they were thrown into the burning fiery furnace.  22 Because the king’s command was so harsh and the furnace was exceptionally hot, the men who took up Shaʹdrach, Meʹshach, and A·bedʹne·go were the ones killed by the flames of the fire.  23 But these three men, Shaʹdrach, Meʹshach, and A·bedʹne·go, fell bound into the burning fiery furnace. 24 King Neb·u·chad·nezʹzar then became frightened and quickly rose up and said to his high officials: “Did we not tie up three men and throw them into the fire?” They answered the king: “Yes, O king.”  25 He said: “Look! I see four men walking about free in the midst of the fire, and they are unharmed, and the fourth one looks like a son of the gods.” 26 Neb·u·chad·nezʹzar approached the door of the burning fiery furnace and said: “Shaʹdrach, Meʹshach, and A·bedʹne·go, you servants of the Most High God, step out and come here!” Shaʹdrach, Meʹshach, and A·bedʹne·go stepped out from the midst of the fire.  27 And the satraps, prefects, governors, and the high officials of the king who were assembled there saw that the fire had had no effect on the bodies of these men; not a hair of their heads had been singed, their cloaks looked no different, and there was not even the smell of fire on them. 28 Neb·u·chad·nezʹzar then declared: “Praised be the God of Shaʹdrach, Meʹshach, and A·bedʹne·go, who sent his angel and rescued his servants. They trusted in him and went against the command of the king and were willing to die rather than serve or worship any god except their own God.  29 I am therefore issuing an order that any people, nation, or language group that says anything against the God of Shaʹdrach, Meʹshach, and A·bedʹne·go should be dismembered, and their houses should be turned into public latrines; for there is no other god who is able to rescue like this one.” 30 The king then promoted Shaʹdrach, Meʹshach, and A·bedʹne·go in the province of Babylon.",
+    choiceA: "The 3 Idiots",
+    choiceB: "The 3 Hebrews",
+    choiceC: "The 3 Wisemen",
+    choiceD: "The 3 Kings",
+    correctAnswer: "B",
+  },
+  {
+    question: "Jehovah used a huge fish to swallow and turn this man around.",
+    clueSource: "Jonah 1:17",
+    clueSourceContent: "17  Jehovah now sent a huge fish to swallow Joʹnah, so that Joʹnah came to be in the belly of the fish for three days and three nights.",
+    choiceA: "Moses",
+    choiceB: "Noah",
+    choiceC: "Jonah",
+    choiceD: "Daniel",
+    correctAnswer: "C",
   },
 ];
 
@@ -1651,7 +1640,8 @@ const meaningOfNamesI = [
   {
     question: "His name came from a root meaning “sun”.",
     clueSource: "Insight on the Scriptures Volume 2, [Samson] p. 849",
-    clueSourceContent: "(Samʹson) [from a root meaning “sun”]. One of Israel’s outstanding judges; son of Manoah, a Danite from Zorah. Prior to Samson’s birth an angel appeared to his mother and announced that she would bear a son who was to be a Nazirite from birth and “take the lead in saving Israel out of the hand of the Philistines.” (Jg 13:1-5, 24; 16:17) As future leader in the fight against the Philistines, Samson would have to come near the dead bodies of persons slain in battle. Therefore, the very nature of his commission showed that he did not come under the law prescribing that Nazirites not touch dead bodies. (Nu 6:2-9) It should also be noted that this law applied to persons who voluntarily took a vow of Naziriteship; but in Samson’s case, the requirements that applied were those specifically stated to his mother by Jehovah’s angel.",
+    clueSourceContent:
+      "(Samʹson) [from a root meaning “sun”]. One of Israel’s outstanding judges; son of Manoah, a Danite from Zorah. Prior to Samson’s birth an angel appeared to his mother and announced that she would bear a son who was to be a Nazirite from birth and “take the lead in saving Israel out of the hand of the Philistines.” (Jg 13:1-5, 24; 16:17) As future leader in the fight against the Philistines, Samson would have to come near the dead bodies of persons slain in battle. Therefore, the very nature of his commission showed that he did not come under the law prescribing that Nazirites not touch dead bodies. (Nu 6:2-9) It should also be noted that this law applied to persons who voluntarily took a vow of Naziriteship; but in Samson’s case, the requirements that applied were those specifically stated to his mother by Jehovah’s angel.",
     choiceA: "Naphtali",
     choiceB: "Samson",
     choiceC: "Othniel",
@@ -1661,7 +1651,8 @@ const meaningOfNamesI = [
   {
     question: "Her name means “Favor, Grace”.",
     clueSource: "Insight on the Scriptures Volume 1, [Hannah] p. 1031",
-    clueSourceContent: "(Hanʹnah) [Favor, Grace]. Mother of the prophet Samuel. Hannah lived with her Levite husband Elkanah and his other wife Peninnah in Ramathaim-zophim in the mountainous region of Ephraim. In spite of Hannah’s long barrenness, contrasted with Peninnah’s bearing several children, Hannah was still Elkanah’s more beloved wife. Peninnah taunted Hannah because of her barrenness, notably when Elkanah took his family for their yearly appearance at the tabernacle in Shiloh.​—1Sa 1:1-8.",
+    clueSourceContent:
+      "(Hanʹnah) [Favor, Grace]. Mother of the prophet Samuel. Hannah lived with her Levite husband Elkanah and his other wife Peninnah in Ramathaim-zophim in the mountainous region of Ephraim. In spite of Hannah’s long barrenness, contrasted with Peninnah’s bearing several children, Hannah was still Elkanah’s more beloved wife. Peninnah taunted Hannah because of her barrenness, notably when Elkanah took his family for their yearly appearance at the tabernacle in Shiloh.​—1Sa 1:1-8.",
     choiceA: "Priscilla",
     choiceB: "Esther",
     choiceC: "Rahab",
@@ -1671,7 +1662,8 @@ const meaningOfNamesI = [
   {
     question: "His name means “Cutter Down; One Who Cuts Off”.",
     clueSource: "Insight on the Scriptures Volume 1, [Gideon] p. 932",
-    clueSourceContent: "(Gidʹe·on) [Cutter Down; One Who Cuts Off]. One of Israel’s outstanding judges; the son of Joash of the family of Abi-ezer of the tribe of Manasseh. Gideon resided at Ophrah, a town evidently W of the Jordan. The tribal division to which he belonged was the most insignificant in Manasseh, and he was “the smallest in [his] father’s house.”​—Jg 6:11, 15.",
+    clueSourceContent:
+      "(Gidʹe·on) [Cutter Down; One Who Cuts Off]. One of Israel’s outstanding judges; the son of Joash of the family of Abi-ezer of the tribe of Manasseh. Gideon resided at Ophrah, a town evidently W of the Jordan. The tribal division to which he belonged was the most insignificant in Manasseh, and he was “the smallest in [his] father’s house.”​—Jg 6:11, 15.",
     choiceA: "Ehud",
     choiceB: "Samson",
     choiceC: "Gideon",
@@ -1681,7 +1673,8 @@ const meaningOfNamesI = [
   {
     question: "His name means “Son of the Right Hand”.",
     clueSource: "Insight on the Scriptures Volume 1, [Benjamin] p. 287",
-    clueSourceContent: "(Benʹja·min) [Son of the Right Hand].  Jacob’s 12th son and the full brother of Joseph. Benjamin appears to be the only son born to Jacob in the land of Canaan, the other sons being born in Paddan-aram. (Ge 29:31–30:25; 31:18) Rachel gave birth to Benjamin, her second son, while on the way from Bethel to Ephrath (Bethlehem), achieving the difficult childbirth at the cost of her life. While dying, she called this son Ben-oni, meaning “Son of My Mourning”; but her bereaved husband thereafter named him Benjamin, meaning “Son of the Right Hand.”​",
+    clueSourceContent:
+      "(Benʹja·min) [Son of the Right Hand].  Jacob’s 12th son and the full brother of Joseph. Benjamin appears to be the only son born to Jacob in the land of Canaan, the other sons being born in Paddan-aram. (Ge 29:31–30:25; 31:18) Rachel gave birth to Benjamin, her second son, while on the way from Bethel to Ephrath (Bethlehem), achieving the difficult childbirth at the cost of her life. While dying, she called this son Ben-oni, meaning “Son of My Mourning”; but her bereaved husband thereafter named him Benjamin, meaning “Son of the Right Hand.”​",
     choiceA: "Jesus",
     choiceB: "Benjamin",
     choiceC: "David",
@@ -1691,7 +1684,8 @@ const meaningOfNamesI = [
   {
     question: "His name means “Hairy”.",
     clueSource: "Insight on the Scriptures Volume 1, [Esau] p. 759",
-    clueSourceContent: "(Eʹsau) [Hairy]. The firstborn of Isaac and Rebekah; the twin brother of Jacob and the forefather of the Edomites. He was given the name Esau because of his unusual hairy appearance at birth, but he got the name Edom (meaning “Red”) from the red lentil stew for which he sold his birthright.​—Ge 25:25, 26, 30.",
+    clueSourceContent:
+      "(Eʹsau) [Hairy]. The firstborn of Isaac and Rebekah; the twin brother of Jacob and the forefather of the Edomites. He was given the name Esau because of his unusual hairy appearance at birth, but he got the name Edom (meaning “Red”) from the red lentil stew for which he sold his birthright.​—Ge 25:25, 26, 30.",
     choiceA: "Esau",
     choiceB: "Goliath",
     choiceC: "Noah",
@@ -1701,7 +1695,8 @@ const meaningOfNamesI = [
   {
     question: "His name means “Dove”.",
     clueSource: "Insight on the Scriptures Volume 2, [Jonah] p. 98",
-    clueSourceContent: "(Joʹnah) [Dove]. “Son of Amittai”; a prophet of Jehovah from Gath-hepher (2Ki 14:25), a border city in the territory of Zebulun. (Jos 19:10, 13) In fulfillment of Jehovah’s word spoken through Jonah, Israel’s King Jeroboam II succeeded in restoring “the boundary of Israel from the entering in of Hamath clear to the sea of the Arabah [the Salt Sea].” (2Ki 14:23-25; compare De 3:17.) So it appears that Jonah served as a prophet to the ten-tribe kingdom sometime during the reign of Jeroboam II. He is evidently the same person Jehovah commissioned to proclaim judgment against Nineveh (Jon 1:1, 2) and, therefore, also the writer of the book bearing his name.",
+    clueSourceContent:
+      "(Joʹnah) [Dove]. “Son of Amittai”; a prophet of Jehovah from Gath-hepher (2Ki 14:25), a border city in the territory of Zebulun. (Jos 19:10, 13) In fulfillment of Jehovah’s word spoken through Jonah, Israel’s King Jeroboam II succeeded in restoring “the boundary of Israel from the entering in of Hamath clear to the sea of the Arabah [the Salt Sea].” (2Ki 14:23-25; compare De 3:17.) So it appears that Jonah served as a prophet to the ten-tribe kingdom sometime during the reign of Jeroboam II. He is evidently the same person Jehovah commissioned to proclaim judgment against Nineveh (Jon 1:1, 2) and, therefore, also the writer of the book bearing his name.",
     choiceA: "Jude",
     choiceB: "Ezekiel",
     choiceC: "Jonah",
@@ -1711,7 +1706,8 @@ const meaningOfNamesI = [
   {
     question: "Her name means “Bee”.",
     clueSource: "Insight on the Scriptures Volume 1, [Deborah] p. 600",
-    clueSourceContent: "(Debʹo·rah) [Bee]. A prophetess in Israel; the wife of Lappidoth. (Jg 4:4) There is no evidence that Lappidoth and Barak were the same person, as some suggest. The association of Deborah and Barak was purely because of their common interest in liberating Israel from Canaanite oppression. Deborah dwelt under a palm tree located in the mountainous region of Ephraim between Ramah and Bethel; “the sons of Israel would go up to her for judgment.”​—Jg 4:5.",
+    clueSourceContent:
+      "(Debʹo·rah) [Bee]. A prophetess in Israel; the wife of Lappidoth. (Jg 4:4) There is no evidence that Lappidoth and Barak were the same person, as some suggest. The association of Deborah and Barak was purely because of their common interest in liberating Israel from Canaanite oppression. Deborah dwelt under a palm tree located in the mountainous region of Ephraim between Ramah and Bethel; “the sons of Israel would go up to her for judgment.”​—Jg 4:5.",
     choiceA: "Jezebel",
     choiceB: "Ruth",
     choiceC: "Hannah",
@@ -1721,7 +1717,8 @@ const meaningOfNamesI = [
   {
     question: "His name means “Fond of Horses; Horse-Loving”.",
     clueSource: "Insight on the Scriptures, Volume 2 p. 627-628",
-    clueSourceContent: "(Philʹip) [meaning, “Fond of Horses; Horse-Loving”]. One of the earliest disciples among the 12 apostles of Jesus Christ. In the Gospel accounts of Matthew, Mark, and Luke, Philip is mentioned by name solely in the lists of the apostles. (Mt 10:3; Mr 3:18; Lu 6:14) John’s account alone gives some detailed information about him.",
+    clueSourceContent:
+      "(Philʹip) [meaning, “Fond of Horses; Horse-Loving”]. One of the earliest disciples among the 12 apostles of Jesus Christ. In the Gospel accounts of Matthew, Mark, and Luke, Philip is mentioned by name solely in the lists of the apostles. (Mt 10:3; Mr 3:18; Lu 6:14) John’s account alone gives some detailed information about him.",
     choiceA: "Joseph",
     choiceB: "Jehu",
     choiceC: "Philip",
@@ -1731,7 +1728,8 @@ const meaningOfNamesI = [
   {
     question: "His name means “See, a Son!”",
     clueSource: "Insight on the Scriptures Volume 2, [Reuben] p. 795",
-    clueSourceContent: "(Reuʹben) [See, a Son!]. The firstborn of Jacob’s 12 sons. His mother was Jacob’s less favored wife, Leah, who named her boy Reuben, “because,” to quote her, “Jehovah has looked upon my wretchedness, in that now my husband will begin to love me.” (Ge 29:30-32; 35:23; 46:8; Ex 1:1, 2; 1Ch 2:1) As a result of Jehovah’s continued favor on his mother, Reuben and his five full brothers (Simeon, Levi, Judah, Issachar, and Zebulun) constituted half of the original tribal heads of Israel; the other six (Joseph, Benjamin, Dan, Naphtali, Gad, and Asher) were Reuben’s half brothers.​—Ge 35:23-26.",
+    clueSourceContent:
+      "(Reuʹben) [See, a Son!]. The firstborn of Jacob’s 12 sons. His mother was Jacob’s less favored wife, Leah, who named her boy Reuben, “because,” to quote her, “Jehovah has looked upon my wretchedness, in that now my husband will begin to love me.” (Ge 29:30-32; 35:23; 46:8; Ex 1:1, 2; 1Ch 2:1) As a result of Jehovah’s continued favor on his mother, Reuben and his five full brothers (Simeon, Levi, Judah, Issachar, and Zebulun) constituted half of the original tribal heads of Israel; the other six (Joseph, Benjamin, Dan, Naphtali, Gad, and Asher) were Reuben’s half brothers.​—Ge 35:23-26.",
     choiceA: "Elkanah",
     choiceB: "Reuben",
     choiceC: "Isaac",
@@ -1741,7 +1739,8 @@ const meaningOfNamesI = [
   {
     question: "His name probably means “Beloved”.",
     clueSource: "Insight on the Scriptures Volume 1, [David] p. 585",
-    clueSourceContent: "(Daʹvid) [probably, Beloved]. In the New World Translation the name occurs 1,079 times in the Hebrew Scriptures, including 75 times in superscriptions of 73 psalms, and 59 times in the Christian Greek Scriptures. Of all Hebrew Scripture personages, only Moses and Abraham are mentioned more frequently by Christian Bible writers. In the 1,138 places where the name David occurs, reference is to but one individual, the second king of Israel, or the one of whom David, at times, served as a pictorial type: “Jesus Christ, son of David.”​—Mt 1:1.",
+    clueSourceContent:
+      "(Daʹvid) [probably, Beloved]. In the New World Translation the name occurs 1,079 times in the Hebrew Scriptures, including 75 times in superscriptions of 73 psalms, and 59 times in the Christian Greek Scriptures. Of all Hebrew Scripture personages, only Moses and Abraham are mentioned more frequently by Christian Bible writers. In the 1,138 places where the name David occurs, reference is to but one individual, the second king of Israel, or the one of whom David, at times, served as a pictorial type: “Jesus Christ, son of David.”​—Mt 1:1.",
     choiceA: "David",
     choiceB: "Jesus",
     choiceC: "Jonathan",
@@ -1751,7 +1750,8 @@ const meaningOfNamesI = [
   {
     question: "His name means “Little; Small”.",
     clueSource: "Insight on the Scriptures Volume 2, [Paul] p. 585",
-    clueSourceContent: "[Little; Small]. An Israelite of the tribe of Benjamin and an apostle of Jesus Christ. (Eph 1:1; Php 3:5) Though perhaps having both the Hebrew name Saul and the Roman name Paul from childhood (Ac 9:17; 2Pe 3:15), this apostle may have chosen to go by his Roman name in view of his commission to declare the good news to the non-Jews.​—Ac 9:15; Ga 2:7, 8.",
+    clueSourceContent:
+      "[Little; Small]. An Israelite of the tribe of Benjamin and an apostle of Jesus Christ. (Eph 1:1; Php 3:5) Though perhaps having both the Hebrew name Saul and the Roman name Paul from childhood (Ac 9:17; 2Pe 3:15), this apostle may have chosen to go by his Roman name in view of his commission to declare the good news to the non-Jews.​—Ac 9:15; Ga 2:7, 8.",
     choiceA: "John",
     choiceB: "Mark",
     choiceC: "Paul",
@@ -1761,7 +1761,8 @@ const meaningOfNamesI = [
   {
     question: "His name means “One Seizing the Heel; Supplanter”.",
     clueSource: "Insight on the Scriptures Volume 1, [Jacob] p. 1242",
-    clueSourceContent: "(Jaʹcob) [One Seizing the Heel; Supplanter]. Son of Isaac and Rebekah, and younger twin brother of Esau. Jacob’s parents had been married for 20 years before the birth of these twins, their only children, in 1858 B.C.E. Isaac at the time was 60 years old. So, as in the case of Abraham, Isaac’s prayers for offspring were answered only after his patience and faith in God’s promises had been fully tested.​—Ge 25:20, 21, 26; Ro 9:7-10.",
+    clueSourceContent:
+      "(Jaʹcob) [One Seizing the Heel; Supplanter]. Son of Isaac and Rebekah, and younger twin brother of Esau. Jacob’s parents had been married for 20 years before the birth of these twins, their only children, in 1858 B.C.E. Isaac at the time was 60 years old. So, as in the case of Abraham, Isaac’s prayers for offspring were answered only after his patience and faith in God’s promises had been fully tested.​—Ge 25:20, 21, 26; Ro 9:7-10.",
     choiceA: "Isaac",
     choiceB: "Jacob",
     choiceC: "Benjamin",
@@ -1771,7 +1772,8 @@ const meaningOfNamesI = [
   {
     question: "His name probably means “Rest; Consolation”.",
     clueSource: "Insight on the Scriptures Volume 2, [Noah] p. 506",
-    clueSourceContent: "(Noʹah). [Heb., Noʹach, probably, Rest; Consolation]. Son of Lamech and tenth in line from Adam through Seth; born in 2970 B.C.E., 126 years after Adam’s death. When his father Lamech named Noah, he said: “This one will bring us comfort from our work and from the pain of our hands resulting from the ground which Jehovah has cursed.”​—Ge 5:28-31.",
+    clueSourceContent:
+      "(Noʹah). [Heb., Noʹach, probably, Rest; Consolation]. Son of Lamech and tenth in line from Adam through Seth; born in 2970 B.C.E., 126 years after Adam’s death. When his father Lamech named Noah, he said: “This one will bring us comfort from our work and from the pain of our hands resulting from the ground which Jehovah has cursed.”​—Ge 5:28-31.",
     choiceA: "Nabal",
     choiceB: "Jonah",
     choiceC: "Noah",
@@ -1779,9 +1781,11 @@ const meaningOfNamesI = [
     correctAnswer: "C",
   },
   {
-    question: "Her name means “Princess”; her original name possibly means “Contentious”.",
+    question:
+      "Her name means “Princess”; her original name possibly means “Contentious”.",
     clueSource: "Insight on the Scriptures Volume 2, [Sarah] p. 862",
-    clueSourceContent: "(Sarʹah) [Princess], Sarai (Sarʹai) [possibly, Contentious]. Half sister and wife of Abraham and mother of Isaac. (Ge 11:29; 20:12; Isa 51:2) Her original name was Sarai. (Ge 17:15) She was ten years younger than Abraham (Ge 17:17) and married him while they were living in the Chaldean city of Ur. (Ge 11:28, 29) She continued barren until her reproductive powers were miraculously revived after she had already stopped menstruating.​—Ge 18:11; Ro 4:19; Heb 11:11.",
+    clueSourceContent:
+      "(Sarʹah) [Princess], Sarai (Sarʹai) [possibly, Contentious]. Half sister and wife of Abraham and mother of Isaac. (Ge 11:29; 20:12; Isa 51:2) Her original name was Sarai. (Ge 17:15) She was ten years younger than Abraham (Ge 17:17) and married him while they were living in the Chaldean city of Ur. (Ge 11:28, 29) She continued barren until her reproductive powers were miraculously revived after she had already stopped menstruating.​—Ge 18:11; Ro 4:19; Heb 11:11.",
     choiceA: "Esther",
     choiceB: "Sarah",
     choiceC: "Abigail",
@@ -1789,9 +1793,11 @@ const meaningOfNamesI = [
     correctAnswer: "B",
   },
   {
-    question: "His name means “Father of a Crowd (Multitude)”; his original name means “Father is High (Exalted)”.",
+    question:
+      "His name means “Father of a Crowd (Multitude)”; his original name means “Father is High (Exalted)”.",
     clueSource: "Insight on the Scriptures Volume 1, [Abraham] p. 28",
-    clueSourceContent: "(Aʹbra·ham) [Father of a Crowd (Multitude)]. The name given by Jehovah to Abram (meaning “Father Is High (Exalted)”) when he was 99 years old, and when God was reaffirming His promise that Abraham’s offspring would become many.​—Ge 17:5.",
+    clueSourceContent:
+      "(Aʹbra·ham) [Father of a Crowd (Multitude)]. The name given by Jehovah to Abram (meaning “Father Is High (Exalted)”) when he was 99 years old, and when God was reaffirming His promise that Abraham’s offspring would become many.​—Ge 17:5.",
     choiceA: "Adam",
     choiceB: "Abraham",
     choiceC: "Noah",
@@ -1801,7 +1807,8 @@ const meaningOfNamesI = [
   {
     question: "His name means “Eagle”.",
     clueSource: "Insight on the Scriptures Volume 1, [Aquila] p. 138",
-    clueSourceContent: "(Aqʹui·la) [from Lat., meaning “Eagle”]. A natural Jew and native of Pontus in northern Asia Minor. Priscilla, his wife and loyal companion, is always mentioned in association with him. Banished from Rome by Emperor Claudius’ decree against Jews sometime in the year 49 or early 50 C.E., they took up residence in Corinth. (Ac 18:1, 2) When Paul arrived there in the autumn of 50 C.E., Aquila and Priscilla kindly received him into their home. A very close friendship developed among them as they worked together at their common trade of tentmaking and as Aquila and Priscilla doubtless aided Paul in building up the new congregation there.​—Ac 18:3.",
+    clueSourceContent:
+      "(Aqʹui·la) [from Lat., meaning “Eagle”]. A natural Jew and native of Pontus in northern Asia Minor. Priscilla, his wife and loyal companion, is always mentioned in association with him. Banished from Rome by Emperor Claudius’ decree against Jews sometime in the year 49 or early 50 C.E., they took up residence in Corinth. (Ac 18:1, 2) When Paul arrived there in the autumn of 50 C.E., Aquila and Priscilla kindly received him into their home. A very close friendship developed among them as they worked together at their common trade of tentmaking and as Aquila and Priscilla doubtless aided Paul in building up the new congregation there.​—Ac 18:3.",
     choiceA: "Noah",
     choiceB: "Jonah",
     choiceC: "Elijah",
@@ -1811,7 +1818,8 @@ const meaningOfNamesI = [
   {
     question: "Her name possibly means “Cow”.",
     clueSource: "Her name possibly means “Cow”.",
-    clueSourceContent: "(Re·bekʹah) [possibly, Cow]. Daughter of Bethuel the son of Nahor, and therefore grandniece of Abraham. Her brother’s name was Laban.​—Ge 22:20-23.",
+    clueSourceContent:
+      "(Re·bekʹah) [possibly, Cow]. Daughter of Bethuel the son of Nahor, and therefore grandniece of Abraham. Her brother’s name was Laban.​—Ge 22:20-23.",
     choiceA: "Mary",
     choiceB: "Rebekah",
     choiceC: "Rachel",
@@ -1821,7 +1829,8 @@ const meaningOfNamesI = [
   {
     question: "His name means “Something Produced”.",
     clueSource: "Insight on the Scriptures Volume 1, [Cain] p. 386",
-    clueSourceContent: "[Something Produced]. The first child born on earth to the original human pair, Adam and Eve. Following the birth of Cain, Eve said: “I have produced a man with the aid of Jehovah.” (Ge 4:1) Did she have in mind that she might be the foretold woman who would produce the seed by means of which deliverance would come? (Ge 3:15) If so, she was greatly mistaken. However, she could validly say that Cain was produced “with the aid of Jehovah” because God had not taken away the reproductive powers of sinful Adam and Eve and because, when passing judgment on her, God had said that she would “bring forth children,” though it would be with birth pangs.​—Ge 3:16.",
+    clueSourceContent:
+      "[Something Produced]. The first child born on earth to the original human pair, Adam and Eve. Following the birth of Cain, Eve said: “I have produced a man with the aid of Jehovah.” (Ge 4:1) Did she have in mind that she might be the foretold woman who would produce the seed by means of which deliverance would come? (Ge 3:15) If so, she was greatly mistaken. However, she could validly say that Cain was produced “with the aid of Jehovah” because God had not taken away the reproductive powers of sinful Adam and Eve and because, when passing judgment on her, God had said that she would “bring forth children,” though it would be with birth pangs.​—Ge 3:16.",
     choiceA: "Cain",
     choiceB: "Simeon",
     choiceC: "Zebulun",
@@ -1831,7 +1840,8 @@ const meaningOfNamesI = [
   {
     question: "His name means “A Piece of Rock”.",
     clueSource: "Insight on the Scriptures Volume 2, [Peter] p. 618",
-    clueSourceContent: "(Peʹter) [A Piece of Rock]. This apostle of Jesus Christ is named in five different ways in the Scriptures: by the Hebrew “Symeon,” the Greek “Simon” (from a Heb. root meaning “hear; listen”), “Peter” (a Gr. name he alone bears in the Scriptures), its Semitic equivalent “Cephas” (perhaps related to the Heb. ke·phimʹ [rocks] used at Job 30:6; Jer 4:29), and the combination “Simon Peter.”​—Ac 15:14; Mt 10:2; 16:16; Joh 1:42.",
+    clueSourceContent:
+      "(Peʹter) [A Piece of Rock]. This apostle of Jesus Christ is named in five different ways in the Scriptures: by the Hebrew “Symeon,” the Greek “Simon” (from a Heb. root meaning “hear; listen”), “Peter” (a Gr. name he alone bears in the Scriptures), its Semitic equivalent “Cephas” (perhaps related to the Heb. ke·phimʹ [rocks] used at Job 30:6; Jer 4:29), and the combination “Simon Peter.”​—Ac 15:14; Mt 10:2; 16:16; Joh 1:42.",
     choiceA: "Samson",
     choiceB: "David",
     choiceC: "Lazarus",
@@ -1839,9 +1849,11 @@ const meaningOfNamesI = [
     correctAnswer: "D",
   },
   {
-    question: "His name means “Earthling Man; Mankind; Humankind”; from a root meaning “red”.",
+    question:
+      "His name means “Earthling Man; Mankind; Humankind”; from a root meaning “red”.",
     clueSource: "Insight on the Scriptures Volume 1, [Adam] p. 44",
-    clueSourceContent: "(Adʹam) [Earthling Man; Mankind; Humankind; from a root meaning “red”]. The Hebrew word for this proper name occurs over 560 times in the Scriptures, most often as a generic term for individuals and mankind in general, such as “man,” “mankind,” or “human.” God said: “Let us make man in our image.” (Ge 1:26) What a historic pronouncement! And what a singular position in history Adam, the “son of God,” holds​—the first human creature! (Lu 3:38) Adam was the crowning glory of Jehovah’s earthly creative works, not only because of the timing near the close of six creative epochs but, more importantly, because “in God’s image he created him.” (Ge 1:27) This is why the perfect man Adam, and his degenerate offspring to a much lesser degree, possessed mental powers and abilities far superior to all other earthly creatures.",
+    clueSourceContent:
+      "(Adʹam) [Earthling Man; Mankind; Humankind; from a root meaning “red”]. The Hebrew word for this proper name occurs over 560 times in the Scriptures, most often as a generic term for individuals and mankind in general, such as “man,” “mankind,” or “human.” God said: “Let us make man in our image.” (Ge 1:26) What a historic pronouncement! And what a singular position in history Adam, the “son of God,” holds​—the first human creature! (Lu 3:38) Adam was the crowning glory of Jehovah’s earthly creative works, not only because of the timing near the close of six creative epochs but, more importantly, because “in God’s image he created him.” (Ge 1:27) This is why the perfect man Adam, and his degenerate offspring to a much lesser degree, possessed mental powers and abilities far superior to all other earthly creatures.",
     choiceA: "Esau",
     choiceB: "Adam",
     choiceC: "Shem",

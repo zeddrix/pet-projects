@@ -133,7 +133,7 @@ const renderQuestion = () => {
   const choiceB = document.getElementById("B");
   const choiceC = document.getElementById("C");
   const choiceD = document.getElementById("D");
-  let q = men[currentQuestion];
+  let q = mainCharactersMen1[currentQuestion];
 
   question.innerHTML = "<p>" + q.question + "</p>";
   clueSource.innerHTML = "<h2>" + q.clueSource + "</h2>";
@@ -144,7 +144,7 @@ const renderQuestion = () => {
   choiceD.innerHTML = q.choiceD;
 };
 
-const lastQuestion = men.length - 1;
+const lastQuestion = mainCharactersMen1.length - 1;
 const renderProgress = () => {
   const progress = document.getElementById("progress");
   for (let qIndex = 0; qIndex <= lastQuestion; qIndex++) {
@@ -179,7 +179,7 @@ const renderCounter = () => {
 };
 
 const checkAnswer = (answer) => {
-  if (answer == men[currentQuestion].correctAnswer) {
+  if (answer == mainCharactersMen1[currentQuestion].correctAnswer) {
     score++;
     answerIsCorrect();
     // change progress color to green
@@ -250,7 +250,7 @@ const finalScoreRender = () => {
   rulesBlock.style.display = "none";
   aboutBlock.style.display = "none";
 
-  const scorePercent = Math.round((100 * score) / men.length);
+  const scorePercent = Math.round((100 * score) / mainCharactersMen1.length);
   let img =
     scorePercent == 100
       ? "img/three-stars.png"
