@@ -705,6 +705,242 @@ const mainMenCharacters2 = [
   },
 ];
 
+const mainMenCharacters3 = [
+  {
+    question:
+      "Jehovah set up a sign for him “in order that no one finding him would strike him.”",
+    clueSource: "Genesis 4:15",
+    clueSourceContent:
+      "15 So Jehovah said to him: “For that reason, anyone who kills Cain will suffer vengeance seven times.” So Jehovah set up a sign for Cain in order that no one finding him would strike him.",
+    choiceA: "Abel",
+    choiceB: "Cain",
+    choiceC: "Enoch",
+    choiceD: "Noah",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "Jehovah, for the first time, allowed this man to have “every moving animal that is alive” as food.",
+    clueSource: "Genesis 9:3",
+    clueSourceContent:
+      "3 Every moving animal that is alive may serve as food for you. Just as I gave you the green vegetation, I give them all to you.",
+    choiceA: "Moses",
+    choiceB: "Noah",
+    choiceC: "Aaron",
+    choiceD: "Eleazer",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "Who listened carefully to the entire debate between Job and his three would-be comforters?",
+    clueSource: "Insight on the Scriptures Volume 1, [Elihu] p. 710",
+    clueSourceContent:
+      "(E·liʹhu) [My God Is He]. “The son of Barachel the Buzite of the family of Ram.” As a descendant of Buz, Elihu was evidently a distant relative of Abraham. (Job 32:1, 2, 6; Ge 22:20, 21) Likely Elihu listened carefully to the entire debate between Job and his three would-be comforters. But, out of due respect for their age, he remained silent until all had finished speaking. Though modern critics have labeled Elihu as loquacious, saying that his speeches were long-winded, the statements of Elihu were not those of an impertinent young man. He fully appreciated that wisdom was not the exclusive possession of those advanced in years, but that God’s spirit made one truly wise. Elihu, therefore, leaned heavily on God’s spirit. He was thus able to discern correctly that Job had failed to appreciate that the vindication of Jehovah God is far more important than the vindication of any man and that Job’s three friends had actually pronounced God wicked.​—Job 32:2-9, 18.",
+    choiceA: "Eliphaz",
+    choiceB: "Bildad",
+    choiceC: "Elihu",
+    choiceD: "Zophar",
+    correctAnswer: "C",
+  },
+  {
+    question: "Who formed a golden calf while Moses was on Mount Sinai?",
+    clueSource: "Exodus 32:1-4",
+    clueSourceContent:
+      "Meanwhile, the people saw that Moses was taking a long time coming down from the mountain. So the people gathered around Aaron and said to him: “Get up, make for us a god who will go ahead of us, because we do not know what has happened to this Moses, the man who led us up out of the land of Egypt.” 2 At this Aaron said to them: “Take the gold earringsc from the ears of your wives, your sons, and your daughters and bring them to me.” 3 So all the people began taking off the gold earrings that were in their ears and bringing them to Aaron. 4 Then he took the gold from them, and he formed it with an engraving tool and made it into a statue of a calf. They began to say: “This is your God, O Israel, who led you up out of the land of Egypt.”",
+    choiceA: "Jeroboam",
+    choiceB: "Aaron",
+    choiceC: "Korah",
+    choiceD: "Abiram",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "A Jew who staunchly refused to bow low or prostrate himself before the Amalekite Haman.",
+    clueSource: "Esther 3:2",
+    clueSourceContent:
+      "2 And all the king’s servants who were in the king’s gate would bow low and prostrate themselves to Haʹman, for this is what the king had commanded respecting him. But Morʹde·cai refused to bow low or prostrate himself.",
+    choiceA: "Meshach",
+    choiceB: "Shadrach",
+    choiceC: "Mordecai",
+    choiceD: "Abednego",
+    correctAnswer: "C",
+  },
+  {
+    question: "He was a son of Naomi who married the Moabitess Orpah.",
+    clueSource: "Insight on the Scriptures Volume 1, [Chilion] p. 436",
+    clueSourceContent:
+      "(Chilʹi·on) [One Failing; One Coming to an End]. A son of Naomi and Elimelech and the brother of Mahlon the husband of Ruth. The family had moved from Bethlehem, in Judah, to Moab to escape a famine that occurred in the time of the Judges. After the death of his father, Chilion married the Moabitess Orpah. Both he and his brother died childless in Moab.​—Ru 1:1-5; 4:9, 10.",
+    choiceA: "Elkanah",
+    choiceB: "Elimelech",
+    choiceC: "Mahlon",
+    choiceD: "Chilion",
+    correctAnswer: "D",
+  },
+  {
+    question: "What was the name of Naomi's Ephrathite husband?",
+    clueSource: "Ruth 1:1-3",
+    clueSourceContent:
+      "Now in the days when the judges administered justice, a famine occurred in the land; and a man went from Bethʹle·hem in Judah to reside as a foreigner in the fields of Moʹab, he along with his wife and his two sons.  2 The man’s name was E·limʹe·lech, his wife’s name was Na·oʹmi, and the names of his two sons were Mahʹlon and Chilʹi·on. They were Ephʹrath·ites from Bethʹle·hem in Judah. And they came to the fields of Moʹab and remained there. 3 After some time E·limʹe·lech, Na·oʹmi’s husband, died, and she was left with her two sons.",
+    choiceA: "Elimelech",
+    choiceB: "Elkanah",
+    choiceC: "Boaz",
+    choiceD: "Elijah",
+    correctAnswer: "A",
+  },
+  {
+    question: "What was the name of Ruth's second husband?",
+    clueSource: "Ruth 4:13",
+    clueSourceContent:
+      "13 So Boʹaz took Ruth and she became his wife. He had relations with her, and Jehovah let her conceive and she gave birth to a son.",
+    choiceA: "Mahlon",
+    choiceB: "Boaz",
+    choiceC: "Elimelech",
+    choiceD: "Chilion",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "He had two wives⁠—Hannah and Peninnah⁠. He was the father of Samuel the prophet.",
+    clueSource: "1 Samuel 1:1-3",
+    clueSourceContent:
+      "Now there was a man of Ra·math·aʹim-zoʹphim of the mountainous region of Eʹphra·im whose name was El·kaʹnah, the son of Je·roʹham, the son of E·liʹhu, the son of Toʹhu, the son of Zuph, an Eʹphra·im·ite.  2 He had two wives; one was named Hanʹnah, and the other was named Pe·ninʹnah. Pe·ninʹnah had children, but Hanʹnah had no children.  3 That man went up from his city year after year to worship and to sacrifice to Jehovah of armies in Shiʹloh. That is where the two sons of Eʹli, Hophʹni and Phinʹe·has, served as priests to Jehovah.",
+    choiceA: "Eliezer",
+    choiceB: "Elimelech",
+    choiceC: "Elkanah",
+    choiceD: "Elisha",
+    correctAnswer: "C",
+  },
+  {
+    question:
+      "King David murdered this soldier of his to hide the immorality he has committed with his wife.",
+    clueSource: "2 Samuel 11:3-15",
+    clueSourceContent:
+      "3 David sent someone to inquire about the woman, and he reported: “Is this not Bath-sheʹba the daughter of E·liʹam and the wife of U·riʹah the Hitʹtite?”  4 Then David sent messengers to bring her. So she came in to him, and he lay down with her. (This happened while she was purifying herself from her uncleanness.) Afterward, she returned to her house. 5 The woman became pregnant, and she sent a message to David: “I am pregnant.”  6 At this David sent a message to Joʹab: “Send to me U·riʹah the Hitʹtite.” So Joʹab sent U·riʹah to David.  7 When U·riʹah came to him, David asked him how Joʹab was getting along, how the troops were getting along, and how the war was going.  8 David then said to U·riʹah: “Go down to your house and relax.” When U·riʹah left the king’s house, the king’s courtesy gift was sent after him.  9 However, U·riʹah slept at the entrance of the king’s house with all the other servants of his lord, and he did not go down to his own house.  10 So David was told: “U·riʹah did not go down to his own house.” At that David said to U·riʹah: “Have you not just returned from a journey? Why did you not go down to your own house?”  11 U·riʹah replied to David: “The Ark and Israel and Judah are dwelling in temporary shelters, and my lord Joʹab and the servants of my lord are camping in the open field. So should I go into my own house to eat and drink and lie down with my wife? As surely as you live and are alive, I will not do this thing!” 12 Then David said to U·riʹah: “Stay here also today, and tomorrow I will send you away.” So U·riʹah stayed in Jerusalem on that day and the following day.  13 David then sent for him to come and eat and drink with him, and he got him drunk. But in the evening, he went out to sleep on his bed with the servants of his lord, and he did not go down to his house.  14 In the morning David wrote a letter to Joʹab and sent it by the hand of U·riʹah.  15 He wrote in the letter: “Put U·riʹah in the front lines where the fighting is fiercest. Then retreat from behind him, so that he will be struck down and die.”",
+    choiceA: "Uriel",
+    choiceB: "Urijah",
+    choiceC: "Urim",
+    choiceD: "Uriah",
+    correctAnswer: "D",
+  },
+  {
+    question:
+      "He is one of David’s sons who was highly praised for his handsome appearance in all Israel.",
+    clueSource: "2 Samuel 14:25",
+    clueSourceContent:
+      "25 Now in all Israel, no man was as highly praised for his handsome appearance as Abʹsa·lom. From the sole of his foot to the crown of his head, there was no flaw in him.",
+    choiceA: "Absalom",
+    choiceB: "Solomon",
+    choiceC: "Adonijah",
+    choiceD: "Amnon",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who shouted curses and threw stones and a lot of dust at David and at his men on Bahurim?",
+    clueSource: "2 Samuel 16:5-13",
+    clueSourceContent:
+      "5 When King David reached Ba·huʹrim, a man of the family of Saul’s house named Shimʹe·i, the son of Geʹra, came out shouting curses as he approached.  6 He was throwing stones at David and at all the servants of King David, as well as at all the people and the mighty men on his right and on his left.  7 Shimʹe·i said as he cursed: “Get out, get out, you bloodguilty man! You worthless man!  8 Jehovah has brought back on you all the bloodguilt for the house of Saul, in whose place you have ruled as king, but Jehovah gives the kingship into the hand of Abʹsa·lom your son. Now calamity has overtaken you because you are a bloodguilty man!” 9 Then A·bishʹai the son of Ze·ruʹiah said to the king: “Why should this dead dog curse my lord the king? Let me go over, please, and take off his head.”  10 But the king said: “What do I have to do with you, you sons of Ze·ruʹiah? Let him curse me, for Jehovah has said to him, ‘Curse David!’ So who should say, ‘Why are you doing this?’”  11 David then said to A·bishʹai and all his servants: “Here my own son, who came from my own body, is seeking my life, and how much more now a Benʹja·min·ite! Leave him alone so that he may curse me, for Jehovah told him to!  12 Perhaps Jehovah will see my affliction, and Jehovah will restore goodness to me instead of the curses shouted at me this day.”  13 With that David and his men kept going down the road while Shimʹe·i was walking alongside the mountain abreast of him, shouting curses and throwing stones and a lot of dust.",
+    choiceA: "Shillem",
+    choiceB: "Shimeon",
+    choiceC: "Shimei",
+    choiceD: "Shiphtan",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "He was a Jezreelite vineyard owner and victim of a wicked plot by Queen Jezebel.",
+    clueSource: "1 Kings 21:5-10",
+    clueSourceContent:
+      "5 His wife Jezʹe·bel came in to him and asked him: “Why are you so sad that you refuse to eat?”  6 He replied to her: “Because I said to Naʹboth the Jezʹre·el·ite, ‘Give me your vineyard for money. Or if you prefer, let me give you another vineyard to replace it.’ But he said, ‘I will not give you my vineyard.’”  7 His wife Jezʹe·bel said to him: “Are you not the one ruling as king over Israel? Get up, eat something, and let your heart be cheerful. I will give you the vineyard of Naʹboth the Jezʹre·el·ite.”  8 So she wrote letters in Aʹhab’s name and sealed them with his seal and sent the letters to the elders and the nobles who lived in Naʹboth’s city.  9 She wrote in the letters: “Proclaim a fast, and have Naʹboth sit at the head of the people.  10 And have two good-for-nothing men sit in front of him and testify against him, saying, ‘You have cursed God and the king!’ Then bring him out and stone him to death.”",
+    choiceA: "Jehu",
+    choiceB: "Stephen",
+    choiceC: "Naboth",
+    choiceD: "Ahab",
+    correctAnswer: "C",
+  },
+  {
+    question:
+      "Who was an Aaronic priest, a scholar, an expert copyist and teacher of the Law, skilled in both Hebrew and Aramaic?",
+    clueSource: "Insight on the Scriptures Volume 1, [Ezra] p. 796",
+    clueSourceContent:
+      "(Ezʹra) [Help]. An Aaronic priest, a descendant of Eleazar and Phinehas, a scholar, an expert copyist and teacher of the Law, skilled in both Hebrew and Aramaic. Ezra had genuine zeal for pure worship and “prepared his heart to consult the law of Jehovah and to do it and to teach in Israel regulation and justice.” (Ezr 7:1-6, 10) In addition to writing the book bearing his name, Ezra apparently wrote the two books of Chronicles, and Jewish tradition credits him with beginning the compiling and cataloging of the books of the Hebrew Scriptures. Moreover, Ezra was an outstanding researcher, citing about 20 sources of information in the two books of Chronicles. Since many of the Jews were scattered far and wide in Ezra’s day, it necessitated the making of many copies of the Hebrew Scriptures, and likely Ezra pioneered this work.",
+    choiceA: "Eleazer",
+    choiceB: "Phineas",
+    choiceC: "Eli",
+    choiceD: "Ezra",
+    correctAnswer: "D",
+  },
+  {
+    question:
+      "He is a governor of the Jews who helped rebuild the city of Jerusalem and its walls.",
+    clueSource: "Insight on the Scriptures Volume 2, [Nehemiah] p. 486",
+    clueSourceContent:
+      "Jerusalem’s Wall Rebuilt. After being in Jerusalem for three days, Nehemiah, unknown to anyone except a few men who were with him, made a nighttime inspection of the city. While the rest were on foot, Nehemiah rode an animal, probably a horse or an ass. The ruins became so extensive as to obstruct passage, but Nehemiah was able to finish his inspection.​—Ne 2:11-16. Following the completion of his survey, Nehemiah revealed his plan to the Jews, drawing to their attention Jehovah’s hand in the matter. Encouraged thereby, they responded: “Let us get up, and we must build.” Despite the derisive words of Sanballat the Horonite, Tobiah the Ammonite, and Geshem the Arabian, repair work began on about the fourth of Ab (July-August).​—Ne 2:17-20; compare Ne 6:15.",
+    choiceA: "Nehemiah",
+    choiceB: "Artaxerxes",
+    choiceC: "Pilate",
+    choiceD: "Ezra",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who went to Egypt with his wife because Herod wants to kill their son?",
+    clueSource: "Matthew 2:13, 14",
+    clueSourceContent:
+      "13 After they had departed, look! Jehovah’s angel appeared to Joseph in a dream, saying: “Get up, take the young child and his mother and flee to Egypt, and stay there until I give you word, for Herod is about to search for the young child to kill him.” 14 So Joseph got up and by night took along the young child and the child’s mother and went into Egypt.",
+    choiceA: "Abraham",
+    choiceB: "Joseph",
+    choiceC: "Isaac",
+    choiceD: "Jacob",
+    correctAnswer: "B",
+  },
+  {
+    question: "He is a friend of Jesus who was raised from the dead.",
+    clueSource: "John 11:43",
+    clueSourceContent:
+      "43 When he had said these things, he cried out with a loud voice: “Lazʹa·rus, come out!” 44  The man who had been dead came out with his feet and hands bound with wrappings, and his face was wrapped with a cloth. Jesus said to them: “Free him and let him go.”",
+    choiceA: "Elijah",
+    choiceB: "Moses",
+    choiceC: "Lazarus",
+    choiceD: "John",
+    correctAnswer: "C",
+  },
+  {
+    question:
+      "Who was stoned to death as Saul was standing by and approving those stoning him?",
+    clueSource: "Acts 7:58, 59",
+    clueSourceContent:
+      "58 After throwing him outside the city, they began stoning him. The witnesses laid down their outer garments at the feet of a young man called Saul. 59 As they were stoning Stephen, he made this appeal: “Lord Jesus, receive my spirit.”",
+    choiceA: "Naboth",
+    choiceB: "Paul",
+    choiceC: "Achan",
+    choiceD: "Stephen",
+    correctAnswer: "D",
+  },
+  {
+    question: "He was Eunice's son and Lois' grandson.",
+    clueSource: "2 Timothy 1:5",
+    clueSourceContent:
+      "5 For I recall your unhypocritical faith, which dwelled first in your grandmother Loʹis and your mother Euʹnice, but which I am confident is also in you.",
+    choiceA: "Timothy",
+    choiceB: "Silas",
+    choiceC: "Paul",
+    choiceD: "Philip",
+    correctAnswer: "A",
+  },
+  {
+    question: "Who has known the holy writings from infancy?",
+    clueSource: "2 Timothy 3:14, 15",
+    clueSourceContent:
+      "14 You, however, continue in the things that you learned and were persuaded to believe, knowing from whom you learned them  15 and that from infancy you have known the holy writings, which are able to make you wise for salvation through faith in Christ Jesus.",
+    choiceA: "Silas",
+    choiceB: "Timothy",
+    choiceC: "Paul",
+    choiceD: "Philip",
+    correctAnswer: "B",
+  },
+];
+
 const kings = [
   {
     question:
