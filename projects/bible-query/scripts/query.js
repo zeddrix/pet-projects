@@ -467,6 +467,244 @@ const mainWomenCharacters1 = [
   },
 ];
 
+const mainMenCharacters2 = [
+  {
+    question: "Who was the person to have ever lived the longest on earth?",
+    clueSource: "Genesis 5:27",
+    clueSourceContent:
+      "27 So all the days of Me·thuʹse·lah amounted to 969 years, and then he died.",
+    choiceA: "Methuselah",
+    choiceB: "Melchizedek",
+    choiceC: "Adam",
+    choiceD: "Mahalalel",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who, by faith, “was transferred so as not to see death, and he was nowhere to be found because God had transferred him”?",
+    clueSource: "Hebrews 11:5",
+    clueSourceContent:
+      "5 By faith Eʹnoch was transferred so as not to see death, and he was nowhere to be found because God had transferred him; for before he was transferred he received the witness that he had pleased God well.",
+    choiceA: "Noah",
+    choiceB: "Enoch",
+    choiceC: "Lazarus",
+    choiceD: "Stephen",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "He was considered as the first king after the Flood. He also “became a mighty hunter in opposition to Jehovah.”",
+    clueSource: "Genesis 10:9",
+    clueSourceContent:
+      "8 Cush became father to Nimʹrod. He was the first to become a mighty one on the earth. 9  He became a mighty hunter in opposition to Jehovah. That is why there is a saying: “Just like Nimʹrod, a mighty hunter in opposition to Jehovah.”",
+    choiceA: "Melchizedek",
+    choiceB: "Esau",
+    choiceC: "Nimrod",
+    choiceD: "Cain",
+    correctAnswer: "C",
+  },
+  {
+    question:
+      "Who was the firstborn of Jacob, whose mother was Jacob’s less favored wife, Leah?",
+    clueSource: "Genesis 35:23",
+    clueSourceContent:
+      "The sons by Leʹah were Jacob’s firstborn Reuʹben, then Simʹe·on, Leʹvi, Judah, Isʹsa·char, and Zebʹu·lun.",
+    choiceA: "Judah",
+    choiceB: "Simeon",
+    choiceC: "Reuben",
+    choiceD: "Naphtali",
+    correctAnswer: "C",
+  },
+  {
+    question:
+      "Without Jacob's consent, Levi and this brother of his avenged the honor of their younger sister Dinah by slaughtering the Shechemites.",
+    clueSource: "Genesis 34:25-31",
+    clueSourceContent:
+      "25 However, on the third day, when they were still in pain, two sons of Jacob, Simʹe·on and Leʹvi, Diʹnah’s brothers, each took his sword and went into the unsuspecting city and killed every male.  26 They killed Haʹmor and his son Sheʹchem with the sword and then took Diʹnah from Sheʹchem’s house and left.  27 Jacob’s other sons came upon the slain men and plundered the city because they had defiled their sister.  28 They took their flocks, their herds, their donkeys, and whatever was in the city and in the field.  29 They also took all their possessions, captured all their little children and their wives, and plundered everything in the houses. 30 At this Jacob said to Simʹe·on and to Leʹvi: “You have brought great trouble on me in making me a stench to the inhabitants of the land, to the Caʹnaan·ites and the Perʹiz·zites. I am few in number, and they will certainly gather together to attack me and I will be annihilated, I and my house.”  31 But they said: “Should anyone treat our sister like a prostitute?”",
+    choiceA: "Naphtali",
+    choiceB: "Issachar",
+    choiceC: "Levi",
+    choiceD: "Simeon",
+    correctAnswer: "D",
+  },
+  {
+    question:
+      "Who was Jacob’s third son by his wife Leah? His tribe did not receive an allotment of land in the Promised Land.",
+    clueSource: "nwt Glossary [Levi; Levite]",
+    clueSourceContent:
+      "Jacob’s third son by his wife Leah; also the tribe named after him. His three sons became the founders of the three principal divisions of the Levites. At times, the term “Levites” applies to the whole tribe, but usually it excludes the priestly family of Aaron. The tribe of Levi did not receive an allotment of land in the Promised Land but was given 48 cities within the boundaries of land apportioned to the other tribes.​—De 10:8; 1Ch 6:1; Heb 7:11.",
+    choiceA: "Levi",
+    choiceB: "Dan",
+    choiceC: "Asher",
+    choiceD: "Judah",
+    correctAnswer: "A",
+  },
+  {
+    question: "It was from whose tribe has Jesus descended?",
+    clueSource: "Hebrews 7:14",
+    clueSourceContent:
+      "14 For it is clear that our Lord has descended from Judah, yet Moses said nothing about priests coming from that tribe.",
+    choiceA: "Joseph",
+    choiceB: "Judah",
+    choiceC: "Reuben",
+    choiceD: "Benjamin",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "Who was Bilhah's firstborn who also happens to be the fifth son of Jacob?",
+    clueSource: "Insight on the Scriptures Volume 1, [Dan] p. 573",
+    clueSourceContent:
+      "[Judge]. The 5th of Jacob’s 12 sons; born in Paddan-aram. (Ge 35:25, 26) Dan was the firstborn of his mother Bilhah, the maidservant of her barren mistress Rachel, who substituted for her as a secondary wife to Jacob. It was for this reason that Rachel quickly adopted the boy and called his name Dan, saying: “God has acted as my judge . . . so that he gave me a son.” (Ge 30:6) The name of Dan’s full brother was Naphtali. By the time Jacob moved down into Egypt, taking along the whole household, Dan himself had a son named Hushim (called Shuham at Nu 26:42). (Ge 46:7, 23, 26) Seventeen years later, when dying Jacob called his sons to his bedside, Dan had full legal status along with the other 11 as family heads of the 12 tribes of Israel. In blessing him, Jacob said: “Dan will judge his people as one of the tribes of Israel. Let Dan prove to be a serpent by the roadside, a horned snake at the wayside, that bites the heels of the horse so that its rider falls backward. I shall indeed wait for salvation from you, O Jehovah.”​—Ge 49:16-18.",
+    choiceA: "Asher",
+    choiceB: "Gad",
+    choiceC: "Dan",
+    choiceD: "Levi",
+    correctAnswer: "C",
+  },
+  {
+    question:
+      "Leah exclaimed when she gave birth to this son: “With strenuous wrestlings I have wrestled with my sister. I have also come off winner!”",
+    clueSource: "Insight on the Scriptures Volume 2, [Naphtali] p. 469",
+    clueSourceContent:
+      "(Naphʹta·li) [My Wrestlings]. The second son born to Jacob by Rachel’s maidservant Bilhah in Paddan-aram. (Ge 35:25, 26; Ex 1:1, 4; 1Ch 2:1, 2) Since Bilhah had substituted for her mistress Rachel, Naphtali, like his older full brother Dan, was considered by barren Rachel as her own son. Although her sister Leah by then already had four sons (Ge 29:32-35), Rachel was elated over her success in getting a second son through her maidservant and exclaimed: “With strenuous wrestlings I have wrestled with my sister. I have also come off winner!” The name given to this son, Naphtali (meaning “My Wrestlings”), appropriately expressed Rachel’s feelings at the time of his birth.​—Ge 30:2-8.",
+    choiceA: "Issachar",
+    choiceB: "Zebulun",
+    choiceC: "Benjamin",
+    choiceD: "Naphtali",
+    correctAnswer: "D",
+  },
+  {
+    question:
+      "Jacob said regarding this son of his: “A marauder band will raid him, but he will raid at their heels.”",
+    clueSource: "Genesis 49:19",
+    clueSourceContent:
+      "19 As for Gad, a marauder band will raid him, but he will raid at their heels.",
+    choiceA: "Gad",
+    choiceB: "Dan",
+    choiceC: "Asher",
+    choiceD: "Benjamin",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "He was the second of two sons through Zilpah, Leah's servant; he was Gad's only full brother.",
+    clueSource: "Insight on the Scriptures Volume 1, [Asher] p. 190",
+    clueSourceContent:
+      "(Ashʹer) [Happy; Happiness]. The eighth son of Jacob and second of two sons through Zilpah, Leah’s maidservant. (Ge 35:26) Thus Asher’s only full brother was Gad. Asher’s four sons and one daughter are listed at 1 Chronicles 7:30, though his wife is not named. He was not prominent among the 12 sons of Jacob. However, in his father’s deathbed prophecy, Asher was promised a life blessed with an abundance of rich foods (Ge 49:20), and the history of his descendants demonstrates the fulfillment of this prediction.",
+    choiceA: "Dan",
+    choiceB: "Asher",
+    choiceC: "Levi",
+    choiceD: "Simeon",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "This son of Jacob was “a strong-boned donkey, lying down between the two saddlebags.”",
+    clueSource: "Genesis 49:14, 15",
+    clueSourceContent:
+      "Isʹsa·char is a strong-boned donkey, lying down between the two saddlebags. 15 And he will see that the resting-place is good and that the land is pleasant. He will bend his shoulder to bear the burden and will submit to forced labor.",
+    choiceA: "Reuben",
+    choiceB: "Naphtali",
+    choiceC: "Issachar",
+    choiceD: "Zebulun",
+    correctAnswer: "C",
+  },
+  {
+    question: "Who was the sixth son of Jacob’s wife Leah?",
+    clueSource: "Genesis 30:20",
+    clueSourceContent:
+      "20 Then Leʹah said: “God has endowed me, yes, me, with a good endowment. At last, my husband will tolerate me, for I have borne him six sons.” So she named him Zebʹu·lun.",
+    choiceA: "Naphtali",
+    choiceB: "Dan",
+    choiceC: "Levi",
+    choiceD: "Zebulun",
+    correctAnswer: "D",
+  },
+  {
+    question:
+      "To test his brothers, Joseph hid his silver cup in whose bag of grain?",
+    clueSource: "Genesis 44:1-13",
+    clueSourceContent:
+      "Later he commanded the man who was over his house: “Fill the bags of the men with as much food as they can carry, and place the money of each one in the mouth of his bag.  2 But you must place my cup, the silver cup, in the mouth of the bag of the youngest, along with the money for his grain.” So he did as Joseph had instructed. 3 In the morning when it had become light, the men were sent away with their donkeys.  4 They had not gone far from the city when Joseph said to the man who was over his house: “Get up! Chase after the men! When you overtake them, say to them, ‘Why have you repaid bad for good?  5 Is not this what my master drinks from and uses to read omens expertly? It is a wicked thing you have done.’” 6 So he overtook them and spoke these words to them.  7 But they said to him: “Why does my lord say such a thing? It is unthinkable that your servants would do anything like this.  8 Why, the money that we found in the mouth of our bags we brought back to you from the land of Caʹnaan. How, then, could we steal silver or gold from the house of your master?  9 If it is found with one of your slaves, let him die, and the rest of us will also become slaves to my master.”  10 So he said: “Let it be as you say: The one with whom it is found will become my slave, but the rest of you will be innocent.”  11 With that each one quickly lowered his bag to the ground and opened it.  12 He searched carefully, starting with the oldest and finishing with the youngest. Finally the cup was found in Benjamin’s bag. 13 Then they ripped their garments apart, and each of them lifted his load back onto his donkey and returned to the city.",
+    choiceA: "Benjamin",
+    choiceB: "Judah",
+    choiceC: "Simeon",
+    choiceD: "Reuben",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "He is an Ephraimite who ministered to Moses and was later appointed as his successor.",
+    clueSource: "Joshua 1:1, 2",
+    clueSourceContent:
+      "After the death of Moses the servant of Jehovah, Jehovah said to Joshua the son of Nun, the minister of Moses: 2“Moses my servant is dead. Now get up, cross the Jordan, you and all this people, and go into the land that I am giving to them, to the people of Israel.",
+    choiceA: "Korah",
+    choiceB: "Joshua",
+    choiceC: "Caleb",
+    choiceD: "Aaron",
+    correctAnswer: "B",
+  },
+  {
+    question: "Who gathered up 250 men and rose up against Moses and Aaron?",
+    clueSource: "Numbers 16:1-3",
+    clueSourceContent:
+      "Then Korʹah the son of Izʹhar, the son of Koʹhath, the son of Leʹvi, got up together with Daʹthan and A·biʹram the sons of E·liʹab, and On the son of Peʹleth, of the sons of Reuʹben.  2 They rose up against Moses along with 250 Israelite men, chieftains of the assembly, chosen ones of the congregation, prominent men.  3 So they gathered together against Moses and Aaron and said to them: “We have had enough of you! The whole assembly is holy, all of them, and Jehovah is in their midst. Why, then, should you exalt yourselves above the congregation of Jehovah?”",
+    choiceA: "Achan",
+    choiceB: "Joshua",
+    choiceC: "Korah",
+    choiceD: "Balaam",
+    correctAnswer: "C",
+  },
+  {
+    question:
+      "Who took a good-looking official garment, 200 shekels of silver, and one gold bar weighing 50 shekels?",
+    clueSource: "Joshua 7:20, 21",
+    clueSourceContent:
+      "20 Aʹchan answered Joshua: “For a fact I am the one who sinned against Jehovah the God of Israel, and this is what I have done. 21 When I saw among the spoil a good-looking official garment from Shiʹnar and 200 shekels of silver and one gold bar weighing 50 shekels, I desired them, so I took them. They are now hidden in the ground inside my tent, with the money underneath.”",
+    choiceA: "Judas Iscariot",
+    choiceB: "Balaam",
+    choiceC: "Korah",
+    choiceD: "Achan",
+    correctAnswer: "D",
+  },
+  {
+    question:
+      "The giant who had the height of 9.5 ft, from the city of Gath, champion of the Philistine army, who was killed by David.",
+    clueSource: "1 Samuel 17:40-51",
+    clueSourceContent:
+      "40 He then took his staff in his hand and chose five smooth stones from the streambed and placed them in the pouch of his shepherd’s bag, and his sling was in his hand. And he began approaching the Phi·lisʹtine. 41  The Phi·lisʹtine came closer and closer to David, and his shield-bearer was ahead of him. 42  When the Phi·lisʹtine looked and saw David, he sneered at him in contempt because he was just a ruddy and handsome boy. 43  So the Phi·lisʹtine said to David: “Am I a dog, so that you are coming against me with sticks?” With that the Phi·lisʹtine cursed David by his gods. 44  The Phi·lisʹtine said to David: “Just come to me, and I will give your flesh to the birds of the heavens and to the beasts of the field.” 45  David replied to the Phi·lisʹtine: “You are coming against me with sword and spear and javelin, but I am coming against you in the name of Jehovah of armies, the God of the battle line of Israel, whom you have taunted.  46  This very day Jehovah will surrender you into my hand, and I will strike you down and cut off your head; and on this day I will give the corpses of the camp of the Phi·lisʹtines to the birds of the heavens and to the wild beasts of the earth; and people of all the earth will know that there is a God in Israel. 47  And all those gathered here will know that it is not with the sword or the spear that Jehovah saves, for the battle belongs to Jehovah, and he will give all of you into our hand.” 48  Then the Phi·lisʹtine rose and drew steadily closer to meet David, but David ran quickly toward the battle line to meet the Phi·lisʹtine. 49  David thrust his hand into his bag and took a stone from there and slung it. He struck the Phi·lisʹtine in the forehead, and the stone sank into his forehead and he fell facedown on the ground. 50  So David prevailed over the Phi·lisʹtine with a sling and a stone; he struck down the Phi·lisʹtine and put him to death, though there was no sword in David’s hand. 51  David continued running and stood over him. Then he took hold of the Phi·lisʹtine’s sword and pulled it out of its sheath and made sure that he was dead by cutting off his head with it. When the Phi·lisʹtines saw that their mighty one had died, they fled.",
+    choiceA: "Goliath",
+    choiceB: "A Nephilim",
+    choiceC: "Samson",
+    choiceD: "Saul",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "What is the relationship of king Saul with Abner, his chief of army?",
+    clueSource: "Insight on the Scriptures Volume 1, [Abner] p. 27",
+    clueSourceContent:
+      "(Abʹner) [Father Is a Lamp]. Son of Ner, of the tribe of Benjamin. First Samuel 14:50, 51 evidently refers to Abner as “the uncle of Saul,” though this phrase in the Hebrew can be applied either to Abner or to Ner, his father. Josephus speaks of Abner as Saul’s cousin, and of their fathers, Ner and Kish, as brothers. (Jewish Antiquities, VI, 129, 130 [vi, 6]) However, the inspired history at 1 Chronicles 8:33 and 9:39 seems to weigh heavily in favor of Kish as being the son of Ner and, hence, the brother of Abner. This would make Abner the uncle of Saul.​—See also the chart under ABIEL No. 1.",
+    choiceA: "Grandfather",
+    choiceB: "Uncle",
+    choiceC: "Brother",
+    choiceD: "Nephew",
+    correctAnswer: "B",
+  },
+  {
+    question: "What was the name of Ruth's first husband?",
+    clueSource: "Ruth 1:1, 2",
+    clueSourceContent:
+      "Now in the days when the judges administered justice, a famine occurred in the land; and a man went from Bethʹle·hem in Judah to reside as a foreigner in the fields of Moʹab, he along with his wife and his two sons. 2  The man’s name was E·limʹe·lech, his wife’s name was Na·oʹmi, and the names of his two sons were Mahʹlon and Chilʹi·on. They were Ephʹrath·ites from Bethʹle·hem in Judah. And they came to the fields of Moʹab and remained there.",
+    choiceA: "Boaz",
+    choiceB: "Chilion",
+    choiceC: "Elimelech",
+    choiceD: "Mahlon",
+    correctAnswer: "D",
+  },
+];
+
 const kings = [
   {
     question:
@@ -608,18 +846,6 @@ const kings = [
     choiceC: "Moses",
     choiceD: "Joseph",
     correctAnswer: "A",
-  },
-  {
-    question:
-      "He was considered as the first king after the Flood. He also “became a mighty hunter in opposition to Jehovah.”",
-    clueSource: "Genesis 10:9",
-    clueSourceContent:
-      "8 Cush became father to Nimʹrod. He was the first to become a mighty one on the earth. 9  He became a mighty hunter in opposition to Jehovah. That is why there is a saying: “Just like Nimʹrod, a mighty hunter in opposition to Jehovah.”",
-    choiceA: "Melchizedek",
-    choiceB: "Nimrod",
-    choiceC: "Esau",
-    choiceD: "Cain",
-    correctAnswer: "B",
   },
   {
     question:
@@ -1594,17 +1820,6 @@ const randomCharactersI = [
     choiceC: "Nathan",
     choiceD: "Amos",
     correctAnswer: "C",
-  },
-  {
-    question: "What was the name of Ruth's first husband?",
-    clueSource: "Ruth 1:1, 2",
-    clueSourceContent:
-      "Now in the days when the judges administered justice, a famine occurred in the land; and a man went from Bethʹle·hem in Judah to reside as a foreigner in the fields of Moʹab, he along with his wife and his two sons. 2  The man’s name was E·limʹe·lech, his wife’s name was Na·oʹmi, and the names of his two sons were Mahʹlon and Chilʹi·on. They were Ephʹrath·ites from Bethʹle·hem in Judah. And they came to the fields of Moʹab and remained there.",
-    choiceA: "Boaz",
-    choiceB: "Chilion",
-    choiceC: "Elimelech",
-    choiceD: "Mahlon",
-    correctAnswer: "D",
   },
   {
     question:

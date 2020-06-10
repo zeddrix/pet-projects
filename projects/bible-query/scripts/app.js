@@ -156,7 +156,7 @@ const renderCounter = () => {
   const timeGauge = document.getElementById("time-gauge");
   const counter = document.getElementById("counter");
   const questionTime = 10; // 10s
-  let gaugeWidth = 100; // em
+  let gaugeWidth = 99; // em
   const gaugeUnit = gaugeWidth / questionTime;
 
   if (count <= questionTime) {
