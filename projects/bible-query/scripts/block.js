@@ -82,7 +82,7 @@ const query = () => {
   aboutBlock.style.display = "none";
 }
 
-const finalScorePage = () => {
+const scorePage = () => {
   homepageBlock.style.display = "none";
   levelsBlock.style.display = "none";
   queryBlock.style.display = "none";

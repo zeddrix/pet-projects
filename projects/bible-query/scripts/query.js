@@ -4,6 +4,19 @@ let Timer;
 let qIndex = 0;
 let score = 0;
 
+const playQueryAgain = () => {
+  closeRetryQueryModal();
+  currentQuestion = 0;
+  q = mainMenCharacters1[0];
+  count = 0;
+  qIndex = 0;
+  score = 0;
+  const allProgressCircles = document.getElementsByClassName('progress');
+  for(let i = 0; i < allProgressCircles.length; i++) {
+    allProgressCircles[i].style.backgroundColor = "#FFFFFF00";
+  }
+};
+
 const startQuery = () => {
   query();
   renderQuestion();
@@ -66,7 +79,7 @@ const renderCounter = () => {
       renderQuestion();
     } else {
       clearInterval(Timer);
-      finalScoreRender();
+      finalScore();
     }
   }
 };
@@ -84,13 +97,13 @@ const checkAnswer = (answer) => {
     renderQuestion();
   } else {
     clearInterval(Timer);
-    finalScoreRender();
+    finalScore();
   }
 };
 
-const finalScoreRender = () => {
-  finalScorePage();
+const scoreStarAndPercentage = () => {
   const scorePercent = Math.round((100 * score) / mainMenCharacters1.length);
+
   let img =
     scorePercent == 100
       ? "img/three-stars.png"
@@ -114,8 +127,11 @@ const finalScoreRender = () => {
     );
     finalScorePercentageDiv.innerHTML =
       "<p id='final-score-percentage'>" + scorePercent + "%</p>";
+}
+const scorePhrase1 = () => {
+  const scorePercent = Math.round((100 * score) / mainMenCharacters1.length);
 
-  let sp1d =
+  let sp1 =
     scorePercent == 100
       ? "Well done!"
       : scorePercent >= 90
@@ -131,9 +147,12 @@ const finalScoreRender = () => {
       : "Don't give up!";
 
     const scorePhrase1Div = document.getElementById("score-phrase-1-div");
-    scorePhrase1Div.innerHTML = "<h1 id='score-phrase-1'>" + sp1d + "</h1>";
+    scorePhrase1Div.innerHTML = "<h1 id='score-phrase-1'>" + sp1 + "</h1>";
+}
+const scorePhrase2 = () => {
+  const scorePercent = Math.round((100 * score) / mainMenCharacters1.length);
 
-  let sp2d =
+  let sp2 =
     scorePercent == 100
       ? "You got all the questions right!"
       : scorePercent >= 90
@@ -147,20 +166,13 @@ const finalScoreRender = () => {
       : "Play again and crush this level!";
   
     const scorePhrase2Div = document.getElementById("score-phrase-2-div");
-    scorePhrase2Div.innerHTML = "<p id='score-phrase-2'>" + sp2d + "</p>";
+    scorePhrase2Div.innerHTML = "<p id='score-phrase-2'>" + sp2 + "</p>";
 };
-
-const playQueryAgain = () => {
-  currentQuestion = 0;
-  q = mainMenCharacters1[0];
-  count = 0;
-  qIndex = 0;
-  score = 0;
-  const allProgressCircles = document.getElementsByClassName('progress');
-  for(let i = 0; i < allProgressCircles.length; i++) {
-    allProgressCircles[i].style.backgroundColor = "#FFFFFF00";
-  }
-  closeRetryQueryModal();
+const finalScore = () => {
+  scorePage();
+  scoreStarAndPercentage();
+  scorePhrase1();
+  scorePhrase2();
 };
 
 // for (let c = 0; c < arrayLength; c++) {
