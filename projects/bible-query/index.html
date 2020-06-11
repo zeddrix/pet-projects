@@ -12,29 +12,29 @@
   <body>
     <div class="outer-container bk-img">
       <div class="container bk-img">
-        <div id="homepage">
+        <div id="homepage-block">
           <h1 id="bible-query-title">BIBLE QUERY</h1>
           <div id="long-btn-container">
             <img
-              onclick="levelsPage()"
+              onclick="levels()"
               id="play-btn"
               class="long-btn no-outline"
               src="img/play-btn.jpg"
             />
             <img
-              onclick="settingsPage()"
+              onclick="settings()"
               id="settings-btn"
               class="long-btn no-outline"
               src="img/settings-btn.jpg"
             />
             <img
-              onclick="rulesPage()"
+              onclick="rules()"
               id="rules-btn"
               class="long-btn no-outline"
               src="img/rules-btn.jpg"
             />
             <img
-              onclick="aboutPage()"
+              onclick="about()"
               id="about-btn"
               class="long-btn no-outline"
               src="img/about-btn.jpg"
@@ -98,12 +98,12 @@
           <div onclick="queryPage()" id="level-number">1</div>
           <div id="levels-sm-btns" class="centered-sm-btns no-outline">
             <img
-              onclick="bibleQueryHomepage()"
+              onclick="homepage()"
               src="img/back-sm-btn.jpg"
               class="sm-btn no-outline"
             />
             <img
-              onclick="settingsPage()"
+              onclick="settings()"
               src="img/settings-sm-btn.jpg"
               class="sm-btn no-outline"
             />
@@ -123,7 +123,7 @@
           <label for="Enable Time Limit">Enable Time Limit</label>
           <p id="learn-more">
             (Learn more about Time Limit on the game's
-            <a onclick="rulesPage()">Rules</a>).
+            <a onclick="rules()">Rules</a>).
           </p>
           <h2>Language</h2>
           <input type="radio" name="language" value="English" />
@@ -139,7 +139,7 @@
               class="sm-btn no-outline"
             />
             <img
-              onclick="bibleQueryHomepage()"
+              onclick="homepage()"
               src="img/back-sm-btn.jpg"
               class="sm-btn no-outline"
             />
@@ -179,7 +179,7 @@
           <h2>Time Limit</h2>
           <p>
             You can enable and disable this option on the
-            <a onclick="settingsPage()"">Settings</a>. When enabled, you have exactly
+            <a onclick="settings()"">Settings</a>. When enabled, you have exactly
             10 seconds to answer each question. Once the time is up without you
             answering the current question, it will proceed to the next
             question. Consequently, you won't earn a point for this.
@@ -193,7 +193,7 @@
           </div>
           <div class="centered-sm-btns">
             <img
-              onclick="bibleQueryHomepage()"
+              onclick="homepage()"
               src="img/back-sm-btn.jpg"
               class="sm-btn no-outline"
             />
@@ -250,7 +250,7 @@
           </p>
           <p>
             To know the rules of the game, please go to
-            <a onclick="rulesPage()">Rules</a>.
+            <a onclick="rules()">Rules</a>.
           </p>
           <h2>About the Developer</h2>
           <p>
@@ -300,7 +300,7 @@
           </p>
           <div class="centered-sm-btns">
             <img
-              onclick="bibleQueryHomepage()"
+              onclick="homepage()"
               src="img/back-sm-btn.jpg"
               class="sm-btn no-outline"
             />
@@ -373,7 +373,7 @@
                   src="img/yes-sm-btn.jpg"
                   class="yes-sm-btn"
                   class="no-outline"
-                  onclick="levelsPage()"/>
+                  onclick="levels()"/>
                 <img
                   src="img/no-sm-btn.jpg"
                   class="no-sm-btn"
@@ -415,7 +415,7 @@
                   src="img/yes-sm-btn.jpg"
                   class="yes-sm-btn"
                   class="no-outline"
-                  onclick="bibleQueryHomepage()"/>
+                  onclick="homepage()"/>
                 <img
                   src="img/no-sm-btn.jpg"
                   class="no-sm-btn"
@@ -437,7 +437,7 @@
         </div>
         <div id="final-score-menu-btns" style="display: none;">
           <img
-            onclick="levelsPage()"
+            onclick="levels()"
             src="img/levels-sm-btn.jpg"
             class="sm-btn no-outline"
           />
@@ -452,7 +452,7 @@
             class="sm-btn no-outline"
           />
           <img
-            onclick="bibleQueryHomepage()"
+            onclick="homepage()"
             src="img/quit-sm-btn.jpg"
             class="sm-btn no-outline"
           />
