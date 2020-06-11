@@ -9,7 +9,7 @@ const startQuery = () => {
   renderQuestion();
   renderProgress();
   renderCounter();
-  Timer = setInterval(renderCounter, 1000); // 1000ms = 1s
+  Timer = setInterval(renderCounter, 1000);
 };
 
 const renderQuestion = () => {
@@ -60,13 +60,11 @@ const renderCounter = () => {
     count++;
   } else {
     count = 0;
-    // change progress color to red
     answerIsWrong();
     if (currentQuestion < lastQuestion) {
       currentQuestion++;
       renderQuestion();
     } else {
-      // end the query and show the score
       clearInterval(Timer);
       finalScoreRender();
     }
@@ -77,17 +75,14 @@ const checkAnswer = (answer) => {
   if (answer == mainMenCharacters1[currentQuestion].correctAnswer) {
     score++;
     answerIsCorrect();
-    // change progress color to green
   } else {
     answerIsWrong();
-    // change progress color to red
   }
   count = 0;
   if (currentQuestion < lastQuestion) {
     currentQuestion++;
     renderQuestion();
   } else {
-    // end the query and show the score
     clearInterval(Timer);
     finalScoreRender();
   }
