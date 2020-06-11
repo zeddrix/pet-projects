@@ -11,6 +11,7 @@ const queryMenuBtns = document.getElementById("query-menu-btns");
 let currentQuestion = 0;
 let count = 0;
 let Timer;
+let qIndex = 0;
 let score = 0;
 const finalScoreMenuBtns = document.getElementById("final-score-menu-btns");
 
@@ -94,6 +95,14 @@ const closeQuitModal = () => {
   quitModal.style.display = "none";
 };
 
+const levelsModal = document.getElementById("levels-modal");
+const showLevelsModal = () => {
+  levelsModal.style.display = "block";
+};
+const closeLevelsModal = () => {
+  levelsModal.style.display = "none";
+};
+
 // PLAY button
 const levelsPage = () => {
   homepage.style.display = "none";
@@ -108,23 +117,6 @@ const levelsPage = () => {
   closeLevelsModal();
 };
 
-// levels
-const queryPage = () => {
-  homepage.style.display = "none";
-  levelsBlock.style.display = "none";
-  queryBlock.style.display = "block";
-  queryMenuBtns.style.display = "block";
-  finalScoreBlock.style.display = "none";
-  finalScoreMenuBtns.style.display = "none";
-  settingsBlock.style.display = "none";
-  rulesBlock.style.display = "none";
-  aboutBlock.style.display = "none";
-  renderQuestion();
-  renderProgress();
-  renderCounter();
-  Timer = setInterval(renderCounter, 1000); // 1000ms = 1s
-};
-
 const renderQuestion = () => {
   const question = document.getElementById("question");
   const clueSource = document.getElementById("clue-source");
@@ -134,7 +126,7 @@ const renderQuestion = () => {
   const choiceC = document.getElementById("C");
   const choiceD = document.getElementById("D");
   let q = mainMenCharacters1[currentQuestion];
-
+  
   question.innerHTML = "<p>" + q.question + "</p>";
   clueSource.innerHTML = "<h2>" + q.clueSource + "</h2>";
   clueSourceContent.innerHTML = "<p>" + q.clueSourceContent + "</p>";
@@ -147,9 +139,17 @@ const renderQuestion = () => {
 const lastQuestion = mainMenCharacters1.length - 1;
 const renderProgress = () => {
   const progress = document.getElementById("progress");
-  for (let qIndex = 0; qIndex <= lastQuestion; qIndex++) {
+  for (qIndex; qIndex <= lastQuestion; qIndex++) {
     progress.innerHTML += "<div class='progress' id=" + qIndex + "></div>";
   }
+};
+
+const answerIsCorrect = () => {
+  document.getElementById(currentQuestion).style.backgroundColor = "green";
+};
+
+const answerIsWrong = () => {
+  document.getElementById(currentQuestion).style.backgroundColor = "red";
 };
 
 const renderCounter = () => {
@@ -198,14 +198,6 @@ const checkAnswer = (answer) => {
   }
 };
 
-const answerIsCorrect = () => {
-  document.getElementById(currentQuestion).style.backgroundColor = "green";
-};
-
-const answerIsWrong = () => {
-  document.getElementById(currentQuestion).style.backgroundColor = "red";
-};
-
 // QUERY MODALS
 const clueModal = document.getElementById("clue-modal");
 const showClueModal = () => {
@@ -213,14 +205,6 @@ const showClueModal = () => {
 };
 const closeClueModal = () => {
   clueModal.style.display = "none";
-};
-
-const levelsModal = document.getElementById("levels-modal");
-const showLevelsModal = () => {
-  levelsModal.style.display = "block";
-};
-const closeLevelsModal = () => {
-  levelsModal.style.display = "none";
 };
 
 const retryQueryModal = document.getElementById("retry-query-modal");
@@ -237,6 +221,23 @@ const showQuitQueryModal = () => {
 };
 const closeQuitQueryModal = () => {
   quitQueryModal.style.display = "none";
+};
+
+// levels
+const queryPage = () => {
+  homepage.style.display = "none";
+  levelsBlock.style.display = "none";
+  queryBlock.style.display = "block";
+  queryMenuBtns.style.display = "block";
+  finalScoreBlock.style.display = "none";
+  finalScoreMenuBtns.style.display = "none";
+  settingsBlock.style.display = "none";
+  rulesBlock.style.display = "none";
+  aboutBlock.style.display = "none";
+  renderQuestion();
+  renderProgress();
+  renderCounter();
+  Timer = setInterval(renderCounter, 1000); // 1000ms = 1s
 };
 
 const finalScoreRender = () => {
@@ -303,6 +304,17 @@ const finalScoreRender = () => {
     "<p id='final-score-percentage'>" + scorePercent + "%</p>";
   const scorePhrase2Div = document.getElementById("score-phrase-2-div");
   scorePhrase2Div.innerHTML = "<p id='score-phrase-2'>" + sp2d + "</p>";
+};
+
+const playQueryAgain = () => {
+  currentQuestion = 0;
+  q = mainMenCharacters1[0];
+  count = 0;
+  qIndex = 0;
+  score = 0;
+  console.log(document.getElementById('progress').querySelectorAll('.progress'));
+  document.getElementById('progress').querySelectorAll('.progress').style.backgroundColor = "#FFFFFF00";
+  closeRetryQueryModal();
 };
 
 // for (let c = 0; c < arrayLength; c++) {
