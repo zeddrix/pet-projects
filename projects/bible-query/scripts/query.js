@@ -4,6 +4,14 @@ let Timer;
 let qIndex = 0;
 let score = 0;
 
+const startQuery = () => {
+  query();
+  renderQuestion();
+  renderProgress();
+  renderCounter();
+  Timer = setInterval(renderCounter, 1000); // 1000ms = 1s
+};
+
 const renderQuestion = () => {
   const question = document.getElementById("question");
   const clueSource = document.getElementById("clue-source");

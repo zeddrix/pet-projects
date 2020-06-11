@@ -57,7 +57,6 @@ const about = () => {
   aboutBlock.style.display = "block";
 };
 
-// PLAY button
 const levels = () => {
   homepageBlock.style.display = "none";
   levelsBlock.style.display = "block";
@@ -71,7 +70,7 @@ const levels = () => {
   closeLevelsModal();
 };
 
-const queryPage = () => {
+const query = () => {
   homepageBlock.style.display = "none";
   levelsBlock.style.display = "none";
   queryBlock.style.display = "block";
@@ -81,11 +80,7 @@ const queryPage = () => {
   settingsBlock.style.display = "none";
   rulesBlock.style.display = "none";
   aboutBlock.style.display = "none";
-  renderQuestion();
-  renderProgress();
-  renderCounter();
-  Timer = setInterval(renderCounter, 1000); // 1000ms = 1s
-};
+}
 
 const finalScorePage = () => {
   homepageBlock.style.display = "none";
@@ -99,7 +94,6 @@ const finalScorePage = () => {
   aboutBlock.style.display = "none";
 }
 
-// On Settings
 const resetGameModal = document.getElementById("reset-game-modal");
 const showResetGameModal = () => {
   resetGameModal.style.display = "block";
@@ -108,7 +102,6 @@ const closeResetGameModal = () => {
   resetGameModal.style.display = "none";
 };
 
-// TELL YOUR FRIENDS
 const tellYourFriendsModal = document.getElementById("tell-your-friends-modal");
 const showTellYourFriendsModal = () => {
   tellYourFriendsModal.style.display = "block";
@@ -122,7 +115,6 @@ window.onclick = function (event) {
   }
 };
 
-// QUIT
 const quitModal = document.getElementById("quit-modal");
 const showQuitModal = () => {
   quitModal.style.display = "block";
