@@ -312,8 +312,10 @@ const playQueryAgain = () => {
   count = 0;
   qIndex = 0;
   score = 0;
-  console.log(document.getElementById('progress').querySelectorAll('.progress'));
-  document.getElementById('progress').querySelectorAll('.progress').style.backgroundColor = "#FFFFFF00";
+  const allProgressCircles = document.getElementsByClassName('progress');
+  for(let i = 0; i < allProgressCircles.length; i++) {
+    allProgressCircles[i].style.backgroundColor = "#FFFFFF00";
+  }
   closeRetryQueryModal();
 };
 
