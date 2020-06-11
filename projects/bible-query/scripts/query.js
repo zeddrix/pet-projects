@@ -110,20 +110,34 @@ const finalScoreRender = () => {
       : scorePercent >= 15
       ? "img/one-half-star.png"
       : "img/zero-star.png";
+      
+    const finalScoreImgDiv = document.getElementById("final-score-img-div");
+    finalScoreImgDiv.innerHTML = "<img id='final-score-img' src=" + img + ">";
+
+    const finalScorePercentageDiv = document.getElementById(
+      "final-score-percentage-div"
+    );
+    finalScorePercentageDiv.innerHTML =
+      "<p id='final-score-percentage'>" + scorePercent + "%</p>";
+
   let sp1d =
     scorePercent == 100
       ? "Well done!"
       : scorePercent >= 90
       ? "Excellent!"
       : scorePercent >= 51
-      ? "Good!"
-      : scorePercent >= 50
       ? "Nice!"
+      : scorePercent >= 50
+      ? "Good!"
       : scorePercent >= 30
       ? "Okay!"
       : scorePercent >= 15
       ? "Don't give up!"
       : "Don't give up!";
+
+    const scorePhrase1Div = document.getElementById("score-phrase-1-div");
+    scorePhrase1Div.innerHTML = "<h1 id='score-phrase-1'>" + sp1d + "</h1>";
+
   let sp2d =
     scorePercent == 100
       ? "You got all the questions right!"
@@ -136,18 +150,9 @@ const finalScoreRender = () => {
       : scorePercent >= 30
       ? "That's okay. Play again and crush this level!"
       : "Play again and crush this level!";
-
-  const scorePhrase1Div = document.getElementById("score-phrase-1-div");
-  scorePhrase1Div.innerHTML = "<h1 id='score-phrase-1'>" + sp1d + "</h1>";
-  const finalScoreImgDiv = document.getElementById("final-score-img-div");
-  finalScoreImgDiv.innerHTML = "<img id='final-score-img' src=" + img + ">";
-  const finalScorePercentageDiv = document.getElementById(
-    "final-score-percentage-div"
-  );
-  finalScorePercentageDiv.innerHTML =
-    "<p id='final-score-percentage'>" + scorePercent + "%</p>";
-  const scorePhrase2Div = document.getElementById("score-phrase-2-div");
-  scorePhrase2Div.innerHTML = "<p id='score-phrase-2'>" + sp2d + "</p>";
+  
+    const scorePhrase2Div = document.getElementById("score-phrase-2-div");
+    scorePhrase2Div.innerHTML = "<p id='score-phrase-2'>" + sp2d + "</p>";
 };
 
 const playQueryAgain = () => {
@@ -162,3 +167,12 @@ const playQueryAgain = () => {
   }
   closeRetryQueryModal();
 };
+
+// for (let c = 0; c < arrayLength; c++) {
+// const button = document.createElement("button");
+// button.innerText =
+// parent.prepend(button);
+//     button.classList.add(colors[c].name, "button-prop");
+//     button.addEventListener('click', () => changeColor(colors[c].colorValue));
+//     parent.prepend(button);
+// }
