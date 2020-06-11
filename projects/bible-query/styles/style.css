@@ -11,6 +11,30 @@ body {
   margin: 0;
 }
 
+@font-face {
+  font-family: "Mukta Mahee";
+  src: url(../fonts/MuktaMahee-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: "Architects Daughter";
+  src: url(../fonts/ArchitectsDaughter-Regular.ttf);
+}
+
+.modal-content,
+.modal-effect, 
+#clue-source-content, 
+#clue-source {
+  font-family: "Mukta Mahee";
+  color: black;
+}
+
+#score-phrase-1,
+#final-score-percentage,
+#score-phrase-2 {
+  font-family: "Architects Daughter";
+}
+
 hr {
   border-top: 1px dotted grey;
   width: 20em;
@@ -138,7 +162,6 @@ a {
 }
 .modal-effect {
   position: relative;
-  font-family: "Mukta Mahee", sans-serif;
   background-color: rgb(231, 231, 231);
   margin: auto;
   border-radius: 0.1em;
@@ -148,15 +171,10 @@ a {
 }
 
 #clue-source {
-  font-family: "Mukta Mahee", sans-serif;
   color: black;
   text-align: left;
 }
-.modal-content,
-#clue-source-content {
-  font-family: "Mukta Mahee", sans-serif;
-  color: black;
-}
+
 #clue-source-content {
   text-align: left;
   overflow: auto;
