@@ -12,8 +12,8 @@ const playQueryAgain = () => {
   qIndex = 0;
   score = 0;
   const allProgressCircles = document.getElementsByClassName('progress');
-  for(let i = 0; i < allProgressCircles.length; i++) {
-    allProgressCircles[i].style.backgroundColor = "#FFFFFF00";
+  for(let p = 0; p < allProgressCircles.length; p++) {
+    allProgressCircles[p].style.backgroundColor = "#FFFFFF00";
   }
 };
 
