@@ -1176,6 +1176,242 @@ const kings1 = [
   },
 ];
 
+const queens1 = [
+  {
+    question:
+      "Who kept refusing to come at the king’s order that was conveyed through the court officials?",
+    clueSource: "Esther 1:12",
+    clueSourceContent:
+      "12 But Queen Vashʹti kept refusing to come at the king’s order that was conveyed through the court officials. At this the king became very angry, and his rage flared up within him.",
+    choiceA: "Vashti",
+    choiceB: "Esther",
+    choiceC: "Athaliah",
+    choiceD: "Jezebel",
+    correctAnswer: "A",
+  },
+  {
+    question: "Who was the first queen of Ahasuerus the king of Persia?",
+    clueSource: "Esther 1:9",
+    clueSourceContent:
+      "Queen Vashʹti also held a banquet for the women at the royal house of King A·has·u·eʹrus.",
+    choiceA: "Esther",
+    choiceB: "Vashti",
+    choiceC: "Athaliah",
+    choiceD: "Jezebel",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "Who also held a banquet for the women at the royal house of King Ahasuerus?",
+    clueSource: "Esther 1:9",
+    clueSourceContent:
+      "Queen Vashʹti also held a banquet for the women at the royal house of King A·has·u·eʹrus.",
+    choiceA: "Jezebel",
+    choiceB: "Esther",
+    choiceC: "Vashti",
+    choiceD: "Queen of Sheba",
+    correctAnswer: "C",
+  },
+  {
+    question: "Who came to test king Solomon with perplexing questions?",
+    clueSource: "Luke 11:31",
+    clueSourceContent:
+      "The queen of the south will be raised up in the judgment with the men of this generation and will condemn them, for she came from the ends of the earth to hear the wisdom of Solʹo·mon. But look! something more than Solʹo·mon is here.",
+    choiceA: "Queen of Sheba",
+    choiceB: "Vashti",
+    choiceC: "Esther",
+    choiceD: "Jezebel",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "“She came from the ends of the earth to hear the wisdom of Solʹo·mon.”",
+    clueSource: "Luke 11:31",
+    clueSourceContent:
+      "The queen of the south will be raised up in the judgment with the men of this generation and will condemn them, for she came from the ends of the earth to hear the wisdom of Solʹo·mon. But look! something more than Solʹo·mon is here.",
+    choiceA: "Esther",
+    choiceB: "Queen of Sheba",
+    choiceC: "Athaliah",
+    choiceD: "Jezebel",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "She was impressed by what Solomon said, by what she saw of the prosperity of his kingdom, and by his wise organization of his staff.",
+    clueSource: "1 Kings 10:4-7",
+    clueSourceContent:
+      "4 When the queen of Sheʹba had seen all the wisdom of Solʹo·mon, the house that he built, 5 the food of his table, the seating of his servants, the table service of his waiters and their attire, his cupbearers, and his burnt sacrifices that he regularly offered up at the house of Jehovah, she was left completely breathless. 6 So she said to the king: “The report that I heard in my own land about your achievements and about your wisdom was true. 7 But I did not put faith in the reports until I had come and had seen it with my own eyes. And look! I had not been told the half. You have far surpassed in wisdom and prosperity the report that I heard.",
+    choiceA: "Jezebel",
+    choiceB: "Athaliah",
+    choiceC: "Queen of Sheba",
+    choiceD: "Esther",
+    correctAnswer: "C",
+  },
+  {
+    question:
+      "She pronounced the king’s servants happy for being able to hear his wisdom, and she blessed Jehovah for putting him on the throne. ",
+    clueSource: "1 Kings 10:6-9",
+    clueSourceContent:
+      "6 So she said to the king: “The report that I heard in my own land about your achievements and about your wisdom was true. 7 But I did not put faith in the reports until I had come and had seen it with my own eyes. And look! I had not been told the half. You have far surpassed in wisdom and prosperity the report that I heard. 8 Happy are your men, and happy are your servants who stand before you constantly, listening to your wisdom! 9 May Jehovah your God be praised, who has taken pleasure in you by putting you on the throne of Israel. Because of Jehovah’s everlasting love for Israel, he appointed you as king to administer justice and righteousness.”",
+    choiceA: "Vashti",
+    choiceB: "Esther",
+    choiceC: "Athaliah",
+    choiceD: "Queen of Sheba",
+    correctAnswer: "D",
+  },
+  {
+    question: "Who replaced queen Vashti as the new queen?",
+    clueSource: "Esther 2:17",
+    clueSourceContent:
+      "17 And the king came to love Esther more than all the other women, and she won his favor and approval more than any of the other virgins. So he put the royal headdress on her head and made her queen instead of Vashʹti.",
+    choiceA: "Esther",
+    choiceB: "Queen of Sheba",
+    choiceC: "Another Vashti",
+    choiceD: "Athaliah",
+    correctAnswer: "A",
+  },
+  {
+    question: "She is also known as “Hadassah”.",
+    clueSource: "Esther 2:7",
+    clueSourceContent:
+      "7 He was the guardian of Ha·dasʹsah, that is, Esther, the daughter of his father’s brother, for she had neither father nor mother. The young woman was beautifully formed and attractive in appearance, and at the death of her father and her mother, Morʹde·cai took her as his daughter.",
+    choiceA: "Queen of Sheba",
+    choiceB: "Esther",
+    choiceC: "Maacah",
+    choiceD: "Hamutal",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "Who spoke in Mordecai’s name to the king when Mordecai uncovered a plot against the king?",
+    clueSource: "Esther 2:20-22",
+    clueSourceContent:
+      " 20 Esther did not say anything about her relatives and her people, just as Morʹde·cai had instructed her; Esther continued to do what Morʹde·cai said, just as when she was under his care. 21 In those days while Morʹde·cai was sitting in the king’s gate, Bigʹthan and Teʹresh, two court officials of the king, doorkeepers, got angry and plotted to do away with King A·has·u·eʹrus. 22 But Morʹde·cai learned about it, and he immediately told Queen Esther. Esther then spoke to the king in Morʹde·cai’s name.",
+    choiceA: "Vashti",
+    choiceB: "Athaliah",
+    choiceC: "Esther",
+    choiceD: "Queen of Sheba",
+    correctAnswer: "C",
+  },
+  {
+    question:
+      "She approached Ahasuerus her husband in a tactful and respectful way when her life and the lives of her people were in danger.",
+    clueSource: "Esther 7:3-6",
+    clueSourceContent:
+      "Queen Esther answered: “If I have found favor with you, O king, and if it pleases the king, let my life be granted as my petition, and my people as my request. 4 For we have been sold, I and my people, to be annihilated, killed, and destroyed. If we had simply been sold as male and female slaves, I would have kept silent. But the distress is not proper, for it will be damaging to the king.” 5 King A·has·u·eʹrus then said to Queen Esther: “Who is this, and where is the man who has dared to do such a thing?” 6 Esther said: “The adversary and enemy is this evil Haʹman.” Haʹman became terrified because of the king and the queen. ",
+    choiceA: "Queen of Sheba",
+    choiceB: "Jezebel",
+    choiceC: "Vashti",
+    choiceD: "Esther",
+    correctAnswer: "D",
+  },
+  {
+    question:
+      "Who plotted against Naboth and got him stoned to death to get his vineyard for her husband, Ahab?",
+    clueSource: "1 Kings 21:7-10",
+    clueSourceContent:
+      "7 His wife Jezʹe·bel said to him: “Are you not the one ruling as king over Israel? Get up, eat something, and let your heart be cheerful. I will give you the vineyard of Naʹboth the Jezʹre·el·ite.” 8  So she wrote letters in Aʹhab’s name and sealed them with his seal and sent the letters to the elders and the nobles who lived in Naʹboth’s city. 9  She wrote in the letters: “Proclaim a fast, and have Naʹboth sit at the head of the people. 10  And have two good-for-nothing men sit in front of him and testify against him, saying, ‘You have cursed God and the king!’ Then bring him out and stone him to death.”",
+    choiceA: "Jezebel",
+    choiceB: "Vashti",
+    choiceC: "Athaliah",
+    choiceD: "Esther",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "She was a domineering queen who proved to be a strong advocate of Baalism at the expense of Jehovah’s worship.",
+    clueSource: "1 Kings 16:30, 31",
+    clueSourceContent:
+      "ʹ30 Ahab the son of Omʹri was worse in the eyes of Jehovah than all those who were prior to him. 31 As if it were a trivial thing for him to walk in the sins of Jer·o·boʹam the son of Neʹbat, he also took as wife Jezʹe·bel the daughter of Eth·baʹal, the king of the Si·doʹni·ans, and began to serve Baʹal and to bow down to him.",
+    choiceA: "Esther",
+    choiceB: "Jezebel",
+    choiceC: "Maacah",
+    choiceD: "Queen of Sheba",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "Who ordered that all the prophets of Jehovah God be killed, including the prophet Elijah?",
+    clueSource: "1 Kings 18:4",
+    clueSourceContent:
+      "4 And when Jezʹe·bel was doing away with Jehovah’s prophets, O·ba·diʹah took 100 prophets and hid them 50 to a cave, and he supplied them with bread and water.)",
+    choiceA: "Athaliah",
+    choiceB: "Vasthi",
+    choiceC: "Jezebel",
+    choiceD: "Tahpenes",
+    correctAnswer: "C",
+  },
+  {
+    question:
+      "When they went to bury this queen, they did not find anything but her skull, her feet, and the palms of her hands.",
+    clueSource: "2 Kings 9:32-37",
+    clueSourceContent:
+      "32 Looking up to the window, he said: “Who is on my side? Who?” Immediately two or three court officials looked down at him. 33 He said: “Throw her down!” So they threw her down, and some of her blood splattered on the wall and on the horses, and he trampled her. 34 After that he went in and ate and drank. He then said: “Please, take care of this accursed woman and bury her. After all, she is the daughter of a king.” 35 But when they went to bury her, they did not find anything but her skull and her feet and the palms of her hands. 36 When they returned and told him, he said: “This fulfills the word of Jehovah that he spoke through his servant E·liʹjah the Tishʹbite, saying, ‘In the plot of land of Jezʹre·el, the dogs will eat the flesh of Jezʹe·bel. 37 And the dead body of Jezʹe·bel will become as manure on the surface of the field in the plot of land of Jezʹre·el, so that they may not say: “This is Jezʹe·bel.”’”",
+    choiceA: "Esther",
+    choiceB: "Vashti",
+    choiceC: "Athaliah",
+    choiceD: "Jezebel",
+    correctAnswer: "D",
+  },
+  {
+    question:
+      "Jehu commanded her court officials to throw her outside the window.",
+    clueSource: "2 Kings 9:30-33",
+    clueSourceContent:
+      "30 When Jeʹhu came to Jezʹre·el, Jezʹe·bel heard of it. So she painted her eyes with black paint and adorned her head and looked down through the window. 31 As Jeʹhu came in through the gate, she said: “Did it go well with Zimʹri, the killer of his lord?” 32 Looking up to the window, he said: “Who is on my side? Who?” Immediately two or three court officials looked down at him. 33 He said: “Throw her down!” So they threw her down, and some of her blood splattered on the wall and on the horses, and he trampled her.",
+    choiceA: "Vashti",
+    choiceB: "Queen of Sheba",
+    choiceC: "Athaliah",
+    choiceD: "Jezebel",
+    correctAnswer: "D",
+  },
+  {
+    question:
+      "Who tried to destroy the entire royal line, murdering anyone who could become ruler instead of her, even her own grandsons?",
+    clueSource: "2 Kings 11:1",
+    clueSourceContent:
+      "Now when Ath·a·liʹah, A·ha·ziʹah’s mother, saw that her son had died, she rose up and destroyed the entire royal line.",
+    choiceA: "Athaliah",
+    choiceB: "Jezebel",
+    choiceC: "Vashti",
+    choiceD: "Queen of Sheba",
+    correctAnswer: "A",
+  },
+  {
+    question: "When her son died, who made herself the ruler of Judah?",
+    clueSource: "2 Chronicles 22:11, 12",
+    clueSourceContent:
+      "He remained with them for six years, hidden at the house of the true God, while Ath·a·liʹah was ruling over the land.",
+    choiceA: "Jezebel",
+    choiceB: "Athaliah",
+    choiceC: "Queen of Sheba",
+    choiceD: "Vashti",
+    correctAnswer: "B",
+  },
+  {
+    question: "Who was the grandmother of Jehoash the king of Judah?",
+    clueSource: "Lessons You Can Learn From the Bible, Lesson 53 par. 2",
+    clueSourceContent:
+      "High Priest Jehoiada and his wife, Jehosheba, knew that what Athaliah was doing was very bad. They risked their lives to hide one of Athaliah’s grandsons, a baby named Jehoash. They raised him at the temple.",
+    choiceA: "Vashti",
+    choiceB: "Jezebel",
+    choiceC: "Athaliah",
+    choiceD: "Esther",
+    correctAnswer: "C",
+  },
+  {
+    question: "Who was the wicked daughter of Jezebel and Ahab?",
+    clueSource: "Insight on the Scriptures Volume 1, [Athaliah] p. 209",
+    clueSourceContent:
+      "(Ath·a·liʹah). Queen of Judah, daughter of King Ahab of Israel and his wife Jezebel; granddaughter of Omri. (2Ki 8:18, 26) She was the sister of Israel’s King Jehoram, and sister or half sister of the other 70 sons of Ahab, all of whom Jehu ordered killed. (2Ki 3:1, 2; 10:1-9) Athaliah was given in a marriage of political expediency to Jehoram, the eldest son of Jehoshaphat of Judah. (2Ki 8:25-27; 2Ch 18:1) She was the mother of Ahaziah, who in time became king of Judah.",
+    choiceA: "Maacah",
+    choiceB: "Queen of Sheba",
+    choiceC: "Vashti",
+    choiceD: "Athaliah",
+    correctAnswer: "D",
+  },
+];
+
 const numbersAndDates = [
   {
     question: "On what “day” did God create man?",
