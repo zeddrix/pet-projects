@@ -1648,99 +1648,13 @@ const numbersAndDates = [
 ];
 
 const places = [
-  {
-    question:
-      "Where was Daniel, Shadrach, Meshach, and Abednego been taken captive?",
-    clueSource: "Daniel 1:1-7",
-    clueSourceContent:
-      "In the third year of the kingship of King Je·hoiʹa·kim of Judah, King Neb·u·chad·nezʹzar of Babylon came to Jerusalem and besieged it. 2  In time Jehovah gave King Je·hoiʹa·kim of Judah into his hand, along with some of the utensils of the house of the true God, and he brought them to the land of Shiʹnar to the house of his god. He placed the utensils in the treasury of his god. 3  Then the king ordered Ashʹpe·naz his chief court official to bring some of the Israelites, including those of royal and noble descent. 4  They were to be youths without any defect, of good appearance, endowed with wisdom, knowledge, and discernment, and capable of serving in the king’s palace. He was to teach them the writing and the language of the Chal·deʹans. 5  Furthermore, the king assigned to them a daily ration from the king’s delicacies and from the wine he drank. They were to be trained for three years, and at the end of that time they were to enter the king’s service. 6  Now among them were some from the tribe of Judah: Daniel, Han·a·niʹah, Mishʹa·el, and Az·a·riʹah. 7  And the principal court official assigned names to them; he gave to Daniel the name Bel·te·shazʹzar, to Han·a·niʹah the name Shaʹdrach, to Mishʹa·el the name Meʹshach, and to Az·a·riʹah the name A·bedʹne·go.",
-    choiceA: "Persia",
-    choiceB: "Babylon",
-    choiceC: "Rome",
-    choiceD: "Greece",
-    correctAnswer: "B",
-  },
-  {
-    question:
-      "Where did the test of Elijah against the 450 prophets of Baal occur?",
-    clueSource: "1 Kings 18:18-20",
-    clueSourceContent:
-      "18 To this he said: “I have not brought trouble on Israel, but you and the house of your father have, by abandoning the commandments of Jehovah and by following the Baʹals. 19  And now summon all Israel to me at Mount Carʹmel, as well as the 450 prophets of Baʹal and the 400 prophets of the sacred pole, who are eating at the table of Jezʹe·bel.” 20  So Aʹhab sent word among all the people of Israel and collected the prophets together at Mount Carʹmel.",
-    choiceA: "Mount Ararat",
-    choiceB: "Mount Horeb",
-    choiceC: "Mount Carmel",
-    choiceD: "Mount Tabor",
-    correctAnswer: "C",
-  },
-  {
-    question:
-      "This is the land that Jehovah wanted Abraham and Sarah to see after leaving their homeland.",
-    clueSource: "Genesis 15:5-7",
-    clueSourceContent:
-      "5 He now brought him outside and said: “Look up, please, to the heavens and count the stars, if you are able to do so.” Then he said to him: “So your offspring will become.” 6  And he put faith in Jehovah, and He counted it to him as righteousness. 7 Then he added: “I am Jehovah, who brought you out of Ur of the Chal·deʹans to give you this land as your possession.”",
-    choiceA: "Ur",
-    choiceB: "Haran",
-    choiceC: "Babel",
-    choiceD: "Canaan",
-    correctAnswer: "D",
-  },
-  {
-    question:
-      "Where did the princes of Jerusalem throw Jeremiah into for simply telling Jehovah's prophecy to them?",
-    clueSource: "Jeremiah 38:4-6",
-    clueSourceContent:
-      "4 The princes said to the king: “Please have this man put to death, for this is how he is weakening the morale of the soldiers who are left in this city, as well as that of all the people, by speaking such words to them. For this man seeks, not the peace of this people, but their calamity.” 5  King Zed·e·kiʹah replied: “Look! He is in your hands, for the king cannot do anything to stop you.” 6  So they took Jeremiah and threw him into the cistern of Mal·chiʹjah the son of the king, which was in the Courtyard of the Guard. They let Jeremiah down by ropes. Now there was no water in the cistern, only mud, and Jeremiah began to sink down into the mud.",
-    choiceA: "Into a cistern",
-    choiceB: "Into a dungeon",
-    choiceC: "Into a furnace",
-    choiceD: "Into a pit of lions",
-    correctAnswer: "A",
-  },
-  {
-    question: "Which one is not included on the four rivers of Eden?",
-    clueSource: "Genesis 2:10-14",
-    clueSourceContent:
-      "10 Now there was a river flowing out of Eʹden to water the garden, and from there it divided into four rivers. 11  The name of the first is Piʹshon; it is the one encircling the entire land of Havʹi·lah, where there is gold. 12  The gold of that land is good. Bdellium gum and onyx stone are also there. 13  The name of the second river is Giʹhon; it is the one encircling the entire land of Cush. 14  The name of the third river is Hidʹde·kel; it is the one going to the east of As·syrʹi·a. And the fourth river is the Eu·phraʹtes.",
-    choiceA: "Pishon",
-    choiceB: "Nile",
-    choiceC: "Hiddekel",
-    choiceD: "Euphrates",
-    correctAnswer: "B",
-  },
-  {
-    question: "On what river was Jesus Christ baptized?",
-    clueSource: "Matthew 3:13",
-    clueSourceContent:
-      "13 Then Jesus came from Galʹi·lee to the Jordan to John, in order to be baptized by him.",
-    choiceA: "Jordan",
-    choiceB: "Nile",
-    choiceC: "Hiddekel",
-    choiceD: "Euphrates",
-    correctAnswer: "A",
-  },
-  {
-    question: "On what city did Jesus perform his first miracle?",
-    clueSource: "John 2:1-11",
-    clueSourceContent:
-      "And on the third day a marriage feast took place in Caʹna of Galʹi·lee, and the mother of Jesus was there. 2  Jesus and his disciples were also invited to the marriage feast. 3  When the wine ran short, the mother of Jesus said to him: “They have no wine.” 4  But Jesus said to her: “Woman, why is that of concern to me and to you? My hour has not yet come.” 5  His mother said to those serving: “Do whatever he tells you.” 6  Now there were six stone water jars sitting there as required by the purification rules of the Jews, each able to hold two or three liquid measures. 7  Jesus said to them: “Fill the jars with water.” So they filled them to the brim. 8  Then he said to them: “Now draw some out and take it to the director of the feast.” So they took it. 9  When the director of the feast tasted the water that had now been turned into wine, not knowing where it came from (although the servants who had drawn out the water knew), the director of the feast called the bridegroom 10  and said to him: “Everyone else puts out the fine wine first, and when people are intoxicated, the inferior. You have saved the fine wine until now.” 11  Jesus did this in Caʹna of Galʹi·lee as the beginning of his signs, and he made his glory manifest, and his disciples put their faith in him.",
-    choiceA: "Capernaum",
-    choiceB: "Bethlehem",
-    choiceC: "Cana",
-    choiceD: "Jerusalem",
-    correctAnswer: "C",
-  },
-  {
-    question:
-      "Where did Naomi's family came from before residing in Moab as a foreigner?",
-    clueSource: "Ruth 1:1, 2",
-    clueSourceContent:
-      "Now in the days when the judges administered justice, a famine occurred in the land; and a man went from Bethʹle·hem in Judah to reside as a foreigner in the fields of Moʹab, he along with his wife and his two sons. 2  The man’s name was E·limʹe·lech, his wife’s name was Na·oʹmi, and the names of his two sons were Mahʹlon and Chilʹi·on. They were Ephʹrath·ites from Bethʹle·hem in Judah. And they came to the fields of Moʹab and remained there.",
-    choiceA: "Bethlehem Ephrathah",
-    choiceB: "Moab",
-    choiceC: "Edom",
-    choiceD: "Lachish",
-    correctAnswer: "A",
-  },
+  
+  
+  
+  
+  
+  
+  
   {
     question: "Where did Rahab hide the 2 spies sent by Joshua?",
     clueSource: "Joshua 2:1-6",
