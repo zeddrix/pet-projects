@@ -466,9 +466,9 @@ const women1 = [
   },
 ];
 
-const mainMenCharacters2 = [
+const men2 = [
   {
-    question: "Who was the person to have ever lived the longest on earth?",
+    question: "Who was the man that lived the longest on earth?",
     clueSource: "Genesis 5:27",
     clueSourceContent:
       "27 So all the days of Me·thuʹse·lah amounted to 969 years, and then he died.",
@@ -697,13 +697,13 @@ const mainMenCharacters2 = [
       "Now in the days when the judges administered justice, a famine occurred in the land; and a man went from Bethʹle·hem in Judah to reside as a foreigner in the fields of Moʹab, he along with his wife and his two sons. 2  The man’s name was E·limʹe·lech, his wife’s name was Na·oʹmi, and the names of his two sons were Mahʹlon and Chilʹi·on. They were Ephʹrath·ites from Bethʹle·hem in Judah. And they came to the fields of Moʹab and remained there.",
     choiceA: "Boaz",
     choiceB: "Chilion",
-    choiceC: "Elimelech",
-    choiceD: "Mahlon",
-    correctAnswer: "D",
+    choiceC: "Mahlon",
+    choiceD: "Elimelech",
+    correctAnswer: "C",
   },
 ];
 
-const mainMenCharacters3 = [
+const men3 = [
   {
     question:
       "Jehovah set up a sign for him “in order that no one finding him would strike him.”",
