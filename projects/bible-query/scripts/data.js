@@ -1204,7 +1204,7 @@ const queens1 = [
   },
   {
     question:
-      "Who also held a banquet for the women at the royal house of King Ahasuerus?",
+      "Who held a banquet for the women at the royal house of King Ahasuerus?",
     clueSource: "Esther 1:9",
     clueSourceContent:
       "Queen Vashʹti also held a banquet for the women at the royal house of King A·has·u·eʹrus.",
@@ -1227,7 +1227,7 @@ const queens1 = [
   },
   {
     question:
-      "“She came from the ends of the earth to hear the wisdom of Solʹo·mon.”",
+      "“She came from the ends of the earth to hear the wisdom of Solomon.”",
     clueSource: "Luke 11:31",
     clueSourceContent:
       "The queen of the south will be raised up in the judgment with the men of this generation and will condemn them, for she came from the ends of the earth to hear the wisdom of Solʹo·mon. But look! something more than Solʹo·mon is here.",
@@ -1239,7 +1239,7 @@ const queens1 = [
   },
   {
     question:
-      "She was impressed by what Solomon said, by what she saw of the prosperity of his kingdom, and by his wise organization of his staff.",
+      "She was impressed by Solomon's wisdom and by what she saw of the prosperity of his kingdom.",
     clueSource: "1 Kings 10:4-7",
     clueSourceContent:
       "4 When the queen of Sheʹba had seen all the wisdom of Solʹo·mon, the house that he built, 5 the food of his table, the seating of his servants, the table service of his waiters and their attire, his cupbearers, and his burnt sacrifices that he regularly offered up at the house of Jehovah, she was left completely breathless. 6 So she said to the king: “The report that I heard in my own land about your achievements and about your wisdom was true. 7 But I did not put faith in the reports until I had come and had seen it with my own eyes. And look! I had not been told the half. You have far surpassed in wisdom and prosperity the report that I heard.",
@@ -1251,7 +1251,7 @@ const queens1 = [
   },
   {
     question:
-      "She pronounced the king’s servants happy for being able to hear his wisdom, and she blessed Jehovah for putting him on the throne. ",
+      "She pronounced Solomon's servants happy, and she praised Jehovah for putting him on the throne. ",
     clueSource: "1 Kings 10:6-9",
     clueSourceContent:
       "6 So she said to the king: “The report that I heard in my own land about your achievements and about your wisdom was true. 7 But I did not put faith in the reports until I had come and had seen it with my own eyes. And look! I had not been told the half. You have far surpassed in wisdom and prosperity the report that I heard. 8 Happy are your men, and happy are your servants who stand before you constantly, listening to your wisdom! 9 May Jehovah your God be praised, who has taken pleasure in you by putting you on the throne of Israel. Because of Jehovah’s everlasting love for Israel, he appointed you as king to administer justice and righteousness.”",
@@ -1285,7 +1285,7 @@ const queens1 = [
   },
   {
     question:
-      "Who spoke in Mordecai’s name to the king when Mordecai uncovered a plot against the king?",
+      "Who spoke in Mordecai’s name by the time he had uncovered a plot against the king?",
     clueSource: "Esther 2:20-22",
     clueSourceContent:
       " 20 Esther did not say anything about her relatives and her people, just as Morʹde·cai had instructed her; Esther continued to do what Morʹde·cai said, just as when she was under his care. 21 In those days while Morʹde·cai was sitting in the king’s gate, Bigʹthan and Teʹresh, two court officials of the king, doorkeepers, got angry and plotted to do away with King A·has·u·eʹrus. 22 But Morʹde·cai learned about it, and he immediately told Queen Esther. Esther then spoke to the king in Morʹde·cai’s name.",
@@ -1297,7 +1297,7 @@ const queens1 = [
   },
   {
     question:
-      "She approached Ahasuerus her husband in a tactful and respectful way when her life and the lives of her people were in danger.",
+      "She approached Ahasuerus her husband in a tactful and respectful way when all their lives were in danger.",
     clueSource: "Esther 7:3-6",
     clueSourceContent:
       "Queen Esther answered: “If I have found favor with you, O king, and if it pleases the king, let my life be granted as my petition, and my people as my request. 4 For we have been sold, I and my people, to be annihilated, killed, and destroyed. If we had simply been sold as male and female slaves, I would have kept silent. But the distress is not proper, for it will be damaging to the king.” 5 King A·has·u·eʹrus then said to Queen Esther: “Who is this, and where is the man who has dared to do such a thing?” 6 Esther said: “The adversary and enemy is this evil Haʹman.” Haʹman became terrified because of the king and the queen. ",
@@ -1309,7 +1309,7 @@ const queens1 = [
   },
   {
     question:
-      "Who plotted against Naboth and got him stoned to death to get his vineyard for her husband, Ahab?",
+      "Who plotted against Naboth to have his vineyard for her husband Ahab?",
     clueSource: "1 Kings 21:7-10",
     clueSourceContent:
       "7 His wife Jezʹe·bel said to him: “Are you not the one ruling as king over Israel? Get up, eat something, and let your heart be cheerful. I will give you the vineyard of Naʹboth the Jezʹre·el·ite.” 8  So she wrote letters in Aʹhab’s name and sealed them with his seal and sent the letters to the elders and the nobles who lived in Naʹboth’s city. 9  She wrote in the letters: “Proclaim a fast, and have Naʹboth sit at the head of the people. 10  And have two good-for-nothing men sit in front of him and testify against him, saying, ‘You have cursed God and the king!’ Then bring him out and stone him to death.”",
@@ -1369,7 +1369,7 @@ const queens1 = [
   },
   {
     question:
-      "Who tried to destroy the entire royal line, murdering anyone who could become ruler instead of her, even her own grandsons?",
+      "Who tried to destroy the entire royal line, destroying anyone who could become ruler instead of her?",
     clueSource: "2 Kings 11:1",
     clueSourceContent:
       "Now when Ath·a·liʹah, A·ha·ziʹah’s mother, saw that her son had died, she rose up and destroyed the entire royal line.",
@@ -1380,7 +1380,7 @@ const queens1 = [
     correctAnswer: "A",
   },
   {
-    question: "When her son died, who made herself the ruler of Judah?",
+    question: "When her son, king Ahaziah, died, she made herself the ruler of Judah.",
     clueSource: "2 Chronicles 22:11, 12",
     clueSourceContent:
       "He remained with them for six years, hidden at the house of the true God, while Ath·a·liʹah was ruling over the land.",

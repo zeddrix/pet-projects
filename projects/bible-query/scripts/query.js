@@ -7,7 +7,7 @@ let score = 0;
 const playQueryAgain = () => {
   closeRetryQueryModal();
   currentQuestion = 0;
-  q = men3[0];
+  q = queens1[0];
   count = 0;
   qIndex = 0;
   score = 0;
@@ -33,7 +33,7 @@ const renderQuestion = () => {
   const choiceB = document.getElementById("B");
   const choiceC = document.getElementById("C");
   const choiceD = document.getElementById("D");
-  let q = men3[currentQuestion];
+  let q = queens1[currentQuestion];
   
   question.innerHTML = "<p>" + q.question + "</p>";
   clueSource.innerHTML = "<h2>" + q.clueSource + "</h2>";
@@ -44,7 +44,7 @@ const renderQuestion = () => {
   choiceD.innerHTML = q.choiceD;
 };
 
-const lastQuestion = men3.length - 1;
+const lastQuestion = queens1.length - 1;
 const renderProgress = () => {
   const progress = document.getElementById("progress");
   for (qIndex; qIndex <= lastQuestion; qIndex++) {
@@ -85,7 +85,7 @@ const renderCounter = () => {
 };
 
 const checkAnswer = (answer) => {
-  if (answer == men3[currentQuestion].correctAnswer) {
+  if (answer == queens1[currentQuestion].correctAnswer) {
     score++;
     answerIsCorrect();
   } else {
@@ -102,7 +102,7 @@ const checkAnswer = (answer) => {
 };
 
 const scoreStarAndPercentage = () => {
-  const scorePercent = Math.round((100 * score) / men3.length);
+  const scorePercent = Math.round((100 * score) / queens1.length);
 
   let img =
     scorePercent == 100
@@ -129,7 +129,7 @@ const scoreStarAndPercentage = () => {
       "<p id='final-score-percentage'>" + scorePercent + "%</p>";
 }
 const scorePhrase1 = () => {
-  const scorePercent = Math.round((100 * score) / men3.length);
+  const scorePercent = Math.round((100 * score) / queens1.length);
 
   let sp1 =
     scorePercent == 100
@@ -150,7 +150,7 @@ const scorePhrase1 = () => {
     scorePhrase1Div.innerHTML = "<h1 id='score-phrase-1'>" + sp1 + "</h1>";
 }
 const scorePhrase2 = () => {
-  const scorePercent = Math.round((100 * score) / men3.length);
+  const scorePercent = Math.round((100 * score) / queens1.length);
 
   let sp2 =
     scorePercent == 100
