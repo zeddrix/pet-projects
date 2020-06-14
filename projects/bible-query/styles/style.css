@@ -227,7 +227,7 @@ a {
   width: 100%;
 }
 .progress {
-  border: 1px solid #000;
+  border: 1px solid grey;
   display: inline-block;
   border-radius: 40%;
 }
