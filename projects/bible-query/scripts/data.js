@@ -58,13 +58,14 @@ const men1 = [
   {
     question: "Who was the firstborn of Abraham?",
     clueSource: "Genesis 16:1-4",
-    clueSourceContent: "Now Aʹbram’s wife Sarʹai had borne him no children, but she had an Egyptian servant whose name was Haʹgar. 2 So Sarʹai said to Aʹbram: “Please now! Jehovah has prevented me from bearing children. Please, have relations with my servant. Perhaps I can have children by means of her.” So Aʹbram listened to what Sarʹai said. 3 After Aʹbram had lived for ten years in the land of Caʹnaan, Aʹbram’s wife Sarʹai took her Egyptian servant Haʹgar and gave her to her husband Aʹbram as his wife. 4 So he had relations with Haʹgar, and she became pregnant. When she realized that she was pregnant, she began to despise her mistress.",
+    clueSourceContent:
+      "Now Aʹbram’s wife Sarʹai had borne him no children, but she had an Egyptian servant whose name was Haʹgar. 2 So Sarʹai said to Aʹbram: “Please now! Jehovah has prevented me from bearing children. Please, have relations with my servant. Perhaps I can have children by means of her.” So Aʹbram listened to what Sarʹai said. 3 After Aʹbram had lived for ten years in the land of Caʹnaan, Aʹbram’s wife Sarʹai took her Egyptian servant Haʹgar and gave her to her husband Aʹbram as his wife. 4 So he had relations with Haʹgar, and she became pregnant. When she realized that she was pregnant, she began to despise her mistress.",
     choiceA: "Jacob",
     choiceB: "Ishmael",
     choiceC: "Isaac",
     choiceD: "Esau",
-    correctAnswer: "B"
-  },  
+    correctAnswer: "B",
+  },
   {
     question:
       "His wife began to look back at the city and became a pillar of salt.",
@@ -205,7 +206,8 @@ const men1 = [
     correctAnswer: "B",
   },
   {
-    question: "God used his angel to save whom by shutting the mouth of the lions and kept them from eating him?",
+    question:
+      "God used his angel to save whom by shutting the mouth of the lions and kept them from eating him?",
     clueSource: "Daniel 6:16-23",
     clueSourceContent:
       "16  So the king gave the order, and they brought Daniel and threw him into the pit of lions. The king said to Daniel: “Your God whom you are continually serving will rescue you.” 17  Then a stone was brought and placed over the entrance of the pit, and the king sealed it with his signet ring and with the signet ring of his nobles, so that nothing could be changed with regard to Daniel. 18  The king then went to his palace. He passed the night fasting and refused any entertainment, and he could not sleep. 19  Finally at the first light of dawn, the king got up and hurried to the lions’ pit. 20  As he got near the pit, he called out to Daniel with a sad voice. The king asked Daniel: “O Daniel, servant of the living God, has your God whom you are continually serving been able to rescue you from the lions?” 21  Daniel immediately said to the king: “O king, may you live on forever. 22  My God sent his angel and shut the mouth of the lions, and they have not harmed me, for I was found innocent before him; nor have I done any wrong to you, O king.” 23  The king was overjoyed, and he commanded that Daniel be lifted up out of the pit. When Daniel was lifted up out of the pit, he was completely unharmed, because he had trusted in his God.",
@@ -257,7 +259,8 @@ const women1 = [
     question:
       "She was an Egyptian servant who bore Abraham a son whose name was Ishmael.",
     clueSource: "Genesis 16:1-4",
-    clueSourceContent: "Now Aʹbram’s wife Sarʹai had borne him no children, but she had an Egyptian servant whose name was Haʹgar. 2 So Sarʹai said to Aʹbram: “Please now! Jehovah has prevented me from bearing children. Please, have relations with my servant. Perhaps I can have children by means of her.” So Aʹbram listened to what Sarʹai said. 3 After Aʹbram had lived for ten years in the land of Caʹnaan, Aʹbram’s wife Sarʹai took her Egyptian servant Haʹgar and gave her to her husband Aʹbram as his wife. 4 So he had relations with Haʹgar, and she became pregnant. When she realized that she was pregnant, she began to despise her mistress.",
+    clueSourceContent:
+      "Now Aʹbram’s wife Sarʹai had borne him no children, but she had an Egyptian servant whose name was Haʹgar. 2 So Sarʹai said to Aʹbram: “Please now! Jehovah has prevented me from bearing children. Please, have relations with my servant. Perhaps I can have children by means of her.” So Aʹbram listened to what Sarʹai said. 3 After Aʹbram had lived for ten years in the land of Caʹnaan, Aʹbram’s wife Sarʹai took her Egyptian servant Haʹgar and gave her to her husband Aʹbram as his wife. 4 So he had relations with Haʹgar, and she became pregnant. When she realized that she was pregnant, she began to despise her mistress.",
     choiceA: "Sarah",
     choiceB: "Zilpah",
     choiceC: "Bilhah",
@@ -382,8 +385,7 @@ const women1 = [
     correctAnswer: "A",
   },
   {
-    question:
-      "She betrayed Samson in exchange for 1,100 silver pieces.",
+    question: "She betrayed Samson in exchange for 1,100 silver pieces.",
     clueSource: "Judges 16:18-20",
     clueSourceContent:
       "18 When De·liʹlah saw that he had opened his heart to her, she immediately summoned the Phi·lisʹtine lords, saying: “Come up this time, for he has opened his heart to me.” So the Phi·lisʹtine lords came up to her, bringing the money with them. 19 She made him fall asleep on her knees; then she called the man and had him shave off the seven braids of his head. After that she began to have control over him, for his power was leaving him. 20 Now she called out: “The Phi·lisʹtines are upon you, Samson!” He woke up from his sleep and said: “I will go out as at other timesk and shake myself free.” But he did not know that Jehovah had left him.",
@@ -703,6 +705,243 @@ const men2 = [
   },
 ];
 
+const kings1 = [
+  {
+    question: "Who was considered to be the first king after the Flood?",
+    clueSource: "Genesis 10:9",
+    clueSourceContent:
+      "9 He became a mighty hunter in opposition to Jehovah. That is why there is a saying: “Just like Nimʹrod, a mighty hunter in opposition to Jehovah.”",
+    choiceA: "Nimrod",
+    choiceB: "Melchizedek",
+    choiceC: "Pharaoh",
+    choiceD: "Saul",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Abraham gave his 'tenth of everything' to this king of Salem, who was also the priest of the Most High God.",
+    clueSource: "Genesis 14:17-20",
+    clueSourceContent:
+      "17 After Aʹbram returned from defeating Ched·or·la·oʹmer and the kings who were with him, the king of Sodʹom went out to meet Aʹbram at the Valley of Shaʹveh, that is, the Valley of the King. 18  And Mel·chizʹe·dek king of Saʹlem brought out bread and wine; he was priest of the Most High God. 19  Then he blessed him and said: “Blessed be Aʹbram by the Most High God, Maker of heaven and earth; 20  And praised be the Most High God, Who has handed your oppressors over to you!” And Aʹbram gave him a tenth of everything.",
+    choiceA: "Aaron",
+    choiceB: "Melchizedek",
+    choiceC: "Moses",
+    choiceD: "Joseph",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "When he stubbornly refused to send the Israelites away, Jehovah killed every firstborn in his country.",
+    clueSource: "Exodus 13:15",
+    clueSourceContent:
+      "When Pharʹaoh stubbornly refused to send us away, Jehovah killed every firstborn in the land of Egypt, from the firstborn of man to the firstborn of beast. That is why I am sacrificing to Jehovah all the firstborn males, and I redeem every firstborn of my sons.’",
+    choiceA: "Nebuchadnezzar",
+    choiceB: "Belshazzar",
+    choiceC: "Pharaoh",
+    choiceD: "Manasseh",
+    correctAnswer: "C",
+  },
+  {
+    question: "Who was Israel's first king?",
+    clueSource: "1 Samuel 9:15-17",
+    clueSourceContent:
+      "15 The day before Saul came, Jehovah had told Samuel:  16 “Tomorrow about this time, I will send to you a man from the land of Benjamin. You must anoint him as leader over my people Israel, and he will save my people from the hand of the Phi·lisʹtines. For I have seen the affliction of my people, and their outcry has reached me.”  17 When Samuel saw Saul, Jehovah told him: “Here is the man of whom I said to you, ‘This is the one who will govern my people.’”",
+    choiceA: "Jonathan",
+    choiceB: "David",
+    choiceC: "Solomon",
+    choiceD: "Saul",
+    correctAnswer: "D",
+  },
+  {
+    question:
+      "Knowing that he was replaced by Jehovah as king, king Saul tried to destroy who?",
+    clueSource: "1 Samuel 23:16-18",
+    clueSourceContent:
+      "16 Jonʹa·than the son of Saul now went out to David at Hoʹresh, and he helped him find strength in Jehovah.  17 He said to him: “Do not be afraid, for my father Saul will not find you; you will be king over Israel, and I will become second to you; and my father Saul also knows that.”  18 Then the two of them made a covenant before Jehovah, and David stayed in Hoʹresh, and Jonʹa·than went to his home.",
+    choiceA: "David",
+    choiceB: "Abner",
+    choiceC: "Jonathan",
+    choiceD: "Uriah",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Even though he was supposed to be the next king after his father Saul, he still supported David as the anointed king of Jehovah.",
+    clueSource: "1 Samuel 23:16-18",
+    clueSourceContent:
+      "16 Jonʹa·than the son of Saul now went out to David at Hoʹresh, and he helped him find strength in Jehovah.  17 He said to him: “Do not be afraid, for my father Saul will not find you; you will be king over Israel, and I will become second to you; and my father Saul also knows that.”  18 Then the two of them made a covenant before Jehovah, and David stayed in Hoʹresh, and Jonʹa·than went to his home.",
+    choiceA: "Saul",
+    choiceB: "Jonathan",
+    choiceC: "Abner",
+    choiceD: "Uriah",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "Jehovah God granted this king “an obedient heart” to judge Israel and to discern between good and bad.",
+    clueSource: "1 Kings 3:4-14",
+    clueSourceContent:
+      "4  The king went to Gibʹe·on to sacrifice there, for that was the most prominent high place. Solʹo·mon offered 1,000 burnt sacrifices on that altar. 5  In Gibʹe·on Jehovah appeared to Solʹo·mon in a dream by night, and God said: “Ask what you would like me to give you.” 6  At this Solʹo·mon said: “You have shown great loyal love toward your servant David my father as he walked before you in faithfulness and in righteousness and in uprightness of heart. You have continued to show him this great loyal love down to this day by giving him a son to sit on his throne. 7  And now, Jehovah my God, you have made your servant king in the place of David my father, though I am just a youth and I am inexperienced. 8  Your servant is among your people whom you have chosen, a people so vast that they cannot be numbered or counted. 9  So grant your servant an obedient heart to judge your people, to discern between good and bad, for who is able to judge this numerous people of yours?” 10  It was pleasing to Jehovah that Solʹo·mon had requested this.",
+    choiceA: "David",
+    choiceB: "Josiah",
+    choiceC: "Solomon",
+    choiceD: "Hezekiah",
+    correctAnswer: "C",
+  },
+  {
+    question:
+      "Who neglected the advice of the elders of Israel, and followed his young friends’ advice instead?",
+    clueSource: "1 Kings 12:6-8",
+    clueSourceContent:
+      "6 King Re·ho·boʹam then consulted with the older men who had served his father Solʹo·mon while he was alive, saying: “What advice would you give on how to reply to this people?” 7  They answered him: “If today you would become a servant to this people and submit to their request and give them a favorable answer, they will always be your servants.” 8  However, he rejected the advice that the older men gave him, and he consulted with the young men who had grown up with him and who were now his attendants.",
+    choiceA: "Jeroboam",
+    choiceB: "Solomon",
+    choiceC: "Ahab",
+    choiceD: "Rehoboam",
+    correctAnswer: "D",
+  },
+  {
+    question:
+      "To whom did the prophet Ahijah give 10 pieces of his new garment that has been ripped into 12 pieces?",
+    clueSource: "1 Kings 11:29-31",
+    clueSourceContent:
+      "29 During that time Jer·o·boʹam went out from Jerusalem, and the prophet A·hiʹjah the Shiʹlo·nite found him on the road. A·hiʹjah was wearing a new garment, and the two of them were by themselves in the field. 30  A·hiʹjah took hold of the new garment he was wearing and ripped it into 12 pieces. 31  Then he said to Jer·o·boʹam: “Take ten pieces for yourself, for this is what Jehovah the God of Israel says: ‘Here I am ripping the kingdom out of the hand of Solʹo·mon, and I will give you ten tribes.",
+    choiceA: "Jeroboam",
+    choiceB: "Josiah",
+    choiceC: "Rehoboam",
+    choiceD: "Abijah",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "This king allowed his pagan wife Jezebel to lead him into Baal worship and to build a temple for Baal.",
+    clueSource: "1 Kings 16:30-33",
+    clueSourceContent:
+      "30 Aʹhab the son of Omʹri was worse in the eyes of Jehovah than all those who were prior to him.  31 As if it were a trivial thing for him to walk in the sins of Jer·o·boʹam the son of Neʹbat, he also took as wife Jezʹe·bel the daughter of Eth·baʹal, the king of the Si·doʹni·ans, and began to serve Baʹal and to bow down to him.  32 Further, he set up an altar to Baʹal at the house of Baʹal that he built in Sa·marʹi·a.  33 Aʹhab also made the sacred pole. Aʹhab did more to offend Jehovah the God of Israel than all the kings of Israel prior to him.",
+    choiceA: "Ahaz",
+    choiceB: "Ahab",
+    choiceC: "Jerobaom",
+    choiceD: "Solomon",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "Who was known for driving his chariot like a madman?",
+    clueSource: "2 Kings 9:20",
+    clueSourceContent:
+      "20 The watchman then reported: “He reached them, but he has not returned, and the driving is like the driving of Jeʹhu the grandson of Nimʹshi, for he drives like a madman.”",
+    choiceA: "David",
+    choiceB: "Ahab",
+    choiceC: "Jehu",
+    choiceD: "Saul",
+    correctAnswer: "C",
+  },
+  {
+    question: "Who was just 7 years old when he started to rule as king of Judah?",
+    clueSource: "2 Kings 11:21",
+    clueSourceContent: "21 Je·hoʹash was seven years old when he became king.",
+    choiceA: "Josiah",
+    choiceB: "David",
+    choiceC: "Hezekiah",
+    choiceD: "Jehoash",
+    correctAnswer: "D",
+  },
+  {
+    question:
+      "Jehovah God answered this king's prayer by sending an angel and wiped out 185,000 Assyrian soldiers.",
+    clueSource: "2 Chronicles 32:21, 22",
+    clueSourceContent:
+      "21 Then Jehovah sent an angel and wiped out every mighty warrior, leader, and chief in the camp of the king of As·syrʹi·a, so that he went back to his own land in disgrace. He later entered the house of his god, and there some of his own sons struck him down with the sword. 22  So Jehovah saved Hez·e·kiʹah and the inhabitants of Jerusalem from the hand of King Sen·nachʹer·ib of As·syrʹi·a and from the hand of all others and gave them rest on every side. 23  And many brought gifts to Jehovah at Jerusalem and choice things to King Hez·e·kiʹah of Judah, and he was greatly respected by all the nations after that.",
+    choiceA: "Hezekiah",
+    choiceB: "Josiah",
+    choiceC: "Zedekiah",
+    choiceD: "Abijah",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who was the king of Assyria that invaded Judah when Hezekiah was still its king?",
+    clueSource:
+      "13  In the 14th year of King Hez·e·kiʹah, Sen·nachʹer·ib the king of As·syrʹi·a came up against all the fortified cities of Judah and captured them.",
+    clueSourceContent: "2 Kings 18:13",
+    choiceA: "Herod Antipas",
+    choiceB: "Sennacherib",
+    choiceC: "Nebuchadnezzar",
+    choiceD: "Belshazzar",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "He did what was bad in God's eyes. But he later repented, humbled himself, and served Jehovah.",
+    clueSource: "2 Chronicles 33:1-16",
+    clueSourceContent:
+      "Ma·nasʹseh was 12 years old when he became king, and he reigned for 55 years in Jerusalem. 2 He did what was bad in Jehovah’s eyes, following the detestable practices of the nations that Jehovah had driven out from before the people of Israel.  3 He rebuilt the high places that his father Hez·e·kiʹah had torn down, he set up altars to the Baʹals and made sacred poles, and he bowed down to all the army of the heavens and served them.  4 He also built altars in the house of Jehovah, about which Jehovah had said: “In Jerusalem my name will be forever.”  5 And he built altars to all the army of the heavens in two courtyards of the house of Jehovah.  6 And he made his own sons pass through the fire in the Valley of the Son of Hinʹnom; he practiced magic, used divination, practiced sorcery, and appointed spirit mediums and fortune-tellers. He did on a grand scale what was bad in Jehovah’s eyes, to offend him. 7 He put the carved image that he made into the house of the true God about which God had said to David and to his son Solʹo·mon: “In this house and in Jerusalem, which I have chosen out of all the tribes of Israel, I will permanently put my name.  8 And I will never again remove the feet of Israel from the land that I assigned to their forefathers, provided they carefully observe all that I have commanded them, the entire Law, the regulations and the judicial decisions given through Moses.”  9 Ma·nasʹseh kept leading Judah and the inhabitants of Jerusalem astray, causing them to do worse than the nations that Jehovah had annihilated from before the Israelites. 10 Jehovah kept speaking to Ma·nasʹseh and his people, but they paid no attention.  11 So Jehovah brought against them the army chiefs of the king of As·syrʹi·a, and they captured Ma·nasʹseh with hooks and bound him with two copper fetters and took him to Babylon.  12 In his distress, he begged Jehovah his God for favor and kept humbling himself greatly before the God of his forefathers.  13 He kept praying to Him, and He was moved by his entreaty and heard his request for favor, and He restored him to Jerusalem to his kingship. Then Ma·nasʹseh came to know that Jehovah is the true God. 14 After this he built an outer wall for the City of David west of Giʹhon in the valley and as far as the Fish Gate, and he continued it around to Oʹphel, and he made it very high. Further, he appointed army chiefs in all the fortified cities in Judah.  15 He then removed the foreign gods and the idol image from the house of Jehovah and all the altars that he had built in the mountain of the house of Jehovah and in Jerusalem, and he had them thrown outside the city.  16 He also prepared the altar of Jehovah and began to offer up communion sacrifices and thanksgiving sacrifices on it, and he told Judah to serve Jehovah the God of Israel.",
+    choiceA: "Amon",
+    choiceB: "Solomon",
+    choiceC: "Mannaseh",
+    choiceD: "Jeroboam",
+    correctAnswer: "C",
+  },
+  {
+    question:
+      "His own servants conspired against him and then put him to death.",
+    clueSource: "2 Kings 21:23, 24",
+    clueSourceContent:
+      "23 Eventually Aʹmon’s servants conspired against him and put the king to death in his own house. 24 But the people of the land struck down all those who conspired against King Aʹmon, and they made his son Jo·siʹah king in his place.",
+    choiceA: "Manasseh",
+    choiceB: "Saul",
+    choiceC: "Ahab",
+    choiceD: "Amon",
+    correctAnswer: "D",
+  },
+  {
+    question: "He was just 8 years old when he started to rule as king of Judah.",
+    clueSource: "2 Kings 22:1",
+    clueSourceContent:
+      "Jo·siʹah was eight years old when he became king, and he reigned for 31 years in Jerusalem. His mother’s name was Je·diʹdah the daughter of A·daiʹah from Bozʹkath.",
+    choiceA: "Josiah",
+    choiceB: "Jehoash",
+    choiceC: "Hezekiah",
+    choiceD: "David",
+    correctAnswer: "A",
+  },
+  {
+    question: "Who was the last of the Judean kings to reign at Jerusalem?",
+    clueSource: "2 Chronicles 36:10-12",
+    clueSourceContent:
+      "10 At the start of the year, King Neb·u·chad·nezʹzar sent to have him brought to Babylon, along with valuable articles of the house of Jehovah. And he made his father’s brother Zed·e·kiʹah king over Judah and Jerusalem. 11 Zed·e·kiʹah was 21 years old when he became king, and he reigned for 11 years in Jerusalem.  12 He continued to do what was bad in the eyes of Jehovah his God. He did not humble himself before the prophet Jeremiah, who spoke at the order of Jehovah.",
+    choiceA: "Zechariah",
+    choiceB: "Zedekiah",
+    choiceC: "Josiah",
+    choiceD: "Hezekiah",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "Who saw a man’s hand that began writing on the wall of the king’s palace?",
+    clueSource: "Daniel 5:1-5",
+    clueSourceContent:
+      "As regards King Bel·shazʹzar, he held a great feast for a thousand of his nobles, and he was drinking wine in front of them. 2  While under the influence of the wine, Bel·shazʹzar gave an order to bring in the vessels of gold and silver that his father Neb·u·chad·nezʹzar had taken from the temple in Jerusalem, so that the king and his nobles, his concubines and his secondary wives could drink from them. 3  Then they brought in the gold vessels that had been taken from the temple of the house of God in Jerusalem, and the king and his nobles, his concubines and his secondary wives drank from them. 4  They drank wine, and they praised the gods of gold and silver, of copper, iron, wood, and stone. 5 At that very moment the fingers of a man’s hand appeared and began writing on the plaster of the wall of the king’s palace opposite the lampstand, and the king could see the back of the hand as it was writing.",
+    choiceA: "Cyrus",
+    choiceB: "Nebuchadnezzar",
+    choiceC: "Belshazzar",
+    choiceD: "Darius",
+    correctAnswer: "C",
+  },
+  {
+    question:
+      "He was “driven away from mankind, and he began to eat vegetation just like bulls.”",
+    clueSource: "Daniel 4:31-33",
+    clueSourceContent:
+      "31 While the word was yet in the king’s mouth, a voice came down from the heavens: “To you it is being said, O King Neb·u·chad·nezʹzar, ‘The kingdom has gone away from you, 32  and from mankind you are being driven away. With the beasts of the field your dwelling will be, and you will be given vegetation to eat just like bulls, and seven times will pass over you, until you know that the Most High is Ruler in the kingdom of mankind and that he grants it to whomever he wants.’” 33  At that moment the word was fulfilled on Neb·u·chad·nezʹzar. He was driven away from mankind, and he began to eat vegetation just like bulls, and his body became wet with the dew of the heavens, until his hair grew long just like eagles’ feathers and his nails were like birds’ claws.",
+    choiceA: "Pharaoh",
+    choiceB: "Belshazzar",
+    choiceC: "Joseph",
+    choiceD: "Nebuchadnezzar",
+    correctAnswer: "D",
+  },
+];
+
 const men3 = [
   {
     question:
@@ -935,242 +1174,6 @@ const men3 = [
     choiceB: "Timothy",
     choiceC: "Paul",
     choiceD: "Philip",
-    correctAnswer: "B",
-  },
-];
-
-const kings1 = [
-  {
-    question: "Who was considered as the first king after the Flood?",
-    clueSource: "Genesis 10:9",
-    clueSourceContent:
-      "9 He became a mighty hunter in opposition to Jehovah. That is why there is a saying: “Just like Nimʹrod, a mighty hunter in opposition to Jehovah.”",
-    choiceA: "Nimrod",
-    choiceB: "Melchizedek",
-    choiceC: "Pharaoh",
-    choiceD: "Saul",
-    correctAnswer: "A",
-  },
-  {
-    question:
-      "Abraham gave his 'tenth of everything' to this king of Salem, who was also the priest of the Most High God.",
-    clueSource: "Genesis 14:17-20",
-    clueSourceContent:
-      "17 After Aʹbram returned from defeating Ched·or·la·oʹmer and the kings who were with him, the king of Sodʹom went out to meet Aʹbram at the Valley of Shaʹveh, that is, the Valley of the King. 18  And Mel·chizʹe·dek king of Saʹlem brought out bread and wine; he was priest of the Most High God. 19  Then he blessed him and said: “Blessed be Aʹbram by the Most High God, Maker of heaven and earth; 20  And praised be the Most High God, Who has handed your oppressors over to you!” And Aʹbram gave him a tenth of everything.",
-    choiceA: "Aaron",
-    choiceB: "Melchizedek",
-    choiceC: "Moses",
-    choiceD: "Joseph",
-    correctAnswer: "B",
-  },
-  {
-    question:
-      "When he stubbornly refused to send the Israelites away, Jehovah killed every firstborn in his country.",
-    clueSource: "Exodus 13:15",
-    clueSourceContent:
-      "When Pharʹaoh stubbornly refused to send us away, Jehovah killed every firstborn in the land of Egypt, from the firstborn of man to the firstborn of beast. That is why I am sacrificing to Jehovah all the firstborn males, and I redeem every firstborn of my sons.’",
-    choiceA: "Nebuchadnezzar",
-    choiceB: "Belshazzar",
-    choiceC: "Pharaoh",
-    choiceD: "Manasseh",
-    correctAnswer: "C",
-  },
-  {
-    question: "Who was Israel's first king?",
-    clueSource: "1 Samuel 9:15-17",
-    clueSourceContent:
-      "15 The day before Saul came, Jehovah had told Samuel:  16 “Tomorrow about this time, I will send to you a man from the land of Benjamin. You must anoint him as leader over my people Israel, and he will save my people from the hand of the Phi·lisʹtines. For I have seen the affliction of my people, and their outcry has reached me.”  17 When Samuel saw Saul, Jehovah told him: “Here is the man of whom I said to you, ‘This is the one who will govern my people.’”",
-    choiceA: "Jonathan",
-    choiceB: "David",
-    choiceC: "Solomon",
-    choiceD: "Saul",
-    correctAnswer: "D",
-  },
-  {
-    question:
-      "Who was the next king in line that king Saul has tried to kill persistently?",
-    clueSource: "1 Samuel 23:16-18",
-    clueSourceContent:
-      "16 Jonʹa·than the son of Saul now went out to David at Hoʹresh, and he helped him find strength in Jehovah.  17 He said to him: “Do not be afraid, for my father Saul will not find you; you will be king over Israel, and I will become second to you; and my father Saul also knows that.”  18 Then the two of them made a covenant before Jehovah, and David stayed in Hoʹresh, and Jonʹa·than went to his home.",
-    choiceA: "David",
-    choiceB: "Abner",
-    choiceC: "Jonathan",
-    choiceD: "Uriah",
-    correctAnswer: "A",
-  },
-  {
-    question:
-      "He was the closest friend that David ever had. And he was supposed to be the next king in line after his father Saul.",
-    clueSource: "1 Samuel 18:1",
-    clueSourceContent:
-      "As soon as David had finished speaking to Saul, Jonʹa·than and David became bound together in close friendship, and Jonʹa·than began to love him as himself.",
-    choiceA: "Saul",
-    choiceB: "Jonathan",
-    choiceC: "Abner",
-    choiceD: "Uriah",
-    correctAnswer: "B",
-  },
-  {
-    question:
-      "Who asked Jehovah God for “an obedient heart” to judge Israel and discern between good and bad?",
-    clueSource: "1 Kings 3:4-14",
-    clueSourceContent: "",
-    choiceA: "David",
-    choiceB: "Josiah",
-    choiceC: "Solomon",
-    choiceD: "Hezekiah",
-    correctAnswer: "C",
-  },
-  {
-    question:
-      "Who neglected the advice of the elders of Israel, and followed his young friends’ advice instead?",
-    clueSource: "1 Kings 12:6-8",
-    clueSourceContent:
-      "6 King Re·ho·boʹam then consulted with the older men who had served his father Solʹo·mon while he was alive, saying: “What advice would you give on how to reply to this people?” 7  They answered him: “If today you would become a servant to this people and submit to their request and give them a favorable answer, they will always be your servants.” 8  However, he rejected the advice that the older men gave him, and he consulted with the young men who had grown up with him and who were now his attendants.",
-    choiceA: "Jeroboam",
-    choiceB: "Rehoboam",
-    choiceC: "Ahab",
-    choiceD: "Solomon",
-    correctAnswer: "B",
-  },
-  {
-    question:
-      "To whom did the prophet Ahijah give 10 pieces of a robe, that has been torn to 12?",
-    clueSource: "1 Kings 11:29-31",
-    clueSourceContent:
-      "29 During that time Jer·o·boʹam went out from Jerusalem, and the prophet A·hiʹjah the Shiʹlo·nite found him on the road. A·hiʹjah was wearing a new garment, and the two of them were by themselves in the field. 30  A·hiʹjah took hold of the new garment he was wearing and ripped it into 12 pieces. 31  Then he said to Jer·o·boʹam: “Take ten pieces for yourself, for this is what Jehovah the God of Israel says: ‘Here I am ripping the kingdom out of the hand of Solʹo·mon, and I will give you ten tribes.",
-    choiceA: "Josiah",
-    choiceB: "Jeroboam",
-    choiceC: "Rehoboam",
-    choiceD: "Abijah",
-    correctAnswer: "B",
-  },
-  {
-    question:
-      "This king allowed his pagan wife Jezebel to lead him into Baal worship and to build a temple for Baal.",
-    clueSource: "1 Kings 16:30-33",
-    clueSourceContent:
-      "30 Aʹhab the son of Omʹri was worse in the eyes of Jehovah than all those who were prior to him.  31 As if it were a trivial thing for him to walk in the sins of Jer·o·boʹam the son of Neʹbat, he also took as wife Jezʹe·bel the daughter of Eth·baʹal, the king of the Si·doʹni·ans, and began to serve Baʹal and to bow down to him.  32 Further, he set up an altar to Baʹal at the house of Baʹal that he built in Sa·marʹi·a.  33 Aʹhab also made the sacred pole. Aʹhab did more to offend Jehovah the God of Israel than all the kings of Israel prior to him.",
-    choiceA: "Ahaz",
-    choiceB: "Jeroboam",
-    choiceC: "Ahab",
-    choiceD: "Solomon",
-    correctAnswer: "C",
-  },
-  {
-    question:
-      "The king of Israel who was known as someone who drives his chariot like a madman.",
-    clueSource: "2 Kings 9:20",
-    clueSourceContent:
-      "20 The watchman then reported: “He reached them, but he has not returned, and the driving is like the driving of Jeʹhu the grandson of Nimʹshi, for he drives like a madman.”",
-    choiceA: "David",
-    choiceB: "Ahab",
-    choiceC: "Saul",
-    choiceD: "Jehu",
-    correctAnswer: "D",
-  },
-  {
-    question: "He was just 7 years old when he started to reign in Judah.",
-    clueSource: "2 Kings 11:21",
-    clueSourceContent: "21 Je·hoʹash was seven years old when he became king.",
-    choiceA: "Josiah",
-    choiceB: "Jehoash",
-    choiceC: "Hezekiah",
-    choiceD: "David",
-    correctAnswer: "B",
-  },
-  {
-    question:
-      "Jehovah God answered this king's prayer by sending an angel that wiped out 185,000 Assyrian soldiers.",
-    clueSource: "2 Chronicles 32:21, 22",
-    clueSourceContent:
-      "21 Then Jehovah sent an angel and wiped out every mighty warrior, leader, and chief in the camp of the king of As·syrʹi·a, so that he went back to his own land in disgrace. He later entered the house of his god, and there some of his own sons struck him down with the sword. 22  So Jehovah saved Hez·e·kiʹah and the inhabitants of Jerusalem from the hand of King Sen·nachʹer·ib of As·syrʹi·a and from the hand of all others and gave them rest on every side. 23  And many brought gifts to Jehovah at Jerusalem and choice things to King Hez·e·kiʹah of Judah, and he was greatly respected by all the nations after that.",
-    choiceA: "Zedekiah",
-    choiceB: "Josiah",
-    choiceC: "Hezekiah",
-    choiceD: "Abijah",
-    correctAnswer: "C",
-  },
-  {
-    question:
-      "Who was the king of Assyria that invaded Judah when Hezekiah was its king?",
-    clueSource:
-      "13  In the 14th year of King Hez·e·kiʹah, Sen·nachʹer·ib the king of As·syrʹi·a came up against all the fortified cities of Judah and captured them.",
-    clueSourceContent: "2 Kings 18:13",
-    choiceA: "Herod Antipas",
-    choiceB: "Belshazzar",
-    choiceC: "Nebuchadnezzar",
-    choiceD: "Sennacherib",
-    correctAnswer: "D",
-  },
-  {
-    question:
-      "This king of Judah did what was bad in Jehovah's eyes, but was later punished; he repented, he humbled himself, and he served Jehovah.",
-    clueSource: "2 Chronicles 33:1-16",
-    clueSourceContent:
-      "Ma·nasʹseh was 12 years old when he became king, and he reigned for 55 years in Jerusalem. 2 He did what was bad in Jehovah’s eyes, following the detestable practices of the nations that Jehovah had driven out from before the people of Israel.  3 He rebuilt the high places that his father Hez·e·kiʹah had torn down, he set up altars to the Baʹals and made sacred poles, and he bowed down to all the army of the heavens and served them.  4 He also built altars in the house of Jehovah, about which Jehovah had said: “In Jerusalem my name will be forever.”  5 And he built altars to all the army of the heavens in two courtyards of the house of Jehovah.  6 And he made his own sons pass through the fire in the Valley of the Son of Hinʹnom; he practiced magic, used divination, practiced sorcery, and appointed spirit mediums and fortune-tellers. He did on a grand scale what was bad in Jehovah’s eyes, to offend him. 7 He put the carved image that he made into the house of the true God about which God had said to David and to his son Solʹo·mon: “In this house and in Jerusalem, which I have chosen out of all the tribes of Israel, I will permanently put my name.  8 And I will never again remove the feet of Israel from the land that I assigned to their forefathers, provided they carefully observe all that I have commanded them, the entire Law, the regulations and the judicial decisions given through Moses.”  9 Ma·nasʹseh kept leading Judah and the inhabitants of Jerusalem astray, causing them to do worse than the nations that Jehovah had annihilated from before the Israelites. 10 Jehovah kept speaking to Ma·nasʹseh and his people, but they paid no attention.  11 So Jehovah brought against them the army chiefs of the king of As·syrʹi·a, and they captured Ma·nasʹseh with hooks and bound him with two copper fetters and took him to Babylon.  12 In his distress, he begged Jehovah his God for favor and kept humbling himself greatly before the God of his forefathers.  13 He kept praying to Him, and He was moved by his entreaty and heard his request for favor, and He restored him to Jerusalem to his kingship. Then Ma·nasʹseh came to know that Jehovah is the true God. 14 After this he built an outer wall for the City of David west of Giʹhon in the valley and as far as the Fish Gate, and he continued it around to Oʹphel, and he made it very high. Further, he appointed army chiefs in all the fortified cities in Judah.  15 He then removed the foreign gods and the idol image from the house of Jehovah and all the altars that he had built in the mountain of the house of Jehovah and in Jerusalem, and he had them thrown outside the city.  16 He also prepared the altar of Jehovah and began to offer up communion sacrifices and thanksgiving sacrifices on it, and he told Judah to serve Jehovah the God of Israel.",
-    choiceA: "Mannaseh",
-    choiceB: "Solomon",
-    choiceC: "Amon",
-    choiceD: "Jeroboam",
-    correctAnswer: "A",
-  },
-  {
-    question:
-      "His own servants conspired against him and put this king of Judah to death.",
-    clueSource: "2 Kings 21:23, 24",
-    clueSourceContent:
-      "23 Eventually Aʹmon’s servants conspired against him and put the king to death in his own house. 24 But the people of the land struck down all those who conspired against King Aʹmon, and they made his son Jo·siʹah king in his place.",
-    choiceA: "Manasseh",
-    choiceB: "Amon",
-    choiceC: "Ahab",
-    choiceD: "Saul",
-    correctAnswer: "B",
-  },
-  {
-    question: "He was just 8 years old when he reigned in Judah",
-    clueSource: "2 Kings 22:1",
-    clueSourceContent:
-      "Jo·siʹah was eight years old when he became king, and he reigned for 31 years in Jerusalem. His mother’s name was Je·diʹdah the daughter of A·daiʹah from Bozʹkath.",
-    choiceA: "Josiah",
-    choiceB: "Jehoash",
-    choiceC: "Hezekiah",
-    choiceD: "David",
-    correctAnswer: "A",
-  },
-  {
-    question: "Who was the last of the Judean kings to reign at Jerusalem?",
-    clueSource: "2 Chronicles 36:10-12",
-    clueSourceContent:
-      "10 At the start of the year, King Neb·u·chad·nezʹzar sent to have him brought to Babylon, along with valuable articles of the house of Jehovah. And he made his father’s brother Zed·e·kiʹah king over Judah and Jerusalem. 11 Zed·e·kiʹah was 21 years old when he became king, and he reigned for 11 years in Jerusalem.  12 He continued to do what was bad in the eyes of Jehovah his God. He did not humble himself before the prophet Jeremiah, who spoke at the order of Jehovah.",
-    choiceA: "Zechariah",
-    choiceB: "Zedekiah",
-    choiceC: "Josiah",
-    choiceD: "Hezekiah",
-    correctAnswer: "B",
-  },
-  {
-    question:
-      "This king saw the fingers of a man’s hand that began writing on the plaster of the wall of the king’s palace opposite the lampstand.",
-    clueSource: "Daniel 5:1-5",
-    clueSourceContent:
-      "As regards King Bel·shazʹzar, he held a great feast for a thousand of his nobles, and he was drinking wine in front of them. 2  While under the influence of the wine, Bel·shazʹzar gave an order to bring in the vessels of gold and silver that his father Neb·u·chad·nezʹzar had taken from the temple in Jerusalem, so that the king and his nobles, his concubines and his secondary wives could drink from them. 3  Then they brought in the gold vessels that had been taken from the temple of the house of God in Jerusalem, and the king and his nobles, his concubines and his secondary wives drank from them. 4  They drank wine, and they praised the gods of gold and silver, of copper, iron, wood, and stone. 5 At that very moment the fingers of a man’s hand appeared and began writing on the plaster of the wall of the king’s palace opposite the lampstand, and the king could see the back of the hand as it was writing.",
-    choiceA: "Cyrus",
-    choiceB: "Nebuchadnezzar",
-    choiceC: "Belshazzar",
-    choiceD: "Darius",
-    correctAnswer: "C",
-  },
-  {
-    question:
-      "This king “was driven away from mankind, and he began to eat vegetation just like bulls.”",
-    clueSource: "Daniel 4:31-33",
-    clueSourceContent:
-      "31 While the word was yet in the king’s mouth, a voice came down from the heavens: “To you it is being said, O King Neb·u·chad·nezʹzar, ‘The kingdom has gone away from you, 32  and from mankind you are being driven away. With the beasts of the field your dwelling will be, and you will be given vegetation to eat just like bulls, and seven times will pass over you, until you know that the Most High is Ruler in the kingdom of mankind and that he grants it to whomever he wants.’” 33  At that moment the word was fulfilled on Neb·u·chad·nezʹzar. He was driven away from mankind, and he began to eat vegetation just like bulls, and his body became wet with the dew of the heavens, until his hair grew long just like eagles’ feathers and his nails were like birds’ claws.",
-    choiceA: "Pharaoh",
-    choiceB: "Nebuchadnezzar",
-    choiceC: "Joseph",
-    choiceD: "Belshazzar",
     correctAnswer: "B",
   },
 ];
@@ -2110,7 +2113,7 @@ const wars = [
     choiceB: "Sang a song",
     choiceC: "Had a great party",
     choiceD: "Had a great feast",
-    correctAnswer: "",
+    correctAnswer: "B",
   },
 ];
 
