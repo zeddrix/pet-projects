@@ -3,6 +3,15 @@ let count = 0;
 let Timer;
 let qIndex = 0;
 let score = 0;
+let arrayOfNums = [];
+
+while (arrayOfNums.length < 20) {
+  let r = Math.floor(Math.random() * 20);
+  if (arrayOfNums.indexOf(r) === -1) arrayOfNums.push(r);
+}
+console.log(arrayOfNums);
+
+arrayOfNums.forEach(item => console.log(rivers[item].question))
 
 const playQueryAgain = () => {
   closeRetryQueryModal();
@@ -70,7 +79,7 @@ const renderCounter = () => {
   if (count <= questionTime) {
     counter.innerHTML = count;
     timeGauge.style.width = count * gaugeUnit + "%";
-    count--;
+    count++;
   } else {
     count = 0;
     answerIsWrong();
