@@ -1420,43 +1420,10 @@ const rivers = [
     clueSource: "Genesis 2:10-14",
     clueSourceContent:
       "10 Now there was a river flowing out of Eʹden to water the garden, and from there it divided into four rivers. 11  The name of the first is Piʹshon; it is the one encircling the entire land of Havʹi·lah, where there is gold. 12  The gold of that land is good. Bdellium gum and onyx stone are also there. 13  The name of the second river is Giʹhon; it is the one encircling the entire land of Cush. 14  The name of the third river is Hidʹde·kel; it is the one going to the east of As·syrʹi·a. And the fourth river is the Eu·phraʹtes.",
-    choiceA: "Nile",
-    choiceB: "Pishon",
-    choiceC: "Hiddekel",
-    choiceD: "Euphrates",
-    correctAnswer: "A",
-  },
-  {
-    question: "Which one is not included on the four rivers of Eden?",
-    clueSource: "Genesis 2:10-14",
-    clueSourceContent:
-      "10 Now there was a river flowing out of Eʹden to water the garden, and from there it divided into four rivers. 11  The name of the first is Piʹshon; it is the one encircling the entire land of Havʹi·lah, where there is gold. 12  The gold of that land is good. Bdellium gum and onyx stone are also there. 13  The name of the second river is Giʹhon; it is the one encircling the entire land of Cush. 14  The name of the third river is Hidʹde·kel; it is the one going to the east of As·syrʹi·a. And the fourth river is the Eu·phraʹtes.",
-    choiceA: "Gihon",
-    choiceB: "Jordan",
-    choiceC: "Euphrates",
-    choiceD: "Hiddekel",
-    correctAnswer: "B",
-  },
-  {
-    question: "Which one is not included on the four rivers of Eden?",
-    clueSource: "Genesis 2:10-14",
-    clueSourceContent:
-      "10 Now there was a river flowing out of Eʹden to water the garden, and from there it divided into four rivers. 11  The name of the first is Piʹshon; it is the one encircling the entire land of Havʹi·lah, where there is gold. 12  The gold of that land is good. Bdellium gum and onyx stone are also there. 13  The name of the second river is Giʹhon; it is the one encircling the entire land of Cush. 14  The name of the third river is Hidʹde·kel; it is the one going to the east of As·syrʹi·a. And the fourth river is the Eu·phraʹtes.",
-    choiceA: "Hiddekel",
-    choiceB: "Pishon",
-    choiceC: "Abanah",
-    choiceD: "Euphrates",
-    correctAnswer: "C",
-  },
-  {
-    question: "Which one is not included on the four rivers of Eden?",
-    clueSource: "Genesis 2:10-14",
-    clueSourceContent:
-      "10 Now there was a river flowing out of Eʹden to water the garden, and from there it divided into four rivers. 11  The name of the first is Piʹshon; it is the one encircling the entire land of Havʹi·lah, where there is gold. 12  The gold of that land is good. Bdellium gum and onyx stone are also there. 13  The name of the second river is Giʹhon; it is the one encircling the entire land of Cush. 14  The name of the third river is Hidʹde·kel; it is the one going to the east of As·syrʹi·a. And the fourth river is the Eu·phraʹtes.",
     choiceA: "Pishon",
     choiceB: "Gihon",
     choiceC: "Hiddekel",
-    choiceD: "Pharpar",
+    choiceD: "Abanah",
     correctAnswer: "D",
   },
   {
