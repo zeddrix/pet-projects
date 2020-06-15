@@ -1497,7 +1497,7 @@ const rivers = [
     correctAnswer: "B"
   },
   {
-    question: "What river is often referred as the “branch of the Nile”?",
+    question: "What river is often referred to as the “branch of the Nile”?",
     clueSource: "Joshua 13:3",
     clueSourceContent: "3 (from the branch of the Nile [*ft. Or “from Shihor.”] that is east of Egypt up to the border of Ekʹron to the north, which used to be considered Caʹnaan·ite territory) including that of the five lords of the Phi·lisʹtines—the Gazʹites, the Ashʹdod·ites, the Ashʹke·lon·ites, the Gitʹtites, and the Ekʹron·ites; that of the Avʹvim.",
     choiceA: "Gozan",
@@ -1507,7 +1507,7 @@ const rivers = [
     correctAnswer: "C"
   },
   {
-    question: "Jehovah miraculously divides what river to show that Elisha was Elijah's successor?",
+    question: "Jehovah has divided what river to show that Elisha was Elijah's successor?",
     clueSource: "2 Kings 2:13-15",
     clueSourceContent: "13 After that he picked up the official garment of E·liʹjah that had fallen off him and went back and stood by the bank of the Jordan.  14 Then he took the official garment of E·liʹjah that had fallen off him and struck the waters and said: “Where is Jehovah, the God of E·liʹjah?” When he struck the waters, they were divided to the left and to the right, so that E·liʹsha went across. 15 When the sons of the prophets at Jerʹi·cho saw him from a distance, they said: “The spirit of E·liʹjah has settled down on E·liʹsha.” So they went to meet him and bowed down to the ground before him.",
     choiceA: "Jordan",
@@ -1517,7 +1517,7 @@ const rivers = [
     correctAnswer: "A"
   },
   {
-    question: "One of the two rivers referred to by Naaman when scorning Elisha’s instructions to bathe himself in the Jordan river as a cure for his leprosy.",
+    question: "One of the two rivers referred by Naaman when he rejected Elisha’s instructions to cure him.",
     clueSource: "2 Kings 5:10-12",
     clueSourceContent: "10 However, E·liʹsha sent a messenger to tell him: “Go, wash seven times in the Jordan, and your flesh will be restored, and you will be clean.” 11  At this Naʹa·man became indignant and started to leave, saying: “Here I said to myself, ‘He will come out to me and stand here and call on the name of Jehovah his God, moving his hand back and forth over the leprosy to cure it.’ 12 Are not the A·baʹnah and the Pharʹpar, the rivers of Damascus, better than all the waters of Israel? Can I not wash in them and become clean?” With that he turned and went away in a rage.",
     choiceA: "Chebar",
@@ -1527,7 +1527,7 @@ const rivers = [
     correctAnswer: "B"
   },
   {
-    question: "One of the two rivers referred to by Naaman when scorning Elisha’s instructions to bathe himself in the Jordan river as a cure for his leprosy.",
+    question: "One of the two rivers referred by Naaman when he rejected Elisha’s instructions to cure him.",
     clueSource: "2 Kings 5:10-12",
     clueSourceContent: "10 However, E·liʹsha sent a messenger to tell him: “Go, wash seven times in the Jordan, and your flesh will be restored, and you will be clean.” 11  At this Naʹa·man became indignant and started to leave, saying: “Here I said to myself, ‘He will come out to me and stand here and call on the name of Jehovah his God, moving his hand back and forth over the leprosy to cure it.’ 12 Are not the A·baʹnah and the Pharʹpar, the rivers of Damascus, better than all the waters of Israel? Can I not wash in them and become clean?” With that he turned and went away in a rage.",
     choiceA: "Nile",
@@ -1537,7 +1537,7 @@ const rivers = [
     correctAnswer: "C"
   },
   {
-    question: "On what river did Naaman bathe for seven times, as instructed by God through Elisha, to get his leprous condition cured?",
+    question: "On what river did Naaman bathe for seven times to get his leprous condition cured?",
     clueSource: "2 Kings 5:10-14",
     clueSourceContent: "10 However, E·liʹsha sent a messenger to tell him: “Go, wash seven times in the Jordan, and your flesh will be restored, and you will be clean.”  11 At this Naʹa·man became indignant and started to leave, saying: “Here I said to myself, ‘He will come out to me and stand here and call on the name of Jehovah his God, moving his hand back and forth over the leprosy to cure it.’  12 Are not the A·baʹnah and the Pharʹpar, the rivers of Damascus, better than all the waters of Israel? Can I not wash in them and become clean?” With that he turned and went away in a rage. 13 His servants now approached him and said: “My father, if the prophet had told you to do something extraordinary, would you not do it? How much more, then, since he only said to you, ‘Wash and be clean’?”  14 At that he went down and plunged into the Jordan seven times, according to the word of the man of the true God. Then his flesh was restored like the flesh of a little boy, and he became clean.",
     choiceA: "Nile",
@@ -1557,7 +1557,7 @@ const rivers = [
     correctAnswer: "A"
   },
   {
-    question: "King David congregated all Israel, from what river of Egypt as far as Leʹbo-haʹmath to bring the Ark of the true God from Kiriathjearim?",
+    question: "King David congregated all Israel on what river to bring the Ark of the true God?",
     clueSource: "1 Chronicles 13:5",
     clueSourceContent: "5 So David congregated all Israel, from the river (*ft. Or “from Shihor.”) of Egypt as far as Leʹbo-haʹmath, to bring the Ark of the true God from Kirʹi·ath-jeʹa·rim.",
     choiceA: "Jordan",
@@ -1567,7 +1567,7 @@ const rivers = [
     correctAnswer: "B"
   },
   {
-    question: "On what river did Ezra assembled certain Jews and held a fast before undertaking the trek to Jerusalem?",
+    question: "On what river did Ezra assemble certain Jews and held a fast before undertaking the trek to Jerusalem?",
     clueSource: "Ezra 8:15-21",
     clueSourceContent: "15 I assembled them at the river that comes to A·haʹva, and we camped there for three days. But when I examined the people and the priests, I did not find any of the Levites there.  16 So I sent for E·li·eʹzer, Arʹi·el, She·maiʹah, El·naʹthan, Jaʹrib, El·naʹthan, Nathan, Zech·a·riʹah, and Me·shulʹlam, who were leading men, and for Joiʹa·rib and El·naʹthan, who were instructors.  17 Then I gave them a command concerning Idʹdo the leader in the place called Ca·si·phiʹa. I told them to tell Idʹdo and his brothers, the temple servants who were in Ca·si·phiʹa, to bring to us ministers for the house of our God.  18 Since the good hand of our God was upon us, they brought a discreet man from the sons of Mahʹli the grandson of Leʹvi the son of Israel, namely, She·re·biʹah, and his sons and his brothers, 18 men;  19 and Hash·a·biʹah, and with him Je·shaʹiah from the Me·rarʹites, his brothers and their sons, 20 men.  20 And there were 220 of the temple servants, whom David and the princes gave to the service of the Levites, all of whom had been designated by name. 21 Then I proclaimed a fast there at the river A·haʹva, to humble ourselves before our God, to seek guidance from him for our journey, for us and for our children and for all our goods.",
     choiceA: "Jordan",
@@ -1587,7 +1587,7 @@ const rivers = [
     correctAnswer: "D"
   },
   {
-    question: "It was on the banks of what river that Daniel received the vision concerning “the king of the north” and “the king of the south”?",
+    question: "On the banks of what river did Daniel receive the vision concerning the king of the “north” and “south”?",
     clueSource: "Daniel 10:4",
     clueSourceContent: "4 On the 24th day of the first month, while I was on the bank of the great river, the Tiʹgris (*ft. Hiddekel).",
     choiceA: "Hiddekel",

@@ -7,7 +7,7 @@ let score = 0;
 const playQueryAgain = () => {
   closeRetryQueryModal();
   currentQuestion = 0;
-  q = queens1[0];
+  q = rivers[0];
   count = 0;
   qIndex = 0;
   score = 0;
@@ -33,7 +33,7 @@ const renderQuestion = () => {
   const choiceB = document.getElementById("B");
   const choiceC = document.getElementById("C");
   const choiceD = document.getElementById("D");
-  let q = queens1[currentQuestion];
+  let q = rivers[currentQuestion];
 
   question.innerHTML = "<p>" + q.question + "</p>";
   clueSource.innerHTML = "<h2>" + q.clueSource + "</h2>";
@@ -44,7 +44,7 @@ const renderQuestion = () => {
   choiceD.innerHTML = q.choiceD;
 };
 
-const lastQuestion = queens1.length - 1;
+const lastQuestion = rivers.length - 1;
 const renderProgress = () => {
   const progress = document.getElementById("progress");
   for (qIndex; qIndex <= lastQuestion; qIndex++) {
@@ -70,7 +70,7 @@ const renderCounter = () => {
   if (count <= questionTime) {
     counter.innerHTML = count;
     timeGauge.style.width = count * gaugeUnit + "%";
-    count++;
+    count--;
   } else {
     count = 0;
     answerIsWrong();
@@ -85,7 +85,7 @@ const renderCounter = () => {
 };
 
 const checkAnswer = (answer) => {
-  if (answer == queens1[currentQuestion].correctAnswer) {
+  if (answer == rivers[currentQuestion].correctAnswer) {
     score++;
     answerIsCorrect();
   } else {
@@ -102,7 +102,7 @@ const checkAnswer = (answer) => {
 };
 
 const scoreStarAndPercentage = () => {
-  const scorePercent = Math.round((100 * score) / queens1.length);
+  const scorePercent = Math.round((100 * score) / rivers.length);
 
   let img =
     scorePercent == 100
@@ -129,7 +129,7 @@ const scoreStarAndPercentage = () => {
     "<p id='final-score-percentage'>" + scorePercent + "%</p>";
 }
 const scorePhrase1 = () => {
-  const scorePercent = Math.round((100 * score) / queens1.length);
+  const scorePercent = Math.round((100 * score) / rivers.length);
 
   let sp1 =
     scorePercent == 100
@@ -150,7 +150,7 @@ const scorePhrase1 = () => {
   scorePhrase1Div.innerHTML = "<h1 id='score-phrase-1'>" + sp1 + "</h1>";
 }
 const scorePhrase2 = () => {
-  const scorePercent = Math.round((100 * score) / queens1.length);
+  const scorePercent = Math.round((100 * score) / rivers.length);
 
   let sp2 =
     scorePercent == 100
@@ -176,7 +176,7 @@ const finalScore = () => {
 };
 
 // // STARTING CODE FOR SHOWING ALL LEVELS
-// const showAllLevels = ['-------------------', 'men1', 'women1', 'men2', 'kings1', 'men3', 'queens1', 'rivers', '-------------------'];
+// const showAllLevels = ['-------------------', 'men1', 'women1', 'men2', 'kings1', 'men3', 'rivers', 'rivers', '-------------------'];
 // showAllLevels.forEach(function (levelCategories, levelNumber) {
 //   const levelString = "level ";
 //   const showEachLevel = levelString + levelNumber + " - " + levelCategories;
