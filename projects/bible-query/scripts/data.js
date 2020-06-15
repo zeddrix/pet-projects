@@ -1414,241 +1414,242 @@ const queens1 = [
   },
 ];
 
-const numbersAndDates = [
+const rivers = [
   {
-    question: "On what “day” did God create man?",
-    clueSource: "Genesis 1:31",
+    question: "Which one is not included on the four rivers of Eden?",
+    clueSource: "Genesis 2:10-14",
     clueSourceContent:
-      "31 After that God saw everything he had made, and look! it was very good. And there was evening and there was morning, a sixth day.",
-    choiceA: "on the first “day”",
-    choiceB: "on the third “day”",
-    choiceC: "on the fourth “day”",
-    choiceD: "on the sixth “day”",
-    correctAnswer: "D",
-  },
-  {
-    question:
-      "How many living creatures did Ezekiel saw in the vision when he was by the river Chebar?",
-    clueSource: "Ezekiel 1:5",
-    clueSourceContent:
-      "5 Within it were what looked like four living creatures, and the appearance of each one was like that of a human.",
-    choiceA: "2 creatures",
-    choiceB: "4 creatures",
-    choiceC: "7 creatures",
-    choiceD: "12 creatures",
-    correctAnswer: "B",
-  },
-  {
-    question: "What was the first world power of Bible history?",
-    clueSource: "Awake! November 2010 p. 15",
-    clueSourceContent:
-      "EGYPT, famous for its pyramids and the Nile River, was the first world power of Bible history. Under its shadow the nation of Israel was formed. Moses, who penned the first five books of the Bible, was born and educated in Egypt. Do secular history and archaeology corroborate what Moses wrote about that ancient land? Consider some examples.",
-    choiceA: "Rome",
-    choiceB: "Greece",
-    choiceC: "Assyria",
-    choiceD: "Egypt",
-    correctAnswer: "D",
-  },
-  {
-    question: "When was Jerusalem destroyed by the Romans?",
-    clueSource: "Insight on the Scriptures Volume 2, [Jerusalem] p. 49",
-    clueSourceContent:
-      "Neither Jesus nor his apostles foretold any restoration by God of earthly Jerusalem and its temple to come after the city’s divinely decreed destruction, which occurred in 70 C.E.",
-    choiceA: "33 C.E.",
-    choiceB: "70 C.E",
-    choiceC: "607 B.C.E.",
-    choiceD: "607 C.E.",
-    correctAnswer: "B",
-  },
-  {
-    question:
-      "According to Jesus' illustration, the Kingdom of the heavens may be likened to how many virgins who took their lamps and went out to meet the bridegroom?",
-    clueSource: "Matthew 25:1-12",
-    clueSourceContent:
-      "“Then the Kingdom of the heavens may be likened to ten virgins who took their lamps and went out to meet the bridegroom. 2  Five of them were foolish, and five were discreet. 3  For the foolish took their lamps but took no oil with them, 4  whereas the discreet took oil in their flasks along with their lamps. 5  While the bridegroom was delaying, they all became drowsy and fell asleep. 6  Right in the middle of the night there was a shout: ‘Here is the bridegroom! Go out to meet him.’ 7  Then all those virgins got up and put their lamps in order. 8  The foolish said to the discreet, ‘Give us some of your oil, because our lamps are about to go out.’ 9  The discreet answered, saying: ‘Perhaps there may not be enough for both us and you. Go instead to those who sell it, and buy some for yourselves.’ 10  While they were going off to buy it, the bridegroom came. The virgins who were ready went in with him to the marriage feast, and the door was shut. 11  Afterward, the rest of the virgins also came, saying, ‘Sir, Sir, open to us!’ 12  In answer he said, ‘I tell you the truth, I do not know you.’",
-    choiceA: "3 virgins",
-    choiceB: "5 virgins",
-    choiceC: "7 virgins",
-    choiceD: "10 virgins",
-    correctAnswer: "D",
-  },
-  {
-    question: "How old was Josiah when he began to rule as king of Judah?",
-    clueSource: "2 Kings 22:1",
-    clueSourceContent:
-      "Jo·siʹah was eight years old when he became king, and he reigned for 31 years in Jerusalem. His mother’s name was Je·diʹdah the daughter of A·daiʹah from Bozʹkath.",
-    choiceA: "7 years old",
-    choiceB: "8 years old",
-    choiceC: "9 years old",
-    choiceD: "10 years old",
-    correctAnswer: "B",
-  },
-  {
-    question: "What does the number '6' mean in the Bible?",
-    clueSource: "Insight on the Scriptures Volume 2, [Number, Numeral] p. 512",
-    clueSourceContent:
-      "Six. This number at times represents imperfection. The number of “the wild beast” is 666 and is called “a man’s number,” indicating that it has to do with imperfect, fallen man, and it seems to symbolize the imperfection of that which is represented by “the wild beast.” The number six being emphasized to a third degree (the six appearing in the position of units, tens, and hundreds) therefore highlights the imperfection and deficiency of that which the beast represents, or pictures.​—Re 13:18.",
-    choiceA: "Perfection",
-    choiceB: "Imperfection",
-    choiceC: "Unity",
-    choiceD: "Completeness",
-    correctAnswer: "B",
-  },
-  {
-    question: "What does the number '7' mean in the Bible?",
-    clueSource: "Insight on the Scriptures Volume 2, [Number, Numeral] p. 512",
-    clueSourceContent:
-      "Seven. Seven is used frequently in the Scriptures to signify completeness. At times it has reference to bringing a work toward completion. Or it can refer to the complete cycle of things as established or allowed by God. By completing his work toward the earth in six creative days and resting on the seventh day, Jehovah set the pattern for the whole Sabbath arrangement, from the seven-day week to the Jubilee year that followed the seven-times-seven–year cycle. (Ex 20:10; Le 25:2, 6, 8) The Festival of Unleavened Bread and the Festival of Booths were each seven days long. (Ex 34:18; Le 23:34) Seven appears often in connection with the Levitical rules for offerings (Le 4:6; 16:14, 19; Nu 28:11) and for cleansings.​—Le 14:7, 8, 16, 27, 51; 2Ki 5:10.",
-    choiceA: "Perfection",
-    choiceB: "Imperfection",
-    choiceC: "Unity",
-    choiceD: "Completeness",
-    correctAnswer: "D",
-  },
-  {
-    question:
-      "How long did the rain poured down on the earth, causing the Flood?",
-    clueSource: "Genesis 7:12",
-    clueSourceContent:
-      "12 And the rain poured down on the earth for 40 days and 40 nights.",
-    choiceA: "3 days and 3 nights",
-    choiceB: "4 days and 4 nights",
-    choiceC: "40 days and 40 nights",
-    choiceD: "40 days and 40 years",
-    correctAnswer: "C",
-  },
-  {
-    question:
-      "On what year was the holy spirit poured out by Jesus Chirst on the group of about 120 disciples?",
-    clueSource: "Insight on the Scriptures Volume 2, [Pentecost] p. 599",
-    clueSourceContent:
-      "Symbolic Significance of the Festival. It was on the day of Pentecost that the holy spirit was poured out by Jesus Christ on the group of about 120 disciples in the upper room at Jerusalem in the year 33 C.E. (Ac 1:13-15) Jesus had been resurrected on Nisan 16, the day of the offering of the barley sheaf by the high priest.",
-    choiceA: "1 C.E.",
-    choiceB: "29 C.E.",
-    choiceC: "30 C.E.",
-    choiceD: "33 C.E.",
-    correctAnswer: "D",
-  },
-  {
-    question:
-      "Jehovah promised Gideon how many men to conquer the 135,000 Midianite soldiers?",
-    clueSource: "Judges 7:7",
-    clueSourceContent:
-      "7 Jehovah now said to Gidʹe·on: “I will save you with the 300 men who lapped the water, and I will give Midʹi·an into your hand. But let all the other people go back home.”",
-    choiceA: "300 men",
-    choiceB: "3,000 men",
-    choiceC: "30,000 men",
-    choiceD: "185,000 men",
+      "10 Now there was a river flowing out of Eʹden to water the garden, and from there it divided into four rivers. 11  The name of the first is Piʹshon; it is the one encircling the entire land of Havʹi·lah, where there is gold. 12  The gold of that land is good. Bdellium gum and onyx stone are also there. 13  The name of the second river is Giʹhon; it is the one encircling the entire land of Cush. 14  The name of the third river is Hidʹde·kel; it is the one going to the east of As·syrʹi·a. And the fourth river is the Eu·phraʹtes.",
+    choiceA: "Nile",
+    choiceB: "Pishon",
+    choiceC: "Hiddekel",
+    choiceD: "Euphrates",
     correctAnswer: "A",
   },
   {
-    question: "How many years did the devastation of the land of Judah occur?",
-    clueSource: "Daniel 9:2",
+    question: "Which one is not included on the four rivers of Eden?",
+    clueSource: "Genesis 2:10-14",
     clueSourceContent:
-      "2 In the first year of his reign I, Daniel, discerned by the books the number of years mentioned in the word of Jehovah to Jeremiah the prophet to fulfill the desolation of Jerusalem, namely, 70 years.",
-    choiceA: "7 years",
-    choiceB: "40 years",
-    choiceC: "69 years",
-    choiceD: "70 years",
-    correctAnswer: "D",
+      "10 Now there was a river flowing out of Eʹden to water the garden, and from there it divided into four rivers. 11  The name of the first is Piʹshon; it is the one encircling the entire land of Havʹi·lah, where there is gold. 12  The gold of that land is good. Bdellium gum and onyx stone are also there. 13  The name of the second river is Giʹhon; it is the one encircling the entire land of Cush. 14  The name of the third river is Hidʹde·kel; it is the one going to the east of As·syrʹi·a. And the fourth river is the Eu·phraʹtes.",
+    choiceA: "Gihon",
+    choiceB: "Jordan",
+    choiceC: "Euphrates",
+    choiceD: "Hiddekel",
+    correctAnswer: "B",
   },
   {
-    question: "How many sons and daughters did Job have?",
-    clueSource: "Job 42:13",
+    question: "Which one is not included on the four rivers of Eden?",
+    clueSource: "Genesis 2:10-14",
     clueSourceContent:
-      "13 He also came to have seven more sons and three more daughters.",
-    choiceA: "He had no children",
-    choiceB: "10 children",
-    choiceC: "20 children",
-    choiceD: "40 children",
+      "10 Now there was a river flowing out of Eʹden to water the garden, and from there it divided into four rivers. 11  The name of the first is Piʹshon; it is the one encircling the entire land of Havʹi·lah, where there is gold. 12  The gold of that land is good. Bdellium gum and onyx stone are also there. 13  The name of the second river is Giʹhon; it is the one encircling the entire land of Cush. 14  The name of the third river is Hidʹde·kel; it is the one going to the east of As·syrʹi·a. And the fourth river is the Eu·phraʹtes.",
+    choiceA: "Hiddekel",
+    choiceB: "Pishon",
+    choiceC: "Abanah",
+    choiceD: "Euphrates",
     correctAnswer: "C",
   },
   {
-    question: "On what year did Jesus Christ became a Messiah?",
-    clueSource: "What Can the Bible Teach Us?, Chapter 4, par. 8",
+    question: "Which one is not included on the four rivers of Eden?",
+    clueSource: "Genesis 2:10-14",
     clueSourceContent:
-      "8 Jehovah has made it very clear that Jesus is the Messiah. God promised to give John the Baptizer a sign so that he would know who the Messiah was. When Jesus went to John to get baptized in the Jordan River in the year 29 C.E., John saw that sign. The Bible tells us what happened: “After being baptized, Jesus immediately came up from the water; and look! the heavens were opened up, and he saw God’s spirit descending like a dove and coming upon him. Look! Also, a voice from the heavens said: ‘This is my Son, the beloved, whom I have approved.’” (Matthew 3:16, 17) When John saw and heard this sign, he knew that Jesus was the Messiah. (John 1:32-34) On that day, when Jehovah poured out his spirit  on him, Jesus became the Messiah. He was the one whom God had chosen to be Leader and King.​—Isaiah 55:4.",
-    choiceA: "1 C.E.",
-    choiceB: "29 C.E.",
-    choiceC: "30 C.E.",
-    choiceD: "33 C.E.",
-    correctAnswer: "B",
-  },
-  {
-    question:
-      "On the first occasion, how many loaves and fish did Jesus feed a crowd?",
-    clueSource: "Mark 6:41",
-    clueSourceContent:
-      "41 Taking now the five loaves and the two fish, he looked up to heaven and said a blessing. Then he broke the loaves up and began giving them to the disciples to place them before the people, and he divided up the two fish for all.",
-    choiceA: "2 loaves and 5 fish",
-    choiceB: "5 loaves and 2 fish",
-    choiceC: "3 loaves and 5 fish",
-    choiceD: "5 loaves and 3 fish",
-    correctAnswer: "B",
-  },
-  {
-    question: "How many years did it take to complete the Bible?",
-    clueSource: "What Can the Bible Teach Us?, Chapter 2, par. 6",
-    clueSourceContent:
-      "6 It took more than 1,600 years to write the Bible. Its writers lived at different times. Some were well-educated and others were not. For example, one was a doctor. Others were farmers, fishermen, shepherds, prophets, judges, and kings. Even though there were different writers, all parts of the Bible agree. It doesn’t say one thing in one chapter and the opposite in another.",
-    choiceA: "1,200 years",
-    choiceB: "1,600 years",
-    choiceC: "1,914 years",
-    choiceD: "2,000 years",
-    correctAnswer: "B",
-  },
-  {
-    question:
-      "When did the Babylonians, under king Nebuchadnezzar, invade Jerusalem and its temple?",
-    clueSource:
-      "nwt A6-B, Chart: Prophets and Kings of Judah and of Israel (Part 2)",
-    clueSourceContent:
-      "Zedekiah: 11 years. Jerusalem and its temple are destroyed by the invading Babylonians under Nebuchadnezzar. Zedekiah, the last earthly king in the Davidic line, is dethroned.",
-    choiceA: "537 B.C.E",
-    choiceB: "607 B.C.E.",
-    choiceC: "33 C.E.",
-    choiceD: "1914 C.E.",
-    correctAnswer: "B",
-  },
-  {
-    question: "According to the Jewish calendar, on what date did Jesus die?",
-    clueSource: "What Can the Bible Teach Us?, Chapter 5 par. 13",
-    clueSourceContent:
-      "13 How was the ransom paid? Jesus gave his Father the value of his life. In the year 33, on Nisan 14 of the Jewish calendar, Jehovah allowed Jesus’ enemies to kill him. (Hebrews 10:10) Three days after that, Jehovah brought Jesus back to life, not as a human, but as a spirit person. Later, when Jesus returned to his Father in heaven, he presented the value of his perfect human life to Jehovah as the ransom. (Hebrews 9:24) Now that the ransom has been paid, we have the opportunity to be set free from sin and death.​—Read Romans 3:23, 24.",
-    choiceA: "Nisan 40",
-    choiceB: "Nisan 13",
-    choiceC: "Nisan 14",
-    choiceD: "Nisan 33",
-    correctAnswer: "C",
-  },
-  {
-    question:
-      "How many years did Jehovah made Israel wander about in the wilderness?",
-    clueSource: "Numbers 32:13",
-    clueSourceContent:
-      "13 So Jehovah’s anger blazed against Israel and he made them wander about in the wilderness for 40 years, until all the generation that was doing evil in the eyes of Jehovah came to its end.",
-    choiceA: "20 years",
-    choiceB: "40 years",
-    choiceC: "70 years",
-    choiceD: "80 years",
-    correctAnswer: "B",
-  },
-  {
-    question:
-      "When did Jehovah God made Jesus, the Messiah, King of God’s Kingdom in heaven?",
-    clueSource: "What Can the Bible Teach Us?, Endnote 22",
-    clueSourceContent:
-      "The length of the “seven times”: The “seven times” lasted for 2,520 years. If we count 2,520 years from the year 607 B.C.E., we end up at the year 1914. That was when Jehovah made Jesus, the Messiah, King of God’s Kingdom in heaven.",
-    choiceA: "607 B.C.E.",
-    choiceB: "29 C.E.",
-    choiceC: "33 C.E.",
-    choiceD: "1914 C.E.",
+      "10 Now there was a river flowing out of Eʹden to water the garden, and from there it divided into four rivers. 11  The name of the first is Piʹshon; it is the one encircling the entire land of Havʹi·lah, where there is gold. 12  The gold of that land is good. Bdellium gum and onyx stone are also there. 13  The name of the second river is Giʹhon; it is the one encircling the entire land of Cush. 14  The name of the third river is Hidʹde·kel; it is the one going to the east of As·syrʹi·a. And the fourth river is the Eu·phraʹtes.",
+    choiceA: "Pishon",
+    choiceB: "Gihon",
+    choiceC: "Hiddekel",
+    choiceD: "Pharpar",
     correctAnswer: "D",
   },
-];
-
-const places = [
-  
+  {
+    question: "In Pharaoh's dream, he saw the 7 fat and 7 thin cows coming up from what river?",
+    clueSource: "Genesis 41:1-4",
+    clueSourceContent: " At the end of two full years, Pharʹaoh dreameda that he was standing by the Nile River. 2  And there, coming up from the river, were seven fine-looking, fat cows, and they were feeding on the Nile grass.b 3  There were seven other cows that looked ugly and thin coming up after them from the Nile, and they stood alongside the fat cows by the bank of the Nile. 4  Then the ugly, thin cows began to eat up the seven fine-looking, fat cows. At this Pharʹaoh woke up.",
+    choiceA: "Nile",
+    choiceB: "Abanah",
+    choiceC: "Jordan",
+    choiceD: "Red Sea",
+    correctAnswer: "A"
+  },
+  {
+    question: "On what river was Pharaoh's daughter bathing?",
+    clueSource: "Exodus 2:5",
+    clueSourceContent: "5 When Pharʹaoh’s daughter came down to bathe in the Nile, her female attendants were walking by the side of the Nile. And she caught sight of the basket in the middle of the reeds. She immediately sent her slave girl to get it.",
+    choiceA: "Jordan",
+    choiceB: "Nile",
+    choiceC: "Tigris",
+    choiceD: "Euphrates",
+    correctAnswer: "B"
+  },
+  {
+    question: "On what river did Pharaoh's daughter find baby Moses?",
+    clueSource: "Exodus 2:5-10",
+    clueSourceContent: "5 When Pharʹaoh’s daughter came down to bathe in the Nile, her female attendants were walking by the side of the Nile. And she caught sight of the basket in the middle of the reeds. She immediately sent her slave girl to get it.  6 When she opened it, she saw the child, and the boy was crying. She felt compassion for him, but she said: “This is one of the children of the Hebrews.”  7 Then his sister said to Pharʹaoh’s daughter: “Shall I go and call a nursing woman from the Hebrews to nurse the child for you?”  8 Pharʹaoh’s daughter said to her: “Go!” At once the girl went and called the child’s mother.  9 Pharʹaoh’s daughter then said to her: “Take this child with you and nurse him for me, and I will pay you.” So the woman took the child and nursed him.  10 When the child grew older, she brought him to Pharʹaoh’s daughter, and he became a son to her. She named him Moses and said: “It is because I have drawn him out of the water.”",
+    choiceA: "Gihon",
+    choiceB: "Jordan",
+    choiceC: "Nile",
+    choiceD: "Gozan",
+    correctAnswer: "C"
+  },
+  {
+    question: "Jehovah turned all the water of what river into blood?",
+    clueSource: "Exodus 7:17-21",
+    clueSourceContent: "17 This is what Jehovah says: “By this you will know that I am Jehovah. Here I am striking the water that is in the Nile River with the rod that is in my hand, and it will turn into blood.  18 And the fish that are in the Nile will die, and the Nile will stink, and the Egyptians will find it impossible to drink water from the Nile.”’” 19 Then Jehovah said to Moses: “Say to Aaron, ‘Take your rod and stretch out your hand over the waters of Egypt, over its rivers, over its canals, over its marshes, and over all its reservoirs, that they may become blood.’ There will be blood in all the land of Egypt, even in the wooden and stone containers.”  20 Immediately Moses and Aaron did just as Jehovah had commanded. He lifted up the rod and struck the water that was in the Nile River before the eyes of Pharʹaoh and his servants, and all the water that was in the river was turned into blood.  21 And the fish that were in the river died, and the river began to stink, and the Egyptians were unable to drink water from the Nile, and there was blood throughout the land of Egypt.",
+    choiceA: "Chebar",
+    choiceB: "Ahava",
+    choiceC: "Jordan",
+    choiceD: "Nile",
+    correctAnswer: "D"
+  },
+  {
+    question: "Where did all the frogs of the second plague in Egypt come from?",
+    clueSource: "Exodus 8:3, 4",
+    clueSourceContent: "3  And the Nile River will swarm with frogs, and they will come up and enter into your house, into your bedroom, on your bed, into the houses of your servants and on your people, into your ovens, and into your kneading troughs. 4  On you, on your people, and on all your servants, the frogs will come up.”’”",
+    choiceA: "Nile",
+    choiceB: "Jordan",
+    choiceC: "Red Sea",
+    choiceD: "Chebar",
+    correctAnswer: "A"
+  },
+  {
+    question: "Jehovah used Moses to divide the waters of what river?",
+    clueSource: "Exodus 14:15, 16",
+    clueSourceContent: "15 Jehovah now said to Moses: “Why do you keep crying out to me? Tell the Israelites that they should break camp. 16  As for you, lift up your rod and stretch out your hand over the sea and divide it, so that the Israelites may go through the midst of the sea on dry ground.",
+    choiceA: "Nile",
+    choiceB: "Red Sea",
+    choiceC: "Jordan",
+    choiceD: "It was not a river.",
+    correctAnswer: "D"
+  },
+  {
+    question: "Jehovah miraculously dammed up what river, making it possible for the Israelites to cross on dry land?",
+    clueSource: "Joshua 3:14-17",
+    clueSourceContent: "14 So when the people departed from their tents just before crossing the Jordan, the priests carrying the ark of the covenant went ahead of the people.  15 As soon as the carriers of the Ark reached the Jordan and the priests carrying the Ark dipped their feet into the edge of the waters (now the Jordan overflows its banks all the days of harvest),  16 the waters flowing from upstream stood still. They rose up like a dam very far away at Adam, the city near Zarʹe·than, while the waters descending toward the Sea of the Arʹa·bah, the Salt Sea, drained away. They were halted, and the people crossed over opposite Jerʹi·cho.  17 While the priests carrying the ark of Jehovah’s covenant kept standing still on dry ground in the middle of the Jordan, all Israel crossed over on dry ground until the whole nation had finished crossing the Jordan.",
+    choiceA: "Nile",
+    choiceB: "Jordan",
+    choiceC: "Gozan",
+    choiceD: "Euphrates",
+    correctAnswer: "B"
+  },
+  {
+    question: "What river is often referred as the “branch of the Nile”?",
+    clueSource: "Joshua 13:3",
+    clueSourceContent: "3 (from the branch of the Nile [*ft. Or “from Shihor.”] that is east of Egypt up to the border of Ekʹron to the north, which used to be considered Caʹnaan·ite territory) including that of the five lords of the Phi·lisʹtines—the Gazʹites, the Ashʹdod·ites, the Ashʹke·lon·ites, the Gitʹtites, and the Ekʹron·ites; that of the Avʹvim.",
+    choiceA: "Gozan",
+    choiceB: "Pharpar",
+    choiceC: "Shihor",
+    choiceD: "Gihon",
+    correctAnswer: "C"
+  },
+  {
+    question: "Jehovah miraculously divides what river to show that Elisha was Elijah's successor?",
+    clueSource: "2 Kings 2:13-15",
+    clueSourceContent: "13 After that he picked up the official garment of E·liʹjah that had fallen off him and went back and stood by the bank of the Jordan.  14 Then he took the official garment of E·liʹjah that had fallen off him and struck the waters and said: “Where is Jehovah, the God of E·liʹjah?” When he struck the waters, they were divided to the left and to the right, so that E·liʹsha went across. 15 When the sons of the prophets at Jerʹi·cho saw him from a distance, they said: “The spirit of E·liʹjah has settled down on E·liʹsha.” So they went to meet him and bowed down to the ground before him.",
+    choiceA: "Jordan",
+    choiceB: "Pishon",
+    choiceC: "Nile",
+    choiceD: "Tigris",
+    correctAnswer: "A"
+  },
+  {
+    question: "One of the two rivers referred to by Naaman when scorning Elisha’s instructions to bathe himself in the Jordan river as a cure for his leprosy.",
+    clueSource: "2 Kings 5:10-12",
+    clueSourceContent: "10 However, E·liʹsha sent a messenger to tell him: “Go, wash seven times in the Jordan, and your flesh will be restored, and you will be clean.” 11  At this Naʹa·man became indignant and started to leave, saying: “Here I said to myself, ‘He will come out to me and stand here and call on the name of Jehovah his God, moving his hand back and forth over the leprosy to cure it.’ 12 Are not the A·baʹnah and the Pharʹpar, the rivers of Damascus, better than all the waters of Israel? Can I not wash in them and become clean?” With that he turned and went away in a rage.",
+    choiceA: "Chebar",
+    choiceB: "Abanah",
+    choiceC: "Gozan",
+    choiceD: "Jordan",
+    correctAnswer: "B"
+  },
+  {
+    question: "One of the two rivers referred to by Naaman when scorning Elisha’s instructions to bathe himself in the Jordan river as a cure for his leprosy.",
+    clueSource: "2 Kings 5:10-12",
+    clueSourceContent: "10 However, E·liʹsha sent a messenger to tell him: “Go, wash seven times in the Jordan, and your flesh will be restored, and you will be clean.” 11  At this Naʹa·man became indignant and started to leave, saying: “Here I said to myself, ‘He will come out to me and stand here and call on the name of Jehovah his God, moving his hand back and forth over the leprosy to cure it.’ 12 Are not the A·baʹnah and the Pharʹpar, the rivers of Damascus, better than all the waters of Israel? Can I not wash in them and become clean?” With that he turned and went away in a rage.",
+    choiceA: "Nile",
+    choiceB: "Jordan",
+    choiceC: "Pharpar",
+    choiceD: "Gihon",
+    correctAnswer: "C"
+  },
+  {
+    question: "On what river did Naaman bathe for seven times, as instructed by God through Elisha, to get his leprous condition cured?",
+    clueSource: "2 Kings 5:10-14",
+    clueSourceContent: "10 However, E·liʹsha sent a messenger to tell him: “Go, wash seven times in the Jordan, and your flesh will be restored, and you will be clean.”  11 At this Naʹa·man became indignant and started to leave, saying: “Here I said to myself, ‘He will come out to me and stand here and call on the name of Jehovah his God, moving his hand back and forth over the leprosy to cure it.’  12 Are not the A·baʹnah and the Pharʹpar, the rivers of Damascus, better than all the waters of Israel? Can I not wash in them and become clean?” With that he turned and went away in a rage. 13 His servants now approached him and said: “My father, if the prophet had told you to do something extraordinary, would you not do it? How much more, then, since he only said to you, ‘Wash and be clean’?”  14 At that he went down and plunged into the Jordan seven times, according to the word of the man of the true God. Then his flesh was restored like the flesh of a little boy, and he became clean.",
+    choiceA: "Nile",
+    choiceB: "Pishon",
+    choiceC: "Red Sea",
+    choiceD: "Jordan",
+    correctAnswer: "D"
+  },
+  {
+    question: "On what river did Shalmaneser, king of Assyria, made the Israelites in exile dwell?",
+    clueSource: "2 Kings 17:5, 6",
+    clueSourceContent: "5  The king of As·syrʹi·a invaded the entire land, and he came to Sa·marʹi·a and laid siege to it for three years. 6  In the ninth year of Ho·sheʹa, the king of As·syrʹi·a captured Sa·marʹi·a. He then led the people of Israel into exile in As·syrʹi·a and made them dwell in Haʹlah and in Haʹbor at the river Goʹzan and in the cities of the Medes.",
+    choiceA: "Gozan",
+    choiceB: "Gihon",
+    choiceC: "Tigris",
+    choiceD: "Nile",
+    correctAnswer: "A"
+  },
+  {
+    question: "King David congregated all Israel, from what river of Egypt as far as Leʹbo-haʹmath to bring the Ark of the true God from Kiriathjearim?",
+    clueSource: "1 Chronicles 13:5",
+    clueSourceContent: "5 So David congregated all Israel, from the river (*ft. Or “from Shihor.”) of Egypt as far as Leʹbo-haʹmath, to bring the Ark of the true God from Kirʹi·ath-jeʹa·rim.",
+    choiceA: "Jordan",
+    choiceB: "Shihor",
+    choiceC: "Pharpar",
+    choiceD: "Ahava",
+    correctAnswer: "B"
+  },
+  {
+    question: "On what river did Ezra assembled certain Jews and held a fast before undertaking the trek to Jerusalem?",
+    clueSource: "Ezra 8:15-21",
+    clueSourceContent: "15 I assembled them at the river that comes to A·haʹva, and we camped there for three days. But when I examined the people and the priests, I did not find any of the Levites there.  16 So I sent for E·li·eʹzer, Arʹi·el, She·maiʹah, El·naʹthan, Jaʹrib, El·naʹthan, Nathan, Zech·a·riʹah, and Me·shulʹlam, who were leading men, and for Joiʹa·rib and El·naʹthan, who were instructors.  17 Then I gave them a command concerning Idʹdo the leader in the place called Ca·si·phiʹa. I told them to tell Idʹdo and his brothers, the temple servants who were in Ca·si·phiʹa, to bring to us ministers for the house of our God.  18 Since the good hand of our God was upon us, they brought a discreet man from the sons of Mahʹli the grandson of Leʹvi the son of Israel, namely, She·re·biʹah, and his sons and his brothers, 18 men;  19 and Hash·a·biʹah, and with him Je·shaʹiah from the Me·rarʹites, his brothers and their sons, 20 men.  20 And there were 220 of the temple servants, whom David and the princes gave to the service of the Levites, all of whom had been designated by name. 21 Then I proclaimed a fast there at the river A·haʹva, to humble ourselves before our God, to seek guidance from him for our journey, for us and for our children and for all our goods.",
+    choiceA: "Jordan",
+    choiceB: "Nile",
+    choiceC: "Ahava",
+    choiceD: "Gozan",
+    correctAnswer: "C"
+  },
+  {
+    question: "On what river did the prophet Ezekiel see his first recorded vision from Jehovah God?",
+    clueSource: "Ezekiel 10:15-22",
+    clueSourceContent: "15 And the cherubs would rise—they were the same living creatures that I had seen at the river Cheʹbar—  16 and when the cherubs moved, the wheels would move alongside them; and when the cherubs lifted up their wings to be high above the earth, the wheels would not turn or move from their side.  17 When these stood still, they would stand still; and when these rose, they would rise with them, for the spirit operating on the living creatures was in them. 18 Then the glory of Jehovah departed from over the threshold of the doorway of the house and stood still over the cherubs.  19 The cherubs now lifted up their wings and rose from the earth as I watched. The wheels were also alongside them when they departed. They stopped at the entrance of the eastern gate of the house of Jehovah, and the glory of the God of Israel was above them. 20 These were the living creatures that I had seen under the God of Israel at the river Cheʹbar, so I came to know that they were cherubs.  21 All four had four faces, four wings, and what appeared to be human hands under their wings.  22 And the appearances of their faces were like the faces I had seen by the river Cheʹbar. They would each go straight forward.",
+    choiceA: "Tigris",
+    choiceB: "Nile",
+    choiceC: "Gozan",
+    choiceD: "Chebar",
+    correctAnswer: "D"
+  },
+  {
+    question: "It was on the banks of what river that Daniel received the vision concerning “the king of the north” and “the king of the south”?",
+    clueSource: "Daniel 10:4",
+    clueSourceContent: "4 On the 24th day of the first month, while I was on the bank of the great river, the Tiʹgris (*ft. Hiddekel).",
+    choiceA: "Hiddekel",
+    choiceB: "Jordan",
+    choiceC: "Nile",
+    choiceD: "Chebar",
+    correctAnswer: "A"
+  },
+  {
+    question: "On what river was Jesus Christ baptized?",
+    clueSource: "Matthew 3:13",
+    clueSourceContent:
+      "13 Then Jesus came from Galʹi·lee to the Jordan to John, in order to be baptized by him.",
+    choiceA: "Nile",
+    choiceB: "Jordan",
+    choiceC: "Hiddekel",
+    choiceD: "Euphrates",
+    correctAnswer: "B",
+  },
+  {
+    question: "It was the northern boundary of Israel’s assigned territory.",
+    clueSource: "nwt Glossary [Euphrates]",
+    clueSourceContent: "The longest and most important river of southwest Asia, and one of the two major rivers in Mesopotamia. It is first mentioned at Genesis 2:14 as one of the four rivers of Eden. It is often called “the River.” (Ge 31:21) It was the northern boundary of Israel’s assigned territory. (Ge 15:18; Re 16:12)​—See App. B2.",
+    choiceA: "Nile",
+    choiceB: "Jordan",
+    choiceC: "Euphrates",
+    choiceD: "Gihon",
+    correctAnswer: "C"
+  },
 ];
 
 const wars = [
@@ -1885,6 +1886,239 @@ const wars = [
     choiceC: "Had a great party",
     choiceD: "Had a great feast",
     correctAnswer: "B",
+  },
+];
+
+const numbersAndDates = [
+  {
+    question: "On what “day” did God create man?",
+    clueSource: "Genesis 1:31",
+    clueSourceContent:
+      "31 After that God saw everything he had made, and look! it was very good. And there was evening and there was morning, a sixth day.",
+    choiceA: "on the first “day”",
+    choiceB: "on the third “day”",
+    choiceC: "on the fourth “day”",
+    choiceD: "on the sixth “day”",
+    correctAnswer: "D",
+  },
+  {
+    question:
+      "How many living creatures did Ezekiel saw in the vision when he was by the river Chebar?",
+    clueSource: "Ezekiel 1:5",
+    clueSourceContent:
+      "5 Within it were what looked like four living creatures, and the appearance of each one was like that of a human.",
+    choiceA: "2 creatures",
+    choiceB: "4 creatures",
+    choiceC: "7 creatures",
+    choiceD: "12 creatures",
+    correctAnswer: "B",
+  },
+  {
+    question: "What was the first world power of Bible history?",
+    clueSource: "Awake! November 2010 p. 15",
+    clueSourceContent:
+      "EGYPT, famous for its pyramids and the Nile River, was the first world power of Bible history. Under its shadow the nation of Israel was formed. Moses, who penned the first five books of the Bible, was born and educated in Egypt. Do secular history and archaeology corroborate what Moses wrote about that ancient land? Consider some examples.",
+    choiceA: "Rome",
+    choiceB: "Greece",
+    choiceC: "Assyria",
+    choiceD: "Egypt",
+    correctAnswer: "D",
+  },
+  {
+    question: "When was Jerusalem destroyed by the Romans?",
+    clueSource: "Insight on the Scriptures Volume 2, [Jerusalem] p. 49",
+    clueSourceContent:
+      "Neither Jesus nor his apostles foretold any restoration by God of earthly Jerusalem and its temple to come after the city’s divinely decreed destruction, which occurred in 70 C.E.",
+    choiceA: "33 C.E.",
+    choiceB: "70 C.E",
+    choiceC: "607 B.C.E.",
+    choiceD: "607 C.E.",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "According to Jesus' illustration, the Kingdom of the heavens may be likened to how many virgins who took their lamps and went out to meet the bridegroom?",
+    clueSource: "Matthew 25:1-12",
+    clueSourceContent:
+      "“Then the Kingdom of the heavens may be likened to ten virgins who took their lamps and went out to meet the bridegroom. 2  Five of them were foolish, and five were discreet. 3  For the foolish took their lamps but took no oil with them, 4  whereas the discreet took oil in their flasks along with their lamps. 5  While the bridegroom was delaying, they all became drowsy and fell asleep. 6  Right in the middle of the night there was a shout: ‘Here is the bridegroom! Go out to meet him.’ 7  Then all those virgins got up and put their lamps in order. 8  The foolish said to the discreet, ‘Give us some of your oil, because our lamps are about to go out.’ 9  The discreet answered, saying: ‘Perhaps there may not be enough for both us and you. Go instead to those who sell it, and buy some for yourselves.’ 10  While they were going off to buy it, the bridegroom came. The virgins who were ready went in with him to the marriage feast, and the door was shut. 11  Afterward, the rest of the virgins also came, saying, ‘Sir, Sir, open to us!’ 12  In answer he said, ‘I tell you the truth, I do not know you.’",
+    choiceA: "3 virgins",
+    choiceB: "5 virgins",
+    choiceC: "7 virgins",
+    choiceD: "10 virgins",
+    correctAnswer: "D",
+  },
+  {
+    question: "How old was Josiah when he began to rule as king of Judah?",
+    clueSource: "2 Kings 22:1",
+    clueSourceContent:
+      "Jo·siʹah was eight years old when he became king, and he reigned for 31 years in Jerusalem. His mother’s name was Je·diʹdah the daughter of A·daiʹah from Bozʹkath.",
+    choiceA: "7 years old",
+    choiceB: "8 years old",
+    choiceC: "9 years old",
+    choiceD: "10 years old",
+    correctAnswer: "B",
+  },
+  {
+    question: "What does the number '6' mean in the Bible?",
+    clueSource: "Insight on the Scriptures Volume 2, [Number, Numeral] p. 512",
+    clueSourceContent:
+      "Six. This number at times represents imperfection. The number of “the wild beast” is 666 and is called “a man’s number,” indicating that it has to do with imperfect, fallen man, and it seems to symbolize the imperfection of that which is represented by “the wild beast.” The number six being emphasized to a third degree (the six appearing in the position of units, tens, and hundreds) therefore highlights the imperfection and deficiency of that which the beast represents, or pictures.​—Re 13:18.",
+    choiceA: "Perfection",
+    choiceB: "Imperfection",
+    choiceC: "Unity",
+    choiceD: "Completeness",
+    correctAnswer: "B",
+  },
+  {
+    question: "What does the number '7' mean in the Bible?",
+    clueSource: "Insight on the Scriptures Volume 2, [Number, Numeral] p. 512",
+    clueSourceContent:
+      "Seven. Seven is used frequently in the Scriptures to signify completeness. At times it has reference to bringing a work toward completion. Or it can refer to the complete cycle of things as established or allowed by God. By completing his work toward the earth in six creative days and resting on the seventh day, Jehovah set the pattern for the whole Sabbath arrangement, from the seven-day week to the Jubilee year that followed the seven-times-seven–year cycle. (Ex 20:10; Le 25:2, 6, 8) The Festival of Unleavened Bread and the Festival of Booths were each seven days long. (Ex 34:18; Le 23:34) Seven appears often in connection with the Levitical rules for offerings (Le 4:6; 16:14, 19; Nu 28:11) and for cleansings.​—Le 14:7, 8, 16, 27, 51; 2Ki 5:10.",
+    choiceA: "Perfection",
+    choiceB: "Imperfection",
+    choiceC: "Unity",
+    choiceD: "Completeness",
+    correctAnswer: "D",
+  },
+  {
+    question:
+      "How long did the rain poured down on the earth, causing the Flood?",
+    clueSource: "Genesis 7:12",
+    clueSourceContent:
+      "12 And the rain poured down on the earth for 40 days and 40 nights.",
+    choiceA: "3 days and 3 nights",
+    choiceB: "4 days and 4 nights",
+    choiceC: "40 days and 40 nights",
+    choiceD: "40 days and 40 years",
+    correctAnswer: "C",
+  },
+  {
+    question:
+      "On what year was the holy spirit poured out by Jesus Chirst on the group of about 120 disciples?",
+    clueSource: "Insight on the Scriptures Volume 2, [Pentecost] p. 599",
+    clueSourceContent:
+      "Symbolic Significance of the Festival. It was on the day of Pentecost that the holy spirit was poured out by Jesus Christ on the group of about 120 disciples in the upper room at Jerusalem in the year 33 C.E. (Ac 1:13-15) Jesus had been resurrected on Nisan 16, the day of the offering of the barley sheaf by the high priest.",
+    choiceA: "1 C.E.",
+    choiceB: "29 C.E.",
+    choiceC: "30 C.E.",
+    choiceD: "33 C.E.",
+    correctAnswer: "D",
+  },
+  {
+    question:
+      "Jehovah promised Gideon how many men to conquer the 135,000 Midianite soldiers?",
+    clueSource: "Judges 7:7",
+    clueSourceContent:
+      "7 Jehovah now said to Gidʹe·on: “I will save you with the 300 men who lapped the water, and I will give Midʹi·an into your hand. But let all the other people go back home.”",
+    choiceA: "300 men",
+    choiceB: "3,000 men",
+    choiceC: "30,000 men",
+    choiceD: "185,000 men",
+    correctAnswer: "A",
+  },
+  {
+    question: "How many years did the devastation of the land of Judah occur?",
+    clueSource: "Daniel 9:2",
+    clueSourceContent:
+      "2 In the first year of his reign I, Daniel, discerned by the books the number of years mentioned in the word of Jehovah to Jeremiah the prophet to fulfill the desolation of Jerusalem, namely, 70 years.",
+    choiceA: "7 years",
+    choiceB: "40 years",
+    choiceC: "69 years",
+    choiceD: "70 years",
+    correctAnswer: "D",
+  },
+  {
+    question: "How many sons and daughters did Job have?",
+    clueSource: "Job 42:13",
+    clueSourceContent:
+      "13 He also came to have seven more sons and three more daughters.",
+    choiceA: "He had no children",
+    choiceB: "10 children",
+    choiceC: "20 children",
+    choiceD: "40 children",
+    correctAnswer: "C",
+  },
+  {
+    question: "On what year did Jesus Christ became a Messiah?",
+    clueSource: "What Can the Bible Teach Us?, Chapter 4, par. 8",
+    clueSourceContent:
+      "8 Jehovah has made it very clear that Jesus is the Messiah. God promised to give John the Baptizer a sign so that he would know who the Messiah was. When Jesus went to John to get baptized in the Jordan River in the year 29 C.E., John saw that sign. The Bible tells us what happened: “After being baptized, Jesus immediately came up from the water; and look! the heavens were opened up, and he saw God’s spirit descending like a dove and coming upon him. Look! Also, a voice from the heavens said: ‘This is my Son, the beloved, whom I have approved.’” (Matthew 3:16, 17) When John saw and heard this sign, he knew that Jesus was the Messiah. (John 1:32-34) On that day, when Jehovah poured out his spirit  on him, Jesus became the Messiah. He was the one whom God had chosen to be Leader and King.​—Isaiah 55:4.",
+    choiceA: "1 C.E.",
+    choiceB: "29 C.E.",
+    choiceC: "30 C.E.",
+    choiceD: "33 C.E.",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "On the first occasion, how many loaves and fish did Jesus feed a crowd?",
+    clueSource: "Mark 6:41",
+    clueSourceContent:
+      "41 Taking now the five loaves and the two fish, he looked up to heaven and said a blessing. Then he broke the loaves up and began giving them to the disciples to place them before the people, and he divided up the two fish for all.",
+    choiceA: "2 loaves and 5 fish",
+    choiceB: "5 loaves and 2 fish",
+    choiceC: "3 loaves and 5 fish",
+    choiceD: "5 loaves and 3 fish",
+    correctAnswer: "B",
+  },
+  {
+    question: "How many years did it take to complete the Bible?",
+    clueSource: "What Can the Bible Teach Us?, Chapter 2, par. 6",
+    clueSourceContent:
+      "6 It took more than 1,600 years to write the Bible. Its writers lived at different times. Some were well-educated and others were not. For example, one was a doctor. Others were farmers, fishermen, shepherds, prophets, judges, and kings. Even though there were different writers, all parts of the Bible agree. It doesn’t say one thing in one chapter and the opposite in another.",
+    choiceA: "1,200 years",
+    choiceB: "1,600 years",
+    choiceC: "1,914 years",
+    choiceD: "2,000 years",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "When did the Babylonians, under king Nebuchadnezzar, invade Jerusalem and its temple?",
+    clueSource:
+      "nwt A6-B, Chart: Prophets and Kings of Judah and of Israel (Part 2)",
+    clueSourceContent:
+      "Zedekiah: 11 years. Jerusalem and its temple are destroyed by the invading Babylonians under Nebuchadnezzar. Zedekiah, the last earthly king in the Davidic line, is dethroned.",
+    choiceA: "537 B.C.E",
+    choiceB: "607 B.C.E.",
+    choiceC: "33 C.E.",
+    choiceD: "1914 C.E.",
+    correctAnswer: "B",
+  },
+  {
+    question: "According to the Jewish calendar, on what date did Jesus die?",
+    clueSource: "What Can the Bible Teach Us?, Chapter 5 par. 13",
+    clueSourceContent:
+      "13 How was the ransom paid? Jesus gave his Father the value of his life. In the year 33, on Nisan 14 of the Jewish calendar, Jehovah allowed Jesus’ enemies to kill him. (Hebrews 10:10) Three days after that, Jehovah brought Jesus back to life, not as a human, but as a spirit person. Later, when Jesus returned to his Father in heaven, he presented the value of his perfect human life to Jehovah as the ransom. (Hebrews 9:24) Now that the ransom has been paid, we have the opportunity to be set free from sin and death.​—Read Romans 3:23, 24.",
+    choiceA: "Nisan 40",
+    choiceB: "Nisan 13",
+    choiceC: "Nisan 14",
+    choiceD: "Nisan 33",
+    correctAnswer: "C",
+  },
+  {
+    question:
+      "How many years did Jehovah made Israel wander about in the wilderness?",
+    clueSource: "Numbers 32:13",
+    clueSourceContent:
+      "13 So Jehovah’s anger blazed against Israel and he made them wander about in the wilderness for 40 years, until all the generation that was doing evil in the eyes of Jehovah came to its end.",
+    choiceA: "20 years",
+    choiceB: "40 years",
+    choiceC: "70 years",
+    choiceD: "80 years",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "When did Jehovah God made Jesus, the Messiah, King of God’s Kingdom in heaven?",
+    clueSource: "What Can the Bible Teach Us?, Endnote 22",
+    clueSourceContent:
+      "The length of the “seven times”: The “seven times” lasted for 2,520 years. If we count 2,520 years from the year 607 B.C.E., we end up at the year 1914. That was when Jehovah made Jesus, the Messiah, King of God’s Kingdom in heaven.",
+    choiceA: "607 B.C.E.",
+    choiceB: "29 C.E.",
+    choiceC: "33 C.E.",
+    choiceD: "1914 C.E.",
+    correctAnswer: "D",
   },
 ];
 
