@@ -11,7 +11,7 @@ while (arrayOfNums.length < 20) {
 }
 console.log(arrayOfNums);
 
-arrayOfNums.forEach(item => console.log(rivers[item].question))
+const randomizeQuestions = arrayOfNums.forEach(item => (rivers[item].question))
 
 const playQueryAgain = () => {
   closeRetryQueryModal();
