@@ -16,13 +16,13 @@ body {
 }
 
 #song,
-#songNumber {
+#song-number {
   font-family: "Avenir", sans-serif;
   font-size: 30pt;
   margin: 0em;
 }
 
-#songTitle {
+#song-title {
   font-family: "Charter", serif;
   font-size: 75pt;
   font-weight: bold;
@@ -30,7 +30,7 @@ body {
 }
 
 #parentheses,
-#bibleVerse {
+#bible-verse {
   font-family: "Archerpro Thin";
   font-size: 27pt;
   margin: unset;
