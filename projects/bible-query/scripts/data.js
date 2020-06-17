@@ -1993,14 +1993,34 @@ const mountains = [
     correctAnswer: "A"
   },
   {
-    question: "",
-    clueSource: "",
-    clueSourceContent: "",
-    choiceA: "",
+    question: "Moses viewed the Promised Land on this mountain, and he died there.",
+    clueSource: "Deutoronomy 32:48-52",
+    clueSourceContent: "48 Jehovah spoke to Moses on this same day, saying: 49 “Go up into this mountain of Abʹa·rim, Mount Neʹbo, which is in the land of Moʹab, which faces toward Jerʹi·cho, and view the land of Caʹnaan, which I am giving to the Israelites as a possession. 50 Then you will die on the mountain you are about to ascend, and be gathered to your people, just as Aaron your brother died on Mount Hor and was gathered to his people, 51 because both of you were unfaithful to me among the Israelites at the waters of Merʹi·bah of Kaʹdesh in the wilderness of Zin, because you did not sanctify me before the people of Israel. 52 You will see the land from a distance, but you will not enter the land that I am giving to the people of Israel.”",
+    choiceA: "Nebo",
     choiceB: "",
     choiceC: "",
     choiceD: "",
-    correctAnswer: ""
+    correctAnswer: "A"
+  },
+  {
+    question: "The mountainous region between the Dead Sea and the Gulf of ʽAqaba.",
+    clueSource: "Insight on the Scriptures Volume 2, [Seir] p. 891",
+    clueSourceContent: "(Seʹir) [from a root meaning “bristle up,” possibly referring to wooded hills; or, possibly meaning “Bristle Up (Shudder) in Horror”]. The mountainous region between the Dead Sea and the Gulf of ʽAqaba. (Ge 36:8, 30; De 2:1, 8) In Abraham’s time Horites inhabited Seir. (Ge 14:6) Later, Abraham’s grandson Esau established interests in Seir, while his twin brother Jacob resided at Paddan-aram. (Ge 32:3) But it seems that Esau did not complete the move to Seir until sometime after Jacob returned to Canaan. (Ge 36:6-9) Finally Esau’s descendants, the Edomites, dispossessed the Horites (De 2:4, 5, 12; Jos 24:4), and the land came to be called Edom. However, the older name Seir was also applied to the descendants of Esau and to the area where they lived. (Nu 24:18; compare 2Ki 14:7; 2Ch 25:11.) It appears that during the reign of King Hezekiah men of the tribe of Simeon went to Mount Seir, and after they annihilated the remnant of the Amalekites, Simeonites began residing there. (1Ch 4:41-43) For details about the geography and history of Seir, see EDOM, EDOMITES.",
+    choiceA: "Seir",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A"
+  },
+  {
+    question: "A mountain in Arabia, apparently also called Horeb.",
+    clueSource: "Galacia 4:25",
+    clueSourceContent: "25 Now Haʹgar means Siʹnai, a mountain in Arabia, and she corresponds with the Jerusalem today, for she is in slavery with her children.",
+    choiceA: "Sinai",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A"
   },
   {
     question: "",
