@@ -1,35 +1,37 @@
 body {
-    color: blanchedalmond;
-    line-height: 100px;
+  color: blanchedalmond;
+  line-height: 100px;
 }
 
 .outer {
-    background-image: url(JWGuitar.jpg);
-    background-size: cover;
-    padding-bottom: 100px;
+  background-image: url(JWGuitar.jpg);
+  background-size: cover;
+  padding-bottom: 100px;
 }
 
 .container {
-    padding: 40px 20px 80px 10px;
-    margin: 100px 570px 75px 10px;
-    text-align: center;
+  padding: 40px 20px 80px 10px;
+  margin: 100px 570px 75px 10px;
+  text-align: center;
 }
 
-#song, #songNumber {
-    font-family: 'Avenir', sans-serif;
-    font-size: 30pt;
-    margin: 0em;
+#song,
+#songNumber {
+  font-family: "Avenir", sans-serif;
+  font-size: 30pt;
+  margin: 0em;
 }
 
 #songTitle {
-    font-family: 'Charter', serif;
-    font-size: 75pt;
-    font-weight: bold;
-    margin: unset;
+  font-family: "Charter", serif;
+  font-size: 75pt;
+  font-weight: bold;
+  margin: unset;
 }
 
-#parentheses, #bibleVerse {
-    font-family: 'Archerpro Thin';
-    font-size: 27pt;
-    margin: unset;
+#parentheses,
+#bibleVerse {
+  font-family: "Archerpro Thin";
+  font-size: 27pt;
+  margin: unset;
 }

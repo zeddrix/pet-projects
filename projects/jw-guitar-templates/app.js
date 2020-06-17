@@ -1,6 +1,6 @@
 const songToFind = "78";
 
-const result = songs.filter(song => song.number.toString(10) === songToFind);
+const result = songs.filter((song) => song.number.toString(10) === songToFind);
 
 /*
 result = [
@@ -19,4 +19,3 @@ songTitle.innerText = result[0].title;
 
 let bibleVerse = document.getElementById("bibleVerse");
 bibleVerse.innerText = result[0].verse;
-
