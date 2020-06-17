@@ -42,7 +42,7 @@ img {
   background-size: cover;
 }
 
-.container {
+.contents-container {
   padding: 40px 20px 80px 10px;
   margin: 100px 570px 75px 10px;
   text-align: center;
@@ -57,11 +57,9 @@ img {
 #song-title {
   font-size: 75pt;
   font-weight: bold;
-  margin: unset;
 }
 
 #parentheses,
 #bible-verse {
   font-size: 27pt;
-  margin: unset;
 }
