@@ -1619,16 +1619,126 @@ const rivers = [
   },
 ];
 
-const mountains = [
+const mountains1 = [
   {
-    question: "On what mountain did the ark of Noah came to rest?",
+    question: "On what mountain did the ark of Noah come to rest?",
     clueSource: "Genesis 8:4",
     clueSourceContent: "In the seventh month, on the 17th day of the month, the ark came to rest on the mountains of Arʹa·rat.",
     choiceA: "Ararat",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Sinai",
+    choiceC: "Carmel",
+    choiceD: "Zion",
     correctAnswer: "A"
+  },
+  {
+    question: "On what mountain did Abraham, at God’s command, attempt to offer up his son Isaac?",
+    clueSource: "Genesis 22:2",
+    clueSourceContent: "2 Then he said: “Take, please, your son, your only son whom you so love, Isaac, and travel to the land of Mo·riʹah and offer him up there as a burnt offering on one of the mountains that I will designate to you.”",
+    choiceA: "Sinai",
+    choiceB: "Moriah",
+    choiceC: "Horeb",
+    choiceD: "Hermon",
+    correctAnswer: "B"
+  },
+  {
+    question: "On what mountain did Jehovah’s angel appear to Moses “in a flame of fire in the midst of a thornbush”?",
+    clueSource: "Exodus 3:1, 2",
+    clueSourceContent: "Moses became a shepherd of the flock of his father-in-law Jethʹro, the priest of Midʹi·an. While he was leading the flock to the west side of the wilderness, he eventually came to the mountain of the true God, to Horʹeb. 2 Then Jehovah’s angel appeared to him in a flame of fire in the midst of a thornbush. As he kept looking, he saw that the thornbush was on fire, and yet the thornbush was not consumed.",
+    choiceA: "Hermon",
+    choiceB: "Zion",
+    choiceC: "Horeb",
+    choiceD: "Ebal",
+    correctAnswer: "C"
+  },
+  {
+    question: "From the rocks of what mountain did the water miraculously come out after it was struck by Moses' rod?",
+    clueSource: "Exodus 17:1-6",
+    clueSourceContent: "The entire assembly of the Israelites departed from the wilderness of Sin by stages according to the order of Jehovah, and they camped at Rephʹi·dim. But there was no water for the people to drink. 2 So the people began quarreling with Moses and saying: “Give us water to drink.” But Moses said to them: “Why are you quarreling with me? Why do you keep putting Jehovah to the test?”  3 But the people were very thirsty for water there, and they kept murmuring against Moses and saying: “Why have you brought us up out of Egypt to kill us and our sons and our livestock with thirst?”  4 Finally Moses cried out to Jehovah: “What should I do with this people? A little longer and they will stone me!” 5 Then Jehovah said to Moses: “Go ahead of the people, and take with you some of the elders of Israel and your rod with which you struck the Nile River. Take it in your hand and walk on.  6 Look! I will be standing before you there on the rock in Horʹeb. You must strike the rock, and water will come out of it, and the people will drink it.” Moses did so before the eyes of the elders of Israel.",
+    choiceA: "Gerizim",
+    choiceB: "Ebal",
+    choiceC: "Tabor",
+    choiceD: "Horeb",
+    correctAnswer: "D"
+  },
+  {
+    question: "From what mountain did Jehovah appear to Israel and gave them his laws?",
+    clueSource: "Exodus 19:19-20:18",
+    clueSourceContent: "19:19 As the sound of the horn grew louder and louder, Moses spoke, and the voice of the true God answered him. 20 So Jehovah came down upon Mount Siʹnai to the top of the mountain. Then Jehovah called Moses to the top of the mountain, and Moses went up.  21 Jehovah now said to Moses: “Go down and warn the people not to try to force their way through to look at Jehovah, or many of them will perish.  22 And let the priests who regularly come near to Jehovah sanctify themselves, so that Jehovah may not strike them.”  23 Moses then said to Jehovah: “The people are not able to come up to Mount Siʹnai because you already warned us, saying, ‘Set boundaries around the mountain, and make it sacred.’”  24 However, Jehovah said to him: “Go, descend, and come back up, you and Aaron with you, but do not let the priests and the people force their way through to come up to Jehovah, so that he may not strike them.”  25 So Moses descended to the people and told them. 20:1 Then God spoke all these words: 2 “I am Jehovah your God, who brought you out of the land of Egypt, out of the house of slavery.  3 You must not have any other gods besides me. 4 “You must not make for yourself a carved image or a form like anything that is in the heavens above or on the earth below or in the waters under the earth.  5 You must not bow down to them nor be enticed to serve them, for I, Jehovah your God, am a God who requires exclusive devotion, bringing punishment for the error of fathers upon sons, upon the third generation and upon the fourth generation of those who hate me,  6 but showing loyal love to the thousandth generation of those who love me and keep my commandments. 7 “You must not take up the name of Jehovah your God in a worthless way, for Jehovah will not leave unpunished the one who takes up His name in a worthless way. 8 “Remember the Sabbath day to keep it sacred.  9 You are to labor and do all your work for six days,  10 but the seventh day is a sabbath to Jehovah your God. You must not do any work, neither you nor your son nor your daughter nor your slave man nor your slave girl nor your domestic animal nor your foreign resident who is inside your settlements.  11 For in six days Jehovah made the heavens and the earth, the sea, and all that is in them, and he began to rest on the seventh day. That is why Jehovah blessed the Sabbath day and made it sacred. 12 “Honor your father and your mother, so that you may live a long time in the land that Jehovah your God is giving you. 13 “You must not murder. 14 “You must not commit adultery. 15 “You must not steal. 16 “You must not testify falsely when you are a witness against your fellow man. 17 “You must not desire your fellow man’s house. You must not desire your fellow man’s wife nor his slave man nor his slave girl nor his bull nor his donkey nor anything that belongs to your fellow man.” 18 Now all the people were witnessing the thunder and lightning, the sound of the horn, and the mountain smoking; and seeing this made them tremble and stand at a distance.",
+    choiceA: "Sinai",
+    choiceB: "Carmel",
+    choiceC: "Zion",
+    choiceD: "Tabor",
+    correctAnswer: "A"
+  },
+  {
+    question: "The “Ten Words” or “Ten Commandments” were first orally given at what mountain by the angel of Jehovah?",
+    clueSource: "Exodo 31:18",
+    clueSourceContent: "18 Now as soon as he had finished speaking with him on Mount Siʹnai, he gave Moses two tablets of the Testimony, tablets of stone written on by God’s finger.",
+    choiceA: "Tabor",
+    choiceB: "Sinai",
+    choiceC: "Moriah",
+    choiceD: "Carmel",
+    correctAnswer: "B"
+  },
+  {
+    question: "Moses viewed the Promised Land on this mountain, and he died there.",
+    clueSource: "Deutoronomy 32:48-52",
+    clueSourceContent: "48 Jehovah spoke to Moses on this same day, saying: 49 “Go up into this mountain of Abʹa·rim, Mount Neʹbo, which is in the land of Moʹab, which faces toward Jerʹi·cho, and view the land of Caʹnaan, which I am giving to the Israelites as a possession. 50 Then you will die on the mountain you are about to ascend, and be gathered to your people, just as Aaron your brother died on Mount Hor and was gathered to his people, 51 because both of you were unfaithful to me among the Israelites at the waters of Merʹi·bah of Kaʹdesh in the wilderness of Zin, because you did not sanctify me before the people of Israel. 52 You will see the land from a distance, but you will not enter the land that I am giving to the people of Israel.”",
+    choiceA: "Sinai",
+    choiceB: "Tabor",
+    choiceC: "Nebo",
+    choiceD: "Moriah",
+    correctAnswer: "C"
+  },
+  {
+    question: "On what mountain did Aaron, the brother of Moses, die?",
+    clueSource: "Deutoronomy 32:50",
+    clueSourceContent: "50 Then you will die on the mountain you are about to ascend, and be gathered to your people, just as Aaron your brother died on Mount Hor and was gathered to his people.",
+    choiceA: "Halak",
+    choiceB: "Horeb",
+    choiceC: "Hermon",
+    choiceD: "Hor",
+    correctAnswer: "D"
+  },
+  {
+    question: "On what mountain did Barak and his 10,000 men battled against Sisera and his forces?",
+    clueSource: "Judges 4:4-16",
+    clueSourceContent: "4 Now Debʹo·rah, a prophetess, the wife of Lapʹpi·doth, was judging Israel at that time.  5 She used to sit under Debʹo·rah’s palm tree between Raʹmah and Bethʹel in the mountainous region of Eʹphra·im; the Israelites would go up to her for judgment.  6 She sent for Baʹrak the son of A·binʹo·am out of Keʹdesh-naphʹta·li and said to him: “Has not Jehovah the God of Israel given the command? ‘Go and march to Mount Taʹbor, and take 10,000 men of Naphʹta·li and Zebʹu·lun with you.  7 I will bring to you Sisʹe·ra, the chief of Jaʹbin’s army, along with his war chariots and his troops to the stream of Kiʹshon, and I will give him into your hand.’” 8 At this Baʹrak said to her: “If you go with me, I will go, but if you do not go with me, I will not go.”  9 To this she said: “I will certainly go with you. However, the campaign you are going on will not bring you glory, for it will be into the hand of a woman that Jehovah will give Sisʹe·ra.” Then Debʹo·rah got up and went with Baʹrak to Keʹdesh.  10 Baʹrak summoned Zebʹu·lun and Naphʹta·li to Keʹdesh, and 10,000 men followed his steps. Debʹo·rah also went up with him. 11 Incidentally, Heʹber the Kenʹite had separated from the Kenʹites, the descendants of Hoʹbab, Moses’ father-in-law, and his tent was pitched near the big tree in Za·a·nanʹnim, which is at Keʹdesh. 12 They reported to Sisʹe·ra that Baʹrak the son of A·binʹo·am had gone up to Mount Taʹbor.  13 At once Sisʹe·ra assembled all his war chariots—900 chariots with iron scythes—and all the troops that were with him from Ha·roʹsheth of the nations to go to the stream of Kiʹshon.  14 Debʹo·rah now said to Baʹrak: “Rise up, for this is the day that Jehovah will give Sisʹe·ra into your hand. Is Jehovah not going out before you?” And Baʹrak descended from Mount Taʹbor with 10,000 men following him.  15 Then Jehovah threw Sisʹe·ra and all his war chariots and all the army into confusion before the sword of Baʹrak. Finally Sisʹe·ra got down from his chariot and fled on foot.  16 Baʹrak chased after the war chariots and the army as far as Ha·roʹsheth of the nations. So Sisʹe·ra’s whole army fell by the sword; not even one remained.",
+    choiceA: "Tabor",
+    choiceB: "Lebanon",
+    choiceC: "Sinai",
+    choiceD: "Hermon",
+    correctAnswer: "A"
+  },
+  {
+    question: "On what mountain was Saul and his three sons were struck down by the Philistines?",
+    clueSource: "1 Samuel 31:1-6",
+    clueSourceContent: "Now the Phi·lisʹtines were fighting against Israel. And the men of Israel fled from before the Phi·lisʹtines, and many fell slain on Mount Gil·boʹa. 2  The Phi·lisʹtines kept in close range of Saul and his sons, and the Phi·lisʹtines struck down Jonʹa·than, A·binʹa·dab, and Malʹchi-shuʹa, Saul’s sons. 3  The fighting grew fierce against Saul, and the archers found him, and he was severely wounded by the archers. 4  Then Saul said to his armor-bearer: “Draw your sword and run me through with it, so that these uncircumcised men may not come and run me through and deal ruthlessly with me.” But his armor-bearer was unwilling, because he was very much afraid. So Saul took the sword and fell on it. 5  When his armor-bearer saw that Saul was dead, he too fell on his own sword and died with him. 6  Thus Saul, his three sons, his armor-bearer, and all his men died together on that day.",
+    choiceA: "Carmel",
+    choiceB: "Gilboa",
+    choiceC: "Seir",
+    choiceD: "Hor",
+    correctAnswer: "B"
+  },
+  {
+    question: "David built his royal residence on this mountain, and it came to be called “the City of David.”",
+    clueSource: "2 Samuel 5:7-9",
+    clueSourceContent: "7 However, David captured the stronghold of Zion, which is now the City of David.  8 So David said on that day: “Those who attack the Jebʹu·sites should go through the water tunnel to strike down both ‘the lame and the blind,’ who are hateful to David!” That is why it is said: “The blind and the lame will never enter the house.”  9 Then David took up residence in the stronghold, and it was called the City of David; and David began to build all around from the Mound inward.",
+    choiceA: "Moriah",
+    choiceB: "Horeb",
+    choiceC: "Zion",
+    choiceD: "Lebanon",
+    correctAnswer: "C"
+  },
+  {
+    question: "King Solʹo·mon built whatever he desired on this mountain.",
+    clueSource: "1 Kings 9:17-19",
+    clueSourceContent: "17 Solʹo·mon built up Geʹzer, Lower Beth-hoʹron, 18 Baʹal·ath, and Taʹmar in the wilderness, within the land, 19 as well as all of Solʹo·mon’s storage cities, the chariot cities, the cities for the horsemen, and whatever Solʹo·mon desired to build in Jerusalem, in Lebʹa·non, and in all the land of his dominion.",
+    choiceA: "Horeb",
+    choiceB: "Zion",
+    choiceC: "Moriah",
+    choiceD: "Lebanon",
+    correctAnswer: "D"
   },
   {
     question:
@@ -1636,423 +1746,83 @@ const mountains = [
     clueSource: "1 Kings 18:18-20",
     clueSourceContent:
       "18 To this he said: “I have not brought trouble on Israel, but you and the house of your father have, by abandoning the commandments of Jehovah and by following the Baʹals. 19  And now summon all Israel to me at Mount Carʹmel, as well as the 450 prophets of Baʹal and the 400 prophets of the sacred pole, who are eating at the table of Jezʹe·bel.” 20  So Aʹhab sent word among all the people of Israel and collected the prophets together at Mount Carʹmel.",
-    choiceA: "Ararat",
+    choiceA: "Carmel",
     choiceB: "Horeb",
-    choiceC: "Carmel",
+    choiceC: "Ararat",
     choiceD: "Tabor",
-    correctAnswer: "C",
-  },
-  {
-    question: "Which mountain formed one of the boundary markers in the territory of the tribe of Asher?",
-    clueSource: "Joshua 19:24-26",
-    clueSourceContent: "24 Then the fifth lot came out for the tribe of Ashʹer by their families. 25 And their boundary was Helʹkath, Haʹli, Beʹten, Achʹshaph, 26 Al·lamʹme·lech, Aʹmad, and Miʹshal. It reached westward to Carʹmel and to Shiʹhor-libʹnath.",
-    choiceA: "Carmel",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correctAnswer: "A"
-  },
-  {
-    question: "King Uzziah, who “loved agriculture,” had farmers and vinedressers in what mountain?",
-    clueSource: "2 Chronicles 26:9, 10",
-    clueSourceContent: "9 Moreover, Uz·ziʹah built towers in Jerusalem by the Corner Gate, the Valley Gate, and the Buttress, and he fortified them. 10 Further, he built towers in the wilderness and dug many cisterns (for he had a great deal of livestock); he also did so in the She·pheʹlah and on the plain. He had farmers and vinedressers in the mountains and in Carʹmel, for he loved agriculture.",
-    choiceA: "Carmel",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correctAnswer: "A"
-  },
-  {
-    question: "In The Song of Solomon, the Shulammite maiden’s head is likened to what mountain?",
-    clueSource: "Song of Solomon 7:5",
-    clueSourceContent: "5 Your head crowns you like Carʹmel, And the locks of your hair are like purple wool. The king is captivated by the flowing tresses.",
-    choiceA: "Carmel",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correctAnswer: "A"
+    correctAnswer: "A",
   },
   {
     question: "From the top of what mountain did Elijah pray to Jehovah for the end of the three-and-a-half-year drought?",
     clueSource: "1 Kings 18:42",
     clueSourceContent: "42 So Aʹhab went up to eat and drink, while E·liʹjah went up to the top of Carʹmel and crouched on the ground, keeping his face between his knees.",
-    choiceA: "Carmel",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correctAnswer: "A"
-  },
-  {
-    question: "Elisha was at what mountain when the woman of Shunem came seeking his help for her dead son?",
-    clueSource: "2 Kings 4:25-37",
-    clueSourceContent: "25 So she went to the man of the true God at Mount Carʹmel. As soon as the man of the true God saw her from afar, he said to Ge·haʹzi his attendant: “Look! The Shuʹnam·mite woman is over there.  26 Please run to meet her and ask her, ‘Are you well? Is your husband well? Is your child well?’” To this she said: “All is well.”  27 When she came to the man of the true God at the mountain, she at once grabbed hold of his feet. At this Ge·haʹzi came near to push her away, but the man of the true God said: “Let her alone, for she is in bitter distress, and Jehovah has hidden it from me and has not told me.”  28 She then said: “Did I ask my lord for a son? Did I not say, ‘You must not give me a false hope’?” 29 He immediately said to Ge·haʹzi: “Wrap your garments around your waist and take my staff in your hand and go. If you encounter anyone, do not greet him; and if anyone should greet you, do not answer him. Go and place my staff on the boy’s face.”  30 At this the boy’s mother said: “As surely as Jehovah is living and as you yourself are living, I will not leave you.” So he got up and went with her.  31 Ge·haʹzi went before them and put the staff on the boy’s face, but there was no sound or response. He went back to meet E·liʹsha and told him: “The boy did not wake up.”When E·liʹsha came into the house, the boy was lying dead on his bed.  33 He went in and closed the door behind them both and began to pray to Jehovah.  34 Then he got up on the bed and lay down on the child and put his own mouth on the boy’s mouth, his own eyes on his eyes, and his own palms on his palms and kept bent over him, and the child’s body started to grow warm.  35 He walked back and forth in the house, and he got up on the bed and bent over him again. The boy sneezed seven times, after which he opened his eyes.  36 E·liʹsha now called Ge·haʹzi and said: “Call the Shuʹnam·mite woman.” So he called her and she came in to him. Then he said: “Pick up your son.”  37 And she came in and fell at his feet and bowed down to the ground before him, after which she picked up her son and went out.",
-    choiceA: "Carmel",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correctAnswer: "A"
-  },
-  {
-    question: "Moses said that when God brings Israel into the land of promise, they must pronounce the curse on what mountain?",
-    clueSource: "Deuteronomy 11:29",
-    clueSourceContent: "“When Jehovah your God brings you into the land you are to possess, you must pronounce the blessing on Mount Gerʹi·zim and the curse on Mount Eʹbal.",
-    choiceA: "Ebal",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correctAnswer: "A"
-  },
-  {
-    question: "When Israel have crossed the Jordan, they should set up an altar on what mountain?",
-    clueSource: "Deuteronomy 27:4",
-    clueSourceContent: "When you have crossed the Jordan, you should set up these stones on Mount Eʹbal and cover them with plaster, just as I am commanding you today. 5  You are also to build an altar there to Jehovah your God, an altar of stones. You should not use iron tools on them. 6  You should build the altar of Jehovah your God with whole stones and offer burnt offerings to Jehovah your God on it. 7  You are to offer communion sacrifices and eat them there, and you will rejoice before Jehovah your God. 8  And clearly write on the stones all the words of this Law.”",
-    choiceA: "Ebal",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correctAnswer: "A"
-  },
-  {
-    question: "On what mountain did Reuben, Gad, Asher, Zebulun, Dan, and Naphtali stand to pronounce the curse?",
-    clueSource: "Deuteronomy 27:13",
-    clueSourceContent: "And the following will stand on Mount Eʹbal to pronounce the curse: Reuʹben, Gad, Ashʹer, Zebʹu·lun, Dan, and Naphʹta·li.",
-    choiceA: "Ebal",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correctAnswer: "A"
-  },
-  {
-    question: "Moses said that when God brings Israel into the land of promise, they must pronounce the blessing on what mountain?",
-    clueSource: "Deuteronomy 11:29",
-    clueSourceContent: "“When Jehovah your God brings you into the land you are to possess, you must pronounce the blessing on Mount Gerʹi·zim and the curse on Mount Eʹbal.",
-    choiceA: "Gerizim",
-    choiceB: "Ebal",
-    choiceC: "",
-    choiceD: "",
-    correctAnswer: "A"
-  },
-  {
-    question: "On what mountain did Simʹe·on, Leʹvi, Judah, Isʹsa·char, Joseph, and Benjamin stand to bless the people of Israel?",
-    clueSource: "Deuteronomy 27:12",
-    clueSourceContent: "“The following tribes will stand on Mount Gerʹi·zim to bless the people when you have crossed the Jordan: Simʹe·on, Leʹvi, Judah, Isʹsa·char, Joseph, and Benjamin.",
-    choiceA: "Gerizim",
-    choiceB: "Ebal",
-    choiceC: "",
-    choiceD: "",
-    correctAnswer: ""
-  },
-  {
-    question: "When Joshua wrote a copy of the Law, in front of what mountains did the Israelites stand?",
-    clueSource: "Joshua 8:33",
-    clueSourceContent: "33 All Israel, their elders, the officers, and their judges were standing on both sides of the Ark in front of the Levitical priests who were carrying the ark of the covenant of Jehovah. The foreign residents were there as well as the natives.c Half of them stood in front of Mount Gerʹi·zim, and the other half in front of Mount Eʹbald (just as Moses the servant of Jehovah had previously commanded),e to bless the people of Israel.",
-    choiceA: "Gerizim and Ebal",
-    choiceB: "Carmel and Sinai",
-    choiceC: "It was just Gerizim.",
-    choiceD: "It was just Ebal.",
-    correctAnswer: "A"
-  },
-  {
-    question: "On what mountain was Saul and his three sons were struck down by the Philistines?",
-    clueSource: "1 Samuel 31:1-6",
-    clueSourceContent: "Now the Phi·lisʹtines were fighting against Israel. And the men of Israel fled from before the Phi·lisʹtines, and many fell slain on Mount Gil·boʹa. 2  The Phi·lisʹtines kept in close range of Saul and his sons, and the Phi·lisʹtines struck down Jonʹa·than, A·binʹa·dab, and Malʹchi-shuʹa, Saul’s sons. 3  The fighting grew fierce against Saul, and the archers found him, and he was severely wounded by the archers. 4  Then Saul said to his armor-bearer: “Draw your sword and run me through with it, so that these uncircumcised men may not come and run me through and deal ruthlessly with me.” But his armor-bearer was unwilling, because he was very much afraid. So Saul took the sword and fell on it. 5  When his armor-bearer saw that Saul was dead, he too fell on his own sword and died with him. 6  Thus Saul, his three sons, his armor-bearer, and all his men died together on that day.",
-    choiceA: "Gilboa",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correctAnswer: "A"
-  },
-  {
-    question: "A mountain marking the southern geographic limit of Israel’s conquest of the Promised Land under the leadership of Joshua.",
-    clueSource: "Insight on the Scriptures Volume 1, [Halak, Mount] p. 1022",
-    clueSourceContent: "(Haʹlak) [Smooth Mountain]. A mountain marking the southern geographic limit of Israel’s conquest of the Promised Land under the leadership of Joshua. (Jos 11:16, 17; 12:7) Halak is generally identified with Jebel Halaq (Har He-Halaq), the last W Palestinian height on the road from Beer-sheba to the Arabah. The range that begins with Jebel Halaq divides the pastureland on the E from the sandy desert on the W. If this identification is correct, then the Biblical description of Halak as ‘going up,’ or ‘rising,’ toward Seir may mean that the broad side of this mountain, running from SW to NE, faces Seir.",
-    choiceA: "Halak",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correctAnswer: "A"
-  },
-  {
-    question: "This mountain was known to the Sidonians as “Sirion” and to the Amorites as “Senir.”",
-    clueSource: "Deuteronomy 3:8, 9",
-    clueSourceContent: "8 “At that time we seized the land of the two Amʹor·ite kings who were in the region of the Jordan, from the Arʹnon Valley as far as Mount Herʹmon 9 (the mountain that the Si·doʹni·ans used to call Sirʹi·on and the Amʹor·ites used to call Seʹnir.",
-    choiceA: "Hermon",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correctAnswer: "A"
-  },
-  {
-    question: "“Sion” was another name applied to what mountain?",
-    clueSource: "Deuteronomy 4:47, 48",
-    clueSourceContent: "47 And they took possession of his land and of the land of King Og of Baʹshan, the two kings of the Amʹor·ites who were in the region east of the Jordan, 48 from A·roʹer, which is on the rim of the Arʹnon Valley, up to Mount Siʹon, that is, Herʹmon.",
-    choiceA: "Hermon",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correctAnswer: "A"
-  },
-  {
-    question: "The psalmist mentioned what mountain, along with Mount Tabor, as joyously praising Jehovah’s name?​",
-    clueSource: "Psalm 89:12",
-    clueSourceContent: "12 The north and the south—you created them; Taʹbor and Herʹmon joyously praise your name.",
-    choiceA: "Hermon",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correctAnswer: "A"
-  },
-  {
-    question: "Anciently, what mountain was a lair for lions and leopards?",
-    clueSource: "Song of Solomon 4:8",
-    clueSourceContent: "8 Come with me from Lebʹa·non, my bride, Come with me from Lebʹa·non. Descend from the peak of A·maʹnah, From the peak of Seʹnir, the peak of Herʹmon, From the lairs of lions, from the mountains of leopards.",
-    choiceA: "Hermon",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correctAnswer: ""
-  },
-  {
-    question: "What mountain became the northern limit of the Promised Land?",
-    clueSource: "Insight on the Scriptures Volume 1, [Hermon] p. 1090",
-    clueSourceContent: "Mount Hermon became the northern limit of the Promised Land. (Jos 12:1; 13:2, 5, 8, 11) The Hivites, who resided at its base, were defeated by Joshua. (Jos 11:1-3, 8, 16, 17) This mountain may have been the scene for the transfiguration of Jesus Christ (Mt 17:1; Mr 9:2; Lu 9:28; 2Pe 1:18), for he was in nearby Caesarea Philippi shortly before this event.​—Mr 8:27; see BAAL-HERMON; TRANSFIGURATION.",
-    choiceA: "Hermon",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correctAnswer: "A"
-  },
-  {
-    question: "On the base of what mountain was the Hivites defeated by Joshua?",
-    clueSource: "Joshua 11:16, 17",
-    clueSourceContent: "16 Joshua conquered all this land, the mountainous region, all the Negʹeb, all the land of Goʹshen, the She·pheʹlah, the Arʹa·bah, and the mountainous region of Israel and its She·pheʹlah, 17 from Mount Haʹlak, which goes up to Seʹir, and as far as Baʹal-gad in the Valley of Lebʹa·non at the base of Mount Herʹmon, and he captured all their kings and defeated them, putting them to death.",
-    choiceA: "Hermon",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correctAnswer: ""
-  },
-  {
-    question: "On what mountain did Aaron, the brother of Moses, died?",
-    clueSource: "Deutoronomy 32:50",
-    clueSourceContent: "50 Then you will die on the mountain you are about to ascend, and be gathered to your people, just as Aaron your brother died on Mount Hor and was gathered to his people.",
-    choiceA: "Hor",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correctAnswer: ""
-  },
-  {
-    question: "The mountainous region surrounding Mount Sinai.",
-    clueSource: "nwt Glossary [Horeb; Mount Horeb]",
-    clueSourceContent: "The mountainous region surrounding Mount Sinai. Another name for Mount Sinai. (Ex 3:1; De 5:2)​—See App. B3.",
     choiceA: "Horeb",
-    choiceB: "Hermon",
-    choiceC: "",
-    choiceD: "",
-    correctAnswer: "A"
+    choiceB: "Carmel",
+    choiceC: "Seir",
+    choiceD: "Gerizim",
+    correctAnswer: "B"
   },
   {
-    question: "Another name for Mount Sinai.",
-    clueSource: "nwt Glossary [Horeb; Mount Horeb]",
-    clueSourceContent: "The mountainous region surrounding Mount Sinai. Another name for Mount Sinai. (Ex 3:1; De 5:2)​—See App. B3.",
-    choiceA: "Horeb",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correctAnswer: "A"
-  },
-  {
-    question: "“The mountain of the true God.”",
+    question: "Which one was “the mountain of the true God.”",
     clueSource: "1 Kings 19:8",
     clueSourceContent: "8 So he got up and ate and drank, and in the strength of that nourishment he went on for 40 days and 40 nights until he reached Horʹeb, the mountain of the true God.",
-    choiceA: "Horeb",
+    choiceA: "Hermon",
     choiceB: "Zion",
-    choiceC: "Hermon",
-    choiceD: "",
-    correctAnswer: "A"
-  },
-  {
-    question: "On what mountain did Jehovah’s angel appear to Moses “in a flame of fire in the midst of a thornbush”?",
-    clueSource: "Exodus 3:1, 2",
-    clueSourceContent: "Moses became a shepherd of the flock of his father-in-law Jethʹro, the priest of Midʹi·an. While he was leading the flock to the west side of the wilderness, he eventually came to the mountain of the true God, to Horʹeb. 2 Then Jehovah’s angel appeared to him in a flame of fire in the midst of a thornbush. As he kept looking, he saw that the thornbush was on fire, and yet the thornbush was not consumed.",
-    choiceA: "Horeb",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correctAnswer: "A"
-  },
-  {
-    question: "From the rocks of what mountain did the water miraculously come out after it was struck by Moses' rod?",
-    clueSource: "Exodus 17:1-6",
-    clueSourceContent: "The entire assembly of the Israelites departed from the wilderness of Sin by stages according to the order of Jehovah, and they camped at Rephʹi·dim. But there was no water for the people to drink. 2 So the people began quarreling with Moses and saying: “Give us water to drink.” But Moses said to them: “Why are you quarreling with me? Why do you keep putting Jehovah to the test?”  3 But the people were very thirsty for water there, and they kept murmuring against Moses and saying: “Why have you brought us up out of Egypt to kill us and our sons and our livestock with thirst?”  4 Finally Moses cried out to Jehovah: “What should I do with this people? A little longer and they will stone me!” 5 Then Jehovah said to Moses: “Go ahead of the people, and take with you some of the elders of Israel and your rod with which you struck the Nile River. Take it in your hand and walk on.  6 Look! I will be standing before you there on the rock in Horʹeb. You must strike the rock, and water will come out of it, and the people will drink it.” Moses did so before the eyes of the elders of Israel.",
-    choiceA: "Horeb",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correctAnswer: "A"
+    choiceC: "Horeb",
+    choiceD: "Carmel",
+    correctAnswer: "C"
   },
   {
     question: "On what mountain did the prophet Elijah flee from vengeful Queen Jezebel?",
     clueSource: "1 Kings 19:2-8",
     clueSourceContent: "2 At that Jezʹe·bel sent a messenger to E·liʹjah, saying: “So may the gods do to me and add to it if by this time tomorrow I do not make you like each one of them!”  3 At that he became afraid, so he got up and ran for his life. He came to Beʹer-sheʹba, which belongs to Judah, and he left his attendant there.  4 He went a day’s journey into the wilderness and came and sat down under a broom tree, and he asked that he might die. He said: “It is enough! Now, O Jehovah, take my life away, for I am no better than my forefathers.” 5 Then he lay down and fell asleep under the broom tree. But suddenly an angel touched him and said to him: “Get up and eat.”  6 When he looked, there at his head was a round loaf on heated stones and a jug of water. He ate and drank and lay down again.  7 Later the angel of Jehovah came back a second time and touched him and said: “Get up and eat, for the journey will be too much for you.”  8 So he got up and ate and drank, and in the strength of that nourishment he went on for 40 days and 40 nights until he reached Horʹeb, the mountain of the true God.",
-    choiceA: "Horeb",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correctAnswer: "A"
+    choiceA: "Gerizim",
+    choiceB: "Carmel",
+    choiceC: "Zion",
+    choiceD: "Horeb",
+    correctAnswer: "D"
   },
   {
-    question: "The pagan inhabitants of what mountain served to test Israel’s faithfulness to Jehovah?",
-    clueSource: "Judges 3:3, 4",
-    clueSourceContent: "3 The five lords of the Phi·lisʹtines, and all the Caʹnaan·ites, the Si·doʹni·ans, and the Hiʹvites inhabiting Mount Lebʹa·non from Mount Baʹal-herʹmon as far as Leʹbo-haʹmath. 4 They served as a means of testing Israel to determine whether Israel would obey Jehovah’s commandments that he had given their fathers through Moses.",
-    choiceA: "Lebanon",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correctAnswer: "A"
-  },
-  {
-    question: "King Solʹo·mon built whatever he desired on this mountain.",
-    clueSource: "1 Kings 9:17-19",
-    clueSourceContent: "17 Solʹo·mon built up Geʹzer, Lower Beth-hoʹron, 18 Baʹal·ath, and Taʹmar in the wilderness, within the land, 19 as well as all of Solʹo·mon’s storage cities, the chariot cities, the cities for the horsemen, and whatever Solʹo·mon desired to build in Jerusalem, in Lebʹa·non, and in all the land of his dominion.",
-    choiceA: "Lebanon",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correctAnswer: "A"
-  },
-  {
-    question: "Hiram the king of Tyre got the supplies of cedar and juniper timbers for Solomon from what mountain?",
-    clueSource: "1 Kings 5:7-14",
-    clueSourceContent: "7 When Hiʹram heard Solʹo·mon’s words, he rejoiced greatly and said: “May Jehovah be praised today, for he has given David a wise son over this great people!”  8 So Hiʹram sent word to Solʹo·mon: “I have heard the message you sent to me. I will do all you desire in providing the cedar and juniper timbers.  9 My servants will bring them down from Lebʹa·non to the sea, and I will make them into log rafts to go by sea to the place that you designate to me. I will have them broken up there, and you can carry them away. In exchange, you will provide the food that I request for my household.” 10 So Hiʹram supplied all the timbers of cedar and juniper that Solʹo·mon desired.  11 And Solʹo·mon gave Hiʹram 20,000 cor measures of wheat as food supplies for his household and 20 cor measures of very fine olive oil. That was what Solʹo·mon gave Hiʹram year after year.  12 And Jehovah gave Solʹo·mon wisdom, just as He had promised him. And there was peace between Hiʹram and Solʹo·mon, and the two of them made a treaty. 13 King Solʹo·mon conscripted men for forced labor out of all Israel; 30,000 men were conscripted.  14 He would send them to Lebʹa·non in shifts of 10,000 each month. They would spend a month in Lebʹa·non and two months at their homes; and Ad·o·niʹram was over those conscripted for forced labor.",
-    choiceA: "Lebanon",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correctAnswer: "A"
-  },
-  {
-    question: "On what mountain did King Solomon build the house of Jehovah, or temple?",
+    question: "On what mountain did King Solomon build “the house of Jehovah”, or temple?",
     clueSource: "2 Chronicles 3:1",
     clueSourceContent: "Then Solʹo·mon started to build the house of Jehovah in Jerusalem on Mount Mo·riʹah, where Jehovah had appeared to his father David, in the place that David had prepared on the threshing floor of Orʹnan the Jebʹu·site.",
     choiceA: "Moriah",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correctAnswer: "A"
-  },
-  {
-    question: "On what mountain did Abraham, at God’s command, attempt to offer up his son Isaac?",
-    clueSource: "Genesis 22:2",
-    clueSourceContent: "2 Then he said: “Take, please, your son, your only son whom you so love, Isaac, and travel to the land of Mo·riʹah and offer him up there as a burnt offering on one of the mountains that I will designate to you.”",
-    choiceA: "Moriah",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correctAnswer: "A"
-  },
-  {
-    question: "King David, barefoot and weeping, ascended what mountain as he fled from his rebellious son Absalom?",
-    clueSource: "2 Samuel 15:30",
-    clueSourceContent: "30 As David was going up the Mount of Olives, he was weeping as he went up; his head was covered, and he was walking barefoot. All the people with him also covered their heads and were weeping as they went up.",
-    choiceA: "Mount of Olives",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correctAnswer: "A"
-  },
-  {
-    question: "Jesus, seated on the colt of an ass, commenced his triumphal ride over what mountains to Jerusalem?",
-    clueSource: "Mateo 21:1, 2",
-    clueSourceContent: "When they got close to Jerusalem and arrived at Bethʹpha·ge on the Mount of Olives, then Jesus sent two disciples, 2 saying to them: “Go into the village that is within sight, and you will at once find a donkey tied and a colt with her. Untie them and bring them to me.",
-    choiceA: "Mount of Olives",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Mount of Olives",
+    choiceC: "Zion",
+    choiceD: "Lebanon",
     correctAnswer: "A"
   },
   {
     question: "Jesus and was on what mountain when they've discussed about ‘the sign of his presence’?",
     clueSource: "Mateo 24:3",
     clueSourceContent: "3 While he was sitting on the Mount of Olives, the disciples approached him privately, saying: “Tell us, when will these things be, and what will be the sign of your presence and of the conclusion of the system of things?”",
-    choiceA: "Mount of Olives",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correctAnswer: "A"
+    choiceA: "Sinai",
+    choiceB: "Mount of Olives",
+    choiceC: "Zion",
+    choiceD: "Moriah",
+    correctAnswer: "B"
   },
   {
     question: "Jesus ascended from what mountain into the heavens after his resurrection?​",
     clueSource: "Acts 1:9-12",
     clueSourceContent: "9 After he had said these things, while they were looking on, he was lifted up and a cloud caught him up from their sight. 10 And as they were gazing into the sky while he was on his way, suddenly two men in white garments stood beside them 11 and said: “Men of Galʹi·lee, why do you stand looking into the sky? This Jesus who was taken up from you into the sky will come in the same manner as you have seen him going into the sky.” 12 Then they returned to Jerusalem from a mountain called the Mount of Olives, which is near Jerusalem, only a sabbath day’s journey away.",
-    choiceA: "Mount of Olives",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correctAnswer: "A"
-  },
-  {
-    question: "Moses viewed the Promised Land on this mountain, and he died there.",
-    clueSource: "Deutoronomy 32:48-52",
-    clueSourceContent: "48 Jehovah spoke to Moses on this same day, saying: 49 “Go up into this mountain of Abʹa·rim, Mount Neʹbo, which is in the land of Moʹab, which faces toward Jerʹi·cho, and view the land of Caʹnaan, which I am giving to the Israelites as a possession. 50 Then you will die on the mountain you are about to ascend, and be gathered to your people, just as Aaron your brother died on Mount Hor and was gathered to his people, 51 because both of you were unfaithful to me among the Israelites at the waters of Merʹi·bah of Kaʹdesh in the wilderness of Zin, because you did not sanctify me before the people of Israel. 52 You will see the land from a distance, but you will not enter the land that I am giving to the people of Israel.”",
     choiceA: "Nebo",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correctAnswer: "A"
+    choiceB: "Zion",
+    choiceC: "Mount of Olives",
+    choiceD: "Hermon",
+    correctAnswer: "C"
   },
   {
-    question: "The mountainous region between the Dead Sea and the Gulf of ʽAqaba.",
-    clueSource: "Insight on the Scriptures Volume 2, [Seir] p. 891",
-    clueSourceContent: "(Seʹir) [from a root meaning “bristle up,” possibly referring to wooded hills; or, possibly meaning “Bristle Up (Shudder) in Horror”]. The mountainous region between the Dead Sea and the Gulf of ʽAqaba. (Ge 36:8, 30; De 2:1, 8) In Abraham’s time Horites inhabited Seir. (Ge 14:6) Later, Abraham’s grandson Esau established interests in Seir, while his twin brother Jacob resided at Paddan-aram. (Ge 32:3) But it seems that Esau did not complete the move to Seir until sometime after Jacob returned to Canaan. (Ge 36:6-9) Finally Esau’s descendants, the Edomites, dispossessed the Horites (De 2:4, 5, 12; Jos 24:4), and the land came to be called Edom. However, the older name Seir was also applied to the descendants of Esau and to the area where they lived. (Nu 24:18; compare 2Ki 14:7; 2Ch 25:11.) It appears that during the reign of King Hezekiah men of the tribe of Simeon went to Mount Seir, and after they annihilated the remnant of the Amalekites, Simeonites began residing there. (1Ch 4:41-43) For details about the geography and history of Seir, see EDOM, EDOMITES.",
-    choiceA: "Seir",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correctAnswer: "A"
+    question: "It is on this heavenly mountain that Christ Jesus stands with the 144,000, who have been bought from the earth.",
+    clueSource: "Revelation 14:1-3",
+    clueSourceContent: "Then I saw, and look! the Lamb standing on Mount Zion, and with him 144,000 who have his name and the name of his Father written on their foreheads. 2 I heard a sound coming out of heaven like the sound of many waters and like the sound of loud thunder; and the sound that I heard was like singers who accompany themselves by playing on their harps. 3 And they are singing what seems to be a new song before the throne and before the four living creatures and the elders, and no one was able to master that song except the 144,000, who have been bought from the earth.",
+    choiceA: "Hor",
+    choiceB: "Sinai",
+    choiceC: "Hermon",
+    choiceD: "Zion",
+    correctAnswer: "D"
   },
-  {
-    question: "A mountain in Arabia, apparently also called Horeb.",
-    clueSource: "Galacia 4:25",
-    clueSourceContent: "25 Now Haʹgar means Siʹnai, a mountain in Arabia, and she corresponds with the Jerusalem today, for she is in slavery with her children.",
-    choiceA: "Sinai",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correctAnswer: "A"
-  },
-  {
-    question: "",
-    clueSource: "",
-    clueSourceContent: "",
-    choiceA: "",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correctAnswer: ""
-  },
-  {
-    question: "",
-    clueSource: "",
-    clueSourceContent: "",
-    choiceA: "",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correctAnswer: ""
-  },
-  {
-    question: "",
-    clueSource: "",
-    clueSourceContent: "",
-    choiceA: "",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correctAnswer: ""
-  },
-]
+];
 
 const wars = [
   {
