@@ -1,5 +1,4 @@
 body {
-  color: blanchedalmond;
   line-height: 100px;
   margin: 0;
   overflow: hidden;
@@ -27,6 +26,7 @@ body {
 #parentheses,
 #bible-verse {
   margin: 0em;
+  color: blanchedalmond;
 }
 
 #song,

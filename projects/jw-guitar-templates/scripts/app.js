@@ -1,21 +1,31 @@
-const songToFind = "1";
+const showTemplatePage = () => {
+    const templatePage = document.getElementById('template-page');
+    const homePage = document.getElementById('home-page');
+    homePage.style.display = "none";
+    templatePage.style.display = "block";
+}
 
-const result = songs.filter((song) => song.number.toString(10) === songToFind);
+const getUserInput = () => {
+    const userInputField = document.getElementById('input-number');
+    const userInput = userInputField.value;
+    const result = songs.filter((song) => song.number.toString(10) === userInput);
 
-/*
-result = [
-{
-    number: 79,
-    title: "Teach Them to Stand Firm",
-    verse: "Matthew 28:19, 20",
-}];
-*/
+    const songNumber = document.getElementById("song-number");
+    const songTitle = document.getElementById("song-title");
+    const bibleVerse = document.getElementById("bible-verse");
 
-let songNumber = document.getElementById("song-number");
-songNumber.innerText = result[0].number;
+    songNumber.innerText = result[0].number;
+    songTitle.innerText = result[0].title;
+    bibleVerse.innerText = result[0].verse;
+    showTemplatePage();
+}
 
-let songTitle = document.getElementById("song-title");
-songTitle.innerText = result[0].title;
+// FOR REFERENCE:
+// result = [
+//     {
+//         number: 1,
+//         title: "Jehovah’s Attributes",
+//         verse: "Revelation 4:11",
+//     },
+// ];
 
-let bibleVerse = document.getElementById("bible-verse");
-bibleVerse.innerText = result[0].verse;
