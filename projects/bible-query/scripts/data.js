@@ -1414,6 +1414,210 @@ const queens1 = [
   },
 ];
 
+const queens2 = [
+  {
+    question: "Who was the daughter of “Jeremiah from Libnah”?",
+    clueSource: "2 Kings 23:30, 31",
+    clueSourceContent: "30 So his servants transported his dead body in a chariot from Me·gidʹdo and brought him to Jerusalem and buried him in his grave. Then the people of the land took Jo·siʹah’s son Je·hoʹa·haz and anointed him and made him king in place of his father. 31 Je·hoʹa·haz was 23 years old when he became king, and he reigned for three months in Jerusalem. His mother’s name was Ha·muʹtal the daughter of Jeremiah from Libʹnah.",
+    choiceA: "Hamutal",
+    choiceB: "Candace",
+    choiceC: "Maacah",
+    choiceD: "Bath-sheba",
+    correctAnswer: "A"
+  },
+  {
+    question: "Who was the wife of king Josiah?",
+    clueSource: "2 Kings 23:30, 31",
+    clueSourceContent: "30 So his servants transported his dead body in a chariot from Me·gidʹdo and brought him to Jerusalem and buried him in his grave. Then the people of the land took Jo·siʹah’s son Je·hoʹa·haz and anointed him and made him king in place of his father. 31 Je·hoʹa·haz was 23 years old when he became king, and he reigned for three months in Jerusalem. His mother’s name was Ha·muʹtal the daughter of Jeremiah from Libʹnah.",
+    choiceA: "Tahpenes",
+    choiceB: "Hamutal",
+    choiceC: "Maacah",
+    choiceD: "Candace",
+    correctAnswer: "B"
+  },
+  {
+    question: "Who was the mother of king Jehoahaz?",
+    clueSource: "2 Kings 23:30, 31",
+    clueSourceContent: "30 So his servants transported his dead body in a chariot from Me·gidʹdo and brought him to Jerusalem and buried him in his grave. Then the people of the land took Jo·siʹah’s son Je·hoʹa·haz and anointed him and made him king in place of his father. 31 Je·hoʹa·haz was 23 years old when he became king, and he reigned for three months in Jerusalem. His mother’s name was Ha·muʹtal the daughter of Jeremiah from Libʹnah.",
+    choiceA: "Candace",
+    choiceB: "Zebidah",
+    choiceC: "Hamutal",
+    choiceD: "Bath-sheba",
+    correctAnswer: "C"
+  },
+  {
+    question: "Who was the mother of king Mattaniah who's also known as king Zedekiah?",
+    clueSource: "2 Kings 24:17, 18",
+    clueSourceContent: "17 The king of Babylon made Mat·ta·niʹah, Je·hoiʹa·chin’s uncle, king in his place and changed his name to Zed·e·kiʹah. 18 Zed·e·kiʹah was 21 years old when he became king, and he reigned for 11 years in Jerusalem. His mother’s name was Ha·muʹtal the daughter of Jeremiah from Libʹnah.",
+    choiceA: "Bath-sheba",
+    choiceB: "Candace",
+    choiceC: "Zebidah",
+    choiceD: "Hamutal",
+    correctAnswer: "D"
+  },
+  {
+    question: "A queen of Ethiopia whose treasurer became a Christian.",
+    clueSource: "Acts 8:27",
+    clueSourceContent: "27 With that he got up and went, and look! an E·thi·oʹpi·an eunuch, a man who had authority under Can·daʹce, queen of the E·thi·oʹpi·ans, and who was in charge of all her treasure. He had gone to Jerusalem to worship.",
+    choiceA: "Candace",
+    choiceB: "Tahpenes",
+    choiceC: "Zebidah",
+    choiceD: "Maacah",
+    correctAnswer: "A"
+  },
+  {
+    question: "Who was the granddaughter of king Absalom?",
+    clueSource: "2 Chronicles 11:20",
+    clueSourceContent: "20 After her, he married Maʹa·cah the granddaughter of Abʹsa·lom. In time she bore him A·biʹjah, Atʹtai, Ziʹza, and She·loʹmith.",
+    choiceA: "Candace",
+    choiceB: "Maacah",
+    choiceC: "Hamutal",
+    choiceD: "Tahpenes",
+    correctAnswer: "B"
+  },
+  {
+    question: "Who was the most beloved wife of Judean king Rehoboam?",
+    clueSource: "2 Chronicles 11:21",
+    clueSourceContent: "21 Re·ho·boʹam loved Maʹa·cah the granddaughter of Abʹsa·lom more than all his other wives and concubines, for he took 18 wives and 60 concubines, and he became father to 28 sons and 60 daughters.",
+    choiceA: "Hamutal",
+    choiceB: "Bath-sheba",
+    choiceC: "Maacah",
+    choiceD: "Zebidah",
+    correctAnswer: "C"
+  },
+  {
+    question: "Who was the mother of king Abijah who's also known as king Abijam?",
+    clueSource: "2 Chronicles 11:22",
+    clueSourceContent: "22 So Re·ho·boʹam appointed A·biʹjah the son of Maʹa·cah as head and leader among his brothers, for he intended to make him king.",
+    choiceA: "Zebidah",
+    choiceB: "Candace",
+    choiceC: "Tahpenes",
+    choiceD: "Maacah",
+    correctAnswer: "D"
+  },
+  {
+    question: "“She had made an obscene idol for the worship of the sacred pole.”",
+    clueSource: "2 Chronicles 15:16",
+    clueSourceContent: "16 Aʹsa the king even removed Maʹa·cah his grandmother from her position as queen mother, because she had made an obscene idol for the worship of the sacred pole. Aʹsa cut down her obscene idol and pulverized it and burned it in the Kidʹron Valley.",
+    choiceA: "Maacah",
+    choiceB: "Zebidah",
+    choiceC: "Hamutal",
+    choiceD: "Tahpenes",
+    correctAnswer: "A"
+  },
+  {
+    question: "King Asa removed this grandmother of his from her position as queen mother in Judah.",
+    clueSource: "2 Chronicles 15:16",
+    clueSourceContent: "16 Aʹsa the king even removed Maʹa·cah his grandmother from her position as queen mother, because she had made an obscene idol for the worship of the sacred pole. Aʹsa cut down her obscene idol and pulverized it and burned it in the Kidʹron Valley.",
+    choiceA: "Candace",
+    choiceB: "Maacah",
+    choiceC: "Zebidah",
+    choiceD: "Hamutal",
+    correctAnswer: "B"
+  },
+  {
+    question: "Who was the wife of the Egyptian Pharaoh contemporary with David and Solomon?",
+    clueSource: "1 Kings 11:19",
+    clueSourceContent: "19 Haʹdad found favor in the eyes of Pharʹaoh, so much so that he gave him in marriage the sister of his own wife, Tahʹpe·nes the queen.",
+    choiceA: "Hamutal",
+    choiceB: "Candace",
+    choiceC: "Tahpenes",
+    choiceD: "Zebidah",
+    correctAnswer: "C"
+  },
+  {
+    question: "Her sister was given in marriage to Hadad, a resister of Solomon.",
+    clueSource: "1 Kings 11:19",
+    clueSourceContent: "19 Haʹdad found favor in the eyes of Pharʹaoh, so much so that he gave him in marriage the sister of his own wife, Tahʹpe·nes the queen.",
+    choiceA: "Hamutal",
+    choiceB: "Maacah",
+    choiceC: "Zebidah",
+    choiceD: "Tahpenes",
+    correctAnswer: "D"
+  },
+  {
+    question: "She raised Genubath, the child of this marriage, with her own children in the house of Pharaoh.​",
+    clueSource: "1 Kings 11:19, 20",
+    clueSourceContent: "19 Haʹdad found favor in the eyes of Pharʹaoh, so much so that he gave him in marriage the sister of his own wife, Tahʹpe·nes the queen.  20 In time the sister of Tahʹpe·nes bore him a son, Ge·nuʹbath, and Tahʹpe·nes brought him up in the house of Pharʹaoh, and Ge·nuʹbath remained in the house of Pharʹaoh among the sons of Pharʹaoh.",
+    choiceA: "Tahpenes",
+    choiceB: "Candace",
+    choiceC: "Zebidah",
+    choiceD: "Bath-sheba",
+    correctAnswer: "A"
+  },
+  {
+    question: "She was another wife of king Josiah beside Hamutal.",
+    clueSource: "2 Kings 23:34-36",
+    clueSourceContent: "34 Furthermore, Pharʹaoh Neʹchoh made Jo·siʹah’s son E·liʹa·kim king in place of his father Jo·siʹah and changed his name to Je·hoiʹa·kim; but he took Je·hoʹa·haz and brought him to Egypt, where he eventually died. 35 Je·hoiʹa·kim gave the silver and the gold to Pharʹaoh, but he had to tax the land to give the silver that Pharʹaoh demanded. He exacted an assessed amount of silver and gold from each of the people of the land to give to Pharʹaoh Neʹchoh. 36 Je·hoiʹa·kim was 25 years old when he became king, and he reigned for 11 years in Jerusalem. His mother’s name was Ze·biʹdah the daughter of Pe·daiʹah from Ruʹmah.",
+    choiceA: "Hamutal",
+    choiceB: "Zebidah",
+    choiceC: "Maacah",
+    choiceD: "Candace",
+    correctAnswer: "B"
+  },
+  {
+    question: "Who was the mother of king Jehoiakim?",
+    clueSource: "2 Kings 23:34-36",
+    clueSourceContent: "34 Furthermore, Pharʹaoh Neʹchoh made Jo·siʹah’s son E·liʹa·kim king in place of his father Jo·siʹah and changed his name to Je·hoiʹa·kim; but he took Je·hoʹa·haz and brought him to Egypt, where he eventually died. 35 Je·hoiʹa·kim gave the silver and the gold to Pharʹaoh, but he had to tax the land to give the silver that Pharʹaoh demanded. He exacted an assessed amount of silver and gold from each of the people of the land to give to Pharʹaoh Neʹchoh. 36 Je·hoiʹa·kim was 25 years old when he became king, and he reigned for 11 years in Jerusalem. His mother’s name was Ze·biʹdah the daughter of Pe·daiʹah from Ruʹmah.",
+    choiceA: "Maacah",
+    choiceB: "Tahpenes",
+    choiceC: "Zebidah",
+    choiceD: "Maacah",
+    correctAnswer: "C"
+  },
+  {
+    question: "She was the daughter of Pedaiah from Rumah.",
+    clueSource: "2 Kings 23:36",
+    clueSourceContent: "36 Je·hoiʹa·kim was 25 years old when he became king, and he reigned for 11 years in Jerusalem. His mother’s name was Ze·biʹdah the daughter of Pe·daiʹah from Ruʹmah.",
+    choiceA: "Maacah",
+    choiceB: "Tahpenes",
+    choiceC: "Candace",
+    choiceD: "Zebidah",
+    correctAnswer: "D"
+  },
+  {
+    question: "Who was the mother of king Solomon?",
+    clueSource: "1 Kings 1:11",
+    clueSourceContent: "11 Nathan then said to Bath-sheʹba, Solʹo·mon’s mother: “Have you not heard that Ad·o·niʹjah the son of Hagʹgith has become king, and our lord David does not know anything about it?",
+    choiceA: "Bath-sheba",
+    choiceB: "Hamutal",
+    choiceC: "Tahpenes",
+    choiceD: "Candace",
+    correctAnswer: "A"
+  },
+  {
+    question: "Her sons were Shimea, Shobab, Nathan, and Solomon.",
+    clueSource: "1 Chronicles 3:5",
+    clueSourceContent: "5 These were born to him in Jerusalem: Shimʹe·a, Shoʹbab, Nathan, and Solʹo·mon; the mother of these four was Bath-sheʹba the daughter of Amʹmi·el.",
+    choiceA: "Hamutal",
+    choiceB: "Bath-sheba",
+    choiceC: "Candace",
+    choiceD: "Zebidah",
+    correctAnswer: "B"
+  },
+  {
+    question: "Both of Jesus' earthly parents traced their ancestry to one of David's wives. Who's that?",
+    clueSource: "Luke 3:23-31",
+    clueSourceContent: "23 When Jesus began his work, he was about 30 years old, being the son, as the opinion was, of Joseph, son of Heʹli, 24 son of Matʹthat, son of Leʹvi, son of Melʹchi, son of Janʹna·i, son of Joseph, 25 son of Mat·ta·thiʹas, son of Aʹmos, son of Naʹhum, son of Esʹli, son of Nagʹga·i, 26 son of Maʹath, son of Mat·ta·thiʹas, son of Semʹe·in, son of Joʹsech, son of Joʹda, 27 son of Jo·anʹan, son of Rheʹsa, son of Ze·rubʹba·bel, son of She·alʹti·el, son of Neʹri, 28 son of Melʹchi, son of Adʹdi, son of Coʹsam, son of El·maʹdam, son of Er, 29 son of Jesus, son of E·li·eʹzer, son of Joʹrim, son of Matʹthat, son of Leʹvi, 30 son of Symʹe·on, son of Judas, son of Joseph, son of Joʹnam, son of E·liʹa·kim, 31 son of Meʹle·a, son of Menʹna, son of Matʹta·tha, son of Nathan, son of David,",
+    choiceA: "Hamutal",
+    choiceB: "Zebidah",
+    choiceC: "Bath-sheba",
+    choiceD: "Maacah",
+    correctAnswer: "C"
+  },
+  {
+    question: "King David committed adultery with whom?",
+    clueSource: "2 Samuel 11:3, 4",
+    clueSourceContent:
+      "3 David sent someone to inquire about the woman, and he reported: “Is this not Bath-sheʹba the daughter of E·liʹam and the wife of U·riʹah the Hitʹtite?”  4 Then David sent messengers to bring her. So she came in to him, and he lay down with her. (This happened while she was purifying herself from her uncleanness.) Afterward, she returned to her house.",
+    choiceA: "Maacah",
+    choiceB: "Ahinoam",
+    choiceC: "Abigail",
+    choiceD: "Bath-sheba",
+    correctAnswer: "D",
+  },
+]
+
 const rivers = [
   {
     question: "Which one is not included on the four rivers of Eden?",
@@ -1824,6 +2028,7 @@ const mountains1 = [
   },
 ];
 
+// 29 QUESTIONS!!!
 const mountains2 = [
   {
     question: "This mountain was known to the Sidonians as “Sirion” and to the Amorites as “Senir.”",
