@@ -6,7 +6,7 @@ const showTemplatePage = () => {
 }
 
 const getUserInput = () => {
-    const userInputField = document.getElementById('input-number');
+    const userInputField = document.getElementById('user-input-field');
     const userInput = userInputField.value;
     const result = songs.filter((song) => song.number.toString(10) === userInput);
 
