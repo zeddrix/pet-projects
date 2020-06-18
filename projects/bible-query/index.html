@@ -12,69 +12,33 @@
       <div class="container bk-img">
         <div id="homepage-block">
           <h1 id="bible-query-title">BIBLE QUERY</h1>
-          <div id="long-btn-container">
+          <div id="long-btns">
             <img
-              class="go-to-levels long-btn"
+              class="go-to-levels"
               src="img/play-btn.jpg"
             />
             <img
-              class="settings-btn long-btn"
+              class="settings-btn"
               src="img/settings-btn.jpg"
             />
             <img
-              class="rules-btn long-btn"
+              class="rules-btn"
               src="img/rules-btn.jpg"
             />
             <img
-              id="about-btn"
-              class="long-btn"
+              class="about-btn"
               src="img/about-btn.jpg"
             />
             <img
-              id="friends-btn"
-              class="long-btn"
+              class="friends-btn"
               src="img/friends-btn.jpg"
             />
             <img
+              class="quit-btn"
               src="img/quit-btn.jpg"
-              id="quit-btn"
-              class="long-btn"
             />
           </div>
         </div>
-        <!-- TELL YOUR FRIENDS -->
-        <div id="friends-modal" class="modal">
-          <div class="modal-effect">
-            <div class="modal-content">
-              <p>You are now temporarily leaving the game to send a recommendation using your preferred messaging application.</p>
-            </div>
-            <div id="okay-sm-btn-container">
-              <img
-              src="img/okay-sm-btn.jpg"
-              class="close-modal okay-sm-btn"/>
-            </div>
-          </div>
-        </div>
-        <!-- QUIT -->
-        <div id="quit-modal" class="modal">
-          <div class="modal-effect">
-            <div class="modal-content">
-              <p>Are you sure you want to quit?</p>
-            </div>
-            <div id="okay-sm-btn-container">
-              <div id="quit-sm-btns-container">
-                <img
-                src="img/yes-sm-btn.jpg"
-                id="quit-modal-yes-sm-btn"
-                class="close-modal yes-sm-btn"/>
-              <img
-                src="img/no-sm-btn.jpg"
-                id="quit-modal-no-sm-btn"
-                class="close-modal no-sm-btn"/>
-              </div>
-            </div>
-          </div>
-        </div>   
           
         <!-- Upon clicking PLAY -->
         <div id="levels-block" style="display: none;">
@@ -127,26 +91,6 @@
             />
           </div>
         </div>
-        <!-- RESET GAME -->
-        <div id="reset-game-modal" class="modal">
-          <div class="modal-effect">
-            <div class="modal-content">
-              <p>This means clearing all the data of the game! Are you sure you want to continue this procedure?</p>
-            </div>
-            <div id="okay-sm-btn-container">
-              <div id="reset-game-container">
-                <img
-                src="img/yes-sm-btn.jpg"
-                class="close-modal yes-sm-btn"
-                />
-              <img
-                src="img/no-sm-btn.jpg"
-                class="close-modal no-sm-btn"
-                />
-              </div>
-            </div>
-          </div>
-        </div> 
         <!-- Upon clicking on RULES -->
         <div id="rules-block" style="display: none;">
           <h1>GAME RULES</h1>
@@ -284,7 +228,6 @@
             />
           </div>
         </div>
-
         <!-- Upon selecting a query level -->
         <div id="query-block" style="display: none;">
           <div id="level-theme">level theme here</div>
@@ -325,6 +268,88 @@
             />
           </div>
         </div>
+        <!-- After the query -->
+        <div id="final-score-block" style="display: none;">
+          <div id="final-score">
+            <div id="score-phrase-1-div"></div>
+            <div id="final-score-img-div"></div>
+            <div id="final-score-percentage-div"></div>
+            <div id="score-phrase-2-div"></div>
+          </div>
+        </div>
+        <div id="final-score-menu-btns" style="display: none;">
+          <img
+            src="img/levels-sm-btn.jpg"
+            class="go-to-levels sm-btn"
+          />
+          <img
+            src="img/play-again-sm-btn.jpg"
+            class="sm-btn"
+          />
+          <img
+            src="img/next-level-sm-btn.jpg"
+            class="sm-btn"
+          />
+          <img
+            src="img/quit-sm-btn.jpg"
+            class="go-to-homepage sm-btn"
+          />
+        </div>
+        <!-- ----------------------------MODALS---------------------------- -->
+        <!-- TELL YOUR FRIENDS -->
+        <div id="friends-modal" class="modal">
+          <div class="modal-effect">
+            <div class="modal-content">
+              <p>You are now temporarily leaving the game to send a recommendation using your preferred messaging application.</p>
+            </div>
+            <div id="okay-sm-btn-container">
+              <img
+              src="img/okay-sm-btn.jpg"
+              class="close-modal okay-sm-btn"/>
+            </div>
+          </div>
+        </div>
+        <!-- QUIT -->
+        <div id="quit-modal" class="modal">
+          <div class="modal-effect">
+            <div class="modal-content">
+              <p>Are you sure you want to quit?</p>
+            </div>
+            <div id="okay-sm-btn-container">
+              <div id="quit-sm-btns-container">
+                <img
+                src="img/yes-sm-btn.jpg"
+                id="quit-modal-yes-sm-btn"
+                class="close-modal yes-sm-btn"/>
+              <img
+                src="img/no-sm-btn.jpg"
+                id="quit-modal-no-sm-btn"
+                class="close-modal no-sm-btn"/>
+              </div>
+            </div>
+          </div>
+        </div>   
+        <!-- RESET GAME -->
+        <div id="reset-game-modal" class="modal">
+          <div class="modal-effect">
+            <div class="modal-content">
+              <p>This means clearing all the data of the game! Are you sure you want to continue this procedure?</p>
+            </div>
+            <div id="okay-sm-btn-container">
+              <div id="reset-game-container">
+                <img
+                src="img/yes-sm-btn.jpg"
+                class="close-modal yes-sm-btn"
+                />
+              <img
+                src="img/no-sm-btn.jpg"
+                class="close-modal no-sm-btn"
+                />
+              </div>
+            </div>
+          </div>
+        </div> 
+        <!-- CLUE MODAL -->
         <div id="clue-modal" class="modal">
           <div class="modal-effect">
             <div id="clue-source"></div>
@@ -338,6 +363,7 @@
             </div>
           </div>
         </div>
+        <!-- DURING QUERY MODALS -->
         <div id="during-query-modals">
           <div id="levels-modal" class="modal">
             <div class="modal-effect">
@@ -397,33 +423,6 @@
               </div>
             </div>
           </div>
-        </div>
-        <!-- After the query -->
-        <div id="final-score-block" style="display: none;">
-          <div id="final-score">
-            <div id="score-phrase-1-div"></div>
-            <div id="final-score-img-div"></div>
-            <div id="final-score-percentage-div"></div>
-            <div id="score-phrase-2-div"></div>
-          </div>
-        </div>
-        <div id="final-score-menu-btns" style="display: none;">
-          <img
-            src="img/levels-sm-btn.jpg"
-            class="go-to-levels sm-btn"
-          />
-          <img
-            src="img/play-again-sm-btn.jpg"
-            class="sm-btn"
-          />
-          <img
-            src="img/next-level-sm-btn.jpg"
-            class="sm-btn"
-          />
-          <img
-            src="img/quit-sm-btn.jpg"
-            class="go-to-homepage sm-btn"
-          />
         </div>
       </div> <!-- container -->
     </div> <!-- outer-container -->

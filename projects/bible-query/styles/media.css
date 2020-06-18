@@ -35,7 +35,7 @@
   .long-btn {
     padding: 0.1em 0;
   }
-  #long-btn-container {
+  #long-btns {
     width: 75%;
   }
   /* settings */
@@ -179,7 +179,7 @@
   .long-btn {
     padding: 0.1em 0;
   }
-  #long-btn-container {
+  #long-btns {
     width: 80%;
   }
   /* settings */
@@ -338,7 +338,7 @@
     font-size: 2.8em;
     margin: 0.2em 0em;
   }
-  #long-btn-container {
+  #long-btns {
     width: 74%;
     margin-bottom: 3.1em;
   }

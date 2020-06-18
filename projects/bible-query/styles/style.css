@@ -59,7 +59,7 @@ h3,
 }
 
 a,
-.long-btn:hover,
+#long-btns img:hover,
 .button:hover,
 .choice,
 .sm-btn,
@@ -83,7 +83,7 @@ a,
   padding: 0;
 }
 
-.long-btn,
+#long-btns img,
 .sm-btn,
 .okay-sm-btn,
 .yes-sm-btn,
@@ -108,7 +108,7 @@ img {
   width: 23%;
 }
 
-.long-btn,
+#long-btns img,
 .question-container,
 #query-block {
   display: flex;
@@ -134,11 +134,11 @@ a {
   overflow: hidden;
 }
 
-#long-btn-container {
+#long-btns {
   margin-left: auto;
   margin-right: auto;
 }
-.long-btn {
+#long-btns img {
   max-width: 100%;
   align-self: center;
   /* remove the blue line around the button upon clicking */

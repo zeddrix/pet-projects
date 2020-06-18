@@ -9,11 +9,11 @@ window.addEventListener('click', function (event) {
     homepage()
   } else if (event.target.matches('.rules-btn')) {
     rules()
-  } else if (event.target.matches('#about-btn')) {
+  } else if (event.target.matches('.about-btn')) {
     about()
-  } else if (event.target.matches('#friends-btn')) {
+  } else if (event.target.matches('.friends-btn')) {
     showFriendsModal()
-  } else if (event.target.matches('#quit-btn')) {
+  } else if (event.target.matches('.quit-btn')) {
     showQuitModal()
   } else if (event.target.matches('#level-number')) {
     startQuery()
