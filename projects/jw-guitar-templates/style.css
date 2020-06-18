@@ -1,6 +1,46 @@
 body {
   color: blanchedalmond;
   line-height: 100px;
+  margin: 0;
+  overflow: hidden;
+}
+
+#bk-img {
+  background: url(JWGuitar.jpg) no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.contents-container {
+  padding-top: 10em;
+  padding-right: 45em;
+  padding-bottom: 80em;
+  padding-left: 10px;
+  margin: 0;
+  text-align: center;
+}
+
+#song,
+#song-number,
+#song-title,
+#parentheses,
+#bible-verse {
+  margin: 0em;
+}
+
+#song,
+#song-number {
+  font-size: 30pt;
+}
+
+#song-title {
+  font-size: 90pt;
+}
+
+#parentheses,
+#bible-verse {
+  font-size: 27pt;
 }
 
 @font-face {
@@ -30,36 +70,4 @@ body {
 #parentheses,
 #bible-verse {
   font-family: "ArcherPro-Thin";
-}
-
-img {
-  background-image: url(JWGuitar.jpg) no-repeat center center fixed;
-  background-size: cover;
-}
-
-.outer {
-  background: url(JWGuitar.jpg) no-repeat center center fixed;
-  background-size: cover;
-}
-
-.contents-container {
-  padding: 40px 20px 80px 10px;
-  margin: 100px 570px 75px 10px;
-  text-align: center;
-}
-
-#song,
-#song-number {
-  font-size: 30pt;
-  margin: 0em;
-}
-
-#song-title {
-  font-size: 75pt;
-  font-weight: bold;
-}
-
-#parentheses,
-#bible-verse {
-  font-size: 27pt;
 }
