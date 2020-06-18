@@ -1,5 +1,4 @@
 window.addEventListener('click', function (event) {
-  // homepage
   if (event.target.matches('.go-to-levels')) {
     levels()
   } else if (event.target.matches('.settings-btn')) {
@@ -13,7 +12,7 @@ window.addEventListener('click', function (event) {
   } else if (event.target.matches('#about-btn')) {
     about()
   } else if (event.target.matches('#friends-btn')) {
-    showfriendsModal()
+    showFriendsModal()
   } else if (event.target.matches('#quit-btn')) {
     showQuitModal()
   } else if (event.target.matches('#level-number')) {
@@ -31,7 +30,8 @@ window.addEventListener('click', function (event) {
   } else if (event.target.matches('#confirm-retry-query')) {
     confirmRetryQuery()
   } else {
-    console.log("You haven't clicked on any button.");
+    closeModal();
+    console.log("You haven't clicked on any button. You're just clicking everywhere.");
   }
 })
 

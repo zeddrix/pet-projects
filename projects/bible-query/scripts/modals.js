@@ -9,7 +9,7 @@ const quitQueryModal = document.getElementById("quit-query-modal");
 const showResetGameModal = () => {
   resetGameModal.style.display = "block";
 };
-const showfriendsModal = () => {
+const showFriendsModal = () => {
   friendsModal.style.display = "block";
 };
 window.onclick = function (event) {
