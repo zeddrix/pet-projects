@@ -14,8 +14,9 @@
       <section id="input-section">
         <h2 id="enter-song-number">Enter Song Number: </h2>
         <input type="number" id="user-input-field" />
-        <button id="find-btn" onclick="getUserInput()">FIND TEMPLATE</button>
+        <button onclick="getUserInput()">FIND TEMPLATE</button>
       </section>
+      <p id="home-copyright">Copyright ©2020 Zeddrix Fabian</p>
     </div>
 
     <div id="template-page" style="display: none;">
@@ -23,6 +24,8 @@
         <p id="song">Song <span id="song-number"></span></p>
         <h1 id="song-title"></h1>
         <p id="parentheses">(<span id="bible-verse"></span>)</p>
+        <button onclick="backToHomePage()">BACK</button>
+        <p id="template-copyright">Copyright ©2020 Zeddrix Fabian</p>
       </div>
     </div>
     <script src="scripts/data.js"></script>

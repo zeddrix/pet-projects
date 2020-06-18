@@ -1,3 +1,11 @@
+const userInputField = document.getElementById('user-input-field');
+
+userInputField.addEventListener("keypress", function (event) {
+    if (event.keyCode === 13) {
+        getUserInput();
+    }
+});
+
 const showTemplatePage = () => {
     const templatePage = document.getElementById('template-page');
     const homePage = document.getElementById('home-page');
@@ -6,7 +14,6 @@ const showTemplatePage = () => {
 }
 
 const getUserInput = () => {
-    const userInputField = document.getElementById('user-input-field');
     const userInput = userInputField.value;
     const result = songs.filter((song) => song.number.toString(10) === userInput);
 
@@ -18,6 +25,13 @@ const getUserInput = () => {
     songTitle.innerText = result[0].title;
     bibleVerse.innerText = result[0].verse;
     showTemplatePage();
+}
+
+const backToHomePage = () => {
+    const templatePage = document.getElementById('template-page');
+    const homePage = document.getElementById('home-page');
+    homePage.style.display = "block";
+    templatePage.style.display = "none";
 }
 
 // FOR REFERENCE:

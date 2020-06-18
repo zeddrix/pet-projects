@@ -1,88 +1,99 @@
 body {
-  line-height: 100px;
-  margin: 0;
-  overflow: hidden;
+	line-height: 100px;
+	margin: 0;
+	overflow: hidden;
 }
 
 header {
-  background: #6d5402;
-  font-family: "ArcherPro-Thin";
-  font-size: 1.5rem;
-  color: white;
-  padding: 0.5rem;
-  text-align: center;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
-  width: 100%;
+	background: #6d5402;
+	font-family: "ArcherPro-Thin";
+	font-size: 1.5rem;
+	color: white;
+	padding: 0.5rem;
+	text-align: center;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+	width: 100%;
 }
 
 #input-section {
-  text-align: center;
-  margin: 2rem auto;
-  width: 40rem;
-  max-width: 90%;
-  border: 1px solid #6d5402;
-  border-radius: 10px;
-  padding: 1rem;
-  color: #6d5402;
+	text-align: center;
+	margin: 2rem auto;
+	width: 40rem;
+	max-width: 90%;
+	border: 1px solid #6d5402;
+	border-radius: 10px;
+	padding: 1rem;
+	color: #6d5402;
 }
 
 #enter-song-number {
-  font-family: "ArcherPro-Thin";
-  margin: 0;
+	font-family: "ArcherPro-Thin";
+	margin: 0;
 }
 
 #user-input-field {
-  font: inherit;
-  font-size: 3rem;
-  border: 2px solid #6d5402;
-  width: 10rem;
-  height: 5rem;
-  padding: 0.15rem;
-  margin: auto;
-  display: block;
-  color: #6d5402;
-  text-align: center;
+	font: inherit;
+	font-size: 3rem;
+	border: 2px solid #6d5402;
+	width: 10rem;
+	height: 5rem;
+	padding: 0.15rem;
+	margin: auto;
+	display: block;
+	color: #6d5402;
+	text-align: center;
 }
 #user-input-field:focus {
-  outline: none;
+	outline: none;
 }
 
-#find-btn {
-  font-family: 'Times New Roman', Times, serif;
-  background: #6d5402;
-  font-size: 1rem;
-  height: 5rem;
-  color: white;
-  border: 1px solid #6d5402;
-  padding: 0 4rem;
-  margin: 1rem;
-  cursor: pointer;
-  border-radius: 20%;
-}
-#find-btn:focus {
-  outline: none;
-}
-#find-btn:hover,
-#find-btn:active {
-  background: #5d4803;
-  border-color: #5d4803;
+/* Chrome, Safari, Edge, Opera */
+#user-input-field::-webkit-outer-spin-button,
+#user-input-field::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
 }
 
+/* Firefox */
+#user-input-field[type="number"] {
+	-moz-appearance: textfield;
+}
+
+button {
+	font-family: "Times New Roman", Times, serif;
+	background: #6d5402;
+	font-size: 1rem;
+	height: 5rem;
+	color: white;
+	border: 1px solid #6d5402;
+	padding: 0 4rem;
+	margin: 1rem;
+	cursor: pointer;
+	border-radius: 20%;
+}
+button:focus {
+	outline: none;
+}
+button:hover,
+button:active {
+	background: #5d4803;
+	border-color: #5d4803;
+}
 
 #template-page {
-  background: url(JWGuitar.jpg) no-repeat center center fixed;
-  background-size: cover;
-  margin: 0;
-  padding: 0;
+	background: url(JWGuitar.jpg) no-repeat center center fixed;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
 }
 
 .contents-container {
-  padding-top: 10em;
-  padding-right: 45em;
-  padding-bottom: 80em;
-  padding-left: 10px;
-  margin: 0;
-  text-align: center;
+	padding-top: 5em;
+	padding-right: 40em;
+	padding-bottom: 80em;
+	padding-left: 3em;
+	margin: 0;
+	text-align: center;
 }
 
 #song,
@@ -90,49 +101,62 @@ header {
 #song-title,
 #parentheses,
 #bible-verse {
-  margin: 0em;
-  color: blanchedalmond;
+	margin: 0em;
+	color: blanchedalmond;
 }
 
 #song,
 #song-number {
-  font-size: 20pt;
+	font-size: 30pt;
 }
 
 #song-title {
-  font-size: 70pt;
+	font-size: 70pt;
 }
 
 #parentheses,
 #bible-verse {
-  font-size: 27pt;
+	font-size: 20pt;
 }
 
 @font-face {
-  font-family: "Avenir";
-  src: url(fonts/AvenirLTStd-Book.otf);
+	font-family: "Avenir";
+	src: url(fonts/AvenirLTStd-Book.otf);
 }
 
 @font-face {
-  font-family: "Charter";
-  src: url(fonts/Charter.ttf);
+	font-family: "Charter";
+	src: url(fonts/Charter.ttf);
 }
 
 @font-face {
-  font-family: "ArcherPro-Thin";
-  src: url(fonts/ArcherPro-Thin.otf);
+	font-family: "ArcherPro-Thin";
+	src: url(fonts/ArcherPro-Thin.otf);
 }
 
 #song,
 #song-number {
-  font-family: "Avenir";
+	font-family: "Avenir";
 }
 
 #song-title {
-  font-family: "Charter";
+	font-family: "Charter";
 }
 
 #parentheses,
 #bible-verse {
-  font-family: "ArcherPro-Thin";
+	font-family: "ArcherPro-Thin";
+}
+
+#home-copyright,
+#template-copyright {
+	text-align: center;
+}
+
+#home-copyright {
+  color: black;
+}
+
+#template-copyright {
+  color: white;
 }
