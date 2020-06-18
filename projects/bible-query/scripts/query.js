@@ -44,9 +44,9 @@ const renderQuestion = () => {
   const choiceD = document.getElementById("D");
   let q = rivers[currentQuestion];
 
-  question.innerHTML = "<p>" + q.question + "</p>";
-  clueSource.innerHTML = "<h2>" + q.clueSource + "</h2>";
-  clueSourceContent.innerHTML = "<p>" + q.clueSourceContent + "</p>";
+  question.innerHTML = `<p>${q.question}</p>`;
+  clueSource.innerHTML = `<h2>${q.clueSource}</h2>`;
+  clueSourceContent.innerHTML = `<p>${q.clueSourceContent}</p>`;
   choiceA.innerHTML = q.choiceA;
   choiceB.innerHTML = q.choiceB;
   choiceC.innerHTML = q.choiceC;
@@ -57,7 +57,7 @@ const lastQuestion = rivers.length - 1;
 const renderProgress = () => {
   const progress = document.getElementById("progress");
   for (qIndex; qIndex <= lastQuestion; qIndex++) {
-    progress.innerHTML += "<div class='progress' id=" + qIndex + "></div>";
+    progress.innerHTML += `<div class='progress' id="${qIndex}"></div>`;
   }
 };
 
@@ -78,7 +78,7 @@ const renderCounter = () => {
 
   if (count <= questionTime) {
     counter.innerHTML = count;
-    timeGauge.style.width = count * gaugeUnit + "%";
+    timeGauge.style.width = `${count * gaugeUnit}%`;
     count++;
   } else {
     count = 0;
@@ -129,13 +129,13 @@ const scoreStarAndPercentage = () => {
                 : "img/zero-star.png";
 
   const finalScoreImgDiv = document.getElementById("final-score-img-div");
-  finalScoreImgDiv.innerHTML = "<img id='final-score-img' src=" + img + ">";
+  finalScoreImgDiv.innerHTML = `<img id='final-score-img' src=${img}>`;
 
   const finalScorePercentageDiv = document.getElementById(
     "final-score-percentage-div"
   );
   finalScorePercentageDiv.innerHTML =
-    "<p id='final-score-percentage'>" + scorePercent + "%</p>";
+    `<p id='final-score-percentage'>${scorePercent}%</p>`;
 }
 const scorePhrase1 = () => {
   const scorePercent = Math.round((100 * score) / rivers.length);
@@ -156,7 +156,7 @@ const scorePhrase1 = () => {
                 : "Don't give up!";
 
   const scorePhrase1Div = document.getElementById("score-phrase-1-div");
-  scorePhrase1Div.innerHTML = "<h1 id='score-phrase-1'>" + sp1 + "</h1>";
+  scorePhrase1Div.innerHTML = `<h1 id='score-phrase-1'>${sp1}</h1>`;
 }
 const scorePhrase2 = () => {
   const scorePercent = Math.round((100 * score) / rivers.length);
@@ -175,7 +175,7 @@ const scorePhrase2 = () => {
               : "Play again and crush this level!";
 
   const scorePhrase2Div = document.getElementById("score-phrase-2-div");
-  scorePhrase2Div.innerHTML = "<p id='score-phrase-2'>" + sp2 + "</p>";
+  scorePhrase2Div.innerHTML = `<p id='score-phrase-2'>${sp2}</p>`;
 };
 const finalScore = () => {
   scorePage();
