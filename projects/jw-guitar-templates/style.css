@@ -5,7 +5,7 @@ body {
   overflow: hidden;
 }
 
-#bk-img {
+#template-page {
   background: url(JWGuitar.jpg) no-repeat center center fixed;
   background-size: cover;
   margin: 0;
