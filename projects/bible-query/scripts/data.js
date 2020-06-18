@@ -825,8 +825,7 @@ const kings1 = [
     correctAnswer: "B",
   },
   {
-    question:
-      "Who was known for driving his chariot like a madman?",
+    question: "Who was known for driving his chariot like a madman?",
     clueSource: "2 Kings 9:20",
     clueSourceContent:
       "20 The watchman then reported: “He reached them, but he has not returned, and the driving is like the driving of Jeʹhu the grandson of Nimʹshi, for he drives like a madman.”",
@@ -837,7 +836,8 @@ const kings1 = [
     correctAnswer: "C",
   },
   {
-    question: "Who was just 7 years old when he started to rule as king of Judah?",
+    question:
+      "Who was just 7 years old when he started to rule as king of Judah?",
     clueSource: "2 Kings 11:21",
     clueSourceContent: "21 Je·hoʹash was seven years old when he became king.",
     choiceA: "Josiah",
@@ -895,7 +895,8 @@ const kings1 = [
     correctAnswer: "D",
   },
   {
-    question: "He was just 8 years old when he started to rule as king of Judah.",
+    question:
+      "He was just 8 years old when he started to rule as king of Judah.",
     clueSource: "2 Kings 22:1",
     clueSourceContent:
       "Jo·siʹah was eight years old when he became king, and he reigned for 31 years in Jerusalem. His mother’s name was Je·diʹdah the daughter of A·daiʹah from Bozʹkath.",
@@ -1380,7 +1381,8 @@ const queens1 = [
     correctAnswer: "A",
   },
   {
-    question: "When her son, king Ahaziah, died, she made herself the ruler of Judah.",
+    question:
+      "When her son, king Ahaziah, died, she made herself the ruler of Judah.",
     clueSource: "2 Chronicles 22:11, 12",
     clueSourceContent:
       "He remained with them for six years, hidden at the house of the true God, while Ath·a·liʹah was ruling over the land.",
@@ -1418,192 +1420,219 @@ const queens2 = [
   {
     question: "Who was the daughter of “Jeremiah from Libnah”?",
     clueSource: "2 Kings 23:30, 31",
-    clueSourceContent: "30 So his servants transported his dead body in a chariot from Me·gidʹdo and brought him to Jerusalem and buried him in his grave. Then the people of the land took Jo·siʹah’s son Je·hoʹa·haz and anointed him and made him king in place of his father. 31 Je·hoʹa·haz was 23 years old when he became king, and he reigned for three months in Jerusalem. His mother’s name was Ha·muʹtal the daughter of Jeremiah from Libʹnah.",
+    clueSourceContent:
+      "30 So his servants transported his dead body in a chariot from Me·gidʹdo and brought him to Jerusalem and buried him in his grave. Then the people of the land took Jo·siʹah’s son Je·hoʹa·haz and anointed him and made him king in place of his father. 31 Je·hoʹa·haz was 23 years old when he became king, and he reigned for three months in Jerusalem. His mother’s name was Ha·muʹtal the daughter of Jeremiah from Libʹnah.",
     choiceA: "Hamutal",
     choiceB: "Candace",
     choiceC: "Maacah",
     choiceD: "Bath-sheba",
-    correctAnswer: "A"
+    correctAnswer: "A",
   },
   {
     question: "Who was the wife of king Josiah?",
     clueSource: "2 Kings 23:30, 31",
-    clueSourceContent: "30 So his servants transported his dead body in a chariot from Me·gidʹdo and brought him to Jerusalem and buried him in his grave. Then the people of the land took Jo·siʹah’s son Je·hoʹa·haz and anointed him and made him king in place of his father. 31 Je·hoʹa·haz was 23 years old when he became king, and he reigned for three months in Jerusalem. His mother’s name was Ha·muʹtal the daughter of Jeremiah from Libʹnah.",
+    clueSourceContent:
+      "30 So his servants transported his dead body in a chariot from Me·gidʹdo and brought him to Jerusalem and buried him in his grave. Then the people of the land took Jo·siʹah’s son Je·hoʹa·haz and anointed him and made him king in place of his father. 31 Je·hoʹa·haz was 23 years old when he became king, and he reigned for three months in Jerusalem. His mother’s name was Ha·muʹtal the daughter of Jeremiah from Libʹnah.",
     choiceA: "Tahpenes",
     choiceB: "Hamutal",
     choiceC: "Maacah",
     choiceD: "Candace",
-    correctAnswer: "B"
+    correctAnswer: "B",
   },
   {
     question: "Who was the mother of king Jehoahaz?",
     clueSource: "2 Kings 23:30, 31",
-    clueSourceContent: "30 So his servants transported his dead body in a chariot from Me·gidʹdo and brought him to Jerusalem and buried him in his grave. Then the people of the land took Jo·siʹah’s son Je·hoʹa·haz and anointed him and made him king in place of his father. 31 Je·hoʹa·haz was 23 years old when he became king, and he reigned for three months in Jerusalem. His mother’s name was Ha·muʹtal the daughter of Jeremiah from Libʹnah.",
+    clueSourceContent:
+      "30 So his servants transported his dead body in a chariot from Me·gidʹdo and brought him to Jerusalem and buried him in his grave. Then the people of the land took Jo·siʹah’s son Je·hoʹa·haz and anointed him and made him king in place of his father. 31 Je·hoʹa·haz was 23 years old when he became king, and he reigned for three months in Jerusalem. His mother’s name was Ha·muʹtal the daughter of Jeremiah from Libʹnah.",
     choiceA: "Candace",
     choiceB: "Zebidah",
     choiceC: "Hamutal",
     choiceD: "Bath-sheba",
-    correctAnswer: "C"
+    correctAnswer: "C",
   },
   {
-    question: "Who was the mother of king Mattaniah who's also known as king Zedekiah?",
+    question:
+      "Who was the mother of king Mattaniah who's also known as king Zedekiah?",
     clueSource: "2 Kings 24:17, 18",
-    clueSourceContent: "17 The king of Babylon made Mat·ta·niʹah, Je·hoiʹa·chin’s uncle, king in his place and changed his name to Zed·e·kiʹah. 18 Zed·e·kiʹah was 21 years old when he became king, and he reigned for 11 years in Jerusalem. His mother’s name was Ha·muʹtal the daughter of Jeremiah from Libʹnah.",
+    clueSourceContent:
+      "17 The king of Babylon made Mat·ta·niʹah, Je·hoiʹa·chin’s uncle, king in his place and changed his name to Zed·e·kiʹah. 18 Zed·e·kiʹah was 21 years old when he became king, and he reigned for 11 years in Jerusalem. His mother’s name was Ha·muʹtal the daughter of Jeremiah from Libʹnah.",
     choiceA: "Bath-sheba",
     choiceB: "Candace",
     choiceC: "Zebidah",
     choiceD: "Hamutal",
-    correctAnswer: "D"
+    correctAnswer: "D",
   },
   {
     question: "A queen of Ethiopia whose treasurer became a Christian.",
     clueSource: "Acts 8:27",
-    clueSourceContent: "27 With that he got up and went, and look! an E·thi·oʹpi·an eunuch, a man who had authority under Can·daʹce, queen of the E·thi·oʹpi·ans, and who was in charge of all her treasure. He had gone to Jerusalem to worship.",
+    clueSourceContent:
+      "27 With that he got up and went, and look! an E·thi·oʹpi·an eunuch, a man who had authority under Can·daʹce, queen of the E·thi·oʹpi·ans, and who was in charge of all her treasure. He had gone to Jerusalem to worship.",
     choiceA: "Candace",
     choiceB: "Tahpenes",
     choiceC: "Zebidah",
     choiceD: "Maacah",
-    correctAnswer: "A"
+    correctAnswer: "A",
   },
   {
     question: "Who was the granddaughter of king Absalom?",
     clueSource: "2 Chronicles 11:20",
-    clueSourceContent: "20 After her, he married Maʹa·cah the granddaughter of Abʹsa·lom. In time she bore him A·biʹjah, Atʹtai, Ziʹza, and She·loʹmith.",
+    clueSourceContent:
+      "20 After her, he married Maʹa·cah the granddaughter of Abʹsa·lom. In time she bore him A·biʹjah, Atʹtai, Ziʹza, and She·loʹmith.",
     choiceA: "Candace",
     choiceB: "Maacah",
     choiceC: "Hamutal",
     choiceD: "Tahpenes",
-    correctAnswer: "B"
+    correctAnswer: "B",
   },
   {
     question: "Who was the most beloved wife of Judean king Rehoboam?",
     clueSource: "2 Chronicles 11:21",
-    clueSourceContent: "21 Re·ho·boʹam loved Maʹa·cah the granddaughter of Abʹsa·lom more than all his other wives and concubines, for he took 18 wives and 60 concubines, and he became father to 28 sons and 60 daughters.",
+    clueSourceContent:
+      "21 Re·ho·boʹam loved Maʹa·cah the granddaughter of Abʹsa·lom more than all his other wives and concubines, for he took 18 wives and 60 concubines, and he became father to 28 sons and 60 daughters.",
     choiceA: "Hamutal",
     choiceB: "Bath-sheba",
     choiceC: "Maacah",
     choiceD: "Zebidah",
-    correctAnswer: "C"
+    correctAnswer: "C",
   },
   {
-    question: "Who was the mother of king Abijah who's also known as king Abijam?",
+    question:
+      "Who was the mother of king Abijah who's also known as king Abijam?",
     clueSource: "2 Chronicles 11:22",
-    clueSourceContent: "22 So Re·ho·boʹam appointed A·biʹjah the son of Maʹa·cah as head and leader among his brothers, for he intended to make him king.",
+    clueSourceContent:
+      "22 So Re·ho·boʹam appointed A·biʹjah the son of Maʹa·cah as head and leader among his brothers, for he intended to make him king.",
     choiceA: "Zebidah",
     choiceB: "Candace",
     choiceC: "Tahpenes",
     choiceD: "Maacah",
-    correctAnswer: "D"
+    correctAnswer: "D",
   },
   {
-    question: "“She had made an obscene idol for the worship of the sacred pole.”",
+    question:
+      "“She had made an obscene idol for the worship of the sacred pole.”",
     clueSource: "2 Chronicles 15:16",
-    clueSourceContent: "16 Aʹsa the king even removed Maʹa·cah his grandmother from her position as queen mother, because she had made an obscene idol for the worship of the sacred pole. Aʹsa cut down her obscene idol and pulverized it and burned it in the Kidʹron Valley.",
+    clueSourceContent:
+      "16 Aʹsa the king even removed Maʹa·cah his grandmother from her position as queen mother, because she had made an obscene idol for the worship of the sacred pole. Aʹsa cut down her obscene idol and pulverized it and burned it in the Kidʹron Valley.",
     choiceA: "Maacah",
     choiceB: "Zebidah",
     choiceC: "Hamutal",
     choiceD: "Tahpenes",
-    correctAnswer: "A"
+    correctAnswer: "A",
   },
   {
-    question: "King Asa removed this grandmother of his from her position as queen mother in Judah.",
+    question:
+      "King Asa removed this grandmother of his from her position as queen mother in Judah.",
     clueSource: "2 Chronicles 15:16",
-    clueSourceContent: "16 Aʹsa the king even removed Maʹa·cah his grandmother from her position as queen mother, because she had made an obscene idol for the worship of the sacred pole. Aʹsa cut down her obscene idol and pulverized it and burned it in the Kidʹron Valley.",
+    clueSourceContent:
+      "16 Aʹsa the king even removed Maʹa·cah his grandmother from her position as queen mother, because she had made an obscene idol for the worship of the sacred pole. Aʹsa cut down her obscene idol and pulverized it and burned it in the Kidʹron Valley.",
     choiceA: "Candace",
     choiceB: "Maacah",
     choiceC: "Zebidah",
     choiceD: "Hamutal",
-    correctAnswer: "B"
+    correctAnswer: "B",
   },
   {
-    question: "Who was the wife of the Egyptian Pharaoh contemporary with David and Solomon?",
+    question:
+      "Who was the wife of the Egyptian Pharaoh contemporary with David and Solomon?",
     clueSource: "1 Kings 11:19",
-    clueSourceContent: "19 Haʹdad found favor in the eyes of Pharʹaoh, so much so that he gave him in marriage the sister of his own wife, Tahʹpe·nes the queen.",
+    clueSourceContent:
+      "19 Haʹdad found favor in the eyes of Pharʹaoh, so much so that he gave him in marriage the sister of his own wife, Tahʹpe·nes the queen.",
     choiceA: "Hamutal",
     choiceB: "Candace",
     choiceC: "Tahpenes",
     choiceD: "Zebidah",
-    correctAnswer: "C"
+    correctAnswer: "C",
   },
   {
-    question: "Her sister was given in marriage to Hadad, a resister of Solomon.",
+    question:
+      "Her sister was given in marriage to Hadad, a resister of Solomon.",
     clueSource: "1 Kings 11:19",
-    clueSourceContent: "19 Haʹdad found favor in the eyes of Pharʹaoh, so much so that he gave him in marriage the sister of his own wife, Tahʹpe·nes the queen.",
+    clueSourceContent:
+      "19 Haʹdad found favor in the eyes of Pharʹaoh, so much so that he gave him in marriage the sister of his own wife, Tahʹpe·nes the queen.",
     choiceA: "Hamutal",
     choiceB: "Maacah",
     choiceC: "Zebidah",
     choiceD: "Tahpenes",
-    correctAnswer: "D"
+    correctAnswer: "D",
   },
   {
-    question: "She raised Genubath, the child of this marriage, with her own children in the house of Pharaoh.​",
+    question:
+      "She raised Genubath, the child of this marriage, with her own children in the house of Pharaoh.​",
     clueSource: "1 Kings 11:19, 20",
-    clueSourceContent: "19 Haʹdad found favor in the eyes of Pharʹaoh, so much so that he gave him in marriage the sister of his own wife, Tahʹpe·nes the queen.  20 In time the sister of Tahʹpe·nes bore him a son, Ge·nuʹbath, and Tahʹpe·nes brought him up in the house of Pharʹaoh, and Ge·nuʹbath remained in the house of Pharʹaoh among the sons of Pharʹaoh.",
+    clueSourceContent:
+      "19 Haʹdad found favor in the eyes of Pharʹaoh, so much so that he gave him in marriage the sister of his own wife, Tahʹpe·nes the queen.  20 In time the sister of Tahʹpe·nes bore him a son, Ge·nuʹbath, and Tahʹpe·nes brought him up in the house of Pharʹaoh, and Ge·nuʹbath remained in the house of Pharʹaoh among the sons of Pharʹaoh.",
     choiceA: "Tahpenes",
     choiceB: "Candace",
     choiceC: "Zebidah",
     choiceD: "Bath-sheba",
-    correctAnswer: "A"
+    correctAnswer: "A",
   },
   {
     question: "She was another wife of king Josiah beside Hamutal.",
     clueSource: "2 Kings 23:34-36",
-    clueSourceContent: "34 Furthermore, Pharʹaoh Neʹchoh made Jo·siʹah’s son E·liʹa·kim king in place of his father Jo·siʹah and changed his name to Je·hoiʹa·kim; but he took Je·hoʹa·haz and brought him to Egypt, where he eventually died. 35 Je·hoiʹa·kim gave the silver and the gold to Pharʹaoh, but he had to tax the land to give the silver that Pharʹaoh demanded. He exacted an assessed amount of silver and gold from each of the people of the land to give to Pharʹaoh Neʹchoh. 36 Je·hoiʹa·kim was 25 years old when he became king, and he reigned for 11 years in Jerusalem. His mother’s name was Ze·biʹdah the daughter of Pe·daiʹah from Ruʹmah.",
+    clueSourceContent:
+      "34 Furthermore, Pharʹaoh Neʹchoh made Jo·siʹah’s son E·liʹa·kim king in place of his father Jo·siʹah and changed his name to Je·hoiʹa·kim; but he took Je·hoʹa·haz and brought him to Egypt, where he eventually died. 35 Je·hoiʹa·kim gave the silver and the gold to Pharʹaoh, but he had to tax the land to give the silver that Pharʹaoh demanded. He exacted an assessed amount of silver and gold from each of the people of the land to give to Pharʹaoh Neʹchoh. 36 Je·hoiʹa·kim was 25 years old when he became king, and he reigned for 11 years in Jerusalem. His mother’s name was Ze·biʹdah the daughter of Pe·daiʹah from Ruʹmah.",
     choiceA: "Hamutal",
     choiceB: "Zebidah",
     choiceC: "Maacah",
     choiceD: "Candace",
-    correctAnswer: "B"
+    correctAnswer: "B",
   },
   {
     question: "Who was the mother of king Jehoiakim?",
     clueSource: "2 Kings 23:34-36",
-    clueSourceContent: "34 Furthermore, Pharʹaoh Neʹchoh made Jo·siʹah’s son E·liʹa·kim king in place of his father Jo·siʹah and changed his name to Je·hoiʹa·kim; but he took Je·hoʹa·haz and brought him to Egypt, where he eventually died. 35 Je·hoiʹa·kim gave the silver and the gold to Pharʹaoh, but he had to tax the land to give the silver that Pharʹaoh demanded. He exacted an assessed amount of silver and gold from each of the people of the land to give to Pharʹaoh Neʹchoh. 36 Je·hoiʹa·kim was 25 years old when he became king, and he reigned for 11 years in Jerusalem. His mother’s name was Ze·biʹdah the daughter of Pe·daiʹah from Ruʹmah.",
+    clueSourceContent:
+      "34 Furthermore, Pharʹaoh Neʹchoh made Jo·siʹah’s son E·liʹa·kim king in place of his father Jo·siʹah and changed his name to Je·hoiʹa·kim; but he took Je·hoʹa·haz and brought him to Egypt, where he eventually died. 35 Je·hoiʹa·kim gave the silver and the gold to Pharʹaoh, but he had to tax the land to give the silver that Pharʹaoh demanded. He exacted an assessed amount of silver and gold from each of the people of the land to give to Pharʹaoh Neʹchoh. 36 Je·hoiʹa·kim was 25 years old when he became king, and he reigned for 11 years in Jerusalem. His mother’s name was Ze·biʹdah the daughter of Pe·daiʹah from Ruʹmah.",
     choiceA: "Maacah",
     choiceB: "Tahpenes",
     choiceC: "Zebidah",
     choiceD: "Maacah",
-    correctAnswer: "C"
+    correctAnswer: "C",
   },
   {
     question: "She was the daughter of Pedaiah from Rumah.",
     clueSource: "2 Kings 23:36",
-    clueSourceContent: "36 Je·hoiʹa·kim was 25 years old when he became king, and he reigned for 11 years in Jerusalem. His mother’s name was Ze·biʹdah the daughter of Pe·daiʹah from Ruʹmah.",
+    clueSourceContent:
+      "36 Je·hoiʹa·kim was 25 years old when he became king, and he reigned for 11 years in Jerusalem. His mother’s name was Ze·biʹdah the daughter of Pe·daiʹah from Ruʹmah.",
     choiceA: "Maacah",
     choiceB: "Tahpenes",
     choiceC: "Candace",
     choiceD: "Zebidah",
-    correctAnswer: "D"
+    correctAnswer: "D",
   },
   {
     question: "Who was the mother of king Solomon?",
     clueSource: "1 Kings 1:11",
-    clueSourceContent: "11 Nathan then said to Bath-sheʹba, Solʹo·mon’s mother: “Have you not heard that Ad·o·niʹjah the son of Hagʹgith has become king, and our lord David does not know anything about it?",
+    clueSourceContent:
+      "11 Nathan then said to Bath-sheʹba, Solʹo·mon’s mother: “Have you not heard that Ad·o·niʹjah the son of Hagʹgith has become king, and our lord David does not know anything about it?",
     choiceA: "Bath-sheba",
     choiceB: "Hamutal",
     choiceC: "Tahpenes",
     choiceD: "Candace",
-    correctAnswer: "A"
+    correctAnswer: "A",
   },
   {
     question: "Her sons were Shimea, Shobab, Nathan, and Solomon.",
     clueSource: "1 Chronicles 3:5",
-    clueSourceContent: "5 These were born to him in Jerusalem: Shimʹe·a, Shoʹbab, Nathan, and Solʹo·mon; the mother of these four was Bath-sheʹba the daughter of Amʹmi·el.",
+    clueSourceContent:
+      "5 These were born to him in Jerusalem: Shimʹe·a, Shoʹbab, Nathan, and Solʹo·mon; the mother of these four was Bath-sheʹba the daughter of Amʹmi·el.",
     choiceA: "Hamutal",
     choiceB: "Bath-sheba",
     choiceC: "Candace",
     choiceD: "Zebidah",
-    correctAnswer: "B"
+    correctAnswer: "B",
   },
   {
-    question: "Both of Jesus' earthly parents traced their ancestry to one of David's wives. Who's that?",
+    question:
+      "Both of Jesus' earthly parents traced their ancestry to one of David's wives. Who's that?",
     clueSource: "Luke 3:23-31",
-    clueSourceContent: "23 When Jesus began his work, he was about 30 years old, being the son, as the opinion was, of Joseph, son of Heʹli, 24 son of Matʹthat, son of Leʹvi, son of Melʹchi, son of Janʹna·i, son of Joseph, 25 son of Mat·ta·thiʹas, son of Aʹmos, son of Naʹhum, son of Esʹli, son of Nagʹga·i, 26 son of Maʹath, son of Mat·ta·thiʹas, son of Semʹe·in, son of Joʹsech, son of Joʹda, 27 son of Jo·anʹan, son of Rheʹsa, son of Ze·rubʹba·bel, son of She·alʹti·el, son of Neʹri, 28 son of Melʹchi, son of Adʹdi, son of Coʹsam, son of El·maʹdam, son of Er, 29 son of Jesus, son of E·li·eʹzer, son of Joʹrim, son of Matʹthat, son of Leʹvi, 30 son of Symʹe·on, son of Judas, son of Joseph, son of Joʹnam, son of E·liʹa·kim, 31 son of Meʹle·a, son of Menʹna, son of Matʹta·tha, son of Nathan, son of David,",
+    clueSourceContent:
+      "23 When Jesus began his work, he was about 30 years old, being the son, as the opinion was, of Joseph, son of Heʹli, 24 son of Matʹthat, son of Leʹvi, son of Melʹchi, son of Janʹna·i, son of Joseph, 25 son of Mat·ta·thiʹas, son of Aʹmos, son of Naʹhum, son of Esʹli, son of Nagʹga·i, 26 son of Maʹath, son of Mat·ta·thiʹas, son of Semʹe·in, son of Joʹsech, son of Joʹda, 27 son of Jo·anʹan, son of Rheʹsa, son of Ze·rubʹba·bel, son of She·alʹti·el, son of Neʹri, 28 son of Melʹchi, son of Adʹdi, son of Coʹsam, son of El·maʹdam, son of Er, 29 son of Jesus, son of E·li·eʹzer, son of Joʹrim, son of Matʹthat, son of Leʹvi, 30 son of Symʹe·on, son of Judas, son of Joseph, son of Joʹnam, son of E·liʹa·kim, 31 son of Meʹle·a, son of Menʹna, son of Matʹta·tha, son of Nathan, son of David,",
     choiceA: "Hamutal",
     choiceB: "Zebidah",
     choiceC: "Bath-sheba",
     choiceD: "Maacah",
-    correctAnswer: "C"
+    correctAnswer: "C",
   },
   {
     question: "King David committed adultery with whom?",
@@ -1616,7 +1645,7 @@ const queens2 = [
     choiceD: "Bath-sheba",
     correctAnswer: "D",
   },
-]
+];
 
 const rivers = [
   {
@@ -1631,174 +1660,203 @@ const rivers = [
     correctAnswer: "D",
   },
   {
-    question: "In Pharaoh's dream, he saw the 7 fat and 7 thin cows coming up from what river?",
+    question:
+      "In Pharaoh's dream, he saw the 7 fat and 7 thin cows coming up from what river?",
     clueSource: "Genesis 41:1-4",
-    clueSourceContent: " At the end of two full years, Pharʹaoh dreameda that he was standing by the Nile River. 2  And there, coming up from the river, were seven fine-looking, fat cows, and they were feeding on the Nile grass.b 3  There were seven other cows that looked ugly and thin coming up after them from the Nile, and they stood alongside the fat cows by the bank of the Nile. 4  Then the ugly, thin cows began to eat up the seven fine-looking, fat cows. At this Pharʹaoh woke up.",
+    clueSourceContent:
+      " At the end of two full years, Pharʹaoh dreameda that he was standing by the Nile River. 2  And there, coming up from the river, were seven fine-looking, fat cows, and they were feeding on the Nile grass.b 3  There were seven other cows that looked ugly and thin coming up after them from the Nile, and they stood alongside the fat cows by the bank of the Nile. 4  Then the ugly, thin cows began to eat up the seven fine-looking, fat cows. At this Pharʹaoh woke up.",
     choiceA: "Nile",
     choiceB: "Abanah",
     choiceC: "Jordan",
     choiceD: "Red Sea",
-    correctAnswer: "A"
+    correctAnswer: "A",
   },
   {
     question: "On what river was Pharaoh's daughter bathing?",
     clueSource: "Exodus 2:5",
-    clueSourceContent: "5 When Pharʹaoh’s daughter came down to bathe in the Nile, her female attendants were walking by the side of the Nile. And she caught sight of the basket in the middle of the reeds. She immediately sent her slave girl to get it.",
+    clueSourceContent:
+      "5 When Pharʹaoh’s daughter came down to bathe in the Nile, her female attendants were walking by the side of the Nile. And she caught sight of the basket in the middle of the reeds. She immediately sent her slave girl to get it.",
     choiceA: "Jordan",
     choiceB: "Nile",
     choiceC: "Tigris",
     choiceD: "Euphrates",
-    correctAnswer: "B"
+    correctAnswer: "B",
   },
   {
     question: "On what river did Pharaoh's daughter find baby Moses?",
     clueSource: "Exodus 2:5-10",
-    clueSourceContent: "5 When Pharʹaoh’s daughter came down to bathe in the Nile, her female attendants were walking by the side of the Nile. And she caught sight of the basket in the middle of the reeds. She immediately sent her slave girl to get it.  6 When she opened it, she saw the child, and the boy was crying. She felt compassion for him, but she said: “This is one of the children of the Hebrews.”  7 Then his sister said to Pharʹaoh’s daughter: “Shall I go and call a nursing woman from the Hebrews to nurse the child for you?”  8 Pharʹaoh’s daughter said to her: “Go!” At once the girl went and called the child’s mother.  9 Pharʹaoh’s daughter then said to her: “Take this child with you and nurse him for me, and I will pay you.” So the woman took the child and nursed him.  10 When the child grew older, she brought him to Pharʹaoh’s daughter, and he became a son to her. She named him Moses and said: “It is because I have drawn him out of the water.”",
+    clueSourceContent:
+      "5 When Pharʹaoh’s daughter came down to bathe in the Nile, her female attendants were walking by the side of the Nile. And she caught sight of the basket in the middle of the reeds. She immediately sent her slave girl to get it.  6 When she opened it, she saw the child, and the boy was crying. She felt compassion for him, but she said: “This is one of the children of the Hebrews.”  7 Then his sister said to Pharʹaoh’s daughter: “Shall I go and call a nursing woman from the Hebrews to nurse the child for you?”  8 Pharʹaoh’s daughter said to her: “Go!” At once the girl went and called the child’s mother.  9 Pharʹaoh’s daughter then said to her: “Take this child with you and nurse him for me, and I will pay you.” So the woman took the child and nursed him.  10 When the child grew older, she brought him to Pharʹaoh’s daughter, and he became a son to her. She named him Moses and said: “It is because I have drawn him out of the water.”",
     choiceA: "Gihon",
     choiceB: "Jordan",
     choiceC: "Nile",
     choiceD: "Gozan",
-    correctAnswer: "C"
+    correctAnswer: "C",
   },
   {
     question: "Jehovah turned all the water of what river into blood?",
     clueSource: "Exodus 7:17-21",
-    clueSourceContent: "17 This is what Jehovah says: “By this you will know that I am Jehovah. Here I am striking the water that is in the Nile River with the rod that is in my hand, and it will turn into blood.  18 And the fish that are in the Nile will die, and the Nile will stink, and the Egyptians will find it impossible to drink water from the Nile.”’” 19 Then Jehovah said to Moses: “Say to Aaron, ‘Take your rod and stretch out your hand over the waters of Egypt, over its rivers, over its canals, over its marshes, and over all its reservoirs, that they may become blood.’ There will be blood in all the land of Egypt, even in the wooden and stone containers.”  20 Immediately Moses and Aaron did just as Jehovah had commanded. He lifted up the rod and struck the water that was in the Nile River before the eyes of Pharʹaoh and his servants, and all the water that was in the river was turned into blood.  21 And the fish that were in the river died, and the river began to stink, and the Egyptians were unable to drink water from the Nile, and there was blood throughout the land of Egypt.",
+    clueSourceContent:
+      "17 This is what Jehovah says: “By this you will know that I am Jehovah. Here I am striking the water that is in the Nile River with the rod that is in my hand, and it will turn into blood.  18 And the fish that are in the Nile will die, and the Nile will stink, and the Egyptians will find it impossible to drink water from the Nile.”’” 19 Then Jehovah said to Moses: “Say to Aaron, ‘Take your rod and stretch out your hand over the waters of Egypt, over its rivers, over its canals, over its marshes, and over all its reservoirs, that they may become blood.’ There will be blood in all the land of Egypt, even in the wooden and stone containers.”  20 Immediately Moses and Aaron did just as Jehovah had commanded. He lifted up the rod and struck the water that was in the Nile River before the eyes of Pharʹaoh and his servants, and all the water that was in the river was turned into blood.  21 And the fish that were in the river died, and the river began to stink, and the Egyptians were unable to drink water from the Nile, and there was blood throughout the land of Egypt.",
     choiceA: "Chebar",
     choiceB: "Ahava",
     choiceC: "Jordan",
     choiceD: "Nile",
-    correctAnswer: "D"
+    correctAnswer: "D",
   },
   {
-    question: "Where did all the frogs of the second plague in Egypt come from?",
+    question:
+      "Where did all the frogs of the second plague in Egypt come from?",
     clueSource: "Exodus 8:3, 4",
-    clueSourceContent: "3  And the Nile River will swarm with frogs, and they will come up and enter into your house, into your bedroom, on your bed, into the houses of your servants and on your people, into your ovens, and into your kneading troughs. 4  On you, on your people, and on all your servants, the frogs will come up.”’”",
+    clueSourceContent:
+      "3  And the Nile River will swarm with frogs, and they will come up and enter into your house, into your bedroom, on your bed, into the houses of your servants and on your people, into your ovens, and into your kneading troughs. 4  On you, on your people, and on all your servants, the frogs will come up.”’”",
     choiceA: "Nile",
     choiceB: "Jordan",
     choiceC: "Red Sea",
     choiceD: "Chebar",
-    correctAnswer: "A"
+    correctAnswer: "A",
   },
   {
     question: "Jehovah used Moses to divide the waters of what river?",
     clueSource: "Exodus 14:15, 16",
-    clueSourceContent: "15 Jehovah now said to Moses: “Why do you keep crying out to me? Tell the Israelites that they should break camp. 16  As for you, lift up your rod and stretch out your hand over the sea and divide it, so that the Israelites may go through the midst of the sea on dry ground.",
+    clueSourceContent:
+      "15 Jehovah now said to Moses: “Why do you keep crying out to me? Tell the Israelites that they should break camp. 16  As for you, lift up your rod and stretch out your hand over the sea and divide it, so that the Israelites may go through the midst of the sea on dry ground.",
     choiceA: "Nile",
     choiceB: "Red Sea",
     choiceC: "Jordan",
     choiceD: "It was not a river.",
-    correctAnswer: "D"
+    correctAnswer: "D",
   },
   {
-    question: "Jehovah miraculously dammed up what river, making it possible for the Israelites to cross on dry land?",
+    question:
+      "Jehovah miraculously dammed up what river, making it possible for the Israelites to cross on dry land?",
     clueSource: "Joshua 3:14-17",
-    clueSourceContent: "14 So when the people departed from their tents just before crossing the Jordan, the priests carrying the ark of the covenant went ahead of the people.  15 As soon as the carriers of the Ark reached the Jordan and the priests carrying the Ark dipped their feet into the edge of the waters (now the Jordan overflows its banks all the days of harvest),  16 the waters flowing from upstream stood still. They rose up like a dam very far away at Adam, the city near Zarʹe·than, while the waters descending toward the Sea of the Arʹa·bah, the Salt Sea, drained away. They were halted, and the people crossed over opposite Jerʹi·cho.  17 While the priests carrying the ark of Jehovah’s covenant kept standing still on dry ground in the middle of the Jordan, all Israel crossed over on dry ground until the whole nation had finished crossing the Jordan.",
+    clueSourceContent:
+      "14 So when the people departed from their tents just before crossing the Jordan, the priests carrying the ark of the covenant went ahead of the people.  15 As soon as the carriers of the Ark reached the Jordan and the priests carrying the Ark dipped their feet into the edge of the waters (now the Jordan overflows its banks all the days of harvest),  16 the waters flowing from upstream stood still. They rose up like a dam very far away at Adam, the city near Zarʹe·than, while the waters descending toward the Sea of the Arʹa·bah, the Salt Sea, drained away. They were halted, and the people crossed over opposite Jerʹi·cho.  17 While the priests carrying the ark of Jehovah’s covenant kept standing still on dry ground in the middle of the Jordan, all Israel crossed over on dry ground until the whole nation had finished crossing the Jordan.",
     choiceA: "Nile",
     choiceB: "Jordan",
     choiceC: "Gozan",
     choiceD: "Euphrates",
-    correctAnswer: "B"
+    correctAnswer: "B",
   },
   {
     question: "What river is often referred to as the “branch of the Nile”?",
     clueSource: "Joshua 13:3",
-    clueSourceContent: "3 (from the branch of the Nile [*ft. Or “from Shihor.”] that is east of Egypt up to the border of Ekʹron to the north, which used to be considered Caʹnaan·ite territory) including that of the five lords of the Phi·lisʹtines—the Gazʹites, the Ashʹdod·ites, the Ashʹke·lon·ites, the Gitʹtites, and the Ekʹron·ites; that of the Avʹvim.",
+    clueSourceContent:
+      "3 (from the branch of the Nile [*ft. Or “from Shihor.”] that is east of Egypt up to the border of Ekʹron to the north, which used to be considered Caʹnaan·ite territory) including that of the five lords of the Phi·lisʹtines—the Gazʹites, the Ashʹdod·ites, the Ashʹke·lon·ites, the Gitʹtites, and the Ekʹron·ites; that of the Avʹvim.",
     choiceA: "Gozan",
     choiceB: "Pharpar",
     choiceC: "Shihor",
     choiceD: "Gihon",
-    correctAnswer: "C"
+    correctAnswer: "C",
   },
   {
-    question: "Jehovah has divided what river to show that Elisha was Elijah's successor?",
+    question:
+      "Jehovah has divided what river to show that Elisha was Elijah's successor?",
     clueSource: "2 Kings 2:13-15",
-    clueSourceContent: "13 After that he picked up the official garment of E·liʹjah that had fallen off him and went back and stood by the bank of the Jordan.  14 Then he took the official garment of E·liʹjah that had fallen off him and struck the waters and said: “Where is Jehovah, the God of E·liʹjah?” When he struck the waters, they were divided to the left and to the right, so that E·liʹsha went across. 15 When the sons of the prophets at Jerʹi·cho saw him from a distance, they said: “The spirit of E·liʹjah has settled down on E·liʹsha.” So they went to meet him and bowed down to the ground before him.",
+    clueSourceContent:
+      "13 After that he picked up the official garment of E·liʹjah that had fallen off him and went back and stood by the bank of the Jordan.  14 Then he took the official garment of E·liʹjah that had fallen off him and struck the waters and said: “Where is Jehovah, the God of E·liʹjah?” When he struck the waters, they were divided to the left and to the right, so that E·liʹsha went across. 15 When the sons of the prophets at Jerʹi·cho saw him from a distance, they said: “The spirit of E·liʹjah has settled down on E·liʹsha.” So they went to meet him and bowed down to the ground before him.",
     choiceA: "Jordan",
     choiceB: "Pishon",
     choiceC: "Nile",
     choiceD: "Tigris",
-    correctAnswer: "A"
+    correctAnswer: "A",
   },
   {
-    question: "One of the two rivers referred by Naaman when he rejected Elisha’s instructions to cure him.",
+    question:
+      "One of the two rivers referred by Naaman when he rejected Elisha’s instructions to cure him.",
     clueSource: "2 Kings 5:10-12",
-    clueSourceContent: "10 However, E·liʹsha sent a messenger to tell him: “Go, wash seven times in the Jordan, and your flesh will be restored, and you will be clean.” 11  At this Naʹa·man became indignant and started to leave, saying: “Here I said to myself, ‘He will come out to me and stand here and call on the name of Jehovah his God, moving his hand back and forth over the leprosy to cure it.’ 12 Are not the A·baʹnah and the Pharʹpar, the rivers of Damascus, better than all the waters of Israel? Can I not wash in them and become clean?” With that he turned and went away in a rage.",
+    clueSourceContent:
+      "10 However, E·liʹsha sent a messenger to tell him: “Go, wash seven times in the Jordan, and your flesh will be restored, and you will be clean.” 11  At this Naʹa·man became indignant and started to leave, saying: “Here I said to myself, ‘He will come out to me and stand here and call on the name of Jehovah his God, moving his hand back and forth over the leprosy to cure it.’ 12 Are not the A·baʹnah and the Pharʹpar, the rivers of Damascus, better than all the waters of Israel? Can I not wash in them and become clean?” With that he turned and went away in a rage.",
     choiceA: "Chebar",
     choiceB: "Abanah",
     choiceC: "Gozan",
     choiceD: "Jordan",
-    correctAnswer: "B"
+    correctAnswer: "B",
   },
   {
-    question: "One of the two rivers referred by Naaman when he rejected Elisha’s instructions to cure him.",
+    question:
+      "One of the two rivers referred by Naaman when he rejected Elisha’s instructions to cure him.",
     clueSource: "2 Kings 5:10-12",
-    clueSourceContent: "10 However, E·liʹsha sent a messenger to tell him: “Go, wash seven times in the Jordan, and your flesh will be restored, and you will be clean.” 11  At this Naʹa·man became indignant and started to leave, saying: “Here I said to myself, ‘He will come out to me and stand here and call on the name of Jehovah his God, moving his hand back and forth over the leprosy to cure it.’ 12 Are not the A·baʹnah and the Pharʹpar, the rivers of Damascus, better than all the waters of Israel? Can I not wash in them and become clean?” With that he turned and went away in a rage.",
+    clueSourceContent:
+      "10 However, E·liʹsha sent a messenger to tell him: “Go, wash seven times in the Jordan, and your flesh will be restored, and you will be clean.” 11  At this Naʹa·man became indignant and started to leave, saying: “Here I said to myself, ‘He will come out to me and stand here and call on the name of Jehovah his God, moving his hand back and forth over the leprosy to cure it.’ 12 Are not the A·baʹnah and the Pharʹpar, the rivers of Damascus, better than all the waters of Israel? Can I not wash in them and become clean?” With that he turned and went away in a rage.",
     choiceA: "Nile",
     choiceB: "Jordan",
     choiceC: "Pharpar",
     choiceD: "Gihon",
-    correctAnswer: "C"
+    correctAnswer: "C",
   },
   {
-    question: "On what river did Naaman bathe for seven times to get his leprous condition cured?",
+    question:
+      "On what river did Naaman bathe for seven times to get his leprous condition cured?",
     clueSource: "2 Kings 5:10-14",
-    clueSourceContent: "10 However, E·liʹsha sent a messenger to tell him: “Go, wash seven times in the Jordan, and your flesh will be restored, and you will be clean.”  11 At this Naʹa·man became indignant and started to leave, saying: “Here I said to myself, ‘He will come out to me and stand here and call on the name of Jehovah his God, moving his hand back and forth over the leprosy to cure it.’  12 Are not the A·baʹnah and the Pharʹpar, the rivers of Damascus, better than all the waters of Israel? Can I not wash in them and become clean?” With that he turned and went away in a rage. 13 His servants now approached him and said: “My father, if the prophet had told you to do something extraordinary, would you not do it? How much more, then, since he only said to you, ‘Wash and be clean’?”  14 At that he went down and plunged into the Jordan seven times, according to the word of the man of the true God. Then his flesh was restored like the flesh of a little boy, and he became clean.",
+    clueSourceContent:
+      "10 However, E·liʹsha sent a messenger to tell him: “Go, wash seven times in the Jordan, and your flesh will be restored, and you will be clean.”  11 At this Naʹa·man became indignant and started to leave, saying: “Here I said to myself, ‘He will come out to me and stand here and call on the name of Jehovah his God, moving his hand back and forth over the leprosy to cure it.’  12 Are not the A·baʹnah and the Pharʹpar, the rivers of Damascus, better than all the waters of Israel? Can I not wash in them and become clean?” With that he turned and went away in a rage. 13 His servants now approached him and said: “My father, if the prophet had told you to do something extraordinary, would you not do it? How much more, then, since he only said to you, ‘Wash and be clean’?”  14 At that he went down and plunged into the Jordan seven times, according to the word of the man of the true God. Then his flesh was restored like the flesh of a little boy, and he became clean.",
     choiceA: "Nile",
     choiceB: "Pishon",
     choiceC: "Red Sea",
     choiceD: "Jordan",
-    correctAnswer: "D"
+    correctAnswer: "D",
   },
   {
-    question: "On what river did Shalmaneser, king of Assyria, made the Israelites in exile dwell?",
+    question:
+      "On what river did Shalmaneser, king of Assyria, made the Israelites in exile dwell?",
     clueSource: "2 Kings 17:5, 6",
-    clueSourceContent: "5  The king of As·syrʹi·a invaded the entire land, and he came to Sa·marʹi·a and laid siege to it for three years. 6  In the ninth year of Ho·sheʹa, the king of As·syrʹi·a captured Sa·marʹi·a. He then led the people of Israel into exile in As·syrʹi·a and made them dwell in Haʹlah and in Haʹbor at the river Goʹzan and in the cities of the Medes.",
+    clueSourceContent:
+      "5  The king of As·syrʹi·a invaded the entire land, and he came to Sa·marʹi·a and laid siege to it for three years. 6  In the ninth year of Ho·sheʹa, the king of As·syrʹi·a captured Sa·marʹi·a. He then led the people of Israel into exile in As·syrʹi·a and made them dwell in Haʹlah and in Haʹbor at the river Goʹzan and in the cities of the Medes.",
     choiceA: "Gozan",
     choiceB: "Gihon",
     choiceC: "Tigris",
     choiceD: "Nile",
-    correctAnswer: "A"
+    correctAnswer: "A",
   },
   {
-    question: "King David congregated all Israel on what river to bring the Ark of the true God?",
+    question:
+      "King David congregated all Israel on what river to bring the Ark of the true God?",
     clueSource: "1 Chronicles 13:5",
-    clueSourceContent: "5 So David congregated all Israel, from the river (*ft. Or “from Shihor.”) of Egypt as far as Leʹbo-haʹmath, to bring the Ark of the true God from Kirʹi·ath-jeʹa·rim.",
+    clueSourceContent:
+      "5 So David congregated all Israel, from the river (*ft. Or “from Shihor.”) of Egypt as far as Leʹbo-haʹmath, to bring the Ark of the true God from Kirʹi·ath-jeʹa·rim.",
     choiceA: "Jordan",
     choiceB: "Shihor",
     choiceC: "Pharpar",
     choiceD: "Ahava",
-    correctAnswer: "B"
+    correctAnswer: "B",
   },
   {
-    question: "On what river did Ezra assemble certain Jews and held a fast before undertaking the trek to Jerusalem?",
+    question:
+      "On what river did Ezra assemble certain Jews and held a fast before undertaking the trek to Jerusalem?",
     clueSource: "Ezra 8:15-21",
-    clueSourceContent: "15 I assembled them at the river that comes to A·haʹva, and we camped there for three days. But when I examined the people and the priests, I did not find any of the Levites there.  16 So I sent for E·li·eʹzer, Arʹi·el, She·maiʹah, El·naʹthan, Jaʹrib, El·naʹthan, Nathan, Zech·a·riʹah, and Me·shulʹlam, who were leading men, and for Joiʹa·rib and El·naʹthan, who were instructors.  17 Then I gave them a command concerning Idʹdo the leader in the place called Ca·si·phiʹa. I told them to tell Idʹdo and his brothers, the temple servants who were in Ca·si·phiʹa, to bring to us ministers for the house of our God.  18 Since the good hand of our God was upon us, they brought a discreet man from the sons of Mahʹli the grandson of Leʹvi the son of Israel, namely, She·re·biʹah, and his sons and his brothers, 18 men;  19 and Hash·a·biʹah, and with him Je·shaʹiah from the Me·rarʹites, his brothers and their sons, 20 men.  20 And there were 220 of the temple servants, whom David and the princes gave to the service of the Levites, all of whom had been designated by name. 21 Then I proclaimed a fast there at the river A·haʹva, to humble ourselves before our God, to seek guidance from him for our journey, for us and for our children and for all our goods.",
+    clueSourceContent:
+      "15 I assembled them at the river that comes to A·haʹva, and we camped there for three days. But when I examined the people and the priests, I did not find any of the Levites there.  16 So I sent for E·li·eʹzer, Arʹi·el, She·maiʹah, El·naʹthan, Jaʹrib, El·naʹthan, Nathan, Zech·a·riʹah, and Me·shulʹlam, who were leading men, and for Joiʹa·rib and El·naʹthan, who were instructors.  17 Then I gave them a command concerning Idʹdo the leader in the place called Ca·si·phiʹa. I told them to tell Idʹdo and his brothers, the temple servants who were in Ca·si·phiʹa, to bring to us ministers for the house of our God.  18 Since the good hand of our God was upon us, they brought a discreet man from the sons of Mahʹli the grandson of Leʹvi the son of Israel, namely, She·re·biʹah, and his sons and his brothers, 18 men;  19 and Hash·a·biʹah, and with him Je·shaʹiah from the Me·rarʹites, his brothers and their sons, 20 men.  20 And there were 220 of the temple servants, whom David and the princes gave to the service of the Levites, all of whom had been designated by name. 21 Then I proclaimed a fast there at the river A·haʹva, to humble ourselves before our God, to seek guidance from him for our journey, for us and for our children and for all our goods.",
     choiceA: "Jordan",
     choiceB: "Nile",
     choiceC: "Ahava",
     choiceD: "Gozan",
-    correctAnswer: "C"
+    correctAnswer: "C",
   },
   {
-    question: "On what river did the prophet Ezekiel see his first recorded vision from Jehovah God?",
+    question:
+      "On what river did the prophet Ezekiel see his first recorded vision from Jehovah God?",
     clueSource: "Ezekiel 10:15-22",
-    clueSourceContent: "15 And the cherubs would rise—they were the same living creatures that I had seen at the river Cheʹbar—  16 and when the cherubs moved, the wheels would move alongside them; and when the cherubs lifted up their wings to be high above the earth, the wheels would not turn or move from their side.  17 When these stood still, they would stand still; and when these rose, they would rise with them, for the spirit operating on the living creatures was in them. 18 Then the glory of Jehovah departed from over the threshold of the doorway of the house and stood still over the cherubs.  19 The cherubs now lifted up their wings and rose from the earth as I watched. The wheels were also alongside them when they departed. They stopped at the entrance of the eastern gate of the house of Jehovah, and the glory of the God of Israel was above them. 20 These were the living creatures that I had seen under the God of Israel at the river Cheʹbar, so I came to know that they were cherubs.  21 All four had four faces, four wings, and what appeared to be human hands under their wings.  22 And the appearances of their faces were like the faces I had seen by the river Cheʹbar. They would each go straight forward.",
+    clueSourceContent:
+      "15 And the cherubs would rise—they were the same living creatures that I had seen at the river Cheʹbar—  16 and when the cherubs moved, the wheels would move alongside them; and when the cherubs lifted up their wings to be high above the earth, the wheels would not turn or move from their side.  17 When these stood still, they would stand still; and when these rose, they would rise with them, for the spirit operating on the living creatures was in them. 18 Then the glory of Jehovah departed from over the threshold of the doorway of the house and stood still over the cherubs.  19 The cherubs now lifted up their wings and rose from the earth as I watched. The wheels were also alongside them when they departed. They stopped at the entrance of the eastern gate of the house of Jehovah, and the glory of the God of Israel was above them. 20 These were the living creatures that I had seen under the God of Israel at the river Cheʹbar, so I came to know that they were cherubs.  21 All four had four faces, four wings, and what appeared to be human hands under their wings.  22 And the appearances of their faces were like the faces I had seen by the river Cheʹbar. They would each go straight forward.",
     choiceA: "Tigris",
     choiceB: "Nile",
     choiceC: "Gozan",
     choiceD: "Chebar",
-    correctAnswer: "D"
+    correctAnswer: "D",
   },
   {
-    question: "On the banks of what river did Daniel receive the vision concerning the king of the “north” and “south”?",
+    question:
+      "On the banks of what river did Daniel receive the vision concerning the king of the “north” and “south”?",
     clueSource: "Daniel 10:4",
-    clueSourceContent: "4 On the 24th day of the first month, while I was on the bank of the great river, the Tiʹgris (*ft. Hiddekel).",
+    clueSourceContent:
+      "4 On the 24th day of the first month, while I was on the bank of the great river, the Tiʹgris (*ft. Hiddekel).",
     choiceA: "Hiddekel",
     choiceB: "Jordan",
     choiceC: "Nile",
     choiceD: "Chebar",
-    correctAnswer: "A"
+    correctAnswer: "A",
   },
   {
     question: "On what river was Jesus Christ baptized?",
@@ -1814,12 +1872,13 @@ const rivers = [
   {
     question: "It was the northern boundary of Israel’s assigned territory.",
     clueSource: "nwt Glossary [Euphrates]",
-    clueSourceContent: "The longest and most important river of southwest Asia, and one of the two major rivers in Mesopotamia. It is first mentioned at Genesis 2:14 as one of the four rivers of Eden. It is often called “the River.” (Ge 31:21) It was the northern boundary of Israel’s assigned territory. (Ge 15:18; Re 16:12)​—See App. B2.",
+    clueSourceContent:
+      "The longest and most important river of southwest Asia, and one of the two major rivers in Mesopotamia. It is first mentioned at Genesis 2:14 as one of the four rivers of Eden. It is often called “the River.” (Ge 31:21) It was the northern boundary of Israel’s assigned territory. (Ge 15:18; Re 16:12)​—See App. B2.",
     choiceA: "Nile",
     choiceB: "Jordan",
     choiceC: "Euphrates",
     choiceD: "Gihon",
-    correctAnswer: "C"
+    correctAnswer: "C",
   },
 ];
 
@@ -1827,122 +1886,143 @@ const mountains1 = [
   {
     question: "On what mountain did the ark of Noah come to rest?",
     clueSource: "Genesis 8:4",
-    clueSourceContent: "In the seventh month, on the 17th day of the month, the ark came to rest on the mountains of Arʹa·rat.",
+    clueSourceContent:
+      "In the seventh month, on the 17th day of the month, the ark came to rest on the mountains of Arʹa·rat.",
     choiceA: "Ararat",
     choiceB: "Sinai",
     choiceC: "Carmel",
     choiceD: "Zion",
-    correctAnswer: "A"
+    correctAnswer: "A",
   },
   {
-    question: "On what mountain did Abraham, at God’s command, attempt to offer up his son Isaac?",
+    question:
+      "On what mountain did Abraham, at God’s command, attempt to offer up his son Isaac?",
     clueSource: "Genesis 22:2",
-    clueSourceContent: "2 Then he said: “Take, please, your son, your only son whom you so love, Isaac, and travel to the land of Mo·riʹah and offer him up there as a burnt offering on one of the mountains that I will designate to you.”",
+    clueSourceContent:
+      "2 Then he said: “Take, please, your son, your only son whom you so love, Isaac, and travel to the land of Mo·riʹah and offer him up there as a burnt offering on one of the mountains that I will designate to you.”",
     choiceA: "Sinai",
     choiceB: "Moriah",
     choiceC: "Horeb",
     choiceD: "Hermon",
-    correctAnswer: "B"
+    correctAnswer: "B",
   },
   {
-    question: "On what mountain did Jehovah’s angel appear to Moses “in a flame of fire in the midst of a thornbush”?",
+    question:
+      "On what mountain did Jehovah’s angel appear to Moses “in a flame of fire in the midst of a thornbush”?",
     clueSource: "Exodus 3:1, 2",
-    clueSourceContent: "Moses became a shepherd of the flock of his father-in-law Jethʹro, the priest of Midʹi·an. While he was leading the flock to the west side of the wilderness, he eventually came to the mountain of the true God, to Horʹeb. 2 Then Jehovah’s angel appeared to him in a flame of fire in the midst of a thornbush. As he kept looking, he saw that the thornbush was on fire, and yet the thornbush was not consumed.",
+    clueSourceContent:
+      "Moses became a shepherd of the flock of his father-in-law Jethʹro, the priest of Midʹi·an. While he was leading the flock to the west side of the wilderness, he eventually came to the mountain of the true God, to Horʹeb. 2 Then Jehovah’s angel appeared to him in a flame of fire in the midst of a thornbush. As he kept looking, he saw that the thornbush was on fire, and yet the thornbush was not consumed.",
     choiceA: "Hermon",
     choiceB: "Zion",
     choiceC: "Horeb",
     choiceD: "Ebal",
-    correctAnswer: "C"
+    correctAnswer: "C",
   },
   {
-    question: "From the rocks of what mountain did the water miraculously come out after it was struck by Moses' rod?",
+    question:
+      "From the rocks of what mountain did the water miraculously come out after it was struck by Moses' rod?",
     clueSource: "Exodus 17:1-6",
-    clueSourceContent: "The entire assembly of the Israelites departed from the wilderness of Sin by stages according to the order of Jehovah, and they camped at Rephʹi·dim. But there was no water for the people to drink. 2 So the people began quarreling with Moses and saying: “Give us water to drink.” But Moses said to them: “Why are you quarreling with me? Why do you keep putting Jehovah to the test?”  3 But the people were very thirsty for water there, and they kept murmuring against Moses and saying: “Why have you brought us up out of Egypt to kill us and our sons and our livestock with thirst?”  4 Finally Moses cried out to Jehovah: “What should I do with this people? A little longer and they will stone me!” 5 Then Jehovah said to Moses: “Go ahead of the people, and take with you some of the elders of Israel and your rod with which you struck the Nile River. Take it in your hand and walk on.  6 Look! I will be standing before you there on the rock in Horʹeb. You must strike the rock, and water will come out of it, and the people will drink it.” Moses did so before the eyes of the elders of Israel.",
+    clueSourceContent:
+      "The entire assembly of the Israelites departed from the wilderness of Sin by stages according to the order of Jehovah, and they camped at Rephʹi·dim. But there was no water for the people to drink. 2 So the people began quarreling with Moses and saying: “Give us water to drink.” But Moses said to them: “Why are you quarreling with me? Why do you keep putting Jehovah to the test?”  3 But the people were very thirsty for water there, and they kept murmuring against Moses and saying: “Why have you brought us up out of Egypt to kill us and our sons and our livestock with thirst?”  4 Finally Moses cried out to Jehovah: “What should I do with this people? A little longer and they will stone me!” 5 Then Jehovah said to Moses: “Go ahead of the people, and take with you some of the elders of Israel and your rod with which you struck the Nile River. Take it in your hand and walk on.  6 Look! I will be standing before you there on the rock in Horʹeb. You must strike the rock, and water will come out of it, and the people will drink it.” Moses did so before the eyes of the elders of Israel.",
     choiceA: "Gerizim",
     choiceB: "Ebal",
     choiceC: "Tabor",
     choiceD: "Horeb",
-    correctAnswer: "D"
+    correctAnswer: "D",
   },
   {
-    question: "From what mountain did Jehovah appear to Israel and gave them his laws?",
+    question:
+      "From what mountain did Jehovah appear to Israel and gave them his laws?",
     clueSource: "Exodus 19:19-20:18",
-    clueSourceContent: "19:19 As the sound of the horn grew louder and louder, Moses spoke, and the voice of the true God answered him. 20 So Jehovah came down upon Mount Siʹnai to the top of the mountain. Then Jehovah called Moses to the top of the mountain, and Moses went up.  21 Jehovah now said to Moses: “Go down and warn the people not to try to force their way through to look at Jehovah, or many of them will perish.  22 And let the priests who regularly come near to Jehovah sanctify themselves, so that Jehovah may not strike them.”  23 Moses then said to Jehovah: “The people are not able to come up to Mount Siʹnai because you already warned us, saying, ‘Set boundaries around the mountain, and make it sacred.’”  24 However, Jehovah said to him: “Go, descend, and come back up, you and Aaron with you, but do not let the priests and the people force their way through to come up to Jehovah, so that he may not strike them.”  25 So Moses descended to the people and told them. 20:1 Then God spoke all these words: 2 “I am Jehovah your God, who brought you out of the land of Egypt, out of the house of slavery.  3 You must not have any other gods besides me. 4 “You must not make for yourself a carved image or a form like anything that is in the heavens above or on the earth below or in the waters under the earth.  5 You must not bow down to them nor be enticed to serve them, for I, Jehovah your God, am a God who requires exclusive devotion, bringing punishment for the error of fathers upon sons, upon the third generation and upon the fourth generation of those who hate me,  6 but showing loyal love to the thousandth generation of those who love me and keep my commandments. 7 “You must not take up the name of Jehovah your God in a worthless way, for Jehovah will not leave unpunished the one who takes up His name in a worthless way. 8 “Remember the Sabbath day to keep it sacred.  9 You are to labor and do all your work for six days,  10 but the seventh day is a sabbath to Jehovah your God. You must not do any work, neither you nor your son nor your daughter nor your slave man nor your slave girl nor your domestic animal nor your foreign resident who is inside your settlements.  11 For in six days Jehovah made the heavens and the earth, the sea, and all that is in them, and he began to rest on the seventh day. That is why Jehovah blessed the Sabbath day and made it sacred. 12 “Honor your father and your mother, so that you may live a long time in the land that Jehovah your God is giving you. 13 “You must not murder. 14 “You must not commit adultery. 15 “You must not steal. 16 “You must not testify falsely when you are a witness against your fellow man. 17 “You must not desire your fellow man’s house. You must not desire your fellow man’s wife nor his slave man nor his slave girl nor his bull nor his donkey nor anything that belongs to your fellow man.” 18 Now all the people were witnessing the thunder and lightning, the sound of the horn, and the mountain smoking; and seeing this made them tremble and stand at a distance.",
+    clueSourceContent:
+      "19:19 As the sound of the horn grew louder and louder, Moses spoke, and the voice of the true God answered him. 20 So Jehovah came down upon Mount Siʹnai to the top of the mountain. Then Jehovah called Moses to the top of the mountain, and Moses went up.  21 Jehovah now said to Moses: “Go down and warn the people not to try to force their way through to look at Jehovah, or many of them will perish.  22 And let the priests who regularly come near to Jehovah sanctify themselves, so that Jehovah may not strike them.”  23 Moses then said to Jehovah: “The people are not able to come up to Mount Siʹnai because you already warned us, saying, ‘Set boundaries around the mountain, and make it sacred.’”  24 However, Jehovah said to him: “Go, descend, and come back up, you and Aaron with you, but do not let the priests and the people force their way through to come up to Jehovah, so that he may not strike them.”  25 So Moses descended to the people and told them. 20:1 Then God spoke all these words: 2 “I am Jehovah your God, who brought you out of the land of Egypt, out of the house of slavery.  3 You must not have any other gods besides me. 4 “You must not make for yourself a carved image or a form like anything that is in the heavens above or on the earth below or in the waters under the earth.  5 You must not bow down to them nor be enticed to serve them, for I, Jehovah your God, am a God who requires exclusive devotion, bringing punishment for the error of fathers upon sons, upon the third generation and upon the fourth generation of those who hate me,  6 but showing loyal love to the thousandth generation of those who love me and keep my commandments. 7 “You must not take up the name of Jehovah your God in a worthless way, for Jehovah will not leave unpunished the one who takes up His name in a worthless way. 8 “Remember the Sabbath day to keep it sacred.  9 You are to labor and do all your work for six days,  10 but the seventh day is a sabbath to Jehovah your God. You must not do any work, neither you nor your son nor your daughter nor your slave man nor your slave girl nor your domestic animal nor your foreign resident who is inside your settlements.  11 For in six days Jehovah made the heavens and the earth, the sea, and all that is in them, and he began to rest on the seventh day. That is why Jehovah blessed the Sabbath day and made it sacred. 12 “Honor your father and your mother, so that you may live a long time in the land that Jehovah your God is giving you. 13 “You must not murder. 14 “You must not commit adultery. 15 “You must not steal. 16 “You must not testify falsely when you are a witness against your fellow man. 17 “You must not desire your fellow man’s house. You must not desire your fellow man’s wife nor his slave man nor his slave girl nor his bull nor his donkey nor anything that belongs to your fellow man.” 18 Now all the people were witnessing the thunder and lightning, the sound of the horn, and the mountain smoking; and seeing this made them tremble and stand at a distance.",
     choiceA: "Sinai",
     choiceB: "Carmel",
     choiceC: "Zion",
     choiceD: "Tabor",
-    correctAnswer: "A"
+    correctAnswer: "A",
   },
   {
-    question: "The “Ten Words” or “Ten Commandments” were first orally given at what mountain by the angel of Jehovah?",
+    question:
+      "The “Ten Words” or “Ten Commandments” were first orally given at what mountain by the angel of Jehovah?",
     clueSource: "Exodo 31:18",
-    clueSourceContent: "18 Now as soon as he had finished speaking with him on Mount Siʹnai, he gave Moses two tablets of the Testimony, tablets of stone written on by God’s finger.",
+    clueSourceContent:
+      "18 Now as soon as he had finished speaking with him on Mount Siʹnai, he gave Moses two tablets of the Testimony, tablets of stone written on by God’s finger.",
     choiceA: "Tabor",
     choiceB: "Sinai",
     choiceC: "Moriah",
     choiceD: "Carmel",
-    correctAnswer: "B"
+    correctAnswer: "B",
   },
   {
-    question: "Moses viewed the Promised Land on this mountain, and he died there.",
+    question:
+      "Moses viewed the Promised Land on this mountain, and he died there.",
     clueSource: "Deutoronomy 32:48-52",
-    clueSourceContent: "48 Jehovah spoke to Moses on this same day, saying: 49 “Go up into this mountain of Abʹa·rim, Mount Neʹbo, which is in the land of Moʹab, which faces toward Jerʹi·cho, and view the land of Caʹnaan, which I am giving to the Israelites as a possession. 50 Then you will die on the mountain you are about to ascend, and be gathered to your people, just as Aaron your brother died on Mount Hor and was gathered to his people, 51 because both of you were unfaithful to me among the Israelites at the waters of Merʹi·bah of Kaʹdesh in the wilderness of Zin, because you did not sanctify me before the people of Israel. 52 You will see the land from a distance, but you will not enter the land that I am giving to the people of Israel.”",
+    clueSourceContent:
+      "48 Jehovah spoke to Moses on this same day, saying: 49 “Go up into this mountain of Abʹa·rim, Mount Neʹbo, which is in the land of Moʹab, which faces toward Jerʹi·cho, and view the land of Caʹnaan, which I am giving to the Israelites as a possession. 50 Then you will die on the mountain you are about to ascend, and be gathered to your people, just as Aaron your brother died on Mount Hor and was gathered to his people, 51 because both of you were unfaithful to me among the Israelites at the waters of Merʹi·bah of Kaʹdesh in the wilderness of Zin, because you did not sanctify me before the people of Israel. 52 You will see the land from a distance, but you will not enter the land that I am giving to the people of Israel.”",
     choiceA: "Sinai",
     choiceB: "Tabor",
     choiceC: "Nebo",
     choiceD: "Moriah",
-    correctAnswer: "C"
+    correctAnswer: "C",
   },
   {
     question: "On what mountain did Aaron, the brother of Moses, die?",
     clueSource: "Deutoronomy 32:50",
-    clueSourceContent: "50 Then you will die on the mountain you are about to ascend, and be gathered to your people, just as Aaron your brother died on Mount Hor and was gathered to his people.",
+    clueSourceContent:
+      "50 Then you will die on the mountain you are about to ascend, and be gathered to your people, just as Aaron your brother died on Mount Hor and was gathered to his people.",
     choiceA: "Halak",
     choiceB: "Horeb",
     choiceC: "Hermon",
     choiceD: "Hor",
-    correctAnswer: "D"
+    correctAnswer: "D",
   },
   {
-    question: "On what mountain did Barak and his 10,000 men battled against Sisera and his forces?",
+    question:
+      "On what mountain did Barak and his 10,000 men battled against Sisera and his forces?",
     clueSource: "Judges 4:4-16",
-    clueSourceContent: "4 Now Debʹo·rah, a prophetess, the wife of Lapʹpi·doth, was judging Israel at that time.  5 She used to sit under Debʹo·rah’s palm tree between Raʹmah and Bethʹel in the mountainous region of Eʹphra·im; the Israelites would go up to her for judgment.  6 She sent for Baʹrak the son of A·binʹo·am out of Keʹdesh-naphʹta·li and said to him: “Has not Jehovah the God of Israel given the command? ‘Go and march to Mount Taʹbor, and take 10,000 men of Naphʹta·li and Zebʹu·lun with you.  7 I will bring to you Sisʹe·ra, the chief of Jaʹbin’s army, along with his war chariots and his troops to the stream of Kiʹshon, and I will give him into your hand.’” 8 At this Baʹrak said to her: “If you go with me, I will go, but if you do not go with me, I will not go.”  9 To this she said: “I will certainly go with you. However, the campaign you are going on will not bring you glory, for it will be into the hand of a woman that Jehovah will give Sisʹe·ra.” Then Debʹo·rah got up and went with Baʹrak to Keʹdesh.  10 Baʹrak summoned Zebʹu·lun and Naphʹta·li to Keʹdesh, and 10,000 men followed his steps. Debʹo·rah also went up with him. 11 Incidentally, Heʹber the Kenʹite had separated from the Kenʹites, the descendants of Hoʹbab, Moses’ father-in-law, and his tent was pitched near the big tree in Za·a·nanʹnim, which is at Keʹdesh. 12 They reported to Sisʹe·ra that Baʹrak the son of A·binʹo·am had gone up to Mount Taʹbor.  13 At once Sisʹe·ra assembled all his war chariots—900 chariots with iron scythes—and all the troops that were with him from Ha·roʹsheth of the nations to go to the stream of Kiʹshon.  14 Debʹo·rah now said to Baʹrak: “Rise up, for this is the day that Jehovah will give Sisʹe·ra into your hand. Is Jehovah not going out before you?” And Baʹrak descended from Mount Taʹbor with 10,000 men following him.  15 Then Jehovah threw Sisʹe·ra and all his war chariots and all the army into confusion before the sword of Baʹrak. Finally Sisʹe·ra got down from his chariot and fled on foot.  16 Baʹrak chased after the war chariots and the army as far as Ha·roʹsheth of the nations. So Sisʹe·ra’s whole army fell by the sword; not even one remained.",
+    clueSourceContent:
+      "4 Now Debʹo·rah, a prophetess, the wife of Lapʹpi·doth, was judging Israel at that time.  5 She used to sit under Debʹo·rah’s palm tree between Raʹmah and Bethʹel in the mountainous region of Eʹphra·im; the Israelites would go up to her for judgment.  6 She sent for Baʹrak the son of A·binʹo·am out of Keʹdesh-naphʹta·li and said to him: “Has not Jehovah the God of Israel given the command? ‘Go and march to Mount Taʹbor, and take 10,000 men of Naphʹta·li and Zebʹu·lun with you.  7 I will bring to you Sisʹe·ra, the chief of Jaʹbin’s army, along with his war chariots and his troops to the stream of Kiʹshon, and I will give him into your hand.’” 8 At this Baʹrak said to her: “If you go with me, I will go, but if you do not go with me, I will not go.”  9 To this she said: “I will certainly go with you. However, the campaign you are going on will not bring you glory, for it will be into the hand of a woman that Jehovah will give Sisʹe·ra.” Then Debʹo·rah got up and went with Baʹrak to Keʹdesh.  10 Baʹrak summoned Zebʹu·lun and Naphʹta·li to Keʹdesh, and 10,000 men followed his steps. Debʹo·rah also went up with him. 11 Incidentally, Heʹber the Kenʹite had separated from the Kenʹites, the descendants of Hoʹbab, Moses’ father-in-law, and his tent was pitched near the big tree in Za·a·nanʹnim, which is at Keʹdesh. 12 They reported to Sisʹe·ra that Baʹrak the son of A·binʹo·am had gone up to Mount Taʹbor.  13 At once Sisʹe·ra assembled all his war chariots—900 chariots with iron scythes—and all the troops that were with him from Ha·roʹsheth of the nations to go to the stream of Kiʹshon.  14 Debʹo·rah now said to Baʹrak: “Rise up, for this is the day that Jehovah will give Sisʹe·ra into your hand. Is Jehovah not going out before you?” And Baʹrak descended from Mount Taʹbor with 10,000 men following him.  15 Then Jehovah threw Sisʹe·ra and all his war chariots and all the army into confusion before the sword of Baʹrak. Finally Sisʹe·ra got down from his chariot and fled on foot.  16 Baʹrak chased after the war chariots and the army as far as Ha·roʹsheth of the nations. So Sisʹe·ra’s whole army fell by the sword; not even one remained.",
     choiceA: "Tabor",
     choiceB: "Lebanon",
     choiceC: "Sinai",
     choiceD: "Hermon",
-    correctAnswer: "A"
+    correctAnswer: "A",
   },
   {
-    question: "On what mountain was Saul and his three sons were struck down by the Philistines?",
+    question:
+      "On what mountain was Saul and his three sons were struck down by the Philistines?",
     clueSource: "1 Samuel 31:1-6",
-    clueSourceContent: "Now the Phi·lisʹtines were fighting against Israel. And the men of Israel fled from before the Phi·lisʹtines, and many fell slain on Mount Gil·boʹa. 2  The Phi·lisʹtines kept in close range of Saul and his sons, and the Phi·lisʹtines struck down Jonʹa·than, A·binʹa·dab, and Malʹchi-shuʹa, Saul’s sons. 3  The fighting grew fierce against Saul, and the archers found him, and he was severely wounded by the archers. 4  Then Saul said to his armor-bearer: “Draw your sword and run me through with it, so that these uncircumcised men may not come and run me through and deal ruthlessly with me.” But his armor-bearer was unwilling, because he was very much afraid. So Saul took the sword and fell on it. 5  When his armor-bearer saw that Saul was dead, he too fell on his own sword and died with him. 6  Thus Saul, his three sons, his armor-bearer, and all his men died together on that day.",
+    clueSourceContent:
+      "Now the Phi·lisʹtines were fighting against Israel. And the men of Israel fled from before the Phi·lisʹtines, and many fell slain on Mount Gil·boʹa. 2  The Phi·lisʹtines kept in close range of Saul and his sons, and the Phi·lisʹtines struck down Jonʹa·than, A·binʹa·dab, and Malʹchi-shuʹa, Saul’s sons. 3  The fighting grew fierce against Saul, and the archers found him, and he was severely wounded by the archers. 4  Then Saul said to his armor-bearer: “Draw your sword and run me through with it, so that these uncircumcised men may not come and run me through and deal ruthlessly with me.” But his armor-bearer was unwilling, because he was very much afraid. So Saul took the sword and fell on it. 5  When his armor-bearer saw that Saul was dead, he too fell on his own sword and died with him. 6  Thus Saul, his three sons, his armor-bearer, and all his men died together on that day.",
     choiceA: "Carmel",
     choiceB: "Gilboa",
     choiceC: "Seir",
     choiceD: "Hor",
-    correctAnswer: "B"
+    correctAnswer: "B",
   },
   {
-    question: "David built his royal residence on this mountain, and it came to be called “the City of David.”",
+    question:
+      "David built his royal residence on this mountain, and it came to be called “the City of David.”",
     clueSource: "2 Samuel 5:7-9",
-    clueSourceContent: "7 However, David captured the stronghold of Zion, which is now the City of David.  8 So David said on that day: “Those who attack the Jebʹu·sites should go through the water tunnel to strike down both ‘the lame and the blind,’ who are hateful to David!” That is why it is said: “The blind and the lame will never enter the house.”  9 Then David took up residence in the stronghold, and it was called the City of David; and David began to build all around from the Mound inward.",
+    clueSourceContent:
+      "7 However, David captured the stronghold of Zion, which is now the City of David.  8 So David said on that day: “Those who attack the Jebʹu·sites should go through the water tunnel to strike down both ‘the lame and the blind,’ who are hateful to David!” That is why it is said: “The blind and the lame will never enter the house.”  9 Then David took up residence in the stronghold, and it was called the City of David; and David began to build all around from the Mound inward.",
     choiceA: "Moriah",
     choiceB: "Horeb",
     choiceC: "Zion",
     choiceD: "Lebanon",
-    correctAnswer: "C"
+    correctAnswer: "C",
   },
   {
     question: "King Solʹo·mon built whatever he desired on this mountain.",
     clueSource: "1 Kings 9:17-19",
-    clueSourceContent: "17 Solʹo·mon built up Geʹzer, Lower Beth-hoʹron, 18 Baʹal·ath, and Taʹmar in the wilderness, within the land, 19 as well as all of Solʹo·mon’s storage cities, the chariot cities, the cities for the horsemen, and whatever Solʹo·mon desired to build in Jerusalem, in Lebʹa·non, and in all the land of his dominion.",
+    clueSourceContent:
+      "17 Solʹo·mon built up Geʹzer, Lower Beth-hoʹron, 18 Baʹal·ath, and Taʹmar in the wilderness, within the land, 19 as well as all of Solʹo·mon’s storage cities, the chariot cities, the cities for the horsemen, and whatever Solʹo·mon desired to build in Jerusalem, in Lebʹa·non, and in all the land of his dominion.",
     choiceA: "Horeb",
     choiceB: "Zion",
     choiceC: "Moriah",
     choiceD: "Lebanon",
-    correctAnswer: "D"
+    correctAnswer: "D",
   },
   {
     question:
@@ -1957,370 +2037,1050 @@ const mountains1 = [
     correctAnswer: "A",
   },
   {
-    question: "From the top of what mountain did Elijah pray to Jehovah for the end of the three-and-a-half-year drought?",
+    question:
+      "From the top of what mountain did Elijah pray to Jehovah for the end of the three-and-a-half-year drought?",
     clueSource: "1 Kings 18:42",
-    clueSourceContent: "42 So Aʹhab went up to eat and drink, while E·liʹjah went up to the top of Carʹmel and crouched on the ground, keeping his face between his knees.",
+    clueSourceContent:
+      "42 So Aʹhab went up to eat and drink, while E·liʹjah went up to the top of Carʹmel and crouched on the ground, keeping his face between his knees.",
     choiceA: "Horeb",
     choiceB: "Carmel",
     choiceC: "Seir",
     choiceD: "Gerizim",
-    correctAnswer: "B"
+    correctAnswer: "B",
   },
   {
     question: "Which one was “the mountain of the true God.”",
     clueSource: "1 Kings 19:8",
-    clueSourceContent: "8 So he got up and ate and drank, and in the strength of that nourishment he went on for 40 days and 40 nights until he reached Horʹeb, the mountain of the true God.",
+    clueSourceContent:
+      "8 So he got up and ate and drank, and in the strength of that nourishment he went on for 40 days and 40 nights until he reached Horʹeb, the mountain of the true God.",
     choiceA: "Hermon",
     choiceB: "Zion",
     choiceC: "Horeb",
     choiceD: "Carmel",
-    correctAnswer: "C"
+    correctAnswer: "C",
   },
   {
-    question: "On what mountain did the prophet Elijah flee from vengeful Queen Jezebel?",
+    question:
+      "On what mountain did the prophet Elijah flee from vengeful Queen Jezebel?",
     clueSource: "1 Kings 19:2-8",
-    clueSourceContent: "2 At that Jezʹe·bel sent a messenger to E·liʹjah, saying: “So may the gods do to me and add to it if by this time tomorrow I do not make you like each one of them!”  3 At that he became afraid, so he got up and ran for his life. He came to Beʹer-sheʹba, which belongs to Judah, and he left his attendant there.  4 He went a day’s journey into the wilderness and came and sat down under a broom tree, and he asked that he might die. He said: “It is enough! Now, O Jehovah, take my life away, for I am no better than my forefathers.” 5 Then he lay down and fell asleep under the broom tree. But suddenly an angel touched him and said to him: “Get up and eat.”  6 When he looked, there at his head was a round loaf on heated stones and a jug of water. He ate and drank and lay down again.  7 Later the angel of Jehovah came back a second time and touched him and said: “Get up and eat, for the journey will be too much for you.”  8 So he got up and ate and drank, and in the strength of that nourishment he went on for 40 days and 40 nights until he reached Horʹeb, the mountain of the true God.",
+    clueSourceContent:
+      "2 At that Jezʹe·bel sent a messenger to E·liʹjah, saying: “So may the gods do to me and add to it if by this time tomorrow I do not make you like each one of them!”  3 At that he became afraid, so he got up and ran for his life. He came to Beʹer-sheʹba, which belongs to Judah, and he left his attendant there.  4 He went a day’s journey into the wilderness and came and sat down under a broom tree, and he asked that he might die. He said: “It is enough! Now, O Jehovah, take my life away, for I am no better than my forefathers.” 5 Then he lay down and fell asleep under the broom tree. But suddenly an angel touched him and said to him: “Get up and eat.”  6 When he looked, there at his head was a round loaf on heated stones and a jug of water. He ate and drank and lay down again.  7 Later the angel of Jehovah came back a second time and touched him and said: “Get up and eat, for the journey will be too much for you.”  8 So he got up and ate and drank, and in the strength of that nourishment he went on for 40 days and 40 nights until he reached Horʹeb, the mountain of the true God.",
     choiceA: "Gerizim",
     choiceB: "Carmel",
     choiceC: "Zion",
     choiceD: "Horeb",
-    correctAnswer: "D"
+    correctAnswer: "D",
   },
   {
-    question: "On what mountain did King Solomon build “the house of Jehovah”, or temple?",
+    question:
+      "On what mountain did King Solomon build “the house of Jehovah”, or temple?",
     clueSource: "2 Chronicles 3:1",
-    clueSourceContent: "Then Solʹo·mon started to build the house of Jehovah in Jerusalem on Mount Mo·riʹah, where Jehovah had appeared to his father David, in the place that David had prepared on the threshing floor of Orʹnan the Jebʹu·site.",
+    clueSourceContent:
+      "Then Solʹo·mon started to build the house of Jehovah in Jerusalem on Mount Mo·riʹah, where Jehovah had appeared to his father David, in the place that David had prepared on the threshing floor of Orʹnan the Jebʹu·site.",
     choiceA: "Moriah",
     choiceB: "Mount of Olives",
     choiceC: "Zion",
     choiceD: "Lebanon",
-    correctAnswer: "A"
+    correctAnswer: "A",
   },
   {
-    question: "Jesus and was on what mountain when they've discussed about ‘the sign of his presence’?",
+    question:
+      "Jesus and was on what mountain when they've discussed about ‘the sign of his presence’?",
     clueSource: "Mateo 24:3",
-    clueSourceContent: "3 While he was sitting on the Mount of Olives, the disciples approached him privately, saying: “Tell us, when will these things be, and what will be the sign of your presence and of the conclusion of the system of things?”",
+    clueSourceContent:
+      "3 While he was sitting on the Mount of Olives, the disciples approached him privately, saying: “Tell us, when will these things be, and what will be the sign of your presence and of the conclusion of the system of things?”",
     choiceA: "Sinai",
     choiceB: "Mount of Olives",
     choiceC: "Zion",
     choiceD: "Moriah",
-    correctAnswer: "B"
+    correctAnswer: "B",
   },
   {
-    question: "Jesus ascended from what mountain into the heavens after his resurrection?​",
+    question:
+      "Jesus ascended from what mountain into the heavens after his resurrection?​",
     clueSource: "Acts 1:9-12",
-    clueSourceContent: "9 After he had said these things, while they were looking on, he was lifted up and a cloud caught him up from their sight. 10 And as they were gazing into the sky while he was on his way, suddenly two men in white garments stood beside them 11 and said: “Men of Galʹi·lee, why do you stand looking into the sky? This Jesus who was taken up from you into the sky will come in the same manner as you have seen him going into the sky.” 12 Then they returned to Jerusalem from a mountain called the Mount of Olives, which is near Jerusalem, only a sabbath day’s journey away.",
+    clueSourceContent:
+      "9 After he had said these things, while they were looking on, he was lifted up and a cloud caught him up from their sight. 10 And as they were gazing into the sky while he was on his way, suddenly two men in white garments stood beside them 11 and said: “Men of Galʹi·lee, why do you stand looking into the sky? This Jesus who was taken up from you into the sky will come in the same manner as you have seen him going into the sky.” 12 Then they returned to Jerusalem from a mountain called the Mount of Olives, which is near Jerusalem, only a sabbath day’s journey away.",
     choiceA: "Nebo",
     choiceB: "Zion",
     choiceC: "Mount of Olives",
     choiceD: "Hermon",
-    correctAnswer: "C"
+    correctAnswer: "C",
   },
   {
-    question: "It is on this heavenly mountain that Christ Jesus stands with the 144,000, who have been bought from the earth.",
+    question:
+      "It is on this heavenly mountain that Christ Jesus stands with the 144,000, who have been bought from the earth.",
     clueSource: "Revelation 14:1-3",
-    clueSourceContent: "Then I saw, and look! the Lamb standing on Mount Zion, and with him 144,000 who have his name and the name of his Father written on their foreheads. 2 I heard a sound coming out of heaven like the sound of many waters and like the sound of loud thunder; and the sound that I heard was like singers who accompany themselves by playing on their harps. 3 And they are singing what seems to be a new song before the throne and before the four living creatures and the elders, and no one was able to master that song except the 144,000, who have been bought from the earth.",
+    clueSourceContent:
+      "Then I saw, and look! the Lamb standing on Mount Zion, and with him 144,000 who have his name and the name of his Father written on their foreheads. 2 I heard a sound coming out of heaven like the sound of many waters and like the sound of loud thunder; and the sound that I heard was like singers who accompany themselves by playing on their harps. 3 And they are singing what seems to be a new song before the throne and before the four living creatures and the elders, and no one was able to master that song except the 144,000, who have been bought from the earth.",
     choiceA: "Hor",
     choiceB: "Sinai",
     choiceC: "Hermon",
     choiceD: "Zion",
-    correctAnswer: "D"
+    correctAnswer: "D",
   },
 ];
 
 // 29 QUESTIONS!!!
 const mountains2 = [
   {
-    question: "This mountain was known to the Sidonians as “Sirion” and to the Amorites as “Senir.”",
+    question:
+      "This mountain was known to the Sidonians as “Sirion” and to the Amorites as “Senir.”",
     clueSource: "Deuteronomy 3:8, 9",
-    clueSourceContent: "8 “At that time we seized the land of the two Amʹor·ite kings who were in the region of the Jordan, from the Arʹnon Valley as far as Mount Herʹmon 9 (the mountain that the Si·doʹni·ans used to call Sirʹi·on and the Amʹor·ites used to call Seʹnir.",
+    clueSourceContent:
+      "8 “At that time we seized the land of the two Amʹor·ite kings who were in the region of the Jordan, from the Arʹnon Valley as far as Mount Herʹmon 9 (the mountain that the Si·doʹni·ans used to call Sirʹi·on and the Amʹor·ites used to call Seʹnir.",
     choiceA: "Hermon",
     choiceB: "Sinai",
     choiceC: "Seir",
     choiceD: "Carmel",
-    correctAnswer: "A"
+    correctAnswer: "A",
   },
   {
     question: "“Sion” was another name applied to what mountain?",
     clueSource: "Deuteronomy 4:47, 48",
-    clueSourceContent: "47 And they took possession of his land and of the land of King Og of Baʹshan, the two kings of the Amʹor·ites who were in the region east of the Jordan, 48 from A·roʹer, which is on the rim of the Arʹnon Valley, up to Mount Siʹon, that is, Herʹmon.",
+    clueSourceContent:
+      "47 And they took possession of his land and of the land of King Og of Baʹshan, the two kings of the Amʹor·ites who were in the region east of the Jordan, 48 from A·roʹer, which is on the rim of the Arʹnon Valley, up to Mount Siʹon, that is, Herʹmon.",
     choiceA: "Zion",
     choiceB: "Hermon",
     choiceC: "Sinai",
     choiceD: "Lebanon",
-    correctAnswer: "B"
+    correctAnswer: "B",
   },
   {
-    question: "Moses said that when God brings Israel into the land of promise, they must pronounce the curse on what mountain?",
+    question:
+      "Moses said that when God brings Israel into the land of promise, they must pronounce the curse on what mountain?",
     clueSource: "Deuteronomy 11:29",
-    clueSourceContent: "“When Jehovah your God brings you into the land you are to possess, you must pronounce the blessing on Mount Gerʹi·zim and the curse on Mount Eʹbal.",
+    clueSourceContent:
+      "“When Jehovah your God brings you into the land you are to possess, you must pronounce the blessing on Mount Gerʹi·zim and the curse on Mount Eʹbal.",
     choiceA: "Tabor",
     choiceB: "Sinai",
     choiceC: "Ebal",
     choiceD: "Nebo",
-    correctAnswer: "C"
+    correctAnswer: "C",
   },
   {
-    question: "Moses said that when God brings Israel into the land of promise, they must pronounce the blessing on what mountain?",
+    question:
+      "Moses said that when God brings Israel into the land of promise, they must pronounce the blessing on what mountain?",
     clueSource: "Deuteronomy 11:29",
-    clueSourceContent: "“When Jehovah your God brings you into the land you are to possess, you must pronounce the blessing on Mount Gerʹi·zim and the curse on Mount Eʹbal.",
+    clueSourceContent:
+      "“When Jehovah your God brings you into the land you are to possess, you must pronounce the blessing on Mount Gerʹi·zim and the curse on Mount Eʹbal.",
     choiceA: "Lebanon",
     choiceB: "Ebal",
     choiceC: "Hermon",
     choiceD: "Gerizim",
-    correctAnswer: "D"
+    correctAnswer: "D",
   },
   {
-    question: "When Israel have crossed the Jordan, they should set up an altar on what mountain?",
+    question:
+      "When Israel have crossed the Jordan, they should set up an altar on what mountain?",
     clueSource: "Deuteronomy 27:4",
-    clueSourceContent: "When you have crossed the Jordan, you should set up these stones on Mount Eʹbal and cover them with plaster, just as I am commanding you today. 5  You are also to build an altar there to Jehovah your God, an altar of stones. You should not use iron tools on them. 6  You should build the altar of Jehovah your God with whole stones and offer burnt offerings to Jehovah your God on it. 7  You are to offer communion sacrifices and eat them there, and you will rejoice before Jehovah your God. 8  And clearly write on the stones all the words of this Law.”",
+    clueSourceContent:
+      "When you have crossed the Jordan, you should set up these stones on Mount Eʹbal and cover them with plaster, just as I am commanding you today. 5  You are also to build an altar there to Jehovah your God, an altar of stones. You should not use iron tools on them. 6  You should build the altar of Jehovah your God with whole stones and offer burnt offerings to Jehovah your God on it. 7  You are to offer communion sacrifices and eat them there, and you will rejoice before Jehovah your God. 8  And clearly write on the stones all the words of this Law.”",
     choiceA: "Ebal",
     choiceB: "Sinai",
     choiceC: "Tabor",
     choiceD: "Moriah",
-    correctAnswer: "A"
+    correctAnswer: "A",
   },
   {
-    question: "On what mountain did Simʹe·on, Leʹvi, Judah, Isʹsa·char, Joseph, and Benjamin stand to bless the people of Israel?",
+    question:
+      "On what mountain did Simʹe·on, Leʹvi, Judah, Isʹsa·char, Joseph, and Benjamin stand to bless the people of Israel?",
     clueSource: "Deuteronomy 27:12",
-    clueSourceContent: "“The following tribes will stand on Mount Gerʹi·zim to bless the people when you have crossed the Jordan: Simʹe·on, Leʹvi, Judah, Isʹsa·char, Joseph, and Benjamin.",
+    clueSourceContent:
+      "“The following tribes will stand on Mount Gerʹi·zim to bless the people when you have crossed the Jordan: Simʹe·on, Leʹvi, Judah, Isʹsa·char, Joseph, and Benjamin.",
     choiceA: "Ebal",
     choiceB: "Gerizim",
     choiceC: "Horeb",
     choiceD: "Zion",
-    correctAnswer: "B"
+    correctAnswer: "B",
   },
   {
-    question: "On what mountain did Reuben, Gad, Asher, Zebulun, Dan, and Naphtali stand to pronounce the curse?",
+    question:
+      "On what mountain did Reuben, Gad, Asher, Zebulun, Dan, and Naphtali stand to pronounce the curse?",
     clueSource: "Deuteronomy 27:13",
-    clueSourceContent: "And the following will stand on Mount Eʹbal to pronounce the curse: Reuʹben, Gad, Ashʹer, Zebʹu·lun, Dan, and Naphʹta·li.",
+    clueSourceContent:
+      "And the following will stand on Mount Eʹbal to pronounce the curse: Reuʹben, Gad, Ashʹer, Zebʹu·lun, Dan, and Naphʹta·li.",
     choiceA: "Gerizim",
     choiceB: "Horeb",
     choiceC: "Ebal",
     choiceD: "Halak",
-    correctAnswer: "C"
+    correctAnswer: "C",
   },
   {
-    question: "When Joshua wrote a copy of the Law, in front of what mountains did the Israelites stand?",
+    question:
+      "When Joshua wrote a copy of the Law, in front of what mountains did the Israelites stand?",
     clueSource: "Joshua 8:33",
-    clueSourceContent: "33 All Israel, their elders, the officers, and their judges were standing on both sides of the Ark in front of the Levitical priests who were carrying the ark of the covenant of Jehovah. The foreign residents were there as well as the natives.c Half of them stood in front of Mount Gerʹi·zim, and the other half in front of Mount Eʹbald (just as Moses the servant of Jehovah had previously commanded),e to bless the people of Israel.",
+    clueSourceContent:
+      "33 All Israel, their elders, the officers, and their judges were standing on both sides of the Ark in front of the Levitical priests who were carrying the ark of the covenant of Jehovah. The foreign residents were there as well as the natives.c Half of them stood in front of Mount Gerʹi·zim, and the other half in front of Mount Eʹbald (just as Moses the servant of Jehovah had previously commanded),e to bless the people of Israel.",
     choiceA: "Just Ebal.",
     choiceB: "Carmel and Sinai",
     choiceC: "Just Gerizim.",
     choiceD: "Gerizim and Ebal",
-    correctAnswer: "D"
+    correctAnswer: "D",
   },
   {
     question: "On the base of what mountain did Joshua defeat the Hivites?",
     clueSource: "Joshua 11:16, 17",
-    clueSourceContent: "16 Joshua conquered all this land, the mountainous region, all the Negʹeb, all the land of Goʹshen, the She·pheʹlah, the Arʹa·bah, and the mountainous region of Israel and its She·pheʹlah, 17 from Mount Haʹlak, which goes up to Seʹir, and as far as Baʹal-gad in the Valley of Lebʹa·non at the base of Mount Herʹmon, and he captured all their kings and defeated them, putting them to death.",
+    clueSourceContent:
+      "16 Joshua conquered all this land, the mountainous region, all the Negʹeb, all the land of Goʹshen, the She·pheʹlah, the Arʹa·bah, and the mountainous region of Israel and its She·pheʹlah, 17 from Mount Haʹlak, which goes up to Seʹir, and as far as Baʹal-gad in the Valley of Lebʹa·non at the base of Mount Herʹmon, and he captured all their kings and defeated them, putting them to death.",
     choiceA: "Hermon",
     choiceB: "Tabor",
     choiceC: "Moriah",
     choiceD: "Nebo",
-    correctAnswer: "A"
+    correctAnswer: "A",
   },
   {
-    question: "Which mountain formed one of the boundary markers in the territory of the tribe of Asher?",
+    question:
+      "Which mountain formed one of the boundary markers in the territory of the tribe of Asher?",
     clueSource: "Joshua 19:24-26",
-    clueSourceContent: "24 Then the fifth lot came out for the tribe of Ashʹer by their families. 25 And their boundary was Helʹkath, Haʹli, Beʹten, Achʹshaph, 26 Al·lamʹme·lech, Aʹmad, and Miʹshal. It reached westward to Carʹmel and to Shiʹhor-libʹnath.",
+    clueSourceContent:
+      "24 Then the fifth lot came out for the tribe of Ashʹer by their families. 25 And their boundary was Helʹkath, Haʹli, Beʹten, Achʹshaph, 26 Al·lamʹme·lech, Aʹmad, and Miʹshal. It reached westward to Carʹmel and to Shiʹhor-libʹnath.",
     choiceA: "Tabor",
     choiceB: "Carmel",
     choiceC: "Sinai",
     choiceD: "Ararat",
-    correctAnswer: "B"
+    correctAnswer: "B",
   },
   {
-    question: "The pagan inhabitants of what mountain tested Israel’s faithfulness to Jehovah?",
+    question:
+      "The pagan inhabitants of what mountain tested Israel’s faithfulness to Jehovah?",
     clueSource: "Judges 3:3, 4",
-    clueSourceContent: "3 The five lords of the Phi·lisʹtines, and all the Caʹnaan·ites, the Si·doʹni·ans, and the Hiʹvites inhabiting Mount Lebʹa·non from Mount Baʹal-herʹmon as far as Leʹbo-haʹmath. 4 They served as a means of testing Israel to determine whether Israel would obey Jehovah’s commandments that he had given their fathers through Moses.",
+    clueSourceContent:
+      "3 The five lords of the Phi·lisʹtines, and all the Caʹnaan·ites, the Si·doʹni·ans, and the Hiʹvites inhabiting Mount Lebʹa·non from Mount Baʹal-herʹmon as far as Leʹbo-haʹmath. 4 They served as a means of testing Israel to determine whether Israel would obey Jehovah’s commandments that he had given their fathers through Moses.",
     choiceA: "Seir",
     choiceB: "Hor",
     choiceC: "Lebanon",
     choiceD: "Ebal",
-    correctAnswer: "C"
+    correctAnswer: "C",
   },
   {
-    question: "On what mountain did Zebah and Zalmunna kill judge Gideon's brothers?",
+    question:
+      "On what mountain did Zebah and Zalmunna kill judge Gideon's brothers?",
     clueSource: "Judges 8:18, 19",
-    clueSourceContent: "18 He asked Zeʹbah and Zal·munʹna: “What sort of men did you kill in Taʹbor?” To this they said: “They were like you, each one looked like the son of a king.” 19 At that he said: “They were my brothers, the sons of my mother. As surely as Jehovah lives, if you had spared their lives, I would not have to kill you.”",
+    clueSourceContent:
+      "18 He asked Zeʹbah and Zal·munʹna: “What sort of men did you kill in Taʹbor?” To this they said: “They were like you, each one looked like the son of a king.” 19 At that he said: “They were my brothers, the sons of my mother. As surely as Jehovah lives, if you had spared their lives, I would not have to kill you.”",
     choiceA: "Hermon",
     choiceB: "Mount of Olives",
     choiceC: "Sinai",
     choiceD: "Tabor",
-    correctAnswer: "D"
+    correctAnswer: "D",
   },
   {
-    question: "King David, barefoot and weeping, ascended what mountain as he fled from his rebellious son Absalom?",
+    question:
+      "King David, barefoot and weeping, ascended what mountain as he fled from his rebellious son Absalom?",
     clueSource: "2 Samuel 15:30",
-    clueSourceContent: "30 As David was going up the Mount of Olives, he was weeping as he went up; his head was covered, and he was walking barefoot. All the people with him also covered their heads and were weeping as they went up.",
+    clueSourceContent:
+      "30 As David was going up the Mount of Olives, he was weeping as he went up; his head was covered, and he was walking barefoot. All the people with him also covered their heads and were weeping as they went up.",
     choiceA: "Mount of Olives",
     choiceB: "Carmel",
     choiceC: "Tabor",
     choiceD: "Moriah",
-    correctAnswer: "A"
+    correctAnswer: "A",
   },
   {
-    question: "Hiram the king of Tyre got the supplies of cedar and juniper timbers for Solomon from what mountain?",
+    question:
+      "Hiram the king of Tyre got the supplies of cedar and juniper timbers for Solomon from what mountain?",
     clueSource: "1 Kings 5:7-14",
-    clueSourceContent: "7 When Hiʹram heard Solʹo·mon’s words, he rejoiced greatly and said: “May Jehovah be praised today, for he has given David a wise son over this great people!”  8 So Hiʹram sent word to Solʹo·mon: “I have heard the message you sent to me. I will do all you desire in providing the cedar and juniper timbers.  9 My servants will bring them down from Lebʹa·non to the sea, and I will make them into log rafts to go by sea to the place that you designate to me. I will have them broken up there, and you can carry them away. In exchange, you will provide the food that I request for my household.” 10 So Hiʹram supplied all the timbers of cedar and juniper that Solʹo·mon desired.  11 And Solʹo·mon gave Hiʹram 20,000 cor measures of wheat as food supplies for his household and 20 cor measures of very fine olive oil. That was what Solʹo·mon gave Hiʹram year after year.  12 And Jehovah gave Solʹo·mon wisdom, just as He had promised him. And there was peace between Hiʹram and Solʹo·mon, and the two of them made a treaty. 13 King Solʹo·mon conscripted men for forced labor out of all Israel; 30,000 men were conscripted.  14 He would send them to Lebʹa·non in shifts of 10,000 each month. They would spend a month in Lebʹa·non and two months at their homes; and Ad·o·niʹram was over those conscripted for forced labor.",
+    clueSourceContent:
+      "7 When Hiʹram heard Solʹo·mon’s words, he rejoiced greatly and said: “May Jehovah be praised today, for he has given David a wise son over this great people!”  8 So Hiʹram sent word to Solʹo·mon: “I have heard the message you sent to me. I will do all you desire in providing the cedar and juniper timbers.  9 My servants will bring them down from Lebʹa·non to the sea, and I will make them into log rafts to go by sea to the place that you designate to me. I will have them broken up there, and you can carry them away. In exchange, you will provide the food that I request for my household.” 10 So Hiʹram supplied all the timbers of cedar and juniper that Solʹo·mon desired.  11 And Solʹo·mon gave Hiʹram 20,000 cor measures of wheat as food supplies for his household and 20 cor measures of very fine olive oil. That was what Solʹo·mon gave Hiʹram year after year.  12 And Jehovah gave Solʹo·mon wisdom, just as He had promised him. And there was peace between Hiʹram and Solʹo·mon, and the two of them made a treaty. 13 King Solʹo·mon conscripted men for forced labor out of all Israel; 30,000 men were conscripted.  14 He would send them to Lebʹa·non in shifts of 10,000 each month. They would spend a month in Lebʹa·non and two months at their homes; and Ad·o·niʹram was over those conscripted for forced labor.",
     choiceA: "Carmel",
     choiceB: "Lebanon",
     choiceC: "Mount of Olives",
     choiceD: "Seir",
-    correctAnswer: "B"
+    correctAnswer: "B",
   },
   {
-    question: "Elisha was at what mountain when the woman of Shunem came seeking his help for her dead son?",
+    question:
+      "Elisha was at what mountain when the woman of Shunem came seeking his help for her dead son?",
     clueSource: "2 Kings 4:25-37",
-    clueSourceContent: "25 So she went to the man of the true God at Mount Carʹmel. As soon as the man of the true God saw her from afar, he said to Ge·haʹzi his attendant: “Look! The Shuʹnam·mite woman is over there.  26 Please run to meet her and ask her, ‘Are you well? Is your husband well? Is your child well?’” To this she said: “All is well.”  27 When she came to the man of the true God at the mountain, she at once grabbed hold of his feet. At this Ge·haʹzi came near to push her away, but the man of the true God said: “Let her alone, for she is in bitter distress, and Jehovah has hidden it from me and has not told me.”  28 She then said: “Did I ask my lord for a son? Did I not say, ‘You must not give me a false hope’?” 29 He immediately said to Ge·haʹzi: “Wrap your garments around your waist and take my staff in your hand and go. If you encounter anyone, do not greet him; and if anyone should greet you, do not answer him. Go and place my staff on the boy’s face.”  30 At this the boy’s mother said: “As surely as Jehovah is living and as you yourself are living, I will not leave you.” So he got up and went with her.  31 Ge·haʹzi went before them and put the staff on the boy’s face, but there was no sound or response. He went back to meet E·liʹsha and told him: “The boy did not wake up.”When E·liʹsha came into the house, the boy was lying dead on his bed.  33 He went in and closed the door behind them both and began to pray to Jehovah.  34 Then he got up on the bed and lay down on the child and put his own mouth on the boy’s mouth, his own eyes on his eyes, and his own palms on his palms and kept bent over him, and the child’s body started to grow warm.  35 He walked back and forth in the house, and he got up on the bed and bent over him again. The boy sneezed seven times, after which he opened his eyes.  36 E·liʹsha now called Ge·haʹzi and said: “Call the Shuʹnam·mite woman.” So he called her and she came in to him. Then he said: “Pick up your son.”  37 And she came in and fell at his feet and bowed down to the ground before him, after which she picked up her son and went out.",
+    clueSourceContent:
+      "25 So she went to the man of the true God at Mount Carʹmel. As soon as the man of the true God saw her from afar, he said to Ge·haʹzi his attendant: “Look! The Shuʹnam·mite woman is over there.  26 Please run to meet her and ask her, ‘Are you well? Is your husband well? Is your child well?’” To this she said: “All is well.”  27 When she came to the man of the true God at the mountain, she at once grabbed hold of his feet. At this Ge·haʹzi came near to push her away, but the man of the true God said: “Let her alone, for she is in bitter distress, and Jehovah has hidden it from me and has not told me.”  28 She then said: “Did I ask my lord for a son? Did I not say, ‘You must not give me a false hope’?” 29 He immediately said to Ge·haʹzi: “Wrap your garments around your waist and take my staff in your hand and go. If you encounter anyone, do not greet him; and if anyone should greet you, do not answer him. Go and place my staff on the boy’s face.”  30 At this the boy’s mother said: “As surely as Jehovah is living and as you yourself are living, I will not leave you.” So he got up and went with her.  31 Ge·haʹzi went before them and put the staff on the boy’s face, but there was no sound or response. He went back to meet E·liʹsha and told him: “The boy did not wake up.”When E·liʹsha came into the house, the boy was lying dead on his bed.  33 He went in and closed the door behind them both and began to pray to Jehovah.  34 Then he got up on the bed and lay down on the child and put his own mouth on the boy’s mouth, his own eyes on his eyes, and his own palms on his palms and kept bent over him, and the child’s body started to grow warm.  35 He walked back and forth in the house, and he got up on the bed and bent over him again. The boy sneezed seven times, after which he opened his eyes.  36 E·liʹsha now called Ge·haʹzi and said: “Call the Shuʹnam·mite woman.” So he called her and she came in to him. Then he said: “Pick up your son.”  37 And she came in and fell at his feet and bowed down to the ground before him, after which she picked up her son and went out.",
     choiceA: "Hor",
     choiceB: "Sinai",
     choiceC: "Carmel",
     choiceD: "Moriah",
-    correctAnswer: "C"
+    correctAnswer: "C",
   },
   {
-    question: "King Uzziah, who “loved agriculture,” had farmers and vinedressers in what mountain?",
+    question:
+      "King Uzziah, who “loved agriculture,” had farmers and vinedressers in what mountain?",
     clueSource: "2 Chronicles 26:9, 10",
-    clueSourceContent: "9 Moreover, Uz·ziʹah built towers in Jerusalem by the Corner Gate, the Valley Gate, and the Buttress, and he fortified them. 10 Further, he built towers in the wilderness and dug many cisterns (for he had a great deal of livestock); he also did so in the She·pheʹlah and on the plain. He had farmers and vinedressers in the mountains and in Carʹmel, for he loved agriculture.",
+    clueSourceContent:
+      "9 Moreover, Uz·ziʹah built towers in Jerusalem by the Corner Gate, the Valley Gate, and the Buttress, and he fortified them. 10 Further, he built towers in the wilderness and dug many cisterns (for he had a great deal of livestock); he also did so in the She·pheʹlah and on the plain. He had farmers and vinedressers in the mountains and in Carʹmel, for he loved agriculture.",
     choiceA: "Moriah",
     choiceB: "Sinai",
     choiceC: "Lebanon",
     choiceD: "Carmel",
-    correctAnswer: "D"
+    correctAnswer: "D",
   },
   {
-    question: "The psalmist mentioned what mountain, along with Mount Tabor, as joyously praising Jehovah’s name?​",
+    question:
+      "The psalmist mentioned what mountain, along with Mount Tabor, as joyously praising Jehovah’s name?​",
     clueSource: "Psalm 89:12",
-    clueSourceContent: "12 The north and the south—you created them; Taʹbor and Herʹmon joyously praise your name.",
+    clueSourceContent:
+      "12 The north and the south—you created them; Taʹbor and Herʹmon joyously praise your name.",
     choiceA: "Hermon",
     choiceB: "Zion",
     choiceC: "Horeb",
     choiceD: "Ararat",
-    correctAnswer: "A"
+    correctAnswer: "A",
   },
   {
     question: "Anciently, what mountain was a lair for lions and leopards?",
     clueSource: "Song of Solomon 4:8",
-    clueSourceContent: "8 Come with me from Lebʹa·non, my bride, Come with me from Lebʹa·non. Descend from the peak of A·maʹnah, From the peak of Seʹnir, the peak of Herʹmon, From the lairs of lions, from the mountains of leopards.",
+    clueSourceContent:
+      "8 Come with me from Lebʹa·non, my bride, Come with me from Lebʹa·non. Descend from the peak of A·maʹnah, From the peak of Seʹnir, the peak of Herʹmon, From the lairs of lions, from the mountains of leopards.",
     choiceA: "Gilboa",
     choiceB: "Hermon",
     choiceC: "Gerizim",
     choiceD: "Lebanon",
-    correctAnswer: "B"
+    correctAnswer: "B",
   },
   {
-    question: "In The Song of Solomon, the Shulammite maiden’s head is likened to what mountain?",
+    question:
+      "In The Song of Solomon, the Shulammite maiden’s head is likened to what mountain?",
     clueSource: "Song of Solomon 7:5",
-    clueSourceContent: "5 Your head crowns you like Carʹmel, And the locks of your hair are like purple wool. The king is captivated by the flowing tresses.",
+    clueSourceContent:
+      "5 Your head crowns you like Carʹmel, And the locks of your hair are like purple wool. The king is captivated by the flowing tresses.",
     choiceA: "Nebo",
     choiceB: "Lebanon",
     choiceC: "Carmel",
     choiceD: "Mount of Olives",
-    correctAnswer: "C"
+    correctAnswer: "C",
   },
   {
-    question: "By the middle of 8th century B.C.E., the unfaithful priestly houses of Israel were as “a net spread over” what mountain?",
+    question:
+      "By the middle of 8th century B.C.E., the unfaithful priestly houses of Israel were as “a net spread over” what mountain?",
     clueSource: "Hosea 5:1",
-    clueSourceContent: "“Hear this, you priests, Pay attention, O house of Israel, Listen, O house of the king, For the judgment involves you; Because you are a trap to Mizʹpah And a net spread over Taʹbor.",
+    clueSourceContent:
+      "“Hear this, you priests, Pay attention, O house of Israel, Listen, O house of the king, For the judgment involves you; Because you are a trap to Mizʹpah And a net spread over Taʹbor.",
     choiceA: "Ebal",
     choiceB: "Seir",
     choiceC: "Hor",
     choiceD: "Tabor",
-    correctAnswer: "D"
+    correctAnswer: "D",
   },
   {
-    question: "Jesus, seated on the colt of an ass, commenced his triumphal ride over what mountains to Jerusalem?",
+    question:
+      "Jesus, seated on the colt of an ass, commenced his triumphal ride over what mountains to Jerusalem?",
     clueSource: "Mateo 21:1, 2",
-    clueSourceContent: "When they got close to Jerusalem and arrived at Bethʹpha·ge on the Mount of Olives, then Jesus sent two disciples, 2 saying to them: “Go into the village that is within sight, and you will at once find a donkey tied and a colt with her. Untie them and bring them to me.",
+    clueSourceContent:
+      "When they got close to Jerusalem and arrived at Bethʹpha·ge on the Mount of Olives, then Jesus sent two disciples, 2 saying to them: “Go into the village that is within sight, and you will at once find a donkey tied and a colt with her. Untie them and bring them to me.",
     choiceA: "Mount of Olives",
     choiceB: "Horeb",
     choiceC: "Hermon",
     choiceD: "Zion",
-    correctAnswer: "A"
+    correctAnswer: "A",
   },
   {
     question: "A mountain in Arabia, apparently also called Horeb.",
     clueSource: "Galacia 4:25",
-    clueSourceContent: "25 Now Haʹgar means Siʹnai, a mountain in Arabia, and she corresponds with the Jerusalem today, for she is in slavery with her children.",
+    clueSourceContent:
+      "25 Now Haʹgar means Siʹnai, a mountain in Arabia, and she corresponds with the Jerusalem today, for she is in slavery with her children.",
     choiceA: "Tabor",
     choiceB: "Sinai",
     choiceC: "Nebo",
     choiceD: "Hor",
-    correctAnswer: "B"
+    correctAnswer: "B",
   },
   {
-    question: "A mountain marking the southern geographic limit of Israel’s conquest of the Promised Land under the leadership of Joshua.",
+    question:
+      "A mountain marking the southern geographic limit of Israel’s conquest of the Promised Land under the leadership of Joshua.",
     clueSource: "Insight on the Scriptures Volume 1, [Halak, Mount] p. 1022",
-    clueSourceContent: "(Haʹlak) [Smooth Mountain]. A mountain marking the southern geographic limit of Israel’s conquest of the Promised Land under the leadership of Joshua. (Jos 11:16, 17; 12:7) Halak is generally identified with Jebel Halaq (Har He-Halaq), the last W Palestinian height on the road from Beer-sheba to the Arabah. The range that begins with Jebel Halaq divides the pastureland on the E from the sandy desert on the W. If this identification is correct, then the Biblical description of Halak as ‘going up,’ or ‘rising,’ toward Seir may mean that the broad side of this mountain, running from SW to NE, faces Seir.",
+    clueSourceContent:
+      "(Haʹlak) [Smooth Mountain]. A mountain marking the southern geographic limit of Israel’s conquest of the Promised Land under the leadership of Joshua. (Jos 11:16, 17; 12:7) Halak is generally identified with Jebel Halaq (Har He-Halaq), the last W Palestinian height on the road from Beer-sheba to the Arabah. The range that begins with Jebel Halaq divides the pastureland on the E from the sandy desert on the W. If this identification is correct, then the Biblical description of Halak as ‘going up,’ or ‘rising,’ toward Seir may mean that the broad side of this mountain, running from SW to NE, faces Seir.",
     choiceA: "Carmel",
     choiceB: "Hermon",
     choiceC: "Halak",
     choiceD: "Tabor",
-    correctAnswer: "C"
+    correctAnswer: "C",
   },
   {
     question: "What mountain became the northern limit of the Promised Land?",
     clueSource: "Insight on the Scriptures Volume 1, [Hermon] p. 1090",
-    clueSourceContent: "Mount Hermon became the northern limit of the Promised Land. (Jos 12:1; 13:2, 5, 8, 11) The Hivites, who resided at its base, were defeated by Joshua. (Jos 11:1-3, 8, 16, 17) This mountain may have been the scene for the transfiguration of Jesus Christ (Mt 17:1; Mr 9:2; Lu 9:28; 2Pe 1:18), for he was in nearby Caesarea Philippi shortly before this event.​—Mr 8:27; see BAAL-HERMON; TRANSFIGURATION.",
+    clueSourceContent:
+      "Mount Hermon became the northern limit of the Promised Land. (Jos 12:1; 13:2, 5, 8, 11) The Hivites, who resided at its base, were defeated by Joshua. (Jos 11:1-3, 8, 16, 17) This mountain may have been the scene for the transfiguration of Jesus Christ (Mt 17:1; Mr 9:2; Lu 9:28; 2Pe 1:18), for he was in nearby Caesarea Philippi shortly before this event.​—Mr 8:27; see BAAL-HERMON; TRANSFIGURATION.",
     choiceA: "Tabor",
     choiceB: "Sinai",
     choiceC: "Carmel",
     choiceD: "Hermon",
-    correctAnswer: "D"
+    correctAnswer: "D",
   },
   {
     question: "The mountainous region surrounding Mount Sinai.",
     clueSource: "nwt Glossary [Horeb; Mount Horeb]",
-    clueSourceContent: "The mountainous region surrounding Mount Sinai. Another name for Mount Sinai. (Ex 3:1; De 5:2)​—See App. B3.",
+    clueSourceContent:
+      "The mountainous region surrounding Mount Sinai. Another name for Mount Sinai. (Ex 3:1; De 5:2)​—See App. B3.",
     choiceA: "Horeb",
     choiceB: "Hermon",
     choiceC: "Carmel",
     choiceD: "Moriah",
-    correctAnswer: "A"
+    correctAnswer: "A",
   },
   {
     question: "Which of the following is another name for Mount “Sinai”?",
     clueSource: "nwt Glossary [Horeb; Mount Horeb]",
-    clueSourceContent: "The mountainous region surrounding Mount Sinai. Another name for Mount Sinai. (Ex 3:1; De 5:2)​—See App. B3.",
+    clueSourceContent:
+      "The mountainous region surrounding Mount Sinai. Another name for Mount Sinai. (Ex 3:1; De 5:2)​—See App. B3.",
     choiceA: "Hermon",
     choiceB: "Horeb",
     choiceC: "Nebo",
     choiceD: "Tabor",
-    correctAnswer: "B"
+    correctAnswer: "B",
   },
   {
-    question: "The mountainous region between the Dead Sea and the Gulf of ʽAqaba.",
+    question:
+      "The mountainous region between the Dead Sea and the Gulf of ʽAqaba.",
     clueSource: "Insight on the Scriptures Volume 2, [Seir] p. 891",
-    clueSourceContent: "(Seʹir) [from a root meaning “bristle up,” possibly referring to wooded hills; or, possibly meaning “Bristle Up (Shudder) in Horror”]. The mountainous region between the Dead Sea and the Gulf of ʽAqaba. (Ge 36:8, 30; De 2:1, 8) In Abraham’s time Horites inhabited Seir. (Ge 14:6) Later, Abraham’s grandson Esau established interests in Seir, while his twin brother Jacob resided at Paddan-aram. (Ge 32:3) But it seems that Esau did not complete the move to Seir until sometime after Jacob returned to Canaan. (Ge 36:6-9) Finally Esau’s descendants, the Edomites, dispossessed the Horites (De 2:4, 5, 12; Jos 24:4), and the land came to be called Edom. However, the older name Seir was also applied to the descendants of Esau and to the area where they lived. (Nu 24:18; compare 2Ki 14:7; 2Ch 25:11.) It appears that during the reign of King Hezekiah men of the tribe of Simeon went to Mount Seir, and after they annihilated the remnant of the Amalekites, Simeonites began residing there. (1Ch 4:41-43) For details about the geography and history of Seir, see EDOM, EDOMITES.",
+    clueSourceContent:
+      "(Seʹir) [from a root meaning “bristle up,” possibly referring to wooded hills; or, possibly meaning “Bristle Up (Shudder) in Horror”]. The mountainous region between the Dead Sea and the Gulf of ʽAqaba. (Ge 36:8, 30; De 2:1, 8) In Abraham’s time Horites inhabited Seir. (Ge 14:6) Later, Abraham’s grandson Esau established interests in Seir, while his twin brother Jacob resided at Paddan-aram. (Ge 32:3) But it seems that Esau did not complete the move to Seir until sometime after Jacob returned to Canaan. (Ge 36:6-9) Finally Esau’s descendants, the Edomites, dispossessed the Horites (De 2:4, 5, 12; Jos 24:4), and the land came to be called Edom. However, the older name Seir was also applied to the descendants of Esau and to the area where they lived. (Nu 24:18; compare 2Ki 14:7; 2Ch 25:11.) It appears that during the reign of King Hezekiah men of the tribe of Simeon went to Mount Seir, and after they annihilated the remnant of the Amalekites, Simeonites began residing there. (1Ch 4:41-43) For details about the geography and history of Seir, see EDOM, EDOMITES.",
     choiceA: "Sinai",
     choiceB: "Lebanon",
     choiceC: "Seir",
     choiceD: "Gilboa",
-    correctAnswer: "C"
+    correctAnswer: "C",
   },
   {
-    question: "An outstanding mountain in the territory of Issachar on its northern boundary.",
+    question:
+      "An outstanding mountain in the territory of Issachar on its northern boundary.",
     clueSource: "Insight on the Scriptures Volume 2, [Tabor] p. 1060-1061",
-    clueSourceContent: "(Taʹbor). An outstanding mountain in the territory of Issachar on its northern boundary. (Jos 19:17, 22) In Arabic it is called Jebel et-Tur; in Hebrew, Har Tavor. It is situated about 20 km (12 mi) W of the southern end of the Sea of Galilee and about 8 km (5 mi) ESE of the city of Nazareth.",
+    clueSourceContent:
+      "(Taʹbor). An outstanding mountain in the territory of Issachar on its northern boundary. (Jos 19:17, 22) In Arabic it is called Jebel et-Tur; in Hebrew, Har Tavor. It is situated about 20 km (12 mi) W of the southern end of the Sea of Galilee and about 8 km (5 mi) ESE of the city of Nazareth.",
     choiceA: "Lebanon",
     choiceB: "Nebo",
     choiceC: "Carmel",
     choiceD: "Tabor",
-    correctAnswer: "D"
+    correctAnswer: "D",
   },
   {
-    question: "This mountain became especially holy to Jehovah when David had the Ark transferred there.",
+    question:
+      "This mountain became especially holy to Jehovah when David had the Ark transferred there.",
     clueSource: "nwt Glossary [Zion; Mount Zion]",
-    clueSourceContent: "The name of the Jebusite fortress city of Jebus that was on the southeast hill of Jerusalem. After David captured it, he built his royal residence there, and it came to be called “the City of David.” (2Sa 5:7, 9) Zion became a mountain especially holy to Jehovah when David had the Ark transferred there. Later, the name included the temple area on Mount Moriah, and at times the entire city of Jerusalem. It is often used symbolically in the Christian Greek Scriptures.​—Ps 2:6; 1Pe 2:6; Re 14:1.",
+    clueSourceContent:
+      "The name of the Jebusite fortress city of Jebus that was on the southeast hill of Jerusalem. After David captured it, he built his royal residence there, and it came to be called “the City of David.” (2Sa 5:7, 9) Zion became a mountain especially holy to Jehovah when David had the Ark transferred there. Later, the name included the temple area on Mount Moriah, and at times the entire city of Jerusalem. It is often used symbolically in the Christian Greek Scriptures.​—Ps 2:6; 1Pe 2:6; Re 14:1.",
     choiceA: "Zion",
     choiceB: "Horeb",
     choiceC: "Moriah",
     choiceD: "Lebanon",
-    correctAnswer: "A"
+    correctAnswer: "A",
   },
-]
+];
+
+const prophets = [
+  {
+    question: "Who served as as a “prophet” or “mouth” to Moses?",
+    clueSource: "Insight on the Scriptures Volume 2, [Prophet] p. 695",
+    clueSourceContent: "With Moses, the role of the prophet comes into sharper focus. The prophet’s position as spokesman for God is emphasized by Jehovah’s assignment of Aaron as a “prophet” or “mouth” to Moses, while Moses ‘served as God to Aaron.’ (Ex 4:16; 7:1, 2) Moses foretold many events that saw early fulfillment, such as the Ten Plagues. However, he served even more impressively as prophet, or spokesman for God, in the delivering of the Law covenant at Sinai and in instructing the nation in God’s will. Though the Law covenant was of immense immediate value to the Israelites as a moral code and guide, it, too, pointed forward to the future and ‘better things to come.’ (Ga 3:23-25; Heb 8:6; 9:23, 24; 10:1) Moses’ intimate, often two-way, communication with God, and the greatly increased understanding of Jehovah’s will and purpose he was used to convey, made his prophetic position outstanding. (Ex 6:2-8; De 34:10) His brother and sister, Aaron and Miriam, also rendered prophetic service in the sense of being transmitters of divine messages or counsel (though not necessarily predictions), as did 70 older men of the nation.​—Ex 15:20; Nu 11:25; 12:1-8.",
+    choiceA: "Aaron",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  {
+    question: "The first occurrence of the word “prophet” in the Hebrew Scriptures refers to whom?",
+    clueSource: "Insight on the Scriptures Volume 1, [Abraham] p. 31-32",
+    clueSourceContent: "The first occurrence of the word “prophet” in the Hebrew Scriptures refers to Abraham, though others like Enoch prophesied before him. (Ge 20:7; Jude 14) The first identified in the Scriptures as a “Hebrew” is Abraham. (Ge 14:13) Abraham, like Abel, Enoch, and Noah, was a man of faith. (Heb 11:4-9) But the first occurrence of the expression “put faith in Jehovah” is in reference to Abraham.​—Ge 15:6. Indeed, this man of unusual faith walked with God, received communications from him by means of visions and dreams, and entertained his angelic messengers. (Ge 12:1-3, 7; 15:1-8, 12-21; 18:1-15; 22:11, 12, 15-18) He was well acquainted with the name of God even though Jehovah had not at that time revealed the full significance of His name. (Ex 6:2, 3) Time after time Abraham built altars and offered up sacrifices in the name of and to the praise and glory of his God Jehovah.​—Ge 12:8; 13:4, 18; 21:33; 24:40; 48:15.",
+    choiceA: "Enoch",
+    choiceB: "Abraham",
+    choiceC: "Moses",
+    choiceD: "Aaron",
+    correctAnswer: "B",
+  },
+  {
+    question: "Who was the first human spoeksman for Jehovah God?",
+    clueSource: "Insight on the Scriptures Volume 2, [Prophet]",
+    clueSourceContent: "Prophetic Office in the Hebrew Scriptures. The first human spokesman for God obviously was Adam, who initially conveyed God’s instructions to his wife Eve and to that extent fulfilled the role of prophet. Those instructions had to do not only with the present (for them) but also with the future, outlining God’s purpose for earth and mankind and the course humans must take to enjoy a blessed future. (Ge 1:26-30; 2:15-17, 23, 24; 3:1-3)",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "Adam",
+    choiceD: "",
+    correctAnswer: "C",
+  },
+  {
+    question: "Who foretold that “a great famine was about to come on the entire inhabited earth,” which was fulfilled during the reign of Emperor Claudius?",
+    clueSource: "Acts 11:27, 28",
+    clueSourceContent: "27 In those days prophets came down from Jerusalem to Antioch. 28 One of them named Agʹa·bus stood up and foretold through the spirit that a great famine was about to come on the entire inhabited earth, which, in fact, did take place in the time of Claudius.",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "Agabus",
+    correctAnswer: "D",
+  },
+  {
+    question: "A prophet of Jehovah residing in Shiloh who foretold how Solomon’s kingdom would be split.",
+    clueSource: "1 Kings 11:29-39",
+    clueSourceContent: "29 During that time Jer·o·boʹam went out from Jerusalem, and the prophet A·hiʹjah the Shiʹlo·nite found him on the road. A·hiʹjah was wearing a new garment, and the two of them were by themselves in the field.  30 A·hiʹjah took hold of the new garment he was wearing and ripped it into 12 pieces.  31 Then he said to Jer·o·boʹam:“Take ten pieces for yourself, for this is what Jehovah the God of Israel says: ‘Here I am ripping the kingdom out of the hand of Solʹo·mon, and I will give you ten tribes.  32 But one tribe will remain his for the sake of my servant David and for the sake of Jerusalem, the city I have chosen out of all the tribes of Israel.  33 I will do this because they have left me and are bowing down to Ashʹto·reth the goddess of the Si·doʹni·ans, to Cheʹmosh the god of Moʹab, and to Milʹcom the god of the Amʹmon·ites, and they have not walked in my ways by doing what is right in my eyes and observing my statutes and my judgments as his father David did.  34 But I will not take the entire kingdom out of his hand, and I will keep him as a chieftain for all the days of his life, for the sake of David my servant whom I chose, because he obeyed my commandments and my statutes.  35 But I will take the kingship out of the hand of his son and give it to you, that is, ten tribes.  36 To his son I will give one tribe, so that David my servant may always have a lamp before me in Jerusalem, the city that I have chosen for myself as the place to put my name.  37 I will take you, and you will reign over all that you desire, and you will become king over Israel.  38 And if you obey all that I command you and walk in my ways and do what is right in my eyes by obeying my statutes and my commandments, just as David my servant did, I will also be with you. I will build you a lasting house, just as I have built for David, and I will give you Israel.  39 And I will humiliate the offspring of David because of this, but not always.’”",
+    choiceA: "Ahijah",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  {
+    question: "He was the prophet that gave 10 pieces of his new garment that has been ripped into 12 pieces to king Jeroboam.",
+    clueSource: "1 Kings 11:29-39",
+    clueSourceContent: "29 During that time Jer·o·boʹam went out from Jerusalem, and the prophet A·hiʹjah the Shiʹlo·nite found him on the road. A·hiʹjah was wearing a new garment, and the two of them were by themselves in the field.  30 A·hiʹjah took hold of the new garment he was wearing and ripped it into 12 pieces.  31 Then he said to Jer·o·boʹam:“Take ten pieces for yourself, for this is what Jehovah the God of Israel says: ‘Here I am ripping the kingdom out of the hand of Solʹo·mon, and I will give you ten tribes.  32 But one tribe will remain his for the sake of my servant David and for the sake of Jerusalem, the city I have chosen out of all the tribes of Israel.  33 I will do this because they have left me and are bowing down to Ashʹto·reth the goddess of the Si·doʹni·ans, to Cheʹmosh the god of Moʹab, and to Milʹcom the god of the Amʹmon·ites, and they have not walked in my ways by doing what is right in my eyes and observing my statutes and my judgments as his father David did.  34 But I will not take the entire kingdom out of his hand, and I will keep him as a chieftain for all the days of his life, for the sake of David my servant whom I chose, because he obeyed my commandments and my statutes.  35 But I will take the kingship out of the hand of his son and give it to you, that is, ten tribes.  36 To his son I will give one tribe, so that David my servant may always have a lamp before me in Jerusalem, the city that I have chosen for myself as the place to put my name.  37 I will take you, and you will reign over all that you desire, and you will become king over Israel.  38 And if you obey all that I command you and walk in my ways and do what is right in my eyes by obeying my statutes and my commandments, just as David my servant did, I will also be with you. I will build you a lasting house, just as I have built for David, and I will give you Israel.  39 And I will humiliate the offspring of David because of this, but not always.’”",
+    choiceA: "",
+    choiceB: "Ahijah",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "B",
+  },
+  {
+    question: "He was a humble sheep raiser in the town of Tekoa.",
+    clueSource: "Amos 1:1",
+    clueSourceContent: "The words of Aʹmos, who was among the sheep raisers from Te·koʹa, which he received in vision concerning Israel in the days of King Uz·ziʹah of Judah and in the days of Jer·o·boʹam son of Joʹash, the king of Israel, two years before the earthquake.",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "Amos",
+    choiceD: "",
+    correctAnswer: "C",
+  },
+  {
+    question: "He engaged in menial seasonal work as a nipper of sycamore figs.",
+    clueSource: "Amos 7:14",
+    clueSourceContent: "14 Then Aʹmos answered Am·a·ziʹah: “I was not a prophet nor the son of a prophet; but I was a herdsman, and I took care of sycamore fig trees.",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "Amos",
+    correctAnswer: "D",
+  },
+  {
+    question: "He was the son of Oded who helped arouse king Asa to “search for Jehovah.”",
+    clueSource: "2 Chronicles 15:1-15",
+    clueSourceContent: "Now the spirit of God came upon Az·a·riʹah the son of Oʹded.  2 So he went out to meet Aʹsa and said to him: “Hear me, O Aʹsa and all Judah and Benjamin! Jehovah is with you as long as you remain with him; and if you search for him, he will let himself be found by you, but if you abandon him, he will abandon you.  3 For a long time Israel had been without the true God, without a priest teaching, and without law.  4 But when in their distress they returned to Jehovah the God of Israel and searched for him, he let himself be found by them.  5 In those times no one could travel safely, for there was much unrest among all the inhabitants of the lands.  6 Nation was being crushed by nation and one city by another city, because God kept them in disorder with every sort of distress.  7 But you, be strong and do not become discouraged, for your activity will be rewarded.” 8 As soon as Aʹsa heard these words and the prophecy of Oʹded the prophet, he took courage and removed the disgusting idols from all the land of Judah and Benjamin and from the cities that he had captured from the mountainous region of Eʹphra·im, and he restored Jehovah’s altar that was before the porch of Jehovah.  9 And he gathered together all Judah and Benjamin and the foreign residents with them from Eʹphra·im and Ma·nasʹseh and Simʹe·on, for they had deserted to him from Israel in great number when they saw that Jehovah his God was with him.  10 So they were gathered together at Jerusalem in the third month of the 15th year of Aʹsa’s reign.  11 On that day they sacrificed to Jehovah from the spoil they had brought, 700 cattle and 7,000 sheep.  12 Furthermore, they entered into a covenant to search for Jehovah the God of their forefathers with all their heart and with all their soul.  13 Whoever would not search for Jehovah the God of Israel was to be put to death, whether small or great, man or woman.  14 So they took an oath to Jehovah with a loud voice, with joyful shouting, and with the trumpets and horns.  15 And all Judah rejoiced over the oath, for they had taken the oath with all their heart and they eagerly sought him and he let himself be found by them, and Jehovah continued to give them rest on every side.",
+    choiceA: "Azariah",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "His own female donkey was cause by Jehovah to speak after beating the animal three times.",
+    clueSource: "Numbers 22:28",
+    clueSourceContent:
+      "28 Finally Jehovah caused the donkey to speak, and it said to Baʹlaam: “What have I done to you to make you beat me these three times?”",
+    choiceA: "Barak",
+    choiceB: "Balak",
+    choiceC: "Hosea",
+    choiceD: "Balaam",
+    correctAnswer: "D",
+  },
+  {
+    question: "Who tried to curse Israel three times, but each time Jehovah made him bless them instead?",
+    clueSource: "Joshua 24:9, 10",
+    clueSourceContent: "9 Then Baʹlak son of Zipʹpor, the king of Moʹab, rose up and fought against Israel. So he summoned Baʹlaam the son of Beʹor to curse you. 10 But I would not listen to Baʹlaam. So he blessed you repeatedly, and I rescued you from his hand.",
+    choiceA: "Balaam",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "King Nebuchadnezzar gave this prophet of Jehovah the name “Belteshazzar.”",
+    clueSource: "Daniel 5:12",
+    clueSourceContent:
+      "12 For Daniel, whom the king named Bel·te·shazʹzar, had an extraordinary spirit and knowledge and insight to interpret dreams, to explain riddles, and to solve knotty problems. Now let Daniel be summoned, and he will tell you the interpretation.”",
+    choiceA: "Daniel",
+    choiceB: "Abednego",
+    choiceC: "Shadrach",
+    choiceD: "Meshach",
+    correctAnswer: "A",
+  },
+  {
+    question: "His three companions receive high positions outside the court, while he served in the court of the king.",
+    clueSource: "Insight on the Scriptures Volume 1, [Daniel] p. 576",
+    clueSourceContent: "Nebuchadnezzar’s dreams. In Nebuchadnezzar’s second year (probably dating from Jerusalem’s overthrow in 607 B.C.E.), he has a dream that ‘agitates his spirit.’ All the wise men being unable to reveal it, Daniel comes before the king and not only tells him the dream, by divine revelation, but interprets it, thereby saving himself and the other wise men from execution. This prompts Nebuchadnezzar to make Daniel “ruler over all the jurisdictional district of Babylon and the chief prefect over all the wise men.” (Da 2:48) His three companions receive high positions outside the court, while Daniel serves in the court of the king.",
+    choiceA: "",
+    choiceB: "Daniel",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "B",
+  },
+  {
+    question: "Who interpreted Nebuchadnezzar’s dream, regarding the immense tree that was cut down and then allowed to sprout again?",
+    clueSource: "Daniel 2:27-45",
+    clueSourceContent: "27 Daniel replied to the king: “None of the wise men, conjurers, magic-practicing priests, or astrologers are able to tell the king the secret that he is asking.  28 But there is a God in the heavens who is a Revealer of secrets, and he has made known to King Neb·u·chad·nezʹzar what is to happen in the final part of the days. This is your dream, and these are the visions of your head as you lay on your bed: 29 “As for you, O king, on your bed your thoughts turned to what is to take place in the future, and the Revealer of secrets has made known to you what is to happen.  30 As for me, this secret was not revealed to me because I have greater wisdom than anyone living; rather, it was to make the interpretation known to the king so that you may know the thoughts in your heart. 31 “You, O king, were watching, and you saw an immense image. That image, which was huge and extremely bright, was standing in front of you, and its appearance was terrifying.  32 The head of that image was of fine gold, its chest and its arms were of silver, its abdomen and its thighs were of copper,  33 its legs were of iron, and its feet were partly of iron and partly of clay.  34 You looked on until a stone was cut out, not by hands, and it struck the image on its feet of iron and of clay and crushed them.  35 At that time the iron, the clay, the copper, the silver, and the gold were, all together, crushed and became like the chaff from the summer threshing floor, and the wind carried them away so that not a trace of them could be found. But the stone that struck the image became a large mountain, and it filled the whole earth. 36 “This is the dream, and we will now tell the king its interpretation.  37 You, O king—the king of kings to whom the God of heaven has given the kingdom, the might, the strength, and the glory,  38 and into whose hand he has given men wherever they may dwell, as well as the beasts of the field and the birds of the heavens, and whom he has made ruler over all of them—you yourself are the head of gold. 39 “But after you another kingdom will rise, inferior to you; then another kingdom, a third one, of copper, that will rule over the whole earth. 40 “As for the fourth kingdom, it will be strong like iron. For just as iron crushes and pulverizes everything else, yes, like iron that shatters, it will crush and shatter all of these. 41 “And just as you saw the feet and the toes to be partly of clay of a potter and partly of iron, the kingdom will be divided, but some of the hardness of iron will be in it, just as you saw the iron mixed with soft clay.  42 And as the toes of the feet were partly of iron and partly of clay, so the kingdom will be partly strong and partly fragile.  43 Just as you saw iron mixed with soft clay, they will be mixed with the people; but they will not stick together, one to the other, just as iron does not mix with clay. 44 “In the days of those kings the God of heaven will set up a kingdom that will never be destroyed. And this kingdom will not be passed on to any other people. It will crush and put an end to all these kingdoms, and it alone will stand forever,  45 just as you saw that out of the mountain a stone was cut not by hands, and that it crushed the iron, the copper, the clay, the silver, and the gold. The Grand God has made known to the king what will happen in the future. The dream is true, and its interpretation is trustworthy.”",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "Daniel",
+    choiceD: "",
+    correctAnswer: "C",
+  },
+  {
+    question:
+      "Who prayed three times a day at his window that's opened toward Jerusalem?",
+    clueSource: "Daniel 6:10",
+    clueSourceContent:
+      "10 But as soon as Daniel knew that the decree had been signed, he went to his house, which had the windows of his roof chamber open toward Jerusalem. And three times a day he got down on his knees and prayed and offered praise before his God, as he had regularly done prior to this.",
+    choiceA: "Daniel",
+    choiceB: "Abednego",
+    choiceC: "Shadrach",
+    choiceD: "Meshach",
+    correctAnswer: "A",
+  },
+  {
+    question: "Who foretold that Jehovah would break down king Jehoshaphat’s works as regards his alliance with wicked king Ahaziah?",
+    clueSource: "2 Chronicles 20:35-37",
+    clueSourceContent: "35 After this King Je·hoshʹa·phat of Judah made an alliance with King A·ha·ziʹah of Israel, who acted wickedly. 36 So he made him his partner in making ships to go to Tarʹshish, and they built the ships in Eʹzi·on-geʹber. 37 However, E·li·eʹzer the son of Dod·avʹa·hu of Ma·reʹsha spoke prophetically against Je·hoshʹa·phat, saying: “Because you have made an alliance with A·ha·ziʹah, Jehovah will destroy your works.” So the ships were wrecked, and they were unable to go to Tarʹshish.",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "Eliezer",
+    correctAnswer: "D",
+  },
+  {
+    question: "The last time he is mentioned as serving as a prophet is toward the end of the eight-year reign of King Jehoram of Judah.",
+    clueSource: "Insight on the Scriptures Volume 1, [Elijah] p. 710",
+    clueSourceContent: "(E·liʹjah) [My God Is Jehovah]. One of the foremost prophets of Israel. Evidently his home was in Tishbeh, thought by some to be a village in the land of Gilead, E of the Jordan River. (1Ki 17:1) He started his long career as prophet in Israel during the reign of King Ahab, who began to rule about 940 B.C.E., and continued during the reign of Ahab’s son Ahaziah (began c. 919 B.C.E.). (1Ki 22:51) The last time he is mentioned as serving as a prophet (this time for Judah) is toward the end of the eight-year reign of King Jehoram of Judah, which rule started in 913 B.C.E.​—2Ch 21:12-15; 2Ki 8:16.",
+    choiceA: "Elijah",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "This prophet of Jehovah made a test against the 450 prophets of Baal on Mount Carmel.",
+    clueSource: "1 Kings 18:17-20",
+    clueSourceContent:
+      "17 As soon as Aʹhab saw E·liʹjah, he said to him: “Is this you, the one bringing great trouble on Israel?” 18 To this he said: “I have not brought trouble on Israel, but you and the house of your father have, by abandoning the commandments of Jehovah and by following the Baʹals. 19  And now summon all Israel to me at Mount Carʹmel, as well as the 450 prophets of Baʹal and the 400 prophets of the sacred pole, who are eating at the table of Jezʹe·bel.” 20  So Aʹhab sent word among all the people of Israel and collected the prophets together at Mount Carʹmel.",
+    choiceA: "",
+    choiceB: "Elijah",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "Jehovah commanded the ravens to bring this prophet bread and meat in the morning and evening.",
+    clueSource: "1 Kings 17:1-4",
+    clueSourceContent:
+      "Now E·liʹjah the Tishʹbite, an inhabitant of Gilʹe·ad, said to Aʹhab: “As surely as Jehovah the God of Israel whom I serve is living, during these years there will be no dew or rain except by my word!” 2  The word of Jehovah came to him, saying: 3  “Leave here, and turn eastward and hide at the Valley of Cheʹrith, east of the Jordan. 4  You should drink from the stream, and I will command the ravens to supply you food there.”",
+    choiceA: "Samuel",
+    choiceB: "Moses",
+    choiceC: "Elijah",
+    choiceD: "Elisha",
+    correctAnswer: "C",
+  },
+  {
+    question: "Jehovah used this prophet to keep the flour and oil supply of the widow of Zarephath renewed.",
+    clueSource: "1 Kings 17:8-16",
+    clueSourceContent: "8 The word of Jehovah then came to him:  9 “Rise up, go to Zarʹe·phath, which belongs to Siʹdon, and stay there. Look! I will command a widow there to supply you with food.”  10 So he rose up and went to Zarʹe·phath. When he came to the entrance of the city, there was a widow gathering pieces of wood. So he called to her and said: “Please, bring me a little water in a cup so that I may drink.”  11 As she went to get it, he called to her: “Please, bring me a piece of bread in your hand.”  12 At this she said: “As surely as Jehovah your God is living, I have no bread, only a handful of flour in the large jar and a little oil in the small jar. Now I am gathering a few pieces of wood, and I will go in and make something for me and my son. After we have eaten, we will die.” 13 Then E·liʹjah said to her: “Do not be afraid. Go in and do as you said. But first make me a small round loaf of bread with what is there, and bring it out to me. Then you can make something afterward for you and your son.  14 For this is what Jehovah the God of Israel says: ‘The large jar of flour will not run out, and the small jar of oil will not run dry until the day Jehovah makes it rain on the surface of the ground.’”  15 So she went and did as E·liʹjah said, and she together with him and her household ate for many days.  16 The large jar of flour did not run out, and the small jar of oil did not run dry, according to Jehovah’s word that he had spoken through E·liʹjah.",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "Elisha",
+    choiceD: "Elijah",
+    correctAnswer: "D",
+  },
+  {
+    question: "Jehovah used this prophet to resurrect the widow of Zarephat's son.",
+    clueSource: "1 Kings 17:17-24",
+    clueSourceContent: "17 After these things, the son of the woman who owned the house fell sick, and his sickness became so severe that he stopped breathing.  18 At this she said to E·liʹjah: “What do you have against me, O man of the true God? Have you come to remind me of my guilt and to put my son to death?”  19 But he said to her: “Give me your son.” Then he took him from her arms and carried him up to the roof chamber, where he was staying, and he laid him on his own bed. He called out to Jehovah: “O Jehovah my God, are you also bringing harm to the widow with whom I am staying by putting her son to death?”  21 Then he stretched himself out over the child three times and called out to Jehovah: “O Jehovah my God, please, let this child’s life come back into him.”  22 Jehovah listened to E·liʹjah’s request, and the life of the child came back into him, and he revived.  23 E·liʹjah took the child and brought him down from the roof chamber into the house and gave him to his mother; and E·liʹjah said: “See, your son is alive.”  24 At that the woman said to E·liʹjah: “Now I know that you truly are a man of God and that Jehovah’s word in your mouth is truth.”",
+    choiceA: "Elijah",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "From the top of Mount Carmel, this prophet prayed to Jehovah with his face between his knees for the end of the three-and-a-half-year drought?",
+    clueSource: "1 Kings 18:42",
+    clueSourceContent:
+      "42 So Aʹhab went up to eat and drink, while E·liʹjah went up to the top of Carʹmel and crouched on the ground, keeping his face between his knees.",
+    choiceA: "Horeb",
+    choiceB: "Carmel",
+    choiceC: "Seir",
+    choiceD: "Gerizim",
+    correctAnswer: "B",
+  },
+  {
+    question: "This prophet of Jehovah ran ahead of Ahab's chariot all the way to Jezreel.",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "Elisha",
+    choiceC: "Elijah",
+    choiceD: "",
+    correctAnswer: "C",
+  },
+  {
+    question: "Who called down fire on King Ahaziah’s captain and his 50 men which, of course, incinerated them?",
+    clueSource: "2 Kings 1:1-17",
+    clueSourceContent: "After the death of Aʹhab, Moʹab revolted against Israel. 2 It was then that A·ha·ziʹah fell down through the grating in his roof chamber in Sa·marʹi·a and was injured. So he sent messengers and said to them: “Go, inquire of Baʹal-zeʹbub the god of Ekʹron to find out whether I will recover from this injury.”  3 But the angel of Jehovah said to E·liʹjah the Tishʹbite: “Rise up, go to meet the messengers of the king of Sa·marʹi·a and say to them, ‘Is it because there is no God in Israel that you are going to inquire of Baʹal-zeʹbub the god of Ekʹron?  4 Therefore this is what Jehovah says: “You will not leave the bed on which you are lying, for you will certainly die.”’” With that E·liʹjah went off. 5 When the messengers returned to him, he immediately said to them: “Why have you come back?”  6 They replied to him: “There was a man who came up to meet us, and he said to us, ‘Go, return to the king who sent you and tell him, “This is what Jehovah says: ‘Is it because there is no God in Israel that you are sending to inquire of Baʹal-zeʹbub the god of Ekʹron? Therefore, you will not leave the bed on which you are lying, for you will certainly die.’”’”  7 At this he asked them: “What did the man look like who came up to meet you and spoke these words to you?”  8 So they said to him: “He was a man with a garment of hair and a leather belt around his waist.” Immediately he said: “It was E·liʹjah the Tishʹbite.” 9 The king then sent to him a chief of 50 with his 50 men. When he went up to him, he was sitting on the top of the mountain. He said to him: “Man of the true God, the king says, ‘Come down.’”  10 But E·liʹjah answered the chief of the 50: “Well, if I am a man of God, let fire come down from the heavens and consume you and your 50 men.” And fire came down from the heavens and consumed him and his 50 men. 11 So the king sent again to him another chief of 50 with his 50 men. He went and said to him: “Man of the true God, this is what the king says, ‘Come down quickly.’”  12 But E·liʹjah answered them: “If I am a man of the true God, let fire come down from the heavens and consume you and your 50 men.” And fire of God came down from the heavens and consumed him and his 50 men. 13 Then the king sent again a third chief of 50 and his 50 men. But the third chief of 50 went up and bowed down on his knees in front of E·liʹjah and began to beg for favor and say to him: “Man of the true God, please, let my life and the lives of these 50 servants of yours be precious in your eyes.  14 Fire has already come down from the heavens and consumed the two former chiefs of 50 and their groups of 50, but now let my life be precious in your eyes.” 15 At that the angel of Jehovah told E·liʹjah: “Go down with him. Do not be afraid of him.” So he rose and went down with him to the king.  16 E·liʹjah then said to the king, “This is what Jehovah says: ‘You sent messengers to inquire of Baʹal-zeʹbub the god of Ekʹron. Is it because there is no God in Israel? Why did you not inquire of his word? Therefore, you will not leave the bed on which you are lying, for you will certainly die.’”  17 So he died, according to the word of Jehovah that E·liʹjah had spoken; and because he did not have a son, Je·hoʹram became king in his place, in the second year of Je·hoʹram the son of Je·hoshʹa·phat the king of Judah.",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "Elisha",
+    choiceD: "Elijah",
+    correctAnswer: "D",
+  },
+  {
+    question: "Who wrote King Jehoram of Judah a letter expressing Jehovah’s condemnation, which is fulfilled shortly thereafter?",
+    clueSource: "2 Chronicles 21:12-15",
+    clueSourceContent: "12 Eventually a written message came to him from E·liʹjah the prophet, saying: “This is what Jehovah the God of David your forefather says, ‘You have not walked in the ways of your father Je·hoshʹa·phat or in the ways of King Aʹsa of Judah. 13 But you walk in the way of the kings of Israel and cause Judah and the inhabitants of Jerusalem to commit spiritual prostitution like the prostitution of the house of Aʹhab, and you even killed your own brothers, the household of your father, who were better than you. 14 Therefore, Jehovah is dealing a great blow to your people, to your sons, to your wives, and to all your possessions. 15 And you will suffer with many sicknesses, including a disease of your intestines, until your intestines come out because of the disease, day after day.’”",
+    choiceA: "Elijah",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  {
+    question: "Who sent his attendant back seven times to look for a sign of Jehovah's promise about the end of the drought?",
+    clueSource: "1 Kings 18:42-44",
+    clueSourceContent: "42  So Aʹhab went up to eat and drink, while E·liʹjah went up to the top of Carʹmel and crouched on the ground, keeping his face between his knees. 43  Then he said to his attendant: “Go up, please, and look toward the sea.” So he went up and looked and said: “There is nothing at all.” Seven times E·liʹjah said, “Go back.” 44  The seventh time his attendant said: “Look! There is a small cloud like a man’s hand ascending out of the sea.” He now said: “Go, say to Aʹhab, ‘Hitch up the chariot! Go down so that the downpour may not detain you!’”",
+    choiceA: "",
+    choiceB: "Elijah",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "B",
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  
+];
 
 const wars = [
   {
@@ -2789,219 +3549,6 @@ const numbersAndDates = [
     choiceC: "33 C.E.",
     choiceD: "1914 C.E.",
     correctAnswer: "D",
-  },
-];
-
-const randomCharactersI = [
-  {
-    question:
-      "Jehovah commanded the ravens to bring this prophet bread and meat in the morning and evening.",
-    clueSource: "1 Kings 17:1-4",
-    clueSourceContent:
-      "Now E·liʹjah the Tishʹbite, an inhabitant of Gilʹe·ad, said to Aʹhab: “As surely as Jehovah the God of Israel whom I serve is living, during these years there will be no dew or rain except by my word!” 2  The word of Jehovah came to him, saying: 3  “Leave here, and turn eastward and hide at the Valley of Cheʹrith, east of the Jordan. 4  You should drink from the stream, and I will command the ravens to supply you food there.”",
-    choiceA: "Samuel",
-    choiceB: "Moses",
-    choiceC: "Elijah",
-    choiceD: "Elisha",
-    correctAnswer: "C",
-  },
-  {
-    question: "Who succeeded Moses as the leader of Israel?",
-    clueSource: "Deutoronomy 21:7, 8",
-    clueSourceContent:
-      "7  Moses then called Joshua and said to him before the eyes of all Israel: “Be courageous and strong, for you are the one who will bring this people into the land that Jehovah swore to their forefathers to give to them, and you will give it to them as an inheritance. 8  Jehovah is the one marching before you, and he will continue with you. He will neither desert you nor abandon you. Do not be afraid or be terrified.”",
-    choiceA: "Aaron",
-    choiceB: "Joshua",
-    choiceC: "Caleb",
-    choiceD: "Miriam",
-    correctAnswer: "B",
-  },
-  {
-    question: "Who was surprised that Jesus, a Jew, has talked to her?",
-    clueSource: "John 4:7-10",
-    clueSourceContent:
-      "7  A woman of Sa·marʹi·a came to draw water. Jesus said to her: “Give me a drink.” 8  (For his disciples had gone off into the city to buy food.) 9  So the Sa·marʹi·tan woman said to him: “How is it that you, despite being a Jew, ask me for a drink even though I am a Sa·marʹi·tan woman?” (For Jews have no dealings with Sa·marʹi·tans.) 10  In answer Jesus said to her: “If you had known of the free gift of God and who it is who says to you, ‘Give me a drink,’ you would have asked him, and he would have given you living water.”",
-    choiceA: "Mary",
-    choiceB: "Elizabeth",
-    choiceC: "Martha",
-    choiceD: "The Samaritan woman",
-    correctAnswer: "D",
-  },
-  {
-    question:
-      "Who prayed three times a day at his window that's opened toward Jerusalem?",
-    clueSource: "Daniel 6:10",
-    clueSourceContent:
-      "10 But as soon as Daniel knew that the decree had been signed, he went to his house, which had the windows of his roof chamber open toward Jerusalem. And three times a day he got down on his knees and prayed and offered praise before his God, as he had regularly done prior to this.",
-    choiceA: "Daniel",
-    choiceB: "Abednego",
-    choiceC: "Shadrach",
-    choiceD: "Meshach",
-    correctAnswer: "A",
-  },
-  {
-    question:
-      "Who was the first servant of Jehovah to follow the practice of circumcision?",
-    clueSource: "Genesis 17:9-13",
-    clueSourceContent:
-      "9  God said further to Abraham: “As for you, you are to keep my covenant, you and your offspring after you throughout their generations. 10  This is my covenant between me and you, that you and your offspring after you will keep: Every male among you must get circumcised. 11  You must circumcise the flesh of your foreskins, and it will serve as a sign of the covenant between me and you. 12  Throughout your generations, every male among you eight days old must be circumcised, anyone who is born in the house and anyone who is not one of your offspring and who was purchased with money from a foreigner. 13  Every man born in your house and every man purchased with your money must be circumcised,l and my covenant in your flesh must serve as a lasting covenant.",
-    choiceA: "Adam",
-    choiceB: "Abraham",
-    choiceC: "Abel",
-    choiceD: "Moses",
-    correctAnswer: "B",
-  },
-  {
-    question: "Who was the wife of the Ephrathite from Bethlehem named Mahlon?",
-    clueSource: "Ruth 1:4, 5",
-    clueSourceContent:
-      "2 The man’s name was E·limʹe·lech, his wife’s name was Na·oʹmi, and the names of his two sons were Mahʹlon and Chilʹi·on. They were Ephʹrath·ites from Bethʹle·hem in Judah. And they came to the fields of Moʹab and remained there. 3  After some time E·limʹe·lech, Na·oʹmi’s husband, died, and she was left with her two sons. 4  The men later married Moʹab·ite women; one was named Orʹpah, and the other was named Ruth. They remained there for about ten years. 5  Then the two sons, Mahʹlon and Chilʹi·on, also died, and the woman was left without her two children and her husband.",
-    choiceA: "Orpah",
-    choiceB: "Ruth",
-    choiceC: "Naomi",
-    choiceD: "Mary",
-    correctAnswer: "B",
-  },
-  {
-    question:
-      "Who was the prophet-priest of Jehovah that was a captive in Babylon, along with King Jehoiachin?",
-    clueSource: "Ezekiel 1:1-3",
-    clueSourceContent:
-      "In the 30th year, on the fifth day of the fourth month, while I was among the exiled people by the river Cheʹbar, the heavens were opened and I began to see visions of God. 2  On the fifth day of the month—that is, in the fifth year of the exile of King Je·hoiʹa·chin— 3  the word of Jehovah came to Ezekiel son of Buʹzi the priest by the river Cheʹbar in the land of the Chal·deʹans. There the hand of Jehovah came upon him.",
-    choiceA: "Nehemiah",
-    choiceB: "Ezra",
-    choiceC: "Daniel",
-    choiceD: "Ezekiel",
-    correctAnswer: "D",
-  },
-  {
-    question:
-      "To whom did God first show the rainbow and established a covenant with it?",
-    clueSource: "Genesis 9:8-16",
-    clueSourceContent:
-      "8 Then God said to Noah and to his sons with him: 9  “I am now establishing my covenant with you and with your offspring after you, 10  and with every living creature that is with you, the birds, the animals, and all the living creatures of the earth with you, all those that came out of the ark—every living creature of the earth. 11  Yes, I establish my covenant with you: Never again will all flesh be destroyed by the waters of a flood, and never again will a flood bring the earth to ruin.” 12  And God added: “This is the sign of the covenant that I am making between me and you and every living creature that is with you, for all future generations. 13  I put my rainbow in the cloud, and it will serve as a sign of the covenant between me and the earth. 14  Whenever I bring a cloud over the earth, then the rainbow will certainly appear in the cloud. 15  And I will certainly remember my covenant that I made between me and you and every living creature of every kind; and never again will the waters become a flood to destroy all flesh. 16  And the rainbow will occur in the cloud, and I will certainly see it and remember the everlasting covenant between God and every living creature of every kind on the earth.”",
-    choiceA: "Abel",
-    choiceB: "Noah",
-    choiceC: "Abraham",
-    choiceD: "Moses",
-    correctAnswer: "B",
-  },
-  {
-    question: "The apostle Paul called him the “beloved physician.”",
-    clueSource: "Luke 4:14",
-    clueSourceContent:
-      "14 Luke, the beloved physician, sends you his greetings, and so does Deʹmas.",
-    choiceA: "Demas",
-    choiceB: "Archippus",
-    choiceC: "Luke",
-    choiceD: "Timothy",
-    correctAnswer: "C",
-  },
-  {
-    question: "This apostle is also called “Levi.”",
-    clueSource: "Insight on the Scriptures Volume 2, [Levi] p. 240",
-    clueSourceContent:
-      "A tax collector (Mr 2:14; Lu 5:27, 29) who became an apostle of Jesus Christ and was otherwise known as Matthew.​—Mt 9:9; 10:2-4; see MATTHEW.",
-    choiceA: "Matthew",
-    choiceB: "Andrew",
-    choiceC: "John",
-    choiceD: "Peter",
-    correctAnswer: "A",
-  },
-  {
-    question:
-      "A man in the land of Uz who “was an upright man of integrity; he feared God and shunned what was bad.”",
-    clueSource: "Job 1:1",
-    clueSourceContent:
-      "There was a man in the land of Uz whose name was Job. He was an upright man of integrity; her feared God and shunned what was bad.",
-    choiceA: "Abraham",
-    choiceB: "Joseph",
-    choiceC: "Job",
-    choiceD: "Moses",
-    correctAnswer: "C",
-  },
-  {
-    question:
-      "Who was the prophet that served Judah and Jerusalem in the days of Kings Uzziah, Jotham, Ahaz, and Hezekiah of Judah?",
-    clueSource: "Insight on the Scriptures Volume 1, [Isaiah] pp. 1218-1219",
-    clueSourceContent:
-      "A prophet, the son of Amoz (not the prophet Amos). He served Judah and Jerusalem in the days of Kings Uzziah, Jotham, Ahaz, and Hezekiah of Judah. (Isa 1:1) Kings Pekah and Hoshea were ruling in the northern kingdom of Israel, which ended in 740 B.C.E., during the time of Isaiah’s prophetic service. Contemporary prophets were Micah, Hosea, and Oded. Isaiah evidently began his prophesying later than Hosea did and before Micah began.​—2Ch 28:9; Ho 1:1; Mic 1:1.",
-    choiceA: "Isaiah",
-    choiceB: "Jeremiah",
-    choiceC: "Zechariah",
-    choiceD: "Malachi",
-    correctAnswer: "A",
-  },
-  {
-    question:
-      "Who was the king Jehovah anointed to strike down the house of Ahab and Jezebel?",
-    clueSource: "2 Kings 9:6-8",
-    clueSourceContent:
-      "6 So Jeʹhu got up and went into the house; the attendant poured the oil out on his head and said to him, “This is what Jehovah the God of Israel says: ‘I anoint you as king over Jehovah’s people, over Israel. 7  You must strike down the house of Aʹhab your lord, and I will avenge the blood of my servants the prophets and of all the servants of Jehovah who died at the hands of Jezʹe·bel. 8  And the whole house of Aʹhab will perish; and I will annihilate from Aʹhab every male, including the helpless and weak in Israel.",
-    choiceA: "Elijah",
-    choiceB: "Jehu",
-    choiceC: "Elisha",
-    choiceD: "Solomon",
-    correctAnswer: "B",
-  },
-  {
-    question:
-      "Who was the Hebrew servant of Potiphar that was taken to prison unjustly?",
-    clueSource: "Genesis 39:17-20",
-    clueSourceContent:
-      "17  Then she told him the same thing, saying: “The Hebrew servant whom you brought to us came to me to make me a laughingstock. 18  But as soon as I raised my voice and began to scream, he left his garment beside me and fled outside.” 19  As soon as his master heard the words his wife spoke to him, saying: “These are the things your servant did to me,” his anger blazed. 20  So Joseph’s master took him and gave him over to the prison, the place where the prisoners of the king were kept under arrest, and he remained there in the prison.",
-    choiceA: "Jeremiah",
-    choiceB: "Joseph",
-    choiceC: "Paul",
-    choiceD: "John",
-    correctAnswer: "B",
-  },
-  {
-    question:
-      "He warned king Ahasuerus about Bigthan and Teresh, who plotted to do away with the king.",
-    clueSource: "Esther 2:21-23",
-    clueSourceContent:
-      "21 In those days while Morʹde·cai was sitting in the king’s gate, Bigʹthan and Teʹresh, two court officials of the king, doorkeepers, got angry and plotted to do away with King A·has·u·eʹrus. 22  But Morʹde·cai learned about it, and he immediately told Queen Esther. Esther then spoke to the king in Morʹde·cai’s name. 23  So the matter was investigated and eventually confirmed, and both men were hanged on a stake; and this was all recorded in the book of the history of the times in the presence of the king.",
-    choiceA: "Nehemiah",
-    choiceB: "Ezra",
-    choiceC: "Mordecai",
-    choiceD: "Jeremiah",
-    correctAnswer: "C",
-  },
-  {
-    question:
-      "What was the name of the prophet that ensured Bathsheba that Solomon, his son, will become the successor of David on the throne of Israel?",
-    clueSource: "1 Kings 1:11-13",
-    clueSourceContent:
-      "11 Nathann then said to Bath-sheʹba, Solʹo·mon’s mother: “Have you not heard that Ad·o·niʹjah the son of Hagʹgith has become king, and our lord David does not know anything about it? 12  So now come, please, and let me advise you, so that you may save your own life and the life of your son Solʹo·mon. 13  Go in to King David and say to him, ‘Was it not you, my lord the king, who swore to your servant, saying: “Your son Solʹo·mon will become king after me, and he is the one who will sit on my throne”? So why has Ad·o·niʹjah become king?’",
-    choiceA: "Joel",
-    choiceB: "Elisha",
-    choiceC: "Nathan",
-    choiceD: "Amos",
-    correctAnswer: "C",
-  },
-  {
-    question:
-      "The apostle Paul said to take a little wine for the sake of whose stomach?",
-    clueSource: "1 Timothy 5:23",
-    clueSourceContent:
-      "Do not drink water any longer, but take a little wine for the sake of your stomach and your frequent cases of sickness.",
-    choiceA: "Timothy",
-    choiceB: "Lydia",
-    choiceC: "Philemon",
-    choiceD: "Titus",
-    correctAnswer: "A",
-  },
-  {
-    question: "Who was the first murderer in the history of mankind?",
-    clueSource: "Genesis 4:8",
-    clueSourceContent:
-      "After that Cain said to his brother Abel: “Let us go over into the field.” So while they were in the field, Cain assaulted his brother Abel and killed him.",
-    choiceA: "Cain",
-    choiceB: "Lamech",
-    choiceC: "Nimrod",
-    choiceD: "Esau",
-    correctAnswer: "A",
   },
 ];
 
