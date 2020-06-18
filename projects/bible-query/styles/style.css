@@ -64,16 +64,16 @@ a,
 .choice,
 .sm-btn,
 #level,
-#okay-sm-btn,
+.okay-sm-btn,
 .yes-sm-btn,
 .no-sm-btn,
 #level-number,
-#show-clue-btn {
+#show-clue-modal-btn {
   cursor: pointer;
 }
 
 .outer-container,
-#show-clue-btn {
+#show-clue-modal-btn {
   margin: 0;
 }
 
@@ -85,7 +85,7 @@ a,
 
 .long-btn,
 .sm-btn,
-#okay-sm-btn,
+.okay-sm-btn,
 .yes-sm-btn,
 .no-sm-btn {
   border: 0;
@@ -103,7 +103,7 @@ a,
   width: 25%;
 }
 
-#okay-sm-btn {
+.okay-sm-btn {
   margin: 7px;
   width: 23%;
 }
@@ -184,14 +184,14 @@ a {
   text-align: center;
 }
 
-#show-clue-btn-container {
+#show-clue-modal-btn-container {
   position: absolute;
 }
-#show-clue-btn {
+#show-clue-modal-btn {
   position: relative;
   color: lightgrey;
 }
-#show-clue-btn:hover {
+#show-clue-modal-btn:hover {
   border: 3px solid lightseagreen;
   color: lightseagreen;
 }

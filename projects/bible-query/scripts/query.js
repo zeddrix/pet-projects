@@ -13,8 +13,8 @@ console.log(arrayOfNums);
 
 const randomizeQuestions = arrayOfNums.forEach(item => (rivers[item].question))
 
-const playQueryAgain = () => {
-  closeRetryQueryModal();
+const confirmRetryQuery = () => {
+  closeModal();
   currentQuestion = 0;
   q = rivers[0];
   count = 0;

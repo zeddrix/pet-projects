@@ -18,7 +18,7 @@ const homepage = () => {
   settingsBlock.style.display = "none";
   rulesBlock.style.display = "none";
   aboutBlock.style.display = "none";
-  closeQuitQueryModal();
+  closeModal();
 };
 
 const settings = () => {
@@ -67,7 +67,7 @@ const levels = () => {
   settingsBlock.style.display = "none";
   rulesBlock.style.display = "none";
   aboutBlock.style.display = "none";
-  closeLevelsModal();
+  closeModal();
 };
 
 const query = () => {

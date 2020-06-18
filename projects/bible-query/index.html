@@ -14,45 +14,36 @@
           <h1 id="bible-query-title">BIBLE QUERY</h1>
           <div id="long-btn-container">
             <img
-              onclick="levels()"
-              id="play-btn"
-              class="long-btn no-outline"
+              class="go-to-levels long-btn no-outline"
               src="img/play-btn.jpg"
             />
             <img
-              onclick="settings()"
-              id="settings-btn"
-              class="long-btn no-outline"
+              class="settings-btn long-btn no-outline"
               src="img/settings-btn.jpg"
             />
             <img
-              onclick="rules()"
-              id="rules-btn"
-              class="long-btn no-outline"
+              class="rules-btn long-btn no-outline"
               src="img/rules-btn.jpg"
             />
             <img
-              onclick="about()"
               id="about-btn"
               class="long-btn no-outline"
               src="img/about-btn.jpg"
             />
             <img
-              id="tell-your-friends-btn"
+              id="friends-btn"
               class="long-btn no-outline"
-              src="img/tell-your-friends-btn.jpg"
-              onclick="showTellYourFriendsModal()"
+              src="img/friends-btn.jpg"
             />
             <img
               src="img/quit-btn.jpg"
               id="quit-btn"
               class="long-btn no-outline"
-              onclick="showQuitModal()"
             />
           </div>
         </div>
         <!-- TELL YOUR FRIENDS -->
-        <div id="tell-your-friends-modal" class="modal">
+        <div id="friends-modal" class="modal">
           <div class="modal-effect">
             <div class="modal-content">
               <p>You are now temporarily leaving the game to send a recommendation using your preferred messaging application.</p>
@@ -60,9 +51,7 @@
             <div id="okay-sm-btn-container">
               <img
               src="img/okay-sm-btn.jpg"
-              id="okay-sm-btn"
-              class="no-outline"
-              onclick="closeTellYourFriendsModal()"/>
+              class="close-modal no-outline okay-sm-btn"/>
             </div>
           </div>
         </div>
@@ -76,14 +65,12 @@
               <div id="quit-sm-btns-container">
                 <img
                 src="img/yes-sm-btn.jpg"
-                class="yes-sm-btn"
-                class="no-outline"
-                onclick="confirmQuit()"/>
+                id="quit-modal-yes-sm-btn"
+                class="close-modal yes-sm-btn no-outline"/>
               <img
                 src="img/no-sm-btn.jpg"
-                class="no-sm-btn"
-                class="no-outline"
-                onclick="closeQuitModal()"/>
+                id="quit-modal-no-sm-btn"
+                class="close-modal no-sm-btn no-outline"/>
               </div>
             </div>
           </div>
@@ -93,17 +80,15 @@
         <div id="levels-block" style="display: none;">
           <h1>SELECT A LEVEL</h1>
           <h3 id="stars">Stars: 0</h3>
-          <div onclick="startQuery()" id="level-number">1</div>
+          <div id="level-number">1</div>
           <div id="levels-sm-btns" class="centered-sm-btns no-outline">
             <img
-              onclick="homepage()"
               src="img/back-sm-btn.jpg"
-              class="sm-btn no-outline"
+              class="go-to-homepage sm-btn no-outline"
             />
             <img
-              onclick="settings()"
               src="img/settings-sm-btn.jpg"
-              class="sm-btn no-outline"
+              class="settings-btn sm-btn no-outline"
             />
           </div>
         </div>
@@ -121,7 +106,7 @@
           <label for="Enable Time Limit">Enable Time Limit</label>
           <p id="learn-more">
             (Learn more about Time Limit on the game's
-            <a onclick="rules()">Rules</a>).
+            <a class="rules-btn">Rules</a>).
           </p>
           <h2>Language</h2>
           <input type="radio" name="language" value="English" />
@@ -132,14 +117,13 @@
           <p id="reset-game"></p>
           <div id="settings-btns">
             <img
-              onclick="showResetGameModal()"
               src="img/reset-game-btn.jpg"
+              id="reset-game-btn"
               class="sm-btn no-outline"
             />
             <img
-              onclick="homepage()"
               src="img/back-sm-btn.jpg"
-              class="sm-btn no-outline"
+              class="go-to-homepage sm-btn no-outline"
             />
           </div>
         </div>
@@ -153,14 +137,12 @@
               <div id="reset-game-container">
                 <img
                 src="img/yes-sm-btn.jpg"
-                class="yes-sm-btn"
-                class="no-outline"
-                onclick="confirmResetGame()"/>
+                class="close-modal yes-sm-btn no-outline"
+                />
               <img
                 src="img/no-sm-btn.jpg"
-                class="no-sm-btn"
-                class="no-outline"
-                onclick="closeResetGameModal()"/>
+                class="close-modal no-sm-btn no-outline"
+                />
               </div>
             </div>
           </div>
@@ -177,7 +159,7 @@
           <h2>Time Limit</h2>
           <p>
             You can enable and disable this option on the
-            <a onclick="settings()"">Settings</a>. When enabled, you have exactly
+            <a class="settings-btn">Settings</a>. When enabled, you have exactly
             10 seconds to answer each question. Once the time is up without you
             answering the current question, it will proceed to the next
             question. Consequently, you won't earn a point for this.
@@ -191,9 +173,8 @@
           </div>
           <div class="centered-sm-btns">
             <img
-              onclick="homepage()"
               src="img/back-sm-btn.jpg"
-              class="sm-btn no-outline"
+              class="go-to-homepage sm-btn no-outline"
             />
           </div>
         </div>
@@ -248,7 +229,7 @@
           </p>
           <p>
             To know the rules of the game, please go to
-            <a onclick="rules()">Rules</a>.
+            <a class="rules-btn">Rules</a>.
           </p>
           <h2>About the Developer</h2>
           <p>
@@ -298,9 +279,8 @@
           </p>
           <div class="centered-sm-btns">
             <img
-              onclick="homepage()"
               src="img/back-sm-btn.jpg"
-              class="sm-btn no-outline"
+              class="go-to-homepage sm-btn no-outline"
             />
           </div>
         </div>
@@ -310,8 +290,8 @@
           <div id="level-theme">level theme here</div>
           <div class="question-container">
             <div id="question"></div>
-              <div id="show-clue-btn-container">
-                <div onclick="showClueModal()" id="show-clue-btn" class="no-outline">?</div>
+              <div id="show-clue-modal-btn-container">
+                <div id="show-clue-modal-btn" class="no-outline">?</div>
             </div>
           </div>
           <div id="timer">
@@ -329,17 +309,17 @@
           </div>
           <div id="query-menu-btns" style="display: none;">
             <img
-              onclick="showLevelsModal()"
+              id="show-levels-modal-btn"
               src="img/levels-sm-btn.jpg"
               class="sm-btn no-outline"
             />
             <img
-              onclick="showRetryQueryModal()"
+              id="show-retry-modal-btn"
               src="img/retry-sm-btn.jpg"
               class="sm-btn no-outline"
             />
             <img
-              onclick="showQuitQueryModal()"
+              id="show-quit-modal-btn"
               src="img/quit-sm-btn.jpg"
               class="sm-btn no-outline"
             />
@@ -353,9 +333,8 @@
             <div id="okay-sm-btn-container">
               <img
               src="img/okay-sm-btn.jpg"
-              id="okay-sm-btn"
-              class="no-outline"
-              onclick="closeClueModal()"/>
+              class="close-modal no-outline okay-sm-btn"
+              />
             </div>
           </div>
         </div>
@@ -369,14 +348,12 @@
                 <div id="levels-sm-btns-container">
                   <img
                   src="img/yes-sm-btn.jpg"
-                  class="yes-sm-btn"
-                  class="no-outline"
-                  onclick="levels()"/>
+                  class="go-to-levels yes-sm-btn no-outline"
+                  />
                 <img
                   src="img/no-sm-btn.jpg"
-                  class="no-sm-btn"
-                  class="no-outline"
-                  onclick="closeLevelsModal()"/>
+                  class="close-modal no-sm-btn no-outline"
+                  >
                 </div>
               </div>
             </div>
@@ -390,14 +367,13 @@
                 <div id="retry-query-sm-btns-container">
                   <img
                   src="img/yes-sm-btn.jpg"
-                  class="yes-sm-btn"
-                  class="no-outline"
-                  onclick="playQueryAgain()"/>
+                  id="confirm-retry-query"
+                  class="yes-sm-btn no-outline"
+                  />
                 <img
                   src="img/no-sm-btn.jpg"
-                  class="no-sm-btn"
-                  class="no-outline"
-                  onclick="closeRetryQueryModal()"/>
+                  class="close-modal no-sm-btn no-outline"
+                  />
                 </div>
               </div>
             </div>
@@ -411,14 +387,12 @@
                 <div id="quit-query-sm-btns-container">
                   <img
                   src="img/yes-sm-btn.jpg"
-                  class="yes-sm-btn"
-                  class="no-outline"
-                  onclick="homepage()"/>
+                  class="go-to-homepage yes-sm-btn no-outline"
+                  />
                 <img
                   src="img/no-sm-btn.jpg"
-                  class="no-sm-btn"
-                  class="no-outline"
-                  onclick="closeQuitQueryModal()"/>
+                  class="close-modal sm-btn no-outline"
+                  />
                 </div>
               </div>
             </div>
@@ -435,24 +409,20 @@
         </div>
         <div id="final-score-menu-btns" style="display: none;">
           <img
-            onclick="levels()"
             src="img/levels-sm-btn.jpg"
-            class="sm-btn no-outline"
+            class="go-to-levels sm-btn no-outline"
           />
           <img
-            onclick=""
             src="img/play-again-sm-btn.jpg"
             class="sm-btn no-outline"
           />
           <img
-            onclick=""
             src="img/next-level-sm-btn.jpg"
             class="sm-btn no-outline"
           />
           <img
-            onclick="homepage()"
             src="img/quit-sm-btn.jpg"
-            class="sm-btn no-outline"
+            class="go-to-homepage sm-btn no-outline"
           />
         </div>
       </div> <!-- container -->
@@ -462,4 +432,5 @@
   <script src="scripts/data.js"></script>
   <script src="scripts/query.js"></script>
   <script src="scripts/modals.js"></script>
+  <script src="scripts/events.js"></script>
 </html>
