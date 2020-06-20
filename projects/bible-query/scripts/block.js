@@ -80,7 +80,7 @@ const query = () => {
   settingsBlock.style.display = "none";
   rulesBlock.style.display = "none";
   aboutBlock.style.display = "none";
-}
+};
 
 const scorePage = () => {
   homepageBlock.style.display = "none";
@@ -92,4 +92,4 @@ const scorePage = () => {
   settingsBlock.style.display = "none";
   rulesBlock.style.display = "none";
   aboutBlock.style.display = "none";
-}
+};

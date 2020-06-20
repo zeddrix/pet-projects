@@ -42,4 +42,4 @@ const closeModal = () => {
   clueModal.style.display = "none";
   retryQueryModal.style.display = "none";
   quitQueryModal.style.display = "none";
-}
+};

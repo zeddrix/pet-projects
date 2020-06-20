@@ -11,7 +11,7 @@ while (arrayOfNums.length < 20) {
 }
 console.log(arrayOfNums);
 
-const randomizeQuestions = arrayOfNums.forEach(item => (rivers[item].question))
+const randomizeQuestions = arrayOfNums.forEach((item) => rivers[item].question);
 
 const confirmRetryQuery = () => {
   closeModal();
@@ -20,7 +20,7 @@ const confirmRetryQuery = () => {
   count = 0;
   qIndex = 0;
   score = 0;
-  const allProgressCircles = document.getElementsByClassName('progress');
+  const allProgressCircles = document.getElementsByClassName("progress");
   for (let p = 0; p < allProgressCircles.length; p++) {
     allProgressCircles[p].style.backgroundColor = "#FFFFFF00";
   }
@@ -117,16 +117,16 @@ const scoreStarAndPercentage = () => {
     scorePercent == 100
       ? "img/three-stars.png"
       : scorePercent >= 90
-        ? "img/two-and-a-half-stars.png"
-        : scorePercent >= 70
-          ? "img/two-stars.png"
-          : scorePercent >= 50
-            ? "img/one-and-a-half-star.png"
-            : scorePercent >= 30
-              ? "img/one-star.png"
-              : scorePercent >= 15
-                ? "img/one-half-star.png"
-                : "img/zero-star.png";
+      ? "img/two-and-a-half-stars.png"
+      : scorePercent >= 70
+      ? "img/two-stars.png"
+      : scorePercent >= 50
+      ? "img/one-and-a-half-star.png"
+      : scorePercent >= 30
+      ? "img/one-star.png"
+      : scorePercent >= 15
+      ? "img/one-half-star.png"
+      : "img/zero-star.png";
 
   const finalScoreImgDiv = document.getElementById("final-score-img-div");
   finalScoreImgDiv.innerHTML = `<img id='final-score-img' src=${img}>`;
@@ -134,9 +134,8 @@ const scoreStarAndPercentage = () => {
   const finalScorePercentageDiv = document.getElementById(
     "final-score-percentage-div"
   );
-  finalScorePercentageDiv.innerHTML =
-    `<p id='final-score-percentage'>${scorePercent}%</p>`;
-}
+  finalScorePercentageDiv.innerHTML = `<p id='final-score-percentage'>${scorePercent}%</p>`;
+};
 const scorePhrase1 = () => {
   const scorePercent = Math.round((100 * score) / rivers.length);
 
@@ -144,20 +143,20 @@ const scorePhrase1 = () => {
     scorePercent == 100
       ? "Well done!"
       : scorePercent >= 90
-        ? "Excellent!"
-        : scorePercent >= 51
-          ? "Nice!"
-          : scorePercent >= 50
-            ? "Good!"
-            : scorePercent >= 30
-              ? "Okay!"
-              : scorePercent >= 15
-                ? "Don't give up!"
-                : "Don't give up!";
+      ? "Excellent!"
+      : scorePercent >= 51
+      ? "Nice!"
+      : scorePercent >= 50
+      ? "Good!"
+      : scorePercent >= 30
+      ? "Okay!"
+      : scorePercent >= 15
+      ? "Don't give up!"
+      : "Don't give up!";
 
   const scorePhrase1Div = document.getElementById("score-phrase-1-div");
   scorePhrase1Div.innerHTML = `<h1 id='score-phrase-1'>${sp1}</h1>`;
-}
+};
 const scorePhrase2 = () => {
   const scorePercent = Math.round((100 * score) / rivers.length);
 
@@ -165,14 +164,14 @@ const scorePhrase2 = () => {
     scorePercent == 100
       ? "You got all the questions right!"
       : scorePercent >= 90
-        ? "You almost perfected this level!"
-        : scorePercent >= 51
-          ? "Keep it up!"
-          : scorePercent == 50
-            ? "You got half the questions right!"
-            : scorePercent >= 30
-              ? "That's okay. Play again and crush this level!"
-              : "Play again and crush this level!";
+      ? "You almost perfected this level!"
+      : scorePercent >= 51
+      ? "Keep it up!"
+      : scorePercent == 50
+      ? "You got half the questions right!"
+      : scorePercent >= 30
+      ? "That's okay. Play again and crush this level!"
+      : "Play again and crush this level!";
 
   const scorePhrase2Div = document.getElementById("score-phrase-2-div");
   scorePhrase2Div.innerHTML = `<p id='score-phrase-2'>${sp2}</p>`;
