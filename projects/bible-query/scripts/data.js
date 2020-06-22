@@ -3260,9 +3260,9 @@ const prophets = [
     clueSourceContent:
       "(Ha·bakʹkuk) [Ardent Embrace]. Hebrew prophet of Judah and writer of the Bible book bearing his name. (Hab 1:1; 3:1) From the book’s closing notation (“To the director on my stringed instruments”) and the dirge in chapter 3, it has been inferred that Habakkuk was a Levitical temple musician. But the words following Habakkuk 3:19 do not make that certain, and dirges were also taken up by persons other than Levites. (2Sa 1:17, 18) While there are various traditions about Habakkuk, these are unreliable, and the Scriptures themselves furnish no information concerning the prophet’s parentage, tribe, circumstances in life, or his death. Evidence in the book of Habakkuk seems to indicate that he prophesied early in the reign of Jehoiakim, possibly before Nebuchadnezzar defeated the Egyptian army at Carchemish in 625 B.C.E.",
     choiceA: "Habakkuk",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Jonah",
+    choiceC: "Nahum",
+    choiceD: "Obadiah",
     correctAnswer: "A",
   },
   {
@@ -3272,9 +3272,9 @@ const prophets = [
     clueSourceContent:
       "1:1 A pronouncement that Ha·bakʹkuk* the prophet received in a vision: 2 How long, O Jehovah, must I cry for help, but you do not hear? How long must I ask for help from violence, but you do not intervene? 3 Why do you make me witness wrongdoing? And why do you tolerate oppression? Why are destruction and violence before me? And why do quarreling and conflict abound? 4 So law is paralyzed, And justice is never carried out. For the wicked surround the righteous; That is why justice is perverted. 5 “Look among the nations and pay attention! Stare in amazement and be astounded; For something will happen in your days That you will not believe even if it is told to you. 6 For here I am raising up the Chal·deʹans, The ruthless and impetuous nation. They sweep through vast stretches of the earth To seize homes not theirs. 7 They are frightening and fearsome.They establish their own justice and authority. 8 Their horses are swifter than leopards, And they are fiercer than wolves in the night. Their warhorses gallop forward; Their horses come from far away. They swoop down like the eagle rushing to feed. 9 All of them come bent on violence. The assembling of their faces is like the east wind, And they scoop up captives like sand. 10 They scoff at kings And laugh at high officials. They laugh at every fortified place; They pile up a dirt ramp and capture it. 11 Then they move forward like the wind and pass through, But they will become guilty, Because they credit their power to their god.” 12 Are you not from everlasting, O Jehovah? O my God, my Holy One, you do not die. O Jehovah, you appointed them to execute judgment; My Rock, you established them for punishment. 13 Your eyes are too pure to look on what is evil, And you cannot tolerate wickedness. Why, then, do you tolerate the treacherous And keep silent when a wicked man swallows up someone more righteous than he is? 14 Why do you make man like the fish of the sea, Like creeping things that have no ruler? 15 All of these he hauls up with a fishhook. He catches them in his dragnet, And he gathers them in his fishing net. That is why he rejoices greatly. 16 That is why he offers sacrifices to his dragnet And makes sacrifices to his fishing net; For by them his portion is rich, And his food is choice. 17 Will he then keep emptying out his dragnet? Will he go on slaughtering nations without compassion? 2:1 At my guardpost I will keep standing, And I will station myself on the rampart. I will keep watch to see what he will speak by means of me And what I will reply when I am reproved.",
     choiceA: "Habakkuk",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Nathan",
+    choiceC: "Gad",
+    choiceD: "Jeremiah",
     correctAnswer: "A",
   },
   {
@@ -3284,9 +3284,9 @@ const prophets = [
     clueSourceContent:
       "(Hagʹgai) [[Born on a] Festival]. A Hebrew prophet in Judah and Jerusalem during Zerubbabel’s governorship in the reign of Persian King Darius Hystaspis.​—Hag 1:1; 2:1, 10, 20; Ezr 5:1, 2.",
     choiceA: "Haggai",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Nehemiah",
+    choiceC: "Ezra",
+    choiceD: "Daniel",
     correctAnswer: "A",
   },
   {
@@ -3297,8 +3297,8 @@ const prophets = [
       "Haggai became the first postexilic prophet and was joined about two months later by Zechariah. (Hag 1:1; Zec 1:1) A halt to temple construction had been precipitated by enemy opposition but extended for some years by Jewish apathy and selfish pursuit of personal interests. Haggai kindled the zeal of the repatriated Jewish exiles for the resumption of temple construction. (Ezr 3:10-13; 4:1-24; Hag 1:4) Four God-given messages delivered by Haggai during about a four-month period in the second year of Darius Hystaspis (520 B.C.E.) and recorded by the prophet in the Bible book of Haggai were especially effective in initially moving the Jews to resume temple-building work. (Hag 1:1; 2:1, 10, 20; see HAGGAI, BOOK OF.) Haggai and Zechariah continued to urge them on in the work until the temple was completed toward the end of Darius’ sixth year, in 515 B.C.E.​—Ezr 5:1, 2; 6:14, 15.",
     choiceA: "Haggai",
     choiceB: "Zephaniah",
-    choiceC: "",
-    choiceD: "",
+    choiceC: "Jeremiah",
+    choiceD: "Elijah",
     correctAnswer: "A",
   },
   {
@@ -3308,9 +3308,9 @@ const prophets = [
     clueSourceContent:
       "14 And the elders of the Jews continued building and making progress, urged on by the prophesying of Hagʹgai the prophet and Zech·a·riʹah the grandson of Idʹdo; they finished building it by the order of the God of Israel and by the order of Cyrus and Da·riʹus and King Ar·ta·xerxʹes of Persia. 15 They completed the house by the third day of the month of Aʹdar, in the sixth year of the reign of King Da·riʹus.",
     choiceA: "Haggai",
-    choiceB: "Don't include Ezra here",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Jeremiah",
+    choiceC: "Samuel",
+    choiceD: "Micah",
     correctAnswer: "A",
   },
   {
@@ -3320,9 +3320,9 @@ const prophets = [
     clueSourceContent:
       "Haggai became the first postexilic prophet and was joined about two months later by Zechariah. (Hag 1:1; Zec 1:1) A halt to temple construction had been precipitated by enemy opposition but extended for some years by Jewish apathy and selfish pursuit of personal interests. Haggai kindled the zeal of the repatriated Jewish exiles for the resumption of temple construction. (Ezr 3:10-13; 4:1-24; Hag 1:4) Four God-given messages delivered by Haggai during about a four-month period in the second year of Darius Hystaspis (520 B.C.E.) and recorded by the prophet in the Bible book of Haggai were especially effective in initially moving the Jews to resume temple-building work. (Hag 1:1; 2:1, 10, 20; see HAGGAI, BOOK OF.) Haggai and Zechariah continued to urge them on in the work until the temple was completed toward the end of Darius’ sixth year, in 515 B.C.E.​—Ezr 5:1, 2; 6:14, 15.",
     choiceA: "Haggai",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Jeremiah",
+    choiceC: "Isaiah",
+    choiceD: "Nathan",
     correctAnswer: "A",
   },
   {
@@ -3332,9 +3332,9 @@ const prophets = [
     clueSourceContent:
       "7 At that time Ha·naʹni the seer came to King Aʹsa of Judah and said to him: “Because you relied on the king of Syria and did not rely on Jehovah your God, the army of the king of Syria has escaped out of your hand. 8 Were not the E·thi·oʹpi·ans and the Libʹy·ans a very great army with many chariots and horsemen? But because you relied on Jehovah, he gave them into your hand. 9 For the eyes of Jehovah are roving about through all the earth to show his strength in behalf of those whose heart is complete toward him. You have acted foolishly in this matter; from now on there will be wars against you.” 10 However, Aʹsa became offended at the seer and put him in prison (*ft. Lit., “in the house of the stocks.”) because he was enraged at him over this. And Aʹsa began to mistreat others among the people at that same time.",
     choiceA: "Hanani",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Gad",
+    choiceC: "Elisha",
+    choiceD: "Elijah",
     correctAnswer: "A",
   },
   {
@@ -3344,9 +3344,9 @@ const prophets = [
     clueSourceContent:
       "7 At that time Ha·naʹni the seer came to King Aʹsa of Judah and said to him: “Because you relied on the king of Syria and did not rely on Jehovah your God, the army of the king of Syria has escaped out of your hand. 8 Were not the E·thi·oʹpi·ans and the Libʹy·ans a very great army with many chariots and horsemen? But because you relied on Jehovah, he gave them into your hand. 9 For the eyes of Jehovah are roving about through all the earth to show his strength in behalf of those whose heart is complete toward him. You have acted foolishly in this matter; from now on there will be wars against you.” 10 However, Aʹsa became offended at the seer and put him in prison (*ft. Lit., “in the house of the stocks.”) because he was enraged at him over this. And Aʹsa began to mistreat others among the people at that same time.",
     choiceA: "Hanani",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Jeremiah",
+    choiceC: "Paul",
+    choiceD: "Gad",
     correctAnswer: "A",
   },
   {
@@ -3356,9 +3356,9 @@ const prophets = [
     clueSourceContent:
       "34 As for the rest of the history of Je·hoshʹa·phat, from beginning to end, there it is written among the words of Jeʹhu the son of Ha·naʹni, which were included in the Book of the Kings of Israel.",
     choiceA: "Hanani",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Jehu",
+    choiceC: "Oded",
+    choiceD: "Iddo",
     correctAnswer: "A",
   },
   {
@@ -3379,9 +3379,9 @@ const prophets = [
     clueSourceContent:
       "3 So he went and married Goʹmer the daughter of Dib·laʹim, and she conceived and bore him a son. 4 Then Jehovah said to him: “Name him Jezʹre·el, for in a little while I will hold an accounting against the house of Jeʹhu for the acts of bloodshed of Jezʹre·el, and I will put an end to the royal rule of the house of Israel.",
     choiceA: "Hosea",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Hanani",
+    choiceC: "Haggai",
+    choiceD: "Joel",
     correctAnswer: "A",
   },
   {
@@ -3390,9 +3390,9 @@ const prophets = [
     clueSourceContent:
       "The word of Jehovah that came to Ho·seʹa the son of Be·eʹri in the days of Uz·ziʹah, Joʹtham, Aʹhaz, and Hez·e·kiʹah, kings of Judah, and in the days of Jer·o·boʹam son of Joʹash, the king of Israel.",
     choiceA: "Hosea",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Amos",
+    choiceC: "Jonah",
+    choiceD: "Nahum",
     correctAnswer: "A",
   },
   {
@@ -3401,9 +3401,9 @@ const prophets = [
     clueSourceContent:
       "In the eighth month in the second year of Da·riʹus, the word of Jehovah came to the prophet Zech·a·riʹah son of Ber·e·chiʹah son of Idʹdo, saying:",
     choiceA: "Iddo",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Moses",
+    choiceC: "Aaron",
+    choiceD: "Gad",
     correctAnswer: "A",
   },
   {
@@ -3412,9 +3412,9 @@ const prophets = [
     clueSourceContent:
       "In the eighth month in the second year of Da·riʹus, the word of Jehovah came to the prophet Zech·a·riʹah son of Ber·e·chiʹah son of Idʹdo, saying:",
     choiceA: "Iddo",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Zephaniah",
+    choiceC: "Urijah",
+    choiceD: "Jahaziel",
     correctAnswer: "A",
   },
   {
@@ -3424,21 +3424,21 @@ const prophets = [
     clueSourceContent:
       "These were the priests and the Levites who went up with Ze·rubʹba·bel the son of She·alʹti·el, and Jeshʹu·a: Se·raiʹah, Jeremiah, Ezʹra, 2 Am·a·riʹah, Malʹluch, Hatʹtush, 3 Shec·a·niʹah, Reʹhum, Merʹe·moth, 4 Idʹdo, Ginʹne·thoi, A·biʹjah",
     choiceA: "Iddo",
-    choiceB: "Don't include Jeremiah, Ezra, Nehemiah, Abijah",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Ezekiel",
+    choiceC: "Oded",
+    choiceD: "Isaiah",
     correctAnswer: "A",
   },
   {
     question:
-      "In the days of High Priest Joiakim the paternal house of Iddo was headed by this prophet-priest.",
+      "In the days of High Priest Joiakim, the paternal house of Iddo was headed by this prophet-priest.",
     clueSource: "Nehemiah 12:12-16",
     clueSourceContent:
       "12 In the days of Joiʹa·kim, these were the priests, the heads of the paternal houses: for Se·raiʹah, Me·raiʹah; for Jeremiah, Han·a·niʹah; 13 for Ezʹra, Me·shulʹlam; for Am·a·riʹah, Je·ho·haʹnan; 14 for Malʹlu·chi, Jonʹa·than; for Sheb·a·niʹah, Joseph; 15 for Haʹrim, Adʹna; for Me·raʹioth, Helʹkai; 16 for Idʹdo, Zech·a·riʹah; for Ginʹne·thon, Me·shulʹlam.",
     choiceA: "Iddo",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Haggai",
+    choiceC: "Aaron",
+    choiceD: "Eliezer",
     correctAnswer: "A",
   },
   {
@@ -3460,9 +3460,9 @@ const prophets = [
     clueSourceContent:
       "(I·saʹiah) [Salvation of Jehovah]. A prophet, the son of Amoz (not the prophet Amos). He served Judah and Jerusalem in the days of Kings Uzziah, Jotham, Ahaz, and Hezekiah of Judah. (Isa 1:1) Kings Pekah and Hoshea were ruling in the northern kingdom of Israel, which ended in 740 B.C.E., during the time of Isaiah’s prophetic service. Contemporary prophets were Micah, Hosea, and Oded. Isaiah evidently began his prophesying later than Hosea did and before Micah began.​—2Ch 28:9; Ho 1:1; Mic 1:1.",
     choiceA: "Isaiah",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Jeremiah",
+    choiceC: "Malachi",
+    choiceD: "Habakkuk",
     correctAnswer: "A",
   },
   {
@@ -3472,9 +3472,9 @@ const prophets = [
     clueSourceContent:
       "3 Then I had relations with the prophetess (*ft. That is, the wife of Isaiah.), and she became pregnant and in time gave birth to a son. Jehovah then said to me: “Name him Maʹher-shalʹal-hash-baz.",
     choiceA: "Isaiah",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Gad",
+    choiceC: "Samuel",
+    choiceD: "Moses",
     correctAnswer: "A",
   },
   {
@@ -3484,9 +3484,9 @@ const prophets = [
     clueSourceContent:
       "18 Look! I and the children whom Jehovah has given me are as signs and as miracles in Israel from Jehovah of armies, who resides on Mount Zion.",
     choiceA: "Isaiah",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Moses",
+    choiceC: "Aaron",
+    choiceD: "Hosea",
     correctAnswer: "A",
   },
   {
@@ -3496,9 +3496,9 @@ const prophets = [
     clueSourceContent:
       "In the year that King Sarʹgon of As·syrʹi·a sent the Tarʹtan to Ashʹdod, he fought against Ashʹdod and captured it. 2 At that time Jehovah spoke through Isaiah the son of Aʹmoz, saying: “Go, remove the sackcloth from your hips, and take your sandals off your feet.” And he did so, walking about naked and barefoot. 3 Jehovah then said: “Just as my servant Isaiah has walked about naked and barefoot for three years as a sign+ and a portent against Egypt and E·thi·oʹpi·a, 4 so the king of As·syrʹi·a will lead the captives of Egypt and the exiles of E·thi·oʹpi·a, boys and old men, naked and barefoot and with exposed buttocks, the nakedness of Egypt. 5 And they will be terrified and will be ashamed of E·thi·oʹpi·a their hope and of Egypt their pride. 6 The inhabitants of this coastland will say in that day, ‘Look at what happened to our hope, to which we fled for help and rescue from the king of As·syrʹi·a! How will we escape now?’”",
     choiceA: "Isaiah",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Elijah",
+    choiceC: "Elisha",
+    choiceD: "Jeremiah",
     correctAnswer: "A",
   },
   {
@@ -3508,9 +3508,9 @@ const prophets = [
     clueSourceContent:
       " 7 Therefore look! Jehovah will bring against them The mighty and vast waters of the River, The king of As·syrʹi·a and all his glory. He will come up over all his streambeds And overflow all his banks 8 And sweep through Judah. He will flood and pass through, reaching to the neck; His outspread wings will fill the breadth of your land, O Im·manʹu·el!”",
     choiceA: "Isaiah",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Jeremiah",
+    choiceC: "Malachi",
+    choiceD: "Micah",
     correctAnswer: "A",
   },
   {
@@ -3520,9 +3520,9 @@ const prophets = [
     clueSourceContent:
       "22 And the rest of the history of Uz·ziʹah, from beginning to end, was recorded by the prophet Isaiah the son of Aʹmoz.",
     choiceA: "Isaiah",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Jeremiah",
+    choiceC: "Samuel",
+    choiceD: "Obadiah",
     correctAnswer: "A",
   },
   {
@@ -3532,9 +3532,9 @@ const prophets = [
     clueSourceContent:
       "8 Then I heard the voice of Jehovah saying: “Whom shall I send, and who will go for us?” And I said: “Here I am! Send me!”",
     choiceA: "Isaiah",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Jeremiah",
+    choiceC: "Elijah",
+    choiceD: "Elisha",
     correctAnswer: "A",
   },
   {
@@ -3544,9 +3544,9 @@ const prophets = [
     clueSourceContent:
       "14 Then in the middle of the congregation, the spirit of Jehovah came upon Ja·ha·ziʹel son of Zech·a·riʹah son of Be·naiʹah son of Je·iʹel son of Mat·ta·niʹah the Levite of the sons of Aʹsaph. 15 He said: “Pay attention, all Judah and you inhabitants of Jerusalem and King Je·hoshʹa·phat! Here is what Jehovah says to you, ‘Do not be afraid or be terrified because of this large crowd, for the battle is not yours but God’s. 16 Tomorrow go down against them. They will be coming up by the pass of Ziz, and you will find them at the end of the valley before the wilderness of Je·ruʹel. 17 You will not need to fight this battle. Take your position, stand still, and see the salvation of Jehovah in your behalf. O Judah and Jerusalem, do not be afraid or be terrified. Tomorrow go out against them, and Jehovah will be with you.’”",
     choiceA: "Jahaziel",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Simeon",
+    choiceC: "Zechariah",
+    choiceD: "Joel",
     correctAnswer: "A",
   },
   {
@@ -3556,9 +3556,9 @@ const prophets = [
     clueSourceContent:
       "The word of Jehovah against Baʹa·sha then came to Jeʹhu+ the son of Ha·naʹni, saying: 2 “I raised you up out of the dust and made you leader over my people Israel, but you kept walking in the way of Jer·o·boʹam and caused my people Israel to sin so that they offended me with their sins. 3 So I am making a clean sweep of Baʹa·sha and his house, and I will make his house like the house of Jer·o·boʹam the son of Neʹbat. 4 Anyone belonging to Baʹa·sha who dies in the city the dogs will eat; and anyone belonging to him who dies in the field the birds of the heavens will eat.”",
     choiceA: "Jehu",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Jeremiah",
+    choiceC: "Isaiah",
+    choiceD: "Haggai",
     correctAnswer: "A",
   },
   {
@@ -3568,21 +3568,9 @@ const prophets = [
     clueSourceContent:
       "Then King Je·hoshʹa·phat of Judah returned safely to his own house in Jerusalem. 2 Jeʹhu the son of Ha·naʹni the visionary went out to meet him and said to King Je·hoshʹa·phat: “Is it the wicked you should be helping, and is it those who hate Jehovah you should love? Because of this the indignation of Jehovah is against you. 3 Nevertheless, there are good things that have been found in you, because you cleared out the sacred poles from the land and you have prepared your heart to search for the true God.”",
     choiceA: "Jehu",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correctAnswer: "A",
-  },
-  {
-    question:
-      "Where did the princes of Jerusalem throw Jeremiah into for simply telling Jehovah's prophecy to them?",
-    clueSource: "Jeremiah 38:4-6",
-    clueSourceContent:
-      "4 The princes said to the king: “Please have this man put to death, for this is how he is weakening the morale of the soldiers who are left in this city, as well as that of all the people, by speaking such words to them. For this man seeks, not the peace of this people, but their calamity.” 5  King Zed·e·kiʹah replied: “Look! He is in your hands, for the king cannot do anything to stop you.” 6  So they took Jeremiah and threw him into the cistern of Mal·chiʹjah the son of the king, which was in the Courtyard of the Guard. They let Jeremiah down by ropes. Now there was no water in the cistern, only mud, and Jeremiah began to sink down into the mud.",
-    choiceA: "Into a cistern",
-    choiceB: "Into a dungeon",
-    choiceC: "Into a furnace",
-    choiceD: "Into a pit of lions",
+    choiceB: "Elijah",
+    choiceC: "Elisha",
+    choiceD: "Isaiah",
     correctAnswer: "A",
   },
   {
@@ -3592,9 +3580,9 @@ const prophets = [
     clueSourceContent:
       "These are the words of Jeremiah the son of Hil·kiʹah, one of the priests in Anʹa·thoth in the land of Benjamin.",
     choiceA: "Jeremiah",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Haggai",
+    choiceC: "Hosea",
+    choiceD: "Obadiah",
     correctAnswer: "A",
   },
   {
@@ -3604,9 +3592,9 @@ const prophets = [
     clueSourceContent:
       "These are the words of Jeremiah the son of Hil·kiʹah, one of the priests in Anʹa·thoth in the land of Benjamin. 2 The word of Jehovah came to him in the days of Jo·siʹah the son of Aʹmon, the king of Judah, in the 13th year of his reign.",
     choiceA: "Jeremiah",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Isaiah",
+    choiceC: "Zephaniah",
+    choiceD: "Samuel",
     correctAnswer: "A",
   },
   {
@@ -3616,8 +3604,8 @@ const prophets = [
       " 5 “Before I formed you in the womb I knew you, And before you were born I sanctified you. I made you a prophet to the nations.”",
     choiceA: "Jeremiah",
     choiceB: "Paul",
-    choiceC: "",
-    choiceD: "",
+    choiceC: "Urijah",
+    choiceD: "Moses",
     correctAnswer: "A",
   },
   {
@@ -3627,9 +3615,9 @@ const prophets = [
     clueSourceContent:
       "6 But I said: “Alas, O Sovereign Lord Jehovah! I do not know how to speak, for I am just a boy.”",
     choiceA: "Jeremiah",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Moses",
+    choiceC: "Aaron",
+    choiceD: "Nathan",
     correctAnswer: "A",
   },
   {
@@ -3639,9 +3627,9 @@ const prophets = [
     clueSourceContent:
       "Writer. In the Greek Septuagint this book is introduced with the words: “And it occurred that, after Israel had been taken captive and Jerusalem had been desolated, Jeremiah sat down weeping and lamented with this lamentation over Jerusalem and said.” The Targums also identify Jeremiah as the writer, introducing it as follows: “Jeremiah the prophet and great priest said.” The introduction in the Clementine recension of the Latin Vulgate is: “And it occurred that, after Israel had been led away into captivity and Jerusalem was deserted, Jeremiah the prophet sat weeping and wailed with this lamentation over Jerusalem; and sighing with a bitter spirit, and moaning woefully, he said.”",
     choiceA: "Jeremiah",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Isaiah",
+    choiceC: "Daniel",
+    choiceD: "Ezekiel",
     correctAnswer: "A",
   },
   {
@@ -3651,9 +3639,9 @@ const prophets = [
     clueSourceContent:
       "19 Then King Zed·e·kiʹah said to Jeremiah: “I am afraid of the Jews who have deserted to the Chal·deʹans, for if I am handed over to them, they may deal cruelly with me.” 20 But Jeremiah said: “You will not be handed over to them. Obey, please, the voice of Jehovah in what I am telling you, and it will go well with you, and you will continue to live. 21 But if you refuse to surrender, this is what Jehovah has revealed to me: 22 Look! All the women remaining in the house of the king of Judah are being brought out to the princes of the king of Babylon, and they are saying, ‘The men whom you trusted have deceived you and overcome you. They have caused your foot to sink into the mud. Now they have turned away in retreat.’ 23 And all your wives and your sons they are bringing out to the Chal·deʹans, and you will not escape out of their hand, but you will be seized by the king of Babylon, and because of you this city will be burned with fire.”",
     choiceA: "Jeremiah",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Isaiah",
+    choiceC: "Micah",
+    choiceD: "Nahum",
     correctAnswer: "A",
   },
   {
@@ -3663,9 +3651,9 @@ const prophets = [
     clueSourceContent:
       "5 While Jeremiah still had not turned back, Neb·uʹzar·adʹan said: “Return to Ged·a·liʹah the son of A·hiʹkam the son of Shaʹphan, whom the king of Babylon has appointed over the cities of Judah, and stay with him among the people; or go wherever you choose.” The chief of the guard then gave him a food allowance and a gift and let him go.",
     choiceA: "Jeremiah",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Daniel",
+    choiceC: "Ezekiel",
+    choiceD: "Ezra",
     correctAnswer: "A",
   },
   {
@@ -3675,9 +3663,9 @@ const prophets = [
     clueSourceContent:
       "Associations. Through all of his more than 40 years of prophetic service, Jeremiah was not abandoned. Jehovah was with him to deliver him from his enemies. (Jer 1:19) Jeremiah took delight in Jehovah’s word. (Jer 15:16) He avoided association with those who had no consideration for God. (Jer 15:17) He found good associates among whom he could do ‘building up’ work (Jer 1:10), namely, the Rechabites, Ebed-melech, and Baruch. Through these friends he was assisted and delivered from death, and more than once Jehovah’s power was manifested in protecting him.​—Jer 26:7-24; 35:1-19; 36:19-26; 38:7-13; 39:11-14; 40:1-5.",
     choiceA: "Jeremiah",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Ezra",
+    choiceC: "Nehemiah",
+    choiceD: "Zechariah",
     correctAnswer: "A",
   },
   {
@@ -3687,9 +3675,9 @@ const prophets = [
     clueSourceContent:
       "8 Hanʹa·mel the son of my uncle came to me, just as Jehovah had said, into the Courtyard of the Guard, and he said to me: “Please buy my field in Anʹa·thoth, in the land of Benjamin, for you have the right to take possession of it and to repurchase it. Buy it for yourself.” At that I knew that this was by the word of Jehovah. 9 So I bought the field in Anʹa·thoth from Hanʹa·mel the son of my uncle. I weighed out the money to him, seven shekels and ten silver pieces. 10 Then I recorded it in a deed, affixed the seal, called in witnesses, and weighed the money in the scales. 11 I took the deed of purchase, the one that was sealed according to the commandment and legal requirements, as well as the one that was left unsealed, 12 and I gave the deed of purchase to Barʹuch son of Ne·riʹah son of Mah·seiʹah in the presence of Hanʹa·mel the son of my uncle, the witnesses who wrote in the deed of purchase, and all the Jews who were sitting in the Courtyard of the Guard. 13 I now commanded Barʹuch in their presence, saying: 14 “This is what Jehovah of armies, the God of Israel, says, ‘Take these deeds, this deed of purchase, the sealed one and the other deed left unsealed, and put them into an earthenware vessel, so that they may be kept for a long time.’ 15 For this is what Jehovah of armies, the God of Israel, says, ‘Houses and fields and vineyards will again be bought in this land.’”",
     choiceA: "Jeremiah",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Abraham",
+    choiceC: "Moses",
+    choiceD: "Gad",
     correctAnswer: "A",
   },
   {
@@ -3699,9 +3687,9 @@ const prophets = [
     clueSourceContent:
       "8 Then the word of Jehovah came to Jeremiah in Tahʹpan·hes, saying: 9 “Take in your hand large stones, and hide them in the mortar in the brick terrace at the entrance of the house of Pharʹaoh in Tahʹpan·hes, with the Jewish men looking on. 10 Then say to them, ‘This is what Jehovah of armies, the God of Israel, says: “Here I am sending for Neb·u·chad·nezʹzar the king of Babylon, my servant, and I will place his throne right above these stones that I have hidden, and he will extend his royal tent over them.",
     choiceA: "Jeremiah",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Moses",
+    choiceC: "Aaron",
+    choiceD: "Joseph",
     correctAnswer: "A",
   },
   {
@@ -3711,9 +3699,9 @@ const prophets = [
     clueSourceContent:
       "8 Then the word of Jehovah came to Jeremiah in Tahʹpan·hes, saying: 9 “Take in your hand large stones, and hide them in the mortar in the brick terrace at the entrance of the house of Pharʹaoh in Tahʹpan·hes, with the Jewish men looking on. 10 Then say to them, ‘This is what Jehovah of armies, the God of Israel, says: “Here I am sending for Neb·u·chad·nezʹzar the king of Babylon, my servant, and I will place his throne right above these stones that I have hidden, and he will extend his royal tent over them.",
     choiceA: "Jeremiah",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Daniel",
+    choiceC: "Isaiah",
+    choiceD: "Habakkuk",
     correctAnswer: "A",
   },
   {
@@ -3723,9 +3711,9 @@ const prophets = [
     clueSourceContent:
       "In the first year of Da·riʹus the son of A·has·u·eʹrus—a descendant of the Medes who had been made king over the kingdom of the Chal·deʹans— 2 in the first year of his reign I, Daniel, discerned by the books the number of years mentioned in the word of Jehovah to Jeremiah the prophet to fulfill the desolation of Jerusalem, namely, 70 years.",
     choiceA: "Jeremiah",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Isaiah",
+    choiceC: "Micah",
+    choiceD: "Samuel",
     correctAnswer: "A",
   },
   {
@@ -3735,9 +3723,9 @@ const prophets = [
     clueSourceContent:
       "This is what Jehovah said: “Go and buy an earthenware flask from a potter. Take some of the elders of the people and some of the elders of the priests, 2 and go out to the Valley of the Son of Hinʹnom, at the entrance of the Gate of the Potsherds. And there proclaim the words that I speak to you. 3 You will say, ‘Hear the word of Jehovah, you kings of Judah and inhabitants of Jerusalem. This is what Jehovah of armies, the God of Israel, says: “‘“I am about to bring a calamity on this place, and the ears of anyone who hears about it will tingle. 4 It is because they abandoned me and made this place unrecognizable. In it they are sacrificing to other gods, whom they and their forefathers and the kings of Judah had not known, and they have filled this place with the blood of the innocent ones. 5 They built the high places of Baʹal in order to burn their sons in the fire as whole burnt offerings to Baʹal, something that I had not commanded or spoken of and that had never even come into my heart.”’ 6 “‘“Therefore look! the days are coming,” declares Jehovah, “when this place will no longer be called Toʹpheth or the Valley of the Son of Hinʹnom but the Valley of the Slaughter. 7 I will thwart the plans of Judah and Jerusalem in this place, and I will make them fall by the sword before their enemies and by the hand of those seeking to take their life. And I will give their dead bodies as food to the birds of the heavens and to the beasts of the earth. 8 And I will make this city an object of horror and something to whistle at. Every last one passing by it will stare in horror and whistle over all its plagues. 9 And I will make them eat the flesh of their sons and daughters, and they will each eat the flesh of his fellow man, because of the siege and their desperation when they are hemmed in by their enemies and those seeking to take their life.”’ 10 “Then break the flask before the eyes of the men who go with you, 11 and say to them, ‘This is what Jehovah of armies says: “This is how I will break this people and this city, like someone who breaks a potter’s vessel so that it can never be repaired; and they will bury the dead in Toʹpheth until there is no more room to bury them.”’",
     choiceA: "Jeremiah",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Nathan",
+    choiceC: "Gad",
+    choiceD: "Jonah",
     correctAnswer: "A",
   },
   {
@@ -3747,9 +3735,9 @@ const prophets = [
     clueSourceContent:
       "Now Pashʹhur the son of Imʹmer, the priest, who was also the leading commissioner in the house of Jehovah, was listening when Jeremiah prophesied these things. 2 Then Pashʹhur struck Jeremiah the prophet and put him in the stocks that were at the Upper Gate of Benjamin, which was in the house of Jehovah.",
     choiceA: "Jeremiah",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Paul",
+    choiceC: "Haggai",
+    choiceD: "Elijah",
     correctAnswer: "A",
   },
   {
@@ -3759,9 +3747,9 @@ const prophets = [
     clueSourceContent:
       " 8 For whenever I speak, I must cry out and proclaim, “Violence and destruction!” For me the word of Jehovah has been the cause of insults and jeering all day long. 9 So I said: “I am not going to make mention of him, And I will speak no more in his name.” But in my heart it became like a burning fire shut up in my bones, And I was tired of holding it in; I could no longer endure it.",
     choiceA: "Jeremiah",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Isaiah",
+    choiceC: "Elijah",
+    choiceD: "Daniel",
     correctAnswer: "A",
   },
   {
@@ -3771,9 +3759,9 @@ const prophets = [
     clueSourceContent:
       "7 And the priests and the prophets and all the people heard Jeremiah speaking these words in the house of Jehovah. 8 So when Jeremiah had finished speaking all that Jehovah had commanded him to speak to all the people, then the priests and the prophets and all the people seized him and said: “You will surely die. 9 Why have you prophesied in the name of Jehovah, saying, ‘This house will become like Shiʹloh, and this city will be devastated and left without an inhabitant’?” And all the people gathered around Jeremiah in the house of Jehovah. 10 When the princes of Judah heard these words, they came up from the house of the king to the house of Jehovah and sat down at the entrance of the new gate of Jehovah. 11 The priests and the prophets said to the princes and to all the people: “This man deserves the death penalty, because he has prophesied against this city just as you have heard with your own ears.” 12 Jeremiah then said to all the princes and to all the people: “It was Jehovah who sent me to prophesy against this house and against this city all the words that you have heard. 13 So now, reform your ways and your actions and obey the voice of Jehovah your God, and Jehovah will change his mind concerning the calamity that he has spoken against you. 14 But as for me, I am in your hand. Do to me whatever seems good and right in your eyes. 15 Only know for certain that if you put me to death, you will bring innocent blood upon yourselves and upon this city and upon her inhabitants, for in truth Jehovah sent me to you to speak all these words in your hearing.” 16 Then the princes and all the people said to the priests and the prophets: “This man does not deserve the death penalty, for he spoke to us in the name of Jehovah our God.”",
     choiceA: "Jeremiah",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Isaiah",
+    choiceC: "Micah",
+    choiceD: "Samuel",
     correctAnswer: "A",
   },
   {
@@ -3783,9 +3771,9 @@ const prophets = [
     clueSourceContent:
       "4 The princes said to the king: “Please have this man put to death, for this is how he is weakening the morale* of the soldiers who are left in this city, as well as that of all the people, by speaking such words to them. For this man seeks, not the peace of this people, but their calamity.” 5 King Zed·e·kiʹah replied: “Look! He is in your hands, for the king cannot do anything to stop you.” 6 So they took Jeremiah and threw him into the cistern of Mal·chiʹjah the son of the king, which was in the Courtyard of the Guard.+ They let Jeremiah down by ropes. Now there was no water in the cistern, only mud, and Jeremiah began to sink down into the mud.",
     choiceA: "Jeremiah",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Urijah",
+    choiceC: "Jonah",
+    choiceD: "Elisha",
     correctAnswer: "A",
   },
   {
@@ -3795,9 +3783,9 @@ const prophets = [
     clueSourceContent:
       "7 Eʹbed-melʹech the E·thi·oʹpi·an, a eunuch in the king’s house, heard that they had put Jeremiah into the cistern. Now the king was sitting in the Gate of Benjamin, 8 so Eʹbed-melʹech went out of the king’s house and spoke to the king, saying: 9 “O my lord the king, what these men have done to Jeremiah the prophet is evil! They have thrown him into the cistern, and he will die there because of the famine, for there is no bread left in the city.” 10 Then the king commanded Eʹbed-melʹech the E·thi·oʹpi·an: “Take 30 men with you from here, and pull Jeremiah the prophet up out of the cistern before he dies.” 11 So Eʹbed-melʹech took the men with him and went into the king’s house to a place beneath the treasury, and they took from there some worn-out rags and worn-out pieces of cloth and let them down by ropes to Jeremiah in the cistern. 12 Then Eʹbed-melʹech the E·thi·oʹpi·an said to Jeremiah: “Please put the rags and the pieces of cloth between your armpits and the ropes.” Jeremiah did so, 13 and they drew Jeremiah out with the ropes and pulled him up out of the cistern. And Jeremiah remained in the Courtyard of the Guard.",
     choiceA: "Jeremiah",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Malachi",
+    choiceC: "Isaiah",
+    choiceD: "Jehu",
     correctAnswer: "A",
   },
   {
@@ -3806,9 +3794,9 @@ const prophets = [
     clueSourceContent:
       "The word of Jehovah that came to Joel the son of Pe·thuʹel.",
     choiceA: "Joel",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Jahaziel",
+    choiceC: "Ezekiel",
+    choiceD: "Samuel",
     correctAnswer: "A",
   },
   {
