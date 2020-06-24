@@ -3809,7 +3809,7 @@ const prophets = [
     choiceD: "The Apostle John",
     correctAnswer: "A",
   },
-{
+  {
     question: "Who was the son of Zechariah and Elizabeth?",
     clueSource: "Luke 1:13",
     clueSourceContent: "13 However, the angel said to him: “Do not be afraid, Zech·a·riʹah, because your supplication has been favorably heard, and your wife Elizabeth will bear you a son, and you are to name him John.",
@@ -3819,7 +3819,7 @@ const prophets = [
     choiceD: "Mark",
     correctAnswer: "A",
   },
-{
+  {
     question: "Whose works were foretold by the angel Gabriel as from God?",
     clueSource: "Luke 1:13-17",
     clueSourceContent: "13 However, the angel said to him: “Do not be afraid, Zech·a·riʹah, because your supplication has been favorably heard, and your wife Elizabeth will bear you a son, and you are to name him John. 14 You will have joy and great gladness, and many will rejoice over his birth, 15 for he will be great in the sight of Jehovah. But he must drink no wine or any alcoholic drink at all, and he will be filled with holy spirit even from before birth, 16 and he will turn back many of the sons of Israel to Jehovah their God. 17 Also, he will go ahead of him with E·liʹjah’s spirit and power, to turn back the hearts of fathers to children and the disobedient ones to the practical wisdom of righteous ones, in order to get ready for Jehovah a prepared people.”",
@@ -3829,7 +3829,7 @@ const prophets = [
     choiceD: "Luke",
     correctAnswer: "A",
   },
-{
+  {
     question: "Zechariah prophesied by holy spirit that who would be a prophet of the Most High to make Jehovah’s ways ready?",
     clueSource: "Luke 1:68-79",
     clueSourceContent: "68 “Let Jehovah be praised, the God of Israel, because he has turned his attention to his people and has brought them deliverance. 69 And he has raised up a horn of salvation+ for us in the house of David his servant, 70 just as he has spoken through the mouth of his holy prophets from of old, 71 of a salvation from our enemies and from the hand of all those hating us; 72 to show mercy in connection with our forefathers and to call to mind his holy covenant, 73 the oath that he swore to Abraham our forefather, 74 to grant us, after we have been rescued from the hands of enemies, the privilege of fearlessly rendering sacred service to him 75 with loyalty and righteousness before him all our days. 76 But as for you, young child, you will be called a prophet of the Most High, for you will go ahead of Jehovah to prepare his ways, 77 to give knowledge of salvation to his people by forgiveness of their sins, 78 because of the tender compassion of our God. With this compassion a daybreak will visit us from on high, 79 to give light to those sitting in darkness and death’s shadow and to guide our feet in the way of peace.”",
@@ -3839,7 +3839,7 @@ const prophets = [
     choiceD: "",
     correctAnswer: "A",
   },
-{
+  {
     question: "Jesus confirmed that his ministry and baptism were from God.",
     clueSource: "Luke 7:26-28",
     clueSourceContent: "26 Really, then, what did you go out to see? A prophet? Yes, I tell you, and far more than a prophet. 27 This is the one about whom it is written: ‘Look! I am sending my messenger ahead of you, who will prepare your way ahead of you.’ 28 I tell you, among those born of women there is no one greater than John, but a lesser person in the Kingdom of God is greater than he is.”",
@@ -3849,7 +3849,7 @@ const prophets = [
     choiceD: "",
     correctAnswer: "A",
   },
-{
+  {
     question: "Jesus revealed to everyone that this man is “far more than a prophet.”",
     clueSource: "Luke 7:26-28",
     clueSourceContent: "26 Really, then, what did you go out to see? A prophet? Yes, I tell you, and far more than a prophet. 27 This is the one about whom it is written: ‘Look! I am sending my messenger ahead of you, who will prepare your way ahead of you.’ 28 I tell you, among those born of women there is no one greater than John, but a lesser person in the Kingdom of God is greater than he is.”",
@@ -3859,7 +3859,7 @@ const prophets = [
     choiceD: "",
     correctAnswer: "A",
   },
-{
+  {
     question: "He performed immersions after the Passover of 30 C.E. at Aenon.",
     clueSource: "Insight on the Scriptures Volume 1, [Aenon] p. 55",
     clueSourceContent: "(Aeʹnon). A place having “a great quantity of water” available, where John the Baptizer performed immersions after the Passover of 30 C.E. (Joh 3:23) It was near the apparently better known place named Salim. The exact locations of these places are uncertain; however, Eusebius, bishop of Caesarea who lived in the third and fourth centuries C.E., indicates a location in the Jordan Valley about 8 Roman miles (12 km; 7.5 mi) S of Beth-shean. In this area is Tell Ridgha (Tel Shalem), tentatively identified with Salim. Nearby are several springs that might fit Eusebius’ description of the place called Aenon.",
@@ -3869,7 +3869,7 @@ const prophets = [
     choiceD: "The Apostle John",
     correctAnswer: "A",
   },
-{
+  {
     question: "Who began his preaching and baptizing in “the 15th year of the reign of Tiberius Caesar”?",
     clueSource: "Luke 3:1-3",
     clueSourceContent: "In the 15th year of the reign of Ti·beʹri·us Caesar, when Pontius Pilate was governor of Ju·deʹa, Herod was district ruler of Galʹi·lee, Philip his brother was district ruler of the country of It·u·raeʹa and Trach·o·niʹtis, and Ly·saʹni·as was district ruler of Ab·i·leʹne, 2 in the days of chief priest Anʹnas and of Caʹia·phas, God’s declaration came to John the son of Zech·a·riʹah in the wilderness. 3 So he went into all the country around the Jordan, preaching baptism in symbol of repentance for forgiveness of sins.",
@@ -3889,7 +3889,7 @@ const prophets = [
     choiceD: "",
     correctAnswer: "",
   },
-{
+  {
     question: "He was thrown into prison by Herod Antipas because he had reproved Antipas for his adulterous marriage to Herodias.",
     clueSource: "Matthew 3:17-20",
     clueSourceContent: "17 For Herod himself had sent out and arrested John and had bound him in prison on account of He·roʹdi·as, the wife of Philip his brother, because he had married her. 18 For John had been saying to Herod: “It is not lawful for you to have your brother’s wife.” 19 So He·roʹdi·as was nursing a grudge against him and wanted to kill him, but she could not. 20 For Herod was in fear of John, knowing him to be a righteous and holy man, and he was keeping him safe. After hearing him, he was at a great loss as to what to do, yet he continued to hear him gladly.",
@@ -3899,7 +3899,7 @@ const prophets = [
     choiceD: "",
     correctAnswer: "A",
   },
-{
+  {
     question: "Whose coming was a prophecy's fulfillment that God would send Elijah before the great day of Jehovah?",
     clueSource: "Insight on the Scriptures Volume 2, [John]",
     clueSourceContent: "Jesus Christ also explained to his disciples that John’s coming was a fulfillment of the prophecy at Malachi 4:5, 6, that God would send Elijah the prophet before the coming of the great and fear-inspiring day of Jehovah. Nevertheless, great as John was (“Among those born of women there has not been raised up a greater than John the Baptist”), he would not be one of “the bride” class who will share with Christ in his heavenly Kingdom rule (Re 21:9-11; 22:3-5), for, Jesus said, “a person that is a lesser one in the kingdom of the heavens is greater than he is.” (Mt 11:11-15; 17:10-13; Lu 7:28-30) Indirectly Jesus also defended John against the charge that John had a demon.​—Mt 11:16-19; Lu 7:31-35.",
@@ -3909,7 +3909,7 @@ const prophets = [
     choiceD: "",
     correctAnswer: "A",
   },
-{
+  {
     question: "Jesus said that “among those born of women, there has not been raised up anyone greater than” him.",
     clueSource: "Matthew 11:11",
     clueSourceContent: "11  Truly I say to you, among those born of women, there has not been raised up anyone greater than John the Baptist, but a lesser person in the Kingdom of the heavens is greater than he is.",
@@ -3919,7 +3919,7 @@ const prophets = [
     choiceD: "",
     correctAnswer: "A",
   },
-{
+  {
     question: "Indirectly, Jesus defended this prophet against the charge that he had a demon.",
     clueSource: "Luke 7:31-35",
     clueSourceContent: "31 “With whom, therefore, should I compare the men of this generation, and whom are they like? 32 They are like young children sitting in a marketplace and calling out to one another, saying: ‘We played the flute for you, but you did not dance; we wailed, but you did not weep.’ 33 Likewise, John the Baptist has come neither eating bread nor drinking wine, but you say: ‘He has a demon.’ 34 The Son of man has come eating and drinking, but you say: ‘Look! A man who is a glutton and is given to drinking wine, a friend of tax collectors and sinners!’ 35 All the same, wisdom is proved righteous by all its children.”",
@@ -3929,7 +3929,7 @@ const prophets = [
     choiceD: "",
     correctAnswer: "A",
   },
-{
+  {
     question: "Herod beheaded this prophet in prison and delivered his head on a platter to the daughter of Herodias.",
     clueSource: "Mark 6:21-29",
     clueSourceContent: "21 But a convenient day arrived when Herod spread an evening meal on his birthday for his high officials and the military commanders and the most prominent men of Galʹi·lee. 22 And the daughter of He·roʹdi·as came in and danced and pleased Herod and those dining with him. The king said to the girl: “Ask me for whatever you want, and I will give it to you.” 23 Yes, he swore to her: “Whatever you ask me for, I will give it to you, up to half my kingdom.” 24 So she went out and said to her mother: “What should I ask for?” She said: “The head of John the Baptizer.” 25 She immediately rushed in to the king and made her request, saying: “I want you to give me right away on a platter the head of John the Baptist.” 26 Although this deeply grieved him, the king did not want to disregard her request, because of his oaths and his guests. 27 So the king immediately sent a bodyguard and commanded him to bring John’s head. So he went off and beheaded him in the prison 28 and brought his head on a platter. He gave it to the girl, and the girl gave it to her mother. 29 When his disciples heard of it, they came and took his body and laid it in a tomb.",
@@ -3939,7 +3939,7 @@ const prophets = [
     choiceD: "",
     correctAnswer: "A",
   },
-{
+  {
     question: "When Herod heard of Jesus' ministry, he feared that Jesus was actually this prophet raised from the dead.",
     clueSource: "Luke 9:7-9",
     clueSourceContent: "7 Now Herod the district ruler heard about everything that was happening, and he was greatly perplexed because some were saying that John had been raised up from the dead, 8 but others were saying that E·liʹjah had appeared, and still others that one of the ancient prophets had risen. 9 Herod said: “John I beheaded. Who, then, is this about whom I am hearing such things?” So he was trying to see him.",
@@ -3960,7 +3960,7 @@ const prophets = [
     choiceD: "Daniel",
     correctAnswer: "C",
   },
-{
+  {
     question:
       "Who became hot with anger with Jehovah for not destroying Nineveh?",
     clueSource: "Jonah 4:1-3",
@@ -3972,7 +3972,7 @@ const prophets = [
     choiceD: "Nehemias",
     correctAnswer: "A",
   },
-{
+  {
     question: "He was a prophet of Jehovah from Gath-hepher, a border city in the territory of Zebulun.",
     clueSource: "Insight on the Scriptures Volume 2, [Jonah] p.98",
     clueSourceContent: "(Joʹnah) [Dove]. “Son of Amittai”; a prophet of Jehovah from Gath-hepher (2Ki 14:25), a border city in the territory of Zebulun. (Jos 19:10, 13) In fulfillment of Jehovah’s word spoken through Jonah, Israel’s King Jeroboam II succeeded in restoring “the boundary of Israel from the entering in of Hamath clear to the sea of the Arabah [the Salt Sea].” (2Ki 14:23-25; compare De 3:17.) So it appears that Jonah served as a prophet to the ten-tribe kingdom sometime during the reign of Jeroboam II. He is evidently the same person Jehovah commissioned to proclaim judgment against Nineveh (Jon 1:1, 2) and, therefore, also the writer of the book bearing his name.",
@@ -3982,7 +3982,7 @@ const prophets = [
     choiceD: "",
     correctAnswer: "A",
   },
-{
+  {
     question: "He got on a ship and sailed to Tarshish, which was at the opposite direction of Nineveh.",
     clueSource: "Jonah 1:1-3",
     clueSourceContent: "The word of Jehovah came to Joʹnah the son of A·mitʹtai, saying: 2 “Get up, go to Ninʹe·veh+ the great city, and proclaim judgment against her, for their wickedness has come to my attention.” 3 But Joʹnah got up to run away from Jehovah to Tarʹshish; he went down to Jopʹpa and found a ship going to Tarʹshish. So he paid the fare and went aboard to go with them to Tarʹshish, away from Jehovah.",
@@ -3992,7 +3992,7 @@ const prophets = [
     choiceD: "",
     correctAnswer: "A",
   },
-{
+  {
     question: "He was the cause of a violent storm from Jehovah that almost wrecked their ship at sea.",
     clueSource: "Jonah 1:4-12",
     clueSourceContent: "4 Then Jehovah hurled a strong wind at the sea, and there was such a violent storm on the sea that the ship was about to be wrecked. 5 The mariners were so frightened that each of them began to call on his god for help. And they began throwing the articles of the ship into the sea, to make it lighter. But Joʹnah had gone down into the inner part of the ship, where he lay down and fell fast asleep. 6 The ship captain approached and said to him: “Why are you sleeping? Get up, call out to your god! Perhaps the true God will show his concern for us, and we will not perish.” 7 Then they said to one another: “Come, let us cast lots to find out who is to blame for this calamity.” So they cast lots, and the lot fell to Joʹnah. 8 They said to him: “Please tell us, who is to blame for this calamity that has come upon us? What is your work, and where do you come from? What is your country, and from what people are you?” 9 He replied: “I am a Hebrew, and I fear Jehovah the God of the heavens, the One who made the sea and the dry land.” 10 At this the men became even more afraid, and they asked him: “What have you done?” (The men learned that he was running away from Jehovah, because he had told them.) 11 So they said to him: “What should we do to you to make the sea calm down for us?” For the sea was growing more and more stormy. 12 He replied: “Lift me up and throw me into the sea, and the sea will calm down for you; for I know that it is because of me that this violent storm has come upon you.” 13 However, the men rowed hard to bring the ship back to dry land, but they could not, because the sea grew more and more stormy around them. 14 Then they called out to Jehovah and said: “Ah, now, O Jehovah, please, may we not perish because of this man! Do not hold us responsible for innocent blood, since you have done as you pleased, O Jehovah.” 15 Then they lifted Joʹnah up and threw him into the sea; and the sea ceased its raging.",
@@ -4002,7 +4002,7 @@ const prophets = [
     choiceD: "",
     correctAnswer: "A",
   },
-{
+  {
     question: "Who was the contemporary of the prophets Hosea and Isaiah?",
     clueSource: "Live With Jehovah’s Day in Mind, Chapter 2 par. 12",
     clueSourceContent: "Do you not agree that today’s critical times challenge you in developing boldness and complete reliance on Jehovah? If you manifest these qualities, you will be like Micah. A contemporary of Hosea and Isaiah, Micah declared messages against the nations of Judah and Israel during the reigns of Judaean Kings Jotham, Ahaz, and Hezekiah, in the eighth century B.C.E. Extreme moral corruption and idolatry had defiled Israel to the north, which suffered destruction when Samaria fell to the Assyrians in 740 B.C.E. Judah wavered between obedience and unfaithfulness to Jehovah. Despite foreboding events, Micah could draw comfort in seeing his God-given message temporarily stall Judah’s plunge into spiritual corruption and eventual disaster. How comforting it is for us to see that some do respond positively to our message of salvation!",
@@ -4012,7 +4012,7 @@ const prophets = [
     choiceD: "",
     correctAnswer: "A",
   },
-{
+  {
     question: "Who was the son of Imlah and a prophet of Jehovah to the northern kingdom of Israel during King Ahab’s reign?",
     clueSource: "1 Kings 22:8",
     clueSourceContent: "8 At that the king of Israel said to Je·hoshʹa·phat: “There is still one more man through whom we can inquire of Jehovah; but I hate him, for he never prophesies good things concerning me, only bad. He is Mi·caiʹah the son of Imʹlah.” However, Je·hoshʹa·phat said: “The king should not say such a thing.”",
@@ -4022,7 +4022,7 @@ const prophets = [
     choiceD: "Jehu",
     correctAnswer: "A",
   },
-{
+  {
     question: "King Ahab has said about this prophet: “He never prophesies good things concerning me, but always bad.”",
     clueSource: "2 Chronicles 18:6-8",
     clueSourceContent: "6 Je·hoshʹa·phat then said: “Is there not here a prophet of Jehovah? Let us also inquire through him.” 7 At that the king of Israel said to Je·hoshʹa·phat: “There is still one more man through whom we can inquire of Jehovah; but I hate him, for he never prophesies good things concerning me, but always bad. He is Mi·caiʹah the son of Imʹlah.” However, Je·hoshʹa·phat said: “The king should not say such a thing.” 8 So the king of Israel called a court official and said: “Bring Mi·caiʹah the son of Imʹlah quickly.”",
@@ -4032,7 +4032,7 @@ const prophets = [
     choiceD: "Jehu",
     correctAnswer: "A",
   },
-{
+  {
     question: "Who saw an angel saying, 'I will fool him' as it stood before Jehovah God in a vision?",
     clueSource: "1 Kings 22:18-23",
     clueSourceContent: "18 Then the king of Israel said to Je·hoshʹa·phat: “Did I not tell you, ‘He will not prophesy good things concerning me, only bad’?” 19 Mi·caiʹah then said: “Therefore, hear the word of Jehovah: I saw Jehovah sitting on his throne and all the army of the heavens standing by him, to his right and to his left. 20 Jehovah then said, ‘Who will fool Aʹhab, so that he will go up and fall at Raʹmoth-gilʹe·ad?’ And one was saying one thing while another said something else. 21 Then a spirit came forward and stood before Jehovah and said, ‘I will fool him.’ Jehovah asked him, ‘How will you do it?’ 22 He replied, ‘I will go out and become a deceptive spirit in the mouth of all his prophets.’ So he said, ‘You will fool him, and what is more, you will be successful. Go out and do that.’ 23 And now Jehovah has put a deceptive spirit in the mouth of all these prophets of yours, but Jehovah has declared calamity for you.”",
@@ -4042,7 +4042,7 @@ const prophets = [
     choiceD: "Jehu",
     correctAnswer: "A",
   },
-{
+  {
     question: "He said to Ahab: “Jehovah has put a deceptive spirit in the mouth of all these prophets of yours, but Jehovah has declared calamity for you.”",
     clueSource: "1 Kings 22:18-23",
     clueSourceContent: "18 Then the king of Israel said to Je·hoshʹa·phat: “Did I not tell you, ‘He will not prophesy good things concerning me, only bad’?” 19 Mi·caiʹah then said: “Therefore, hear the word of Jehovah: I saw Jehovah sitting on his throne and all the army of the heavens standing by him, to his right and to his left. 20 Jehovah then said, ‘Who will fool Aʹhab, so that he will go up and fall at Raʹmoth-gilʹe·ad?’ And one was saying one thing while another said something else. 21 Then a spirit came forward and stood before Jehovah and said, ‘I will fool him.’ Jehovah asked him, ‘How will you do it?’ 22 He replied, ‘I will go out and become a deceptive spirit in the mouth of all his prophets.’ So he said, ‘You will fool him, and what is more, you will be successful. Go out and do that.’ 23 And now Jehovah has put a deceptive spirit in the mouth of all these prophets of yours, but Jehovah has declared calamity for you.”",
@@ -4052,7 +4052,218 @@ const prophets = [
     choiceD: "Jehu",
     correctAnswer: "A",
   },
-{
+  {
+    question: "Who was the leader of the nation of Israel, the mediator of the Law covenant?",
+    clueSource: "Exodus 20:19",
+    clueSourceContent: "19 So they said to Moses: “You speak with us, and we will listen, but do not let God speak with us, for fear that we will die.”",
+    choiceA: "Moses",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  {
+    question: "He was born in 1593 B.C.E., in Egypt, being the son of Amram, the grandson of Kohath, and the great-grandson of Levi.",
+    clueSource: "Insight on the Scriptures Volume 2, [Moses] p. 434",
+    clueSourceContent: "(Moʹses) [Drawn Out [that is, saved out of water]]. “Man of the true God,” leader of the nation of Israel, mediator of the Law covenant, prophet, judge, commander, historian, and writer. (Ezr 3:2) Moses was born in 1593 B.C.E., in Egypt, being the son of Amram, the grandson of Kohath, and the great-grandson of Levi. His mother Jochebed was Kohath’s sister. (See, however, JOCHEBED.) Moses was three years younger than his brother Aaron. Miriam their sister was some years older.​—Ex 6:16, 18, 20; 2:7.",
+    choiceA: "Moses",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  {
+    question: "Who was the second son of Jochebed?",
+    clueSource: "Insight on the Scriptures Volume 2, [Moses] p. 434",
+    clueSourceContent: "(Moʹses) [Drawn Out [that is, saved out of water]]. “Man of the true God,” leader of the nation of Israel, mediator of the Law covenant, prophet, judge, commander, historian, and writer. (Ezr 3:2) Moses was born in 1593 B.C.E., in Egypt, being the son of Amram, the grandson of Kohath, and the great-grandson of Levi. His mother Jochebed was Kohath’s sister. (See, however, JOCHEBED.) Moses was three years younger than his brother Aaron. Miriam their sister was some years older.​—Ex 6:16, 18, 20; 2:7.",
+    choiceA: "Aaron",
+    choiceB: "Moses",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "B",
+  },
+  {
+    question: "He came to be nursed and trained by his mother in the employment of the daughter of Pharaoh.",
+    clueSource: "Exodus 2:1-10",
+    clueSourceContent: "About that time, a certain man of the house of Leʹvi married a daughter of Leʹvi. 2 And the woman became pregnant and gave birth to a son. When she saw how beautiful he was, she kept him concealed for three months. 3 When she was no longer able to conceal him, she took a papyrus basket and coated it with bitumen and pitch and put the child in it and placed it among the reeds by the bank of the Nile River. 4 But his sister stood at a distance to see what would happen to him. 5 When Pharʹaoh’s daughter came down to bathe in the Nile, her female attendants were walking by the side of the Nile. And she caught sight of the basket in the middle of the reeds. She immediately sent her slave girl to get it. 6 When she opened it, she saw the child, and the boy was crying. She felt compassion for him, but she said: “This is one of the children of the Hebrews.” 7 Then his sister said to Pharʹaoh’s daughter: “Shall I go and call a nursing woman from the Hebrews to nurse the child for you?” 8 Pharʹaoh’s daughter said to her: “Go!” At once the girl went and called the child’s mother. 9 Pharʹaoh’s daughter then said to her: “Take this child with you and nurse him for me, and I will pay you.” So the woman took the child and nursed him. 10 When the child grew older, she brought him to Pharʹaoh’s daughter, and he became a son to her. She named him Moses and said: “It is because I have drawn him out of the water.”",
+    choiceA: "Moses",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  {
+    question: "He was hidden by his mother for 3 months and then was placed in a papyrus ark among the reeds by the bank of the Nile River.",
+    clueSource: "Exodus 2:1-3",
+    clueSourceContent: "About that time, a certain man of the house of Leʹvi married a daughter of Leʹvi. 2 And the woman became pregnant and gave birth to a son. When she saw how beautiful he was, she kept him concealed for three months. 3 When she was no longer able to conceal him, she took a papyrus basket and coated it with bitumen and pitch and put the child in it and placed it among the reeds by the bank of the Nile River.",
+    choiceA: "Shem",
+    choiceB: "Ham",
+    choiceC: "Moses",
+    choiceD: "Noah",
+    correctAnswer: "C",
+  },
+  {
+    question: "A “divinely beautiful” child who was spared from Pharaoh’s genocidal decree commanding the destruction of every newborn Hebrew male.",
+    clueSource: "Exodus 1:22-2:10",
+    clueSourceContent: "1:22 Finally Pharʹaoh commanded all his people: “You are to throw every newborn son of the Hebrews into the Nile River, but you are to keep every daughter alive.” 2:1 About that time, a certain man of the house of Leʹvi married a daughter of Leʹvi. 2 And the woman became pregnant and gave birth to a son. When she saw how beautiful he was, she kept him concealed for three months. 3 When she was no longer able to conceal him, she took a papyrus basket and coated it with bitumen and pitch and put the child in it and placed it among the reeds by the bank of the Nile River. 4 But his sister stood at a distance to see what would happen to him. 5 When Pharʹaoh’s daughter came down to bathe in the Nile, her female attendants were walking by the side of the Nile. And she caught sight of the basket in the middle of the reeds. She immediately sent her slave girl to get it. 6 When she opened it, she saw the child, and the boy was crying. She felt compassion for him, but she said: “This is one of the children of the Hebrews.” 7 Then his sister said to Pharʹaoh’s daughter: “Shall I go and call a nursing woman from the Hebrews to nurse the child for you?” 8 Pharʹaoh’s daughter said to her: “Go!” At once the girl went and called the child’s mother. 9 Pharʹaoh’s daughter then said to her: “Take this child with you and nurse him for me, and I will pay you.” So the woman took the child and nursed him. 10 When the child grew older, she brought him to Pharʹaoh’s daughter, and he became a son to her. She named him Moses and said: “It is because I have drawn him out of the water.”",
+    choiceA: "Jesus",
+    choiceB: "Moses",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  {
+    question: "He was “instructed in all the wisdom of the Egyptians. In fact, he was powerful in his words and deeds.”",
+    clueSource: "Acts 7:22",
+    clueSourceContent: "22 So Moses was instructed in all the wisdom of the Egyptians. In fact, he was powerful in his words and deeds.",
+    choiceA: "Moses",
+    choiceB: "Joseph",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  {
+    question: "In taking up his fellow Israelite’s defense, he killed an Egyptian and buried him in the sand.",
+    clueSource: "Exodus 2:11, 12",
+    clueSourceContent: "11 Now in those days, after Moses had become an adult, he went out to his brothers to look at the burdens they were bearing, and he caught sight of an Egyptian beating a Hebrew, one of his brothers. 12 So he looked this way and that, and seeing no one, he killed the Egyptian and hid him in the sand.",
+    choiceA: "Moses",
+    choiceB: "Joseph",
+    choiceC: "Jacob",
+    choiceD: "Joshua",
+    correctAnswer: "A",
+  },
+  {
+    question: "When shepherds drove away the 7 daughters of Jethro and their flock, who delivered the women and watered the flocks for them?",
+    clueSource: "Exodus 2:16-20",
+    clueSourceContent: "16 Now the priest of Midʹi·an had seven daughters, and these came to draw water and to fill the troughs to water their father’s flock. 17 But as usual, the shepherds came and drove them away. At this Moses got up and helped the women and watered their flock. 18 When they came home to their father Reuʹel, he exclaimed: “How is it that you have come home so quickly today?” 19 They replied: “A certain Egyptian rescued us from the shepherds, and he even drew water for us and watered the flock.” 20 He said to his daughters: “But where is he? Why did you leave the man behind? Call him, so that he may eat with us.”",
+    choiceA: "Moses",
+    choiceB: "Jethro",
+    choiceC: "Jacob",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  {
+    question: "He was married to Zipporah, who actually bore him two sons, Gershom and Eliezer.",
+    clueSource: "Exodo 18:2-4",
+    clueSourceContent: "2 Jethʹro, Moses’ father-in-law, had taken in Zip·poʹrah, Moses’ wife, when she was sent back to him, 3 along with her two sons. One son was named Gerʹshom, because Moses said, “I have become a foreign resident in a foreign land,” 4 and the other was named E·li·eʹzer, because he said, “The God of my father is my helper, who rescued me from Pharʹaoh’s sword.”",
+    choiceA: "Aaron",
+    choiceB: "Moses",
+    choiceC: "Hosea",
+    choiceD: "",
+    correctAnswer: "B",
+  },
+  {
+    question: "Who showed diffidence, arguing that he was unable to speak fluently?",
+    clueSource: "Exodus 4:10-17",
+    clueSourceContent: "10 Moses now said to Jehovah: “Pardon me, Jehovah, but I have never been a fluent speaker, neither in the past nor since you have spoken to your servant, for I am slow of speech and slow of tongue.” 11 Jehovah said to him: “Who made a mouth for man, or who makes them speechless, deaf, clear-sighted, or blind? Is it not I, Jehovah? 12 So go now, and I will be with you as you speak, and I will teach you what you should say.” 13 But he said: “Pardon me, Jehovah, please send anyone whom you want to send.” 14 Then Jehovah’s anger blazed against Moses, and he said: “What about your brother Aaron+ the Levite? I know that he can speak very well. And he is now on his way here to meet you. When he sees you, his heart will rejoice.+ 15 So you must speak to him and put the words in his mouth,+ and I will be with you and him as you speak,+ and I will teach you men what to do. 16 He will speak for you to the people, and he will be your spokesman, and you will serve as God to him.+ 17 And you will take this rod in your hand and perform the signs with it.”+",
+    choiceA: "Paul",
+    choiceB: "Moses",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "B",
+  },
+  {
+    question: "He had to undergo another 40 years of training to develop fine, godly-qualities.",
+    clueSource: "Insight on the Scriptures Volume 2, [Moses] p. 435",
+    clueSourceContent: "Training for future service. While it was God’s purpose to deliver the Hebrews by the hand of Moses, God’s due time had not yet arrived; neither was Moses yet qualified to serve over God’s people. He had to undergo another 40 years of training. The qualities of patience, meekness, humility, long-suffering, mildness of temper, self-control, and learning to wait on Jehovah needed to be developed in him to a higher degree, in order for him to be the fitting one to lead God’s people. He had to be groomed and prepared to endure the discouragements, disappointments, and hardships he would encounter, and to handle with loving-kindness, calmness, and strength the multitude of problems a great nation would present. He possessed much learning, and his training as a member of Pharaoh’s household had doubtless given him dignity, confidence, and poise and had accentuated his ability to organize and command. But the lowly occupation of shepherding in Midian provided the training needed to develop fine qualities that would be even more important for the task ahead of him. Similarly, David underwent rigorous training, even after being anointed by Samuel, and Jesus Christ was tried, tested, and proved, to be perfected as King and High Priest forever. “He [Christ] learned obedience from the things he suffered; and after he had been made perfect he became responsible for everlasting salvation to all those obeying him.”​—Heb 5:8, 9.",
+    choiceA: "Moses",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  {
+    question: "He had come to see the mistake he had made in trying to deliver the Hebrews on his own initiative.",
+    clueSource: "Insight on the Scriptures Volume 2, [Moses] p. 435-436",
+    clueSourceContent: "Though reproving him, God did not cancel Moses’ assignment because of his reluctance to take up the tremendous task as deliverer of Israel. Moses had not demurred because of old age, even though he was 80. Forty years later, at the age of 120 years, Moses still had full vigor and alertness. (De 34:7) During his 40 years in Midian, Moses had had much time to meditate, and he had come to see the mistake he had made in trying to deliver the Hebrews on his own initiative. He now realized his own inadequacy. And after this long time, detached from all public affairs, it was doubtless quite a shock to be suddenly offered this role.",
+    choiceA: "Moses",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  {
+    question: "He was considered to be the “meekest of all the men on the face of the earth.”",
+    clueSource: "Numbers 12:3",
+    clueSourceContent: "3 Now the man Moses was by far the meekest of all the men on the face of the earth.",
+    choiceA: "Moses",
+    choiceB: "Job",
+    choiceC: "Joseph",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  {
+    question: "Who became the announcers of each of the Ten Plagues?",
+    clueSource: "Exodus 11:10",
+    clueSourceContent: "10 Moses and Aaron performed all these miracles before Pharʹaoh,+ but Jehovah allowed Pharʹaoh’s heart to become obstinate, so that he did not send the Israelites away from his land.",
+    choiceA: "Moses and Aaron",
+    choiceB: "Elijah and Elisha",
+    choiceC: "Just Moses",
+    choiceD: "Just Pharaoh",
+    correctAnswer: "A",
+  },
+  {
+    question: "Jethro wisely suggested an orderly arrangement wherein this prophet would delegate degrees of responsibility to others, to lighten his load.",
+    clueSource: "Exodus 18:12-27",
+    clueSourceContent: "12 Then Jethʹro, Moses’ father-in-law, brought a burnt offering and sacrifices for God, and Aaron and all the elders of Israel came to eat a meal with Moses’ father-in-law before the true God. 13 On the next day, Moses sat down as usual to serve as judge for the people, and the people kept standing before Moses from morning until evening. 14 When Moses’ father-in-law saw all that he was doing for the people, he said: “What is this that you are doing for the people? Why do you sit here alone with all the people standing before you from morning until evening?” 15 Moses said to his father-in-law: “Because the people keep coming to me to inquire of God. 16 When a case arises, it comes to me and I must judge between one person and the other, and I make known the decisions of the true God and his laws.”+ 17 Moses’ father-in-law said to him: “What you are doing is not good. 18 You will surely wear out, both you and this people who are with you, because this is too big a load for you and you cannot carry it by yourself. 19 Now listen to me. I will give you advice, and God will be with you.+ You serve as representative for the people before the true God,+ and you must bring the cases to the true God.+ 20 You should warn them about what the regulations and the laws are+ and make known to them the way in which they should walk and the work that they should do. 21 But you should select from the people capable men+ fearing God, trustworthy men hating dishonest profit,+ and appoint these over them as chiefs over thousands, chiefs over hundreds, chiefs over fifties, and chiefs over tens.+ 22 They should judge the people when cases arise,* and they will bring every difficult case to you,+ but every minor case they will decide. Make it easier for yourself by letting them share the load along with you.+ 23 If you do this, and God so commands you, you will be able to stand the strain, and everyone will go home satisfied.” 24 Moses immediately listened to his father-in-law and did all that he had said. 25 Moses chose capable men out of all Israel and appointed them heads over the people, as chiefs of thousands, chiefs of hundreds, chiefs of fifties, and chiefs of tens. 26 So they judged the people when cases arose. A difficult case they would bring to Moses,+ but every minor case they would judge. 27 After that Moses saw his father-in-law off,+ and he went his way to his land.",
+    choiceA: "Moses",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  {
+    question: "Who was the writer of the Pentateuch, the first five books of the Bible?",
+    clueSource: "Insight on the Scriptures Volume 2, [Moses] p. 439",
+    clueSourceContent: "A Writer. Moses was the writer of the Pentateuch, the first five books of the Bible, namely, Genesis, Exodus, Leviticus, Numbers, and Deuteronomy. His writership has been acknowledged by the Jews throughout their history, this section of the Bible being known by them as the Torah, or Law. Jesus and the Christian writers frequently speak of Moses as giving the Law. He is generally credited with writing the book of Job, also Psalm 90 and, possibly, 91.​—Mt 8:4; Lu 16:29; 24:27; Ro 10:5; 1Co 9:9; 2Co 3:15; Heb 10:28.",
+    choiceA: "Moses",
+    choiceB: "Aaron",
+    choiceC: "Job",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  {
+    question: "Who was the younger brother of Aaron?",
+    clueSource: "Insight on the Scriptures Volume 2, [Moses] p. 434",
+    clueSourceContent: "(Moʹses) [Drawn Out [that is, saved out of water]]. “Man of the true God,” leader of the nation of Israel, mediator of the Law covenant, prophet, judge, commander, historian, and writer. (Ezr 3:2) Moses was born in 1593 B.C.E., in Egypt, being the son of Amram, the grandson of Kohath, and the great-grandson of Levi. His mother Jochebed was Kohath’s sister. (See, however, JOCHEBED.) Moses was three years younger than his brother Aaron. Miriam their sister was some years older.​—Ex 6:16, 18, 20; 2:7.",
+    choiceA: "Moses",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  {
+    question: "Jehovah God used this man to divide the waters of the Red Sea.",
+    clueSource: "Exodus 14:21-28",
+    clueSourceContent:
+      "21  Moses now stretched out his hand over the sea; and Jehovah drove the sea back with a strong east wind all night long, turning the sea basin into dry ground, and the waters divided. 22  So the Israelites went through the midst of the sea on dry ground, while the waters formed a wall on their right hand and on their left. 23  The Egyptians pursued them, and all Pharʹaoh’s horses, his war chariots, and his cavalrymen began going after them into the midst of the sea. 24  During the morning watch, Jehovah looked at the camp of the Egyptians from within the pillar of fire and cloud, and he threw the camp of the Egyptians into confusion. 25  He kept taking wheels off their chariots so that they were driving them with difficulty, and the Egyptians were saying: “Let us flee from any contact with Israel, because Jehovah is fighting for them against the Egyptians.” 26  Then Jehovah said to Moses: “Stretch out your hand over the sea so that the waters may come back over the Egyptians, their war chariots, and their cavalrymen.” 27  Moses at once stretched out his hand over the sea, and as morning approached, the sea returned to its normal condition. As the Egyptians fled from it, Jehovah shook the Egyptians off into the midst of the sea. 28  The returning waters covered the war chariots and the cavalrymen and all of Pharʹaoh’s army who had gone into the sea after them. Not so much as one among them was allowed to survive.",
+    choiceA: "Moses",
+    choiceB: "Noah",
+    choiceC: "Elijah",
+    choiceD: "Joshua",
+    correctAnswer: "A",
+  },
+  {
+    question: "He died at Mount Nebo and yet “nobody knows where his grave is down to this day.”",
+    clueSource: "Deutoronomy 34:1-6",
+    clueSourceContent: "Then Moses went up from the desert plains of Moʹab to Mount Neʹbo,+ to the top of Pisʹgah,+ which faces Jerʹi·cho.+ And Jehovah showed him all the land, from Gilʹe·ad to Dan,+ 2 and all Naphʹta·li and the land of Eʹphra·im and Ma·nasʹseh, and all the land of Judah as far as the western sea,+ 3 and the Negʹeb+ and the District,+ the valley plain of Jerʹi·cho, the city of the palm trees, as far as Zoʹar.+ 4 Jehovah then said to him: “This is the land about which I have sworn to Abraham, Isaac, and Jacob, saying, ‘To your offspring I will give it.’+ I have let you see it with your own eyes, but you will not cross over there.”+ 5 After that Moses the servant of Jehovah died there in the land of Moʹab just as Jehovah had said.+ 6 He buried him in the valley in the land of Moʹab, opposite Beth-peʹor, and nobody knows where his grave is down to this day.",
+    choiceA: "Moses",
+    choiceB: "Enoch",
+    choiceC: "Lazarus",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  {
+    question: "He was a prophet “whom Jehovah knew face-to-face”.",
+    clueSource: "Deutoronomy 34:10-12",
+    clueSourceContent: "10 But there has never again arisen a prophet in Israel like Moses,+ whom Jehovah knew face-to-face.+ 11 He performed all the signs and the miracles that Jehovah had sent him to do in the land of Egypt to Pharʹaoh and all his servants and all his land,+ 12 along with the mighty hand and the awesome power that Moses displayed before the eyes of all Israel.+",
+    choiceA: "Moses",
+    choiceB: "Peter",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  {
     question: "",
     clueSource: "",
     clueSourceContent: "",
@@ -4072,6 +4283,107 @@ const prophets = [
     choiceD: "",
     correctAnswer: "",
   },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+
 ];
 
 const wars = [
