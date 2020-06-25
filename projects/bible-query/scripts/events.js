@@ -1,5 +1,5 @@
 window.addEventListener("click", function (event) {
-  if (event.target.matches("#play")) {
+  if (event.target.matches(".levels")) {
     levels();
   } else if (event.target.matches(".settings")) {
     settings();

@@ -48,7 +48,7 @@ h3,
 #okay-sm-btn-container,
 #quit-sm-btns-container,
 #level-number,
-#query-block,
+#query__block,
 #timer,
 .hr-container,
 .settings-btns,
@@ -109,7 +109,7 @@ img {
 
 .main-btns img,
 .question-container,
-#query-block {
+#query__block {
   display: flex;
 }
 

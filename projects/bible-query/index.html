@@ -13,10 +13,10 @@
   <body>
     <div class="outer-container background">
       <div class="container background">
-        <div id="homepage-block">
+        <div id="homepage__block">
           <h1 class="bible-query__title">BIBLE QUERY</h1>
           <div class="main-btns">
-            <img id="play" src="img/play-btn.jpg" />
+            <img class="levels" src="img/play-btn.jpg" />
             <img class="settings" src="img/settings-btn.jpg" />
             <img class="rules" src="img/rules-btn.jpg" />
             <img id="main-btn__about" src="img/about-btn.jpg" />
@@ -26,7 +26,7 @@
         </div>
 
         <!-- Upon clicking PLAY -->
-        <div id="levels-block" style="display: none;">
+        <div id="levels__block" style="display: none;">
           <h1 class="page__heading">SELECT A LEVEL</h1>
           <h3 id="stars">Stars: 0</h3>
           <div id="level-number">1</div>
@@ -36,7 +36,7 @@
           </div>
         </div>
         <!-- Upon clicking on SETTINGS -->
-        <div id="settings-block" style="display: none;">
+        <div id="settings__block" style="display: none;">
           <h1 class="page__heading">GAME SETTINGS</h1>
           <br />
           <input type="checkbox" value="Music" />
@@ -67,7 +67,7 @@
           </div>
         </div>
         <!-- Upon clicking on RULES -->
-        <div id="rules-block" style="display: none;">
+        <div id="rules__block" style="display: none;">
           <h1 class="page__heading">GAME RULES</h1>
           <h2 class="page__sub-heading">Clues</h2>
           <p>
@@ -88,14 +88,14 @@
             These are the number of stars required to unlock each level:
           </p>
           <div class="rules-table__container">
-            <img id="rules-table__img" src="img/levels-stars.jpg" />
+            <img class="rules-table__img" src="img/levels-stars.jpg" />
           </div>
           <div class="centered-sm-btns">
             <img src="img/back-sm-btn.jpg" class="go-to-homepage sm-btn" />
           </div>
         </div>
         <!-- Upon clicking on ABOUT -->
-        <div id="about-block" style="display: none;">
+        <div id="about__block" style="display: none;">
           <h1 class="page__heading">ABOUT</h1>
           <h2 class="page__sub-heading">About Bible query</h2>
           <p>
@@ -212,7 +212,7 @@
           </div>
         </div>
         <!-- Upon selecting a query level -->
-        <div id="query-block" style="display: none;">
+        <div id="query__block" style="display: none;">
           <div id="level-theme">level theme here</div>
           <div class="question-container">
             <div id="question"></div>
@@ -252,7 +252,7 @@
           </div>
         </div>
         <!-- After the query -->
-        <div id="score-block">
+        <div id="score__block" style="display: none;">
           <div id="final-score">
             <div id="score-phrase-1-div"></div>
             <div id="final-score-img-div"></div>
@@ -260,7 +260,7 @@
             <div id="score-phrase-2-div"></div>
           </div>
         </div>
-        <div id="score-menu-btns">
+        <div id="score-menu-btns" style="display: none;">
           <img src="img/levels-sm-btn.jpg" class="levels sm-btn" />
           <img src="img/play-again-sm-btn.jpg" class="sm-btn" />
           <img src="img/next-level-sm-btn.jpg" class="sm-btn" />
