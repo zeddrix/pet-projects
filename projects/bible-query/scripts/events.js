@@ -1,31 +1,31 @@
 window.addEventListener("click", function (event) {
-  if (event.target.matches(".go-to-levels")) {
+  if (event.target.matches("#play")) {
     levels();
-  } else if (event.target.matches(".settings-btn")) {
+  } else if (event.target.matches(".settings")) {
     settings();
   } else if (event.target.matches(".close-modal")) {
     closeModal();
   } else if (event.target.matches(".go-to-homepage")) {
     homepage();
-  } else if (event.target.matches(".rules-btn")) {
+  } else if (event.target.matches(".rules")) {
     rules();
-  } else if (event.target.matches(".about-btn")) {
+  } else if (event.target.matches("#main-btn__about")) {
     about();
-  } else if (event.target.matches(".friends-btn")) {
+  } else if (event.target.matches("#main-btn__friends")) {
     showFriendsModal();
-  } else if (event.target.matches(".quit-btn")) {
+  } else if (event.target.matches("#main-btn__quit")) {
     showQuitModal();
   } else if (event.target.matches("#level-number")) {
     startQuery();
-  } else if (event.target.matches("#reset-game-btn")) {
+  } else if (event.target.matches("#reset-game__btn")) {
     showResetGameModal();
-  } else if (event.target.matches("#show-clue-modal-btn")) {
+  } else if (event.target.matches("#clue-btn")) {
     showClueModal();
-  } else if (event.target.matches("#show-levels-modal-btn")) {
+  } else if (event.target.matches("#query-menu-btns__levels")) {
     showLevelsModal();
-  } else if (event.target.matches("#show-retry-modal-btn")) {
+  } else if (event.target.matches("#query-menu-btns__retry")) {
     showRetryQueryModal();
-  } else if (event.target.matches("#show-quit-modal-btn")) {
+  } else if (event.target.matches("#query-menu-btns__quit")) {
     showQuitQueryModal();
   } else if (event.target.matches("#confirm-retry-query")) {
     confirmRetryQuery();

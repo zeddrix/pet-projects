@@ -14,30 +14,30 @@
     <div class="outer-container background">
       <div class="container background">
         <div id="homepage-block">
-          <h1 id="bible-query-title">BIBLE QUERY</h1>
-          <div id="long-btns">
-            <img class="go-to-levels" src="img/play-btn.jpg" />
-            <img class="settings-btn" src="img/settings-btn.jpg" />
-            <img class="rules-btn" src="img/rules-btn.jpg" />
-            <img class="about-btn" src="img/about-btn.jpg" />
-            <img class="friends-btn" src="img/friends-btn.jpg" />
-            <img class="quit-btn" src="img/quit-btn.jpg" />
+          <h1 class="bible-query__title">BIBLE QUERY</h1>
+          <div class="main-btns">
+            <img id="play" src="img/play-btn.jpg" />
+            <img class="settings" src="img/settings-btn.jpg" />
+            <img class="rules" src="img/rules-btn.jpg" />
+            <img id="main-btn__about" src="img/about-btn.jpg" />
+            <img id="main-btn__friends" src="img/friends-btn.jpg" />
+            <img id="main-btn__quit" src="img/quit-btn.jpg" />
           </div>
         </div>
 
         <!-- Upon clicking PLAY -->
         <div id="levels-block" style="display: none;">
-          <h1>SELECT A LEVEL</h1>
+          <h1 class="page__heading">SELECT A LEVEL</h1>
           <h3 id="stars">Stars: 0</h3>
           <div id="level-number">1</div>
-          <div id="levels-sm-btns" class="centered-sm-btns">
+          <div class="levels__sm-btns centered-sm-btns">
             <img src="img/back-sm-btn.jpg" class="go-to-homepage sm-btn" />
-            <img src="img/settings-sm-btn.jpg" class="settings-btn sm-btn" />
+            <img src="img/settings-sm-btn.jpg" class="settings sm-btn" />
           </div>
         </div>
         <!-- Upon clicking on SETTINGS -->
         <div id="settings-block" style="display: none;">
-          <h1>GAME SETTINGS</h1>
+          <h1 class="page__heading">GAME SETTINGS</h1>
           <br />
           <input type="checkbox" value="Music" />
           <label for="Music">Music</label>
@@ -47,21 +47,20 @@
           <br />
           <input type="checkbox" value="Enable Time Limit" />
           <label for="Enable Time Limit">Enable Time Limit</label>
-          <p id="learn-more">
+          <p>
             (Learn more about Time Limit on the game's
-            <a class="rules-btn">Rules</a>).
+            <a class="rules">Rules</a>).
           </p>
-          <h2>Language</h2>
+          <h2 class="page__sub-heading">Language</h2>
           <input type="radio" name="language" value="English" />
           <label for="English">English</label>
           <br />
           <input type="radio" name="language" value="Tagalog" />
           <label for="Tagalog">Tagalog</label>
-          <p id="reset-game"></p>
-          <div id="settings-btns">
+          <div class="settings-btns">
             <img
               src="img/reset-game-btn.jpg"
-              id="reset-game-btn"
+              id="reset-game__btn"
               class="sm-btn"
             />
             <img src="img/back-sm-btn.jpg" class="go-to-homepage sm-btn" />
@@ -69,27 +68,27 @@
         </div>
         <!-- Upon clicking on RULES -->
         <div id="rules-block" style="display: none;">
-          <h1>GAME RULES</h1>
-          <h2>Clues</h2>
+          <h1 class="page__heading">GAME RULES</h1>
+          <h2 class="page__sub-heading">Clues</h2>
           <p>
             You can only get 3 clues for each level. After you've used all 3,
             you would be answering the next questions without any clue, of
             course. So use it wisely.
           </p>
-          <h2>Time Limit</h2>
+          <h2 class="page__sub-heading">Time Limit</h2>
           <p>
             You can enable and disable this option on the
-            <a class="settings-btn">Settings</a>. When enabled, you have exactly
-            10 seconds to answer each question. Once the time is up without you
+            <a class="settings">Settings</a>. When enabled, you have exactly 10
+            seconds to answer each question. Once the time is up without you
             answering the current question, it will proceed to the next
             question. Consequently, you won't earn a point for this.
           </p>
-          <h2>Stars</h2>
+          <h2 class="page__sub-heading">Stars</h2>
           <p>
             These are the number of stars required to unlock each level:
           </p>
-          <div id="rules-table-container">
-            <img id="rules-table-img" src="img/levels-stars.jpg" />
+          <div class="rules-table__container">
+            <img id="rules-table__img" src="img/levels-stars.jpg" />
           </div>
           <div class="centered-sm-btns">
             <img src="img/back-sm-btn.jpg" class="go-to-homepage sm-btn" />
@@ -97,8 +96,8 @@
         </div>
         <!-- Upon clicking on ABOUT -->
         <div id="about-block" style="display: none;">
-          <h1>ABOUT</h1>
-          <h2>About Bible query</h2>
+          <h1 class="page__heading">ABOUT</h1>
+          <h2 class="page__sub-heading">About Bible query</h2>
           <p>
             This is just a simple Bible game that we can play with our friends
             and families. If you're one of Jehovah's Witnesses, you can play
@@ -158,9 +157,9 @@
           </p>
           <p>
             To know the rules of the game, please go to
-            <a class="rules-btn">Rules</a>.
+            <a class="rules">Rules</a>.
           </p>
-          <h2>About the Developer</h2>
+          <h2 class="page__sub-heading">About the Developer</h2>
           <p>
             My name is Zedd, but I'm not the
             <a
@@ -217,8 +216,8 @@
           <div id="level-theme">level theme here</div>
           <div class="question-container">
             <div id="question"></div>
-            <div id="show-clue-modal-btn-container">
-              <div id="show-clue-modal-btn" class="no-outline">?</div>
+            <div class="clue-btn__container">
+              <div id="clue-btn" class="no-outline">?</div>
             </div>
           </div>
           <div id="timer">
@@ -234,26 +233,26 @@
           <div id="progress-container">
             <div id="progress"></div>
           </div>
-          <div id="query-menu-btns" style="display: none;">
+          <div id="query-menu-btns">
             <img
-              id="show-levels-modal-btn"
+              id="query-menu-btns__levels"
               src="img/levels-sm-btn.jpg"
               class="sm-btn"
             />
             <img
-              id="show-retry-modal-btn"
+              id="query-menu-btns__retry"
               src="img/retry-sm-btn.jpg"
               class="sm-btn"
             />
             <img
-              id="show-quit-modal-btn"
+              id="query-menu-btns__quit"
               src="img/quit-sm-btn.jpg"
               class="sm-btn"
             />
           </div>
         </div>
         <!-- After the query -->
-        <div id="final-score-block" style="display: none;">
+        <div id="score-block">
           <div id="final-score">
             <div id="score-phrase-1-div"></div>
             <div id="final-score-img-div"></div>
@@ -261,8 +260,8 @@
             <div id="score-phrase-2-div"></div>
           </div>
         </div>
-        <div id="final-score-menu-btns" style="display: none;">
-          <img src="img/levels-sm-btn.jpg" class="go-to-levels sm-btn" />
+        <div id="score-menu-btns">
+          <img src="img/levels-sm-btn.jpg" class="levels sm-btn" />
           <img src="img/play-again-sm-btn.jpg" class="sm-btn" />
           <img src="img/next-level-sm-btn.jpg" class="sm-btn" />
           <img src="img/quit-sm-btn.jpg" class="go-to-homepage sm-btn" />
@@ -325,7 +324,7 @@
         <div id="clue-modal" class="modal">
           <div class="modal-effect">
             <div id="clue-source"></div>
-            <div id="hr-container"><hr /></div>
+            <div class="hr-container"><hr class="hr-line" /></div>
             <div id="clue-source-content"></div>
             <div id="okay-sm-btn-container">
               <img src="img/okay-sm-btn.jpg" class="close-modal okay-sm-btn" />
@@ -344,10 +343,7 @@
               </div>
               <div id="okay-sm-btn-container">
                 <div id="levels-sm-btns-container">
-                  <img
-                    src="img/yes-sm-btn.jpg"
-                    class="go-to-levels yes-sm-btn"
-                  />
+                  <img src="img/yes-sm-btn.jpg" class="levels yes-sm-btn" />
                   <img src="img/no-sm-btn.jpg" class="close-modal no-sm-btn" />
                 </div>
               </div>

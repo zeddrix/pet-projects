@@ -15,16 +15,16 @@
 }
 /* -------------------------OPPO A71------------------------- */
 @media screen and (min-width: 275px) and (min-height: 480px) {
-  #settings-btns,
-  #levels-sm-btns,
+  .settings-btns,
+  .levels__sm-btns,
   #query-menu-btns,
-  #final-score-menu-btns {
+  #score-menu-btns {
     padding-bottom: 2.2em;
   }
-  h1 {
+  .page__heading {
     font-size: 2em;
   }
-  #bible-query-title {
+  .bible-query__title {
     font-size: 2em;
     margin: 0.2em 0em;
   }
@@ -35,7 +35,7 @@
   .long-btn {
     padding: 0.1em 0;
   }
-  #long-btns {
+  .main-btns {
     width: 75%;
   }
   /* settings */
@@ -47,11 +47,11 @@
   label {
     font-size: 1em;
   }
-  h2 {
+  .page__sub-heading {
     font-size: 1.3em;
     margin-left: 0.2em;
   }
-  #settings-btns {
+  .settings-btns {
     padding-top: 0.4em;
   }
   /* levels */
@@ -63,7 +63,7 @@
     padding: 0.1em 0.5em;
     margin: 1em;
   }
-  #levels-sm-btns {
+  .levels__sm-btns {
     padding-top: 15.4em;
   }
   /* query */
@@ -78,7 +78,7 @@
     margin: 0em 0.5em;
     border-radius: 0.3em;
   }
-  #show-clue-modal-btn {
+  #clue-btn {
     border: 2.5px solid rgb(177, 15, 15);
     padding: 0.2em 0.7em;
     font-size: 1.2em;
@@ -146,7 +146,7 @@
     font-size: 1em;
     margin: 0em;
   }
-  #final-score-menu-btns {
+  #score-menu-btns {
     padding-top: 5em;
     width: 100%;
     text-align: center;
@@ -155,16 +155,16 @@
 
 /* ----------- Galaxy S4, S5 and Note 3 ----------- */
 @media screen and (min-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
-  #settings-btns,
-  #levels-sm-btns,
+  .settings-btns,
+  .levels__sm-btns,
   #query-menu-btns,
-  #final-score-menu-btns {
+  #score-menu-btns {
     padding-bottom: 2.2em;
   }
-  h1 {
+  .page__heading {
     font-size: 2em;
   }
-  #bible-query-title {
+  .bible-query__title {
     font-size: 2.5em;
     margin: 0.2em 0em;
   }
@@ -175,7 +175,7 @@
   .long-btn {
     padding: 0.1em 0;
   }
-  #long-btns {
+  .main-btns {
     width: 80%;
   }
   /* settings */
@@ -187,11 +187,11 @@
   label {
     font-size: 1em;
   }
-  h2 {
+  .page__sub-heading {
     font-size: 1.3em;
     margin-left: 0.3em;
   }
-  #settings-btns {
+  .settings-btns {
     padding-top: 10.7em;
   }
   /* levels */
@@ -203,7 +203,7 @@
     padding: 0.1em 0.5em;
     margin: 1em;
   }
-  #levels-sm-btns {
+  .levels__sm-btns {
     padding-top: 24.5em;
   }
   /* query */
@@ -218,7 +218,7 @@
     margin: 0em 0.5em;
     border-radius: 0.3em;
   }
-  #show-clue-modal-btn {
+  #clue-btn {
     border: 2.5px solid rgb(177, 15, 15);
     padding: 0.2em 0.7em;
     font-size: 1.2em;
@@ -285,7 +285,7 @@
     font-size: 1.2em;
     margin: 0em;
   }
-  #final-score-menu-btns {
+  #score-menu-btns {
     padding-top: 7.8em;
     width: 100%;
     text-align: center;
@@ -300,10 +300,10 @@
 /* DESKTOP */
 /* ---------------1600px---------------- */
 @media screen and (min-device-width: 1600px) {
-  h1 {
+  .page__heading {
     font-size: 2.3em;
   }
-  h2 {
+  .page__sub-heading {
     font-size: 1.5em;
     margin: 0.3em;
   }
@@ -326,16 +326,16 @@
   .long-btn {
     padding: 0.3em 0;
   }
-  #bible-query-title {
+  .bible-query__title {
     font-size: 2.8em;
     margin: 0.2em 0em;
   }
-  #long-btns {
+  .main-btns {
     width: 74%;
     margin-bottom: 3.1em;
   }
   /* Modals */
-  #show-clue-modal-btn {
+  #clue-btn {
     border: 2.5px solid rgb(177, 15, 15);
     padding: 0.2em 0.7em;
     font-size: 1.5em;
@@ -366,7 +366,7 @@
     padding: 0.1em 0.5em;
     margin: 1em;
   }
-  #levels-sm-btns {
+  .levels__sm-btns {
     padding-top: 27.5em;
     padding-bottom: 2.5em;
   }
@@ -383,7 +383,7 @@
     margin: 0.5em;
     border-radius: 0.4em;
   }
-  #show-clue-modal-btn {
+  #clue-btn {
     border: 2.5px solid rgb(177, 15, 15);
     padding: 0.2em 0.7em;
     font-size: 1.5em;
@@ -433,7 +433,7 @@
     padding: 0em;
     margin: 0em;
   }
-  #final-score-menu-btns {
+  #score-menu-btns {
     padding-top: 0.5em;
     padding-bottom: 2.5em;
     width: 100%;
@@ -444,15 +444,12 @@
     padding: 0.8em;
   }
   /* settings */
-  #learn-more {
-    font-size: 1em;
-  }
   #language-header {
     font-size: 2em;
     padding-bottom: 0.4em;
     margin-bottom: 0em;
   }
-  #settings-btns {
+  .settings-btns {
     padding-top: 12em;
     padding-bottom: 2em;
   }

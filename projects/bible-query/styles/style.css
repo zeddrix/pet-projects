@@ -34,31 +34,31 @@ body {
   font-family: "Architects Daughter";
 }
 
-hr {
+.hr-line {
   border-top: 1px dotted grey;
   width: 20em;
 }
 
-h1,
+.page__heading,
 h3,
 .centered-sm-btns,
 .question-container,
 .modal-content,
-#bible-query-title,
+.bible-query__title,
 #okay-sm-btn-container,
 #quit-sm-btns-container,
 #level-number,
 #query-block,
 #timer,
-#hr-container,
-#settings-btns,
-#rules-table-container,
+.hr-container,
+.settings-btns,
+.rules-table__container,
 #final-score {
   text-align: center;
 }
 
 a,
-#long-btns img:hover,
+.main-btns img:hover,
 .button:hover,
 .choice,
 .sm-btn,
@@ -67,12 +67,12 @@ a,
 .yes-sm-btn,
 .no-sm-btn,
 #level-number,
-#show-clue-modal-btn {
+#clue-btn {
   cursor: pointer;
 }
 
 .outer-container,
-#show-clue-modal-btn {
+#clue-btn {
   margin: 0;
 }
 
@@ -82,7 +82,7 @@ a,
   padding: 0;
 }
 
-#long-btns img,
+.main-btns img,
 .sm-btn,
 .okay-sm-btn,
 .yes-sm-btn,
@@ -107,7 +107,7 @@ img {
   width: 23%;
 }
 
-#long-btns img,
+.main-btns img,
 .question-container,
 #query-block {
   display: flex;
@@ -131,14 +131,12 @@ a {
   overflow: hidden;
 }
 
-#long-btns {
-  margin-left: auto;
-  margin-right: auto;
+.main-btns {
+  margin: auto;
 }
-#long-btns img {
+.main-btns img {
   max-width: 100%;
   align-self: center;
-  /* remove the blue line around the button upon clicking */
 }
 
 #okay-sm-btn-container {
@@ -181,14 +179,14 @@ a {
   text-align: center;
 }
 
-#show-clue-modal-btn-container {
+.clue-btn__container {
   position: absolute;
 }
-#show-clue-modal-btn {
+#clue-btn {
   position: relative;
   color: lightgrey;
 }
-#show-clue-modal-btn:hover {
+#clue-btn:hover {
   border: 3px solid lightseagreen;
   color: lightseagreen;
 }
@@ -209,7 +207,7 @@ a {
   flex-direction: column;
   position: relative;
 }
-#show-clue-modal-btn-container {
+.clue-btn__container {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -235,7 +233,7 @@ a {
   border-radius: 40%;
 }
 
-#rules-table-img {
+.rules-table__img {
   padding: 1em;
   width: 90%;
 }
