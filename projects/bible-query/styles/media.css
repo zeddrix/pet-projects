@@ -78,10 +78,6 @@
     margin: 0em 0.5em;
     border-radius: 0.3em;
   }
-  #show-clue-modal-btn-container {
-    padding-top: 5.7em;
-    padding-left: 12.5em;
-  }
   #show-clue-modal-btn {
     border: 2.5px solid rgb(177, 15, 15);
     padding: 0.2em 0.7em;
@@ -222,10 +218,6 @@
     margin: 0em 0.5em;
     border-radius: 0.3em;
   }
-  #show-clue-modal-btn-container {
-    padding-top: 7.4em;
-    padding-left: 18.2em;
-  }
   #show-clue-modal-btn {
     border: 2.5px solid rgb(177, 15, 15);
     padding: 0.2em 0.7em;
@@ -343,10 +335,6 @@
     margin-bottom: 3.1em;
   }
   /* Modals */
-  #show-clue-modal-btn-container {
-    padding-top: em;
-    padding-left: 18.2em;
-  }
   #show-clue-modal-btn {
     border: 2.5px solid rgb(177, 15, 15);
     padding: 0.2em 0.7em;
@@ -395,9 +383,10 @@
     margin: 0.5em;
     border-radius: 0.4em;
   }
-  #show-clue-modal-btn-container {
-    padding-top: 9.3em;
-    padding-left: 20.3em;
+  #show-clue-modal-btn {
+    border: 2.5px solid rgb(177, 15, 15);
+    padding: 0.2em 0.7em;
+    font-size: 1.5em;
   }
   .choice {
     font-size: 1em;

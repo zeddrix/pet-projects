@@ -118,13 +118,15 @@ a {
   color: rgb(81, 220, 245);
 }
 
-.bk-img {
+.background {
   background: url(../img/bk-img.jpg);
   background-size: cover;
 }
 
 .container {
-  border: 0;
+  border: 2px solid white;
+  border-top: 0;
+  border-bottom: 0;
   position: relative;
   overflow: hidden;
 }
@@ -205,6 +207,12 @@ a {
   border: 0.4em solid rgb(7, 128, 119);
   justify-content: center;
   flex-direction: column;
+  position: relative;
+}
+#show-clue-modal-btn-container {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 #counter {
   font-size: 0; /* remove counter */
