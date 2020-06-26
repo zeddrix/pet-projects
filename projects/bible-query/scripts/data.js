@@ -4782,9 +4782,11 @@ const prophets = [
     correctAnswer: "A",
   },
   {
-    question: "Who was sleeping “in the temple of Jehovah, where the Ark of God was”?",
+    question:
+      "Who was sleeping “in the temple of Jehovah, where the Ark of God was”?",
     clueSource: "1 Samuel 3:3",
-    clueSourceContent: "3 The lamp of God had not yet been extinguished, and Samuel was lying in the temple of Jehovah, where the Ark of God was.",
+    clueSourceContent:
+      "3 The lamp of God had not yet been extinguished, and Samuel was lying in the temple of Jehovah, where the Ark of God was.",
     choiceA: "Samuel",
     choiceB: "",
     choiceC: "",
@@ -4792,9 +4794,11 @@ const prophets = [
     correctAnswer: "A",
   },
   {
-    question: "Jehovah answered his prayer by throwing the Philistines into confusion with thunder, enabling the Israelites to gain a decisive victory.",
+    question:
+      "Jehovah answered his prayer by throwing the Philistines into confusion with thunder, enabling the Israelites to gain a decisive victory.",
     clueSource: "1 Samuel 1:9, 10",
-    clueSourceContent: "9 Then Samuel took a suckling lamb and offered it up as a whole burnt offering to Jehovah; and Samuel called to Jehovah for help in behalf of Israel, and Jehovah answered him. 10 As Samuel was offering up the burnt offering, the Phi·lisʹtines advanced for battle against Israel. Jehovah now caused it to thunder loudly on that day against the Phi·lisʹtines, and He threw them into confusion, and they were defeated before Israel.",
+    clueSourceContent:
+      "9 Then Samuel took a suckling lamb and offered it up as a whole burnt offering to Jehovah; and Samuel called to Jehovah for help in behalf of Israel, and Jehovah answered him. 10 As Samuel was offering up the burnt offering, the Phi·lisʹtines advanced for battle against Israel. Jehovah now caused it to thunder loudly on that day against the Phi·lisʹtines, and He threw them into confusion, and they were defeated before Israel.",
     choiceA: "Samuel",
     choiceB: "Hezekiah",
     choiceC: "Elijah",
@@ -4802,9 +4806,11 @@ const prophets = [
     correctAnswer: "A",
   },
   {
-    question: "He worked out some arrangement for the Levite gatekeepers that served as a basis of David's organization.",
+    question:
+      "He worked out some arrangement for the Levite gatekeepers that served as a basis of David's organization.",
     clueSource: "1 Chronicles 9:22",
-    clueSourceContent: "22 All those selected as gatekeepers at the thresholds numbered 212. They were in their settlements by their genealogical enrollment. David and Samuel the seer appointed these to their office of trust.",
+    clueSourceContent:
+      "22 All those selected as gatekeepers at the thresholds numbered 212. They were in their settlements by their genealogical enrollment. David and Samuel the seer appointed these to their office of trust.",
     choiceA: "Samuel",
     choiceB: "",
     choiceC: "",
@@ -4814,7 +4820,8 @@ const prophets = [
   {
     question: "Who appointed Saul as king of Israel?",
     clueSource: "1 Samuel 9:15-17",
-    clueSourceContent: "15 The day before Saul came, Jehovah had told Samuel: 16 “Tomorrow about this time, I will send to you a man from the land of Benjamin. You must anoint him as leader over my people Israel, and he will save my people from the hand of the Phi·lisʹtines. For I have seen the affliction of my people, and their outcry has reached me.” 17 When Samuel saw Saul, Jehovah told him: “Here is the man of whom I said to you, ‘This is the one who will govern my people.’”",
+    clueSourceContent:
+      "15 The day before Saul came, Jehovah had told Samuel: 16 “Tomorrow about this time, I will send to you a man from the land of Benjamin. You must anoint him as leader over my people Israel, and he will save my people from the hand of the Phi·lisʹtines. For I have seen the affliction of my people, and their outcry has reached me.” 17 When Samuel saw Saul, Jehovah told him: “Here is the man of whom I said to you, ‘This is the one who will govern my people.’”",
     choiceA: "Samuel",
     choiceB: "",
     choiceC: "",
@@ -4822,29 +4829,11 @@ const prophets = [
     correctAnswer: "A",
   },
   {
-    question: "",
-    clueSource: "",
-    clueSourceContent: "",
-    choiceA: "",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correctAnswer: "",
-  },
-  {
-    question: "",
-    clueSource: "",
-    clueSourceContent: "",
-    choiceA: "",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correctAnswer: "",
-  },
-  {
-    question: "To whom did Jehovah said this: “Mere man sees what appears to the eyes, but Jehovah sees into the heart”?",
+    question:
+      "To whom did Jehovah said this: “Mere man sees what appears to the eyes, but Jehovah sees into the heart”?",
     clueSource: "1 Samuel 16:6, 7",
-    clueSourceContent: "6 As they came in and he saw E·liʹab, he said: “Surely here before Jehovah stands his anointed one.” 7 But Jehovah said to Samuel: “Do not pay attention to his appearance and how tall he is, for I have rejected him. For the way man sees is not the way God sees, because mere man sees what appears to the eyes, but Jehovah sees into the heart.”",
+    clueSourceContent:
+      "6 As they came in and he saw E·liʹab, he said: “Surely here before Jehovah stands his anointed one.” 7 But Jehovah said to Samuel: “Do not pay attention to his appearance and how tall he is, for I have rejected him. For the way man sees is not the way God sees, because mere man sees what appears to the eyes, but Jehovah sees into the heart.”",
     choiceA: "Samuel",
     choiceB: "",
     choiceC: "",
@@ -4852,9 +4841,11 @@ const prophets = [
     correctAnswer: "A",
   },
   {
-    question: "Who “spoke to the people about the rightful due of kings and wrote it in a book and deposited it before Jehovah”?",
+    question:
+      "Who “spoke to the people about the rightful due of kings and wrote it in a book and deposited it before Jehovah”?",
     clueSource: "1 Samuel 10:25",
-    clueSourceContent: "25 Samuel spoke to the people about the rightful due of kings and wrote it in a book and deposited it before Jehovah. Then Samuel sent all the people away, everyone to his house.",
+    clueSourceContent:
+      "25 Samuel spoke to the people about the rightful due of kings and wrote it in a book and deposited it before Jehovah. Then Samuel sent all the people away, everyone to his house.",
     choiceA: "Samuel",
     choiceB: "",
     choiceC: "",
@@ -4862,44 +4853,88 @@ const prophets = [
     correctAnswer: "A",
   },
   {
-    question: "",
-    clueSource: "",
-    clueSourceContent: "",
-    choiceA: "",
+    question:
+      "Following Saul’s victory over the Ammonites, who directed that the Israelites come to Gilgal to confirm the kingship anew?",
+    clueSource: "1 Samuel 11:14, 15",
+    clueSourceContent:
+      "14 Samuel later said to the people: “Come and let us go to Gilʹgal to reconfirm the kingship.” 15 So all the people went to Gilʹgal, and in Gilʹgal they made Saul king before Jehovah. Then they offered communion sacrifices there before Jehovah, and Saul and all the men of Israel celebrated with great joy.",
+    choiceA: "Samuel",
     choiceB: "",
     choiceC: "",
     choiceD: "",
-    correctAnswer: "",
+    correctAnswer: "A",
   },
   {
-    question: "",
-    clueSource: "",
-    clueSourceContent: "",
-    choiceA: "",
+    question:
+      "Who the seriousness of rejecting Jehovah as King, who prayed for an unseasonal thunderstorm?",
+    clueSource: "1 Samuel 12:1-18",
+    clueSourceContent:
+      "Finally Samuel said to all Israel: “Here I have done all that you asked of me, and I appointed a king to reign over you. 2 Now here is the king who is leading you! As for me, I have grown old and gray, and my sons are here with you, and I have led you from my youth until this day. 3 Here I am. Testify against me before Jehovah and before his anointed one: Whose bull or whose donkey have I taken? Or whom have I defrauded or crushed? From whose hand have I accepted a bribe to make me look the other way? If I have, I will restore it to you.” 4 To this they said: “You have not defrauded us or crushed us or accepted anything at all from anyone’s hand.” 5 So he said to them: “Jehovah is a witness against you, and his anointed one is a witness this day that you have found nothing to accuse me of.” To this they said: “He is a witness.” 6 So Samuel said to the people: “Jehovah, who used Moses and Aaron and who brought your forefathers up out of the land of Egypt, is a witness. 7 And now take your positions, and I will judge you before Jehovah in view of all the righteous acts that Jehovah has done for you and for your forefathers. 8 “As soon as Jacob had come into Egypt and your forefathers began calling to Jehovah for help, Jehovah sent Moses and Aaron to lead your forefathers out of Egypt and to cause them to dwell in this place. 9 But they forgot Jehovah their God, and he sold them into the hand of Sisʹe·ra the chief of the army of Haʹzor and into the hand of the Phi·lisʹtines and into the hand of the king of Moʹab, and they fought against them. 10 And they called to Jehovah for help and said, ‘We have sinned, for we have left Jehovah to serve the Baʹals and the Ashʹto·reth images; now rescue us out of the hand of our enemies so that we may serve you.’ 11 Then Jehovah sent Jer·ub·baʹal and Beʹdan and Jephʹthah and Samuel and rescued you from the hand of the enemies all around you, so that you could live in security. 12 When you saw that Naʹhash, the king of the Amʹmon·ites, had come against you, you kept saying to me, ‘No, we are determined to have a king over us!’ even though Jehovah your God is your King. 13 Now here is the king whom you have chosen, the one you asked for. Look! Jehovah has appointed a king over you. 14 If you fear Jehovah and serve him and obey his voice and you do not rebel against the order of Jehovah, and both you and the king who reigns over you follow Jehovah your God, fine. 15 But if you do not obey the voice of Jehovah and you rebel against the order of Jehovah, the hand of Jehovah will be against you and your fathers. 16 Now take your positions and see this great thing that Jehovah is doing before your eyes. 17 Is it not the wheat harvest today? I will call on Jehovah to make it thunder and rain; then know and understand what an evil thing you have done in the eyes of Jehovah in asking for a king for yourselves.” 18 At that Samuel called to Jehovah, and Jehovah made it thunder and rain on that day, so that all the people were greatly in fear of Jehovah and of Samuel.",
+    choiceA: "Samuel",
     choiceB: "",
     choiceC: "",
     choiceD: "",
-    correctAnswer: "",
+    correctAnswer: "A",
   },
   {
-    question: "",
-    clueSource: "",
-    clueSourceContent: "",
-    choiceA: "",
+    question:
+      "King Saul was suppose to wait for this prophet for the offering of the sacrifices.",
+    clueSource: "1 Samuel 13:8-14",
+    clueSourceContent:
+      "8 He continued waiting for seven days until the designated time that Samuel had set, but Samuel did not come to Gilʹgal, and the people were scattering from him. 9 Finally Saul said: “Bring to me the burnt sacrifice and the communion sacrifices.” And he offered up the burnt sacrifice. 10 But as soon as he had finished offering up the burnt sacrifice, Samuel arrived. So Saul went out to meet him and bless him. 11 Then Samuel said: “What have you done?” Saul replied: “I saw that the people were deserting me, and you did not come within the designated time, and the Phi·lisʹtines were gathering together at Michʹmash. 12 So I said to myself, ‘Now the Phi·lisʹtines will come down against me at Gilʹgal, and I have not sought the favor of Jehovah.’ So I felt obligated to offer up the burnt sacrifice.” 13 At this Samuel said to Saul: “You have acted foolishly. You have not obeyed the commandment that Jehovah your God gave you. If you had, Jehovah would have made your kingdom firm over Israel forever. 14 But now your kingdom will not last. Jehovah will find a man agreeable to his heart, and Jehovah will commission him as a leader over his people, because you did not obey what Jehovah commanded you.”",
+    choiceA: "Samuel",
     choiceB: "",
     choiceC: "",
     choiceD: "",
-    correctAnswer: "",
+    correctAnswer: "A",
   },
   {
-    question: "",
-    clueSource: "",
-    clueSourceContent: "",
-    choiceA: "",
+    question:
+      "Who hacked king Agag of Amalek to pieces before Jehovah at Gilgal?",
+    clueSource: "1 Samuel 15:30-33",
+    clueSourceContent:
+      "30 At this he said: “I have sinned. But honor me, please, in front of the elders of my people and in front of Israel. Return with me, and I will bow down to Jehovah your God.” 31 So Samuel returned behind Saul, and Saul bowed down to Jehovah. 32 And Samuel said: “Bring Aʹgag the king of Amʹa·lek near to me.” Then Aʹgag went to him reluctantly, for Aʹgag had been saying to himself: ‘Surely the threat of death is past.’ 33 However, Samuel said: “Just as your sword has bereaved women of children, so your mother will be most bereaved among women.” With that Samuel hacked Aʹgag to pieces before Jehovah at Gilʹgal.",
+    choiceA: "Samuel",
     choiceB: "",
     choiceC: "",
     choiceD: "",
-    correctAnswer: "",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Jehovah commissioned him to go to Bethlehem to anoint one of the sons of Jesse as Israel’s future king.",
+    clueSource: "1 Samuel 16:1-13",
+    clueSourceContent:
+      "Jehovah eventually said to Samuel: “How long will you mourn for Saul now that I have rejected him from ruling as king over Israel? Fill your horn with oil and go. I will send you to Jesʹse the Bethʹle·hem·ite, because I have selected from among his sons a king for myself.” 2 But Samuel said: “How can I go? When Saul hears about it, he will kill me.” Jehovah replied: “Take a young cow with you and say, ‘I have come to sacrifice to Jehovah.’ 3 Invite Jesʹse to the sacrifice; then I will make known to you what to do. You must anoint for me the one whom I designate to you.” 4 Samuel did what Jehovah said. When he came to Bethʹle·hem, the elders of the city were trembling at meeting him, and they said: “Does your coming mean peace?” 5 To this he said: “It means peace. I have come to sacrifice to Jehovah. Sanctify yourselves, and come with me to the sacrifice.” Then he sanctified Jesʹse and his sons, after which he summoned them to the sacrifice. 6 As they came in and he saw E·liʹab, he said: “Surely here before Jehovah stands his anointed one.” 7 But Jehovah said to Samuel: “Do not pay attention to his appearance and how tall he is, for I have rejected him. For the way man sees is not the way God sees, because mere man sees what appears to the eyes, but Jehovah sees into the heart.” 8 Then Jesʹse called A·binʹa·dab and had him pass before Samuel, but he said: “Jehovah has not chosen this one either.” 9 Next Jesʹse presented Shamʹmah, but he said: “Jehovah has not chosen this one either.” 10 So Jesʹse had seven of his sons pass before Samuel, but Samuel said to Jesʹse: “Jehovah has not chosen any of these.” 11 Finally Samuel said to Jesʹse: “Are these all of your boys?” To this he said: “The youngest has been left out until now; he is pasturing the sheep.” Then Samuel said to Jesʹse: “Send for him, because we will not sit down for the meal until he comes here.” 12 So he sent for him and brought him in. Now he was ruddy, with beautiful eyes, and handsome in appearance. Then Jehovah said: “Get up, anoint him, for this is the one!” 13 So Samuel took the horn of oil and anointed him in the presence of his brothers. And the spirit of Jehovah began to empower David from that day forward. Samuel later rose and went his way to Raʹmah.",
+    choiceA: "Samuel",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "To avoid any suspicion on king Saul’s part, Jehovah instructed this prophet to take with him a cow for sacrifice.",
+    clueSource: "1 Samuel 16:1-3",
+    clueSourceContent:
+      "Jehovah eventually said to Samuel: “How long will you mourn for Saul now that I have rejected him from ruling as king over Israel? Fill your horn with oil and go. I will send you to Jesʹse the Bethʹle·hem·ite, because I have selected from among his sons a king for myself.” 2 But Samuel said: “How can I go? When Saul hears about it, he will kill me.” Jehovah replied: “Take a young cow with you and say, ‘I have come to sacrifice to Jehovah.’ 3 Invite Jesʹse to the sacrifice; then I will make known to you what to do. You must anoint for me the one whom I designate to you.”",
+    choiceA: "Samuel",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "He “died; and all Israel gathered together to mourn for him and to bury him at his house in Raʹmah.”",
+    clueSource: "1 Samuel 25:1",
+    clueSourceContent:
+      "In time Samuel died; and all Israel gathered together to mourn for him and to bury him at his house in Raʹmah. Then David rose and went down to the wilderness of Paʹran.",
+    choiceA: "Samuel",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A",
   },
 ];
 
