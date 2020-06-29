@@ -4,8 +4,8 @@ const scoreBlock = document.getElementById("score__block");
 const settingsBlock = document.getElementById("settings__block");
 const rulesBlock = document.getElementById("rules__block");
 const aboutBlock = document.getElementById("about__block");
-const queryBlock = document.getElementById("query__block");
-const queryMenuBtns = document.getElementById("query-menu-btns");
+const queryBlock = document.getElementById("query");
+const queryMenuBtns = document.getElementById("query__menu-btns");
 const scoreMenuBtns = document.getElementById("score-menu-btns");
 
 const homepage = () => {

@@ -19,13 +19,13 @@ window.addEventListener("click", function (event) {
     startQuery();
   } else if (event.target.matches("#reset-game__btn")) {
     showResetGameModal();
-  } else if (event.target.matches("#clue-btn")) {
+  } else if (event.target.matches("#query__clue-btn")) {
     showClueModal();
-  } else if (event.target.matches("#query-menu-btns__levels")) {
+  } else if (event.target.matches("#query__menu-btns__levels")) {
     showLevelsModal();
-  } else if (event.target.matches("#query-menu-btns__retry")) {
+  } else if (event.target.matches("#query__menu-btns__retry")) {
     showRetryQueryModal();
-  } else if (event.target.matches("#query-menu-btns__quit")) {
+  } else if (event.target.matches("#query__menu-btns__quit")) {
     showQuitQueryModal();
   } else if (event.target.matches("#confirm-retry-query")) {
     confirmRetryQuery();

@@ -35,7 +35,7 @@ const startQuery = () => {
 };
 
 const renderQuestion = () => {
-  const question = document.getElementById("question__div");
+  const question = document.getElementById("query__question");
   const clueSource = document.getElementById("clue-source");
   const clueSourceContent = document.getElementById("clue-source-content");
   const choiceA = document.getElementById("A");
@@ -44,7 +44,7 @@ const renderQuestion = () => {
   const choiceD = document.getElementById("D");
   let q = rivers[currentQuestion];
 
-  question.innerHTML = `<p id="question">${q.question}</p>`;
+  question.innerHTML = `<p>${q.question}</p>`;
   clueSource.innerHTML = `<h2>${q.clueSource}</h2>`;
   clueSourceContent.innerHTML = `<p>${q.clueSourceContent}</p>`;
   choiceA.innerHTML = q.choiceA;
@@ -55,9 +55,9 @@ const renderQuestion = () => {
 
 const lastQuestion = rivers.length - 1;
 const renderProgress = () => {
-  const progress = document.getElementById("progress");
+  const queryProgress = document.getElementById("query__progress");
   for (qIndex; qIndex <= lastQuestion; qIndex++) {
-    progress.innerHTML += `<div class='progress' id="${qIndex}"></div>`;
+    queryProgress.innerHTML += `<div class='query__all-progress' id="${qIndex}"></div>`;
   }
 };
 
@@ -70,14 +70,14 @@ const answerIsWrong = () => {
 };
 
 const renderCounter = () => {
-  const timeGauge = document.getElementById("time-gauge");
-  const counter = document.getElementById("counter");
+  const timeGauge = document.getElementById("query__time");
+  const queryCounter = document.getElementById("query__counter");
   const questionTime = 10; // 10s
   let gaugeWidth = 98; // percent
   const gaugeUnit = gaugeWidth / questionTime;
 
   if (count <= questionTime) {
-    counter.innerHTML = count;
+    queryCounter.innerHTML = count;
     timeGauge.style.width = `${count * gaugeUnit}%`;
     count++;
   } else {

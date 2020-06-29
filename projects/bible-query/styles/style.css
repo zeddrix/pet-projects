@@ -84,10 +84,10 @@ a {
 }
 
 /* -------------------QUERY---------------- */
-#level-theme {
-  font-size: 1rem;
+#query__level-theme {
+  font-size: 1.2rem;
 }
-.question-container {
+.query__question-section {
   height: 10rem;
   margin: 0 0.5rem;
   border-radius: 5px;
@@ -96,23 +96,21 @@ a {
   flex-direction: column;
   position: relative;
 }
-#question {
+#question p {
   font-size: 1.1rem;
 }
 
-.clue-btn__container {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-}
-#clue-btn {
+#query__clue-btn {
   border: 2.5px solid rgb(177, 15, 15);
   padding: 0.25rem 0.8rem;
   font-size: 1.2rem;
   position: relative;
   color: lightgrey;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
-#clue-btn:hover {
+#query__clue-btn:hover {
   border: 3px solid lightseagreen;
   color: lightseagreen;
 }
@@ -130,7 +128,7 @@ a {
   overflow: auto;
 }
 
-#time-gauge {
+#query__time {
   background-color: white;
   /* margin: 0.25rem 0.75rem; */
   margin: 0.25rem;
@@ -138,7 +136,7 @@ a {
   border-radius: 16px;
 }
 
-.choice {
+.query__choice {
   height: 3.75rem;
   margin: 0.3rem 0.75rem;
   border-radius: 5px;
@@ -149,15 +147,7 @@ a {
   position: relative;
 }
 
-#progress {
-  width: 100%;
-}
-#progress-container {
-  padding: 0.1rem;
-  margin-top: 0;
-  padding-top: 0;
-}
-.progress {
+.query__all-progress {
   width: 0.9rem;
   height: 0.9rem;
   margin: 0 0.03rem;
@@ -188,17 +178,14 @@ a {
 }
 
 .rules-table__img {
-  margin: 1em;
+  margin: 1rem;
   width: 90%;
-}
-#counter {
-  font-size: 0; /* remove counter */
 }
 
 /* ------------BUTTONS>------------- */
 .settings-btns,
 .levels__sm-btns,
-#query-menu-btns,
+#query__menu-btns,
 #score-menu-btns {
   text-align: center;
   position: fixed;
@@ -230,14 +217,13 @@ a {
 .page__heading,
 #stars,
 .centered-sm-btns,
-.question-container,
+.query__question-section,
 .modal-content,
 .bible-query__title,
 #okay-sm-btn-container,
 #quit-sm-btns-container,
 .levels__number,
-#query__block,
-#timer,
+#query,
 .hr-container,
 .settings-btns,
 .rules-table__container,
@@ -248,31 +234,30 @@ a {
 a,
 .main-btn:hover,
 .button:hover,
-.choice,
+.query__choice,
 .sm-btn,
 #level,
 .okay-sm-btn,
 .yes-sm-btn,
 .no-sm-btn,
 .levels__number,
-#clue-btn {
+#query__clue-btn {
   cursor: pointer;
 }
 
 .outer-container,
-#clue-btn {
+#query__clue-btn {
   margin: 0;
 }
 
 .outer-container,
-.container,
-#choices-container {
+.container {
   padding: 0;
 }
 
 .main-btn,
-.question-container,
-#query__block {
+.query__question-section,
+#query {
   display: flex;
 }
 .modal-content,
