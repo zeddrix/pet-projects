@@ -63,27 +63,38 @@ a {
 }
 .page__heading {
   font-size: 2rem;
+  margin-bottom: 0.5rem;
 }
 #stars {
   font-size: 1.2rem;
+  margin: 0;
 }
 .page__sub-heading {
   font-size: 1.3rem;
   margin-left: 0.5rem;
 }
+
 .levels__number,
 #query__clue-btn {
-  color: lightgrey;
+  border: 2.5px solid;
   font-size: 1.5rem;
+  height: 2.5rem;
+  width: 2.5rem;
+  color: lightgrey;
   position: absolute;
   font-weight: bolder;
 }
 .levels__number {
-  padding: 0.1rem 0.75rem;
-  border: 2.5px solid lightgrey;
+  border-color: lightgrey;
   margin: 1.5rem;
 }
-.levels__number:hover {
+#query__clue-btn {
+  border-color: #cf1b1b;
+  bottom: 0;
+  right: 0;
+}
+.levels__number:hover,
+#query__clue-btn:hover {
   border: 2.5px solid lightseagreen;
   color: lightseagreen;
 }
@@ -93,7 +104,7 @@ a {
   font-size: 1.2rem;
 }
 .query__question-section {
-  height: 10rem;
+  height: 28vh;
   margin: 0 0.5rem;
   border-radius: 5px;
   border: 3px solid rgb(7, 128, 119);
@@ -105,16 +116,6 @@ a {
   font-size: 1.1rem;
 }
 
-#query__clue-btn {
-  padding: 0.1rem 0.90rem;
-  border: 2.5px solid rgb(207, 27, 27);
-  bottom: 0;
-  right: 0;
-}
-#query__clue-btn:hover {
-  border: 2.5px solid lightseagreen;
-  color: lightseagreen;
-}
 #clue__source {
   margin-left: 0.4rem;
   padding-top: 0.7rem;
@@ -137,7 +138,7 @@ a {
 }
 
 .query__choice {
-  height: 3.75rem;
+  height: 9vh;
   margin: 0.3rem 0.75rem;
   border-radius: 5px;
   font-size: 1rem;
