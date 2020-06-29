@@ -35,7 +35,7 @@ const startQuery = () => {
 };
 
 const renderQuestion = () => {
-  const question = document.getElementById("question");
+  const question = document.getElementById("question__div");
   const clueSource = document.getElementById("clue-source");
   const clueSourceContent = document.getElementById("clue-source-content");
   const choiceA = document.getElementById("A");
@@ -44,7 +44,7 @@ const renderQuestion = () => {
   const choiceD = document.getElementById("D");
   let q = rivers[currentQuestion];
 
-  question.innerHTML = `<p>${q.question}</p>`;
+  question.innerHTML = `<p id="question">${q.question}</p>`;
   clueSource.innerHTML = `<h2>${q.clueSource}</h2>`;
   clueSourceContent.innerHTML = `<p>${q.clueSourceContent}</p>`;
   choiceA.innerHTML = q.choiceA;

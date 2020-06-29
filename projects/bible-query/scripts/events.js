@@ -15,7 +15,7 @@ window.addEventListener("click", function (event) {
     showFriendsModal();
   } else if (event.target.matches("#main-btn__quit")) {
     showQuitModal();
-  } else if (event.target.matches("#level-number")) {
+  } else if (event.target.matches(".levels__number")) {
     startQuery();
   } else if (event.target.matches("#reset-game__btn")) {
     showResetGameModal();
