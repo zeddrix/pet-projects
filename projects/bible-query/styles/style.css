@@ -16,6 +16,8 @@ body {
 }
 .container {
   height: 100vh;
+  margin: auto;
+  max-width: 420px;
   border: 2px solid white;
   border-top: 0;
   border-bottom: 0;
