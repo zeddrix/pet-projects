@@ -110,6 +110,30 @@ const checkAnswer = (answer) => {
   }
 };
 
+const scorePhrase1 = () => {
+  const scorePercent = Math.round((100 * score) / rivers.length);
+
+  let fsp1 =
+    scorePercent == 100
+      ? "Well done!"
+      : scorePercent >= 90
+      ? "Excellent!"
+      : scorePercent >= 51
+      ? "Nice!"
+      : scorePercent >= 50
+      ? "Good!"
+      : scorePercent >= 30
+      ? "Okay!"
+      : scorePercent >= 15
+      ? "Don't give up!"
+      : "Don't give up!";
+
+  const finalScorePhrase1Div = document.getElementById(
+    "final-score__phrase-1__div"
+  );
+  finalScorePhrase1Div.innerHTML = `<h1 class='final-score__phrase-1'>${fsp1}</h1>`;
+};
+
 const scoreStarAndPercentage = () => {
   const scorePercent = Math.round((100 * score) / rivers.length);
 
@@ -128,39 +152,19 @@ const scoreStarAndPercentage = () => {
       ? "img/one-half-star.png"
       : "img/zero-star.png";
 
-  const finalScoreImgDiv = document.getElementById("final-score-img-div");
-  finalScoreImgDiv.innerHTML = `<img id='final-score-img' src=${img}>`;
+  const finalScoreImgDiv = document.getElementById("final-score__img__div");
+  finalScoreImgDiv.innerHTML = `<img class='final-score__img' src=${img}>`;
 
   const finalScorePercentageDiv = document.getElementById(
-    "final-score-percentage-div"
+    "final-score__percentage__div"
   );
-  finalScorePercentageDiv.innerHTML = `<p id='final-score-percentage'>${scorePercent}%</p>`;
+  finalScorePercentageDiv.innerHTML = `<p class='final-score__percentage'>${scorePercent}%</p>`;
 };
-const scorePhrase1 = () => {
-  const scorePercent = Math.round((100 * score) / rivers.length);
 
-  let sp1 =
-    scorePercent == 100
-      ? "Well done!"
-      : scorePercent >= 90
-      ? "Excellent!"
-      : scorePercent >= 51
-      ? "Nice!"
-      : scorePercent >= 50
-      ? "Good!"
-      : scorePercent >= 30
-      ? "Okay!"
-      : scorePercent >= 15
-      ? "Don't give up!"
-      : "Don't give up!";
-
-  const scorePhrase1Div = document.getElementById("score-phrase-1-div");
-  scorePhrase1Div.innerHTML = `<h1 id='score-phrase-1'>${sp1}</h1>`;
-};
 const scorePhrase2 = () => {
   const scorePercent = Math.round((100 * score) / rivers.length);
 
-  let sp2 =
+  let fsp2 =
     scorePercent == 100
       ? "You got all the questions right!"
       : scorePercent >= 90
@@ -173,8 +177,8 @@ const scorePhrase2 = () => {
       ? "That's okay. Play again and crush this level!"
       : "Play again and crush this level!";
 
-  const scorePhrase2Div = document.getElementById("score-phrase-2-div");
-  scorePhrase2Div.innerHTML = `<p id='score-phrase-2'>${sp2}</p>`;
+  const scorePhrase2Div = document.getElementById("final-score__phrase-2__div");
+  scorePhrase2Div.innerHTML = `<p class='final-score__phrase-2'>${fsp2}</p>`;
 };
 const finalScore = () => {
   scorePage();
