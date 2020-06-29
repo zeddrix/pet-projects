@@ -38,10 +38,10 @@ const renderQuestion = () => {
   const question = document.getElementById("query__question");
   const clueSource = document.getElementById("clue-source");
   const clueSourceContent = document.getElementById("clue-source-content");
-  const choiceA = document.getElementById("A");
-  const choiceB = document.getElementById("B");
-  const choiceC = document.getElementById("C");
-  const choiceD = document.getElementById("D");
+  const choiceA = document.getElementById("choice-A");
+  const choiceB = document.getElementById("choice-B");
+  const choiceC = document.getElementById("choice-C");
+  const choiceD = document.getElementById("choice-D");
   let q = rivers[currentQuestion];
 
   question.innerHTML = `<p>${q.question}</p>`;

@@ -21,6 +21,14 @@ window.addEventListener("click", function (event) {
     showResetGameModal();
   } else if (event.target.matches("#query__clue-btn")) {
     showClueModal();
+  } else if (event.target.matches("#choice-A")) {
+    checkAnswer("A");
+  } else if (event.target.matches("#choice-B")) {
+    checkAnswer("B");
+  } else if (event.target.matches("#choice-C")) {
+    checkAnswer("C");
+  } else if (event.target.matches("#choice-D")) {
+    checkAnswer("D");
   } else if (event.target.matches("#query__menu-btns__levels")) {
     showLevelsModal();
   } else if (event.target.matches("#query__menu-btns__retry")) {
@@ -32,7 +40,7 @@ window.addEventListener("click", function (event) {
   } else {
     closeModal();
     console.log(
-      "You haven't clicked on any button. You're just clicking everywhere, except for the choices, yes."
+      "You haven't clicked on any button. You're just clicking everywhere."
     );
   }
 });
