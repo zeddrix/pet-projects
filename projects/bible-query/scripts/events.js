@@ -32,7 +32,7 @@ window.addEventListener("click", function (event) {
   } else {
     closeModal();
     console.log(
-      "You haven't clicked on any button. You're just clicking everywhere."
+      "You haven't clicked on any button. You're just clicking everywhere, except for the choices, yes."
     );
   }
 });

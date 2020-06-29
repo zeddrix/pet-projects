@@ -114,7 +114,6 @@ a {
   border: 3px solid lightseagreen;
   color: lightseagreen;
 }
-
 #clue-source {
   margin-left: 0.4rem;
   padding-top: 0.7rem;
@@ -179,6 +178,20 @@ a {
 }
 
 /* ------------BUTTONS>------------- */
+.okay__btn {
+  padding: 1rem;
+  width: 25%;
+  display: block;
+  margin: auto;
+}
+
+.yes-no__btns {
+  padding: 1rem;
+  width: 25%;
+  display: inline-block;
+  margin: auto;
+}
+
 .settings-btns,
 .levels__sm-btns,
 .query__menu-btns,
@@ -189,25 +202,15 @@ a {
 }
 .main-btn,
 .sm-btn,
-.okay-sm-btn,
-.yes-sm-btn,
-.no-sm-btn {
+.okay__btn
+.yes-no__btns {
   border: 0;
 }
-.sm-btn,
-.yes-sm-btn,
-.no-sm-btn {
+.sm-btn {
   margin: 0.5rem;
   width: 25%;
 }
 
-.okay-sm-btn {
-  margin: 0.4rem;
-  width: 23%;
-}
-#okay-sm-btn-container {
-  margin: 0.5rem;
-}
 /* ------------BUTTONS^------------- */
 
 .page__heading,
@@ -216,8 +219,6 @@ a {
 .query__question-section,
 .modal-content,
 .bible-query__title,
-#okay-sm-btn-container,
-#quit-sm-btns-container,
 .levels__number,
 #query,
 .hr-container,
@@ -233,9 +234,8 @@ a,
 .query__choice,
 .sm-btn,
 #level,
-.okay-sm-btn,
-.yes-sm-btn,
-.no-sm-btn,
+.okay__btn,
+.yes-no__btns,
 .levels__number,
 #query__clue-btn {
   cursor: pointer;
@@ -287,6 +287,7 @@ a,
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   animation-name: zoomIn;
   animation-duration: 0.1s;
+  text-align: center;
 }
 .hr-line {
   border-top: 1px dotted grey;
