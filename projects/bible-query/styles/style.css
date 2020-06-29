@@ -211,6 +211,21 @@ a {
   width: 25%;
 }
 
+/* .sm-menu-btns {
+  bottom: 2.75rem;
+  width: 25%;
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  position: fixed;
+}
+.main-btn,
+.sm-btn,
+.okay__btn,
+.yes-no__btns {
+  border: 0;
+} */
+
 /* ------------BUTTONS^------------- */
 
 .page__heading,
