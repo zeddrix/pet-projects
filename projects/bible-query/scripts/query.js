@@ -73,7 +73,7 @@ const renderCounter = () => {
   const timeGauge = document.getElementById("time-gauge");
   const counter = document.getElementById("counter");
   const questionTime = 10; // 10s
-  let gaugeWidth = 99; // percent
+  let gaugeWidth = 98; // percent
   const gaugeUnit = gaugeWidth / questionTime;
 
   if (count <= questionTime) {
