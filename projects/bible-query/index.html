@@ -40,7 +40,7 @@
           <h1 class="page__heading">SELECT A LEVEL</h1>
           <h3 id="stars">Stars: 0</h3>
           <div class="levels__number">1</div>
-          <div class="levels__sm-btns centered-sm-btns">
+          <div class="levels__sm-btns">
             <img src="img/back-sm-btn.jpg" class="go-to-homepage sm-btn" />
             <img src="img/settings-sm-btn.jpg" class="settings sm-btn" />
           </div>
@@ -269,107 +269,91 @@
         <!-- ----------------------------MODALS---------------------------- -->
         <!-- TELL YOUR FRIENDS -->
         <div id="friends-modal" class="modal">
-          <div class="modal-effect">
-            <div class="modal-content">
+          <div class="modal__effect">
+            <div class="modal__content">
               <p>
                 You are now temporarily leaving the game to send a
                 recommendation using your preferred messaging application.
               </p>
             </div>
-            <img src="img/okay-sm-btn.jpg" class="close-modal okay__btn" />
+            <img src="img/okay-sm-btn.jpg" class="modal_close okay__btn" />
           </div>
         </div>
         <!-- QUIT -->
         <div id="quit-modal" class="modal">
-          <div class="modal-effect">
-            <div class="modal-content">
+          <div class="modal__effect">
+            <div class="modal__content">
               <p>Are you sure you want to quit?</p>
             </div>
-            <img
-              src="img/yes-sm-btn.jpg"
-              id="quit-modal-yes-sm-btn"
-              class="close-modal yes-no__btns"
-            />
-            <img
-              src="img/no-sm-btn.jpg"
-              id="quit-modal-no-sm-btn"
-              class="close-modal yes-no__btns"
-            />
+            <img src="img/yes-sm-btn.jpg" class="modal_close yes-no__btns" />
+            <img src="img/no-sm-btn.jpg" class="modal_close yes-no__btns" />
           </div>
         </div>
         <!-- RESET GAME -->
         <div id="reset-game-modal" class="modal">
-          <div class="modal-effect">
-            <div class="modal-content">
+          <div class="modal__effect">
+            <div class="modal__content">
               <p>
                 This means clearing all the data of the game! Are you sure you
                 want to continue this procedure?
               </p>
             </div>
-            <div id="reset-game-container">
-              <img src="img/yes-sm-btn.jpg" class="close-modal yes-no__btns" />
-              <img src="img/no-sm-btn.jpg" class="close-modal yes-no__btns" />
-            </div>
+            <img src="img/yes-sm-btn.jpg" class="modal_close yes-no__btns" />
+            <img src="img/no-sm-btn.jpg" class="modal_close yes-no__btns" />
           </div>
         </div>
         <!-- CLUE MODAL -->
         <div id="clue-modal" class="modal">
-          <div class="modal-effect">
-            <div id="clue-source"></div>
-            <div class="hr-container"><hr class="hr-line" /></div>
-            <div id="clue-source-content"></div>
-            <img src="img/okay-sm-btn.jpg" class="close-modal okay__btn" />
+          <div class="modal__effect">
+            <div id="clue__source"></div>
+            <hr class="clue__horizontal-line" />
+            <div id="clue__source-content"></div>
+            <img src="img/okay-sm-btn.jpg" class="modal_close okay__btn" />
           </div>
         </div>
         <!-- DURING QUERY MODALS -->
         <div id="during-query-modals">
           <div id="levels-modal" class="modal">
-            <div class="modal-effect">
-              <div class="modal-content">
+            <div class="modal__effect">
+              <div class="modal__content">
                 <p>
                   You'll lose the progress you've made in this level. Are you
                   sure you want to go to the levels section?
                 </p>
               </div>
-              <div id="levels-sm-btns-container">
-                <img src="img/yes-sm-btn.jpg" class="levels yes-no__btns" />
-                <img src="img/no-sm-btn.jpg" class="close-modal yes-no__btns" />
-              </div>
+              <img src="img/yes-sm-btn.jpg" class="levels yes-no__btns" />
+              <img src="img/no-sm-btn.jpg" class="modal_close yes-no__btns" />
             </div>
           </div>
           <div id="retry-query-modal" class="modal">
-            <div class="modal-effect">
-              <div class="modal-content">
+            <div class="modal__effect">
+              <div class="modal__content">
                 <p>
                   You'll lose the progress you've made in this level. Are you
                   sure you want to start over?
                 </p>
               </div>
-              <div id="retry-query-sm-btns-container">
-                <img
-                  src="img/yes-sm-btn.jpg"
-                  id="confirm-retry-query"
-                  class="yes-no__btns"
-                />
-                <img src="img/no-sm-btn.jpg" class="close-modal yes-no__btns" />
-              </div>
+              <img
+                src="img/yes-sm-btn.jpg"
+                id="retry-query__yes"
+                class="yes-no__btns"
+              />
+              <img src="img/no-sm-btn.jpg" class="modal_close yes-no__btns" />
             </div>
           </div>
           <div id="quit-query-modal" class="modal">
-            <div class="modal-effect">
-              <div class="modal-content">
+            <div class="modal__effect">
+              <div class="modal__content">
                 <p>
                   You'll lose the progress you've made in this level. Are you
                   sure you want to quit and go to the homepage?
                 </p>
               </div>
-              <div id="quit-query-sm-btns-container">
-                <img
-                  src="img/yes-sm-btn.jpg"
-                  class="go-to-homepage yes-no__btns"
-                />
-                <img src="img/no-sm-btn.jpg" class="close-modal yes-no__btns" />
-              </div>
+              <img
+                src="img/yes-sm-btn.jpg"
+                class="go-to-homepage yes-no__btns"
+              />
+              <img src="img/no-sm-btn.jpg" class="modal_close yes-no__btns" />
             </div>
           </div>
         </div>

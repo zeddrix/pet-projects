@@ -114,14 +114,14 @@ a {
   border: 3px solid lightseagreen;
   color: lightseagreen;
 }
-#clue-source {
+#clue__source {
   margin-left: 0.4rem;
   padding-top: 0.7rem;
   font-size: 1rem;
   color: black;
   text-align: left;
 }
-#clue-source-content {
+#clue__source-content {
   max-height: 8rem;
   text-align: left;
   overflow: auto;
@@ -202,8 +202,7 @@ a {
 }
 .main-btn,
 .sm-btn,
-.okay__btn
-.yes-no__btns {
+.okay__btn .yes-no__btns {
   border: 0;
 }
 .sm-btn {
@@ -232,11 +231,10 @@ a {
 #stars,
 .centered-sm-btns,
 .query__question-section,
-.modal-content,
+.modal__content,
 .bible-query__title,
 .levels__number,
 #query,
-.hr-container,
 .settings-btns,
 .rules-table__container,
 #final-score {
@@ -271,8 +269,8 @@ a,
 #query {
   display: flex;
 }
-.modal-content,
-#clue-source-content {
+.modal__content,
+#clue__source-content {
   font-size: 1.3rem;
 }
 
@@ -290,11 +288,17 @@ a,
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.4);
 }
-.modal-content {
+.modal__content {
   padding: 3rem 1rem 1rem;
   text-align: center;
 }
-.modal-effect {
+.modal__content p {
+  font-size: 1.2rem;
+}
+#clue__source-content p {
+  font-size: 1.1rem;
+}
+.modal__effect {
   position: relative;
   background-color: rgb(231, 231, 231);
   margin: auto;
@@ -304,7 +308,7 @@ a,
   animation-duration: 0.1s;
   text-align: center;
 }
-.hr-line {
+.clue__horizontal-line {
   border-top: 1px dotted grey;
   width: 20rem;
 }
@@ -319,10 +323,10 @@ a,
   src: url(../fonts/ArchitectsDaughter-Regular.ttf);
 }
 
-.modal-content,
-.modal-effect,
-#clue-source-content,
-#clue-source {
+.modal__content,
+.modal__effect,
+#clue__source-content,
+#clue__source {
   font-family: "Mukta Mahee";
   color: black;
 }

@@ -20,9 +20,9 @@ const confirmRetryQuery = () => {
   count = 0;
   qIndex = 0;
   score = 0;
-  const allProgressCircles = document.getElementsByClassName("progress");
-  for (let p = 0; p < allProgressCircles.length; p++) {
-    allProgressCircles[p].style.backgroundColor = "#FFFFFF00";
+  const allProgress = document.getElementsByClassName("query__all-progress");
+  for (let p = 0; p < allProgress.length; p++) {
+    allProgress[p].style.backgroundColor = "#FFFFFF00";
   }
 };
 
@@ -36,8 +36,8 @@ const startQuery = () => {
 
 const renderQuestion = () => {
   const question = document.getElementById("query__question");
-  const clueSource = document.getElementById("clue-source");
-  const clueSourceContent = document.getElementById("clue-source-content");
+  const clueSource = document.getElementById("clue__source");
+  const clueSourceContent = document.getElementById("clue__source-content");
   const choiceA = document.getElementById("choice-A");
   const choiceB = document.getElementById("choice-B");
   const choiceC = document.getElementById("choice-C");

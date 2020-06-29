@@ -3,7 +3,7 @@ window.addEventListener("click", function (event) {
     levels();
   } else if (event.target.matches(".settings")) {
     settings();
-  } else if (event.target.matches(".close-modal")) {
+  } else if (event.target.matches(".modal_close")) {
     closeModal();
   } else if (event.target.matches(".go-to-homepage")) {
     homepage();
@@ -35,7 +35,7 @@ window.addEventListener("click", function (event) {
     showRetryQueryModal();
   } else if (event.target.matches("#query__menu-btns__quit")) {
     showQuitQueryModal();
-  } else if (event.target.matches("#confirm-retry-query")) {
+  } else if (event.target.matches("#retry-query__yes")) {
     confirmRetryQuery();
   } else {
     closeModal();
