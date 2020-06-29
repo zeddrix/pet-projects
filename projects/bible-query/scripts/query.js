@@ -47,10 +47,10 @@ const renderQuestion = () => {
   question.innerHTML = `<p>${q.question}</p>`;
   clueSource.innerHTML = `<h2>${q.clueSource}</h2>`;
   clueSourceContent.innerHTML = `<p>${q.clueSourceContent}</p>`;
-  choiceA.innerHTML = q.choiceA;
-  choiceB.innerHTML = q.choiceB;
-  choiceC.innerHTML = q.choiceC;
-  choiceD.innerHTML = q.choiceD;
+  choiceA.innerHTML = `<p class="choice__p">${q.choiceA}</p>`;
+  choiceB.innerHTML = `<p class="choice__p">${q.choiceB}</p>`;
+  choiceC.innerHTML = `<p class="choice__p">${q.choiceC}</p>`;
+  choiceD.innerHTML = `<p class="choice__p">${q.choiceD}</p>`;
 };
 
 const lastQuestion = rivers.length - 1;

@@ -69,17 +69,20 @@ a {
   font-size: 1.3rem;
   margin-left: 0.5rem;
 }
-.levels__number {
-  font-size: 1.5rem;
-  padding: 0.1rem 0.75rem;
-  margin: 1.5rem;
-  font-weight: bolder;
-  border: 2px solid lightgrey;
-  position: absolute;
+.levels__number,
+#query__clue-btn {
   color: lightgrey;
+  font-size: 1.5rem;
+  position: absolute;
+  font-weight: bolder;
+}
+.levels__number {
+  padding: 0.1rem 0.75rem;
+  border: 2.5px solid lightgrey;
+  margin: 1.5rem;
 }
 .levels__number:hover {
-  border: 3px solid lightseagreen;
+  border: 2.5px solid lightseagreen;
   color: lightseagreen;
 }
 
@@ -101,17 +104,13 @@ a {
 }
 
 #query__clue-btn {
-  border: 2.5px solid rgb(177, 15, 15);
-  padding: 0.25rem 0.8rem;
-  font-size: 1.2rem;
-  position: relative;
-  color: lightgrey;
-  position: absolute;
+  padding: 0.1rem 0.90rem;
+  border: 2.5px solid rgb(207, 27, 27);
   bottom: 0;
   right: 0;
 }
 #query__clue-btn:hover {
-  border: 3px solid lightseagreen;
+  border: 2.5px solid lightseagreen;
   color: lightseagreen;
 }
 #clue__source {
@@ -144,6 +143,10 @@ a {
   justify-content: center;
   flex-direction: column;
   position: relative;
+}
+
+.choice__p {
+  padding: 1rem;
 }
 
 .query__all-progress {
