@@ -4948,6 +4948,114 @@ const prophets = [
     choiceD: "",
     correctAnswer: "A",
   },
+  {
+    question:
+      "The righteous, devout old man who entered the temple on the very day that Joseph and Mary brought in the child Jesus.",
+    clueSource: "Luke 2:25-35",
+    clueSourceContent:
+      "25 And look! there was a man in Jerusalem named Simʹe·on, and this man was righteous and devout, waiting for Israel’s consolation,+ and holy spirit was upon him. 26 Furthermore, it had been divinely revealed to him by the holy spirit that he would not see death before he had seen the Christ of Jehovah.+ 27 Under the power of the spirit, he now came into the temple, and as the parents brought the young child Jesus in to do for him according to the customary practice of the Law,+ 28 he took the child into his arms and praised God and said: 29 “Now, Sovereign Lord, you are letting your slave go in peace+ according to your declaration, 30 because my eyes have seen your means of salvation*+ 31 that you have prepared in the sight of all the peoples,+ 32 a light+ for removing the veil from the nations+ and a glory of your people Israel.” 33 And the child’s father and mother continued wondering at the things being spoken about him. 34 Also, Simʹe·on blessed them and said to Mary, the child’s mother: “Look! This child is appointed for the falling+ and the rising again of many in Israel+ and for a sign to be spoken against+ 35 (yes, a long sword will be run through you),+ in order that the reasonings of many hearts may be revealed.”",
+    choiceA: "Simeon",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "It had been divinely revealed to this prophet that he would see the Christ before his death.",
+    clueSource: "Luke 2:25-35",
+    clueSourceContent:
+      "25 And look! there was a man in Jerusalem named Simʹe·on, and this man was righteous and devout, waiting for Israel’s consolation,+ and holy spirit was upon him. 26 Furthermore, it had been divinely revealed to him by the holy spirit that he would not see death before he had seen the Christ of Jehovah.+ 27 Under the power of the spirit, he now came into the temple, and as the parents brought the young child Jesus in to do for him according to the customary practice of the Law,+ 28 he took the child into his arms and praised God and said: 29 “Now, Sovereign Lord, you are letting your slave go in peace+ according to your declaration, 30 because my eyes have seen your means of salvation*+ 31 that you have prepared in the sight of all the peoples,+ 32 a light+ for removing the veil from the nations+ and a glory of your people Israel.” 33 And the child’s father and mother continued wondering at the things being spoken about him. 34 Also, Simʹe·on blessed them and said to Mary, the child’s mother: “Look! This child is appointed for the falling+ and the rising again of many in Israel+ and for a sign to be spoken against+ 35 (yes, a long sword will be run through you),+ in order that the reasonings of many hearts may be revealed.”",
+    choiceA: "Simeon",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who said this about Jesus: “This child is appointed for the falling and the rising again of many in Israel”?",
+    clueSource: "Luke 2:25-35",
+    clueSourceContent:
+      "25 And look! there was a man in Jerusalem named Simʹe·on, and this man was righteous and devout, waiting for Israel’s consolation,+ and holy spirit was upon him. 26 Furthermore, it had been divinely revealed to him by the holy spirit that he would not see death before he had seen the Christ of Jehovah.+ 27 Under the power of the spirit, he now came into the temple, and as the parents brought the young child Jesus in to do for him according to the customary practice of the Law,+ 28 he took the child into his arms and praised God and said: 29 “Now, Sovereign Lord, you are letting your slave go in peace+ according to your declaration, 30 because my eyes have seen your means of salvation*+ 31 that you have prepared in the sight of all the peoples,+ 32 a light+ for removing the veil from the nations+ and a glory of your people Israel.” 33 And the child’s father and mother continued wondering at the things being spoken about him. 34 Also, Simʹe·on blessed them and said to Mary, the child’s mother: “Look! This child is appointed for the falling+ and the rising again of many in Israel+ and for a sign to be spoken against+ 35 (yes, a long sword will be run through you),+ in order that the reasonings of many hearts may be revealed.”",
+    choiceA: "Simeon",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who prophesied that Mary would be greatly grieved, as if run through with a sword, over the agonizing death of Jesus?",
+    clueSource: "Luke 2:25-35",
+    clueSourceContent:
+      "25 And look! there was a man in Jerusalem named Simʹe·on, and this man was righteous and devout, waiting for Israel’s consolation,+ and holy spirit was upon him. 26 Furthermore, it had been divinely revealed to him by the holy spirit that he would not see death before he had seen the Christ of Jehovah.+ 27 Under the power of the spirit, he now came into the temple, and as the parents brought the young child Jesus in to do for him according to the customary practice of the Law,+ 28 he took the child into his arms and praised God and said: 29 “Now, Sovereign Lord, you are letting your slave go in peace+ according to your declaration, 30 because my eyes have seen your means of salvation*+ 31 that you have prepared in the sight of all the peoples,+ 32 a light+ for removing the veil from the nations+ and a glory of your people Israel.” 33 And the child’s father and mother continued wondering at the things being spoken about him. 34 Also, Simʹe·on blessed them and said to Mary, the child’s mother: “Look! This child is appointed for the falling+ and the rising again of many in Israel+ and for a sign to be spoken against+ 35 (yes, a long sword will be run through you),+ in order that the reasonings of many hearts may be revealed.”",
+    choiceA: "Simeon",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  {
+    question: "Who was the son of Shemaiah from Kiriath-jearim?",
+    clueSource: "Jeremiah 26:20",
+    clueSourceContent:
+      "20 “And there was another man prophesying in the name of Jehovah, U·riʹjah son of She·maiʹah from Kirʹi·ath-jeʹa·rim,+ who prophesied against this city and against this land with words like those of Jeremiah.",
+    choiceA: "Urijah",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "When he heard that king Jehoiakim and the princes of Jerusalem sought to put him to death, he became afraid and fled to Egypt.",
+    clueSource: "Jeremiah 26:21",
+    clueSourceContent:
+      " 21 King Je·hoiʹa·kim+ and all his mighty men and all the princes heard his words, and the king sought to put him to death.+ When U·riʹjah heard of it, he at once became afraid and fled to Egypt.",
+    choiceA: "Urijah",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "“King Jehoiakim sent Elnathan the son of Achbor and other men with him to Egypt” to capture this prophet.",
+    clueSource: "Jeremiah 26:20-23",
+    clueSourceContent:
+      "20 “And there was another man prophesying in the name of Jehovah, U·riʹjah son of She·maiʹah from Kirʹi·ath-jeʹa·rim,+ who prophesied against this city and against this land with words like those of Jeremiah. 21 King Je·hoiʹa·kim+ and all his mighty men and all the princes heard his words, and the king sought to put him to death.+ When U·riʹjah heard of it, he at once became afraid and fled to Egypt. 22 Then King Je·hoiʹa·kim sent El·naʹthan+ the son of Achʹbor and other men with him to Egypt. 23 They brought U·riʹjah from Egypt and took him to King Je·hoiʹa·kim, who then struck him down with the sword+ and cast his dead body into the graveyard of the common people.”",
+    choiceA: "Urijah",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "He was brought from Egypt and was taken to “king Je·hoiʹa·kim, who then struck him down with the sword.”",
+    clueSource: "Jeremiah 26:20-23",
+    clueSourceContent:
+      "20 “And there was another man prophesying in the name of Jehovah, U·riʹjah son of She·maiʹah from Kirʹi·ath-jeʹa·rim,+ who prophesied against this city and against this land with words like those of Jeremiah. 21 King Je·hoiʹa·kim+ and all his mighty men and all the princes heard his words, and the king sought to put him to death.+ When U·riʹjah heard of it, he at once became afraid and fled to Egypt. 22 Then King Je·hoiʹa·kim sent El·naʹthan+ the son of Achʹbor and other men with him to Egypt. 23 They brought U·riʹjah from Egypt and took him to King Je·hoiʹa·kim, who then struck him down with the sword+ and cast his dead body into the graveyard of the common people.”",
+    choiceA: "Urijah",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "King Jehoiakim struck this prophet down with the sword and then casted “his dead body into the graveyard of the common people.”",
+    clueSource: "Jeremiah 26:20-23",
+    clueSourceContent:
+      "20 “And there was another man prophesying in the name of Jehovah, U·riʹjah son of She·maiʹah from Kirʹi·ath-jeʹa·rim,+ who prophesied against this city and against this land with words like those of Jeremiah. 21 King Je·hoiʹa·kim+ and all his mighty men and all the princes heard his words, and the king sought to put him to death.+ When U·riʹjah heard of it, he at once became afraid and fled to Egypt. 22 Then King Je·hoiʹa·kim sent El·naʹthan+ the son of Achʹbor and other men with him to Egypt. 23 They brought U·riʹjah from Egypt and took him to King Je·hoiʹa·kim, who then struck him down with the sword+ and cast his dead body into the graveyard of the common people.”",
+    choiceA: "Urijah",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  
 ];
 
 const wars = [
