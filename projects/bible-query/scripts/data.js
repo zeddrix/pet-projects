@@ -4523,6 +4523,18 @@ const prophets = [
   },
   {
     question:
+      "Who told Bathsheba that Solomon will become the successor of David on the throne of Israel?",
+    clueSource: "1 Kings 1:11-13",
+    clueSourceContent:
+      "11 Nathan then said to Bath-sheʹba, Solʹo·mon’s mother: “Have you not heard that Ad·o·niʹjah the son of Hagʹgith has become king, and our lord David does not know anything about it? 12  So now come, please, and let me advise you, so that you may save your own life and the life of your son Solʹo·mon. 13  Go in to King David and say to him, ‘Was it not you, my lord the king, who swore to your servant, saying: “Your son Solʹo·mon will become king after me, and he is the one who will sit on my throne”? So why has Ad·o·niʹjah become king?’",
+    choiceA: "Joel",
+    choiceB: "Elisha",
+    choiceC: "Nathan",
+    choiceD: "Amos",
+    correctAnswer: "C",
+  },
+  {
+    question:
       "Jehovah informed him that king David's descendant would build the house of Jehovah and not him.'",
     clueSource: "2 Samuel 7:4-17",
     clueSourceContent:
