@@ -5162,14 +5162,15 @@ const prophets = [
     correctAnswer: "A",
   },
   {
-    question: "",
-    clueSource: "",
-    clueSourceContent: "",
-    choiceA: "",
+    question: "Who was the great-great-grandson of King Hezekiah?",
+    clueSource: "Zephaniah 1:1",
+    clueSourceContent:
+      "The word of Jehovah that came to Zeph·a·niʹah* son of Cushʹi son of Ged·a·liʹah son of Am·a·riʹah son of Hez·e·kiʹah in the days of Jo·siʹah+ son of Aʹmon+ the king of Judah:",
+    choiceA: "Zephaniah",
     choiceB: "",
     choiceC: "",
     choiceD: "",
-    correctAnswer: "",
+    correctAnswer: "A",
   },
   {
     question: "",
