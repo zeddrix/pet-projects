@@ -4953,7 +4953,7 @@ const prophets = [
       "The righteous, devout old man who entered the temple on the very day that Joseph and Mary brought in the child Jesus.",
     clueSource: "Luke 2:25-35",
     clueSourceContent:
-      "25 And look! there was a man in Jerusalem named Simʹe·on, and this man was righteous and devout, waiting for Israel’s consolation,+ and holy spirit was upon him. 26 Furthermore, it had been divinely revealed to him by the holy spirit that he would not see death before he had seen the Christ of Jehovah.+ 27 Under the power of the spirit, he now came into the temple, and as the parents brought the young child Jesus in to do for him according to the customary practice of the Law,+ 28 he took the child into his arms and praised God and said: 29 “Now, Sovereign Lord, you are letting your slave go in peace+ according to your declaration, 30 because my eyes have seen your means of salvation*+ 31 that you have prepared in the sight of all the peoples,+ 32 a light+ for removing the veil from the nations+ and a glory of your people Israel.” 33 And the child’s father and mother continued wondering at the things being spoken about him. 34 Also, Simʹe·on blessed them and said to Mary, the child’s mother: “Look! This child is appointed for the falling+ and the rising again of many in Israel+ and for a sign to be spoken against+ 35 (yes, a long sword will be run through you),+ in order that the reasonings of many hearts may be revealed.”",
+      "25 And look! there was a man in Jerusalem named Simʹe·on, and this man was righteous and devout, waiting for Israel’s consolation, and holy spirit was upon him. 26 Furthermore, it had been divinely revealed to him by the holy spirit that he would not see death before he had seen the Christ of Jehovah. 27 Under the power of the spirit, he now came into the temple, and as the parents brought the young child Jesus in to do for him according to the customary practice of the Law, 28 he took the child into his arms and praised God and said: 29 “Now, Sovereign Lord, you are letting your slave go in peace according to your declaration, 30 because my eyes have seen your means of salvation 31 that you have prepared in the sight of all the peoples, 32 a light for removing the veil from the nations and a glory of your people Israel.” 33 And the child’s father and mother continued wondering at the things being spoken about him. 34 Also, Simʹe·on blessed them and said to Mary, the child’s mother: “Look! This child is appointed for the falling and the rising again of many in Israel and for a sign to be spoken against 35 (yes, a long sword will be run through you), in order that the reasonings of many hearts may be revealed.”",
     choiceA: "Simeon",
     choiceB: "",
     choiceC: "",
@@ -4965,7 +4965,7 @@ const prophets = [
       "It had been divinely revealed to this prophet that he would see the Christ before his death.",
     clueSource: "Luke 2:25-35",
     clueSourceContent:
-      "25 And look! there was a man in Jerusalem named Simʹe·on, and this man was righteous and devout, waiting for Israel’s consolation,+ and holy spirit was upon him. 26 Furthermore, it had been divinely revealed to him by the holy spirit that he would not see death before he had seen the Christ of Jehovah.+ 27 Under the power of the spirit, he now came into the temple, and as the parents brought the young child Jesus in to do for him according to the customary practice of the Law,+ 28 he took the child into his arms and praised God and said: 29 “Now, Sovereign Lord, you are letting your slave go in peace+ according to your declaration, 30 because my eyes have seen your means of salvation*+ 31 that you have prepared in the sight of all the peoples,+ 32 a light+ for removing the veil from the nations+ and a glory of your people Israel.” 33 And the child’s father and mother continued wondering at the things being spoken about him. 34 Also, Simʹe·on blessed them and said to Mary, the child’s mother: “Look! This child is appointed for the falling+ and the rising again of many in Israel+ and for a sign to be spoken against+ 35 (yes, a long sword will be run through you),+ in order that the reasonings of many hearts may be revealed.”",
+      "25 And look! there was a man in Jerusalem named Simʹe·on, and this man was righteous and devout, waiting for Israel’s consolation, and holy spirit was upon him. 26 Furthermore, it had been divinely revealed to him by the holy spirit that he would not see death before he had seen the Christ of Jehovah. 27 Under the power of the spirit, he now came into the temple, and as the parents brought the young child Jesus in to do for him according to the customary practice of the Law, 28 he took the child into his arms and praised God and said: 29 “Now, Sovereign Lord, you are letting your slave go in peace according to your declaration, 30 because my eyes have seen your means of salvation 31 that you have prepared in the sight of all the peoples, 32 a light for removing the veil from the nations and a glory of your people Israel.” 33 And the child’s father and mother continued wondering at the things being spoken about him. 34 Also, Simʹe·on blessed them and said to Mary, the child’s mother: “Look! This child is appointed for the falling and the rising again of many in Israel and for a sign to be spoken against 35 (yes, a long sword will be run through you), in order that the reasonings of many hearts may be revealed.”",
     choiceA: "Simeon",
     choiceB: "",
     choiceC: "",
@@ -4977,7 +4977,7 @@ const prophets = [
       "Who said this about Jesus: “This child is appointed for the falling and the rising again of many in Israel”?",
     clueSource: "Luke 2:25-35",
     clueSourceContent:
-      "25 And look! there was a man in Jerusalem named Simʹe·on, and this man was righteous and devout, waiting for Israel’s consolation,+ and holy spirit was upon him. 26 Furthermore, it had been divinely revealed to him by the holy spirit that he would not see death before he had seen the Christ of Jehovah.+ 27 Under the power of the spirit, he now came into the temple, and as the parents brought the young child Jesus in to do for him according to the customary practice of the Law,+ 28 he took the child into his arms and praised God and said: 29 “Now, Sovereign Lord, you are letting your slave go in peace+ according to your declaration, 30 because my eyes have seen your means of salvation*+ 31 that you have prepared in the sight of all the peoples,+ 32 a light+ for removing the veil from the nations+ and a glory of your people Israel.” 33 And the child’s father and mother continued wondering at the things being spoken about him. 34 Also, Simʹe·on blessed them and said to Mary, the child’s mother: “Look! This child is appointed for the falling+ and the rising again of many in Israel+ and for a sign to be spoken against+ 35 (yes, a long sword will be run through you),+ in order that the reasonings of many hearts may be revealed.”",
+      "25 And look! there was a man in Jerusalem named Simʹe·on, and this man was righteous and devout, waiting for Israel’s consolation, and holy spirit was upon him. 26 Furthermore, it had been divinely revealed to him by the holy spirit that he would not see death before he had seen the Christ of Jehovah. 27 Under the power of the spirit, he now came into the temple, and as the parents brought the young child Jesus in to do for him according to the customary practice of the Law, 28 he took the child into his arms and praised God and said: 29 “Now, Sovereign Lord, you are letting your slave go in peace according to your declaration, 30 because my eyes have seen your means of salvation 31 that you have prepared in the sight of all the peoples, 32 a light for removing the veil from the nations and a glory of your people Israel.” 33 And the child’s father and mother continued wondering at the things being spoken about him. 34 Also, Simʹe·on blessed them and said to Mary, the child’s mother: “Look! This child is appointed for the falling and the rising again of many in Israel and for a sign to be spoken against 35 (yes, a long sword will be run through you), in order that the reasonings of many hearts may be revealed.”",
     choiceA: "Simeon",
     choiceB: "",
     choiceC: "",
@@ -4989,7 +4989,7 @@ const prophets = [
       "Who prophesied that Mary would be greatly grieved, as if run through with a sword, over the agonizing death of Jesus?",
     clueSource: "Luke 2:25-35",
     clueSourceContent:
-      "25 And look! there was a man in Jerusalem named Simʹe·on, and this man was righteous and devout, waiting for Israel’s consolation,+ and holy spirit was upon him. 26 Furthermore, it had been divinely revealed to him by the holy spirit that he would not see death before he had seen the Christ of Jehovah.+ 27 Under the power of the spirit, he now came into the temple, and as the parents brought the young child Jesus in to do for him according to the customary practice of the Law,+ 28 he took the child into his arms and praised God and said: 29 “Now, Sovereign Lord, you are letting your slave go in peace+ according to your declaration, 30 because my eyes have seen your means of salvation*+ 31 that you have prepared in the sight of all the peoples,+ 32 a light+ for removing the veil from the nations+ and a glory of your people Israel.” 33 And the child’s father and mother continued wondering at the things being spoken about him. 34 Also, Simʹe·on blessed them and said to Mary, the child’s mother: “Look! This child is appointed for the falling+ and the rising again of many in Israel+ and for a sign to be spoken against+ 35 (yes, a long sword will be run through you),+ in order that the reasonings of many hearts may be revealed.”",
+      "25 And look! there was a man in Jerusalem named Simʹe·on, and this man was righteous and devout, waiting for Israel’s consolation, and holy spirit was upon him. 26 Furthermore, it had been divinely revealed to him by the holy spirit that he would not see death before he had seen the Christ of Jehovah. 27 Under the power of the spirit, he now came into the temple, and as the parents brought the young child Jesus in to do for him according to the customary practice of the Law, 28 he took the child into his arms and praised God and said: 29 “Now, Sovereign Lord, you are letting your slave go in peace according to your declaration, 30 because my eyes have seen your means of salvation 31 that you have prepared in the sight of all the peoples, 32 a light for removing the veil from the nations and a glory of your people Israel.” 33 And the child’s father and mother continued wondering at the things being spoken about him. 34 Also, Simʹe·on blessed them and said to Mary, the child’s mother: “Look! This child is appointed for the falling and the rising again of many in Israel and for a sign to be spoken against 35 (yes, a long sword will be run through you), in order that the reasonings of many hearts may be revealed.”",
     choiceA: "Simeon",
     choiceB: "",
     choiceC: "",
@@ -5000,7 +5000,7 @@ const prophets = [
     question: "Who was the son of Shemaiah from Kiriath-jearim?",
     clueSource: "Jeremiah 26:20",
     clueSourceContent:
-      "20 “And there was another man prophesying in the name of Jehovah, U·riʹjah son of She·maiʹah from Kirʹi·ath-jeʹa·rim,+ who prophesied against this city and against this land with words like those of Jeremiah.",
+      "20 “And there was another man prophesying in the name of Jehovah, U·riʹjah son of She·maiʹah from Kirʹi·ath-jeʹa·rim, who prophesied against this city and against this land with words like those of Jeremiah.",
     choiceA: "Urijah",
     choiceB: "",
     choiceC: "",
@@ -5012,7 +5012,7 @@ const prophets = [
       "When he heard that king Jehoiakim and the princes of Jerusalem sought to put him to death, he became afraid and fled to Egypt.",
     clueSource: "Jeremiah 26:21",
     clueSourceContent:
-      " 21 King Je·hoiʹa·kim+ and all his mighty men and all the princes heard his words, and the king sought to put him to death.+ When U·riʹjah heard of it, he at once became afraid and fled to Egypt.",
+      " 21 King Je·hoiʹa·kim and all his mighty men and all the princes heard his words, and the king sought to put him to death. When U·riʹjah heard of it, he at once became afraid and fled to Egypt.",
     choiceA: "Urijah",
     choiceB: "",
     choiceC: "",
@@ -5024,7 +5024,7 @@ const prophets = [
       "“King Jehoiakim sent Elnathan the son of Achbor and other men with him to Egypt” to capture this prophet.",
     clueSource: "Jeremiah 26:20-23",
     clueSourceContent:
-      "20 “And there was another man prophesying in the name of Jehovah, U·riʹjah son of She·maiʹah from Kirʹi·ath-jeʹa·rim,+ who prophesied against this city and against this land with words like those of Jeremiah. 21 King Je·hoiʹa·kim+ and all his mighty men and all the princes heard his words, and the king sought to put him to death.+ When U·riʹjah heard of it, he at once became afraid and fled to Egypt. 22 Then King Je·hoiʹa·kim sent El·naʹthan+ the son of Achʹbor and other men with him to Egypt. 23 They brought U·riʹjah from Egypt and took him to King Je·hoiʹa·kim, who then struck him down with the sword+ and cast his dead body into the graveyard of the common people.”",
+      "20 “And there was another man prophesying in the name of Jehovah, U·riʹjah son of She·maiʹah from Kirʹi·ath-jeʹa·rim, who prophesied against this city and against this land with words like those of Jeremiah. 21 King Je·hoiʹa·kim and all his mighty men and all the princes heard his words, and the king sought to put him to death. When U·riʹjah heard of it, he at once became afraid and fled to Egypt. 22 Then King Je·hoiʹa·kim sent El·naʹthan the son of Achʹbor and other men with him to Egypt. 23 They brought U·riʹjah from Egypt and took him to King Je·hoiʹa·kim, who then struck him down with the sword and cast his dead body into the graveyard of the common people.”",
     choiceA: "Urijah",
     choiceB: "",
     choiceC: "",
@@ -5036,7 +5036,7 @@ const prophets = [
       "He was brought from Egypt and was taken to “king Je·hoiʹa·kim, who then struck him down with the sword.”",
     clueSource: "Jeremiah 26:20-23",
     clueSourceContent:
-      "20 “And there was another man prophesying in the name of Jehovah, U·riʹjah son of She·maiʹah from Kirʹi·ath-jeʹa·rim,+ who prophesied against this city and against this land with words like those of Jeremiah. 21 King Je·hoiʹa·kim+ and all his mighty men and all the princes heard his words, and the king sought to put him to death.+ When U·riʹjah heard of it, he at once became afraid and fled to Egypt. 22 Then King Je·hoiʹa·kim sent El·naʹthan+ the son of Achʹbor and other men with him to Egypt. 23 They brought U·riʹjah from Egypt and took him to King Je·hoiʹa·kim, who then struck him down with the sword+ and cast his dead body into the graveyard of the common people.”",
+      "20 “And there was another man prophesying in the name of Jehovah, U·riʹjah son of She·maiʹah from Kirʹi·ath-jeʹa·rim, who prophesied against this city and against this land with words like those of Jeremiah. 21 King Je·hoiʹa·kim and all his mighty men and all the princes heard his words, and the king sought to put him to death. When U·riʹjah heard of it, he at once became afraid and fled to Egypt. 22 Then King Je·hoiʹa·kim sent El·naʹthan the son of Achʹbor and other men with him to Egypt. 23 They brought U·riʹjah from Egypt and took him to King Je·hoiʹa·kim, who then struck him down with the sword and cast his dead body into the graveyard of the common people.”",
     choiceA: "Urijah",
     choiceB: "",
     choiceC: "",
@@ -5048,14 +5048,149 @@ const prophets = [
       "King Jehoiakim struck this prophet down with the sword and then casted “his dead body into the graveyard of the common people.”",
     clueSource: "Jeremiah 26:20-23",
     clueSourceContent:
-      "20 “And there was another man prophesying in the name of Jehovah, U·riʹjah son of She·maiʹah from Kirʹi·ath-jeʹa·rim,+ who prophesied against this city and against this land with words like those of Jeremiah. 21 King Je·hoiʹa·kim+ and all his mighty men and all the princes heard his words, and the king sought to put him to death.+ When U·riʹjah heard of it, he at once became afraid and fled to Egypt. 22 Then King Je·hoiʹa·kim sent El·naʹthan+ the son of Achʹbor and other men with him to Egypt. 23 They brought U·riʹjah from Egypt and took him to King Je·hoiʹa·kim, who then struck him down with the sword+ and cast his dead body into the graveyard of the common people.”",
+      "20 “And there was another man prophesying in the name of Jehovah, U·riʹjah son of She·maiʹah from Kirʹi·ath-jeʹa·rim, who prophesied against this city and against this land with words like those of Jeremiah. 21 King Je·hoiʹa·kim and all his mighty men and all the princes heard his words, and the king sought to put him to death. When U·riʹjah heard of it, he at once became afraid and fled to Egypt. 22 Then King Je·hoiʹa·kim sent El·naʹthan the son of Achʹbor and other men with him to Egypt. 23 They brought U·riʹjah from Egypt and took him to King Je·hoiʹa·kim, who then struck him down with the sword and cast his dead body into the graveyard of the common people.”",
     choiceA: "Urijah",
     choiceB: "",
     choiceC: "",
     choiceD: "",
     correctAnswer: "A",
   },
-  
+  {
+    question:
+      "He acted as prophet in revealing God’s purpose concerning his son, John, who would be “called a prophet of the Most High.”",
+    clueSource: "Luke 1:67-79",
+    clueSourceContent:
+      "67 Then Zech·a·riʹah his father was filled with holy spirit, and he prophesied, saying: 68 “Let Jehovah be praised, the God of Israel, because he has turned his attention to his people and has brought them deliverance. 69 And he has raised up a horn of salvation for us in the house of David his servant, 70 just as he has spoken through the mouth of his holy prophets from of old, 71 of a salvation from our enemies and from the hand of all those hating us; 72 to show mercy in connection with our forefathers and to call to mind his holy covenant, 73 the oath that he swore to Abraham our forefather, 74 to grant us, after we have been rescued from the hands of enemies, the privilege of fearlessly rendering sacred service to him 75 with loyalty and righteousness before him all our days. 76 But as for you, young child, you will be called a prophet of the Most High, for you will go ahead of Jehovah to prepare his ways, 77 to give knowledge of salvation to his people by forgiveness of their sins, 78 because of the tender compassion of our God. With this compassion a daybreak will visit us from on high, 79 to give light to those sitting in darkness and death’s shadow and to guide our feet in the way of peace.”",
+    choiceA: "Zechariah",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who was the son of the High Priest Jehoiada (a.k.a High Priest Barachiah)?",
+    clueSource: "Matthew 23:35",
+    clueSourceContent:
+      "35 so that there may come upon you all the righteous blood spilled on earth, from the blood of righteous Abel to the blood of Zech·a·riʹah son of Bar·a·chiʹah, whom you murdered between the sanctuary and the altar.",
+    choiceA: "Zechariah",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  {
+    question: "The prophet whose cousin was king Jehoash.",
+    clueSource: "Insight on the Scriptures Volume 2, [Zechariah] p.1223",
+    clueSourceContent:
+      "Son of High Priest Jehoiada. After Jehoiada’s death, King Jehoash turned away from true worship, listening to wrong counsel rather than to Jehovah’s prophets. Zechariah, Jehoash’s cousin (2Ch 22:11), sternly warned the people about this, but instead of repenting, they stoned him in the temple courtyard. Zechariah’s dying words were: “Let Jehovah see to it and ask it back.” This prophetic request was granted, for not only did Syria do great damage to Judah but also Jehoash was killed by two of his servants “because of the blood of the sons of Jehoiada the priest.” The Greek Septuagint and the Latin Vulgate say that Jehoash was killed to avenge the blood of the “son” of Jehoiada. The Masoretic text and the Syriac Peshitta, however, read “sons,” possibly using the plural number to denote the excellence and worth of Jehoiada’s son Zechariah the prophet-priest.​—2Ch 24:17-22, 25.",
+    choiceA: "Zechariah",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Instead of repenting, king Jehoash ordered to stone this prophet of Jehovah to death.",
+    clueSource: "2 Chronicles 24:20-22",
+    clueSourceContent:
+      "20 God’s spirit came upon Zech·a·riʹah the son of Je·hoiʹa·da the priest, and he stood above the people and said to them: “This is what the true God says, ‘Why are you violating the commandments of Jehovah? You will not be successful! Because you have abandoned Jehovah, he will, in turn, abandon you.’” 21 But they conspired against him and stoned him at the king’s order in the courtyard of Jehovah’s house. 22 Thus King Je·hoʹash did not remember the loyal love that his father Je·hoiʹa·da had shown toward him, and he killed his son, who said as he was dying: “May Jehovah see to it and call you to account.”",
+    choiceA: "Zechariah",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "His dying words were: “May Jehovah see to it and call you to account.”",
+    clueSource: "2 Chronicles 24:20-22",
+    clueSourceContent:
+      "20 God’s spirit came upon Zech·a·riʹah the son of Je·hoiʹa·da the priest, and he stood above the people and said to them: “This is what the true God says, ‘Why are you violating the commandments of Jehovah? You will not be successful! Because you have abandoned Jehovah, he will, in turn, abandon you.’” 21 But they conspired against him and stoned him at the king’s order in the courtyard of Jehovah’s house. 22 Thus King Je·hoʹash did not remember the loyal love that his father Je·hoiʹa·da had shown toward him, and he killed his son, who said as he was dying: “May Jehovah see to it and call you to account.”",
+    choiceA: "Zechariah",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  {
+    question: "Who was “the son of Berechiah the son of Iddo”?",
+    clueSource: "Zechariah 1:1",
+    clueSourceContent:
+      "In the eighth month in the second year of Da·riʹus, the word of Jehovah came to the prophet Zech·a·riʹah son of Ber·e·chiʹah son of Idʹdo, saying:",
+    choiceA: "Zechariah",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Him and Haggai were used by Jehovah to stimulate Zerubbabel to finish rebuilding Jehovah’s temple.",
+    clueSource: "Ezra 5:1, 2",
+    clueSourceContent:
+      "Then the prophets Hagʹgai and Zech·a·riʹah the grandson of Idʹdo prophesied to the Jews who were in Judah and in Jerusalem, in the name of the God of Israel who was over them. 2 It was then that Ze·rubʹba·bel the son of She·alʹti·el and Jeshʹu·a the son of Je·hozʹa·dak started to rebuild the house of God, which was in Jerusalem; and the prophets of God were with them and supported them.",
+    choiceA: "Zechariah",
+    choiceB: "Ezra",
+    choiceC: "Nehemiah",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Him and Haggai were used by Jehovah to stimulate High Priest Jeshua to finish rebuilding Jehovah’s temple.",
+    clueSource: "Ezra 5:1, 2",
+    clueSourceContent:
+      "Then the prophets Hagʹgai and Zech·a·riʹah the grandson of Idʹdo prophesied to the Jews who were in Judah and in Jerusalem, in the name of the God of Israel who was over them. 2 It was then that Ze·rubʹba·bel the son of She·alʹti·el and Jeshʹu·a the son of Je·hozʹa·dak started to rebuild the house of God, which was in Jerusalem; and the prophets of God were with them and supported them.",
+    choiceA: "Zechariah",
+    choiceB: "Ezra",
+    choiceC: "Nehemiah",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Him and Haggai were used by Jehovah to stimulate the returned exiles of Israel to finish rebuilding Jehovah’s temple.",
+    clueSource: "Ezra 5:1, 2",
+    clueSourceContent:
+      "Then the prophets Hagʹgai and Zech·a·riʹah the grandson of Idʹdo prophesied to the Jews who were in Judah and in Jerusalem, in the name of the God of Israel who was over them. 2 It was then that Ze·rubʹba·bel the son of She·alʹti·el and Jeshʹu·a the son of Je·hozʹa·dak started to rebuild the house of God, which was in Jerusalem; and the prophets of God were with them and supported them.",
+    choiceA: "Zechariah",
+    choiceB: "Ezra",
+    choiceC: "Nehemiah",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
 ];
 
 const wars = [
