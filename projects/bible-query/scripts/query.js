@@ -31,26 +31,26 @@ const startQuery = () => {
   renderQuestion();
   renderProgress();
   renderCounter();
-  Timer = setInterval(renderCounter, 10);
+  Timer = setInterval(renderCounter, 1000);
 };
 
 const renderQuestion = () => {
   const question = document.getElementById("query__question");
   const clueSource = document.getElementById("clue__source");
   const clueSourceContent = document.getElementById("clue__source-content");
-  const choiceA = document.getElementById("choice-A");
-  const choiceB = document.getElementById("choice-B");
-  const choiceC = document.getElementById("choice-C");
-  const choiceD = document.getElementById("choice-D");
+  const A = document.getElementById("choice-A");
+  const B = document.getElementById("choice-B");
+  const C = document.getElementById("choice-C");
+  const D = document.getElementById("choice-D");
   let q = rivers[currentQuestion];
 
-  question.innerHTML = `<p>${q.question}</p>`;
-  clueSource.innerHTML = `<h2>${q.clueSource}</h2>`;
-  clueSourceContent.innerHTML = `<p>${q.clueSourceContent}</p>`;
-  choiceA.innerHTML = `<p class="choice__p">${q.choiceA}</p>`;
-  choiceB.innerHTML = `<p class="choice__p">${q.choiceB}</p>`;
-  choiceC.innerHTML = `<p class="choice__p">${q.choiceC}</p>`;
-  choiceD.innerHTML = `<p class="choice__p">${q.choiceD}</p>`;
+  question.innerHTML = q.question;
+  clueSource.innerHTML = q.clueSource;
+  clueSourceContent.innerHTML = q.clueSourceContent;
+  A.innerHTML = q.choiceA;
+  B.innerHTML = q.choiceB;
+  C.innerHTML = q.choiceC;
+  D.innerHTML = q.choiceD;
 };
 
 const lastQuestion = rivers.length - 1;
