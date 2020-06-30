@@ -161,19 +161,19 @@ a {
   border-radius: 40%;
 }
 
-.final-score__phrase-1 {
+#final-score__phrase-1 {
   font-size: 3rem;
   padding-top: 6rem;
 }
-.final-score__img {
+#final-score__img {
   width: 90%;
 }
-.final-score__percentage {
+#final-score__percentage {
   font-size: 2.5rem;
   padding: 0;
   margin: 0;
 }
-.final-score__phrase-2 {
+#final-score__phrase-2 {
   font-size: 1.2rem;
   margin: 0;
 }
@@ -336,9 +336,9 @@ a,
   font-family: "Mukta Mahee";
   color: black;
 }
-.final-score__phrase-1,
-.final-score__percentage,
-.final-score__phrase-2 {
+#final-score__phrase-1,
+#final-score__percentage,
+#final-score__phrase-2 {
   font-family: "Architects Daughter";
   color: white;
 }

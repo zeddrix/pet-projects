@@ -31,7 +31,7 @@ const startQuery = () => {
   renderQuestion();
   renderProgress();
   renderCounter();
-  Timer = setInterval(renderCounter, 1000);
+  Timer = setInterval(renderCounter, 10);
 };
 
 const renderQuestion = () => {
@@ -128,10 +128,8 @@ const scorePhrase1 = () => {
       ? "Don't give up!"
       : "Don't give up!";
 
-  const finalScorePhrase1Div = document.getElementById(
-    "final-score__phrase-1__div"
-  );
-  finalScorePhrase1Div.innerHTML = `<h1 class='final-score__phrase-1'>${fsp1}</h1>`;
+  const finalScorePhrase1Div = document.getElementById("final-score__phrase-1");
+  finalScorePhrase1Div.innerHTML = fsp1;
 };
 
 const scoreStarAndPercentage = () => {
@@ -152,13 +150,15 @@ const scoreStarAndPercentage = () => {
       ? "img/one-half-star.png"
       : "img/zero-star.png";
 
-  const finalScoreImgDiv = document.getElementById("final-score__img__div");
-  finalScoreImgDiv.innerHTML = `<img class='final-score__img' src=${img}>`;
+  const finalScoreImg = document.getElementById("final-score__img");
+  const imgSrc = document.createAttribute("src");
+  imgSrc.value = img;
+  finalScoreImg.setAttributeNode(imgSrc);
 
-  const finalScorePercentageDiv = document.getElementById(
-    "final-score__percentage__div"
+  const finalScorePercentage = document.getElementById(
+    "final-score__percentage"
   );
-  finalScorePercentageDiv.innerHTML = `<p class='final-score__percentage'>${scorePercent}%</p>`;
+  finalScorePercentage.innerHTML = `${scorePercent}%`;
 };
 
 const scorePhrase2 = () => {
@@ -177,8 +177,8 @@ const scorePhrase2 = () => {
       ? "That's okay. Play again and crush this level!"
       : "Play again and crush this level!";
 
-  const scorePhrase2Div = document.getElementById("final-score__phrase-2__div");
-  scorePhrase2Div.innerHTML = `<p class='final-score__phrase-2'>${fsp2}</p>`;
+  const scorePhrase2 = document.getElementById("final-score__phrase-2");
+  scorePhrase2.innerHTML = fsp2;
 };
 const finalScore = () => {
   scorePage();
