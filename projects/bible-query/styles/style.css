@@ -200,7 +200,7 @@ a {
 }
 
 /* ------------BUTTONS>------------- */
-img:not(.rules-table__img, .okay__btn, .yes-no__btns):hover {
+img:not(.rules-table__img):not(.okay__btn):not(.yes-no__btns):hover {
   filter: brightness(100%);
   box-shadow: 4px 4px 8px #000000;
 }
