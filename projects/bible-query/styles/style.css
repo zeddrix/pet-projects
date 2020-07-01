@@ -43,6 +43,7 @@ body {
   border-top: 0;
   border-bottom: 0;
   position: relative;
+  overflow: auto;
   /* overflow: hidden; */
 }
 
