@@ -47,6 +47,19 @@ body {
   /* overflow: hidden; */
 }
 
+* {
+  user-select: none;
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+
 p {
   font-size: 1rem;
   margin: 0 0.75rem;
@@ -166,6 +179,17 @@ a {
   border-radius: 5px;
   font-size: 1rem;
   border: 1px solid lightgrey;
+}
+
+.query__choice:hover {
+  font-weight: bold;
+  border: 2px solid lightgrey;
+}
+
+.query__choice:active {
+  text-decoration: none;
+  color: green;
+  border: 2px solid green;
 }
 
 .query__all-progress {
