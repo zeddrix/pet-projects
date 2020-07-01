@@ -200,6 +200,14 @@ a {
 }
 
 /* ------------BUTTONS>------------- */
+img:not(.rules-table__img, .okay__btn, .yes-no__btns):hover {
+  filter: brightness(100%);
+  box-shadow: 4px 4px 8px #000000;
+}
+img:not(.rules-table__img):active {
+  filter: contrast(125%);
+  box-shadow: none;
+}
 .okay__btn {
   padding: 1rem;
   width: 25%;
@@ -248,14 +256,6 @@ a {
 } */
 
 /* ------------BUTTONS^------------- */
-img:not(.rules-table__img):hover {
-  filter: brightness(100%);
-  box-shadow: 4px 4px 8px #000000;
-}
-img:not(.rules-table__img):active {
-  filter: contrast(110%);
-  box-shadow: none;
-}
 
 .page__heading,
 #stars,
