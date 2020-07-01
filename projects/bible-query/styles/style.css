@@ -1,3 +1,16 @@
+* {
+  user-select: none;
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+
 @font-face {
   font-family: "Mukta Mahee";
   src: url(../fonts/muktaMahee-ExtraLight.ttf) format("truetype");
@@ -47,19 +60,6 @@ body {
   /* overflow: hidden; */
 }
 
-* {
-  user-select: none;
-  -webkit-user-select: none; /* Safari */
-  -khtml-user-select: none; /* Konqueror HTML */
-  -moz-user-select: none; /* Firefox */
-  -ms-user-select: none; /* Internet Explorer/Edge */
-
-  -webkit-user-drag: none;
-  -khtml-user-drag: none;
-  -moz-user-drag: none;
-  -o-user-drag: none;
-}
-
 p {
   font-size: 1rem;
   margin: 0 0.75rem;
@@ -95,8 +95,6 @@ a {
   max-width: 100%;
   align-self: center;
   margin: 0.3rem 0;
-  filter: brightness(105%);
-  box-shadow: 4px 4px 8px #000000;
 }
 .page__heading {
   font-size: 2rem;
@@ -203,7 +201,7 @@ a {
 
 #final-score__phrase-1 {
   font-size: 3rem;
-  padding-top: 6rem;
+  margin-top: 6rem;
 }
 #final-score__img {
   width: 90%;
@@ -224,14 +222,32 @@ a {
 }
 
 /* ------------BUTTONS>------------- */
-img:not(.rules-table__img):not(.okay__btn):not(.yes-no__btns):hover {
+img {
+  filter: brightness(105%);
+  box-shadow: 4px 4px 8px #000000;
+}
+img:hover {
   filter: brightness(100%);
   box-shadow: 4px 4px 8px #000000;
 }
-img:not(.rules-table__img):active {
+img:active {
   filter: contrast(125%);
   box-shadow: none;
 }
+.rules-table__img,
+.rules-table__img:hover,
+.rules-table__img:active,
+.okay__btn,
+.okay__btn:hover,
+.yes-no__btns,
+.yes-no__btns:hover,
+#final-score__img,
+#final-score__img:hover,
+#final-score__img:active {
+  filter: brightness(100%);
+  box-shadow: none;
+}
+
 .okay__btn {
   padding: 1rem;
   width: 25%;
