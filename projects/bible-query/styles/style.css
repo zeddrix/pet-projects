@@ -80,7 +80,7 @@ img {
 }
 a {
   text-decoration: none;
-  color: rgb(81, 220, 245);
+  color: #51dcf5;
 }
 .bible-query__title {
   font-size: 2.5rem;
@@ -141,7 +141,7 @@ a {
   height: 28vh;
   margin: 0 0.5rem;
   border-radius: 5px;
-  border: 3px solid rgb(7, 128, 119);
+  border: 3px solid #078077;
   justify-content: center;
   flex-direction: column;
   position: relative;
@@ -391,25 +391,52 @@ a,
 }
 
 .modal__effect {
-  background-color: rgb(231, 231, 231);
+  background-color: #e7e7e7;
 }
 .modal__effect,
 .reset-game-modal__effect {
   position: relative;
   margin: auto;
   border-radius: 7px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
   animation-name: zoomIn;
   animation-duration: 0.1s;
   text-align: center;
 }
 .reset-game-modal__effect {
-  background-color: rgb(255, 163, 163);
+  background-color: #ffa3a3;
 }
 .reset-game-modal__content {
-  color: rgb(218, 0, 0);
+  color: #da0000;
   font-weight: bold;
   font-size: 1.2rem;
   padding: 3rem 1rem 1rem;
   text-align: center;
+}
+
+/* ----------NO Scrollbar----------
+.container {
+  -ms-overflow-style: none; Internet Explorer 10+
+  scrollbar-width: none; Firefox
+}
+.container::-webkit-scrollbar {
+  display: none; Safari and Chrome
+} */
+
+/* ------------Styling WITH Scrollbar------------- */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #504d4d;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
