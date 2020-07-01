@@ -291,17 +291,26 @@ a,
 }
 
 /* -------------------MODALS------------------ */
+#backdrop {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+}
+
 .modal {
   left: 50%;
   top: 46%;
   transform: translate(-50%, -50%);
   display: none;
   position: fixed;
-  z-index: 1;
+  z-index: 2;
   width: 93%;
   overflow: auto;
-  /* background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.4); */
 }
 .modal__content {
   font-size: 1.3rem;
