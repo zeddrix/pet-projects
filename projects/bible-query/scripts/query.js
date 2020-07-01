@@ -69,6 +69,17 @@ const answerIsWrong = () => {
   document.getElementById(currentQuestion).style.backgroundColor = "red";
 };
 
+document.querySelectorAll(".query__choice").forEach((p) => {
+  p.addEventListener("click", () => {
+    p.classList.add("active");
+
+    setTimeout(() => {
+      p.classList.remove("active");
+    }, 400 * 3);
+    // 400 * 3 = animation-duration * animation-iteration-count
+  });
+});
+
 const renderCounter = () => {
   const timeGauge = document.getElementById("query__time");
   const queryCounter = document.getElementById("query__counter");
@@ -181,7 +192,7 @@ const scorePhrase2 = () => {
   scorePhrase2.innerHTML = fsp2;
 };
 const finalScore = () => {
-  closeModal()
+  closeModal();
   scorePage();
   scoreStarAndPercentage();
   scorePhrase1();
