@@ -309,11 +309,9 @@ a,
   background-color: rgba(0, 0, 0, 0.4);
 }
 .modal__content {
+  font-size: 1.2rem;
   padding: 3rem 1rem 1rem;
   text-align: center;
-}
-.modal__content p {
-  font-size: 1.2rem;
 }
 #clue__source-content p {
   font-size: 1.1rem;
@@ -331,4 +329,24 @@ a,
 .clue__horizontal-line {
   border-top: 1px dotted grey;
   width: 20rem;
+}
+
+.reset-game-modal__effect {
+  position: relative;
+  background-color: rgb(255, 176, 176);
+  border: 3px solid rgb(241, 8, 8);
+  margin: auto;
+  border-radius: 3px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  animation-name: zoomIn;
+  animation-duration: 0.1s;
+  text-align: center;
+}
+
+.reset-game-modal__content {
+  color: red;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 3rem 1rem 1rem;
+  text-align: center;
 }
