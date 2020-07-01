@@ -57,7 +57,6 @@ body {
   border-bottom: 0;
   position: relative;
   overflow: auto;
-  /* overflow: hidden; */
 }
 
 p {
@@ -237,9 +236,7 @@ img:active {
 .rules-table__img,
 .rules-table__img:hover,
 .rules-table__img:active,
-.okay__btn,
 .okay__btn:hover,
-.yes-no__btns,
 .yes-no__btns:hover,
 #final-score__img,
 #final-score__img:hover,
@@ -253,6 +250,12 @@ img:active {
   width: 25%;
   display: block;
   margin: auto;
+  box-shadow: none;
+}
+
+.okay__btn:active {
+  filter: contrast(125%);
+  box-shadow: none;
 }
 
 .yes-no__btns {
@@ -260,6 +263,12 @@ img:active {
   width: 28%;
   display: inline-block;
   margin: auto;
+  box-shadow: none;
+}
+
+.yes-no__btns:active {
+  filter: contrast(125%);
+  box-shadow: none;
 }
 
 .settings-btns,
@@ -272,7 +281,8 @@ img:active {
 }
 .main-btn,
 .sm-btn,
-.okay__btn .yes-no__btns {
+.okay__btn,
+.yes-no__btns {
   border: 0;
 }
 .sm-btn {
