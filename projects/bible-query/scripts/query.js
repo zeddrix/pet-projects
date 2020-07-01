@@ -181,6 +181,7 @@ const scorePhrase2 = () => {
   scorePhrase2.innerHTML = fsp2;
 };
 const finalScore = () => {
+  closeModal()
   scorePage();
   scoreStarAndPercentage();
   scorePhrase1();

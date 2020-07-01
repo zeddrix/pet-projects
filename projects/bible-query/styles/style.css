@@ -134,18 +134,18 @@ a {
   flex-direction: column;
   position: relative;
 }
-#query__question p {
+#query__question {
   font-size: 1.1rem;
 }
 
 #clue__source {
-  margin-left: 0.4rem;
+  margin: 0 0 0 0.4rem;
   padding-top: 0.7rem;
   color: black;
   text-align: left;
 }
 #clue__source-content {
-  max-height: 8rem;
+  max-height: 15rem;
   text-align: left;
   overflow: auto;
 }
@@ -289,38 +289,36 @@ a,
 #query {
   display: flex;
 }
-.modal__content,
-#clue__source-content {
-  font-size: 1.3rem;
-}
 
 /* -------------------MODALS------------------ */
 .modal {
-  margin-top: 10rem;
+  left: 50%;
+  top: 46%;
+  transform: translate(-50%, -50%);
   display: none;
   position: fixed;
   z-index: 1;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
+  width: 93%;
   overflow: auto;
-  background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.4);
+  /* background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4); */
 }
 .modal__content {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   padding: 3rem 1rem 1rem;
   text-align: center;
 }
-#clue__source-content p {
-  font-size: 1.1rem;
+
+#clue__source-content {
+  font-size: 1.3rem;
+  text-align: left;
 }
+
 .modal__effect {
   position: relative;
   background-color: rgb(231, 231, 231);
   margin: auto;
-  border-radius: 3px;
+  border-radius: 7px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   animation-name: zoomIn;
   animation-duration: 0.1s;
