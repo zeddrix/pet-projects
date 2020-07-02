@@ -69,16 +69,20 @@ const answerIsWrong = () => {
   document.getElementById(currentQuestion).style.backgroundColor = "red";
 };
 
-document.querySelectorAll(".query__choice").forEach((p) => {
-  p.addEventListener("click", () => {
-    p.classList.add("active");
+const highlightCorrectAnswer = () => {
+  document.querySelectorAll(".query__choice").forEach((p) => {
+    p.addEventListener("click", () => {
+      p.classList.add("active");
 
-    setTimeout(() => {
-      p.classList.remove("active");
-    }, 400 * 3);
-    // 400 * 3 = animation-duration * animation-iteration-count
+      setTimeout(() => {
+        p.classList.remove("active");
+      }, 400 * 3);
+      // 400 * 3 = animation-duration * animation-iteration-count
+    });
   });
-});
+};
+
+highlightCorrectAnswer();
 
 const renderCounter = () => {
   const timeGauge = document.getElementById("query__time");
@@ -115,6 +119,8 @@ const checkAnswer = (answer) => {
   if (currentQuestion < lastQuestion) {
     currentQuestion++;
     renderQuestion();
+    // setTimeout(renderQuestion, 3000);
+    // highlightCorrectAnswer();
   } else {
     clearInterval(Timer);
     finalScore();
