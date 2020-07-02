@@ -14,23 +14,25 @@
 @font-face {
   font-family: "Mukta Mahee";
   src: url(../fonts/muktaMahee-ExtraLight.ttf) format("truetype");
+  font-display: fallback;
 }
 @font-face {
   font-family: "Architects Daughter";
   src: url(../fonts/architectsDaughter-Regular.ttf) format("truetype");
+  font-display: fallback;
 }
 
 .modal__content,
 .modal__effect,
 #clue__source-content,
 #clue__source {
-  font-family: "Mukta Mahee";
+  font-family: "Mukta Mahee", sans-serif;
   color: black;
 }
 #final-score__phrase-1,
 #final-score__percentage,
 #final-score__phrase-2 {
-  font-family: "Architects Daughter";
+  font-family: "Architects Daughter", sans-serif;
   color: white;
 }
 
