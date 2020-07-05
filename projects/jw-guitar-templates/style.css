@@ -33,7 +33,7 @@ header {
   width: 100%;
 }
 
-#input-section {
+.input-section {
   text-align: center;
   margin: 2rem auto;
   width: 40rem;
@@ -44,12 +44,12 @@ header {
   color: #6d5402;
 }
 
-#enter-song-number {
+.input-section__heading {
   font-family: "ArcherPro-Thin";
   margin: 0;
 }
 
-#user-input-field {
+#input-section__field {
   font: inherit;
   font-size: 3rem;
   border: 2px solid #6d5402;
@@ -61,19 +61,19 @@ header {
   color: #6d5402;
   text-align: center;
 }
-#user-input-field:focus {
+#input-section__field:focus {
   outline: none;
 }
 
 /* Chrome, Safari, Edge, Opera */
-#user-input-field::-webkit-outer-spin-button,
-#user-input-field::-webkit-inner-spin-button {
+#input-section__field::-webkit-outer-spin-button,
+#input-section__field::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
 
 /* Firefox */
-#user-input-field[type="number"] {
+#input-section__field[type="number"] {
   -moz-appearance: textfield;
 }
 
@@ -98,7 +98,7 @@ button:active {
   border-color: #5d4803;
 }
 
-#template-page {
+#template {
   height: 100vh;
   width: 100vw;
   background: url(JWGuitar.jpg) no-repeat center center fixed;
@@ -108,53 +108,49 @@ button:active {
   position: relative;
 }
 
-.contents-container {
+.template-contents {
   width: 55vw;
   border: 5px solid white;
   text-align: center;
-  bottom: 0;
+  bottom: 3.5rem;
   left: 0;
   position: absolute;
 }
 
-#back-to-home-btn {
-
-}
-
-#song,
-#song-number,
-#song-title,
-#parentheses,
-#bible-verse {
+.template-contents__song,
+#template-contents__song-number,
+#template-contents__song-title,
+.template-contents__parentheses,
+#template-contents__bible-verse {
   margin: 0em;
   color: blanchedalmond;
 }
 
-#song,
-#song-number {
+.template-contents__song,
+#template-contents__song-number {
   font-size: 30pt;
 }
 
-#song-title {
+#template-contents__song-title {
   font-size: 70pt;
 }
 
-#parentheses,
-#bible-verse {
+.template-contents__parentheses,
+#template-contents__bible-verse {
   font-size: 20pt;
 }
 
-#song,
-#song-number {
+.template-contents__song,
+#template-contents__song-number {
   font-family: "Avenir";
 }
 
-#song-title {
+#template-contents__song-title {
   font-family: "Charter";
 }
 
-#parentheses,
-#bible-verse {
+.template-contents__parentheses,
+#template-contents__bible-verse {
   font-family: "ArcherPro-Thin";
 }
 
@@ -163,15 +159,19 @@ button:active {
   text-align: center;
 }
 
-#home-copyright {
+.copyright {
+  position: absolute;
+  margin: auto;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.homepage__copyright {
   color: black;
 }
 
-#template-copyright {
+.template__copyright {
   color: white;
-  bottom: 0;
-  margin: 0;
-  position: absolute;
-  display: block;
-  text-align: center;
 }
