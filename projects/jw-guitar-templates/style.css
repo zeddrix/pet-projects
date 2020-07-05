@@ -1,3 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url(fonts/AvenirLTStd-Book.otf);
+}
+
+@font-face {
+  font-family: "Charter";
+  src: url(fonts/Charter.ttf);
+}
+
+@font-face {
+  font-family: "ArcherPro-Thin";
+  src: url(fonts/ArcherPro-Thin.otf);
+}
+
 body {
   line-height: 100px;
   margin: 0;
@@ -80,19 +99,26 @@ button:active {
 }
 
 #template-page {
+  height: 100vh;
+  width: 100vw;
   background: url(JWGuitar.jpg) no-repeat center center fixed;
   background-size: cover;
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 .contents-container {
-  padding-top: 5em;
-  padding-right: 40em;
-  padding-bottom: 80em;
-  padding-left: 3em;
-  margin: 0;
+  width: 55vw;
+  border: 5px solid white;
   text-align: center;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+
+#back-to-home-btn {
+
 }
 
 #song,
@@ -116,21 +142,6 @@ button:active {
 #parentheses,
 #bible-verse {
   font-size: 20pt;
-}
-
-@font-face {
-  font-family: "Avenir";
-  src: url(fonts/AvenirLTStd-Book.otf);
-}
-
-@font-face {
-  font-family: "Charter";
-  src: url(fonts/Charter.ttf);
-}
-
-@font-face {
-  font-family: "ArcherPro-Thin";
-  src: url(fonts/ArcherPro-Thin.otf);
 }
 
 #song,
@@ -158,4 +169,9 @@ button:active {
 
 #template-copyright {
   color: white;
+  bottom: 0;
+  margin: 0;
+  position: absolute;
+  display: block;
+  text-align: center;
 }
