@@ -22,7 +22,7 @@ body {
   margin: 0;
 }
 
-header {
+.home__header {
   background: #6d5402;
   font-family: "ArcherPro-Thin";
   font-size: 1.5rem;
@@ -31,6 +31,27 @@ header {
   text-align: center;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
   width: 100%;
+}
+
+button {
+  font-family: "Times New Roman", Times, serif;
+  background: #6d5402;
+  font-size: 1rem;
+  height: 5rem;
+  color: white;
+  border: 1px solid #6d5402;
+  padding: 0 4rem;
+  margin: 1rem;
+  cursor: pointer;
+  border-radius: 20%;
+}
+button:focus {
+  outline: none;
+}
+button:hover,
+button:active {
+  background: #5d4803;
+  border-color: #5d4803;
 }
 
 .input-section {
@@ -64,38 +85,15 @@ header {
 #input-section__field:focus {
   outline: none;
 }
-
 /* Chrome, Safari, Edge, Opera */
 #input-section__field::-webkit-outer-spin-button,
 #input-section__field::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-
 /* Firefox */
 #input-section__field[type="number"] {
   -moz-appearance: textfield;
-}
-
-button {
-  font-family: "Times New Roman", Times, serif;
-  background: #6d5402;
-  font-size: 1rem;
-  height: 5rem;
-  color: white;
-  border: 1px solid #6d5402;
-  padding: 0 4rem;
-  margin: 1rem;
-  cursor: pointer;
-  border-radius: 20%;
-}
-button:focus {
-  outline: none;
-}
-button:hover,
-button:active {
-  background: #5d4803;
-  border-color: #5d4803;
 }
 
 #template {
@@ -109,8 +107,8 @@ button:active {
 }
 
 .template-contents {
+  /* border: 5px solid white; */
   width: 55vw;
-  border: 5px solid white;
   text-align: center;
   bottom: 3.5rem;
   left: 0;
@@ -128,16 +126,16 @@ button:active {
 
 .template-contents__song,
 #template-contents__song-number {
-  font-size: 30pt;
+  font-size: 2.5rem;
 }
 
 #template-contents__song-title {
-  font-size: 70pt;
+  font-size: 6.5rem;
 }
 
 .template-contents__parentheses,
 #template-contents__bible-verse {
-  font-size: 20pt;
+  font-size: 1.5rem;
 }
 
 .template-contents__song,
@@ -160,6 +158,7 @@ button:active {
 }
 
 .copyright {
+  font-size: 1.2rem;
   position: absolute;
   margin: auto;
   bottom: 0;
