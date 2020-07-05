@@ -43,7 +43,13 @@ button {
   padding: 0 4rem;
   margin: 1rem;
   cursor: pointer;
-  border-radius: 20%;
+  border-radius: 50px;
+  -moz-box-shadow: inset 0px 1px 0px grey, 0px 3px 0px 0px lightgrey,
+    0px 10px 5px #999;
+  -webkit-box-shadow: inset 0px 1px 0px grey, 0px 3px 0px 0px lightgrey,
+    0px 10px 5px #999;
+  box-shadow: inset 0px 1px 0px grey, 0px 3px 0px 0px lightgrey,
+    0px 10px 5px #999;
 }
 button:focus {
   outline: none;
@@ -52,6 +58,12 @@ button:hover,
 button:active {
   background: #5d4803;
   border-color: #5d4803;
+  -webkit-box-shadow: inset 0px 1px 0px grey, 0px 2px 0px 0px lightgrey,
+    0px 2px 5px #999;
+  -moz-box-shadow: inset 0px 1px 0px grey, 0px 2px 0px 0px lightgrey,
+    0px 2px 5px #999;
+  box-shadow: inset 0px 1px 0px grey, 0px 2px 0px 0px lightgrey,
+    0px 2px 5px #999;
 }
 
 .input-section {
@@ -110,7 +122,7 @@ button:active {
   /* border: 5px solid white; */
   width: 55vw;
   text-align: center;
-  bottom: 3.5rem;
+  bottom: 11rem;
   left: 0;
   position: absolute;
 }
@@ -157,6 +169,15 @@ button:active {
   text-align: center;
 }
 
+#template-contents__back-btn {
+  position: absolute;
+  margin: auto;
+  bottom: 5rem;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
 .copyright {
   font-size: 1.2rem;
   position: absolute;
@@ -166,11 +187,9 @@ button:active {
   right: 0;
   text-align: center;
 }
-
 .homepage__copyright {
   color: black;
 }
-
 .template__copyright {
   color: white;
 }
