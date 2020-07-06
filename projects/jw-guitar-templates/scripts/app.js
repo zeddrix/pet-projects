@@ -28,7 +28,7 @@ const goHome = () => {
   template.style.display = "none";
 };
 
-window.addEventListener("click", function (event) {
+window.addEventListener("click", (event) => {
   if (event.target.matches("#input-section__find-btn")) {
     getUserInput();
   } else if (event.target.matches("#template-contents__back-btn")) {
@@ -40,7 +40,7 @@ window.addEventListener("click", function (event) {
   }
 });
 
-window.addEventListener("keypress", function (event) {
+window.addEventListener("keypress", (event) => {
   if (event.keyCode === 13) {
     getUserInput();
   } else if (event.keyCode === 8) {
