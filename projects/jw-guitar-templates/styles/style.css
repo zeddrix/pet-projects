@@ -45,15 +45,15 @@ h1 {
 }
 
 button {
-	height: 13vh;
+	height: 5.5rem;
 	padding: 0 4rem;
+	bottom: 2rem;
 	background: #6d5402;
 	font-size: 1rem;
 	border: 1px solid #6d5402;
 	border-radius: 50px;
 	left: 0;
 	right: 0;
-	bottom: 2rem;
 	font-family: "Times New Roman", Times, serif;
 	color: white;
 	cursor: pointer;
@@ -100,8 +100,8 @@ button:active {
 }
 
 #input-section__field {
-	width: 40vw;
-	height: 15vh;
+	width: 10rem;
+	height: 6rem;
 	font-size: 2.5rem;
 	border: 2px solid #6d5402;
 	margin: auto;
@@ -172,9 +172,9 @@ button:active {
 }
 
 #template-contents__back-btn {
+	bottom: 5rem;
 	position: absolute;
 	margin: auto;
-	bottom: 5rem;
 	left: 0;
 	right: 0;
 	text-align: center;
