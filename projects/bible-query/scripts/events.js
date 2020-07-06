@@ -1,4 +1,4 @@
-window.addEventListener("click", function (event) {
+window.addEventListener("click", (event) => {
   if (event.target.matches(".levels")) {
     levels();
   } else if (event.target.matches(".settings")) {
