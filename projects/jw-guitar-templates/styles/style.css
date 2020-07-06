@@ -141,7 +141,6 @@ button:active {
 	/* flex-flow: column wrap; */
 	align-items: center;
 	justify-content: center;
-	text-align: center;
 	position: absolute;
 }
 
