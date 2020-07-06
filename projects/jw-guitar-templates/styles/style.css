@@ -26,6 +26,7 @@
 body {
 	line-height: 100px;
 	margin: 0;
+	overflow: hidden;
 }
 
 .home__header {
@@ -190,39 +191,65 @@ button:active {
 }
 
 .nav-btns {
-	color: #d4d4d425;
-	display: block;
-	position: absolute;
-	font-size: 4rem;
-	top: 45%;
+	/* border: 5px solid white; */
+	height: 50vh;
+	top: 50%;
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
+	font-size: 4rem;
 	padding: 0 1rem;
+	position: absolute;
 	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	/* flex-flow: column wrap; */
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.nav-btns:hover {
+	transition: 0.5s;
+	cursor: pointer;
+	/* transform: translate3d(0, 0, 0); */
+}
+.nav-btns:after {
+	position: absolute;
+	content: "";
+	width: 10%;
+	height: 100%;
+	pointer-events: none;
+	background-image: radial-gradient(circle, #fff 10%, transparent 10.01%);
+	transform: scale(10, 10);
+	opacity: 0;
+	transition: transform 0.3s, opacity 1s;
+}
+.nav-btns:active:after {
+	transform: scale(0, 0);
+	opacity: 0.3;
+	transition: 0s;
 }
 
 #previous-song {
+	color: #0000001e;
 	background: none;
 	left: 0;
 }
 
 #next-song {
+	color: #d4d4d425;
 	background: none;
 	right: 0;
 }
 
-.nav-btns:hover {
-	transition: 0.8s;
-	color: #d4d4d4;
-	cursor: pointer;
-}
-
 #previous-song:hover {
+	color: #000000;
 	background: linear-gradient(to left, #ff000000, #ffffff98);
 	left: 0;
 }
 
 #next-song:hover {
+	color: #d4d4d4;
 	background: linear-gradient(to right, #ff000000, #00000098);
 	right: 0;
 }
