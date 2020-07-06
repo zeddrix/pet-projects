@@ -180,6 +180,51 @@ button:active {
 	text-align: center;
 }
 
+.nav-btns {
+	color: #d4d4d425;
+	display: block;
+	position: absolute;
+	font-size: 4rem;
+	top: 45%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	padding: 0 1rem;
+	z-index: 1;
+}
+
+#previous-song {
+	background: none;
+	left: 0;
+}
+
+#next-song {
+	background: none;
+	right: 0;
+}
+
+.nav-btns:hover {
+	color: #d4d4d4;
+	cursor: pointer;
+}
+
+#previous-song:hover {
+	background: linear-gradient(
+		to left,
+		#ff000000,
+		#ffffff98
+	);
+	left: 0;
+}
+
+#next-song:hover {
+	background: linear-gradient(
+		to right,
+		#ff000000,
+		#00000098
+	);
+	right: 0;
+}
+
 .copyright {
 	font-size: 1rem;
 	position: absolute;
