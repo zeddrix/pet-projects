@@ -132,13 +132,8 @@ button:active {
 }
 
 .template-contents {
-  /* border: 5px solid white; */
-  left: 1rem;
-  top: 28%;
-	width: 55vw;
+	top: 28%;
 	text-align: center;
-	top: 25%;
-	left: 0;
 	position: absolute;
 }
 
@@ -154,20 +149,21 @@ button:active {
 .template-contents__song,
 #template-contents__song-number {
 	font-family: "Avenir";
-	font-size: 1.5rem;
-	line-height: 1.5rem;
+	font-size: 2rem;
+	line-height: 1;
 }
 
 #template-contents__song-title {
 	font-family: "Charter";
-	font-size: 3rem;
-	line-height: 95%;
+	font-size: 4rem;
+	line-height: 1;
 }
 
 .template-contents__parentheses,
 #template-contents__bible-verse {
 	font-family: "ArcherPro-Thin";
-	font-size: 1rem;
+	font-size: 1.5rem;
+	line-height: 2;
 }
 
 #home-copyright,

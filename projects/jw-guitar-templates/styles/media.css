@@ -36,7 +36,7 @@
 	}
 	#template-contents__song-title {
 		font-size: 3rem;
-		line-height: 95%;
+		line-height: 1;
 	}
 	.template-contents__parentheses,
 	#template-contents__bible-verse {
@@ -66,11 +66,20 @@
 		width: 10rem;
 		height: 5rem;
 		font-size: 3rem;
-	}
+  }
+  .template-contents {
+    /* border: 5px solid white; */
+    left: 1rem;
+    width: 55vw;
+    text-align: center;
+    top: 25%;
+    left: 0;
+    position: absolute;
+  }
 	.template-contents__song,
 	#template-contents__song-number {
 		font-size: 1.75rem;
-		line-height: 1.75rem;
+		line-height: 1;
 	}
 	#template-contents__song-title {
 		font-family: "Charter";
