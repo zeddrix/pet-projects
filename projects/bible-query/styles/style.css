@@ -427,9 +427,9 @@ a,
   text-align: center;
 }
 
-/* ----------NO Scrollbar----------
-.container {
-  -ms-overflow-style: none; Internet Explorer 10+
+/* ----------NO Scrollbar---------- */
+/* .container {
+  -ms-overflow-style: none;  Internet Explorer 10+
   scrollbar-width: none; Firefox
 }
 .container::-webkit-scrollbar {
