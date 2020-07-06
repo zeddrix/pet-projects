@@ -3,11 +3,11 @@
 }
 /* SAMSUNG */
 @media only screen and (min-width: 420px) {
-  .container {
-    border: 2px solid white;
-    border-top: 0;
-    border-bottom: 0;
-  }
+	.container {
+		border: 2px solid white;
+		border-top: 0;
+		border-bottom: 0;
+	}
 }
 
 @media only screen and (min-width: 768px) and (min-height: 1024px) {
@@ -20,5 +20,5 @@
 }
 
 /* DESKTOPS */
-@media only screen and (min-device-width: 1600px) {
+@media only screen and (min-width: 1200px) and (min-height: 680px) {
 }
