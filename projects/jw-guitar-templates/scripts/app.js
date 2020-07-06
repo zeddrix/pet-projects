@@ -40,9 +40,11 @@ window.addEventListener("click", function (event) {
   }
 });
 
-inputSectionField.addEventListener("keypress", function (event) {
+window.addEventListener("keypress", function (event) {
   if (event.keyCode === 13) {
     getUserInput();
+  } else if (event.keyCode === 8) {
+    goHome();
   }
 });
 
