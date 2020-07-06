@@ -11,28 +11,20 @@
 	-moz-user-drag: none;
 	-o-user-drag: none;
 }
-
 @font-face {
 	font-family: "Avenir";
 	src: url(../fonts/AvenirLTStd-Book.otf);
 }
-
 @font-face {
 	font-family: "Charter";
 	src: url(../fonts/Charter.ttf);
 }
-
 @font-face {
 	font-family: "ArcherPro-Thin";
 	src: url(../fonts/ArcherPro-Thin.otf);
 }
-
 body {
 	line-height: 100px;
-	margin: 0;
-}
-
-h1 {
 	margin: 0;
 }
 
@@ -46,6 +38,10 @@ h1 {
 	text-align: center;
 	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
 	width: 100%;
+}
+
+h1 {
+	margin: 0;
 }
 
 button {
@@ -116,13 +112,11 @@ button:active {
 #input-section__field:focus {
 	outline: none;
 }
-/* Chrome, Safari, Edge, Opera */
 #input-section__field::-webkit-outer-spin-button,
 #input-section__field::-webkit-inner-spin-button {
 	-webkit-appearance: none;
 	margin: 0;
 }
-/* Firefox */
 #input-section__field[type="number"] {
 	-moz-appearance: textfield;
 }
@@ -138,7 +132,9 @@ button:active {
 }
 
 .template-contents {
-	/* border: 5px solid white; */
+  /* border: 5px solid white; */
+  left: 1rem;
+  top: 28%;
 	width: 55vw;
 	text-align: center;
 	top: 25%;
@@ -158,20 +154,20 @@ button:active {
 .template-contents__song,
 #template-contents__song-number {
 	font-family: "Avenir";
-	font-size: 2.5rem;
-	line-height: 1.75rem;
+	font-size: 1.5rem;
+	line-height: 1.5rem;
 }
 
 #template-contents__song-title {
 	font-family: "Charter";
-	font-size: 6.5rem;
+	font-size: 3rem;
+	line-height: 95%;
 }
 
 .template-contents__parentheses,
 #template-contents__bible-verse {
 	font-family: "ArcherPro-Thin";
-	font-size: 1.5rem;
-	line-height: 4rem;
+	font-size: 1rem;
 }
 
 #home-copyright,
@@ -189,7 +185,7 @@ button:active {
 }
 
 .copyright {
-	font-size: 1.2rem;
+	font-size: 1rem;
 	position: absolute;
 	margin: auto;
 	bottom: 0;
