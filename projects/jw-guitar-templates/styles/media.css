@@ -48,22 +48,6 @@
 }
 
 @media only screen and (min-width: 360px) and (min-height: 640px) {
-	.home__header {
-		font-size: 1rem;
-		width: 100%;
-		padding: 1rem;
-	}
-	h1 {
-		margin: 0;
-	}
-	.input-section {
-		text-align: center;
-		height: 55vh;
-	}
-	#input-section__field {
-		width: 40vw;
-		height: 15vh;
-	}
 	.template-contents {
 		left: 1rem;
 		top: 28%;
@@ -79,5 +63,27 @@
 	.template-contents__parentheses,
 	#template-contents__bible-verse {
 		font-size: 1rem;
+	}
+}
+
+/* DESKTOPS */
+@media only screen and (min-width: 1200px) and (min-height: 680px) {
+	h1 {
+		margin: 1rem;
+	}
+	.home__header {
+		font-size: 1.5rem;
+		padding: 0.5rem;
+	}
+	button {
+		width: 17rem;
+	}
+	.input-section {
+		padding: 1rem;
+	}
+	#input-section__field {
+		width: 10rem;
+		height: 5rem;
+		font-size: 3rem;
 	}
 }

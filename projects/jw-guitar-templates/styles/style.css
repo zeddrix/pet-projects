@@ -1,15 +1,15 @@
 * {
-  box-sizing: border-box;
-  user-select: none;
-  -webkit-user-select: none; /* Safari */
-  -khtml-user-select: none; /* Konqueror HTML */
-  -moz-user-select: none; /* Firefox */
-  -ms-user-select: none; /* Internet Explorer/Edge */
+	box-sizing: border-box;
+	user-select: none;
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
 
-  -webkit-user-drag: none;
-  -khtml-user-drag: none;
-  -moz-user-drag: none;
-  -o-user-drag: none;
+	-webkit-user-drag: none;
+	-khtml-user-drag: none;
+	-moz-user-drag: none;
+	-o-user-drag: none;
 }
 
 @font-face {
@@ -32,25 +32,28 @@ body {
 	margin: 0;
 }
 
+h1 {
+	margin: 0;
+}
+
 .home__header {
+	font-size: 1rem;
+	width: 100%;
+	padding: 1rem;
 	background: #6d5402;
 	font-family: "ArcherPro-Thin";
-	font-size: 1.5rem;
 	color: white;
-	padding: 0.5rem;
 	text-align: center;
 	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
 	width: 100%;
 }
 
 button {
-  background: #6d5402;
-	font-size: 1rem;
-  height: 13vh;
-  width: 17rem;
-	border: 1px solid #6d5402;
+	height: 13vh;
 	padding: 0 4rem;
-	margin: 1rem;
+	background: #6d5402;
+	font-size: 1rem;
+	border: 1px solid #6d5402;
 	border-radius: 50px;
 	left: 0;
 	right: 0;
@@ -86,13 +89,12 @@ button:active {
 .input-section {
 	position: relative;
 	text-align: center;
-	height: 55vh;
 	margin: 2rem auto;
 	width: 40rem;
+	height: 55vh;
 	max-width: 90%;
 	border: 1px solid #6d5402;
 	border-radius: 10px;
-	padding: 1rem;
 	color: #6d5402;
 }
 
@@ -102,12 +104,10 @@ button:active {
 }
 
 #input-section__field {
-	font: inherit;
-	font-size: 3rem;
+	width: 40vw;
+	height: 15vh;
+	font-size: 2.5rem;
 	border: 2px solid #6d5402;
-	width: 10rem;
-	height: 5rem;
-	padding: 0.15rem;
 	margin: auto;
 	display: block;
 	color: #6d5402;
@@ -157,21 +157,21 @@ button:active {
 
 .template-contents__song,
 #template-contents__song-number {
-  font-family: "Avenir";
-  font-size: 2.5rem;
-  line-height: 1.75rem;
+	font-family: "Avenir";
+	font-size: 2.5rem;
+	line-height: 1.75rem;
 }
 
 #template-contents__song-title {
-  font-family: "Charter";
+	font-family: "Charter";
 	font-size: 6.5rem;
 }
 
 .template-contents__parentheses,
 #template-contents__bible-verse {
-  font-family: "ArcherPro-Thin";
-  font-size: 1.5rem;
-  line-height: 4rem;
+	font-family: "ArcherPro-Thin";
+	font-size: 1.5rem;
+	line-height: 4rem;
 }
 
 #home-copyright,
