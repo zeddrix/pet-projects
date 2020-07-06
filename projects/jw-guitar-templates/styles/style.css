@@ -132,7 +132,14 @@ button:active {
 }
 
 .template-contents {
-	top: 28%;
+	/* border: 5px solid white; */
+	height: 90vh;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	/* flex-flow: column wrap; */
+	align-items: center;
+	justify-content: center;
 	text-align: center;
 	position: absolute;
 }
@@ -172,6 +179,8 @@ button:active {
 }
 
 #template-contents__back-btn {
+	height: 4.5rem;
+	padding: 0 3rem;
 	bottom: 5rem;
 	position: absolute;
 	margin: auto;
@@ -203,25 +212,18 @@ button:active {
 }
 
 .nav-btns:hover {
+	transition: 0.8s;
 	color: #d4d4d4;
 	cursor: pointer;
 }
 
 #previous-song:hover {
-	background: linear-gradient(
-		to left,
-		#ff000000,
-		#ffffff98
-	);
+	background: linear-gradient(to left, #ff000000, #ffffff98);
 	left: 0;
 }
 
 #next-song:hover {
-	background: linear-gradient(
-		to right,
-		#ff000000,
-		#00000098
-	);
+	background: linear-gradient(to right, #ff000000, #00000098);
 	right: 0;
 }
 
