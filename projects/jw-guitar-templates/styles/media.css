@@ -1,134 +1,133 @@
-@media only screen and (max-width: 359px) and (max-height: 639px) {
-	.home__header {
-		font-size: 0.75rem;
-		width: 100%;
-		padding: 1rem;
-	}
-	h1 {
-		margin: 0;
-	}
-	button {
-		font-size: 0.75rem;
-		padding: 0;
-		width: 10rem;
-		bottom: 1rem;
-	}
-	.input-section {
-		text-align: center;
-		height: 45vh;
-	}
-	.input-section__heading {
-		line-height: 2;
-		font-size: 1.2rem;
-	}
-	#input-section__field {
-		width: 40vw;
-		height: 12vh;
-		font-size: 2rem;
-	}
-	.template-contents {
-		left: 1rem;
-		top: 28%;
-	}
-	.template-contents__song,
-	#template-contents__song-number {
-		font-size: 1.75rem;
-	}
-	#template-contents__song-title {
-		font-size: 3rem;
-		line-height: 1;
-	}
-	.template-contents__parentheses,
-	#template-contents__bible-verse {
-		font-size: 1rem;
-	}
-	.copyright {
-		font-size: 1rem;
-	}
+@media only screen and (max-width: 359px) {
+  .home__header {
+    font-size: 0.75rem;
+    width: 100%;
+    padding: 1rem;
+  }
+  h1 {
+    margin: 0;
+  }
+  button {
+    font-size: 0.75rem;
+    padding: 0;
+    width: 10rem;
+    bottom: 1rem;
+  }
+  .input-section {
+    text-align: center;
+    height: 45vh;
+  }
+  .input-section__heading {
+    line-height: 2;
+    font-size: 1.2rem;
+  }
+  #input-section__field {
+    width: 40vw;
+    height: 12vh;
+    font-size: 2rem;
+  }
+  /* .template-contents {
+    border: 2px solid white;
+  } */
+  .template-contents__song,
+  #template-contents__song-number {
+    font-size: 1.75rem;
+  }
+  #template-contents__song-title {
+    font-size: 3rem;
+    line-height: 1;
+  }
+  .template-contents__parentheses,
+  #template-contents__bible-verse {
+    font-size: 1rem;
+  }
+  .copyright {
+    font-size: 1rem;
+  }
 }
 
 /* TABLETS */
-@media only screen and (min-width: 768px) and (min-height: 1024px) {
-	.home__header {
-		font-size: 2rem;
-		padding: 3rem;
-	}
-	.input-section__heading {
-		font-size: 2.5rem;
-	}
-	#input-section__field {
-		font-size: 5rem;
-		margin-top: 5rem;
-		height: 8rem;
-		width: 15rem;
-	}
-	button {
-		font-size: 1.5rem;
-		height: 8rem;
-		padding: 0 6rem;
-		bottom: 4rem;
-	}
-	.template-contents__song,
-	#template-contents__song-number {
-		font-size: 2.5rem;
-		line-height: 0.5;
-	}
-	#template-contents__song-title {
-		font-family: "Charter";
-		font-size: 8rem;
-	}
-	.template-contents__parentheses,
-	#template-contents__bible-verse {
-		font-family: "ArcherPro-Thin";
-		font-size: 2rem;
-		line-height: 3;
-	}
-	#template-contents__back-btn {
-		bottom: 8rem;
-	}
-	.copyright {
-		font-size: 1.5rem;
-	}
+@media only screen and (min-width: 768px) {
+  .home__header {
+    font-size: 2rem;
+    padding: 3rem;
+  }
+  .input-section__heading {
+    font-size: 2.5rem;
+  }
+  #input-section__field {
+    font-size: 5rem;
+    margin-top: 5rem;
+    height: 8rem;
+    width: 15rem;
+  }
+  button {
+    font-size: 1.5rem;
+    height: 8rem;
+    padding: 0 6rem;
+    bottom: 4rem;
+  }
+  .template-contents__song,
+  #template-contents__song-number {
+    font-size: 2.5rem;
+    line-height: 0.5;
+  }
+  #template-contents__song-title {
+    font-family: "Charter";
+    font-size: 8rem;
+  }
+  .template-contents__parentheses,
+  #template-contents__bible-verse {
+    font-family: "ArcherPro-Thin";
+    font-size: 2rem;
+    line-height: 3;
+  }
+  #template-contents__back-btn {
+    bottom: 8rem;
+  }
+  .copyright {
+    font-size: 1.5rem;
+  }
 }
 
 /* DESKTOPS */
-@media only screen and (min-width: 1200px) and (min-height: 680px) {
-	h1 {
-		margin: 1rem;
-	}
-	.home__header {
-		font-size: 1.5rem;
-		padding: 0.5rem;
-	}
-	.input-section {
-		padding: 1rem;
-	}
-	#input-section__field {
-		width: 10rem;
-		height: 5rem;
-		font-size: 3rem;
-	}
-	.template-contents {
-		/* border: 5px solid white; */
-		left: 1rem;
-		height: 100vh;
-		width: 55vw;
-		text-align: center;
-		left: 0;
-		position: absolute;
-	}
-	.template-contents__song,
-	#template-contents__song-number {
-		font-size: 1.75rem;
-		line-height: 1;
-	}
-	#template-contents__song-title {
-		font-family: "Charter";
-		font-size: 6.5rem;
-	}
-	.template-contents__parentheses,
-	#template-contents__bible-verse {
-		font-family: "ArcherPro-Thin";
-		font-size: 1.5rem;
-	}
+@media only screen and (min-width: 1200px) {
+  h1 {
+    margin: 1rem;
+  }
+  .home__header {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+  }
+  .input-section {
+    padding: 1rem;
+  }
+  #input-section__field {
+    width: 10rem;
+    height: 5rem;
+    font-size: 3rem;
+  }
+  .template-contents {
+    /* border: 5px solid white; */
+    left: 1rem;
+    height: 100vh;
+    width: 55vw;
+    text-align: center;
+    left: 0;
+    position: absolute;
+  }
+  .template-contents__song,
+  #template-contents__song-number {
+    font-size: 1.75rem;
+    line-height: 1;
+  }
+  #template-contents__song-title {
+    font-family: "Charter";
+    font-size: 6.5rem;
+  }
+  .template-contents__parentheses,
+  #template-contents__bible-verse {
+    font-family: "ArcherPro-Thin";
+    font-size: 1.5rem;
+  }
 }
