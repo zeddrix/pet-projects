@@ -41,9 +41,9 @@
           <h1 class="page__heading">SELECT A LEVEL</h1>
           <h3 id="stars">Stars: 0</h3>
           <div class="levels__number">1</div>
-          <div class="levels__sm-btns">
-            <img src="img/back-sm-btn.jpg" class="go-to-homepage sm-btn" />
-            <img src="img/settings-sm-btn.jpg" class="settings sm-btn" />
+          <div class="menu-btns">
+            <img src="img/back-sm-btn.jpg" class="go-to-homepage menu-btn" />
+            <img src="img/settings-sm-btn.jpg" class="settings menu-btn" />
           </div>
         </div>
         <!-- Upon clicking on SETTINGS -->
@@ -68,13 +68,13 @@
           <br />
           <input type="radio" name="language" value="Tagalog" />
           <label for="Tagalog">Tagalog</label> -->
-          <div class="settings-btns">
+          <div class="menu-btns">
             <img
               src="img/reset-game-btn.jpg"
               id="reset-game__btn"
-              class="sm-btn"
+              class="menu-btn"
             />
-            <img src="img/back-sm-btn.jpg" class="go-to-homepage sm-btn" />
+            <img src="img/back-sm-btn.jpg" class="go-to-homepage menu-btn" />
           </div>
         </div>
         <!-- Upon clicking on RULES -->
@@ -102,7 +102,7 @@
             <img class="rules-table__img" src="img/levels-stars.jpg" />
           </div>
           <div class="centered-sm-btns">
-            <img src="img/back-sm-btn.jpg" class="go-to-homepage sm-btn" />
+            <img src="img/back-sm-btn.jpg" class="go-to-homepage menu-btn" />
           </div>
         </div>
         <!-- Upon clicking on ABOUT -->
@@ -219,7 +219,7 @@
             <b>Bible Query</b>!
           </p>
           <div class="centered-sm-btns">
-            <img src="img/back-sm-btn.jpg" class="go-to-homepage sm-btn" />
+            <img src="img/back-sm-btn.jpg" class="go-to-homepage menu-btn" />
           </div>
         </div>
         <!-- Upon selecting a query level -->
@@ -236,21 +236,21 @@
           <p class="query__choice" id="choice-C"></p>
           <p class="query__choice" id="choice-D"></p>
           <div id="query__progress"></div>
-          <div class="query__menu-btns">
+          <div class="menu-btns">
             <img
               id="query__menu-btns__levels"
               src="img/levels-sm-btn.jpg"
-              class="sm-btn"
+              class="menu-btn"
             />
             <img
               id="query__menu-btns__retry"
               src="img/retry-sm-btn.jpg"
-              class="sm-btn"
+              class="menu-btn"
             />
             <img
               id="query__menu-btns__quit"
               src="img/quit-sm-btn.jpg"
-              class="sm-btn"
+              class="menu-btn"
             />
           </div>
         </div>
@@ -260,11 +260,11 @@
           <img id="final-score__img" />
           <p id="final-score__percentage"></p>
           <p id="final-score__phrase-2"></p>
-          <div class="final-score__menu-btns">
-            <img class="levels sm-btn" src="img/levels-sm-btn.jpg" />
-            <img class="sm-btn" src="img/play-again-sm-btn.jpg" />
-            <img class="sm-btn" src="img/next-level-sm-btn.jpg" />
-            <img class="go-to-homepage sm-btn" src="img/quit-sm-btn.jpg" />
+          <div class="menu-btns">
+            <img class="levels menu-btn" src="img/levels-sm-btn.jpg" />
+            <img class="menu-btn" src="img/play-again-sm-btn.jpg" />
+            <img class="menu-btn" src="img/next-level-sm-btn.jpg" />
+            <img class="go-to-homepage menu-btn" src="img/quit-sm-btn.jpg" />
           </div>
         </div>
         <!-- ----------------------------MODALS---------------------------- -->
@@ -275,15 +275,17 @@
               You are now temporarily leaving the game to send a recommendation
               using your preferred messaging application.
             </p>
-            <img src="img/okay-sm-btn.jpg" class="modal_close okay__btn" />
+            <img src="img/okay-sm-btn.jpg" class="modal_close modal__btn" />
           </div>
         </div>
         <!-- QUIT -->
         <div id="quit-modal" class="modal">
           <div class="modal__effect">
             <p class="modal__content">Are you sure you want to quit?</p>
-            <img src="img/yes-sm-btn.jpg" class="modal_close yes-no__btns" />
-            <img src="img/no-sm-btn.jpg" class="modal_close yes-no__btns" />
+            <div class="modal__btns">
+              <img src="img/yes-sm-btn.jpg" class="modal_close modal__btn" />
+              <img src="img/no-sm-btn.jpg" class="modal_close modal__btn" />
+            </div>
           </div>
         </div>
         <!-- RESET GAME -->
@@ -293,8 +295,10 @@
               This means clearing all the data of the game! Are you sure you
               want to continue this procedure?
             </p>
-            <img src="img/yes-sm-btn.jpg" class="modal_close yes-no__btns" />
-            <img src="img/no-sm-btn.jpg" class="modal_close yes-no__btns" />
+            <div class="modal__btns">
+              <img src="img/yes-sm-btn.jpg" class="modal_close modal__btn" />
+              <img src="img/no-sm-btn.jpg" class="modal_close modal__btn" />
+            </div>
           </div>
         </div>
         <!-- CLUE MODAL -->
@@ -303,7 +307,9 @@
             <h2 id="clue__source"></h2>
             <hr class="clue__horizontal-line" />
             <p id="clue__source-content"></p>
-            <img src="img/okay-sm-btn.jpg" class="modal_close okay__btn" />
+            <div class="modal__btns">
+              <img src="img/okay-sm-btn.jpg" class="modal_close modal__btn" />
+            </div>
           </div>
         </div>
         <!-- DURING QUERY MODALS -->
@@ -313,8 +319,10 @@
               You'll lose the progress you've made in this level. Are you sure
               you want to go to the levels section?
             </p>
-            <img src="img/yes-sm-btn.jpg" class="levels yes-no__btns" />
-            <img src="img/no-sm-btn.jpg" class="modal_close yes-no__btns" />
+            <div class="modal__btns">
+              <img src="img/yes-sm-btn.jpg" class="levels modal__btn" />
+              <img src="img/no-sm-btn.jpg" class="modal_close modal__btn" />
+            </div>
           </div>
         </div>
         <div id="retry-query-modal" class="modal">
@@ -323,12 +331,14 @@
               You'll lose the progress you've made in this level. Are you sure
               you want to start over?
             </p>
-            <img
-              src="img/yes-sm-btn.jpg"
-              id="retry-query__yes"
-              class="yes-no__btns"
-            />
-            <img src="img/no-sm-btn.jpg" class="modal_close yes-no__btns" />
+            <div class="modal__btns">
+              <img
+                src="img/yes-sm-btn.jpg"
+                id="retry-query__yes"
+                class="modal__btn"
+              />
+              <img src="img/no-sm-btn.jpg" class="modal_close modal__btn" />
+            </div>
           </div>
         </div>
         <div id="quit-query-modal" class="modal">
@@ -337,8 +347,13 @@
               You'll lose the progress you've made in this level. Are you sure
               you want to quit and go to the homepage?
             </p>
-            <img src="img/yes-sm-btn.jpg" class="go-to-homepage yes-no__btns" />
-            <img src="img/no-sm-btn.jpg" class="modal_close yes-no__btns" />
+            <div class="modal__btns">
+              <img
+                src="img/yes-sm-btn.jpg"
+                class="go-to-homepage modal__btn"
+              />
+              <img src="img/no-sm-btn.jpg" class="modal_close modal__btn" />
+            </div>
           </div>
         </div>
       </div>

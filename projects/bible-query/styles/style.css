@@ -9,6 +9,8 @@
   -khtml-user-drag: none;
   -moz-user-drag: none;
   -o-user-drag: none;
+
+  outline: none;
 }
 
 @font-face {
@@ -44,6 +46,7 @@ body {
   color: white;
   text-align: left;
   margin: 0;
+  overflow: hidden;
 }
 
 .background {
@@ -86,15 +89,6 @@ a {
   font-size: 2.5rem;
   margin: 0.4rem 0;
 }
-.main-btns {
-  width: 78%;
-  margin: auto;
-}
-.main-btn {
-  max-width: 100%;
-  align-self: center;
-  margin: 0.3rem 0;
-}
 .page__heading {
   font-size: 2rem;
   margin-bottom: 0.5rem;
@@ -117,6 +111,7 @@ a {
   color: lightgrey;
   position: absolute;
   font-weight: bolder;
+  margin: 0;
 }
 .levels__number {
   border-color: lightgrey;
@@ -129,11 +124,21 @@ a {
 }
 .levels__number:hover,
 #query__clue-btn:hover {
+  cursor: pointer;
   border: 2.5px solid lightseagreen;
   color: lightseagreen;
 }
 
+.levels__number:active,
+#query__clue-btn:active {
+  border: 2.5px solid #1c958f;
+  color: #1c958f;
+}
+
 /* -------------------QUERY---------------- */
+#query {
+  text-align: center;
+}
 #query__level-theme {
   font-size: 1.2rem;
 }
@@ -142,6 +147,7 @@ a {
   margin: 0 0.5rem;
   border-radius: 5px;
   border: 3px solid #078077;
+  display: flex;
   justify-content: center;
   flex-direction: column;
   position: relative;
@@ -171,6 +177,9 @@ a {
 }
 
 .query__choice {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   height: 9vh;
   margin: 0.3rem 0.75rem;
   border-radius: 5px;
@@ -188,6 +197,7 @@ a {
 .query__choice:hover {
   font-weight: bold;
   border: 2px solid lightgrey;
+  cursor: pointer;
 }
 
 .query__choice:active {
@@ -233,12 +243,24 @@ a {
   width: 90%;
 }
 
-/* ------------BUTTONS>------------- */
+/* >>>>>>>>>>>>>>>>>BUTTONS>>>>>>>>>>>>>> */
+.main-btns {
+  display: flex;
+  flex-direction: column;
+  width: 78%;
+  margin: auto;
+}
+.main-btn {
+  max-width: 100%;
+  align-self: center;
+  margin: 0.15rem 0;
+}
 img {
   filter: brightness(105%);
   box-shadow: 4px 4px 8px #000000;
 }
 img:hover {
+  cursor: pointer;
   filter: brightness(100%);
   box-shadow: 4px 4px 8px #000000;
 }
@@ -249,8 +271,8 @@ img:active {
 .rules-table__img,
 .rules-table__img:hover,
 .rules-table__img:active,
-.okay__btn:hover,
-.yes-no__btns:hover,
+.menu-btn:hover,
+.modal-btn:hover,
 #final-score__img,
 #final-score__img:hover,
 #final-score__img:active {
@@ -258,109 +280,42 @@ img:active {
   box-shadow: none;
 }
 
-.okay__btn {
-  padding: 1rem;
+.menu-btns {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  bottom: 2.75rem;
+}
+.menu-btn {
   width: 25%;
-  display: block;
-  margin: auto;
-  box-shadow: none;
-}
-
-.okay__btn:active {
-  filter: contrast(125%);
-  box-shadow: none;
-}
-
-.yes-no__btns {
   padding: 0.5rem;
+  box-shadow: none;
+}
+
+.modal__btns {
+  display: flex;
+  justify-content: center;
+}
+.modal__btn,
+.modal__btn:hover {
   width: 28%;
-  display: inline-block;
-  margin: auto;
+  padding: 0.5rem;
+  padding-bottom: 1rem;
   box-shadow: none;
 }
-
-.yes-no__btns:active {
-  filter: contrast(125%);
-  box-shadow: none;
-}
-
-.settings-btns,
-.levels__sm-btns,
-.query__menu-btns,
-.final-score__menu-btns {
-  text-align: center;
-  position: fixed;
-  bottom: 2.75rem;
-}
-.main-btn,
-.sm-btn,
-.okay__btn,
-.yes-no__btns {
-  border: 0;
-}
-.sm-btn {
-  margin: 0.5rem;
-  width: 25%;
-}
-
-/* .sm-menu-btns {
-  bottom: 2.75rem;
-  width: 25%;
-  display: inline-block;
-  margin: auto;
-  text-align: center;
-  position: fixed;
-}
-.main-btn,
-.sm-btn,
-.okay__btn,
-.yes-no__btns {
-  border: 0;
-} */
-
-/* ------------BUTTONS^------------- */
+/* <<<<<<<<<<<<<<<<<BUTTONS<<<<<<<<<<<<<<< */
 
 .page__heading,
 #stars,
 .centered-sm-btns,
-.query__question-section,
 .modal__content,
 .bible-query__title,
 .levels__number,
-#query,
 .settings-btns,
 .rules-table__container,
 #final-score {
   text-align: center;
-}
-
-a,
-.main-btn:hover,
-.button:hover,
-.query__choice,
-.sm-btn,
-#level,
-.okay__btn,
-.yes-no__btns,
-.levels__number,
-#query__clue-btn {
-  cursor: pointer;
-}
-
-.outer-container,
-#query__clue-btn {
-  margin: 0;
-}
-
-.outer-container,
-.container {
-  padding: 0;
-}
-
-.main-btn,
-.query__question-section,
-#query {
-  display: flex;
 }
 
 /* -------------------MODALS------------------ */

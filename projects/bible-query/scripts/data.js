@@ -1664,7 +1664,7 @@ const rivers = [
       "In Pharaoh's dream, he saw the 7 fat and 7 thin cows coming up from what river?",
     clueSource: "Genesis 41:1-4",
     clueSourceContent:
-      " At the end of two full years, Pharʹaoh dreamed that he was standing by the Nile River. 2  And there, coming up from the river, were seven fine-looking, fat cows, and they were feeding on the Nile grass.b 3  There were seven other cows that looked ugly and thin coming up after them from the Nile, and they stood alongside the fat cows by the bank of the Nile. 4  Then the ugly, thin cows began to eat up the seven fine-looking, fat cows. At this Pharʹaoh woke up.",
+      " At the end of two full years, Pharʹaoh dreamed that he was standing by the Nile River. 2  And there, coming up from the river, were seven fine-looking, fat cows, and they were feeding on the Nile grass. 3  There were seven other cows that looked ugly and thin coming up after them from the Nile, and they stood alongside the fat cows by the bank of the Nile. 4  Then the ugly, thin cows began to eat up the seven fine-looking, fat cows. At this Pharʹaoh woke up.",
     choiceA: "Nile",
     choiceB: "Abanah",
     choiceC: "Jordan",
