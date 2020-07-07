@@ -88,14 +88,17 @@ a {
 .bible-query__title {
   font-size: 2.5rem;
   margin: 0.4rem 0;
+  text-align: center;
 }
 .page__heading {
   font-size: 2rem;
   margin-bottom: 0.5rem;
+  text-align: center;
 }
 #stars {
   font-size: 1.2rem;
   margin: 0;
+  text-align: center;
 }
 .page__sub-heading {
   font-size: 1.3rem;
@@ -116,6 +119,7 @@ a {
 .levels__number {
   border-color: lightgrey;
   margin: 1.5rem;
+  text-align: center;
 }
 #query__clue-btn {
   border-color: #cf1b1b;
@@ -131,8 +135,8 @@ a {
 
 .levels__number:active,
 #query__clue-btn:active {
-  border: 2.5px solid #1c958f;
-  color: #1c958f;
+  border: 2.5px solid #126965;
+  color: #126965;
 }
 
 /* -------------------QUERY---------------- */
@@ -202,8 +206,8 @@ a {
 
 .query__choice:active {
   text-decoration: none;
-  color: green;
-  border: 2px solid green;
+  border: 3px solid #646262;
+  color: #d4d4d4;
 }
 
 @keyframes button {
@@ -219,6 +223,10 @@ a {
   border: 1px solid grey;
   display: inline-block;
   border-radius: 40%;
+}
+
+#final-score {
+  text-align: center;
 }
 
 #final-score__phrase-1 {
@@ -239,11 +247,12 @@ a {
 }
 
 .rules-table__img {
+  position: absolute;
   margin: 1rem;
   width: 90%;
 }
 
-/* >>>>>>>>>>>>>>>>>BUTTONS>>>>>>>>>>>>>> */
+/* ----------------BUTTONS---------------- */
 .main-btns {
   display: flex;
   flex-direction: column;
@@ -285,6 +294,7 @@ img:active {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   bottom: 2.75rem;
 }
 .menu-btn {
@@ -303,19 +313,6 @@ img:active {
   padding: 0.5rem;
   padding-bottom: 1rem;
   box-shadow: none;
-}
-/* <<<<<<<<<<<<<<<<<BUTTONS<<<<<<<<<<<<<<< */
-
-.page__heading,
-#stars,
-.centered-sm-btns,
-.modal__content,
-.bible-query__title,
-.levels__number,
-.settings-btns,
-.rules-table__container,
-#final-score {
-  text-align: center;
 }
 
 /* -------------------MODALS------------------ */
