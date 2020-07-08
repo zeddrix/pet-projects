@@ -122,6 +122,10 @@ button:active {
   -moz-appearance: textfield;
 }
 
+.input-section__find-btn {
+  max-height: 1rem;
+}
+
 #template {
   height: 100vh;
   width: 100vw;

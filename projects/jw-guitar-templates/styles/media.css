@@ -91,7 +91,7 @@
 }
 
 /* DESKTOPS */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1000px) {
   h1 {
     margin: 1rem;
   }
@@ -106,6 +106,9 @@
     width: 10rem;
     height: 5rem;
     font-size: 3rem;
+  }
+  button {
+    height: 7rem;
   }
   .template-contents {
     /* border: 5px solid white; */
