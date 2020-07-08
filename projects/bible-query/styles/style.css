@@ -252,6 +252,7 @@ a {
 }
 
 .rules-table__img {
+  position: relative;
   margin: 1rem;
   width: 90%;
 }
