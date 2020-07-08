@@ -1,47 +1,47 @@
 <!DOCTYPE html>
 <html>
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0, user-scalable=no"
-  />
-  <link href="styles/style.css" rel="stylesheet" />
-  <link href="styles/media.css" rel="stylesheet" />
-  <head>
-    <title>JW Guitar Templates</title>
-  </head>
-  <body>
-    <div id="home">
-      <header class="home__header">
-        <h1>JW Guitar Templates</h1>
-      </header>
-      <section class="input-section">
-        <h2 class="input-section__heading">Enter Song Number:</h2>
-        <input type="number" id="input-section__field" />
-        <button id="input-section__find-btn">FIND TEMPLATE</button>
-      </section>
-      <p class="homepage__copyright copyright">
-        Copyright ©2020 Zeddrix Fabian
-      </p>
-    </div>
+	<meta
+		name="viewport"
+		content="width=device-width, initial-scale=1.0, user-scalable=no"
+	/>
+	<link href="styles/style.css" rel="stylesheet" />
+	<link href="styles/media.css" rel="stylesheet" />
+	<head>
+		<title>JW Guitar Templates</title>
+	</head>
+	<body>
+		<div id="home">
+			<header class="home__header">
+				<h1>JW Guitar Templates</h1>
+				<p class="copyright">
+					Copyright ©2020 Zeddrix Fabian
+				</p>
+			</header>
+			<section class="input-section">
+				<h2 class="input-section__heading">Enter Song Number:</h2>
+				<input type="number" id="input-section__field" />
+				<button id="input-section__find-btn">FIND TEMPLATE</button>
+			</section>
+		</div>
 
-    <div id="template" style="display: none;">
-      <div id="previous-song" class="nav-btns ripple">◄</div>
-      <div id="next-song" class="nav-btns ripple">►</div>
-      <div class="template-contents">
-        <p class="template-contents__song">
-          Song <span id="template-contents__song-number"></span>
-        </p>
-        <h1 id="template-contents__song-title"></h1>
-        <p class="template-contents__parentheses">
-          (<span id="template__contents__bible-verse"></span>)
-        </p>
-      </div>
-      <button id="template-contents__back-btn">BACK</button>
-      <p class="template__copyright copyright">
-        Copyright ©2020 Zeddrix Fabian
-      </p>
-    </div>
-    <script src="scripts/data.js"></script>
-    <script src="scripts/app.js"></script>
-  </body>
+		<div id="template" style="display: none;">
+			<div id="previous-song" class="nav-btns ripple">◄</div>
+			<div id="next-song" class="nav-btns ripple">►</div>
+			<div class="template-contents">
+				<p class="template-contents__song">
+					Song <span id="template-contents__song-number"></span>
+				</p>
+				<h1 id="template-contents__song-title"></h1>
+				<p class="template-contents__parentheses">
+					(<span id="template__contents__bible-verse"></span>)
+				</p>
+			</div>
+			<button id="template-contents__back-btn">BACK</button>
+			<p class="template__copyright copyright">
+				Copyright ©2020 Zeddrix Fabian
+			</p>
+		</div>
+		<script src="scripts/data.js"></script>
+		<script src="scripts/app.js"></script>
+	</body>
 </html>

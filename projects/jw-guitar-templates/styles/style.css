@@ -33,13 +33,29 @@ h1 {
 
 /* -----------HOME PAGE----------- */
 .home__header {
-	padding: 2.5rem 0;
+	padding-top: 2.5rem;
 	font-size: 1.1rem;
 	width: 100%;
 	background: #6d5402;
 	color: white;
 	text-align: center;
 	font-family: "ArcherPro-Thin";
+}
+.copyright {
+	font-size: 1rem;
+	padding: 1rem 0;
+	margin: 0;
+	font-family: "ArcherPro-Thin";
+	color: white;
+}
+.template__copyright {
+	position: absolute;
+	margin: auto;
+	padding: 0;
+	bottom: 2rem;
+	left: 0;
+	right: 0;
+	text-align: center;
 }
 
 .input-section {
@@ -80,19 +96,6 @@ h1 {
 }
 #input-section__field[type="number"] {
 	-moz-appearance: textfield;
-}
-
-.copyright {
-	font-size: 1rem;
-	position: absolute;
-	margin: auto;
-	bottom: 2rem;
-	left: 0;
-	right: 0;
-	text-align: center;
-}
-.homepage__copyright {
-	color: black;
 }
 
 /* -----------BUTTONS----------- */
@@ -195,10 +198,6 @@ button:active {
 	font-family: "ArcherPro-Thin";
 	font-size: 1.5rem;
 	line-height: 2;
-}
-
-.template__copyright {
-	color: white;
 }
 
 /* -----------NAV BUTTONS----------- */

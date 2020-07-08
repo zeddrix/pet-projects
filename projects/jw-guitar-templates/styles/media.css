@@ -1,154 +1,151 @@
 /* SMALLER PHONES */
 @media only screen and (max-width: 359px) {
-  .home__header {
-    padding: 2.35rem 0;
-    font-size: 0.8rem;
-  }
-  .input-section__heading {
-    font-size: 1.2rem;
-  }
-  #input-section__field {
-    width: 6.5rem;
-    height: 12vh;
-    font-size: 2rem;
-  }
-  #input-section__find-btn {
-    margin: 1.25rem auto;
-    padding: 1.3rem 1.5rem;
-    font-size: 0.8rem;
-  }
-  .copyright {
-    bottom: 1.5rem;
-  }
-
-  /* ----------TEMPLATE PAGE----------- */
-  /* .template-contents {
+	.home__header {
+		padding: 2.35rem 0;
+		font-size: 0.8rem;
+	}
+	.input-section__heading {
+		font-size: 1.2rem;
+	}
+	#input-section__field {
+		width: 6.5rem;
+		height: 12vh;
+		font-size: 2rem;
+	}
+	#input-section__find-btn {
+		margin: 1.25rem auto;
+		padding: 1.3rem 1.5rem;
+		font-size: 0.8rem;
+	}
+	/* ----------TEMPLATE PAGE----------- */
+	/* .template-contents {
     border: 2px solid white;
   } */
-  .template-contents__song,
-  #template-contents__song-number {
-    font-size: 1.75rem;
-  }
-  #template-contents__song-title {
-    font-size: 3rem;
-    line-height: 1;
-  }
-  #template-contents__back-btn {
-    padding: 1.2rem 2rem;
-    font-size: 0.8rem;
-    bottom: 3.3rem;
-  }
-  .copyright {
-    font-size: 0.8rem;
-  }
+	.template-contents__song,
+	#template-contents__song-number {
+		font-size: 1.75rem;
+	}
+	#template-contents__song-title {
+		font-size: 3rem;
+		line-height: 1;
+	}
+	#template-contents__back-btn {
+		padding: 1.2rem 2rem;
+		font-size: 0.8rem;
+		bottom: 3.3rem;
+	}
+	.copyright {
+		bottom: 1.5rem;
+		font-size: 0.8rem;
+	}
 }
 
 /* TABLETS */
 @media only screen and (min-width: 768px) {
-  .home__header {
-    font-size: 2rem;
-    padding: 4rem;
-  }
-  .input-section__heading {
-    font-size: 3rem;
-  }
-  #input-section__field {
-    margin: 2rem auto;
-    font-size: 5rem;
-    height: 8rem;
-    width: 15rem;
-  }
-  button {
-    border-radius: 60px;
-  }
-  #input-section__find-btn {
-    font-size: 1.5rem;
-    padding: 2.85rem 4.5rem;
-  }
-  /* -----------TEMPLATE PAGE----------- */
-  .template-contents__song,
-  #template-contents__song-number {
-    font-size: 2.5rem;
-    line-height: 0.5;
-  }
-  #template-contents__song-title {
-    font-family: "Charter";
-    font-size: 8rem;
-  }
-  .template-contents__parentheses,
-  #template-contents__bible-verse {
-    font-family: "ArcherPro-Thin";
-    font-size: 2rem;
-    line-height: 3;
-  }
-  #template-contents__back-btn {
-    font-size: 1.75rem;
-    padding: 2.6rem 4.5rem;
-    bottom: 8rem;
-  }
-  .copyright {
-    font-size: 1.9rem;
-    bottom: 3rem;
-  }
+	.home__header {
+		font-size: 2rem;
+		padding: 4rem;
+	}
+	.input-section__heading {
+		font-size: 3rem;
+	}
+	#input-section__field {
+		margin: 2rem auto;
+		font-size: 5rem;
+		height: 8rem;
+		width: 15rem;
+	}
+	button {
+		border-radius: 60px;
+	}
+	#input-section__find-btn {
+		font-size: 1.5rem;
+		padding: 2.85rem 4.5rem;
+	}
+	/* -----------TEMPLATE PAGE----------- */
+	.template-contents__song,
+	#template-contents__song-number {
+		font-size: 2.5rem;
+		line-height: 0.5;
+	}
+	#template-contents__song-title {
+		font-family: "Charter";
+		font-size: 8rem;
+	}
+	.template-contents__parentheses,
+	#template-contents__bible-verse {
+		font-family: "ArcherPro-Thin";
+		font-size: 2rem;
+		line-height: 3;
+	}
+	#template-contents__back-btn {
+		font-size: 1.75rem;
+		padding: 2.6rem 4.5rem;
+		bottom: 8rem;
+	}
+	.copyright {
+		font-size: 1.9rem;
+		bottom: 3rem;
+	}
 }
 
 /* DESKTOPS */
 @media only screen and (min-width: 1000px) {
-  .home__header {
-    font-size: 1.75rem;
-    padding: 3.25rem;
-  }
-  .input-section {
-    padding: 1rem;
-    /* height: 20rem; */
-    width: 35rem;
-  }
-  .input-section__heading {
-    margin: 1rem;
-    font-size: 1.8rem;
-  }
-  #input-section__field {
-    width: 10rem;
-    height: 5rem;
-    font-size: 3rem;
-    margin: 1.5rem auto;
-  }
-  #input-section__find-btn {
-    font-size: 1.1rem;
-    padding: 2rem 3rem;
-    margin: 1rem auto;
-  }
-  /* ----------TEMPLATE PAGE---------- */
-  .template-contents {
-    /* border: 5px solid white; */
-    left: 1rem;
-    height: 100vh;
-    width: 55vw;
-    text-align: center;
-    left: 0;
-    position: absolute;
-  }
-  .template-contents__song,
-  #template-contents__song-number {
-    font-size: 1.75rem;
-    line-height: 1;
-  }
-  #template-contents__song-title {
-    font-family: "Charter";
-    font-size: 6.5rem;
-  }
-  .template-contents__parentheses,
-  #template-contents__bible-verse {
-    font-family: "ArcherPro-Thin";
-    font-size: 1.5rem;
-  }
-  #template-contents__back-btn {
-    padding: 1.4rem 2.75rem;
-    font-size: 1.1rem;
-    bottom: 4rem;
-  }
-  .copyright {
-    font-size: 1.1rem;
-    bottom: 1.5rem;
-  }
+	.home__header {
+		font-size: 1.75rem;
+		padding: 3.25rem;
+	}
+	.input-section {
+		padding: 1rem;
+		/* height: 20rem; */
+		width: 35rem;
+	}
+	.input-section__heading {
+		margin: 1rem;
+		font-size: 1.8rem;
+	}
+	#input-section__field {
+		width: 10rem;
+		height: 5rem;
+		font-size: 3rem;
+		margin: 1.5rem auto;
+	}
+	#input-section__find-btn {
+		font-size: 1.1rem;
+		padding: 2rem 3rem;
+		margin: 1rem auto;
+	}
+	/* ----------TEMPLATE PAGE---------- */
+	.template-contents {
+		/* border: 5px solid white; */
+		left: 1rem;
+		height: 100vh;
+		width: 55vw;
+		text-align: center;
+		left: 0;
+		position: absolute;
+	}
+	.template-contents__song,
+	#template-contents__song-number {
+		font-size: 1.75rem;
+		line-height: 1;
+	}
+	#template-contents__song-title {
+		font-family: "Charter";
+		font-size: 6.5rem;
+	}
+	.template-contents__parentheses,
+	#template-contents__bible-verse {
+		font-family: "ArcherPro-Thin";
+		font-size: 1.5rem;
+	}
+	#template-contents__back-btn {
+		padding: 1.4rem 2.75rem;
+		font-size: 1.1rem;
+		bottom: 4rem;
+	}
+	.copyright {
+		font-size: 1.1rem;
+		bottom: 1.5rem;
+	}
 }
