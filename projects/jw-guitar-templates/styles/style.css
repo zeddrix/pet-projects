@@ -128,15 +128,15 @@ button:active {
 }
 
 #template-contents__back-btn {
-  padding: 1.5rem 2.5rem;
+	padding: 1.5rem 2.5rem;
 	background: #383838;
 	border: 1px solid #383838;
-  bottom: 4.25rem;
-  position: absolute;
-  margin: auto;
-  left: 0;
-  right: 0;
-  text-align: center;
+	bottom: 4.25rem;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
 }
 #template-contents__back-btn:hover,
 #template-contents__back-btn:active {
