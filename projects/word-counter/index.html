@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Word Counter</title>
-    </head>
-    <body>
-        <div id="input-page">
-            <h1>Word Counter</h1>
-            <form action="">
-                <textarea id="text" type="text" rows="22" cols="60"></textarea>
-                <br />
-            </form>
-            <button onclick="displayText()">COUNT</button>
-        </div>
+  <head>
+    <title>Word Counter</title>
+  </head>
+  <body>
+    <div id="word-counter__page">
+      <h1 class="word-counter__heading">Word Counter</h1>
+      <form action="">
+        <textarea id="textarea" type="text"></textarea>
+        <br />
+      </form>
+      <button id="count-btn">COUNT</button>
+    </div>
 
-        <div id="count-page" style="display: none;">
-            <h1>Your Text:</h1>
-            <p id="display-text"></p>
-            <div id="word-count"></div>
-            <div id="word-density"></div>
-        </div>
-    </body>
-    <script src="app.js"></script>
+    <div id="count-page" style="display: none;">
+      <h1>Your Text:</h1>
+      <p id="display-text"></p>
+      <div id="word-count"></div>
+      <div id="word-density"></div>
+    </div>
+  </body>
+  <script src="app.js"></script>
 </html>
