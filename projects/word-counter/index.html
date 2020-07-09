@@ -2,15 +2,20 @@
 <html>
   <head>
     <title>Word Counter</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div id="word-counter__page">
-      <h1 class="word-counter__heading">Word Counter</h1>
-      <form action="">
-        <textarea id="textarea" type="text"></textarea>
-        <br />
-      </form>
-      <button id="count-btn">COUNT</button>
+      <header class="header">
+        <h1 class="word-counter__heading">Word Counter</h1>
+      </header>
+      <section class="input-section">
+        <form action="">
+          <textarea id="textarea" type="text"></textarea>
+          <br />
+        </form>
+        <button id="count-btn">COUNT</button>
+      </section>
     </div>
 
     <div id="count-page" style="display: none;">

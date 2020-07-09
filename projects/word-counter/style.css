@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-size: 1rem;
+  background: #3497be;
+  overflow: hidden;
+}
+
+h1 {
+  margin: 0;
+}
+
+.header {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.word-counter__heading {
+  color: whitesmoke;
+  font-size: 7rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-section {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#textarea {
+  border: 3px solid black;
+  width: 90vw;
+  height: 40vh;
+  max-height: 60vh;
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 1rem;
+  box-shadow: inset 0px 1px 0px grey, 0px 3px 0px 0px lightgrey,
+    -10px 10px 5px black;
+}
+
+#count-btn {
+  margin-top: 3rem;
+  font-size: 4.5rem;
+  font-weight: bold;
+  padding: 2rem 5rem;
+  background: #f3e410;
+  border: 1.3px solid black;
+  border-radius: 60px;
+  outline: none;
+  text-shadow: 0 -1px 0px #0000004d;
+  box-shadow: inset 0px 1px 0px grey, 0px 3px 0px 0px lightgrey,
+    0px 20px 0px #999;
+}
+
+#count-btn:hover {
+  color: #dfe7ea;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  box-shadow: inset 0px 1px 0px grey, 0px 2px 0px 0px lightgrey,
+    0px 5px 10px #999;
+}
