@@ -56,7 +56,7 @@ h1 {
 
 .word-counter__heading {
   color: whitesmoke;
-  font-size: 7rem;
+  font-size: 3rem;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -72,11 +72,16 @@ h1 {
   border: 3px solid black;
   width: 90vw;
   height: 40vh;
-  max-height: 60vh;
-  font-size: 2rem;
+  font-size: 1.2rem;
   padding: 1rem;
   box-shadow: inset 0px 1px 0px grey, 0px 3px 0px 0px lightgrey,
     -10px 10px 5px black;
+}
+
+#textarea,
+.your-text__section,
+.word-density__section {
+  font-size: 1.2rem;
 }
 
 /* ----------------WORDS COUNTED PAGE---------------- */
@@ -87,12 +92,12 @@ h1 {
 #your-text__body,
 .word-density__table,
 .miscellaneous__item {
-  margin: 1rem;
+  margin: 0.7rem;
 }
 
 .header {
   margin-top: 0.5rem;
-  font-size: 5rem;
+  font-size: 2rem;
   color: whitesmoke;
   text-align: center;
 }
@@ -107,17 +112,11 @@ h1 {
 
 .your-text__section,
 .word-density__section {
-  font-size: 2rem;
   height: 30vh;
 }
 
 .miscellaneous__section {
-  height: 25vh;
-}
-
-#your-text__body,
-.word-density__table {
-  font-size: 2.5rem;
+  height: 20vh;
 }
 
 .word-count__section {
@@ -135,34 +134,38 @@ h1 {
 
 /* ---------------BUTTONS--------------- */
 button {
-  padding: 2rem 5rem;
-  border: 1.3px solid black;
   background: #f3e410;
-  border-radius: 60px;
   outline: none;
+  border: none;
   font-weight: bold;
   text-shadow: 0 -1px 0px #0000004d;
+}
+
+#count-btn {
+  padding: 1rem 3rem;
+  font-size: 2rem;
+  margin-top: 3rem;
+  border-radius: 30px;
   box-shadow: inset 0px 1px 0px grey, 0px 3px 0px 0px lightgrey,
-    0px 20px 0px #999;
+  0px 12px 0px #999;
+}
+
+#back-btn {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  border-radius: 22px;
+  box-shadow: inset 0px 1px 0px grey, 0px 3px 0px 0px lightgrey,
+  0px 10px 0px #999;
 }
 
 #count-btn:hover,
-button:hover,
+#back-btn:hover,
 button:active {
   color: #dfe7ea;
   font-weight: bold;
   cursor: pointer;
   outline: none;
   box-shadow: inset 0px 1px 0px grey, 0px 2px 0px 0px lightgrey,
-    0px 5px 10px #999;
-}
-
-#count-btn {
-  margin-top: 3rem;
-  font-size: 4.5rem;
-}
-
-#back-btn {
-  font-size: 3rem;
-  margin-top: 0.5rem;
+  0px 5px 10px #999;
 }
