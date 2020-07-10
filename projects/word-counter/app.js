@@ -1,12 +1,14 @@
+const wordCounterPage = document.getElementById("word-counter__page");
+const wordsCountedPage = document.getElementById("words-counted__page");
 window.addEventListener("click", (event) => {
   if (event.target.matches("#count-btn")) {
     displayText();
+  } else if (event.target.matches("#back-btn")) {
+    homepage();
   }
 });
 
 const displayText = () => {
-  const wordCounterPage = document.getElementById("word-counter__page");
-  const wordsCountedPage = document.getElementById("words-counted__page");
   const textarea = document.getElementById("textarea");
   const textValue = textarea.value;
 
@@ -57,4 +59,9 @@ const displayText = () => {
 
   renderWordCount();
   renderWordDensity();
+};
+
+const homepage = () => {
+  wordCounterPage.style.display = "block";
+  wordsCountedPage.style.display = "none";
 };
