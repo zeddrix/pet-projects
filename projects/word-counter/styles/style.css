@@ -94,25 +94,33 @@ h1 {
 }
 
 .header {
-  color: whitesmoke;
   margin-top: 0.5rem;
   font-size: 5rem;
+  color: whitesmoke;
   text-align: center;
 }
 
 .your-text__section,
-.word-density__section {
+.word-density__section,
+.miscellaneous__section {
   border-bottom: 3px solid whitesmoke;
   width: 100vw;
-  height: 35vh;
-  font-size: 2rem;
   overflow: auto;
+}
+
+.your-text__section,
+.word-density__section {
+  font-size: 2rem;
+  height: 35vh;
+}
+
+.miscellaneous__section {
+  height: 25vh;
 }
 
 #your-text__body,
 .word-density__table {
   font-size: 2.5rem;
-  margin: 1rem;
 }
 
 .word-count__section {
@@ -121,13 +129,8 @@ h1 {
   font-size: 2rem;
 }
 
-.miscellaneous__section {
-  border-bottom: 3px solid whitesmoke;
-  width: 100vw;
-  height: 25vh;
-  overflow: auto;
-}
-
+#your-text__body,
+.word-density__table,
 .miscellaneous__item {
   margin: 1rem;
 }
