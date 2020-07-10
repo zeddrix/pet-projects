@@ -15,7 +15,7 @@ h1 {
   margin: 0;
 }
 
-.header {
+.word-counter__header {
   height: 20vh;
   display: flex;
   flex-direction: column;
@@ -71,15 +71,22 @@ h1 {
     0px 5px 10px #999;
 }
 
-.your-text-section {
+/* ----------------WORDS COUNTED PAGE---------------- */
+#words-counted__page {
+  display: none;
+}
+
+.your-text__section,
+.word-density__section {
   border-bottom: 3px solid whitesmoke;
   width: 100vw;
-  height: 25vh;
+  height: 35vh;
   font-size: 2rem;
   overflow: auto;
 }
 
-.words-counted__header {
+.header {
+  color: whitesmoke;
   margin-top: 0.5rem;
   font-size: 5rem;
   text-align: center;
@@ -87,14 +94,12 @@ h1 {
 
 #your-text__body,
 .word-density__table {
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin: 1rem;
 }
 
-.word-count-section {
+.word-count__section {
   border-bottom: 3px solid whitesmoke;
   width: 100vw;
-  height: 10vh;
   font-size: 2rem;
-  overflow: auto;
 }

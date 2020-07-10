@@ -7,7 +7,7 @@
   </head>
   <body>
     <div id="word-counter__page">
-      <header class="header">
+      <header class="word-counter__header">
         <h1 class="word-counter__heading">Word Counter</h1>
       </header>
       <section class="input-section">
@@ -19,17 +19,22 @@
       </section>
     </div>
 
-    <div id="words-counted__page" style="display: none;">
-      <section class="your-text-section">
-        <h1 class="words-counted__header">Your Text:</h1>
+    <div id="words-counted__page">
+
+      <section class="your-text__section">
+        <h1 class="header">Your Text:</h1>
         <p id="your-text__body"></p>
       </section>
-      <section class="word-count-section">
-        <div id="word-count"></div>
+
+      <section class="word-count__section">
+        <h1 class="header" id="words-counted"></h1>
       </section>
-      <section class="word-density-section">
-        <div id="word-density"></div>
+
+      <section class="word-density__section">
+        <h1 class="header">Word Density:</h1>
+        <div id="word-density__body"></div>
       </section>
+
     </div>
   </body>
   <script src="app.js"></script>

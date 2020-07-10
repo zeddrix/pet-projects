@@ -26,8 +26,8 @@ const displayText = () => {
   const wordCount = countWords(textValue);
 
   const renderWordCount = () => {
-    const wordCountDiv = document.getElementById("word-count");
-    wordCountDiv.innerHTML = "<h1 class='words-counted__header'> Words Counted: " + wordCount + "</h1>";
+    const wordsCounted = document.getElementById("words-counted");
+    wordsCounted.innerHTML = "Words Counted: " + wordCount;
   };
 
   const getWordDensity = (str) => {
@@ -44,8 +44,6 @@ const displayText = () => {
   const wordDensity = getWordDensity(textValue);
 
   const renderWordDensity = () => {
-    const wordDensityDiv = document.getElementById("word-density");
-
     let table = "<table class='word-density__table'>";
     for (let word in wordDensity) {
       table +=
@@ -53,7 +51,8 @@ const displayText = () => {
     }
     table += "</table>";
 
-    wordDensityDiv.innerHTML = "<h1 class='words-counted__header'> Word Density: </h1>" + table;
+    const wordDensityBody = document.getElementById("word-density__body");
+    wordDensityBody.innerHTML = table;
   };
 
   renderWordCount();
