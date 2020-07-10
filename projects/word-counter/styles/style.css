@@ -93,6 +93,13 @@ h1 {
   display: none;
 }
 
+.header {
+  color: whitesmoke;
+  margin-top: 0.5rem;
+  font-size: 5rem;
+  text-align: center;
+}
+
 .your-text__section,
 .word-density__section {
   border-bottom: 3px solid whitesmoke;
@@ -100,13 +107,6 @@ h1 {
   height: 35vh;
   font-size: 2rem;
   overflow: auto;
-}
-
-.header {
-  color: whitesmoke;
-  margin-top: 0.5rem;
-  font-size: 5rem;
-  text-align: center;
 }
 
 #your-text__body,
@@ -119,4 +119,15 @@ h1 {
   border-bottom: 3px solid whitesmoke;
   width: 100vw;
   font-size: 2rem;
+}
+
+.miscellaneous__section {
+  border-bottom: 3px solid whitesmoke;
+  width: 100vw;
+  height: 25vh;
+  overflow: auto;
+}
+
+.miscellaneous__item {
+  margin: 1rem;
 }
