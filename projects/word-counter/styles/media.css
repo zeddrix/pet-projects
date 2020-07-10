@@ -1,0 +1,16 @@
+@media only screen and (min-width: 1030px) {
+  .word-counter__heading {
+    font-size: 5rem;
+  }
+  #textarea {
+    max-width: 45rem;
+    height: 50rem;
+  }
+  #count-btn {
+    margin-top: 1rem;
+    font-size: 2rem;
+    padding: 2rem 4rem;
+    box-shadow: inset 0px 1px 0px grey, 0px 3px 0px 0px lightgrey,
+    0px 10px 0px #999;
+  }
+}
