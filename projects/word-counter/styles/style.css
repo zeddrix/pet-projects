@@ -132,7 +132,9 @@ button {
     0px 20px 0px #999;
 }
 
-button:hover {
+#count-btn:hover,
+button:hover,
+button:active {
   color: #dfe7ea;
   font-weight: bold;
   cursor: pointer;
