@@ -6,15 +6,15 @@ window.addEventListener("click", (event) => {
 
 const displayText = () => {
   const wordCounterPage = document.getElementById("word-counter__page");
-  const countPage = document.getElementById("count-page");
+  const wordsCountedPage = document.getElementById("words-counted__page");
   const textarea = document.getElementById("textarea");
   const textValue = textarea.value;
 
   if (textarea.value !== "") {
     // normal flow will continue if the text-area is not empty
     wordCounterPage.style.display = "none";
-    document.getElementById("display-text").innerText = textValue;
-    countPage.style.display = "block";
+    document.getElementById("your-text__body").innerText = textValue;
+    wordsCountedPage.style.display = "block";
   } else {
     // if the text-area is empty, it will issue a warning.
     alert("Please enter some text first.");
@@ -27,7 +27,7 @@ const displayText = () => {
 
   const renderWordCount = () => {
     const wordCountDiv = document.getElementById("word-count");
-    wordCountDiv.innerHTML = "<h1> Words Counted: " + wordCount + "</h1>";
+    wordCountDiv.innerHTML = "<h1 class='words-counted__header'> Words Counted: " + wordCount + "</h1>";
   };
 
   const getWordDensity = (str) => {
@@ -46,14 +46,14 @@ const displayText = () => {
   const renderWordDensity = () => {
     const wordDensityDiv = document.getElementById("word-density");
 
-    let table = "<table>";
+    let table = "<table class='word-density__table'>";
     for (let word in wordDensity) {
       table +=
         "<tr><td>" + word + "</td><td>" + wordDensity[word] + "</td></tr>";
     }
     table += "</table>";
 
-    wordDensityDiv.innerHTML = "<h1> Word Density: </h1>" + table;
+    wordDensityDiv.innerHTML = "<h1 class='words-counted__header'> Word Density: </h1>" + table;
   };
 
   renderWordCount();

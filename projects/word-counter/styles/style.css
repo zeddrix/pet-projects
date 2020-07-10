@@ -3,10 +3,12 @@
 }
 
 body {
+  margin: 0;
   height: 100vh;
   font-size: 1rem;
   background: #3497be;
   overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -41,7 +43,6 @@ h1 {
   height: 40vh;
   max-height: 60vh;
   font-size: 2rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 1rem;
   box-shadow: inset 0px 1px 0px grey, 0px 3px 0px 0px lightgrey,
     -10px 10px 5px black;
@@ -68,4 +69,32 @@ h1 {
   outline: none;
   box-shadow: inset 0px 1px 0px grey, 0px 2px 0px 0px lightgrey,
     0px 5px 10px #999;
+}
+
+.your-text-section {
+  border-bottom: 3px solid whitesmoke;
+  width: 100vw;
+  height: 25vh;
+  font-size: 2rem;
+  overflow: auto;
+}
+
+.words-counted__header {
+  margin-top: 0.5rem;
+  font-size: 5rem;
+  text-align: center;
+}
+
+#your-text__body,
+.word-density__table {
+  font-size: 3rem;
+  margin: 1rem;
+}
+
+.word-count-section {
+  border-bottom: 3px solid whitesmoke;
+  width: 100vw;
+  height: 10vh;
+  font-size: 2rem;
+  overflow: auto;
 }
