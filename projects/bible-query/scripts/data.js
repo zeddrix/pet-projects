@@ -5117,7 +5117,7 @@ const prophets12 = [
     question: "Who was the great-great-grandson of King Hezekiah?",
     clueSource: "Zephaniah 1:1",
     clueSourceContent:
-      "The word of Jehovah that came to Zeph·a·niʹah* son of Cushʹi son of Ged·a·liʹah son of Am·a·riʹah son of Hez·e·kiʹah in the days of Jo·siʹah+ son of Aʹmon+ the king of Judah:",
+      "The word of Jehovah that came to Zeph·a·niʹah son of Cushʹi son of Ged·a·liʹah son of Am·a·riʹah son of Hez·e·kiʹah in the days of Jo·siʹah son of Aʹmon the king of Judah:",
     choiceA: "Zephaniah",
     choiceB: "Zechariah",
     choiceC: "Josiah",
@@ -5212,7 +5212,7 @@ const prophets12 = [
       "Who pronounced Jehovah’s words forbidding an attempt by Rehoboam to reconquer the 10 tribes in 997 B.C.E.?",
     clueSource: "1 Kings 12:21-24",
     clueSourceContent:
-      "21 When Re·ho·boʹam arrived in Jerusalem, he immediately congregated all the house of Judah and the tribe of Benjamin, 180,000 trained* warriors, to fight against the house of Israel in order to restore the kingship to Re·ho·boʹam the son of Solʹo·mon.+ 22 Then the word of the true God came to She·maiʹah+ the man of the true God, saying: 23 “Say to Re·ho·boʹam the son of Solʹo·mon the king of Judah and to all the house of Judah and Benjamin and the rest of the people, 24 ‘This is what Jehovah says: “You must not go up and fight against your Israelite brothers. Each one of you must return to his house, for I have caused this to happen.”’”+ So they obeyed the word of Jehovah and went back home, as Jehovah had told them.",
+      "21 When Re·ho·boʹam arrived in Jerusalem, he immediately congregated all the house of Judah and the tribe of Benjamin, 180,000 trained warriors, to fight against the house of Israel in order to restore the kingship to Re·ho·boʹam the son of Solʹo·mon. 22 Then the word of the true God came to She·maiʹah the man of the true God, saying: 23 “Say to Re·ho·boʹam the son of Solʹo·mon the king of Judah and to all the house of Judah and Benjamin and the rest of the people, 24 ‘This is what Jehovah says: “You must not go up and fight against your Israelite brothers. Each one of you must return to his house, for I have caused this to happen.”’” So they obeyed the word of Jehovah and went back home, as Jehovah had told them.",
     choiceA: "Shemaiah",
     choiceB: "Elijah",
     choiceC: "Eliezer",
@@ -5224,7 +5224,7 @@ const prophets12 = [
       "In Rehoboam’s fifth year (993 B.C.E.), who informed Rehoboam and his princes that Jehovah had abandoned them since they had abandoned Him?",
     clueSource: "2 Chronicles 12:1-12",
     clueSourceContent:
-      "Soon after the kingship of Re·ho·boʹam was firmly established+ and he had become strong, he abandoned the Law of Jehovah,+ and also all Israel with him. 2 In the fifth year of King Re·ho·boʹam, King Shiʹshak+ of Egypt came up against Jerusalem, for they had behaved unfaithfully toward Jehovah. 3 He had 1,200 chariots, 60,000 horsemen, and countless troops who came with him from Egypt—Libʹy·ans, Sukʹki·im, and E·thi·oʹpi·ans.+ 4 He captured the fortified cities of Judah and finally reached Jerusalem. 5 She·maiʹah+ the prophet came to Re·ho·boʹam and the princes of Judah who had gathered at Jerusalem because of Shiʹshak, and he said to them: “This is what Jehovah says, ‘You have abandoned me, so I have also abandoned you+ to the hand of Shiʹshak.’” 6 At that the princes of Israel and the king humbled themselves+ and said: “Jehovah is righteous.” 7 When Jehovah saw that they had humbled themselves, the word of Jehovah came to She·maiʹah, saying: “They have humbled themselves. I will not destroy them,+ and in a little while I will rescue them. I will not pour out my wrath on Jerusalem through Shiʹshak. 8 But they will become his servants, so that they will know the difference between serving me and serving the kings* of other lands.” 9 So King Shiʹshak of Egypt came up against Jerusalem. He took the treasures of the house of Jehovah+ and the treasures of the king’s house.* He took everything, including the gold shields that Solʹo·mon had made.+ 10 So King Re·ho·boʹam made copper shields to replace them, and he entrusted them to the chiefs of the guard,* who guarded the entrance of the king’s house. 11 Whenever the king came to the house of Jehovah, the guards would come in and carry them, and then they would return them to the guard chamber. 12 Because the king humbled himself, Jehovah’s anger turned away from him,+ and he did not destroy them completely.+ Moreover, there were some good things found in Judah.",
+      "Soon after the kingship of Re·ho·boʹam was firmly established and he had become strong, he abandoned the Law of Jehovah, and also all Israel with him. 2 In the fifth year of King Re·ho·boʹam, King Shiʹshak of Egypt came up against Jerusalem, for they had behaved unfaithfully toward Jehovah. 3 He had 1,200 chariots, 60,000 horsemen, and countless troops who came with him from Egypt—Libʹy·ans, Sukʹki·im, and E·thi·oʹpi·ans. 4 He captured the fortified cities of Judah and finally reached Jerusalem. 5 She·maiʹah the prophet came to Re·ho·boʹam and the princes of Judah who had gathered at Jerusalem because of Shiʹshak, and he said to them: “This is what Jehovah says, ‘You have abandoned me, so I have also abandoned you to the hand of Shiʹshak.’” 6 At that the princes of Israel and the king humbled themselves and said: “Jehovah is righteous.” 7 When Jehovah saw that they had humbled themselves, the word of Jehovah came to She·maiʹah, saying: “They have humbled themselves. I will not destroy them, and in a little while I will rescue them. I will not pour out my wrath on Jerusalem through Shiʹshak. 8 But they will become his servants, so that they will know the difference between serving me and serving the kings of other lands.” 9 So King Shiʹshak of Egypt came up against Jerusalem. He took the treasures of the house of Jehovah and the treasures of the king’s house. He took everything, including the gold shields that Solʹo·mon had made. 10 So King Re·ho·boʹam made copper shields to replace them, and he entrusted them to the chiefs of the guard, who guarded the entrance of the king’s house. 11 Whenever the king came to the house of Jehovah, the guards would come in and carry them, and then they would return them to the guard chamber. 12 Because the king humbled himself, Jehovah’s anger turned away from him, and he did not destroy them completely. Moreover, there were some good things found in Judah.",
     choiceA: "Elijah",
     choiceB: "Shemaiah",
     choiceC: "Nathan",
@@ -5236,7 +5236,7 @@ const prophets12 = [
       "Who also penned one of the written records of Rehoboam's reign, besides Iddo?",
     clueSource: "2 Chronicles 12:15",
     clueSourceContent:
-      "15 As for Re·ho·boʹam’s history, from beginning to end, is it not written among the words of She·maiʹah+ the prophet and of Idʹdo+ the visionary in the genealogical record? And there were constant wars between Re·ho·boʹam and Jer·o·boʹam.",
+      "15 As for Re·ho·boʹam’s history, from beginning to end, is it not written among the words of She·maiʹah the prophet and of Idʹdo the visionary in the genealogical record? And there were constant wars between Re·ho·boʹam and Jer·o·boʹam.",
     choiceA: "Iddo",
     choiceB: "Gad",
     choiceC: "Shemaiah",
@@ -5248,7 +5248,7 @@ const prophets12 = [
       "He, as a young man mighty in valor, was one of the tribal chiefs who threw in his support for David’s kingship.",
     clueSource: "1 Chronicles 12:27, 28",
     clueSourceContent:
-      "27 Je·hoiʹa·da+ was the leader of the sons of Aaron,+ and with him were 3,700, 28 as well as Zaʹdok,+ a mighty and courageous young man, along with 22 chiefs from his paternal house.",
+      "27 Je·hoiʹa·da was the leader of the sons of Aaron, and with him were 3,700, 28 as well as Zaʹdok, a mighty and courageous young man, along with 22 chiefs from his paternal house.",
     choiceA: "Oded",
     choiceB: "Hanani",
     choiceC: "Iddo",
@@ -5260,7 +5260,7 @@ const prophets12 = [
       "Him and Abiathar accompanied the ark of the covenant when David had it brought up to Jerusalem.",
     clueSource: "1 Chronicles 15:11-14",
     clueSourceContent:
-      "11 Furthermore, David called the priests Zaʹdok+ and A·biʹa·thar+ and the Levites U·riʹel, A·saiʹah, Joel, She·maiʹah, Eʹli·el, and Am·minʹa·dab, 12 and he said to them: “You are the heads of the paternal houses of the Levites. Sanctify yourselves, you and your brothers, and bring the Ark of Jehovah the God of Israel up to the place that I have prepared for it. 13 Since you did not carry it the first time,+ the anger of Jehovah our God broke out against us,+ because we did not search out the proper procedure.”+ 14 So the priests and the Levites sanctified themselves to bring up the Ark of Jehovah the God of Israel.",
+      "11 Furthermore, David called the priests Zaʹdok and A·biʹa·thar and the Levites U·riʹel, A·saiʹah, Joel, She·maiʹah, Eʹli·el, and Am·minʹa·dab, 12 and he said to them: “You are the heads of the paternal houses of the Levites. Sanctify yourselves, you and your brothers, and bring the Ark of Jehovah the God of Israel up to the place that I have prepared for it. 13 Since you did not carry it the first time, the anger of Jehovah our God broke out against us, because we did not search out the proper procedure.” 14 So the priests and the Levites sanctified themselves to bring up the Ark of Jehovah the God of Israel.",
     choiceA: "Zadok",
     choiceB: "Nathan",
     choiceC: "Gad",
@@ -5272,7 +5272,7 @@ const prophets12 = [
       "Who continued to serve for a time at Gibeon, where the tabernacle was located?",
     clueSource: "1 Chronicles 16:39",
     clueSourceContent:
-      "39 and Zaʹdok+ the priest and his fellow priests were before the tabernacle of Jehovah on the high place at Gibʹe·on.",
+      "39 and Zaʹdok the priest and his fellow priests were before the tabernacle of Jehovah on the high place at Gibʹe·on.",
     choiceA: "Gad",
     choiceB: "Zadok",
     choiceC: "Nathan",
@@ -5284,7 +5284,7 @@ const prophets12 = [
       "When Absalom rebelled, him and the Levites started to bring the Ark along as they accompanied David in his flight from Jerusalem.",
     clueSource: "2 Samuel 15:23, 24",
     clueSourceContent:
-      "23 Everyone in the land was weeping loudly while all these people crossed over, and the king was standing by the Kidʹron Valley;+ all the people were crossing over to the road leading to the wilderness. 24 Zaʹdok+ was also there and with him were all the Levites+ carrying the ark+ of the covenant of the true God;+ and they set the Ark of the true God down; and A·biʹa·thar+ went up, while all the people completed crossing over from the city.",
+      "23 Everyone in the land was weeping loudly while all these people crossed over, and the king was standing by the Kidʹron Valley; all the people were crossing over to the road leading to the wilderness. 24 Zaʹdok was also there and with him were all the Levites carrying the ark of the covenant of the true God; and they set the Ark of the true God down; and A·biʹa·thar went up, while all the people completed crossing over from the city.",
     choiceA: "Jehu",
     choiceB: "Oded",
     choiceC: "Zadok",
@@ -5296,7 +5296,7 @@ const prophets12 = [
       "David sent them back to Jerusalem, designating this prophet and the others to act as intelligence intermediaries.",
     clueSource: "2 Samuel 15:25-29",
     clueSourceContent:
-      "25 But the king said to Zaʹdok: “Take the Ark of the true God back to the city.+ If I find favor in the eyes of Jehovah, he will also bring me back and let me see it and its dwelling place.+ 26 But if he should say, ‘I have found no pleasure in you,’ then let him do to me whatever seems good in his eyes.” 27 The king said to Zaʹdok the priest: “Are you not a seer?+ Return to the city in peace, and take the two sons of you men with you, A·himʹa·az your own son and Jonʹa·than+ the son of A·biʹa·thar. 28 See, I will linger by the fords of the wilderness until word comes from you to inform me.”+ 29 So Zaʹdok and A·biʹa·thar took the Ark of the true God back to Jerusalem, and they remained there.",
+      "25 But the king said to Zaʹdok: “Take the Ark of the true God back to the city. If I find favor in the eyes of Jehovah, he will also bring me back and let me see it and its dwelling place. 26 But if he should say, ‘I have found no pleasure in you,’ then let him do to me whatever seems good in his eyes.” 27 The king said to Zaʹdok the priest: “Are you not a seer? Return to the city in peace, and take the two sons of you men with you, A·himʹa·az your own son and Jonʹa·than the son of A·biʹa·thar. 28 See, I will linger by the fords of the wilderness until word comes from you to inform me.” 29 So Zaʹdok and A·biʹa·thar took the Ark of the true God back to Jerusalem, and they remained there.",
     choiceA: "Samuel",
     choiceB: "Gad",
     choiceC: "Nathan",
@@ -5308,7 +5308,7 @@ const prophets12 = [
       "After the rebellion was over, him and Abiathar were instrumental in securing David’s favorable reception in Jerusalem.",
     clueSource: "2 Samuel 19:11-14",
     clueSourceContent:
-      "11 King David sent this message to Zaʹdok+ and A·biʹa·thar+ the priests: “Speak to the elders of Judah,+ saying, ‘Why should you be the last ones to bring the king back to his house, when the word of all Israel has come to the king at his house? 12 You are my brothers; you are my own bone and flesh.* Why should you be the last ones to bring the king back?’ 13 And you should say to A·maʹsa,+ ‘Are you not my own bone and flesh? So may God do to me and add to it if you will not become my army chief from now on instead of Joʹab.’”+ 14 So he won over* the hearts of all the men of Judah as one man, and they sent word to the king: “Come back, you and all your servants.”",
+      "11 King David sent this message to Zaʹdok and A·biʹa·thar the priests: “Speak to the elders of Judah, saying, ‘Why should you be the last ones to bring the king back to his house, when the word of all Israel has come to the king at his house? 12 You are my brothers; you are my own bone and flesh. Why should you be the last ones to bring the king back?’ 13 And you should say to A·maʹsa, ‘Are you not my own bone and flesh? So may God do to me and add to it if you will not become my army chief from now on instead of Joʹab.’” 14 So he won over the hearts of all the men of Judah as one man, and they sent word to the king: “Come back, you and all your servants.”",
     choiceA: "Zadok",
     choiceB: "Gad",
     choiceC: "Nathan",
@@ -5320,7 +5320,7 @@ const prophets12 = [
       "When, late in his reign, David organized the Levitical services for the temple, both him and Ahimelech the son of Abiathar assisted him.​",
     clueSource: "1 Chronicles 24:6",
     clueSourceContent:
-      "6 Then She·maiʹah the son of Ne·thanʹel the secretary of the Levites recorded their names before the king, the princes, Zaʹdok+ the priest, A·himʹe·lech+ the son of A·biʹa·thar,+ and the heads of the paternal houses of the priests and of the Levites, one paternal house being selected for El·e·aʹzar and one being selected for Ithʹa·mar.",
+      "6 Then She·maiʹah the son of Ne·thanʹel the secretary of the Levites recorded their names before the king, the princes, Zaʹdok the priest, A·himʹe·lech the son of A·biʹa·thar, and the heads of the paternal houses of the priests and of the Levites, one paternal house being selected for El·e·aʹzar and one being selected for Ithʹa·mar.",
     choiceA: "Gad",
     choiceB: "Zadok",
     choiceC: "Samuel",
@@ -5332,7 +5332,7 @@ const prophets12 = [
       "In contrast with Abiathar, he did not support the attempted usurpation of the throne by Adonijah.",
     clueSource: "1 Kings 1:7, 8",
     clueSourceContent:
-      "7 He conferred with Joʹab the son of Ze·ruʹiah and A·biʹa·thar+ the priest, and they offered Ad·o·niʹjah help and support.+ 8 But Zaʹdok+ the priest, Be·naiʹah+ the son of Je·hoiʹa·da, Nathan+ the prophet, Shimʹe·i,+ Reʹi, and David’s mighty warriors+ did not support Ad·o·niʹjah.",
+      "7 He conferred with Joʹab the son of Ze·ruʹiah and A·biʹa·thar the priest, and they offered Ad·o·niʹjah help and support. 8 But Zaʹdok the priest, Be·naiʹah the son of Je·hoiʹa·da, Nathan the prophet, Shimʹe·i, Reʹi, and David’s mighty warriors did not support Ad·o·niʹjah.",
     choiceA: "Nathan",
     choiceB: "Gad",
     choiceC: "Zadok",
@@ -5344,7 +5344,7 @@ const prophets12 = [
       "David appointed this prophet as the one to anoint Solomon as king.",
     clueSource: "1 Kings 1:32-46",
     clueSourceContent:
-      "32 Immediately King David said: “Call for me Zaʹdok the priest, Nathan the prophet, and Be·naiʹah+ the son of Je·hoiʹa·da.”+ So they came in before the king. 33 The king said to them: “Take with you the servants of your lord, and have my son Solʹo·mon ride on my own mule,*+ and lead him down to Giʹhon.+ 34 Zaʹdok the priest and Nathan the prophet will anoint him+ there as king over Israel; then blow the horn and say, ‘Long live King Solʹo·mon!’+ 35 Then follow him back, and he will come in and sit on my throne; and he will be king in my place, and I will commission him as leader over Israel and over Judah.” 36 At once Be·naiʹah the son of Je·hoiʹa·da said to the king: “Amen! May Jehovah the God of my lord the king confirm it. 37 Just as Jehovah was with my lord the king, so let him be with Solʹo·mon,+ and may He make his throne greater than the throne of my lord King David.”+ 38 Then Zaʹdok the priest, Nathan the prophet, Be·naiʹah+ the son of Je·hoiʹa·da, and the Cherʹe·thites and the Pelʹe·thites+ went down and had Solʹo·mon ride on the mule of King David,+ and they brought him to Giʹhon.+ 39 Zaʹdok the priest now took the horn of oil+ out of the tent+ and anointed Solʹo·mon,+ and they began to blow the horn, and all the people began shouting: “Long live King Solʹo·mon!” 40 After that all the people followed him and went up, playing flutes and rejoicing greatly, so that the earth was split open by their noise.+ 41 Ad·o·niʹjah and all those invited by him heard it when they had finished eating.+ As soon as Joʹab heard the sound of the horn, he said: “Why is there such a noisy uproar in the city?” 42 While he was still speaking, Jonʹa·than+ the son of A·biʹa·thar the priest came. Then Ad·o·niʹjah said: “Come in, for you are a good* man, and you must bring good news.” 43 But Jonʹa·than answered Ad·o·niʹjah: “No! Our lord King David has made Solʹo·mon king. 44 The king sent with him Zaʹdok the priest, Nathan the prophet, Be·naiʹah the son of Je·hoiʹa·da, and the Cherʹe·thites and the Pelʹe·thites, and they had him ride on the mule of the king.+ 45 Then Zaʹdok the priest and Nathan the prophet anointed him as king in Giʹhon. After that they came up from there rejoicing, and the city is in an uproar. That was the noise that you heard. 46 Moreover, Solʹo·mon has sat down on the royal throne.",
+      "32 Immediately King David said: “Call for me Zaʹdok the priest, Nathan the prophet, and Be·naiʹah the son of Je·hoiʹa·da.” So they came in before the king. 33 The king said to them: “Take with you the servants of your lord, and have my son Solʹo·mon ride on my own mule, and lead him down to Giʹhon. 34 Zaʹdok the priest and Nathan the prophet will anoint him there as king over Israel; then blow the horn and say, ‘Long live King Solʹo·mon!’ 35 Then follow him back, and he will come in and sit on my throne; and he will be king in my place, and I will commission him as leader over Israel and over Judah.” 36 At once Be·naiʹah the son of Je·hoiʹa·da said to the king: “Amen! May Jehovah the God of my lord the king confirm it. 37 Just as Jehovah was with my lord the king, so let him be with Solʹo·mon, and may He make his throne greater than the throne of my lord King David.” 38 Then Zaʹdok the priest, Nathan the prophet, Be·naiʹah the son of Je·hoiʹa·da, and the Cherʹe·thites and the Pelʹe·thites went down and had Solʹo·mon ride on the mule of King David, and they brought him to Giʹhon. 39 Zaʹdok the priest now took the horn of oil out of the tent and anointed Solʹo·mon, and they began to blow the horn, and all the people began shouting: “Long live King Solʹo·mon!” 40 After that all the people followed him and went up, playing flutes and rejoicing greatly, so that the earth was split open by their noise. 41 Ad·o·niʹjah and all those invited by him heard it when they had finished eating. As soon as Joʹab heard the sound of the horn, he said: “Why is there such a noisy uproar in the city?” 42 While he was still speaking, Jonʹa·than the son of A·biʹa·thar the priest came. Then Ad·o·niʹjah said: “Come in, for you are a good man, and you must bring good news.” 43 But Jonʹa·than answered Ad·o·niʹjah: “No! Our lord King David has made Solʹo·mon king. 44 The king sent with him Zaʹdok the priest, Nathan the prophet, Be·naiʹah the son of Je·hoiʹa·da, and the Cherʹe·thites and the Pelʹe·thites, and they had him ride on the mule of the king. 45 Then Zaʹdok the priest and Nathan the prophet anointed him as king in Giʹhon. After that they came up from there rejoicing, and the city is in an uproar. That was the noise that you heard. 46 Moreover, Solʹo·mon has sat down on the royal throne.",
     choiceA: "Samuel",
     choiceB: "Nathan",
     choiceC: "Shemaiah",
