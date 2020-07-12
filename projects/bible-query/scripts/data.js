@@ -2466,7 +2466,7 @@ const mountains2 = [
   },
 ];
 
-const prophets = [
+const prophets1 = [
   {
     question: "Who served as a “prophet” or “mouth” to Moses?",
     clueSource: "Insight on the Scriptures Volume 2, [Prophet] p. 695",
@@ -2694,7 +2694,8 @@ const prophets = [
     correctAnswer: "A",
   },
   {
-    question: "Which prophet baptized Jesus Christ the Messiah in the river of Jordan?",
+    question:
+      "Which prophet baptized Jesus Christ the Messiah in the river of Jordan?",
     clueSource: "Matthew 3:13-17",
     clueSourceContent:
       "13 Then Jesus came from Galʹi·lee to the Jordan to John, in order to be baptized by him. 14 But the latter tried to prevent him, saying: “I am the one who needs to be baptized by you, and are you coming to me?” 15 Jesus replied to him: “Let it be this time, for in that way it is suitable for us to carry out all that is righteous.” Then he quit preventing him. 16 After being baptized, Jesus immediately came up from the water; and look! the heavens were opened up, and he saw God’s spirit descending like a dove and coming upon him. 17 Look! Also, a voice from the heavens said: “This is my Son, the beloved, whom I have approved.”",
@@ -2704,6 +2705,9 @@ const prophets = [
     choiceD: "Peter",
     correctAnswer: "A",
   },
+];
+
+const prophets2 = [
   {
     question:
       "Herod beheaded this prophet in prison and delivered his head on a platter to the daughter of Herodias.",
@@ -2905,14 +2909,2300 @@ const prophets = [
     correctAnswer: "A",
   },
   {
-    question: "",
-    clueSource: "",
-    clueSourceContent: "",
-    choiceA: "",
+    question: "Who was the first human spokesman for Jehovah God?",
+    clueSource: "Insight on the Scriptures Volume 2, [Prophet]",
+    clueSourceContent:
+      "Prophetic Office in the Hebrew Scriptures. The first human spokesman for God obviously was Adam, who initially conveyed God’s instructions to his wife Eve and to that extent fulfilled the role of prophet. Those instructions had to do not only with the present (for them) but also with the future, outlining God’s purpose for earth and mankind and the course humans must take to enjoy a blessed future. (Ge 1:26-30; 2:15-17, 23, 24; 3:1-3)",
+    choiceA: "Noah",
+    choiceB: "Enoch",
+    choiceC: "Adam",
+    choiceD: "Moses",
+    correctAnswer: "C",
+  },
+  {
+    question:
+      "King Nebuchadnezzar gave this prophet of Jehovah the name “Belteshazzar.”",
+    clueSource: "Daniel 5:12",
+    clueSourceContent:
+      "12 For Daniel, whom the king named Bel·te·shazʹzar, had an extraordinary spirit and knowledge and insight to interpret dreams, to explain riddles, and to solve knotty problems. Now let Daniel be summoned, and he will tell you the interpretation.”",
+    choiceA: "Daniel",
+    choiceB: "Balaam",
+    choiceC: "Habakkuk",
+    choiceD: "Obadiah",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Jehovah used this prophet to resurrect the widow of Zarephat's son.",
+    clueSource: "1 Kings 17:17-24",
+    clueSourceContent:
+      "17 After these things, the son of the woman who owned the house fell sick, and his sickness became so severe that he stopped breathing.  18 At this she said to E·liʹjah: “What do you have against me, O man of the true God? Have you come to remind me of my guilt and to put my son to death?”  19 But he said to her: “Give me your son.” Then he took him from her arms and carried him up to the roof chamber, where he was staying, and he laid him on his own bed. He called out to Jehovah: “O Jehovah my God, are you also bringing harm to the widow with whom I am staying by putting her son to death?”  21 Then he stretched himself out over the child three times and called out to Jehovah: “O Jehovah my God, please, let this child’s life come back into him.”  22 Jehovah listened to E·liʹjah’s request, and the life of the child came back into him, and he revived.  23 E·liʹjah took the child and brought him down from the roof chamber into the house and gave him to his mother; and E·liʹjah said: “See, your son is alive.”  24 At that the woman said to E·liʹjah: “Now I know that you truly are a man of God and that Jehovah’s word in your mouth is truth.”",
+    choiceA: "Elijah",
+    choiceB: "Elisha",
+    choiceC: "Micah",
+    choiceD: "Peter",
+    correctAnswer: "A",
+  },
+];
+
+//Intermediate
+const prophets3 = [
+  {
+    question:
+      "Who foretold that Jehovah would break down king Jehoshaphat’s works as regards his alliance with wicked king Ahaziah?",
+    clueSource: "2 Chronicles 20:35-37",
+    clueSourceContent:
+      "35 After this King Je·hoshʹa·phat of Judah made an alliance with King A·ha·ziʹah of Israel, who acted wickedly. 36 So he made him his partner in making ships to go to Tarʹshish, and they built the ships in Eʹzi·on-geʹber. 37 However, E·li·eʹzer the son of Dod·avʹa·hu of Ma·reʹsha spoke prophetically against Je·hoshʹa·phat, saying: “Because you have made an alliance with A·ha·ziʹah, Jehovah will destroy your works.” So the ships were wrecked, and they were unable to go to Tarʹshish.",
+    choiceA: "Hanani",
+    choiceB: "Jehu",
+    choiceC: "Jahaziel",
+    choiceD: "Eliezer",
+    correctAnswer: "D",
+  },
+  {
+    question:
+      "Who called down fire on King Ahaziah’s captain and his 50 men which, of course, incinerated them?",
+    clueSource: "2 Kings 1:1-17",
+    clueSourceContent:
+      "After the death of Aʹhab, Moʹab revolted against Israel. 2 It was then that A·ha·ziʹah fell down through the grating in his roof chamber in Sa·marʹi·a and was injured. So he sent messengers and said to them: “Go, inquire of Baʹal-zeʹbub the god of Ekʹron to find out whether I will recover from this injury.”  3 But the angel of Jehovah said to E·liʹjah the Tishʹbite: “Rise up, go to meet the messengers of the king of Sa·marʹi·a and say to them, ‘Is it because there is no God in Israel that you are going to inquire of Baʹal-zeʹbub the god of Ekʹron?  4 Therefore this is what Jehovah says: “You will not leave the bed on which you are lying, for you will certainly die.”’” With that E·liʹjah went off. 5 When the messengers returned to him, he immediately said to them: “Why have you come back?”  6 They replied to him: “There was a man who came up to meet us, and he said to us, ‘Go, return to the king who sent you and tell him, “This is what Jehovah says: ‘Is it because there is no God in Israel that you are sending to inquire of Baʹal-zeʹbub the god of Ekʹron? Therefore, you will not leave the bed on which you are lying, for you will certainly die.’”’”  7 At this he asked them: “What did the man look like who came up to meet you and spoke these words to you?”  8 So they said to him: “He was a man with a garment of hair and a leather belt around his waist.” Immediately he said: “It was E·liʹjah the Tishʹbite.” 9 The king then sent to him a chief of 50 with his 50 men. When he went up to him, he was sitting on the top of the mountain. He said to him: “Man of the true God, the king says, ‘Come down.’”  10 But E·liʹjah answered the chief of the 50: “Well, if I am a man of God, let fire come down from the heavens and consume you and your 50 men.” And fire came down from the heavens and consumed him and his 50 men. 11 So the king sent again to him another chief of 50 with his 50 men. He went and said to him: “Man of the true God, this is what the king says, ‘Come down quickly.’”  12 But E·liʹjah answered them: “If I am a man of the true God, let fire come down from the heavens and consume you and your 50 men.” And fire of God came down from the heavens and consumed him and his 50 men. 13 Then the king sent again a third chief of 50 and his 50 men. But the third chief of 50 went up and bowed down on his knees in front of E·liʹjah and began to beg for favor and say to him: “Man of the true God, please, let my life and the lives of these 50 servants of yours be precious in your eyes.  14 Fire has already come down from the heavens and consumed the two former chiefs of 50 and their groups of 50, but now let my life be precious in your eyes.” 15 At that the angel of Jehovah told E·liʹjah: “Go down with him. Do not be afraid of him.” So he rose and went down with him to the king.  16 E·liʹjah then said to the king, “This is what Jehovah says: ‘You sent messengers to inquire of Baʹal-zeʹbub the god of Ekʹron. Is it because there is no God in Israel? Why did you not inquire of his word? Therefore, you will not leave the bed on which you are lying, for you will certainly die.’”  17 So he died, according to the word of Jehovah that E·liʹjah had spoken; and because he did not have a son, Je·hoʹram became king in his place, in the second year of Je·hoʹram the son of Je·hoshʹa·phat the king of Judah.",
+    choiceA: "John",
+    choiceB: "Jonah",
+    choiceC: "James",
+    choiceD: "Elijah",
+    correctAnswer: "D",
+  },
+  {
+    question:
+      "Who, other than Moses and Isaiah, appeared at the transfiguration of Jesus?",
+    clueSource: "Mark 9:4",
+    clueSourceContent:
+      "4 Also, E·liʹjah with Moses appeared to them, and they were conversing with Jesus.",
+    choiceA: "Eli",
+    choiceB: "Enoch",
+    choiceC: "John the Baptizer",
+    choiceD: "Elijah",
+    correctAnswer: "D",
+  },
+  {
+    question:
+      "At Horeb, Jehovah spoke to him after an awe-inspiring display of power in a wind, an earthquake, and a fire.",
+    clueSource: "1 Kings 19:11, 12",
+    clueSourceContent:
+      "11 But He said: “Go out and stand on the mountain before Jehovah.” And look! Jehovah was passing by, and a great and strong wind was splitting mountains and breaking crags before Jehovah, but Jehovah was not in the wind. After the wind, there was an earthquake, but Jehovah was not in the earthquake.  12 After the earthquake, there was a fire, but Jehovah was not in the fire. After the fire, there was a calm, low voice.",
+    choiceA: "Elisha",
+    choiceB: "Elijah",
+    choiceC: "Iddo",
+    choiceD: "Oded",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "Who told Ahab that his blood will be licked up by the dogs at the same place where they had licked up the blood of Naboth?",
+    clueSource: "1 Kings 21:17-19",
+    clueSourceContent:
+      "17 But Jehovah’s word came to E·liʹjah the Tishʹbite, saying: 18 “Get up, go down to meet Aʹhab the king of Israel, who is in Sa·marʹi·a. There he is in the vineyard of Naʹboth, where he has gone to take possession of it. 19 You must tell him, ‘This is what Jehovah says: “Have you murdered a man and also taken his property?”’ Then say to him, ‘This is what Jehovah says: “In the place where the dogs licked up the blood of Naʹboth, the dogs will lick up your own blood.”’”",
+    choiceA: "Elijah",
+    choiceB: "Elisha",
+    choiceC: "Balaam",
+    choiceD: "Jehu",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "As he was going up to Bethel, some young boys began to jeer at him: “Go up, you baldhead! Go up, you baldhead!” ",
+    clueSource: "2 Kings 2:23, 24",
+    clueSourceContent:
+      "23 He went up from there to Bethʹel. As he was going along the way, some young boys came out from the city and began to jeer at him, and they kept saying to him: “Go up, you baldhead! Go up, you baldhead!” 24 Finally he turned around and looked at them and cursed them in the name of Jehovah. Then two she-bears came out of the forest and tore 42 of the children to pieces.",
+    choiceA: "Oded",
+    choiceB: "Paul",
+    choiceC: "Joseph",
+    choiceD: "Elisha",
+    correctAnswer: "D",
+  },
+  {
+    question:
+      "Who raised a prominent woman's son at Shunem in the Valley of Jezreel from the dead?",
+    clueSource: "2 Kings 4:17-37",
+    clueSourceContent:
+      "17 However, the woman became pregnant and gave birth to a son at the same time the next year, just as E·liʹsha had told her. 18 The child grew up, and one day he went out to his father, who was with the reapers. 19 He kept saying to his father: “My head, O my head!” Then his father said to the attendant: “Carry him to his mother.” 20 So he carried him back to his mother, and he sat on her lap until noon, and then he died. 21 Then she went up and laid him on the bed of the man of the true God, and she shut the door behind her and left. 22 She now called her husband and said: “Send me, please, one of the attendants and one of the donkeys, and let me go quickly to the man of the true God and return.” 23 But he said: “Why are you going to see him today? It is not a new moon or a sabbath.” However, she said: “Everything is all right.” 24 So she saddled the donkey and said to her attendant: “Go quickly. Do not slow down for me unless I tell you to.” 25 So she went to the man of the true God at Mount Carʹmel. As soon as the man of the true God saw her from afar, he said to Ge·haʹzi his attendant: “Look! The Shuʹnam·mite woman is over there. 26 Please run to meet her and ask her, ‘Are you well? Is your husband well? Is your child well?’” To this she said: “All is well.” 27 When she came to the man of the true God at the mountain, she at once grabbed hold of his feet. At this Ge·haʹzi came near to push her away, but the man of the true God said: “Let her alone, for she is in bitter distress, and Jehovah has hidden it from me and has not told me.” 28 She then said: “Did I ask my lord for a son? Did I not say, ‘You must not give me a false hope’?” 29 He immediately said to Ge·haʹzi: “Wrap your garments around your waist and take my staff in your hand and go. If you encounter anyone, do not greet him; and if anyone should greet you, do not answer him. Go and place my staff on the boy’s face.” 30 At this the boy’s mother said: “As surely as Jehovah is living and as you yourself are living, I will not leave you.” So he got up and went with her. 31 Ge·haʹzi went before them and put the staff on the boy’s face, but there was no sound or response. He went back to meet E·liʹsha and told him: “The boy did not wake up.” 32 When E·liʹsha came into the house, the boy was lying dead on his bed. 33 He went in and closed the door behind them both and began to pray to Jehovah. 34 Then he got up on the bed and lay down on the child and put his own mouth on the boy’s mouth, his own eyes on his eyes, and his own palms on his palms and kept bent over him, and the child’s body started to grow warm. 35 He walked back and forth in the house, and he got up on the bed and bent over him again. The boy sneezed seven times, after which he opened his eyes. 36 E·liʹsha now called Ge·haʹzi and said: “Call the Shuʹnam·mite woman.” So he called her and she came in to him. Then he said: “Pick up your son.” 37 And she came in and fell at his feet and bowed down to the ground before him, after which she picked up her son and went out.",
+    choiceA: "Jesus",
+    choiceB: "Elijah",
+    choiceC: "Peter",
+    choiceD: "Elisha",
+    correctAnswer: "D",
+  },
+  {
+    question:
+      "Who put some flour on a poisonous stew and miraculously made it safely edible?",
+    clueSource: "2 Kings 4:38-41",
+    clueSourceContent:
+      "38 When E·liʹsha returned to Gilʹgal, there was famine in the land. The sons of the prophets were sitting before him, and he said to his attendant: “Put the large pot on and boil stew for the sons of the prophets.” 39 So one of them went out to the field to pick mallows, and he found a wild vine and picked wild gourds from it, filling his garment. He then returned and sliced them into the stewpot, not knowing what they were. 40 They later served it to the men to eat, but as soon as they ate from the stew, they cried out: “There is death in the pot, O man of the true God.” And they could not eat it. 41 So he said: “Bring some flour.” After he threw it into the pot, he said: “Serve it to the people.” And nothing harmful was in the pot.",
+    choiceA: "Elisha",
+    choiceB: "Gad",
+    choiceC: "Elijah",
+    choiceD: "Simeon",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who threw a piece of wood into the Jordan river and made the axhead that sank there float?",
+    clueSource: "2 Kings 6:1-7",
+    clueSourceContent:
+      "The sons of the prophets said to E·liʹsha: “Look! The place where we are staying with you is too cramped for us. 2 Please let us go to the Jordan. Let each of us take a log from there and make a place there where we can dwell.” He said: “Go.” 3 One of them said: “Will you please come along with your servants?” At that he said: “I will come.” 4 So he went with them, and they came to the Jordan and began to cut down the trees. 5 As one of them was cutting down a tree, the axhead fell into the water, and he cried out: “Alas, my master, it was borrowed!” 6 The man of the true God said: “Where did it fall?” So he showed him the place. He then cut off a piece of wood and threw it there and made the axhead float. 7 He said: “Lift it out.” So he reached out his hand and took it.",
+    choiceA: "Elijah",
+    choiceB: "Haggai",
+    choiceC: "Eliezer",
+    choiceD: "Elisha",
+    correctAnswer: "D",
+  },
+  {
+    question:
+      "King Ben-hadad of Syria wanted to kidnap which prophet for warning Israel of the king's attacks?",
+    clueSource: "2 Kings 6:8-14",
+    clueSourceContent:
+      "8 Now the king of Syria went to war against Israel. He consulted with his servants and said: “I will encamp at such and such a place with you.” 9 Then the man of the true God sent word to the king of Israel, saying: “Beware of passing by this place, because that is where the Syrians are coming down.” 10 So the king of Israel sent word to the place that the man of the true God had warned him about. He kept warning him, and he stayed away from there on several occasions. 11 This enraged the king of Syria, so he summoned his servants and said to them: “Tell me! Who among us is on the side of the king of Israel?” 12 Then one of his servants said: “None of us, my lord the king! It is E·liʹsha the prophet in Israel who tells the king of Israel the things that you say in your own bedroom.” 13 He said: “Go and find out where he is, so that I may send men to capture him.” Later the report was made to him: “He is in Doʹthan.” 14 He immediately sent horses and war chariots there, as well as a large army; they came by night and surrounded the city.",
+    choiceA: "Elisha",
+    choiceB: "Jahaziel",
+    choiceC: "Elijah",
+    choiceD: "Enoch",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who prayed to Jehovah to strike the Syrian soldiers with blindness and then led them all the way to Samaria?",
+    clueSource: "2 Kings 6:18, 19",
+    clueSourceContent:
+      "18 When the Syrians came down to him, E·liʹsha prayed to Jehovah and said: “Please, strike this nation with blindness.” So he struck them with blindness, just as E·liʹsha had requested. 19 E·liʹsha now said to them: “This is not the way, and this is not the city. Follow me, and let me lead you to the man you are looking for.” However, he led them to Sa·marʹi·a.",
+    choiceA: "Hezekiah",
+    choiceB: "Isaiah",
+    choiceC: "Elijah",
+    choiceD: "Elisha",
+    correctAnswer: "D",
+  },
+  {
+    question:
+      "Jehovah used him to anoint Jehu as His executioner against the wicked house of Ahab.",
+    clueSource: "2 Kings 9:1-10",
+    clueSourceContent:
+      "9 E·liʹsha the prophet then called one of the sons of the prophets and said to him: “Wrap your garments around your waist, and quickly take this flask of oil with you and go to Raʹmoth-gilʹe·ad. 2 When you arrive there, look for Jeʹhu the son of Je·hoshʹa·phat the son of Nimʹshi; go in and have him get up from among his brothers and take him into the innermost room. 3 Then take the flask of oil and pour it out on his head and say, ‘This is what Jehovah says: “I anoint you as king over Israel.”’ Then open the door and flee without delay.” 4 So the prophet’s attendant got on his way to Raʹmoth-gilʹe·ad. 5 When he arrived, the army chiefs were seated there. He said: “I have a message for you, O chief.” Jeʹhu asked: “For which one of us?” He said: “For you, O chief.” 6 So Jeʹhu got up and went into the house; the attendant poured the oil out on his head and said to him, “This is what Jehovah the God of Israel says: ‘I anoint you as king over Jehovah’s people, over Israel. 7 You must strike down the house of Aʹhab your lord, and I will avenge the blood of my servants the prophets and of all the servants of Jehovah who died at the hands of Jezʹe·bel. 8 And the whole house of Aʹhab will perish; and I will annihilate from Aʹhab every male, including the helpless and weak in Israel. 9 And I will make the house of Aʹhab like the house of Jer·o·boʹam the son of Neʹbat and like the house of Baʹa·sha the son of A·hiʹjah. 10 As for Jezʹe·bel, the dogs will eat her up in the plot of land at Jezʹre·el, and no one will bury her.’” With that he opened the door and fled.",
+    choiceA: "Malachi",
+    choiceB: "Iddo",
+    choiceC: "Elisha",
+    choiceD: "Joel",
+    correctAnswer: "C",
+  },
+  {
+    question:
+      "Who said to king Jehoash to shoot arrows to the ground to have victory over Syria?",
+    clueSource: "2 Kings 13:14-19",
+    clueSourceContent:
+      "14 Now when E·liʹsha became ill with the sickness from which he eventually died, Je·hoʹash the king of Israel came down to him and wept over him, saying: “My father, my father! The chariot of Israel and his horsemen!” 15 E·liʹsha then said to him: “Take a bow and arrows.” So he took a bow and arrows. 16 Then he said to the king of Israel: “Put your hand to the bow.” So he put his hand to it, after which E·liʹsha laid his hands on the king’s hands. 17 Then he said: “Open the window toward the east.” So he opened it. E·liʹsha said: “Shoot!” So he shot. He now said: “Jehovah’s arrow of victory, the arrow of victory over Syria! You will strike down Syria at Aʹphek until you finish it off.” 18 He continued: “Take the arrows,” and he took them. Then he said to the king of Israel: “Strike the ground.” So he struck the ground three times and stopped. 19 At that the man of the true God grew indignant at him and said: “You should have struck the ground five or six times! Then you would have struck down Syria until you finished it off, but now you will strike down Syria only three times.”",
+    choiceA: "Amos",
+    choiceB: "Isaiah",
+    choiceC: "Micah",
+    choiceD: "Elisha",
+    correctAnswer: "D",
+  },
+  {
+    question:
+      "He advised David, when he was dwelling in “the inaccessible place” in the cave of Adullam as a fugitive from Saul, to return to Judah.",
+    clueSource: "1 Samuel 22:1-5",
+    clueSourceContent:
+      "So David went from there, escaping to the cave of A·dulʹlam. When his brothers and his father’s entire house heard of it, they went down there to him. 2 And all those who were in trouble and in debt and who had a grievance gathered to him, and he became their chief. There were about 400 men with him. 3 David later went from there to Mizʹpeh in Moʹab and said to the king of Moʹab: “Please let my father and mother stay with you until I know what God will do for me.” 4 So he left them with the king of Moʹab, and they stayed with him the whole time that David was in the stronghold. 5 In time Gad the prophet said to David: “Do not stay in the stronghold. Go from there into the land of Judah.” So David left and went into the forest of Heʹreth.",
+    choiceA: "Gad",
+    choiceB: "Nathan",
+    choiceC: "Samuel",
+    choiceD: "Amos",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "When David presumptuously took a census of the people, Jehovah used this prophet to give David 3 options.",
+    clueSource: "2 Samuel 24:10-19",
+    clueSourceContent:
+      "10 But David’s heart was struck with remorse after he had numbered the people. David then said to Jehovah: “I have sinned greatly by doing this. And now, Jehovah, please forgive your servant’s error, for I have acted very foolishly.” 11 When David got up in the morning, Jehovah’s word came to Gad the prophet, David’s visionary, saying: 12 “Go and say to David, ‘This is what Jehovah says: “I am giving you three options. Choose the one that I should bring on you.”’” 13 So Gad came in to David and told him: “Should seven years of famine come on your land? Or should you flee for three months from your adversaries while they pursue you? Or should there be three days of pestilence in your land? Now consider carefully what I should reply to the One who sent me.” 14 So David said to Gad: “It is very distressing to me. Let us fall, please, into the hand of Jehovah, for his mercy is great; but do not let me fall into the hand of man.” 15 Then Jehovah sent a pestilence on Israel from the morning until the designated time, so that 70,000 of the people from Dan to Beʹer-sheʹba died. 16 When the angel stretched out his hand toward Jerusalem to destroy it, Jehovah felt regret over the calamity, and he said to the angel bringing destruction among the people: “It is enough! Now let your hand drop.” Jehovah’s angel was close to the threshing floor of A·rauʹnah the Jebʹu·site. 17 When David saw the angel who was striking the people down, he said to Jehovah: “I am the one who sinned, and I am the one who did wrong; but these sheep—what have they done? Let your hand, please, come against me and my father’s house.” 18 So Gad came in to David on that day and said to him: “Go up, set up for Jehovah an altar on the threshing floor of A·rauʹnah the Jebʹu·site.” 19 So David went up at the word of Gad, as Jehovah had commanded.",
+    choiceA: "Gad",
+    choiceB: "Nathan",
+    choiceC: "Samuel",
+    choiceD: "Elijah",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Him and Nathan are generally credited with completing First Samuel and writing all of Second Samuel.​",
+    clueSource: "Insight on the Scriptures Volume 1, [Gad] p. 877-878",
+    clueSourceContent:
+      "A prophet and visionary. He advised David, when he was dwelling in “the inaccessible place” in the cave of Adullam as a fugitive from Saul, to return to Judah. (1Sa 22:1-5) When David presumptuously took a census toward the latter part of his reign, Jehovah by means of Gad gave David three alternative punishments. Gad later advised David to build an altar for Jehovah on the threshing floor of Araunah (Ornan). (2Sa 24:10-19; 1Ch 21:9-19) Gad was partially responsible for the organization of the musicians for the sanctuary. (2Ch 29:25) Nathan and Gad are generally credited with completing First Samuel and writing all of Second Samuel.​—1Ch 29:29.",
+    choiceA: "Gad",
+    choiceB: "Nathan",
+    choiceC: "Samuel",
+    choiceD: "Jeremiah",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "He was partially responsible for the organization of the musicians for the sanctuary.",
+    clueSource: "2 Chronicles 29:25",
+    clueSourceContent:
+      "25 Meanwhile, he had the Levites stationed at the house of Jehovah with cymbals, stringed instruments, and harps, by the commandment of David and of Gad the king’s visionary and of Nathan the prophet, for the commandment was from Jehovah through his prophets.",
+    choiceA: "Samuel",
+    choiceB: "Gad",
+    choiceC: "Jeremiah",
+    choiceD: "Daniel",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "Him and Zechariah continued to urge the Jews on in the work until the temple was completed",
+    clueSource: "Ezra 6:14, 15",
+    clueSourceContent:
+      "14 And the elders of the Jews continued building and making progress, urged on by the prophesying of Hagʹgai the prophet and Zech·a·riʹah the grandson of Idʹdo; they finished building it by the order of the God of Israel and by the order of Cyrus and Da·riʹus and King Ar·ta·xerxʹes of Persia. 15 They completed the house by the third day of the month of Aʹdar, in the sixth year of the reign of King Da·riʹus.",
+    choiceA: "Haggai",
+    choiceB: "Jeremiah",
+    choiceC: "Samuel",
+    choiceD: "Micah",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "The seer, or visionary, who rebuked King Asa of Judah for making an alliance with the king of Syria instead of relying upon Jehovah.",
+    clueSource: "2 Chronicles 16:7-10",
+    clueSourceContent:
+      "7 At that time Ha·naʹni the seer came to King Aʹsa of Judah and said to him: “Because you relied on the king of Syria and did not rely on Jehovah your God, the army of the king of Syria has escaped out of your hand. 8 Were not the E·thi·oʹpi·ans and the Libʹy·ans a very great army with many chariots and horsemen? But because you relied on Jehovah, he gave them into your hand. 9 For the eyes of Jehovah are roving about through all the earth to show his strength in behalf of those whose heart is complete toward him. You have acted foolishly in this matter; from now on there will be wars against you.” 10 However, Aʹsa became offended at the seer and put him in prison (ft. Lit., “in the house of the stocks.”) because he was enraged at him over this. And Aʹsa began to mistreat others among the people at that same time.",
+    choiceA: "Hanani",
+    choiceB: "Gad",
+    choiceC: "Elisha",
+    choiceD: "Elijah",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who was put in the house of the stocks because king Asa of Judah took offense at the words he said from Jehovah?",
+    clueSource: "2 Chronicles 16:7-10",
+    clueSourceContent:
+      "7 At that time Ha·naʹni the seer came to King Aʹsa of Judah and said to him: “Because you relied on the king of Syria and did not rely on Jehovah your God, the army of the king of Syria has escaped out of your hand. 8 Were not the E·thi·oʹpi·ans and the Libʹy·ans a very great army with many chariots and horsemen? But because you relied on Jehovah, he gave them into your hand. 9 For the eyes of Jehovah are roving about through all the earth to show his strength in behalf of those whose heart is complete toward him. You have acted foolishly in this matter; from now on there will be wars against you.” 10 However, Aʹsa became offended at the seer and put him in prison (ft. Lit., “in the house of the stocks.”) because he was enraged at him over this. And Aʹsa began to mistreat others among the people at that same time.",
+    choiceA: "Hanani",
+    choiceB: "Jeremiah",
+    choiceC: "Paul",
+    choiceD: "Gad",
+    correctAnswer: "A",
+  },
+];
+
+const prophets4 = [
+  {
+    question:
+      "Who was the father of Jehu, the prophet who rebuked Baasha the king of Israel and Jehoshaphat the king of Judah?",
+    clueSource: "2 Chronicles 20:34",
+    clueSourceContent:
+      "34 As for the rest of the history of Je·hoshʹa·phat, from beginning to end, there it is written among the words of Jeʹhu the son of Ha·naʹni, which were included in the Book of the Kings of Israel.",
+    choiceA: "Hanani",
+    choiceB: "Jehu",
+    choiceC: "Oded",
+    choiceD: "Iddo",
+    correctAnswer: "A",
+  },
+  {
+    question: "Gomer “bore him a son,” and named their son Jezreel.",
+    clueSource: "Hosea 1:3, 4",
+    clueSourceContent:
+      "3 So he went and married Goʹmer the daughter of Dib·laʹim, and she conceived and bore him a son. 4 Then Jehovah said to him: “Name him Jezʹre·el, for in a little while I will hold an accounting against the house of Jeʹhu for the acts of bloodshed of Jezʹre·el, and I will put an end to the royal rule of the house of Israel.",
+    choiceA: "Hosea",
+    choiceB: "Hanani",
+    choiceC: "Haggai",
+    choiceD: "Joel",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "His wife is called “the prophetess”, which seems to mean more than merely the wife of a prophet.",
+    clueSource: "Isaiah 8:3",
+    clueSourceContent:
+      "3 Then I had relations with the prophetess (ft. That is, the wife of Isaiah.), and she became pregnant and in time gave birth to a son. Jehovah then said to me: “Name him Maʹher-shalʹal-hash-baz.",
+    choiceA: "Isaiah",
+    choiceB: "Gad",
+    choiceC: "Samuel",
+    choiceD: "Moses",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Jehovah commanded him to walk about naked and barefoot for 3 years signifying that Egypt and Ethiopia would be led captive by the king of Assyria.",
+    clueSource: "Isaiah 20:1-6",
+    clueSourceContent:
+      "In the year that King Sarʹgon of As·syrʹi·a sent the Tarʹtan to Ashʹdod, he fought against Ashʹdod and captured it. 2 At that time Jehovah spoke through Isaiah the son of Aʹmoz, saying: “Go, remove the sackcloth from your hips, and take your sandals off your feet.” And he did so, walking about naked and barefoot. 3 Jehovah then said: “Just as my servant Isaiah has walked about naked and barefoot for three years as a sign and a portent against Egypt and E·thi·oʹpi·a, 4 so the king of As·syrʹi·a will lead the captives of Egypt and the exiles of E·thi·oʹpi·a, boys and old men, naked and barefoot and with exposed buttocks, the nakedness of Egypt. 5 And they will be terrified and will be ashamed of E·thi·oʹpi·a their hope and of Egypt their pride. 6 The inhabitants of this coastland will say in that day, ‘Look at what happened to our hope, to which we fled for help and rescue from the king of As·syrʹi·a! How will we escape now?’”",
+    choiceA: "Isaiah",
+    choiceB: "Elijah",
+    choiceC: "Elisha",
+    choiceD: "Jeremiah",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "He assured king Jehoshaphat and the people of Judah that Jehovah would fight their war for them.",
+    clueSource: "2 Chronicles 20:14-17",
+    clueSourceContent:
+      "14 Then in the middle of the congregation, the spirit of Jehovah came upon Ja·ha·ziʹel son of Zech·a·riʹah son of Be·naiʹah son of Je·iʹel son of Mat·ta·niʹah the Levite of the sons of Aʹsaph. 15 He said: “Pay attention, all Judah and you inhabitants of Jerusalem and King Je·hoshʹa·phat! Here is what Jehovah says to you, ‘Do not be afraid or be terrified because of this large crowd, for the battle is not yours but God’s. 16 Tomorrow go down against them. They will be coming up by the pass of Ziz, and you will find them at the end of the valley before the wilderness of Je·ruʹel. 17 You will not need to fight this battle. Take your position, stand still, and see the salvation of Jehovah in your behalf. O Judah and Jerusalem, do not be afraid or be terrified. Tomorrow go out against them, and Jehovah will be with you.’”",
+    choiceA: "Jahaziel",
+    choiceB: "Simeon",
+    choiceC: "Zechariah",
+    choiceD: "Joel",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who reproved King Jehoshaphat of Judah for his friendship with and assistance to wicked King Ahab of Israel?",
+    clueSource: "2 Chronicles 19:1-3",
+    clueSourceContent:
+      "Then King Je·hoshʹa·phat of Judah returned safely to his own house in Jerusalem. 2 Jeʹhu the son of Ha·naʹni the visionary went out to meet him and said to King Je·hoshʹa·phat: “Is it the wicked you should be helping, and is it those who hate Jehovah you should love? Because of this the indignation of Jehovah is against you. 3 Nevertheless, there are good things that have been found in you, because you cleared out the sacred poles from the land and you have prepared your heart to search for the true God.”",
+    choiceA: "Jehu",
+    choiceB: "Elijah",
+    choiceC: "Elisha",
+    choiceD: "Isaiah",
+    correctAnswer: "A",
+  },
+  {
+    question: "“Jehovah God made him a prophet to the nations.”",
+    clueSource: "Jeremiah 1:5",
+    clueSourceContent:
+      " 5 “Before I formed you in the womb I knew you, And before you were born I sanctified you. I made you a prophet to the nations.”",
+    choiceA: "Jeremiah",
+    choiceB: "Paul",
+    choiceC: "Urijah",
+    choiceD: "Moses",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "He said: “Alas, O Sovereign Lord Jehovah! I do not know how to speak, for I am just a boy.”",
+    clueSource: "Jeremiah 1:6",
+    clueSourceContent:
+      "6 But I said: “Alas, O Sovereign Lord Jehovah! I do not know how to speak, for I am just a boy.”",
+    choiceA: "Jeremiah",
+    choiceB: "Moses",
+    choiceC: "Aaron",
+    choiceD: "Nathan",
+    correctAnswer: "A",
+  },
+  {
+    question: "Who wrote the book of Lamentations?",
+    clueSource:
+      "Insight on the Scriptures Volume 2 [Lamentations, Book of] p. 193",
+    clueSourceContent:
+      "Writer. In the Greek Septuagint this book is introduced with the words: “And it occurred that, after Israel had been taken captive and Jerusalem had been desolated, Jeremiah sat down weeping and lamented with this lamentation over Jerusalem and said.” The Targums also identify Jeremiah as the writer, introducing it as follows: “Jeremiah the prophet and great priest said.” The introduction in the Clementine recension of the Latin Vulgate is: “And it occurred that, after Israel had been led away into captivity and Jerusalem was deserted, Jeremiah the prophet sat weeping and wailed with this lamentation over Jerusalem; and sighing with a bitter spirit, and moaning woefully, he said.”",
+    choiceA: "Jeremiah",
+    choiceB: "Isaiah",
+    choiceC: "Daniel",
+    choiceD: "Ezekiel",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who pleaded with king Zedekiah to obey the voice of Jehovah and continue living?",
+    clueSource: "Jeremiah 38:19-23",
+    clueSourceContent:
+      "19 Then King Zed·e·kiʹah said to Jeremiah: “I am afraid of the Jews who have deserted to the Chal·deʹans, for if I am handed over to them, they may deal cruelly with me.” 20 But Jeremiah said: “You will not be handed over to them. Obey, please, the voice of Jehovah in what I am telling you, and it will go well with you, and you will continue to live. 21 But if you refuse to surrender, this is what Jehovah has revealed to me: 22 Look! All the women remaining in the house of the king of Judah are being brought out to the princes of the king of Babylon, and they are saying, ‘The men whom you trusted have deceived you and overcome you. They have caused your foot to sink into the mud. Now they have turned away in retreat.’ 23 And all your wives and your sons they are bringing out to the Chal·deʹans, and you will not escape out of their hand, but you will be seized by the king of Babylon, and because of you this city will be burned with fire.”",
+    choiceA: "Jeremiah",
+    choiceB: "Isaiah",
+    choiceC: "Micah",
+    choiceD: "Nahum",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "After his release by Nebuzaradan, he hesitated to leave those being taken into Babylonian exile.",
+    clueSource: "Jeremiah 40:5",
+    clueSourceContent:
+      "5 While Jeremiah still had not turned back, Neb·uʹzar·adʹan said: “Return to Ged·a·liʹah the son of A·hiʹkam the son of Shaʹphan, whom the king of Babylon has appointed over the cities of Judah, and stay with him among the people; or go wherever you choose.” The chief of the guard then gave him a food allowance and a gift and let him go.",
+    choiceA: "Jeremiah",
+    choiceB: "Daniel",
+    choiceC: "Ezekiel",
+    choiceD: "Ezra",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "He was acknowledged as God’s true prophet by Daniel who studied this prophet’s words concerning the 70 years’ exile.",
+    clueSource: "Daniel 9:1, 2",
+    clueSourceContent:
+      "In the first year of Da·riʹus the son of A·has·u·eʹrus—a descendant of the Medes who had been made king over the kingdom of the Chal·deʹans— 2 in the first year of his reign I, Daniel, discerned by the books the number of years mentioned in the word of Jehovah to Jeremiah the prophet to fulfill the desolation of Jerusalem, namely, 70 years.",
+    choiceA: "Jeremiah",
+    choiceB: "Isaiah",
+    choiceC: "Micah",
+    choiceD: "Samuel",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who smashed a clay jar in front of the elders of the people of Jerusalem?",
+    clueSource: "Jeremiah 19:1-11",
+    clueSourceContent:
+      "This is what Jehovah said: “Go and buy an earthenware flask from a potter. Take some of the elders of the people and some of the elders of the priests, 2 and go out to the Valley of the Son of Hinʹnom, at the entrance of the Gate of the Potsherds. And there proclaim the words that I speak to you. 3 You will say, ‘Hear the word of Jehovah, you kings of Judah and inhabitants of Jerusalem. This is what Jehovah of armies, the God of Israel, says: “‘“I am about to bring a calamity on this place, and the ears of anyone who hears about it will tingle. 4 It is because they abandoned me and made this place unrecognizable. In it they are sacrificing to other gods, whom they and their forefathers and the kings of Judah had not known, and they have filled this place with the blood of the innocent ones. 5 They built the high places of Baʹal in order to burn their sons in the fire as whole burnt offerings to Baʹal, something that I had not commanded or spoken of and that had never even come into my heart.”’ 6 “‘“Therefore look! the days are coming,” declares Jehovah, “when this place will no longer be called Toʹpheth or the Valley of the Son of Hinʹnom but the Valley of the Slaughter. 7 I will thwart the plans of Judah and Jerusalem in this place, and I will make them fall by the sword before their enemies and by the hand of those seeking to take their life. And I will give their dead bodies as food to the birds of the heavens and to the beasts of the earth. 8 And I will make this city an object of horror and something to whistle at. Every last one passing by it will stare in horror and whistle over all its plagues. 9 And I will make them eat the flesh of their sons and daughters, and they will each eat the flesh of his fellow man, because of the siege and their desperation when they are hemmed in by their enemies and those seeking to take their life.”’ 10 “Then break the flask before the eyes of the men who go with you, 11 and say to them, ‘This is what Jehovah of armies says: “This is how I will break this people and this city, like someone who breaks a potter’s vessel so that it can never be repaired; and they will bury the dead in Toʹpheth until there is no more room to bury them.”’",
+    choiceA: "Jeremiah",
+    choiceB: "Nathan",
+    choiceC: "Gad",
+    choiceD: "Jonah",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "A priest named Pashhur has beaten this prophet of Jehovah and put him in wooden stocks.",
+    clueSource: "Jeremiah 20:1, 2",
+    clueSourceContent:
+      "Now Pashʹhur the son of Imʹmer, the priest, who was also the leading commissioner in the house of Jehovah, was listening when Jeremiah prophesied these things. 2 Then Pashʹhur struck Jeremiah the prophet and put him in the stocks that were at the Upper Gate of Benjamin, which was in the house of Jehovah.",
+    choiceA: "Jeremiah",
+    choiceB: "Paul",
+    choiceC: "Haggai",
+    choiceD: "Elijah",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "The king commanded Ebed-melech to take 30 men with him and pull this prophet out of the well.",
+    clueSource: "Jeremiah 38:7-13",
+    clueSourceContent:
+      "7 Eʹbed-melʹech the E·thi·oʹpi·an, a eunuch in the king’s house, heard that they had put Jeremiah into the cistern. Now the king was sitting in the Gate of Benjamin, 8 so Eʹbed-melʹech went out of the king’s house and spoke to the king, saying: 9 “O my lord the king, what these men have done to Jeremiah the prophet is evil! They have thrown him into the cistern, and he will die there because of the famine, for there is no bread left in the city.” 10 Then the king commanded Eʹbed-melʹech the E·thi·oʹpi·an: “Take 30 men with you from here, and pull Jeremiah the prophet up out of the cistern before he dies.” 11 So Eʹbed-melʹech took the men with him and went into the king’s house to a place beneath the treasury, and they took from there some worn-out rags and worn-out pieces of cloth and let them down by ropes to Jeremiah in the cistern. 12 Then Eʹbed-melʹech the E·thi·oʹpi·an said to Jeremiah: “Please put the rags and the pieces of cloth between your armpits and the ropes.” Jeremiah did so, 13 and they drew Jeremiah out with the ropes and pulled him up out of the cistern. And Jeremiah remained in the Courtyard of the Guard.",
+    choiceA: "Jeremiah",
+    choiceB: "Reuben",
+    choiceC: "Isaiah",
+    choiceD: "Joseph",
+    correctAnswer: "A",
+  },
+  {
+    question: "Who was the son of Zechariah and Elizabeth?",
+    clueSource: "Luke 1:13",
+    clueSourceContent:
+      "13 However, the angel said to him: “Do not be afraid, Zech·a·riʹah, because your supplication has been favorably heard, and your wife Elizabeth will bear you a son, and you are to name him John.",
+    choiceA: "John the Baptist",
+    choiceB: "The Apostle John",
+    choiceC: "Matthew",
+    choiceD: "Mark",
+    correctAnswer: "A",
+  },
+  {
+    question: "Whose works were foretold by the angel Gabriel as from God?",
+    clueSource: "Luke 1:13-17",
+    clueSourceContent:
+      "13 However, the angel said to him: “Do not be afraid, Zech·a·riʹah, because your supplication has been favorably heard, and your wife Elizabeth will bear you a son, and you are to name him John. 14 You will have joy and great gladness, and many will rejoice over his birth, 15 for he will be great in the sight of Jehovah. But he must drink no wine or any alcoholic drink at all, and he will be filled with holy spirit even from before birth, 16 and he will turn back many of the sons of Israel to Jehovah their God. 17 Also, he will go ahead of him with E·liʹjah’s spirit and power, to turn back the hearts of fathers to children and the disobedient ones to the practical wisdom of righteous ones, in order to get ready for Jehovah a prepared people.”",
+    choiceA: "John the Baptist",
+    choiceB: "The Apostle John",
+    choiceC: "Paul",
+    choiceD: "Luke",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who became hot with anger with Jehovah for not destroying Nineveh?",
+    clueSource: "Jonah 4:1-3",
+    clueSourceContent:
+      "But this was highly displeasing to Joʹnah, and he became hot with anger. 2  So he prayed to Jehovah: “Ah, now, Jehovah, was this not my concern when I was in my own land? That is why I tried to flee to Tarʹshish in the first place; for I knew that you are a compassionate and merciful God, slow to anger and abundant in loyal love, one who feels grieved over calamity. 3 Now, O Jehovah, please take away my life, for it is better for me to die than to live.”",
+    choiceA: "Jonah",
+    choiceB: "Jeremias",
+    choiceC: "Ezra",
+    choiceD: "Nehemias",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "He was the cause of a violent storm from Jehovah that almost wrecked their ship at sea.",
+    clueSource: "Jonah 1:4-12",
+    clueSourceContent:
+      "4 Then Jehovah hurled a strong wind at the sea, and there was such a violent storm on the sea that the ship was about to be wrecked. 5 The mariners were so frightened that each of them began to call on his god for help. And they began throwing the articles of the ship into the sea, to make it lighter. But Joʹnah had gone down into the inner part of the ship, where he lay down and fell fast asleep. 6 The ship captain approached and said to him: “Why are you sleeping? Get up, call out to your god! Perhaps the true God will show his concern for us, and we will not perish.” 7 Then they said to one another: “Come, let us cast lots to find out who is to blame for this calamity.” So they cast lots, and the lot fell to Joʹnah. 8 They said to him: “Please tell us, who is to blame for this calamity that has come upon us? What is your work, and where do you come from? What is your country, and from what people are you?” 9 He replied: “I am a Hebrew, and I fear Jehovah the God of the heavens, the One who made the sea and the dry land.” 10 At this the men became even more afraid, and they asked him: “What have you done?” (The men learned that he was running away from Jehovah, because he had told them.) 11 So they said to him: “What should we do to you to make the sea calm down for us?” For the sea was growing more and more stormy. 12 He replied: “Lift me up and throw me into the sea, and the sea will calm down for you; for I know that it is because of me that this violent storm has come upon you.” 13 However, the men rowed hard to bring the ship back to dry land, but they could not, because the sea grew more and more stormy around them. 14 Then they called out to Jehovah and said: “Ah, now, O Jehovah, please, may we not perish because of this man! Do not hold us responsible for innocent blood, since you have done as you pleased, O Jehovah.” 15 Then they lifted Joʹnah up and threw him into the sea; and the sea ceased its raging.",
+    choiceA: "Jonah",
+    choiceB: "Peter",
+    choiceC: "Elijah",
+    choiceD: "Paul",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who foretold the coming of the Messiah’s precursor, John the Baptist, and afterward of Christ himself?",
+    clueSource: "Live With Jehovah’s Day in Mind, Chapter 2 par. 21",
+    clueSourceContent:
+      "The last of the 12 prophets, Malachi, lived up to his name, which means “My Messenger.” We know little about this prophet, who lived in the mid-fifth century B.C.E. From his prophecy, however, we do know that he was a fearless spokesman who rebuked God’s people for their sins and hypocrisy. The conditions that Malachi described are very similar to those depicted by Nehemiah, likely a contemporary of Malachi. Why was Malachi’s message sorely needed? The zeal and enthusiasm that the prophets Zechariah and Haggai had stimulated some decades earlier had faded. The Jews’ spiritual state was at a very low ebb. Malachi spoke boldly against haughty and hypocritical priests, and he criticized the people for the halfhearted worship and the sacrifices that they were offering. Yet, just as God’s Word assures us of a bright outlook for the future, Malachi foretold the coming of the Messiah’s precursor, John the Baptist, and afterward of Christ himself. Malachi’s message closes the Hebrew Scriptures on a positive note, promising us that “the sun of righteousness will certainly shine forth” for those in fear of God’s name.​—Malachi 4:2, 5, 6.",
+    choiceA: "Malachi",
+    choiceB: "Isaiah",
+    choiceC: "Jeremiah",
+    choiceD: "Elijah",
+    correctAnswer: "A",
+  },
+];
+
+const prophets5 = [
+  {
+    question:
+      "“The word of Jehovah came to” him, stating that God would make Samaria “a heap of ruins of the field.”",
+    clueSource: "Micah 1:6",
+    clueSourceContent:
+      " 6 I will make Sa·marʹi·a a heap of ruins of the field, A place for planting vineyards; I will hurl her stones down into the valley, And I will lay bare her foundations.",
+    choiceA: "Micah",
+    choiceB: "Isaiah",
+    choiceC: "Jeremiah",
+    choiceD: "Iddo",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "King Ahab has said about this prophet: “He never prophesies good things concerning me, but always bad.”",
+    clueSource: "2 Chronicles 18:6-8",
+    clueSourceContent:
+      "6 Je·hoshʹa·phat then said: “Is there not here a prophet of Jehovah? Let us also inquire through him.” 7 At that the king of Israel said to Je·hoshʹa·phat: “There is still one more man through whom we can inquire of Jehovah; but I hate him, for he never prophesies good things concerning me, but always bad. He is Mi·caiʹah the son of Imʹlah.” However, Je·hoshʹa·phat said: “The king should not say such a thing.” 8 So the king of Israel called a court official and said: “Bring Mi·caiʹah the son of Imʹlah quickly.”",
+    choiceA: "Micaiah",
+    choiceB: "Elijah",
+    choiceC: "Elisha",
+    choiceD: "Jehu",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who was the leader of the nation of Israel, the mediator of the Law covenant?",
+    clueSource: "Exodus 20:19",
+    clueSourceContent:
+      "19 So they said to Moses: “You speak with us, and we will listen, but do not let God speak with us, for fear that we will die.”",
+    choiceA: "Moses",
     choiceB: "",
     choiceC: "",
     choiceD: "",
-    correctAnswer: "",
+    correctAnswer: "A",
+  },
+  {
+    question: "Who was the second son of Jochebed?",
+    clueSource: "Insight on the Scriptures Volume 2, [Moses] p. 434",
+    clueSourceContent:
+      "(Moʹses) [Drawn Out [that is, saved out of water]]. “Man of the true God,” leader of the nation of Israel, mediator of the Law covenant, prophet, judge, commander, historian, and writer. (Ezr 3:2) Moses was born in 1593 B.C.E., in Egypt, being the son of Amram, the grandson of Kohath, and the great-grandson of Levi. His mother Jochebed was Kohath’s sister. (See, however, JOCHEBED.) Moses was three years younger than his brother Aaron. Miriam their sister was some years older.​—Ex 6:16, 18, 20; 2:7.",
+    choiceA: "Aaron",
+    choiceB: "Moses",
+    choiceC: "Miriam",
+    choiceD: "Joshua",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "He came to be nursed and trained by his mother in the employment of the daughter of Pharaoh.",
+    clueSource: "Exodus 2:1-10",
+    clueSourceContent:
+      "About that time, a certain man of the house of Leʹvi married a daughter of Leʹvi. 2 And the woman became pregnant and gave birth to a son. When she saw how beautiful he was, she kept him concealed for three months. 3 When she was no longer able to conceal him, she took a papyrus basket and coated it with bitumen and pitch and put the child in it and placed it among the reeds by the bank of the Nile River. 4 But his sister stood at a distance to see what would happen to him. 5 When Pharʹaoh’s daughter came down to bathe in the Nile, her female attendants were walking by the side of the Nile. And she caught sight of the basket in the middle of the reeds. She immediately sent her slave girl to get it. 6 When she opened it, she saw the child, and the boy was crying. She felt compassion for him, but she said: “This is one of the children of the Hebrews.” 7 Then his sister said to Pharʹaoh’s daughter: “Shall I go and call a nursing woman from the Hebrews to nurse the child for you?” 8 Pharʹaoh’s daughter said to her: “Go!” At once the girl went and called the child’s mother. 9 Pharʹaoh’s daughter then said to her: “Take this child with you and nurse him for me, and I will pay you.” So the woman took the child and nursed him. 10 When the child grew older, she brought him to Pharʹaoh’s daughter, and he became a son to her. She named him Moses and said: “It is because I have drawn him out of the water.”",
+    choiceA: "Moses",
+    choiceB: "Aaron",
+    choiceC: "Joseph",
+    choiceD: "Zechariah",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "He was “instructed in all the wisdom of the Egyptians. In fact, he was powerful in his words and deeds.”",
+    clueSource: "Acts 7:22",
+    clueSourceContent:
+      "22 So Moses was instructed in all the wisdom of the Egyptians. In fact, he was powerful in his words and deeds.",
+    choiceA: "Moses",
+    choiceB: "Joseph",
+    choiceC: "Aaron",
+    choiceD: "Nathan",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "When shepherds drove away the 7 daughters of Jethro and their flock, who delivered the women and watered the flocks for them?",
+    clueSource: "Exodus 2:16-20",
+    clueSourceContent:
+      "16 Now the priest of Midʹi·an had seven daughters, and these came to draw water and to fill the troughs to water their father’s flock. 17 But as usual, the shepherds came and drove them away. At this Moses got up and helped the women and watered their flock. 18 When they came home to their father Reuʹel, he exclaimed: “How is it that you have come home so quickly today?” 19 They replied: “A certain Egyptian rescued us from the shepherds, and he even drew water for us and watered the flock.” 20 He said to his daughters: “But where is he? Why did you leave the man behind? Call him, so that he may eat with us.”",
+    choiceA: "Moses",
+    choiceB: "Jethro",
+    choiceC: "Jacob",
+    choiceD: "Eleazar",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "He had to undergo another 40 years of training to develop fine, godly-qualities.",
+    clueSource: "Insight on the Scriptures Volume 2, [Moses] p. 435",
+    clueSourceContent:
+      "Training for future service. While it was God’s purpose to deliver the Hebrews by the hand of Moses, God’s due time had not yet arrived; neither was Moses yet qualified to serve over God’s people. He had to undergo another 40 years of training. The qualities of patience, meekness, humility, long-suffering, mildness of temper, self-control, and learning to wait on Jehovah needed to be developed in him to a higher degree, in order for him to be the fitting one to lead God’s people. He had to be groomed and prepared to endure the discouragements, disappointments, and hardships he would encounter, and to handle with loving-kindness, calmness, and strength the multitude of problems a great nation would present. He possessed much learning, and his training as a member of Pharaoh’s household had doubtless given him dignity, confidence, and poise and had accentuated his ability to organize and command. But the lowly occupation of shepherding in Midian provided the training needed to develop fine qualities that would be even more important for the task ahead of him. Similarly, David underwent rigorous training, even after being anointed by Samuel, and Jesus Christ was tried, tested, and proved, to be perfected as King and High Priest forever. “He [Christ] learned obedience from the things he suffered; and after he had been made perfect he became responsible for everlasting salvation to all those obeying him.”​—Heb 5:8, 9.",
+    choiceA: "Moses",
+    choiceB: "Joseph",
+    choiceC: "Jacob",
+    choiceD: "Daniel",
+    correctAnswer: "A",
+  },
+  {
+    question: "Who became the announcers of each of the Ten Plagues?",
+    clueSource: "Exodus 11:10",
+    clueSourceContent:
+      "10 Moses and Aaron performed all these miracles before Pharʹaoh, but Jehovah allowed Pharʹaoh’s heart to become obstinate, so that he did not send the Israelites away from his land.",
+    choiceA: "Moses and Aaron",
+    choiceB: "Elijah and Elisha",
+    choiceC: "Just Moses",
+    choiceD: "Just Pharaoh",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Jethro wisely suggested an orderly arrangement wherein this prophet would delegate degrees of responsibility to others, to lighten his load.",
+    clueSource: "Exodus 18:12-27",
+    clueSourceContent:
+      "12 Then Jethʹro, Moses’ father-in-law, brought a burnt offering and sacrifices for God, and Aaron and all the elders of Israel came to eat a meal with Moses’ father-in-law before the true God. 13 On the next day, Moses sat down as usual to serve as judge for the people, and the people kept standing before Moses from morning until evening. 14 When Moses’ father-in-law saw all that he was doing for the people, he said: “What is this that you are doing for the people? Why do you sit here alone with all the people standing before you from morning until evening?” 15 Moses said to his father-in-law: “Because the people keep coming to me to inquire of God. 16 When a case arises, it comes to me and I must judge between one person and the other, and I make known the decisions of the true God and his laws.” 17 Moses’ father-in-law said to him: “What you are doing is not good. 18 You will surely wear out, both you and this people who are with you, because this is too big a load for you and you cannot carry it by yourself. 19 Now listen to me. I will give you advice, and God will be with you. You serve as representative for the people before the true God, and you must bring the cases to the true God. 20 You should warn them about what the regulations and the laws are and make known to them the way in which they should walk and the work that they should do. 21 But you should select from the people capable men fearing God, trustworthy men hating dishonest profit, and appoint these over them as chiefs over thousands, chiefs over hundreds, chiefs over fifties, and chiefs over tens. 22 They should judge the people when cases arise, and they will bring every difficult case to you, but every minor case they will decide. Make it easier for yourself by letting them share the load along with you. 23 If you do this, and God so commands you, you will be able to stand the strain, and everyone will go home satisfied.” 24 Moses immediately listened to his father-in-law and did all that he had said. 25 Moses chose capable men out of all Israel and appointed them heads over the people, as chiefs of thousands, chiefs of hundreds, chiefs of fifties, and chiefs of tens. 26 So they judged the people when cases arose. A difficult case they would bring to Moses, but every minor case they would judge. 27 After that Moses saw his father-in-law off, and he went his way to his land.",
+    choiceA: "Moses",
+    choiceB: "Jehu",
+    choiceC: "Oded",
+    choiceD: "Jeremiah",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who was the writer of the Pentateuch, the first five books of the Bible?",
+    clueSource: "Insight on the Scriptures Volume 2, [Moses] p. 439",
+    clueSourceContent:
+      "A Writer. Moses was the writer of the Pentateuch, the first five books of the Bible, namely, Genesis, Exodus, Leviticus, Numbers, and Deuteronomy. His writership has been acknowledged by the Jews throughout their history, this section of the Bible being known by them as the Torah, or Law. Jesus and the Christian writers frequently speak of Moses as giving the Law. He is generally credited with writing the book of Job, also Psalm 90 and, possibly, 91.​—Mt 8:4; Lu 16:29; 24:27; Ro 10:5; 1Co 9:9; 2Co 3:15; Heb 10:28.",
+    choiceA: "Moses",
+    choiceB: "Joshua",
+    choiceC: "Unknown",
+    choiceD: "Aaron",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "He mistakenly pointed himself out as someone who brought the water out of the crag for the people to drink.",
+    clueSource: "Numbers 20:1-13",
+    clueSourceContent:
+      "In the first month, the entire assembly of the Israelites came into the wilderness of Zin, and the people began dwelling in Kaʹdesh. It was there that Mirʹi·am died and was buried. 2 Now there was no water for the assembly, and they gathered together against Moses and Aaron. 3 The people were quarreling with Moses, saying: “If only we had died when our brothers died before Jehovah! 4 Why have you brought Jehovah’s congregation into this wilderness for us and our livestock to die here? 5 And why have you led us up out of Egypt to bring us into this evil place? It is no place for seed and figs and vines and pomegranates, and there is no water to drink.” 6 Then Moses and Aaron came from before the congregation to the entrance of the tent of meeting and fell with their faces to the ground, and Jehovah’s glory began to appear to them. 7 Then Jehovah said to Moses: 8 “Take the rod and call the assembly together, you and Aaron your brother, and speak to the crag before their eyes that it may give its water, and you will bring out water for them from the crag and give the assembly and their livestock something to drink.” 9 So Moses took the rod from before Jehovah, just as He had commanded him. 10 Then Moses and Aaron called the congregation together before the crag, and he said to them: “Hear, now, you rebels! Must we bring out water for you from this crag?” 11 With that Moses lifted his hand up and struck the crag twice with his rod, and much water began to pour out, and the assembly and their livestock began to drink. 12 Jehovah later said to Moses and Aaron: “Because you did not show faith in me and sanctify me before the eyes of the people of Israel, you will not bring this congregation into the land that I will give them.” 13 These are the waters of Merʹi·bah, where the Israelites quarreled with Jehovah, so that he was sanctified among them.",
+    choiceA: "Moses",
+    choiceB: "Elisha",
+    choiceC: "Elijah",
+    choiceD: "Aaron",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "He died at Mount Nebo and yet “nobody knows where his grave is down to this day.”",
+    clueSource: "Deutoronomy 34:1-6",
+    clueSourceContent:
+      "Then Moses went up from the desert plains of Moʹab to Mount Neʹbo, to the top of Pisʹgah, which faces Jerʹi·cho. And Jehovah showed him all the land, from Gilʹe·ad to Dan, 2 and all Naphʹta·li and the land of Eʹphra·im and Ma·nasʹseh, and all the land of Judah as far as the western sea, 3 and the Negʹeb and the District, the valley plain of Jerʹi·cho, the city of the palm trees, as far as Zoʹar. 4 Jehovah then said to him: “This is the land about which I have sworn to Abraham, Isaac, and Jacob, saying, ‘To your offspring I will give it.’ I have let you see it with your own eyes, but you will not cross over there.” 5 After that Moses the servant of Jehovah died there in the land of Moʹab just as Jehovah had said. 6 He buried him in the valley in the land of Moʹab, opposite Beth-peʹor, and nobody knows where his grave is down to this day.",
+    choiceA: "Moses",
+    choiceB: "Enoch",
+    choiceC: "Lazarus",
+    choiceD: "Jesus",
+    correctAnswer: "A",
+  },
+  {
+    question: "He was a prophet “whom Jehovah knew face-to-face”.",
+    clueSource: "Deutoronomy 34:10-12",
+    clueSourceContent:
+      "10 But there has never again arisen a prophet in Israel like Moses, whom Jehovah knew face-to-face. 11 He performed all the signs and the miracles that Jehovah had sent him to do in the land of Egypt to Pharʹaoh and all his servants and all his land, 12 along with the mighty hand and the awesome power that Moses displayed before the eyes of all Israel.",
+    choiceA: "Moses",
+    choiceB: "John",
+    choiceC: "Elijah",
+    choiceD: "Jeremiah",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "After Nineveh had returned to their old ways, who prophesied that the city would be completely annihilated?",
+    clueSource: "Live With Jehovah’s Day in Mind, Chapter 2 par. 15",
+    clueSourceContent:
+      "You may feel that you are of no account, not one who is in the limelight. Christians have the great privilege of being “fellow workers” of God, yet personally most do not enjoy great prominence. (1 Corinthians 3:9) Similarly, we know nothing more about the prophet Nahum than that he was from a small town called Elkosh, possibly in Judah. His message, though, was weighty and important. How so? Nahum prophesied against the capital of the Assyrian Empire, Nineveh. Its people had responded favorably to Jonah’s work, but after a while they returned to their old ways. Stone carvings from the site of ancient Nineveh show that it was, as Nahum stated, a “city of bloodshed.” (Nahum 3:1) Those carvings illustrate the cruel treatment meted out to prisoners of war. In descriptive and dramatic language, Nahum foretold the complete annihilation of Nineveh. His message proved true, as will the message that we bear today.",
+    choiceA: "Jonah",
+    choiceB: "Isaiah",
+    choiceC: "Nahum",
+    choiceD: "Jeremiah",
+    correctAnswer: "C",
+  },
+  {
+    question:
+      "Who said this to king David: “Go and do whatever is in your heart, for Jehovah is with you”?",
+    clueSource: "2 Samuel 7:1-3",
+    clueSourceContent:
+      "3 Nathan replied to the king: “Go and do whatever is in your heart, for Jehovah is with you.”",
+    choiceA: "Nathan",
+    choiceB: "Gad",
+    choiceC: "Samuel",
+    choiceD: "Zadok",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Jehovah informed him that king David's descendant would build the house of Jehovah and not him.'",
+    clueSource: "2 Samuel 7:4-17",
+    clueSourceContent:
+      "4 On that very night, the word of Jehovah came to Nathan, saying: 5 “Go and say to my servant David, ‘This is what Jehovah says: “Should you build me a house to dwell in? 6 For I have not dwelled in a house from the day I brought the people of Israel out of Egypt to this day, but I have been moving about in a tent and in a tabernacle. 7 During all the time that I went with all the Israelites, did I ever say one word to any of the tribal leaders of Israel whom I appointed to shepherd my people Israel, saying, ‘Why did you not build a house of cedars for me?’”’ 8 Now say this to my servant David, ‘This is what Jehovah of armies says: “I took you from the pastures, from following the flock, to become a leader over my people Israel. 9 And I will be with you wherever you go, and I will do away with all your enemies from before you; and I will make a great name for you like the name of the great men of the earth. 10 I will appoint a place for my people Israel and settle them, and they will live there and not be disturbed anymore; and wicked men will not oppress them again as they did in the past, 11 from the day that I appointed judges over my people Israel. And I will give you rest from all your enemies. “‘“Also, Jehovah has told you that Jehovah will make a house for you. 12 When your days come to an end and you are laid to rest with your forefathers, then I will raise up your offspring after you, your own son, and I will firmly establish his kingdom. 13 He is the one who will build a house for my name, and I will firmly establish the throne of his kingdom forever. 14 I will become his father, and he will become my son. When he does wrong, I will reprove him with the rod of men and with the strokes of the sons of men. 15 My loyal love will not be taken away from him the way I took it away from Saul, whom I removed from before you. 16 Your house and your kingdom will be secure forever before you; your throne will be firmly established forever.”’” 17 Nathan told David all these words and this entire vision.",
+    choiceA: "Nathan",
+    choiceB: "Jeremiah",
+    choiceC: "Gad",
+    choiceD: "Zadok",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who came up with the illustration of a rich man who had many sheep, and a poor man had only one small lamb that he loved very much?",
+    clueSource: "2 Samuel 12:1-14",
+    clueSourceContent:
+      "So Jehovah sent Nathan to David. He came in to him and said: “There were two men in one city, the one rich and the other poor. 2 The rich man had very many sheep and cattle; 3 but the poor man had nothing but one small female lamb, which he had bought. He cared for it, and it grew up together with him and his sons. It would eat from the little food he had and drink from his cup and sleep in his arms. It became as a daughter to him. 4 Later a visitor came to the rich man, but he would not take any of his own sheep and cattle to prepare a meal for the traveler who had come to him. Instead, he took the poor man’s lamb and prepared it for the man who had come to him.” 5 At this David grew very angry against the man, and he said to Nathan: “As surely as Jehovah is living, the man who did this deserves to die! 6 And he should pay for the lamb four times over, because he did this and showed no compassion.” 7 Then Nathan said to David: “You are the man! This is what Jehovah the God of Israel says: ‘I myself anointed you as king over Israel, and I rescued you from the hand of Saul. 8 I was willing to give you your master’s house and put your master’s wives in your arms, and I gave you the house of Israel and of Judah. And as if that were not enough, I was willing to do much more for you. 9 Why did you despise the word of Jehovah by doing what is bad in his eyes? You struck down U·riʹah the Hitʹtite with the sword! Then you took his wife as your wife after you killed him by the sword of the Amʹmon·ites. 10 Now a sword will never depart from your own house, because you despised me by taking the wife of U·riʹah the Hitʹtite as your wife.’ 11 This is what Jehovah says: ‘Here I am bringing against you calamity from within your own house; and before your own eyes, I will take your wives and give them to another man, and he will lie down with your wives in broad daylight. 12 Although you acted in secret, I will do this in front of all Israel and in broad daylight.’” 13 David then said to Nathan: “I have sinned against Jehovah.” Nathan replied to David: “Jehovah, in turn, forgives your sin. You will not die. 14 Nevertheless, because you have treated Jehovah with utter disrespect in this matter, the son just born to you will certainly die.”",
+    choiceA: "Nathan",
+    choiceB: "Jeremiah",
+    choiceC: "Gad",
+    choiceD: "Jesus",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Him and Gad are generally credited with completing First Samuel and writing all of Second Samuel.​",
+    clueSource: "Insight on the Scriptures Volume 1, [Gad] p. 877-878",
+    clueSourceContent:
+      "A prophet and visionary. He advised David, when he was dwelling in “the inaccessible place” in the cave of Adullam as a fugitive from Saul, to return to Judah. (1Sa 22:1-5) When David presumptuously took a census toward the latter part of his reign, Jehovah by means of Gad gave David three alternative punishments. Gad later advised David to build an altar for Jehovah on the threshing floor of Araunah (Ornan). (2Sa 24:10-19; 1Ch 21:9-19) Gad was partially responsible for the organization of the musicians for the sanctuary. (2Ch 29:25) Nathan and Gad are generally credited with completing First Samuel and writing all of Second Samuel.​—1Ch 29:29.",
+    choiceA: "Gad",
+    choiceB: "Nathan",
+    choiceC: "Samuel",
+    choiceD: "Jeremiah",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "Jehovah used this prophet of his to foretell the complete desolation of Edom.",
+    clueSource: "Obadiah 1",
+    clueSourceContent:
+      "The vision of O·ba·diʹah:This is what the Sovereign Lord Jehovah says regarding Eʹdom:“We have heard a report from Jehovah, An envoy has been sent among the nations: ‘Rise up, let us prepare for battle against her.’” 2 “Look! I have made you insignificant among the nations; You are utterly despised.  3 The presumptuousness of your heart has deceived you, You who reside in the retreats of the crag, Dwelling in the height, saying in your heart,‘Who will bring me down to the earth?’  4 Even if you make your dwelling high like the eagle, Or if you place your nest among the stars, I would bring you down from there,” declares Jehovah.  5 “If thieves would come to you, robbers by night,(How utterly you will be destroyed!) Would they not steal only what they wanted?Or if it were grape gatherers who would come to you, Would they not leave some gleanings behind?  6 O how Eʹsau has been searched out!How his hidden treasures have been sought after! 7 They have driven you to the border.All your allies have deceived you.The men at peace with you have prevailed against you.Those eating bread with you will place a net under you, But you will not discern it.  8 In that day,” declares Jehovah,“Will I not destroy the wise ones out of EʹdomAnd discernment out of the mountainous region of Eʹsau?  9 And your warriors will become terrified, O Teʹman, Because each one in the mountainous region of Eʹsau will be destroyed in the slaughter.  10 Because of the violence done to your brother Jacob, Shame will cover you, And you will perish forever.  11 On the day when you stood off to the side, On the day when strangers took his army into captivity, When foreigners entered his gate and cast lots over Jerusalem, You acted like one of them.  12 You should not gloat over your brother’s day on the day of his misfortune, You should not rejoice over the people of Judah on the day of their perishing, And you should not speak so arrogantly on the day of their distress.  13 You should not come into the gate of my people in the day of their disaster, You should not gloat over his calamity in the day of his disaster, And you should not lay your hands on his wealth in the day of his disaster.  14 You should not stand at the crossroads to slaughter his escapees, And you should not hand over his survivors in the day of distress.  15 For the day of Jehovah against all the nations is near.As you have done, so it will be done to you.The way you treated others will come back on your own head. 16 For in the way that you have drunk on my holy mountain, All the nations will keep drinking constantly. They will drink and gulp down, And they will be as though they had never existed.  17 But on Mount Zion will be those who escape, And it will be holy; And the house of Jacob will take possession of the things belonging to them.  18 The house of Jacob will become a fire, The house of Joseph a flame, And the house of Eʹsau like stubble; They will set them ablaze and consume them, And there will be no survivor of the house of Eʹsau, For Jehovah himself has spoken.  19 They will take possession of the Negʹeb and the mountainous region of Eʹsau, Of the She·pheʹlah and the land of the Phi·lisʹtines. They will take possession of the field of Eʹphra·im and the field of Sa·marʹi·a, And Benjamin will take possession of Gilʹe·ad.  20 To the exiles of this rampart, To the people of Israel will belong the land of the Caʹnaan·ites as far as Zarʹe·phath. And the exiles of Jerusalem, who were in Se·pharʹad, will possess the cities of the Negʹeb. 21 And saviors will go up on Mount ZionTo judge the mountainous region of Eʹsau, And the kingship will become Jehovah’s.”",
+    choiceA: "Obadiah",
+    choiceB: "Elijah",
+    choiceC: "Ahijah",
+    choiceD: "Isaiah",
+    correctAnswer: "A",
+  },
+];
+
+const prophets6 = [
+  {
+    question:
+      "Who was traditionally credited with the writership of the Bible books of Judges, Ruth, and part of First Samuel?",
+    clueSource: "Insight on the Scriptures Volume 2, [Samuel] p. 850-851",
+    clueSourceContent:
+      "(Samʹu·el) [Name of God]. A prominent prophet (Ac 3:24; 13:20), traditionally credited with the writership of the Bible books of Judges, Ruth, and part of First Samuel. (Compare 1Sa 10:25; 1Ch 29:29.) His father Elkanah was a Levite of the nonpriestly Kohathites. (1Ch 6:27, 28, 33-38) Samuel came to have three full brothers and two full sisters.​—1Sa 2:21.",
+    choiceA: "Nathan",
+    choiceB: "Moses",
+    choiceC: "Samuel",
+    choiceD: "Joshua",
+    correctAnswer: "C",
+  },
+  {
+    question: "His father Elkanah was a Levite of the nonpriestly Kohathites.",
+    clueSource: "1 Chronicles 6:27-38",
+    clueSourceContent:
+      "27 E·liʹab his son, Je·roʹham his son, El·kaʹnah his son. 28 The sons of Samuel were Joel the firstborn and A·biʹjah the second. 29 The sons of Me·rarʹi were Mahʹli, Libʹni his son, Shimʹe·i his son, Uzʹzah his son, 30 Shimʹe·a his son, Hag·giʹah his son, and A·saiʹah his son. 31 These were the ones whom David appointed to direct the singing at the house of Jehovah after the Ark came to rest there. 32 They were responsible for the singing at the tabernacle of the tent of meeting until Solʹo·mon built the house of Jehovah in Jerusalem, and they carried out their service as prescribed for them. 33 These are the men who served with their sons: Of the Koʹhath·ites, Heʹman the singer, son of Joel son of Samuel 34 son of El·kaʹnah son of Je·roʹham son of Eʹli·el son of Toʹah 35 son of Zuph son of El·kaʹnah son of Maʹhath son of A·maʹsai 36 son of El·kaʹnah son of Joel son of Az·a·riʹah son of Zeph·a·niʹah 37 son of Taʹhath son of Asʹsir son of E·biʹa·saph son of Korʹah 38 son of Izʹhar son of Koʹhath son of Leʹvi son of Israel.",
+    choiceA: "Samuel",
+    choiceB: "Hosea",
+    choiceC: "Aaron",
+    choiceD: "Eliezer",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Wearing a linen ephod girded on, he ‘ministered to Jehovah’ as a boy.",
+    clueSource: "1 Samuel 2:18",
+    clueSourceContent:
+      "18 Now Samuel was ministering before Jehovah, wearing a linen ephʹod, though he was just a boy.",
+    choiceA: "Samuel",
+    choiceB: "Jeremiah",
+    choiceC: "Josiah",
+    choiceD: "Aaron",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "His mother would come to visit him and bring him a new sleeveless coat anually.",
+    clueSource: "1 Samuel 2:19",
+    clueSourceContent:
+      " 19 Also, his mother would make for him a little sleeveless coat, and she brought it up to him year after year when she came up with her husband to offer the yearly sacrifice.",
+    choiceA: "Samuel",
+    choiceB: "Simeon",
+    choiceC: "Samson",
+    choiceD: "Aaron",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Jehovah God called him up to 3 times at night before revealing to him a vision.",
+    clueSource: "1 Samuel 3:2-15",
+    clueSourceContent:
+      "2 One day Eʹli was lying down in his usual place, and his eyes had grown dim; he was not able to see. 3 The lamp of God had not yet been extinguished, and Samuel was lying in the temple of Jehovah, where the Ark of God was. 4 Jehovah then called Samuel. He answered: “Here I am.” 5 He ran to Eʹli and said: “Here I am, for you called me.” But he said: “I did not call. Lie down again.” So he went and lay down. 6 Jehovah called once again: “Samuel!” At this Samuel got up and went to Eʹli and said: “Here I am, for you called me.” But he said: “I did not call, my son. Lie down again.” 7 (Now Samuel had not yet come to know Jehovah, and the word of Jehovah had not yet been revealed to him.) 8 So Jehovah called again, a third time: “Samuel!” At that he got up and went to Eʹli and said: “Here I am, for you called me.” Eʹli then realized that it was Jehovah who was calling the boy. 9 So Eʹli said to Samuel: “Go, lie down, and if he calls you, you should say, ‘Speak, Jehovah, for your servant is listening.’” And Samuel went and lay down in his place. 10 Jehovah came and stood there, and he called as at the other times: “Samuel, Samuel!” At this Samuel said: “Speak, for your servant is listening.” 11 Jehovah said to Samuel: “Look! I am doing something in Israel that will make both ears of anyone who hears about it tingle. 12 On that day I will carry out toward Eʹli all that I said about his house, from start to finish. 13 You must tell him that I am bringing a lasting judgment on his house for the error that he has known about, for his sons are cursing God, but he has not rebuked them. 14 That is why I have sworn to the house of Eʹli that the error of the house of Eʹli will never be atoned for by sacrifices or by offerings.” 15 Samuel lay down until the morning; then he opened the doors of Jehovah’s house. Samuel was afraid to tell Eʹli of the vision.",
+    choiceA: "Samuel",
+    choiceB: "Jonah",
+    choiceC: "Joseph",
+    choiceD: "Moses",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "To whom did Jehovah said this: “Mere man sees what appears to the eyes, but Jehovah sees into the heart”?",
+    clueSource: "1 Samuel 16:6, 7",
+    clueSourceContent:
+      "6 As they came in and he saw E·liʹab, he said: “Surely here before Jehovah stands his anointed one.” 7 But Jehovah said to Samuel: “Do not pay attention to his appearance and how tall he is, for I have rejected him. For the way man sees is not the way God sees, because mere man sees what appears to the eyes, but Jehovah sees into the heart.”",
+    choiceA: "Samuel",
+    choiceB: "Isaiah",
+    choiceC: "Nathan",
+    choiceD: "Elijah",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Following Saul’s victory over the Ammonites, who directed that the Israelites come to Gilgal to confirm the kingship anew?",
+    clueSource: "1 Samuel 11:14, 15",
+    clueSourceContent:
+      "14 Samuel later said to the people: “Come and let us go to Gilʹgal to reconfirm the kingship.” 15 So all the people went to Gilʹgal, and in Gilʹgal they made Saul king before Jehovah. Then they offered communion sacrifices there before Jehovah, and Saul and all the men of Israel celebrated with great joy.",
+    choiceA: "Samuel",
+    choiceB: "Nathan",
+    choiceC: "Gad",
+    choiceD: "Zadok",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who the seriousness of rejecting Jehovah as King, who prayed for an unseasonal thunderstorm?",
+    clueSource: "1 Samuel 12:1-18",
+    clueSourceContent:
+      "Finally Samuel said to all Israel: “Here I have done all that you asked of me, and I appointed a king to reign over you. 2 Now here is the king who is leading you! As for me, I have grown old and gray, and my sons are here with you, and I have led you from my youth until this day. 3 Here I am. Testify against me before Jehovah and before his anointed one: Whose bull or whose donkey have I taken? Or whom have I defrauded or crushed? From whose hand have I accepted a bribe to make me look the other way? If I have, I will restore it to you.” 4 To this they said: “You have not defrauded us or crushed us or accepted anything at all from anyone’s hand.” 5 So he said to them: “Jehovah is a witness against you, and his anointed one is a witness this day that you have found nothing to accuse me of.” To this they said: “He is a witness.” 6 So Samuel said to the people: “Jehovah, who used Moses and Aaron and who brought your forefathers up out of the land of Egypt, is a witness. 7 And now take your positions, and I will judge you before Jehovah in view of all the righteous acts that Jehovah has done for you and for your forefathers. 8 “As soon as Jacob had come into Egypt and your forefathers began calling to Jehovah for help, Jehovah sent Moses and Aaron to lead your forefathers out of Egypt and to cause them to dwell in this place. 9 But they forgot Jehovah their God, and he sold them into the hand of Sisʹe·ra the chief of the army of Haʹzor and into the hand of the Phi·lisʹtines and into the hand of the king of Moʹab, and they fought against them. 10 And they called to Jehovah for help and said, ‘We have sinned, for we have left Jehovah to serve the Baʹals and the Ashʹto·reth images; now rescue us out of the hand of our enemies so that we may serve you.’ 11 Then Jehovah sent Jer·ub·baʹal and Beʹdan and Jephʹthah and Samuel and rescued you from the hand of the enemies all around you, so that you could live in security. 12 When you saw that Naʹhash, the king of the Amʹmon·ites, had come against you, you kept saying to me, ‘No, we are determined to have a king over us!’ even though Jehovah your God is your King. 13 Now here is the king whom you have chosen, the one you asked for. Look! Jehovah has appointed a king over you. 14 If you fear Jehovah and serve him and obey his voice and you do not rebel against the order of Jehovah, and both you and the king who reigns over you follow Jehovah your God, fine. 15 But if you do not obey the voice of Jehovah and you rebel against the order of Jehovah, the hand of Jehovah will be against you and your fathers. 16 Now take your positions and see this great thing that Jehovah is doing before your eyes. 17 Is it not the wheat harvest today? I will call on Jehovah to make it thunder and rain; then know and understand what an evil thing you have done in the eyes of Jehovah in asking for a king for yourselves.” 18 At that Samuel called to Jehovah, and Jehovah made it thunder and rain on that day, so that all the people were greatly in fear of Jehovah and of Samuel.",
+    choiceA: "Samuel",
+    choiceB: "Elijah",
+    choiceC: "Jonah",
+    choiceD: "Moses",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who hacked king Agag of Amalek to pieces before Jehovah at Gilgal?",
+    clueSource: "1 Samuel 15:30-33",
+    clueSourceContent:
+      "30 At this he said: “I have sinned. But honor me, please, in front of the elders of my people and in front of Israel. Return with me, and I will bow down to Jehovah your God.” 31 So Samuel returned behind Saul, and Saul bowed down to Jehovah. 32 And Samuel said: “Bring Aʹgag the king of Amʹa·lek near to me.” Then Aʹgag went to him reluctantly, for Aʹgag had been saying to himself: ‘Surely the threat of death is past.’ 33 However, Samuel said: “Just as your sword has bereaved women of children, so your mother will be most bereaved among women.” With that Samuel hacked Aʹgag to pieces before Jehovah at Gilʹgal.",
+    choiceA: "Samuel",
+    choiceB: "Ahijah",
+    choiceC: "Isaiah",
+    choiceD: "Jahaziel",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "It had been divinely revealed to this prophet that he would see the Christ before his death.",
+    clueSource: "Luke 2:25-35",
+    clueSourceContent:
+      "25 And look! there was a man in Jerusalem named Simʹe·on, and this man was righteous and devout, waiting for Israel’s consolation, and holy spirit was upon him. 26 Furthermore, it had been divinely revealed to him by the holy spirit that he would not see death before he had seen the Christ of Jehovah. 27 Under the power of the spirit, he now came into the temple, and as the parents brought the young child Jesus in to do for him according to the customary practice of the Law, 28 he took the child into his arms and praised God and said: 29 “Now, Sovereign Lord, you are letting your slave go in peace according to your declaration, 30 because my eyes have seen your means of salvation 31 that you have prepared in the sight of all the peoples, 32 a light for removing the veil from the nations and a glory of your people Israel.” 33 And the child’s father and mother continued wondering at the things being spoken about him. 34 Also, Simʹe·on blessed them and said to Mary, the child’s mother: “Look! This child is appointed for the falling and the rising again of many in Israel and for a sign to be spoken against 35 (yes, a long sword will be run through you), in order that the reasonings of many hearts may be revealed.”",
+    choiceA: "Simeon",
+    choiceB: "Enoch",
+    choiceC: "John",
+    choiceD: "Zechariah",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Instead of repenting, king Jehoash ordered to stone this prophet of Jehovah to death.",
+    clueSource: "2 Chronicles 24:20-22",
+    clueSourceContent:
+      "20 God’s spirit came upon Zech·a·riʹah the son of Je·hoiʹa·da the priest, and he stood above the people and said to them: “This is what the true God says, ‘Why are you violating the commandments of Jehovah? You will not be successful! Because you have abandoned Jehovah, he will, in turn, abandon you.’” 21 But they conspired against him and stoned him at the king’s order in the courtyard of Jehovah’s house. 22 Thus King Je·hoʹash did not remember the loyal love that his father Je·hoiʹa·da had shown toward him, and he killed his son, who said as he was dying: “May Jehovah see to it and call you to account.”",
+    choiceA: "Zechariah",
+    choiceB: "Stephen",
+    choiceC: "Jeremiah",
+    choiceD: "Zephaniah",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "His dying words were: “May Jehovah see to it and call you to account.”",
+    clueSource: "2 Chronicles 24:20-22",
+    clueSourceContent:
+      "20 God’s spirit came upon Zech·a·riʹah the son of Je·hoiʹa·da the priest, and he stood above the people and said to them: “This is what the true God says, ‘Why are you violating the commandments of Jehovah? You will not be successful! Because you have abandoned Jehovah, he will, in turn, abandon you.’” 21 But they conspired against him and stoned him at the king’s order in the courtyard of Jehovah’s house. 22 Thus King Je·hoʹash did not remember the loyal love that his father Je·hoiʹa·da had shown toward him, and he killed his son, who said as he was dying: “May Jehovah see to it and call you to account.”",
+    choiceA: "Zechariah",
+    choiceB: "Stephen",
+    choiceC: "Jeremiah",
+    choiceD: "Zephaniah",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Him and Haggai were used by Jehovah to stimulate High Priest Jeshua to finish rebuilding Jehovah’s temple.",
+    clueSource: "Ezra 5:1, 2",
+    clueSourceContent:
+      "Then the prophets Hagʹgai and Zech·a·riʹah the grandson of Idʹdo prophesied to the Jews who were in Judah and in Jerusalem, in the name of the God of Israel who was over them. 2 It was then that Ze·rubʹba·bel the son of She·alʹti·el and Jeshʹu·a the son of Je·hozʹa·dak started to rebuild the house of God, which was in Jerusalem; and the prophets of God were with them and supported them.",
+    choiceA: "Zechariah",
+    choiceB: "Ezra",
+    choiceC: "Nehemiah",
+    choiceD: "Daniel",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Him and Haggai were used by Jehovah to stimulate the returned exiles of Israel to finish rebuilding Jehovah’s temple.",
+    clueSource: "Ezra 5:1, 2",
+    clueSourceContent:
+      "Then the prophets Hagʹgai and Zech·a·riʹah the grandson of Idʹdo prophesied to the Jews who were in Judah and in Jerusalem, in the name of the God of Israel who was over them. 2 It was then that Ze·rubʹba·bel the son of She·alʹti·el and Jeshʹu·a the son of Je·hozʹa·dak started to rebuild the house of God, which was in Jerusalem; and the prophets of God were with them and supported them.",
+    choiceA: "Zechariah",
+    choiceB: "Ezra",
+    choiceC: "Nehemiah",
+    choiceD: "Daniel",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "From the top of Mount Carmel, this prophet prayed to Jehovah with his face between his knees for the end of the three-and-a-half-year drought.",
+    clueSource: "1 Kings 18:42",
+    clueSourceContent:
+      "42 So Aʹhab went up to eat and drink, while E·liʹjah went up to the top of Carʹmel and crouched on the ground, keeping his face between his knees.",
+    choiceA: "John",
+    choiceB: "Elijah",
+    choiceC: "Urijah",
+    choiceD: "Malachi",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "Who sent his attendant back seven times to look for a sign of Jehovah's promise about the end of the drought?",
+    clueSource: "1 Kings 18:42-44",
+    clueSourceContent:
+      "42  So Aʹhab went up to eat and drink, while E·liʹjah went up to the top of Carʹmel and crouched on the ground, keeping his face between his knees. 43  Then he said to his attendant: “Go up, please, and look toward the sea.” So he went up and looked and said: “There is nothing at all.” Seven times E·liʹjah said, “Go back.” 44  The seventh time his attendant said: “Look! There is a small cloud like a man’s hand ascending out of the sea.” He now said: “Go, say to Aʹhab, ‘Hitch up the chariot! Go down so that the downpour may not detain you!’”",
+    choiceA: "Elisha",
+    choiceB: "Elijah",
+    choiceC: "Gad",
+    choiceD: "Azariah",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "Jehovah said that no rain will occur for a period of years, except by this prophet's word.",
+    clueSource: "1 Kings 17:1",
+    clueSourceContent:
+      "17 Now E·liʹjah the Tishʹbite, an inhabitant of Gilʹe·ad, said to Aʹhab: “As surely as Jehovah the God of Israel whom I serve is living, during these years there will be no dew or rain except by my word!”",
+    choiceA: "Elijah",
+    choiceB: "Elisha",
+    choiceC: "Samuel",
+    choiceD: "Joel",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "He said, “Do not be afraid! For there are more who are with us than those who are with them.”",
+    clueSource: "2 Kings 6:15-17",
+    clueSourceContent:
+      "15 When the attendant of the man of the true God rose early and went outside, he saw that an army with horses and war chariots was surrounding the city. At once the attendant said to him: “Alas, my master! What are we to do?” 16 But he said: “Do not be afraid! For there are more who are with us than those who are with them.” 17 Then E·liʹsha began to pray and say: “O Jehovah, open his eyes, please, that he may see.” Immediately Jehovah opened the attendant’s eyes and he saw, and look! the mountainous region was full of horses and war chariots of fire all around E·liʹsha.",
+    choiceA: "Isaiah",
+    choiceB: "Elisha",
+    choiceC: "Hezekiah",
+    choiceD: "Moses",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "Whose servant saw that the mountains all around the city were full of horses and fiery war chariots of Jehovah?",
+    clueSource: "2 Kings 6:15-17",
+    clueSourceContent:
+      "15 When the attendant of the man of the true God rose early and went outside, he saw that an army with horses and war chariots was surrounding the city. At once the attendant said to him: “Alas, my master! What are we to do?” 16 But he said: “Do not be afraid! For there are more who are with us than those who are with them.” 17 Then E·liʹsha began to pray and say: “O Jehovah, open his eyes, please, that he may see.” Immediately Jehovah opened the attendant’s eyes and he saw, and look! the mountainous region was full of horses and war chariots of fire all around E·liʹsha.",
+    choiceA: "Jonah's",
+    choiceB: "Elijah's",
+    choiceC: "Elisha's",
+    choiceD: "Ahijah's",
+    correctAnswer: "C",
+  },
+  {
+    question:
+      "Who adviced the king of Israel to give the Syrian soldiers, their enemy, bread and water?",
+    clueSource: "2 Kings 6:20-23",
+    clueSourceContent:
+      "20 When they arrived in Sa·marʹi·a, E·liʹsha said: “O Jehovah, open their eyes so that they may see.” So Jehovah opened their eyes, and they saw that they were in the middle of Sa·marʹi·a. 21 When the king of Israel saw them, he said to E·liʹsha: “Should I strike them down, should I strike them down, my father?” 22 But he said: “You must not strike them down. Do you strike down those whom you have taken captive with your sword and with your bow? Give them bread and water so they may eat and drink and return to their lord.” 23 So he spread a great feast for them, and they ate and drank, after which he sent them away to return to their lord. And not once did the marauder bands of the Syrians come again into the land of Israel.",
+    choiceA: "Elisha",
+    choiceB: "Isaiah",
+    choiceC: "Elijah",
+    choiceD: "Jeremiah",
+    correctAnswer: "A",
+  },
+];
+
+const prophets7 = [
+  {
+    question: "A dead man touched which prophet's bones and then came to life?",
+    clueSource:
+      "20 After that E·liʹsha died and was buried. There were Moʹab·ite marauder bands that would come into the land at the beginning of the year. 21 As some men were burying a man, they saw the marauder band, so they quickly threw the man into E·liʹsha’s burial place and ran off. When the man touched the bones of E·liʹsha, he came to life and stood on his feet.",
+    clueSourceContent: "2 Kings 13:20, 21",
+    choiceA: "Elisha's",
+    choiceB: "Agabus'",
+    choiceC: "Lazarus'",
+    choiceD: "Elijah's",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who was the prophet-watchman Jehovah God's anointed to give warnings to the Israelites?",
+    clueSource: "Ezekiel 33:1-9",
+    clueSourceContent:
+      "And the word of Jehovah came to me, saying: 2 “Son of man, speak to the sons of your people, and say to them, “‘Suppose that I bring a sword upon a land, and all the people of that land take a man and make him their watchman, 3 and he sees the sword coming upon the land and blows the horn and warns the people. 4 If someone hears the sound of the horn but does not heed the warning and a sword comes and takes his life, his blood will be on his own head. 5 He heard the sound of the horn, but he did not heed the warning. His blood will be upon himself. If he had heeded the warning, his life would have been saved. 6 “‘But if the watchman sees the sword coming and he does not blow the horn and the people receive no warning and a sword comes and takes the life of one of them, that person will die for his own error, but I will ask his blood back from the watchman.’ 7 “As for you, son of man, I have appointed you as a watchman to the house of Israel; and when you hear a word from my mouth you must warn them from me. 8 When I say to someone wicked, ‘Wicked one, you will surely die!’ but you do not speak out to warn the wicked one to change his course, he will die as a wicked man because of his own error, but I will ask his blood back from you. 9 But if you warn someone wicked to turn back from his way and he refuses to change his course, he will die for his error, but you will certainly save your own life.",
+    choiceA: "Ezekiel",
+    choiceB: "Daniel",
+    choiceC: "Iddo",
+    choiceD: "Nehemiah",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "He gave a detailed description of the rebuilt temple that was “blueprinted” for him by Jehovah.",
+    clueSource: "Insight on the Scriptures Volume 1, [Ezekiel] p. 792",
+    clueSourceContent:
+      "Ezekiel then gives a detailed description of the rebuilt temple, “blueprinted” for him by Jehovah. This visionary temple was prophetic of something in the far-distant future, for no such temple was ever actually constructed.​—Eze 40-48.",
+    choiceA: "Ezekiel",
+    choiceB: "Solomon",
+    choiceC: "David",
+    choiceD: "Nathan",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "In his book, he cries out for help and asks how long God will allow the wicked to continue.",
+    clueSource: "Habakkuk 1:1-2:1",
+    clueSourceContent:
+      "1:1 A pronouncement that Ha·bakʹkuk the prophet received in a vision: 2 How long, O Jehovah, must I cry for help, but you do not hear? How long must I ask for help from violence, but you do not intervene? 3 Why do you make me witness wrongdoing? And why do you tolerate oppression? Why are destruction and violence before me? And why do quarreling and conflict abound? 4 So law is paralyzed, And justice is never carried out. For the wicked surround the righteous; That is why justice is perverted. 5 “Look among the nations and pay attention! Stare in amazement and be astounded; For something will happen in your days That you will not believe even if it is told to you. 6 For here I am raising up the Chal·deʹans, The ruthless and impetuous nation. They sweep through vast stretches of the earth To seize homes not theirs. 7 They are frightening and fearsome.They establish their own justice and authority. 8 Their horses are swifter than leopards, And they are fiercer than wolves in the night. Their warhorses gallop forward; Their horses come from far away. They swoop down like the eagle rushing to feed. 9 All of them come bent on violence. The assembling of their faces is like the east wind, And they scoop up captives like sand. 10 They scoff at kings And laugh at high officials. They laugh at every fortified place; They pile up a dirt ramp and capture it. 11 Then they move forward like the wind and pass through, But they will become guilty, Because they credit their power to their god.” 12 Are you not from everlasting, O Jehovah? O my God, my Holy One, you do not die. O Jehovah, you appointed them to execute judgment; My Rock, you established them for punishment. 13 Your eyes are too pure to look on what is evil, And you cannot tolerate wickedness. Why, then, do you tolerate the treacherous And keep silent when a wicked man swallows up someone more righteous than he is? 14 Why do you make man like the fish of the sea, Like creeping things that have no ruler? 15 All of these he hauls up with a fishhook. He catches them in his dragnet, And he gathers them in his fishing net. That is why he rejoices greatly. 16 That is why he offers sacrifices to his dragnet And makes sacrifices to his fishing net; For by them his portion is rich, And his food is choice. 17 Will he then keep emptying out his dragnet? Will he go on slaughtering nations without compassion? 2:1 At my guardpost I will keep standing, And I will station myself on the rampart. I will keep watch to see what he will speak by means of me And what I will reply when I am reproved.",
+    choiceA: "Habakkuk",
+    choiceB: "Nathan",
+    choiceC: "Gad",
+    choiceD: "Jeremiah",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "He said: “In my heart [the word of Jehovah] became like a burning fire shut up in my bones.”",
+    clueSource: "Jeremiah 20:8, 9",
+    clueSourceContent:
+      " 8 For whenever I speak, I must cry out and proclaim, “Violence and destruction!” For me the word of Jehovah has been the cause of insults and jeering all day long. 9 So I said: “I am not going to make mention of him, And I will speak no more in his name.” But in my heart it became like a burning fire shut up in my bones, And I was tired of holding it in; I could no longer endure it.",
+    choiceA: "Jeremiah",
+    choiceB: "Isaiah",
+    choiceC: "Elijah",
+    choiceD: "Daniel",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who spoke of a plague of destructive locusts that would come in waves to desolate the land?",
+    clueSource: "Joel 1-2",
+    clueSourceContent:
+      "1:1 The word of Jehovah that came to Joel the son of Pe·thuʹel: 2 “Hear this, you elders, And pay attention, all you inhabitants of the land. Has anything like this happened in your days Or in the days of your forefathers? 3 Tell about it to your sons, And let your sons tell about it to their sons, And their sons to the next generation. 4 What was left by the devouring locust, the swarming locust has eaten; And what was left by the swarming locust, the unwinged locust has eaten; And what the unwinged locust has left, the voracious locust has eaten. 5 Wake up, you drunkards, and weep! Wail, all you wine drinkers, Because the sweet wine has been taken from your mouths. 6 For a nation has come up into my land, mighty and without number. Its teeth are the teeth of a lion, and its jaws are those of a lion. 7 It has devastated my vine and turned my fig tree into a stump, Stripping them completely bare and tossing them aside, Leaving their twigs white. 8 Wail as a virgin wearing sackcloth does For the bridegroom of her youth. 9 Grain offering and drink offering have ceased from the house of Jehovah; The priests, the ministers of Jehovah, are in mourning. 10 The field has been devastated, the ground mourns; For the grain has been devastated, the new wine has dried up, the oil has failed. 11 Farmers are dismayed, vinedressers wail, Because of the wheat and the barley; For the harvest of the field has perished. 12 The vine has dried up, The fig tree has withered. The pomegranate, the palm, and the apple, All the trees of the field have dried up; For joy has turned to shame among the people. 13 Put on sackcloth and mourn, you priests; Wail, you ministers of the altar. Come in and spend the night in sackcloth, you ministers of my God; For grain offering and drink offering have been withheld from the house of your God. 14 Proclaim a fast; call for a solemn assembly. Gather the elders together, with all the inhabitants of the land, To the house of Jehovah your God, and cry to Jehovah for help. 15 Woe because of the day! For the day of Jehovah is near, And it will come like a destruction from the Almighty! 16 Has not food been taken from before our very eyes, And rejoicing and joy from the house of our God? 17 The seeds have shriveled under their shovels. Storehouses are desolate. Granaries have been torn down, for the grain has dried up. 18 Even the livestock groan! The herds of cattle wander in confusion, for they have no pasture! And the flocks of sheep bear the punishment. 19 To you, O Jehovah, I will call; For fire has devoured the pastures of the wilderness, And a flame has consumed all the trees of the field. 20 Even the wild beasts long for you, Because the streams of water have dried up And fire has devoured the pastures of the wilderness.” 2:1 “Blow a horn in Zion! Shout a war cry in my holy mountain. Let all the inhabitants of the land tremble, For the day of Jehovah is coming! It is near! 2 It is a day of darkness and gloom, A day of clouds and thick gloom, Like light of dawn spreading out on the mountains. There is a people numerous and mighty; Never before has there been one like it, And never again will there be another Through the years of all generations.  3 Ahead of it a fire devours, And behind it a flame consumes. The land ahead of it is like the garden of Eʹden, But behind it is a desolate wilderness, And nothing can escape. 4 Its appearance is like the appearance of horses, And they run like warhorses. 5 The sound is like that of chariots as they leap on the mountaintops, Like the crackling of a blazing fire that consumes stubble. It is like a mighty people drawn up in battle formation. 6 Because of them, peoples will be in anguish. Every face will grow flushed. 7 They charge like warriors, They scale a wall like soldiers, Each keeps to his own course, And they do not swerve from their paths. 8 They do not shove one another; Each man advances in his course. If the weapons cause some to fall, The others do not break ranks. 9 Into the city they rush, on the wall they run. Onto the houses they climb, through the windows they enter like a thief. 10 Before them the land trembles and the heavens rock. Sun and moon have become dark, And the stars have lost their brightness. 11 Jehovah will raise his voice before his army, for his camp is very numerous. For the one carrying out His word is mighty; For the day of Jehovah is great and very awe-inspiring. Who can endure it?” 12 “Yet even now,” declares Jehovah, “return to me with all your hearts, With fasting and weeping and wailing. 13 Rip apart your hearts, and not your garments, And return to Jehovah your God, For he is compassionate and merciful, slow to anger and abundant in loyal love, And he will reconsider the calamity. 14 Who knows whether he will turn back and reconsider And leave behind a blessing, A grain offering and a drink offering for Jehovah your God? 15 Blow a horn in Zion! Proclaim a fast; call for a solemn assembly. 16 Gather the people; sanctify the congregation. Collect the old men; gather the children and nursing infants. Let the bridegroom go out from his inner chamber, and the bride from her bridal chamber. 17 Between the porch and the altar Let the priests, the ministers of Jehovah, weep and say: ‘Do feel pity, O Jehovah, for your people; Do not make your inheritance an object of scorn, Letting the nations rule over them. Why should the peoples say, “Where is their God?”’ 18 Then Jehovah will be zealous for his land And show compassion on his people. 19 Jehovah will answer his people: ‘Here I am sending to you grain and new wine and oil, And you will be fully satisfied; I will no longer make you a reproach among the nations. 20 I will drive the northerner far away from you; I will disperse him to a dry and desolate wasteland, With his vanguard toward the eastern sea And his rear guard toward the western sea. The foul smell from him will ascend, The stench from him will keep ascending; For He will do great things.’ 21 Do not be afraid, O land. Be joyful and rejoice, for Jehovah will do great things. 22 Do not be afraid, you beasts of the field, For the pastures of the wilderness will become green, And the trees will bear fruit; The fig tree and the vine must give their full yield. 23 You sons of Zion, be joyful and rejoice in Jehovah your God; For he will give you the autumn rain in the right amount, And he will send upon you a downpour, The autumn rain and the spring rain, as before. 24 The threshing floors will be full of pure grain, And the presses will overflow with new wine and oil. 25 And I will make compensation to you for the years That the swarming locust, the unwinged locust, the voracious locust, and the devouring locust have eaten, My great army that I sent among you. 26 You will surely eat to satisfaction, And you will praise the name of Jehovah your God, Who has done wonders in your behalf; My people will never again be put to shame. 27 And you will have to know that I am in the midst of Israel And that I am Jehovah your God—there is no other! My people will never again be put to shame. 28 After that I will pour out my spirit on every sort of flesh, And your sons and your daughters will prophesy, Your old men will dream dreams, And your young men will see visions. 29 And even on my male slaves and female slaves I will pour out my spirit in those days. 30 And I will give wonders in the heavens and on the earth, Blood and fire and columns of smoke. 31 The sun will be turned into darkness and the moon into blood Before the coming of the great and awe-inspiring day of Jehovah. 32 And everyone who calls on the name of Jehovah will be saved; For on Mount Zion and in Jerusalem there will be those who escape, just as Jehovah has said, The survivors whom Jehovah calls.”",
+    choiceA: "Joel",
+    choiceB: "Zechariah",
+    choiceC: "Oded",
+    choiceD: "Obadiah",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Zechariah prophesied by holy spirit that who would be a prophet of the Most High to make Jehovah’s ways ready?",
+    clueSource: "Luke 1:68-79",
+    clueSourceContent:
+      "68 “Let Jehovah be praised, the God of Israel, because he has turned his attention to his people and has brought them deliverance. 69 And he has raised up a horn of salvation for us in the house of David his servant, 70 just as he has spoken through the mouth of his holy prophets from of old, 71 of a salvation from our enemies and from the hand of all those hating us; 72 to show mercy in connection with our forefathers and to call to mind his holy covenant, 73 the oath that he swore to Abraham our forefather, 74 to grant us, after we have been rescued from the hands of enemies, the privilege of fearlessly rendering sacred service to him 75 with loyalty and righteousness before him all our days. 76 But as for you, young child, you will be called a prophet of the Most High, for you will go ahead of Jehovah to prepare his ways, 77 to give knowledge of salvation to his people by forgiveness of their sins, 78 because of the tender compassion of our God. With this compassion a daybreak will visit us from on high, 79 to give light to those sitting in darkness and death’s shadow and to guide our feet in the way of peace.”",
+    choiceA: "John the Baptist",
+    choiceB: "The Apostle John",
+    choiceC: "Peter",
+    choiceD: "Simon",
+    correctAnswer: "A",
+  },
+  {
+    question: "Jesus confirmed that his ministry and baptism were from God.",
+    clueSource: "Luke 7:26-28",
+    clueSourceContent:
+      "26 Really, then, what did you go out to see? A prophet? Yes, I tell you, and far more than a prophet. 27 This is the one about whom it is written: ‘Look! I am sending my messenger ahead of you, who will prepare your way ahead of you.’ 28 I tell you, among those born of women there is no one greater than John, but a lesser person in the Kingdom of God is greater than he is.”",
+    choiceA: "John the Baptist",
+    choiceB: "Philip",
+    choiceC: "The Apostle John",
+    choiceD: "Elisha",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Jesus revealed to everyone that this man is “far more than a prophet.”",
+    clueSource: "Luke 7:26-28",
+    clueSourceContent:
+      "26 Really, then, what did you go out to see? A prophet? Yes, I tell you, and far more than a prophet. 27 This is the one about whom it is written: ‘Look! I am sending my messenger ahead of you, who will prepare your way ahead of you.’ 28 I tell you, among those born of women there is no one greater than John, but a lesser person in the Kingdom of God is greater than he is.”",
+    choiceA: "John the Baptist",
+    choiceB: "Jeremiah",
+    choiceC: "The Apostle John",
+    choiceD: "Elijah",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "He was thrown into prison by Herod Antipas for he had reproved Antipas for his adulterous marriage to Herodias.",
+    clueSource: "Matthew 3:17-20",
+    clueSourceContent:
+      "17 For Herod himself had sent out and arrested John and had bound him in prison on account of He·roʹdi·as, the wife of Philip his brother, because he had married her. 18 For John had been saying to Herod: “It is not lawful for you to have your brother’s wife.” 19 So He·roʹdi·as was nursing a grudge against him and wanted to kill him, but she could not. 20 For Herod was in fear of John, knowing him to be a righteous and holy man, and he was keeping him safe. After hearing him, he was at a great loss as to what to do, yet he continued to hear him gladly.",
+    choiceA: "John the Baptist",
+    choiceB: "The Apostle John",
+    choiceC: "John Doe",
+    choiceD: "Zechariah",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "When Herod heard of Jesus' ministry, he feared that Jesus was actually this prophet raised from the dead.",
+    clueSource: "Luke 9:7-9",
+    clueSourceContent:
+      "7 Now Herod the district ruler heard about everything that was happening, and he was greatly perplexed because some were saying that John had been raised up from the dead, 8 but others were saying that E·liʹjah had appeared, and still others that one of the ancient prophets had risen. 9 Herod said: “John I beheaded. Who, then, is this about whom I am hearing such things?” So he was trying to see him.",
+    choiceA: "Elijah",
+    choiceB: "John",
+    choiceC: "Elisha",
+    choiceD: "Jeremiah",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "A “divinely beautiful” child who was spared from Pharaoh’s genocidal decree commanding the destruction of every newborn Hebrew male.",
+    clueSource: "Exodus 1:22-2:10",
+    clueSourceContent:
+      "1:22 Finally Pharʹaoh commanded all his people: “You are to throw every newborn son of the Hebrews into the Nile River, but you are to keep every daughter alive.” 2:1 About that time, a certain man of the house of Leʹvi married a daughter of Leʹvi. 2 And the woman became pregnant and gave birth to a son. When she saw how beautiful he was, she kept him concealed for three months. 3 When she was no longer able to conceal him, she took a papyrus basket and coated it with bitumen and pitch and put the child in it and placed it among the reeds by the bank of the Nile River. 4 But his sister stood at a distance to see what would happen to him. 5 When Pharʹaoh’s daughter came down to bathe in the Nile, her female attendants were walking by the side of the Nile. And she caught sight of the basket in the middle of the reeds. She immediately sent her slave girl to get it. 6 When she opened it, she saw the child, and the boy was crying. She felt compassion for him, but she said: “This is one of the children of the Hebrews.” 7 Then his sister said to Pharʹaoh’s daughter: “Shall I go and call a nursing woman from the Hebrews to nurse the child for you?” 8 Pharʹaoh’s daughter said to her: “Go!” At once the girl went and called the child’s mother. 9 Pharʹaoh’s daughter then said to her: “Take this child with you and nurse him for me, and I will pay you.” So the woman took the child and nursed him. 10 When the child grew older, she brought him to Pharʹaoh’s daughter, and he became a son to her. She named him Moses and said: “It is because I have drawn him out of the water.”",
+    choiceA: "Jesus",
+    choiceB: "Moses",
+    choiceC: "Balaam",
+    choiceD: "Elijah",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who told Bathsheba that Solomon will become the successor of David on the throne of Israel?",
+    clueSource: "1 Kings 1:11-13",
+    clueSourceContent:
+      "11 Nathan then said to Bath-sheʹba, Solʹo·mon’s mother: “Have you not heard that Ad·o·niʹjah the son of Hagʹgith has become king, and our lord David does not know anything about it? 12  So now come, please, and let me advise you, so that you may save your own life and the life of your son Solʹo·mon. 13  Go in to King David and say to him, ‘Was it not you, my lord the king, who swore to your servant, saying: “Your son Solʹo·mon will become king after me, and he is the one who will sit on my throne”? So why has Ad·o·niʹjah become king?’",
+    choiceA: "Gad",
+    choiceB: "Zadok",
+    choiceC: "Nathan",
+    choiceD: "Samuel",
+    correctAnswer: "C",
+  },
+  {
+    question:
+      "Who was promised to the service of Jehovah as a Nazirite by his mother Hannah before conception?",
+    clueSource: "1 Samuel 1:11",
+    clueSourceContent:
+      "11 And she made this vow: “O Jehovah of armies, if you look upon the affliction of your servant and remember me and you do not forget your servant and give to your servant a male child, I will give him to Jehovah all the days of his life, and no razor will touch his head.”",
+    choiceA: "Samuel",
+    choiceB: "Samson",
+    choiceC: "Jesus",
+    choiceD: "Micah",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "He was taken to the tabernacle at Shiloh upon being weaned (perhaps at the age of at least 3 years).",
+    clueSource: "1 Samuel 1:21-24",
+    clueSourceContent:
+      "21 In time El·kaʹnah went up with all his household to offer the yearly sacrifice to Jehovah and to present his vow offering. 22 But Hanʹnah did not go up, for she said to her husband: “As soon as the boy is weaned, I will bring him; then he will appear before Jehovah and remain there from then on.” 23 El·kaʹnah her husband then said to her: “Do what you think is best. Stay at home until you wean him. May Jehovah carry out what you have said.” So the woman stayed at home and nursed her son until she weaned him. 24 As soon as she had weaned him, she took him up to Shiʹloh, along with a three-year-old bull, one eʹphah of flour, and a large jar of wine, and she came to the house of Jehovah in Shiʹloh and brought the young boy with her.",
+    choiceA: "Samuel",
+    choiceB: "Samson",
+    choiceC: "Daughter of Jephthah",
+    choiceD: "Aaron",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Jehovah commissioned him to go to Bethlehem to anoint one of the sons of Jesse as Israel’s future king.",
+    clueSource: "1 Samuel 16:1-13",
+    clueSourceContent:
+      "Jehovah eventually said to Samuel: “How long will you mourn for Saul now that I have rejected him from ruling as king over Israel? Fill your horn with oil and go. I will send you to Jesʹse the Bethʹle·hem·ite, because I have selected from among his sons a king for myself.” 2 But Samuel said: “How can I go? When Saul hears about it, he will kill me.” Jehovah replied: “Take a young cow with you and say, ‘I have come to sacrifice to Jehovah.’ 3 Invite Jesʹse to the sacrifice; then I will make known to you what to do. You must anoint for me the one whom I designate to you.” 4 Samuel did what Jehovah said. When he came to Bethʹle·hem, the elders of the city were trembling at meeting him, and they said: “Does your coming mean peace?” 5 To this he said: “It means peace. I have come to sacrifice to Jehovah. Sanctify yourselves, and come with me to the sacrifice.” Then he sanctified Jesʹse and his sons, after which he summoned them to the sacrifice. 6 As they came in and he saw E·liʹab, he said: “Surely here before Jehovah stands his anointed one.” 7 But Jehovah said to Samuel: “Do not pay attention to his appearance and how tall he is, for I have rejected him. For the way man sees is not the way God sees, because mere man sees what appears to the eyes, but Jehovah sees into the heart.” 8 Then Jesʹse called A·binʹa·dab and had him pass before Samuel, but he said: “Jehovah has not chosen this one either.” 9 Next Jesʹse presented Shamʹmah, but he said: “Jehovah has not chosen this one either.” 10 So Jesʹse had seven of his sons pass before Samuel, but Samuel said to Jesʹse: “Jehovah has not chosen any of these.” 11 Finally Samuel said to Jesʹse: “Are these all of your boys?” To this he said: “The youngest has been left out until now; he is pasturing the sheep.” Then Samuel said to Jesʹse: “Send for him, because we will not sit down for the meal until he comes here.” 12 So he sent for him and brought him in. Now he was ruddy, with beautiful eyes, and handsome in appearance. Then Jehovah said: “Get up, anoint him, for this is the one!” 13 So Samuel took the horn of oil and anointed him in the presence of his brothers. And the spirit of Jehovah began to empower David from that day forward. Samuel later rose and went his way to Raʹmah.",
+    choiceA: "Samuel",
+    choiceB: "Nathan",
+    choiceC: "Gad",
+    choiceD: "Zadok",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "To avoid any suspicion on king Saul’s part, Jehovah instructed this prophet to take with him a cow for sacrifice.",
+    clueSource: "1 Samuel 16:1-3",
+    clueSourceContent:
+      "Jehovah eventually said to Samuel: “How long will you mourn for Saul now that I have rejected him from ruling as king over Israel? Fill your horn with oil and go. I will send you to Jesʹse the Bethʹle·hem·ite, because I have selected from among his sons a king for myself.” 2 But Samuel said: “How can I go? When Saul hears about it, he will kill me.” Jehovah replied: “Take a young cow with you and say, ‘I have come to sacrifice to Jehovah.’ 3 Invite Jesʹse to the sacrifice; then I will make known to you what to do. You must anoint for me the one whom I designate to you.”",
+    choiceA: "Samuel",
+    choiceB: "Nathan",
+    choiceC: "Gad",
+    choiceD: "Zadok",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "He acted as prophet in revealing God’s purpose concerning his son, John, who would be “called a prophet of the Most High.”",
+    clueSource: "Luke 1:67-79",
+    clueSourceContent:
+      "67 Then Zech·a·riʹah his father was filled with holy spirit, and he prophesied, saying: 68 “Let Jehovah be praised, the God of Israel, because he has turned his attention to his people and has brought them deliverance. 69 And he has raised up a horn of salvation for us in the house of David his servant, 70 just as he has spoken through the mouth of his holy prophets from of old, 71 of a salvation from our enemies and from the hand of all those hating us; 72 to show mercy in connection with our forefathers and to call to mind his holy covenant, 73 the oath that he swore to Abraham our forefather, 74 to grant us, after we have been rescued from the hands of enemies, the privilege of fearlessly rendering sacred service to him 75 with loyalty and righteousness before him all our days. 76 But as for you, young child, you will be called a prophet of the Most High, for you will go ahead of Jehovah to prepare his ways, 77 to give knowledge of salvation to his people by forgiveness of their sins, 78 because of the tender compassion of our God. With this compassion a daybreak will visit us from on high, 79 to give light to those sitting in darkness and death’s shadow and to guide our feet in the way of peace.”",
+    choiceA: "Zechariah",
+    choiceB: "John",
+    choiceC: "Joseph",
+    choiceD: "Angel Gabriel",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Him and Haggai were used by Jehovah to stimulate Zerubbabel to finish rebuilding Jehovah’s temple.",
+    clueSource: "Ezra 5:1, 2",
+    clueSourceContent:
+      "Then the prophets Hagʹgai and Zech·a·riʹah the grandson of Idʹdo prophesied to the Jews who were in Judah and in Jerusalem, in the name of the God of Israel who was over them. 2 It was then that Ze·rubʹba·bel the son of She·alʹti·el and Jeshʹu·a the son of Je·hozʹa·dak started to rebuild the house of God, which was in Jerusalem; and the prophets of God were with them and supported them.",
+    choiceA: "Zechariah",
+    choiceB: "Ezra",
+    choiceC: "Nehemiah",
+    choiceD: "Daniel",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who foretold that “a great famine was about to come on the entire inhabited earth,” which was fulfilled during the reign of Emperor Claudius?",
+    clueSource: "Acts 11:27, 28",
+    clueSourceContent:
+      "27 In those days prophets came down from Jerusalem to Antioch. 28 One of them named Agʹa·bus stood up and foretold through the spirit that a great famine was about to come on the entire inhabited earth, which, in fact, did take place in the time of Claudius.",
+    choiceA: "Joseph",
+    choiceB: "Moses",
+    choiceC: "Jesus",
+    choiceD: "Agabus",
+    correctAnswer: "D",
+  },
+];
+
+//ADVANCED
+const prophets8 = [
+  {
+    question: "He was a humble sheep raiser in the town of Tekoa.",
+    clueSource: "Amos 1:1",
+    clueSourceContent:
+      "The words of Aʹmos, who was among the sheep raisers from Te·koʹa, which he received in vision concerning Israel in the days of King Uz·ziʹah of Judah and in the days of Jer·o·boʹam son of Joʹash, the king of Israel, two years before the earthquake.",
+    choiceA: "Moses",
+    choiceB: "David",
+    choiceC: "Amos",
+    choiceD: "Samuel",
+    correctAnswer: "C",
+  },
+  {
+    question:
+      "The first occurrence of the word “prophet” in the Hebrew Scriptures refers to whom?",
+    clueSource: "Insight on the Scriptures Volume 1, [Abraham] p. 31-32",
+    clueSourceContent:
+      "The first occurrence of the word “prophet” in the Hebrew Scriptures refers to Abraham, though others like Enoch prophesied before him. (Ge 20:7; Jude 14) The first identified in the Scriptures as a “Hebrew” is Abraham. (Ge 14:13) Abraham, like Abel, Enoch, and Noah, was a man of faith. (Heb 11:4-9) But the first occurrence of the expression “put faith in Jehovah” is in reference to Abraham.​—Ge 15:6. Indeed, this man of unusual faith walked with God, received communications from him by means of visions and dreams, and entertained his angelic messengers. (Ge 12:1-3, 7; 15:1-8, 12-21; 18:1-15; 22:11, 12, 15-18) He was well acquainted with the name of God even though Jehovah had not at that time revealed the full significance of His name. (Ex 6:2, 3) Time after time Abraham built altars and offered up sacrifices in the name of and to the praise and glory of his God Jehovah.​—Ge 12:8; 13:4, 18; 21:33; 24:40; 48:15.",
+    choiceA: "Enoch",
+    choiceB: "Abraham",
+    choiceC: "Moses",
+    choiceD: "Miriam",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "He was the son of Oded who helped arouse king Asa to “search for Jehovah.”",
+    clueSource: "2 Chronicles 15:1-15",
+    clueSourceContent:
+      "Now the spirit of God came upon Az·a·riʹah the son of Oʹded.  2 So he went out to meet Aʹsa and said to him: “Hear me, O Aʹsa and all Judah and Benjamin! Jehovah is with you as long as you remain with him; and if you search for him, he will let himself be found by you, but if you abandon him, he will abandon you.  3 For a long time Israel had been without the true God, without a priest teaching, and without law.  4 But when in their distress they returned to Jehovah the God of Israel and searched for him, he let himself be found by them.  5 In those times no one could travel safely, for there was much unrest among all the inhabitants of the lands.  6 Nation was being crushed by nation and one city by another city, because God kept them in disorder with every sort of distress.  7 But you, be strong and do not become discouraged, for your activity will be rewarded.” 8 As soon as Aʹsa heard these words and the prophecy of Oʹded the prophet, he took courage and removed the disgusting idols from all the land of Judah and Benjamin and from the cities that he had captured from the mountainous region of Eʹphra·im, and he restored Jehovah’s altar that was before the porch of Jehovah.  9 And he gathered together all Judah and Benjamin and the foreign residents with them from Eʹphra·im and Ma·nasʹseh and Simʹe·on, for they had deserted to him from Israel in great number when they saw that Jehovah his God was with him.  10 So they were gathered together at Jerusalem in the third month of the 15th year of Aʹsa’s reign.  11 On that day they sacrificed to Jehovah from the spoil they had brought, 700 cattle and 7,000 sheep.  12 Furthermore, they entered into a covenant to search for Jehovah the God of their forefathers with all their heart and with all their soul.  13 Whoever would not search for Jehovah the God of Israel was to be put to death, whether small or great, man or woman.  14 So they took an oath to Jehovah with a loud voice, with joyful shouting, and with the trumpets and horns.  15 And all Judah rejoiced over the oath, for they had taken the oath with all their heart and they eagerly sought him and he let himself be found by them, and Jehovah continued to give them rest on every side.",
+    choiceA: "Azariah",
+    choiceB: "Haggai",
+    choiceC: "Isaiah",
+    choiceD: "Micah",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "His three companions receive high positions outside the court, while he served in the court of the king.",
+    clueSource: "Insight on the Scriptures Volume 1, [Daniel] p. 576",
+    clueSourceContent:
+      "Nebuchadnezzar’s dreams. In Nebuchadnezzar’s second year (probably dating from Jerusalem’s overthrow in 607 B.C.E.), he has a dream that ‘agitates his spirit.’ All the wise men being unable to reveal it, Daniel comes before the king and not only tells him the dream, by divine revelation, but interprets it, thereby saving himself and the other wise men from execution. This prompts Nebuchadnezzar to make Daniel “ruler over all the jurisdictional district of Babylon and the chief prefect over all the wise men.” (Da 2:48) His three companions receive high positions outside the court, while Daniel serves in the court of the king.",
+    choiceA: "Job",
+    choiceB: "Daniel",
+    choiceC: "Jehoiada",
+    choiceD: "Zephaniah",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "The last time he is mentioned serving as a prophet is toward the end of the eight-year reign of King Jehoram of Judah.",
+    clueSource: "Insight on the Scriptures Volume 1, [Elijah] p. 710",
+    clueSourceContent:
+      "(E·liʹjah) [My God Is Jehovah]. One of the foremost prophets of Israel. Evidently his home was in Tishbeh, thought by some to be a village in the land of Gilead, E of the Jordan River. (1Ki 17:1) He started his long career as prophet in Israel during the reign of King Ahab, who began to rule about 940 B.C.E., and continued during the reign of Ahab’s son Ahaziah (began c. 919 B.C.E.). (1Ki 22:51) The last time he is mentioned as serving as a prophet (this time for Judah) is toward the end of the eight-year reign of King Jehoram of Judah, which rule started in 913 B.C.E.​—2Ch 21:12-15; 2Ki 8:16.",
+    choiceA: "Elijah",
+    choiceB: "Amos",
+    choiceC: "Obadiah",
+    choiceD: "Hosea",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who wrote King Jehoram of Judah a letter expressing Jehovah’s condemnation, which is fulfilled shortly thereafter?",
+    clueSource: "2 Chronicles 21:12-15",
+    clueSourceContent:
+      "12 Eventually a written message came to him from E·liʹjah the prophet, saying: “This is what Jehovah the God of David your forefather says, ‘You have not walked in the ways of your father Je·hoshʹa·phat or in the ways of King Aʹsa of Judah. 13 But you walk in the way of the kings of Israel and cause Judah and the inhabitants of Jerusalem to commit spiritual prostitution like the prostitution of the house of Aʹhab, and you even killed your own brothers, the household of your father, who were better than you. 14 Therefore, Jehovah is dealing a great blow to your people, to your sons, to your wives, and to all your possessions. 15 And you will suffer with many sicknesses, including a disease of your intestines, until your intestines come out because of the disease, day after day.’”",
+    choiceA: "Elijah",
+    choiceB: "Micah",
+    choiceC: "Gad",
+    choiceD: "Malachi",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Jehovah sent this prophet back to his assignment, and to also anoint Hazael, Jehu, and Elisha.",
+    clueSource: "1 Kings 19:13-18",
+    clueSourceContent:
+      "13 As soon as E·liʹjah heard it, he wrapped his face in his official garment and went out and stood at the entrance of the cave. Then a voice asked him: “What are you doing here, E·liʹjah?” 14 To this he said: “I have been absolutely zealous for Jehovah the God of armies; for the people of Israel have forsaken your covenant, your altars they have torn down, and your prophets they have killed with the sword, and I am the only one left. Now they are seeking to take my life away.” 15 Jehovah said to him: “Return, and go to the wilderness of Damascus. When you arrive, anoint Hazʹa·el as king over Syria. 16 And you should anoint Jeʹhu the grandson of Nimʹshi as king over Israel, and you should anoint E·liʹsha the son of Shaʹphat from Aʹbel-me·hoʹlah as prophet to take your place. 17 Anyone escaping from Hazʹa·el’s sword, Jeʹhu will put to death; and anyone escaping from Jeʹhu’s sword, E·liʹsha will put to death. 18 And I still have left 7,000 in Israel, all whose knees have not bent down to Baʹal and whose mouths have not kissed him.”",
+    choiceA: "Jonah",
+    choiceB: "Nathan",
+    choiceC: "Elisha",
+    choiceD: "Elijah",
+    correctAnswer: "D",
+  },
+  {
+    question:
+      "Jehovah used this prophet to heal the water supply of the city of Jericho, which caused the city barren.",
+    clueSource: "2 Kings 2:19-22",
+    clueSourceContent:
+      "19 In time the men of the city said to E·liʹsha: “My master can see that the city is well-situated; but the water is bad, and the land is barren.” 20 At that he said: “Bring me a small new bowl and put salt in it.” So they brought it to him. 21 Then he went out to the source of the water and threw salt into it and said: “This is what Jehovah says, ‘I have healed this water. No more will it cause death or barrenness.’” 22 And the water has been healed down to this day, according to the word spoken by E·liʹsha.",
+    choiceA: "Elijah",
+    choiceB: "Jeremiah",
+    choiceC: "Elisha",
+    choiceD: "Moses",
+    correctAnswer: "C",
+  },
+  {
+    question:
+      "He told the 3 kings against Moab to call for a harpist and dig trench after trench to get water supply for their people.",
+    clueSource: "2 Kings 3:4-27",
+    clueSourceContent:
+      "4 Now Meʹsha the king of Moʹab was a sheep raiser, and he used to pay 100,000 lambs and 100,000 unshorn rams as tribute to the king of Israel.  5 As soon as Aʹhab died, the king of Moʹab revolted against the king of Israel.  6 So King Je·hoʹram went out on that day from Sa·marʹi·a and mustered all Israel.  7 He also sent a message to King Je·hoshʹa·phat of Judah, saying: “The king of Moʹab has revolted against me. Will you go with me to war against Moʹab?” To this he said: “I will go. I am the same as you. My people are the same as your people. My horses are the same as your horses.”  8 Then he asked: “By which way should we go up?” He replied: “By the way of the wilderness of Eʹdom.” 9 The king of Israel then set out with the king of Judah and the king of Eʹdom. After they journeyed roundabout for seven days, there was no water for the camp and for the domestic animals that were following behind them.  10 The king of Israel said: “How terrible! Jehovah has called these three kings, only to give them into the hand of Moʹab!”  11 At that Je·hoshʹa·phat said: “Is there no prophet of Jehovah here through whom we may inquire of Jehovah?” So one of the servants of the king of Israel answered: “There is E·liʹsha the son of Shaʹphat, who used to pour out water on the hands of E·liʹjah.”  12 Then Je·hoshʹa·phat said: “The word of Jehovah is with him.” So the king of Israel and Je·hoshʹa·phat and the king of Eʹdom went down to him. 13 E·liʹsha said to the king of Israel: “What do I have to do with you? Go to the prophets of your father and to the prophets of your mother.” But the king of Israel said to him: “No, for it is Jehovah who has called these three kings to give them into the hand of Moʹab.”  14 To this E·liʹsha said: “As surely as Jehovah of armies whom I serve is living, if I did not have regard for King Je·hoshʹa·phat of Judah, I would not look at you or take notice of you.  15 Now bring me a harpist.” As soon as the harpist started playing, the hand of Jehovah came on him.  16 He said, “This is what Jehovah says: ‘Dig trench after trench in this valley,  17 for this is what Jehovah says: “You will not see wind, and you will not see rain; yet this valley will be filled with water, and you will drink from it, you, your livestock, and your other animals.”’  18 But this is a trivial thing in the eyes of Jehovah, for he will also give Moʹab into your hand.  19 You must strike down every fortified city and every choice city, you should cut down every good tree, you should stop up all the springs of water, and you should ruin every good plot of land with stones.” 20 And in the morning, at the time of the morning grain offering, water was suddenly coming from the direction of Eʹdom, and the land became filled with the water. 21 All the Moʹab·ites heard that the kings had come up to fight against them, so they called together all the men who could bear arms, and they stationed themselves at the border.  22 When they got up early in the morning, the sun was shining on the water, and to the Moʹab·ites on the opposite side, the water looked red like blood.  23 They said: “This is blood! The kings have surely slaughtered one another with the sword. So, then, to the spoil, O Moʹab!”  24 When they came into the camp of Israel, the Israelites rose up and began striking down the Moʹab·ites, who fled from them. They advanced into Moʹab, striking the Moʹab·ites down as they went.  25 They tore down the cities, and each man threw a stone into every good plot of land, filling it with stones; they stopped up every spring of water, and they cut down every good tree. Finally only the stone walls of Kir-harʹe·seth remained standing, and the slingers surrounded it and struck it down. 26 When the king of Moʹab saw that the battle was lost, he took with him 700 men armed with swords to break through to the king of Eʹdom; but they were not able to.  27 So he took his firstborn son who was going to reign in his place and offered him up as a burnt sacrifice on the wall. And there came to be great indignation against Israel, so they withdrew from against him and returned to their land.",
+    choiceA: "Elisha",
+    choiceB: "David",
+    choiceC: "Isaiah",
+    choiceD: "Samuel",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who helped one of the wives of the sons of the prophets and saved her sons from being taken into slavery to her creditor?",
+    clueSource: "2 Kings 4:4-7",
+    clueSourceContent:
+      "4 Now one of the wives of the sons of the prophets cried out to E·liʹsha, saying: “Your servant my husband is dead, and you well know that your servant had always feared Jehovah. Now a creditor has come to take both of my children as his slaves.” 2 At this E·liʹsha said to her: “What can I do for you? Tell me, what do you have in the house?” She replied: “Your servant has nothing at all in the house but a jar of oil.” 3 Then he said: “Go outside, ask for containers from all your neighbors, empty containers. Do not limit yourself to a few. 4 Then go in and close the door behind you and your sons. Fill all these containers, and set the full ones aside.” 5 So she left him. When she closed the door behind her and her sons, they passed the containers to her, and she kept pouring. 6 When the containers were full, she said to one of her sons: “Bring another container to me.” But he said to her: “There are no more containers.” At that the oil stopped. 7 So she came in and told the man of the true God, and he said: “Go, sell the oil and pay off your debts, and you and your sons can live from what is left.”",
+    choiceA: "Elijah",
+    choiceB: "Hosea",
+    choiceC: "Joel",
+    choiceD: "Elisha",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "At Shunem in the Valley of Jezreel, a prominent woman shows unusual hospitality to whom?",
+    clueSource: "2 Kings 4:8-18",
+    clueSourceContent:
+      "8 One day E·liʹsha went to Shuʹnem, where there was a prominent woman, and she urged him to eat a meal there. As often as he would pass by, he would stop there to eat. 9 So she said to her husband: “I know that it is a holy man of God who comes this way regularly. 10 Please, let us make a small room on the roof and put there for him a bed, a table, a chair, and a lampstand. Then, whenever he comes to us, he can stay there.” 11 One day he came there, and he went to the room on the roof to lie down. 12 He then said to Ge·haʹzi his attendant: “Call this Shuʹnam·mite woman.” So he called her, and she stood before him. 13 Then he said to Ge·haʹzi: “Please tell her, ‘Here you have gone to all this trouble for us. What can be done for you? Should I speak in your behalf to the king or to the chief of the army?’” But her reply was: “I am living among my own people.” 14 So he said: “Then what can be done for her?” Ge·haʹzi now said: “Well, she does not have a son, and her husband is old.” 15 Immediately he said: “Call her.” So he called her, and she stood at the doorway. 16 Then he said: “At this time next year, you will be embracing a son.” But she said: “No, my master, man of the true God! Do not tell lies to your servant.” 17 However, the woman became pregnant and gave birth to a son at the same time the next year, just as E·liʹsha had told her. 18 The child grew up, and one day he went out to his father, who was with the reapers.",
+    choiceA: "Elijah",
+    choiceB: "Jeremiah",
+    choiceC: "Elisha",
+    choiceD: "Nathan",
+    correctAnswer: "C",
+  },
+  {
+    question:
+      "Jehovah used this prophet to feed 100 men to satisfaction with only 20 barley loaves and some grain.",
+    clueSource: "2 Kings 4:38-41",
+    clueSourceContent:
+      "42 A man came from Baʹal-shalʹi·shah, and he brought the man of the true God 20 loaves of barley bread made from the first ripe fruits, as well as a bag of new grain. Then E·liʹsha said: “Give it to the people so that they may eat.” 43 However, his attendant said: “How can I set this before 100 men?” To this he said: “Give it to the people so that they may eat, for this is what Jehovah says, ‘They will eat and have some left over.’” 44 At that he put it before them, and they ate and they had some left over, according to the word of Jehovah.",
+    choiceA: "Jesus",
+    choiceB: "Elisha",
+    choiceC: "Elijah",
+    choiceD: "Nahum",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "Who told Hazael that king Ben-hadad will die and that he would become king of Syria in his place?",
+    clueSource: "2 Kings 8:7-15",
+    clueSourceContent:
+      "7 E·liʹsha came to Damascus when Ben-haʹdad the king of Syria was sick. So the report was made to him: “The man of the true God has come here.” 8 At that the king said to Hazʹa·el: “Take a gift with you and go and meet the man of the true God. Inquire of Jehovah through him, asking, ‘Will I recover from this sickness?’” 9 Hazʹa·el went to meet him and took a gift with him, every sort of good thing of Damascus, the load of 40 camels. He came and stood before him and said: “Your son, Ben-haʹdad the king of Syria, has sent me to you, asking, ‘Will I recover from this sickness?’” 10 E·liʹsha replied to him: “Go and tell him, ‘You will certainly recover,’ but Jehovah has shown me that he will certainly die.” 11 And he kept staring at him to the point of embarrassment. Then the man of the true God gave way to weeping. 12 Hazʹa·el asked: “Why is my lord weeping?” He replied: “Because I know what harm you will do to the people of Israel. Their fortified places you will set on fire, their choice men you will kill with the sword, their children you will dash to pieces, and their pregnant women you will rip open.” 13 Hazʹa·el said: “How could your servant, who is a mere dog, do such a deed?” But E·liʹsha said: “Jehovah has shown me that you will be king over Syria.” 14 Then he left E·liʹsha and returned to his own lord, who said to him: “What did E·liʹsha say to you?” He replied: “He told me that you will certainly recover.” 15 But the next day, Hazʹa·el took a coverlet, dipped it in water, and held it over his face until he died. And Hazʹa·el became king in his place.",
+    choiceA: "Jeremiah",
+    choiceB: "Elisha",
+    choiceC: "Isaiah",
+    choiceD: "Micah",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "Who foretold God’s coming with His holy myriads to execute judgment against the ungodly?",
+    clueSource: "Jude 14, 15",
+    clueSourceContent:
+      "14 Yes, the seventh one in line from Adam, Eʹnoch, also prophesied about them when he said: “Look! Jehovah came with his holy myriads 15 to execute judgment against all, and to convict all the ungodly concerning all their ungodly deeds that they did in an ungodly way, and concerning all the shocking things that ungodly sinners spoke against him.”",
+    choiceA: "John",
+    choiceB: "Enoch",
+    choiceC: "Micaiah",
+    choiceD: "Ezekiel",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "His prophetic life was contemporaneous with Jeremiah and Daniel.",
+    clueSource: "Insight on the Scriptures Volume 1, [Ezekiel] p. 791",
+    clueSourceContent:
+      "Ezekiel’s prophetic life was contemporaneous with Jeremiah and Daniel. Jeremiah served as God’s prophet to the Jews in Jerusalem and Judah, coming in contact with the corrupt Judean kings. Daniel, who was in the court of Babylon and later of Medo-Persia, was given prophecies concerning the succession of world powers and their defeat at the hands of the Kingdom of God. Ezekiel served among the Jewish people and their headmen in Babylonia and continued the work of the prophets there. So, while the Jews in Jerusalem had the benefit of the temple with its high priest and the priestly prophet Jeremiah, those in Babylon were not forsaken by Jehovah. Ezekiel was God’s prophet to them, and while not performing sacrificial services, he was there as a counselor and instructor in God’s law.",
+    choiceA: "Ezekiel",
+    choiceB: "Isaiah",
+    choiceC: "Shadrach",
+    choiceD: "Hanani",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "At Jehovah’s command he took up dwelling among the exiles at Tel-abib by the river Chebar.",
+    clueSource: "Ezekiel 3:15",
+    clueSourceContent:
+      "15 So I went to the exiled people at Tel-aʹbib, who were dwelling by the river Cheʹbar, and I stayed there where they were dwelling; and in a dazed condition, I stayed among them for seven days.",
+    choiceA: "Ezekiel",
+    choiceB: "Daniel",
+    choiceC: "Elijah",
+    choiceD: "Jeremiah",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "He was a prophet who was “surrounded by briars and thorns and are dwelling among scorpions.”",
+    clueSource: "Ezekiel 2:6",
+    clueSourceContent:
+      "6 “But you, son of man, do not be afraid of them, and do not be afraid of their words, although you are surrounded by briars and thorns and are dwelling among scorpions. Do not be afraid of their words, and do not be terrified by their faces, for they are a rebellious house.",
+    choiceA: "Ezekiel",
+    choiceB: "Hosea",
+    choiceC: "Isaiah",
+    choiceD: "Elisha",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Jehovah told this prophet that He would kill his wife and commanded that he should not mourn over her.",
+    clueSource: "Ezekiel 24:16",
+    clueSourceContent:
+      "16 “Son of man, in a single blow I am about to take away your dear one from you. You should not mourn; nor should you weep or shed tears.",
+    choiceA: "Ezekiel",
+    choiceB: "Hosea",
+    choiceC: "Isaiah",
+    choiceD: "Haggai",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who was given a vision of Jehovah on his throne attended by living creatures having four faces and wings?",
+    clueSource: "Ezekiel 1:1-28",
+    clueSourceContent:
+      "In the 30th year, on the fifth day of the fourth month, while I was among the exiled people by the river Cheʹbar, the heavens were opened and I began to see visions of God. 2 On the fifth day of the month—that is, in the fifth year of the exile of King Je·hoiʹa·chin— 3 the word of Jehovah came to Ezekiel son of Buʹzi the priest by the river Cheʹbar in the land of the Chal·deʹans. There the hand of Jehovah came upon him. 4 As I was looking, I saw a tempestuous wind coming from the north, and there was a huge cloud and flashing fire surrounded by a bright light, and from the midst of the fire was something that looked like electrum. 5 Within it were what looked like four living creatures, and the appearance of each one was like that of a human. 6 Each one had four faces and four wings. 7 Their feet were straight, and the soles of their feet were like those of a calf, and they were shining like the glow of burnished copper. 8 They had human hands under their wings on all four sides, and the four of them had faces and wings. 9 Their wings were touching one another. They would not turn when they went; they would each go straight forward. 10 Their faces had this appearance: Each of the four had a man’s face with a lion’s face on the right, a bull’s face on the left, and each of the four had an eagle’s face. 11 That is how their faces were. Their wings were spread out above them. Each had two wings that were touching one another and two wings covering their bodies. 12 They would each go straight forward, going wherever the spirit would incline them to go. They would not turn as they went. 13 And the living creatures had the appearance of burning coals of fire, and something that looked like torches of bright fire was moving back and forth between the living creatures, and lightning was flashing out from the fire. 14 And when the living creatures would go forth and return, their movement had the appearance of flashes of lightning. 15 As I was watching the living creatures, I saw one wheel on the earth beside each of the living creatures with four faces. 16 The wheels and their structure appeared to glow like chrysʹo·lite, and the four of them looked alike. Their appearance and structure looked as though a wheel were within a wheel. 17 When they moved, they could go in any of the four directions without turning as they went. 18 Their rims were so high that they inspired awe, and the rims of all four were full of eyes all around. 19 Whenever the living creatures moved, the wheels would move along with them, and when the living creatures were lifted up from the earth, the wheels would also be lifted up. 20 They would go where the spirit inclined them to go, wherever the spirit went. The wheels would be lifted up together with them, for the spirit operating on the living creatures was also in the wheels. 21 When they moved, these would move; and when they stood still, these would stand still; and when they were lifted up from the earth, the wheels would be lifted up together with them, for the spirit operating on the living creatures was also in the wheels. 22 Over the heads of the living creatures was the likeness of an expanse that sparkled like awesome ice, stretched out above their heads. 23 Under the expanse their wings were straight, one to the other. Each one had two wings for covering one side of their bodies and two for covering the other side. 24 When I heard the sound of their wings, it was like a sound of rushing waters, like the sound of the Almighty. When they moved, it was like the sound of an army. When they stood still, they would let their wings down. 25 There was a voice above the expanse over their heads. (When they stood still, they would let their wings down.) 26 Above the expanse that was over their heads was what looked like a sapphire stone, and it resembled a throne. Sitting on the throne up above was someone whose appearance resembled that of a human. 27 I saw something glowing like electrum that was like a fire radiating from what appeared to be his waist and upward; and from his waist down, I saw something that resembled fire. There was a brilliance all around him 28 like that of a rainbow in a cloud on a rainy day. That was how the surrounding brilliant light appeared. It was like the appearance of the glory of Jehovah. When I saw it, I fell facedown and began to hear the voice of someone speaking.",
+    choiceA: "Ezekiel",
+    choiceB: "Daniel",
+    choiceC: "Isaiah",
+    choiceD: "Samuel",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who was the prophet-priest of Jehovah that was a captive in Babylon, along with King Jehoiachin?",
+    clueSource: "Ezekiel 1:1-3",
+    clueSourceContent:
+      "In the 30th year, on the fifth day of the fourth month, while I was among the exiled people by the river Cheʹbar, the heavens were opened and I began to see visions of God. 2  On the fifth day of the month—that is, in the fifth year of the exile of King Je·hoiʹa·chin— 3  the word of Jehovah came to Ezekiel son of Buʹzi the priest by the river Cheʹbar in the land of the Chal·deʹans. There the hand of Jehovah came upon him.",
+    choiceA: "Nehemiah",
+    choiceB: "Ezra",
+    choiceC: "Daniel",
+    choiceD: "Ezekiel",
+    correctAnswer: "D",
+  },
+];
+
+const prophets9 = [
+  {
+    question:
+      "Who advised David, after he took a census, to build an altar for Jehovah on the threshing floor of Araunah (Ornan)?",
+    clueSource: "2 Samuel 24:18, 19",
+    clueSourceContent:
+      "18 So Gad came in to David on that day and said to him: “Go up, set up for Jehovah an altar on the threshing floor of A·rauʹnah the Jebʹu·site.” 19 So David went up at the word of Gad, as Jehovah had commanded.",
+    choiceA: "Gad",
+    choiceB: "Nathan",
+    choiceC: "Samuel",
+    choiceD: "Elijah",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "He is the writer of the Bible book bearing his name, and he has been inferred as a Levitical temple musician.",
+    clueSource: "Insight on the Scriptures Volume 1, [Habakkuk] p. 1012",
+    clueSourceContent:
+      "(Ha·bakʹkuk) [Ardent Embrace]. Hebrew prophet of Judah and writer of the Bible book bearing his name. (Hab 1:1; 3:1) From the book’s closing notation (“To the director on my stringed instruments”) and the dirge in chapter 3, it has been inferred that Habakkuk was a Levitical temple musician. But the words following Habakkuk 3:19 do not make that certain, and dirges were also taken up by persons other than Levites. (2Sa 1:17, 18) While there are various traditions about Habakkuk, these are unreliable, and the Scriptures themselves furnish no information concerning the prophet’s parentage, tribe, circumstances in life, or his death. Evidence in the book of Habakkuk seems to indicate that he prophesied early in the reign of Jehoiakim, possibly before Nebuchadnezzar defeated the Egyptian army at Carchemish in 625 B.C.E.",
+    choiceA: "Habakkuk",
+    choiceB: "Jonah",
+    choiceC: "Nahum",
+    choiceD: "Obadiah",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "A Hebrew prophet in Judah and Jerusalem during Zerubbabel’s governorship in the reign of Persian King Darius Hystaspis.",
+    clueSource: "Insight on the Scriptures Volume 1, [Haggai] p. 1018",
+    clueSourceContent:
+      "(Hagʹgai) [[Born on a] Festival]. A Hebrew prophet in Judah and Jerusalem during Zerubbabel’s governorship in the reign of Persian King Darius Hystaspis.​—Hag 1:1; 2:1, 10, 20; Ezr 5:1, 2.",
+    choiceA: "Haggai",
+    choiceB: "Nehemiah",
+    choiceC: "Ezra",
+    choiceD: "Daniel",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who became the first postexilic prophet and was joined about two months later by Zechariah?",
+    clueSource: "Insight on the Scriptures Volume 1, [Haggai] p. 1018",
+    clueSourceContent:
+      "Haggai became the first postexilic prophet and was joined about two months later by Zechariah. (Hag 1:1; Zec 1:1) A halt to temple construction had been precipitated by enemy opposition but extended for some years by Jewish apathy and selfish pursuit of personal interests. Haggai kindled the zeal of the repatriated Jewish exiles for the resumption of temple construction. (Ezr 3:10-13; 4:1-24; Hag 1:4) Four God-given messages delivered by Haggai during about a four-month period in the second year of Darius Hystaspis (520 B.C.E.) and recorded by the prophet in the Bible book of Haggai were especially effective in initially moving the Jews to resume temple-building work. (Hag 1:1; 2:1, 10, 20; see HAGGAI, BOOK OF.) Haggai and Zechariah continued to urge them on in the work until the temple was completed toward the end of Darius’ sixth year, in 515 B.C.E.​—Ezr 5:1, 2; 6:14, 15.",
+    choiceA: "Haggai",
+    choiceB: "Zephaniah",
+    choiceC: "Jeremiah",
+    choiceD: "Elijah",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "He delivered 4 messages from Jehovah about the 4-month period in the 2nd year of Darius Hystaspis (520 B.C.E.).",
+    clueSource: "Insight on the Scriptures Volume 1, [Haggai] p. 1018",
+    clueSourceContent:
+      "Haggai became the first postexilic prophet and was joined about two months later by Zechariah. (Hag 1:1; Zec 1:1) A halt to temple construction had been precipitated by enemy opposition but extended for some years by Jewish apathy and selfish pursuit of personal interests. Haggai kindled the zeal of the repatriated Jewish exiles for the resumption of temple construction. (Ezr 3:10-13; 4:1-24; Hag 1:4) Four God-given messages delivered by Haggai during about a four-month period in the second year of Darius Hystaspis (520 B.C.E.) and recorded by the prophet in the Bible book of Haggai were especially effective in initially moving the Jews to resume temple-building work. (Hag 1:1; 2:1, 10, 20; see HAGGAI, BOOK OF.) Haggai and Zechariah continued to urge them on in the work until the temple was completed toward the end of Darius’ sixth year, in 515 B.C.E.​—Ezr 5:1, 2; 6:14, 15.",
+    choiceA: "Haggai",
+    choiceB: "Jeremiah",
+    choiceC: "Isaiah",
+    choiceD: "Nathan",
+    correctAnswer: "A",
+  },
+  {
+    question: "This prophet's father was named Beeri.",
+    clueSource: "Hosea 1:1",
+    clueSourceContent:
+      "The word of Jehovah that came to Ho·seʹa the son of Be·eʹri in the days of Uz·ziʹah, Joʹtham, Aʹhaz, and Hez·e·kiʹah, kings of Judah, and in the days of Jer·o·boʹam son of Joʹash, the king of Israel.",
+    choiceA: "Hosea",
+    choiceB: "Amos",
+    choiceC: "Jonah",
+    choiceD: "Nahum",
+    correctAnswer: "A",
+  },
+  {
+    question: "Who was the father of Berechiah?",
+    clueSource: "Zechariah 1:1",
+    clueSourceContent:
+      "In the eighth month in the second year of Da·riʹus, the word of Jehovah came to the prophet Zech·a·riʹah son of Ber·e·chiʹah son of Idʹdo, saying:",
+    choiceA: "Iddo",
+    choiceB: "Moses",
+    choiceC: "Aaron",
+    choiceD: "Gad",
+    correctAnswer: "A",
+  },
+  {
+    question: "Who was the grandfather of the prophet Zechariah?",
+    clueSource: "Zechariah 1:1",
+    clueSourceContent:
+      "In the eighth month in the second year of Da·riʹus, the word of Jehovah came to the prophet Zech·a·riʹah son of Ber·e·chiʹah son of Idʹdo, saying:",
+    choiceA: "Iddo",
+    choiceB: "Zephaniah",
+    choiceC: "Urijah",
+    choiceD: "Jahaziel",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "He was also a priest listed among those returning to Jerusalem with Zerubbabel in 537 B.C.E.",
+    clueSource: "Nehemiah 12:1-4",
+    clueSourceContent:
+      "These were the priests and the Levites who went up with Ze·rubʹba·bel the son of She·alʹti·el, and Jeshʹu·a: Se·raiʹah, Jeremiah, Ezʹra, 2 Am·a·riʹah, Malʹluch, Hatʹtush, 3 Shec·a·niʹah, Reʹhum, Merʹe·moth, 4 Idʹdo, Ginʹne·thoi, A·biʹjah",
+    choiceA: "Iddo",
+    choiceB: "Ezekiel",
+    choiceC: "Oded",
+    choiceD: "Isaiah",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "In the days of High Priest Joiakim, the paternal house of Iddo was headed by this prophet-priest.",
+    clueSource: "Nehemiah 12:12-16",
+    clueSourceContent:
+      "12 In the days of Joiʹa·kim, these were the priests, the heads of the paternal houses: for Se·raiʹah, Me·raiʹah; for Jeremiah, Han·a·niʹah; 13 for Ezʹra, Me·shulʹlam; for Am·a·riʹah, Je·ho·haʹnan; 14 for Malʹlu·chi, Jonʹa·than; for Sheb·a·niʹah, Joseph; 15 for Haʹrim, Adʹna; for Me·raʹioth, Helʹkai; 16 for Idʹdo, Zech·a·riʹah; for Ginʹne·thon, Me·shulʹlam.",
+    choiceA: "Iddo",
+    choiceB: "Haggai",
+    choiceC: "Aaron",
+    choiceD: "Eliezer",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "He evidently began his prophesying later than Hosea did and before Micah began.",
+    clueSource: "Insight on the Scriptures Volume 1, [Isaiah]",
+    clueSourceContent:
+      "(I·saʹiah) [Salvation of Jehovah]. A prophet, the son of Amoz (not the prophet Amos). He served Judah and Jerusalem in the days of Kings Uzziah, Jotham, Ahaz, and Hezekiah of Judah. (Isa 1:1) Kings Pekah and Hoshea were ruling in the northern kingdom of Israel, which ended in 740 B.C.E., during the time of Isaiah’s prophetic service. Contemporary prophets were Micah, Hosea, and Oded. Isaiah evidently began his prophesying later than Hosea did and before Micah began.​—2Ch 28:9; Ho 1:1; Mic 1:1.",
+    choiceA: "Isaiah",
+    choiceB: "Jeremiah",
+    choiceC: "Malachi",
+    choiceD: "Habakkuk",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "The Bible names his two sons, given to him as “signs and as miracles in Israel from Jehovah of armies.”",
+    clueSource: "Isaiah 8:18",
+    clueSourceContent:
+      "18 Look! I and the children whom Jehovah has given me are as signs and as miracles in Israel from Jehovah of armies, who resides on Mount Zion.",
+    choiceA: "Isaiah",
+    choiceB: "Moses",
+    choiceC: "Aaron",
+    choiceD: "Hosea",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who wrote, not only the Bible book bearing his name, but also one historical book⁠—the affairs of King Uzziah?",
+    clueSource: "2 Chronicles 26:22",
+    clueSourceContent:
+      "22 And the rest of the history of Uz·ziʹah, from beginning to end, was recorded by the prophet Isaiah the son of Aʹmoz.",
+    choiceA: "Isaiah",
+    choiceB: "Jeremiah",
+    choiceC: "Samuel",
+    choiceD: "Obadiah",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "He was the son of Hanani and he foretold the destruction of the house of Baasha, king of Israel.",
+    clueSource: "1 Kings 16:1-4",
+    clueSourceContent:
+      "The word of Jehovah against Baʹa·sha then came to Jeʹhu the son of Ha·naʹni, saying: 2 “I raised you up out of the dust and made you leader over my people Israel, but you kept walking in the way of Jer·o·boʹam and caused my people Israel to sin so that they offended me with their sins. 3 So I am making a clean sweep of Baʹa·sha and his house, and I will make his house like the house of Jer·o·boʹam the son of Neʹbat. 4 Anyone belonging to Baʹa·sha who dies in the city the dogs will eat; and anyone belonging to him who dies in the field the birds of the heavens will eat.”",
+    choiceA: "Jehu",
+    choiceB: "Jeremiah",
+    choiceC: "Isaiah",
+    choiceD: "Haggai",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who was the son of Hilkiah, one of the priests in Anathoth in the land of Benjamin?",
+    clueSource: "Jeremiah 1:1",
+    clueSourceContent:
+      "These are the words of Jeremiah the son of Hil·kiʹah, one of the priests in Anʹa·thoth in the land of Benjamin.",
+    choiceA: "Jeremiah",
+    choiceB: "Haggai",
+    choiceC: "Hosea",
+    choiceD: "Obadiah",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who was called to be a prophet when a young man, in the 13th year of the reign of King Josiah of Judah?",
+    clueSource: "Jeremiah 1:1, 2",
+    clueSourceContent:
+      "These are the words of Jeremiah the son of Hil·kiʹah, one of the priests in Anʹa·thoth in the land of Benjamin. 2 The word of Jehovah came to him in the days of Jo·siʹah the son of Aʹmon, the king of Judah, in the 13th year of his reign.",
+    choiceA: "Jeremiah",
+    choiceB: "Isaiah",
+    choiceC: "Zephaniah",
+    choiceD: "Samuel",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "The Rechabites, Ebed-melech, and Baruch assisted him and delivered him from death.",
+    clueSource: "Insight on the Scriptures Volume 1, [Jeremiah] p. 31",
+    clueSourceContent:
+      "Associations. Through all of his more than 40 years of prophetic service, Jeremiah was not abandoned. Jehovah was with him to deliver him from his enemies. (Jer 1:19) Jeremiah took delight in Jehovah’s word. (Jer 15:16) He avoided association with those who had no consideration for God. (Jer 15:17) He found good associates among whom he could do ‘building up’ work (Jer 1:10), namely, the Rechabites, Ebed-melech, and Baruch. Through these friends he was assisted and delivered from death, and more than once Jehovah’s power was manifested in protecting him.​—Jer 26:7-24; 35:1-19; 36:19-26; 38:7-13; 39:11-14; 40:1-5.",
+    choiceA: "Jeremiah",
+    choiceB: "Ezra",
+    choiceC: "Nehemiah",
+    choiceD: "Zechariah",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "He repurchased a field from his paternal uncle’s son Hanamel as a figure of the restoration to come after the 70 years’ exile.",
+    clueSource: "Jeremiah 32:8-15",
+    clueSourceContent:
+      "8 Hanʹa·mel the son of my uncle came to me, just as Jehovah had said, into the Courtyard of the Guard, and he said to me: “Please buy my field in Anʹa·thoth, in the land of Benjamin, for you have the right to take possession of it and to repurchase it. Buy it for yourself.” At that I knew that this was by the word of Jehovah. 9 So I bought the field in Anʹa·thoth from Hanʹa·mel the son of my uncle. I weighed out the money to him, seven shekels and ten silver pieces. 10 Then I recorded it in a deed, affixed the seal, called in witnesses, and weighed the money in the scales. 11 I took the deed of purchase, the one that was sealed according to the commandment and legal requirements, as well as the one that was left unsealed, 12 and I gave the deed of purchase to Barʹuch son of Ne·riʹah son of Mah·seiʹah in the presence of Hanʹa·mel the son of my uncle, the witnesses who wrote in the deed of purchase, and all the Jews who were sitting in the Courtyard of the Guard. 13 I now commanded Barʹuch in their presence, saying: 14 “This is what Jehovah of armies, the God of Israel, says, ‘Take these deeds, this deed of purchase, the sealed one and the other deed left unsealed, and put them into an earthenware vessel, so that they may be kept for a long time.’ 15 For this is what Jehovah of armies, the God of Israel, says, ‘Houses and fields and vineyards will again be bought in this land.’”",
+    choiceA: "Jeremiah",
+    choiceB: "Abraham",
+    choiceC: "Moses",
+    choiceD: "Gad",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Down in Tahpanhes, Egypt, who hid large stones in the terrace of bricks at the house of Pharaoh?",
+    clueSource: "Jeremiah 43:8-10",
+    clueSourceContent:
+      "8 Then the word of Jehovah came to Jeremiah in Tahʹpan·hes, saying: 9 “Take in your hand large stones, and hide them in the mortar in the brick terrace at the entrance of the house of Pharʹaoh in Tahʹpan·hes, with the Jewish men looking on. 10 Then say to them, ‘This is what Jehovah of armies, the God of Israel, says: “Here I am sending for Neb·u·chad·nezʹzar the king of Babylon, my servant, and I will place his throne right above these stones that I have hidden, and he will extend his royal tent over them.",
+    choiceA: "Jeremiah",
+    choiceB: "Moses",
+    choiceC: "Aaron",
+    choiceD: "Joseph",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who prophesied that Nebuchadnezzar would set his throne on the very house of Pharaoh?",
+    clueSource: "Jeremiah 43:8-10",
+    clueSourceContent:
+      "8 Then the word of Jehovah came to Jeremiah in Tahʹpan·hes, saying: 9 “Take in your hand large stones, and hide them in the mortar in the brick terrace at the entrance of the house of Pharʹaoh in Tahʹpan·hes, with the Jewish men looking on. 10 Then say to them, ‘This is what Jehovah of armies, the God of Israel, says: “Here I am sending for Neb·u·chad·nezʹzar the king of Babylon, my servant, and I will place his throne right above these stones that I have hidden, and he will extend his royal tent over them.",
+    choiceA: "Jeremiah",
+    choiceB: "Daniel",
+    choiceC: "Isaiah",
+    choiceD: "Habakkuk",
+    correctAnswer: "A",
+  },
+];
+
+const prophets10 = [
+  {
+    question: "He was Jehovah's prophet who was the son of Pethuel.",
+    clueSource: "Joel 1:1",
+    clueSourceContent:
+      "The word of Jehovah that came to Joel the son of Pe·thuʹel.",
+    choiceA: "Joel",
+    choiceB: "Jahaziel",
+    choiceC: "Ezekiel",
+    choiceD: "Samuel",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who foretold that God’s active force, his holy spirit, would be poured out “on every sort of flesh”?",
+    clueSource: "Joel 2:28",
+    clueSourceContent:
+      "28 After that I will pour out my spirit on every sort of flesh, And your sons and your daughters will prophesy, Your old men will dream dreams, And your young men will see visions.",
+    choiceA: "Joel",
+    choiceB: "Nahum",
+    choiceC: "Paul",
+    choiceD: "Hosea",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who was the first human authorized by God to perform water baptism?",
+    clueSource: "Insight on the Scriptures Volume 1, [Baptism] pp. 248-249",
+    clueSourceContent:
+      "John’s Baptism. The first human authorized by God to perform water baptism was John the son of Zechariah and Elizabeth. (Lu 1:5-7, 57) The very fact that he was known as “John the Baptist” or “the baptizer” (Mt 3:1; Mr 1:4) implies that baptism or water immersion came to the attention of the people especially through John, and the Scriptures prove that his ministry and baptism came from God; they were not of John’s origin. His works were foretold by the angel Gabriel as from God (Lu 1:13-17), and Zechariah prophesied by holy spirit that John would be a prophet of the Most High to make Jehovah’s ways ready. (Lu 1:68-79) Jesus confirmed that John’s ministry and baptism were from God. (Lu 7:26-28) The disciple Luke records that “God’s declaration came to John the son of Zechariah in the wilderness. So he came . . . preaching baptism.” (Lu 3:2, 3) The apostle John states of him: “There arose a man that was sent forth as a representative of God: his name was John.”​—Joh 1:6.",
+    choiceA: "John the Baptist",
+    choiceB: "Philip",
+    choiceC: "Paul",
+    choiceD: "The Apostle John",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "He was a prophet of Jehovah from Gath-hepher, a border city in the territory of Zebulun.",
+    clueSource: "Insight on the Scriptures Volume 2, [Jonah] p.98",
+    clueSourceContent:
+      "(Joʹnah) [Dove]. “Son of Amittai”; a prophet of Jehovah from Gath-hepher (2Ki 14:25), a border city in the territory of Zebulun. (Jos 19:10, 13) In fulfillment of Jehovah’s word spoken through Jonah, Israel’s King Jeroboam II succeeded in restoring “the boundary of Israel from the entering in of Hamath clear to the sea of the Arabah [the Salt Sea].” (2Ki 14:23-25; compare De 3:17.) So it appears that Jonah served as a prophet to the ten-tribe kingdom sometime during the reign of Jeroboam II. He is evidently the same person Jehovah commissioned to proclaim judgment against Nineveh (Jon 1:1, 2) and, therefore, also the writer of the book bearing his name.",
+    choiceA: "Jonah",
+    choiceB: "Gad",
+    choiceC: "Ahijah",
+    choiceD: "Jahaziel",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who was the only prophet Jehovah sent to a foreign land, to preach judgment against it?",
+    clueSource: "Jonah 1:1, 2",
+    clueSourceContent:
+      "The word of Jehovah came to Joʹnah the son of A·mitʹtai, saying: 2 “Get up, go to Ninʹe·veh the great city, and proclaim judgment against her, for their wickedness has come to my attention.”",
+    choiceA: "Jonah",
+    choiceB: "Elijah",
+    choiceC: "Habakkuk",
+    choiceD: "Isaiah",
+    correctAnswer: "A",
+  },
+  {
+    question: "Who was the contemporary of the prophets Hosea and Isaiah?",
+    clueSource: "Live With Jehovah’s Day in Mind, Chapter 2 par. 12",
+    clueSourceContent:
+      "Do you not agree that today’s critical times challenge you in developing boldness and complete reliance on Jehovah? If you manifest these qualities, you will be like Micah. A contemporary of Hosea and Isaiah, Micah declared messages against the nations of Judah and Israel during the reigns of Judaean Kings Jotham, Ahaz, and Hezekiah, in the eighth century B.C.E. Extreme moral corruption and idolatry had defiled Israel to the north, which suffered destruction when Samaria fell to the Assyrians in 740 B.C.E. Judah wavered between obedience and unfaithfulness to Jehovah. Despite foreboding events, Micah could draw comfort in seeing his God-given message temporarily stall Judah’s plunge into spiritual corruption and eventual disaster. How comforting it is for us to see that some do respond positively to our message of salvation!",
+    choiceA: "Micah",
+    choiceB: "Joel",
+    choiceC: "Habakkuk",
+    choiceD: "Jeremiah",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "He was a native of the village of Moresheth, southwest of Jerusalem.",
+    clueSource: "Jerusalem 26:18",
+    clueSourceContent:
+      "18 “Miʹcah of Moʹresh·eth was prophesying in the days of King Hez·e·kiʹah of Judah, and he said to all the people of Judah, ‘This is what Jehovah of armies says: “Zion will be plowed up as a field, Jerusalem will become heaps of ruins, And the mountain of the House will become like high places in a forest.”’",
+    choiceA: "Micah",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "He foretold that “Zion will be plowed up as a field, Jerusalem will become heaps of ruins.”",
+    clueSource: "Micah 3:12",
+    clueSourceContent:
+      "12 So because of you, Zion will be plowed up as a field, Jerusalem will become heaps of ruins, And the mountain of the House will become like high places in a forest.",
+    choiceA: "Micah",
+    choiceB: "Isaiah",
+    choiceC: "Jeremiah",
+    choiceD: "Oded",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who was the son of Imlah and a prophet of Jehovah to the northern kingdom of Israel during King Ahab’s reign?",
+    clueSource: "1 Kings 22:8",
+    clueSourceContent:
+      "8 At that the king of Israel said to Je·hoshʹa·phat: “There is still one more man through whom we can inquire of Jehovah; but I hate him, for he never prophesies good things concerning me, only bad. He is Mi·caiʹah the son of Imʹlah.” However, Je·hoshʹa·phat said: “The king should not say such a thing.”",
+    choiceA: "Micaiah",
+    choiceB: "Elijah",
+    choiceC: "Elisha",
+    choiceD: "Jehu",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who saw an angel saying, 'I will fool him' as it stood before Jehovah God in a vision?",
+    clueSource: "1 Kings 22:18-23",
+    clueSourceContent:
+      "18 Then the king of Israel said to Je·hoshʹa·phat: “Did I not tell you, ‘He will not prophesy good things concerning me, only bad’?” 19 Mi·caiʹah then said: “Therefore, hear the word of Jehovah: I saw Jehovah sitting on his throne and all the army of the heavens standing by him, to his right and to his left. 20 Jehovah then said, ‘Who will fool Aʹhab, so that he will go up and fall at Raʹmoth-gilʹe·ad?’ And one was saying one thing while another said something else. 21 Then a spirit came forward and stood before Jehovah and said, ‘I will fool him.’ Jehovah asked him, ‘How will you do it?’ 22 He replied, ‘I will go out and become a deceptive spirit in the mouth of all his prophets.’ So he said, ‘You will fool him, and what is more, you will be successful. Go out and do that.’ 23 And now Jehovah has put a deceptive spirit in the mouth of all these prophets of yours, but Jehovah has declared calamity for you.”",
+    choiceA: "Micaiah",
+    choiceB: "Elijah",
+    choiceC: "Elisha",
+    choiceD: "Jehu",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "He said to Ahab: “Jehovah has put a deceptive spirit in the mouth of all these prophets of yours, but Jehovah has declared calamity for you.”",
+    clueSource: "1 Kings 22:18-23",
+    clueSourceContent:
+      "18 Then the king of Israel said to Je·hoshʹa·phat: “Did I not tell you, ‘He will not prophesy good things concerning me, only bad’?” 19 Mi·caiʹah then said: “Therefore, hear the word of Jehovah: I saw Jehovah sitting on his throne and all the army of the heavens standing by him, to his right and to his left. 20 Jehovah then said, ‘Who will fool Aʹhab, so that he will go up and fall at Raʹmoth-gilʹe·ad?’ And one was saying one thing while another said something else. 21 Then a spirit came forward and stood before Jehovah and said, ‘I will fool him.’ Jehovah asked him, ‘How will you do it?’ 22 He replied, ‘I will go out and become a deceptive spirit in the mouth of all his prophets.’ So he said, ‘You will fool him, and what is more, you will be successful. Go out and do that.’ 23 And now Jehovah has put a deceptive spirit in the mouth of all these prophets of yours, but Jehovah has declared calamity for you.”",
+    choiceA: "Micaiah",
+    choiceB: "Elijah",
+    choiceC: "Elisha",
+    choiceD: "Jehu",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "He was born in 1593 B.C.E., in Egypt, being the son of Amram, the grandson of Kohath, and the great-grandson of Levi.",
+    clueSource: "Insight on the Scriptures Volume 2, [Moses] p. 434",
+    clueSourceContent:
+      "(Moʹses) [Drawn Out [that is, saved out of water]]. “Man of the true God,” leader of the nation of Israel, mediator of the Law covenant, prophet, judge, commander, historian, and writer. (Ezr 3:2) Moses was born in 1593 B.C.E., in Egypt, being the son of Amram, the grandson of Kohath, and the great-grandson of Levi. His mother Jochebed was Kohath’s sister. (See, however, JOCHEBED.) Moses was three years younger than his brother Aaron. Miriam their sister was some years older.​—Ex 6:16, 18, 20; 2:7.",
+    choiceA: "Moses",
+    choiceB: "Aaron",
+    choiceC: "Joseph",
+    choiceD: "Benjamin",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "He was married to Zipporah, who actually bore him two sons, Gershom and Eliezer.",
+    clueSource: "Exodo 18:2-4",
+    clueSourceContent:
+      "2 Jethʹro, Moses’ father-in-law, had taken in Zip·poʹrah, Moses’ wife, when she was sent back to him, 3 along with her two sons. One son was named Gerʹshom, because Moses said, “I have become a foreign resident in a foreign land,” 4 and the other was named E·li·eʹzer, because he said, “The God of my father is my helper, who rescued me from Pharʹaoh’s sword.”",
+    choiceA: "Aaron",
+    choiceB: "Moses",
+    choiceC: "Hosea",
+    choiceD: "Isaiah",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "He had come to see the mistake he had made in trying to deliver the Hebrews on his own initiative.",
+    clueSource: "Insight on the Scriptures Volume 2, [Moses] p. 435-436",
+    clueSourceContent:
+      "Though reproving him, God did not cancel Moses’ assignment because of his reluctance to take up the tremendous task as deliverer of Israel. Moses had not demurred because of old age, even though he was 80. Forty years later, at the age of 120 years, Moses still had full vigor and alertness. (De 34:7) During his 40 years in Midian, Moses had had much time to meditate, and he had come to see the mistake he had made in trying to deliver the Hebrews on his own initiative. He now realized his own inadequacy. And after this long time, detached from all public affairs, it was doubtless quite a shock to be suddenly offered this role.",
+    choiceA: "Moses",
+    choiceB: "Jonah",
+    choiceC: "Elijah",
+    choiceD: "Hanani",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "He was considered to be the “meekest of all the men on the face of the earth.”",
+    clueSource: "Numbers 12:3",
+    clueSourceContent:
+      "3 Now the man Moses was by far the meekest of all the men on the face of the earth.",
+    choiceA: "Moses",
+    choiceB: "Job",
+    choiceC: "Joseph",
+    choiceD: "Isaiah",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "On whose time did Jehovah drive quails from the sea, causing these to fall around the camp of Israel?",
+    clueSource: "Numbers 11:30-33",
+    clueSourceContent:
+      "30 Later Moses returned to the camp along with the elders of Israel. 31 Then a wind from Jehovah sprang up and began driving quail from the sea and causing them to fall around the camp, about a day’s journey on this side and a day’s journey on the other side, all around the camp, and they were about two cubits deep on the ground. 32 So all that day and all night and all the next day, the people stayed up and gathered the quail. No one gathered less than ten hoʹmers, and they kept spreading them all around the camp for themselves. 33 But while the meat was still between their teeth, before it could be chewed, Jehovah’s anger blazed against the people, and Jehovah began striking the people with a very great slaughter.",
+    choiceA: "Moses' time.",
+    choiceB: "Jeremiah",
+    choiceC: "Jonah",
+    choiceD: "Elijah",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "He was the only Elkoshite, or a resident of Elkosh, mentioned in the Bible.",
+    clueSource: "Nahum 1:1",
+    clueSourceContent:
+      "A pronouncement against Ninʹe·veh: The book of the vision of Naʹhum the Elʹkosh·ite:",
+    choiceA: "Nahum",
+    choiceB: "Jehu",
+    choiceC: "Elijah",
+    choiceD: "Elisha",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "He gave king Solomon the name “Jedidiah”, “for the sake of Jehovah.”",
+    clueSource: "2 Samuel 12:24, 25",
+    clueSourceContent:
+      "24 Then David comforted his wife Bath-sheʹba. He went in to her and lay down with her. In time she bore a son, and he was named Solʹo·mon. And Jehovah loved him, 25 and he sent word through Nathan the prophet to name him Jed·i·diʹah, for the sake of Jehovah.",
+    choiceA: "Nathan",
+    choiceB: "Gad",
+    choiceC: "Jesus",
+    choiceD: "Zadok",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "He was partially responsible for the organization of the musicians for the sanctuary.",
+    clueSource: "2 Chronicles 29:25",
+    clueSourceContent:
+      "25 Meanwhile, he had the Levites stationed at the house of Jehovah with cymbals, stringed instruments, and harps, by the commandment of David and of Gad the king’s visionary and of Nathan the prophet, for the commandment was from Jehovah through his prophets.",
+    choiceA: "Samuel",
+    choiceB: "Nathan",
+    choiceC: "Jeremiah",
+    choiceD: "Daniel",
+    correctAnswer: "B",
+  },
+  {
+    question: "He had been the father of Azariah and Zabud.",
+    clueSource: "1 Kings 4:5",
+    clueSourceContent:
+      "5 Az·a·riʹah the son of Nathan was over the deputies; Zaʹbud the son of Nathan was a priest and the king’s friend;",
+    choiceA: "Nathan",
+    choiceB: "Zadok",
+    choiceC: "Oded",
+    choiceD: "Ahijah",
+    correctAnswer: "A",
+  },
+];
+//28 QUESTIONS!
+const prophets11 = [
+  {
+    question:
+      "He was the prophet who has the distinction of penning the shortest book of the Hebrew Scriptures.",
+    clueSource: "Live With Jehovah’s Day in Mind, Chapter 2 par. 18",
+    clueSourceContent:
+      "The prophet Obadiah has the distinction of penning the shortest book of the Hebrew Scriptures​—just 21 verses. All we know about him is that he prophesied against Edom. The Edomites descended from Jacob’s brother, thus being the Israelites’ ‘brothers.’ (Deuteronomy 23:7) But Edom had treated God’s people in a very unbrotherly fashion. In 607 B.C.E., about when Obadiah wrote his book, they blocked the roads and handed fleeing Jews over to the enemy Babylonians. Jehovah foretold the complete desolation of Edom, a prophecy that was fulfilled. As with Nahum, we may know little about Obadiah, but how encouraging it is to realize that God can use seemingly insignificant ones as His messengers!​—1 Corinthians 1:26-29.",
+    choiceA: "Obadiah",
+    choiceB: "Habakkuk",
+    choiceC: "Jude",
+    choiceD: "John",
+    correctAnswer: "A",
+  },
+  {
+    question: "He was the father of the prophet Azariah.",
+    clueSource: "2 Chronicles 15:1",
+    clueSourceContent:
+      "Now the spirit of God came upon Az·a·riʹah the son of Oʹded.",
+    choiceA: "Oded",
+    choiceB: "Ahijah",
+    choiceC: "Ahaziel",
+    choiceD: "Agabus",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "A prophet of Samaria during the overlapping reigns of Pekah of Israel and Ahaz of Judah.",
+    clueSource: "Insight on the Scriptures Volume 2, [Oded] p. 525",
+    clueSourceContent:
+      "A prophet of Samaria during the overlapping reigns of Pekah of Israel and Ahaz of Judah (762-c. 759 B.C.E.). After Israel and Syria delivered a smashing defeat to Judah, 200,000 captives from the southern kingdom were brought toward Samaria. Oded, however, intercepted the victorious army and warned them of God’s wrath if they enslaved their brothers. ‘After all,’ he explained, ‘it was only because of Judah’s wickedness that Jehovah permitted you to defeat them. Now do not make servants out of them and bring Jehovah’s rage upon yourselves; return the captives!’ Four Ephraimite leaders supported Oded, and the captives were cared for and repatriated.​—2Ch 28:5-15.",
+    choiceA: "Oded",
+    choiceB: "Isaiah",
+    choiceC: "Hanani",
+    choiceD: "Haggai",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who intercepted the victorious army and warned Israel and Syria of God’s wrath if they enslaved their brothers?",
+    clueSource: "2 Chronicles 28:5-15",
+    clueSourceContent:
+      "5 So Jehovah his God gave him into the hand of the king of Syria, so that they defeated him and carried off a great number of captives and brought them to Damascus. He was also given into the hand of the king of Israel, who inflicted on him a great slaughter. 6 For Peʹkah the son of Rem·a·liʹah killed in Judah 120,000 in one day, all brave men, because they had abandoned Jehovah the God of their forefathers. 7 And Zichʹri, an Eʹphra·im·ite warrior, killed the king’s son Ma·a·seiʹah and Az·riʹkam, who was in charge of the palace, and El·kaʹnah, who was second to the king. 8 Moreover, the Israelites took 200,000 of their brothers captive—women, sons, and daughters; they also seized a great deal of spoil, and they took the spoil to Sa·marʹi·a. 9 But a prophet of Jehovah named Oʹded was there. He went out before the army that was coming to Sa·marʹi·a and said to them: “Look! It was because Jehovah the God of your forefathers was angry with Judah that he gave them into your hand, and you slaughtered them with a fury that has reached clear to the heavens. 10 And now you intend to make the people of Judah and Jerusalem your male and female servants. Nevertheless, are you not also guilty before Jehovah your God? 11 Now listen to me and return the captives whom you took from your brothers, for Jehovah’s burning anger is against you.” 12 At that some of the chiefs of the Eʹphra·im·ites, Az·a·riʹah the son of Je·ho·haʹnan, Ber·e·chiʹah the son of Me·shilʹle·moth, Je·hiz·kiʹah the son of Shalʹlum, and A·maʹsa the son of Hadʹlai, confronted those coming in from the military campaign, 13 and they said to them: “Do not bring the captives in here, for it will make us guilty before Jehovah. What you intend to do will add to our sins and to our guilt, for our guilt is already great and there is burning anger against Israel.” 14 So the armed soldiers handed over the captives and the plunder to the princes and the entire congregation. 15 Then the men who had been designated by name rose up and took hold of the captives, and they provided clothes from the spoil for all those among them who were naked. So they clothed them and gave them sandals, food and drink, and oil for their skin. Furthermore, they transported the feeble on donkeys and brought them to their brothers in Jerʹi·cho, the city of palm trees. After that they returned to Sa·marʹi·a.",
+    choiceA: "Oded",
+    choiceB: "Elijah",
+    choiceC: "Elisha",
+    choiceD: "Isaiah",
+    correctAnswer: "A",
+  },
+  {
+    question: "Who was the youngest prophet of Jehovah God?",
+    clueSource: "1 Samuel 3:10-18",
+    clueSourceContent:
+      "10 Jehovah came and stood there, and he called as at the other times: “Samuel, Samuel!” At this Samuel said: “Speak, for your servant is listening.” 11 Jehovah said to Samuel: “Look! I am doing something in Israel that will make both ears of anyone who hears about it tingle. 12 On that day I will carry out toward Eʹli all that I said about his house, from start to finish. 13 You must tell him that I am bringing a lasting judgment on his house for the error that he has known about, for his sons are cursing God, but he has not rebuked them. 14 That is why I have sworn to the house of Eʹli that the error of the house of Eʹli will never be atoned for by sacrifices or by offerings.” 15 Samuel lay down until the morning; then he opened the doors of Jehovah’s house. Samuel was afraid to tell Eʹli of the vision. 16 But Eʹli called for Samuel: “Samuel, my son!” At this he said: “Here I am.” 17 He asked: “What message did he speak to you? Please, do not hide it from me. May God do so to you and add to it if you hide from me a single word of all that he said to you.” 18 So Samuel told him everything, and he did not hide anything from him. Eʹli said: “It is Jehovah. Let him do what is good in his eyes.”",
+    choiceA: "Samuel",
+    choiceB: "Jeremiah",
+    choiceC: "Jonah",
+    choiceD: "Iddo",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who was sleeping “in the temple of Jehovah, where the Ark of God was”?",
+    clueSource: "1 Samuel 3:3",
+    clueSourceContent:
+      "3 The lamp of God had not yet been extinguished, and Samuel was lying in the temple of Jehovah, where the Ark of God was.",
+    choiceA: "Samuel",
+    choiceB: "Jeremiah",
+    choiceC: "Gad",
+    choiceD: "Hosea",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "He worked out some arrangement for the Levite gatekeepers that served as a basis of David's organization.",
+    clueSource: "1 Chronicles 9:22",
+    clueSourceContent:
+      "22 All those selected as gatekeepers at the thresholds numbered 212. They were in their settlements by their genealogical enrollment. David and Samuel the seer appointed these to their office of trust.",
+    choiceA: "Samuel",
+    choiceB: "Nathan",
+    choiceC: "Gad",
+    choiceD: "Solomon",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who “spoke to the people about the rightful due of kings and wrote it in a book and deposited it before Jehovah”?",
+    clueSource: "1 Samuel 10:25",
+    clueSourceContent:
+      "25 Samuel spoke to the people about the rightful due of kings and wrote it in a book and deposited it before Jehovah. Then Samuel sent all the people away, everyone to his house.",
+    choiceA: "Samuel",
+    choiceB: "Elijah",
+    choiceC: "Isaiah",
+    choiceD: "Zechariah",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "He “died; and all Israel gathered together to mourn for him and to bury him at his house in Raʹmah.”",
+    clueSource: "1 Samuel 25:1",
+    clueSourceContent:
+      "In time Samuel died; and all Israel gathered together to mourn for him and to bury him at his house in Raʹmah. Then David rose and went down to the wilderness of Paʹran.",
+    choiceA: "Samuel",
+    choiceB: "Isaiah",
+    choiceC: "Jesus",
+    choiceD: "Jeremiah",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "The righteous, devout old man who entered the temple on the very day that Joseph and Mary brought in the child Jesus.",
+    clueSource: "Luke 2:25-35",
+    clueSourceContent:
+      "25 And look! there was a man in Jerusalem named Simʹe·on, and this man was righteous and devout, waiting for Israel’s consolation, and holy spirit was upon him. 26 Furthermore, it had been divinely revealed to him by the holy spirit that he would not see death before he had seen the Christ of Jehovah. 27 Under the power of the spirit, he now came into the temple, and as the parents brought the young child Jesus in to do for him according to the customary practice of the Law, 28 he took the child into his arms and praised God and said: 29 “Now, Sovereign Lord, you are letting your slave go in peace according to your declaration, 30 because my eyes have seen your means of salvation 31 that you have prepared in the sight of all the peoples, 32 a light for removing the veil from the nations and a glory of your people Israel.” 33 And the child’s father and mother continued wondering at the things being spoken about him. 34 Also, Simʹe·on blessed them and said to Mary, the child’s mother: “Look! This child is appointed for the falling and the rising again of many in Israel and for a sign to be spoken against 35 (yes, a long sword will be run through you), in order that the reasonings of many hearts may be revealed.”",
+    choiceA: "Simeon",
+    choiceB: "Joseph",
+    choiceC: "John",
+    choiceD: "Zechariah",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who said this about Jesus: “This child is appointed for the falling and the rising again of many in Israel”?",
+    clueSource: "Luke 2:25-35",
+    clueSourceContent:
+      "25 And look! there was a man in Jerusalem named Simʹe·on, and this man was righteous and devout, waiting for Israel’s consolation, and holy spirit was upon him. 26 Furthermore, it had been divinely revealed to him by the holy spirit that he would not see death before he had seen the Christ of Jehovah. 27 Under the power of the spirit, he now came into the temple, and as the parents brought the young child Jesus in to do for him according to the customary practice of the Law, 28 he took the child into his arms and praised God and said: 29 “Now, Sovereign Lord, you are letting your slave go in peace according to your declaration, 30 because my eyes have seen your means of salvation 31 that you have prepared in the sight of all the peoples, 32 a light for removing the veil from the nations and a glory of your people Israel.” 33 And the child’s father and mother continued wondering at the things being spoken about him. 34 Also, Simʹe·on blessed them and said to Mary, the child’s mother: “Look! This child is appointed for the falling and the rising again of many in Israel and for a sign to be spoken against 35 (yes, a long sword will be run through you), in order that the reasonings of many hearts may be revealed.”",
+    choiceA: "Simeon",
+    choiceB: "Angel Gabriel",
+    choiceC: "John",
+    choiceD: "Zechariah",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who prophesied that Mary would be greatly grieved, as if run through with a sword, over the agonizing death of Jesus?",
+    clueSource: "Luke 2:25-35",
+    clueSourceContent:
+      "25 And look! there was a man in Jerusalem named Simʹe·on, and this man was righteous and devout, waiting for Israel’s consolation, and holy spirit was upon him. 26 Furthermore, it had been divinely revealed to him by the holy spirit that he would not see death before he had seen the Christ of Jehovah. 27 Under the power of the spirit, he now came into the temple, and as the parents brought the young child Jesus in to do for him according to the customary practice of the Law, 28 he took the child into his arms and praised God and said: 29 “Now, Sovereign Lord, you are letting your slave go in peace according to your declaration, 30 because my eyes have seen your means of salvation 31 that you have prepared in the sight of all the peoples, 32 a light for removing the veil from the nations and a glory of your people Israel.” 33 And the child’s father and mother continued wondering at the things being spoken about him. 34 Also, Simʹe·on blessed them and said to Mary, the child’s mother: “Look! This child is appointed for the falling and the rising again of many in Israel and for a sign to be spoken against 35 (yes, a long sword will be run through you), in order that the reasonings of many hearts may be revealed.”",
+    choiceA: "Simeon",
+    choiceB: "Zechariah",
+    choiceC: "John",
+    choiceD: "Angel Gabriel",
+    correctAnswer: "A",
+  },
+  {
+    question: "Who was the son of Shemaiah from Kiriath-jearim?",
+    clueSource: "Jeremiah 26:20",
+    clueSourceContent:
+      "20 “And there was another man prophesying in the name of Jehovah, U·riʹjah son of She·maiʹah from Kirʹi·ath-jeʹa·rim, who prophesied against this city and against this land with words like those of Jeremiah.",
+    choiceA: "Urijah",
+    choiceB: "Jeremiah",
+    choiceC: "Joel",
+    choiceD: "Jahaziel",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "When he heard that king Jehoiakim and the princes of Jerusalem sought to put him to death, he became afraid and fled to Egypt.",
+    clueSource: "Jeremiah 26:21",
+    clueSourceContent:
+      " 21 King Je·hoiʹa·kim and all his mighty men and all the princes heard his words, and the king sought to put him to death. When U·riʹjah heard of it, he at once became afraid and fled to Egypt.",
+    choiceA: "Urijah",
+    choiceB: "Jeremiah",
+    choiceC: "Isaiah",
+    choiceD: "Iddo",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "“King Jehoiakim sent Elnathan the son of Achbor and other men with him to Egypt” to capture this prophet.",
+    clueSource: "Jeremiah 26:20-23",
+    clueSourceContent:
+      "20 “And there was another man prophesying in the name of Jehovah, U·riʹjah son of She·maiʹah from Kirʹi·ath-jeʹa·rim, who prophesied against this city and against this land with words like those of Jeremiah. 21 King Je·hoiʹa·kim and all his mighty men and all the princes heard his words, and the king sought to put him to death. When U·riʹjah heard of it, he at once became afraid and fled to Egypt. 22 Then King Je·hoiʹa·kim sent El·naʹthan the son of Achʹbor and other men with him to Egypt. 23 They brought U·riʹjah from Egypt and took him to King Je·hoiʹa·kim, who then struck him down with the sword and cast his dead body into the graveyard of the common people.”",
+    choiceA: "Urijah",
+    choiceB: "Jeremiah",
+    choiceC: "Isaiah",
+    choiceD: "Iddo",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "He was brought from Egypt and was taken to “king Je·hoiʹa·kim, who then struck him down with the sword.”",
+    clueSource: "Jeremiah 26:20-23",
+    clueSourceContent:
+      "20 “And there was another man prophesying in the name of Jehovah, U·riʹjah son of She·maiʹah from Kirʹi·ath-jeʹa·rim, who prophesied against this city and against this land with words like those of Jeremiah. 21 King Je·hoiʹa·kim and all his mighty men and all the princes heard his words, and the king sought to put him to death. When U·riʹjah heard of it, he at once became afraid and fled to Egypt. 22 Then King Je·hoiʹa·kim sent El·naʹthan the son of Achʹbor and other men with him to Egypt. 23 They brought U·riʹjah from Egypt and took him to King Je·hoiʹa·kim, who then struck him down with the sword and cast his dead body into the graveyard of the common people.”",
+    choiceA: "Urijah",
+    choiceB: "Jeremiah",
+    choiceC: "Isaiah",
+    choiceD: "Iddo",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "King Jehoiakim struck this prophet down with the sword and then casted “his dead body into the graveyard of the common people.”",
+    clueSource: "Jeremiah 26:20-23",
+    clueSourceContent:
+      "20 “And there was another man prophesying in the name of Jehovah, U·riʹjah son of She·maiʹah from Kirʹi·ath-jeʹa·rim, who prophesied against this city and against this land with words like those of Jeremiah. 21 King Je·hoiʹa·kim and all his mighty men and all the princes heard his words, and the king sought to put him to death. When U·riʹjah heard of it, he at once became afraid and fled to Egypt. 22 Then King Je·hoiʹa·kim sent El·naʹthan the son of Achʹbor and other men with him to Egypt. 23 They brought U·riʹjah from Egypt and took him to King Je·hoiʹa·kim, who then struck him down with the sword and cast his dead body into the graveyard of the common people.”",
+    choiceA: "Urijah",
+    choiceB: "Jeremiah",
+    choiceC: "Isaiah",
+    choiceD: "Iddo",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who was the son of the High Priest Jehoiada (a.k.a High Priest Barachiah)?",
+    clueSource: "Matthew 23:35",
+    clueSourceContent:
+      "35 so that there may come upon you all the righteous blood spilled on earth, from the blood of righteous Abel to the blood of Zech·a·riʹah son of Bar·a·chiʹah, whom you murdered between the sanctuary and the altar.",
+    choiceA: "Zechariah",
+    choiceB: "Jehoash",
+    choiceC: "Joel",
+    choiceD: "Zephaniah",
+    correctAnswer: "A",
+  },
+  {
+    question: "The prophet whose cousin was king Jehoash.",
+    clueSource: "Insight on the Scriptures Volume 2, [Zechariah] p.1223",
+    clueSourceContent:
+      "Son of High Priest Jehoiada. After Jehoiada’s death, King Jehoash turned away from true worship, listening to wrong counsel rather than to Jehovah’s prophets. Zechariah, Jehoash’s cousin (2Ch 22:11), sternly warned the people about this, but instead of repenting, they stoned him in the temple courtyard. Zechariah’s dying words were: “Let Jehovah see to it and ask it back.” This prophetic request was granted, for not only did Syria do great damage to Judah but also Jehoash was killed by two of his servants “because of the blood of the sons of Jehoiada the priest.” The Greek Septuagint and the Latin Vulgate say that Jehoash was killed to avenge the blood of the “son” of Jehoiada. The Masoretic text and the Syriac Peshitta, however, read “sons,” possibly using the plural number to denote the excellence and worth of Jehoiada’s son Zechariah the prophet-priest.​—2Ch 24:17-22, 25.",
+    choiceA: "Zechariah",
+    choiceB: "Isaiah",
+    choiceC: "Joel",
+    choiceD: "Zephaniah",
+    correctAnswer: "A",
+  },
+  {
+    question: "Who was “the son of Berechiah the son of Iddo”?",
+    clueSource: "Zechariah 1:1",
+    clueSourceContent:
+      "In the eighth month in the second year of Da·riʹus, the word of Jehovah came to the prophet Zech·a·riʹah son of Ber·e·chiʹah son of Idʹdo, saying:",
+    choiceA: "Zechariah",
+    choiceB: "Oded",
+    choiceC: "Balaam",
+    choiceD: "Isaiah",
+    correctAnswer: "A",
+  },
+  {
+    question: "Who was the great-great-grandson of King Hezekiah?",
+    clueSource: "Zephaniah 1:1",
+    clueSourceContent:
+      "The word of Jehovah that came to Zeph·a·niʹah* son of Cushʹi son of Ged·a·liʹah son of Am·a·riʹah son of Hez·e·kiʹah in the days of Jo·siʹah+ son of Aʹmon+ the king of Judah:",
+    choiceA: "Zephaniah",
+    choiceB: "Zechariah",
+    choiceC: "Josiah",
+    choiceD: "Jeremiah",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who, by faith, “was transferred so as not to see death, and he was nowhere to be found because God had transferred him”?",
+    clueSource: "Hebrews 11:5",
+    clueSourceContent:
+      "5 By faith Eʹnoch was transferred so as not to see death, and he was nowhere to be found because God had transferred him; for before he was transferred he received the witness that he had pleased God well.",
+    choiceA: "Noah",
+    choiceB: "Enoch",
+    choiceC: "Lazarus",
+    choiceD: "Stephen",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "Who was the prophet that served Judah and Jerusalem in the days of Kings Uzziah, Jotham, Ahaz, and Hezekiah of Judah?",
+    clueSource: "Insight on the Scriptures Volume 1, [Isaiah] pp. 1218-1219",
+    clueSourceContent:
+      "A prophet, the son of Amoz (not the prophet Amos). He served Judah and Jerusalem in the days of Kings Uzziah, Jotham, Ahaz, and Hezekiah of Judah. (Isa 1:1) Kings Pekah and Hoshea were ruling in the northern kingdom of Israel, which ended in 740 B.C.E., during the time of Isaiah’s prophetic service. Contemporary prophets were Micah, Hosea, and Oded. Isaiah evidently began his prophesying later than Hosea did and before Micah began.​—2Ch 28:9; Ho 1:1; Mic 1:1.",
+    choiceA: "Isaiah",
+    choiceB: "Jeremiah",
+    choiceC: "Zechariah",
+    choiceD: "Malachi",
+    correctAnswer: "A",
+  },
+  {
+    question: "He performed immersions after the Passover of 30 C.E. at Aenon.",
+    clueSource: "Insight on the Scriptures Volume 1, [Aenon] p. 55",
+    clueSourceContent:
+      "(Aeʹnon). A place having “a great quantity of water” available, where John the Baptizer performed immersions after the Passover of 30 C.E. (Joh 3:23) It was near the apparently better known place named Salim. The exact locations of these places are uncertain; however, Eusebius, bishop of Caesarea who lived in the third and fourth centuries C.E., indicates a location in the Jordan Valley about 8 Roman miles (12 km; 7.5 mi) S of Beth-shean. In this area is Tell Ridgha (Tel Shalem), tentatively identified with Salim. Nearby are several springs that might fit Eusebius’ description of the place called Aenon.",
+    choiceA: "John the Baptist",
+    choiceB: "Elisha",
+    choiceC: "Philip",
+    choiceD: "The Apostle John",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Who began his preaching and baptizing in “the 15th year of the reign of Tiberius Caesar”?",
+    clueSource: "Luke 3:1-3",
+    clueSourceContent:
+      "In the 15th year of the reign of Ti·beʹri·us Caesar, when Pontius Pilate was governor of Ju·deʹa, Herod was district ruler of Galʹi·lee, Philip his brother was district ruler of the country of It·u·raeʹa and Trach·o·niʹtis, and Ly·saʹni·as was district ruler of Ab·i·leʹne, 2 in the days of chief priest Anʹnas and of Caʹia·phas, God’s declaration came to John the son of Zech·a·riʹah in the wilderness. 3 So he went into all the country around the Jordan, preaching baptism in symbol of repentance for forgiveness of sins.",
+    choiceA: "John",
+    choiceB: "Jesus",
+    choiceC: "James",
+    choiceD: "Jude",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Whose coming was a prophecy's fulfillment that God would send Elijah before the great day of Jehovah?",
+    clueSource: "Insight on the Scriptures Volume 2, [John]",
+    clueSourceContent:
+      "Jesus Christ also explained to his disciples that John’s coming was a fulfillment of the prophecy at Malachi 4:5, 6, that God would send Elijah the prophet before the coming of the great and fear-inspiring day of Jehovah. Nevertheless, great as John was (“Among those born of women there has not been raised up a greater than John the Baptist”), he would not be one of “the bride” class who will share with Christ in his heavenly Kingdom rule (Re 21:9-11; 22:3-5), for, Jesus said, “a person that is a lesser one in the kingdom of the heavens is greater than he is.” (Mt 11:11-15; 17:10-13; Lu 7:28-30) Indirectly Jesus also defended John against the charge that John had a demon.​—Mt 11:16-19; Lu 7:31-35.",
+    choiceA: "John the Baptist",
+    choiceB: "The Apostle John",
+    choiceC: "Elijah",
+    choiceD: "Elisha",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Jesus said that “among those born of women, there has not been raised up anyone greater than” him.",
+    clueSource: "Matthew 11:11",
+    clueSourceContent:
+      "11  Truly I say to you, among those born of women, there has not been raised up anyone greater than John the Baptist, but a lesser person in the Kingdom of the heavens is greater than he is.",
+    choiceA: "John the Baptist",
+    choiceB: "The Apostle John",
+    choiceC: "Solomon",
+    choiceD: "Josiah",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Indirectly, Jesus defended this prophet against the charge that he had a demon.",
+    clueSource: "Luke 7:31-35",
+    clueSourceContent:
+      "31 “With whom, therefore, should I compare the men of this generation, and whom are they like? 32 They are like young children sitting in a marketplace and calling out to one another, saying: ‘We played the flute for you, but you did not dance; we wailed, but you did not weep.’ 33 Likewise, John the Baptist has come neither eating bread nor drinking wine, but you say: ‘He has a demon.’ 34 The Son of man has come eating and drinking, but you say: ‘Look! A man who is a glutton and is given to drinking wine, a friend of tax collectors and sinners!’ 35 All the same, wisdom is proved righteous by all its children.”",
+    choiceA: "John the Baptist",
+    choiceB: "The Apostle John",
+    choiceC: "Hanani",
+    choiceD: "Jonah",
+    correctAnswer: "A",
   },
 ];
 
