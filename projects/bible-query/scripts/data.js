@@ -1420,253 +1420,291 @@ const judges = [
   {
     question: "He was “the son of Kenaz, Caleb’s younger brother.”",
     clueSource: "Judges 1:13",
-    clueSourceContent: "13 And Othʹni·el+ the son of Keʹnaz,+ Caʹleb’s younger brother, captured it. So he gave him his daughter Achʹsah as a wife.",
+    clueSourceContent:
+      "13 And Othʹni·el+ the son of Keʹnaz,+ Caʹleb’s younger brother, captured it. So he gave him his daughter Achʹsah as a wife.",
     choiceA: "Othniel",
     choiceB: "",
     choiceC: "",
     choiceD: "",
-    correctAnswer: "A"
+    correctAnswer: "A",
   },
   {
-    question: "This judge's marriage to Achsah the daughter of Caleb came as a result of his victory over the Canaanite stronghold of Debir.",
+    question:
+      "This judge's marriage to Achsah the daughter of Caleb came as a result of his victory over the Canaanite stronghold of Debir.",
     clueSource: "Joshua 15:16-19",
-    clueSourceContent: "16 Caʹleb then said: “To the man who strikes Kirʹi·ath-seʹpher and captures it, I will give my daughter Achʹsah as a wife.” 17 And Othʹni·el+ the son of Keʹnaz,+ Caʹleb’s brother, captured it. So he gave him his daughter Achʹsah+ as a wife. 18 While she was going home, she urged him to ask her father for a field. Then she dismounted from her donkey.* Caʹleb asked her: “What do you want?”+ 19 She said: “Please grant me a blessing, for you have given me a piece of land in the south;* give me also Gulʹloth-maʹim.”* So he gave her Upper Gulʹloth and Lower Gulʹloth.",
+    clueSourceContent:
+      "16 Caʹleb then said: “To the man who strikes Kirʹi·ath-seʹpher and captures it, I will give my daughter Achʹsah as a wife.” 17 And Othʹni·el+ the son of Keʹnaz,+ Caʹleb’s brother, captured it. So he gave him his daughter Achʹsah+ as a wife. 18 While she was going home, she urged him to ask her father for a field. Then she dismounted from her donkey.* Caʹleb asked her: “What do you want?”+ 19 She said: “Please grant me a blessing, for you have given me a piece of land in the south;* give me also Gulʹloth-maʹim.”* So he gave her Upper Gulʹloth and Lower Gulʹloth.",
     choiceA: "",
     choiceB: "Othniel",
     choiceC: "",
     choiceD: "",
-    correctAnswer: "B"
+    correctAnswer: "B",
   },
   {
-    question: "A descendant was chosen from this family to head a service group of 24,000 during David’s reign.",
+    question:
+      "A descendant was chosen from this family to head a service group of 24,000 during David’s reign.",
     clueSource: "1 Chronicles 27:15",
-    clueSourceContent: "15 The 12th for the 12th month was Helʹdai the Ne·tophʹa·thite, of Othʹni·el, and 24,000 were in his division.",
+    clueSourceContent:
+      "15 The 12th for the 12th month was Helʹdai the Ne·tophʹa·thite, of Othʹni·el, and 24,000 were in his division.",
     choiceA: "",
     choiceB: "",
     choiceC: "Othniel",
     choiceD: "",
-    correctAnswer: "C"
+    correctAnswer: "C",
   },
   {
-    question: "With Jehovah’s spirit upon him, this judge defeated Cushan-rishathaim, “the king of Syria.”",
+    question:
+      "With Jehovah’s spirit upon him, this judge defeated Cushan-rishathaim, “the king of Syria.”",
     clueSource: "Judges 3:8-11",
-    clueSourceContent: "8 At this Jehovah’s anger blazed against Israel, and he sold them into the hand of Cuʹshan-rish·a·thaʹim the king of Mes·o·po·taʹmi·a.* The Israelites served Cuʹshan-rish·a·thaʹim for eight years. 9 When the Israelites called to Jehovah for help,+ Jehovah raised up a savior to rescue the Israelites,+ Othʹni·el+ the son of Keʹnaz, the younger brother of Caʹleb. 10 The spirit of Jehovah came upon him,+ and he became the judge of Israel. When he went out to battle, Jehovah gave Cuʹshan-rish·a·thaʹim the king of Mes·o·po·taʹmi·a* into his hand so that he prevailed over Cuʹshan-rish·a·thaʹim. 11 After that the land had rest* for 40 years. Then Othʹni·el the son of Keʹnaz died.",
+    clueSourceContent:
+      "8 At this Jehovah’s anger blazed against Israel, and he sold them into the hand of Cuʹshan-rish·a·thaʹim the king of Mes·o·po·taʹmi·a.* The Israelites served Cuʹshan-rish·a·thaʹim for eight years. 9 When the Israelites called to Jehovah for help,+ Jehovah raised up a savior to rescue the Israelites,+ Othʹni·el+ the son of Keʹnaz, the younger brother of Caʹleb. 10 The spirit of Jehovah came upon him,+ and he became the judge of Israel. When he went out to battle, Jehovah gave Cuʹshan-rish·a·thaʹim the king of Mes·o·po·taʹmi·a* into his hand so that he prevailed over Cuʹshan-rish·a·thaʹim. 11 After that the land had rest* for 40 years. Then Othʹni·el the son of Keʹnaz died.",
     choiceA: "",
     choiceB: "",
     choiceC: "",
     choiceD: "Othniel",
-    correctAnswer: "D"
+    correctAnswer: "D",
   },
   {
     question: "He was the son of Gera of the tribe of Benjamin.",
     clueSource: "Judges 3:15",
-    clueSourceContent: "15 Then the Israelites called to Jehovah for help,+ so Jehovah raised up for them a savior,+ Eʹhud+ the son of Geʹra, a Benʹja·min·ite+ who was left-handed.+ In time the Israelites sent tribute through him to Egʹlon the king of Moʹab.",
+    clueSourceContent:
+      "15 Then the Israelites called to Jehovah for help,+ so Jehovah raised up for them a savior,+ Eʹhud+ the son of Geʹra, a Benʹja·min·ite+ who was left-handed.+ In time the Israelites sent tribute through him to Egʹlon the king of Moʹab.",
     choiceA: "Ehud",
     choiceB: "",
     choiceC: "",
     choiceD: "",
-    correctAnswer: "A"
+    correctAnswer: "A",
   },
   {
-    question: "Who was chosen by God to deliver the nation from an 18-year bondage to King Eglon of Moab?",
+    question:
+      "Who was chosen by God to deliver the nation from an 18-year bondage to King Eglon of Moab?",
     clueSource: "Judges 3:15",
-    clueSourceContent: "15 Then the Israelites called to Jehovah for help,+ so Jehovah raised up for them a savior,+ Eʹhud+ the son of Geʹra, a Benʹja·min·ite+ who was left-handed.+ In time the Israelites sent tribute through him to Egʹlon the king of Moʹab.",
+    clueSourceContent:
+      "15 Then the Israelites called to Jehovah for help,+ so Jehovah raised up for them a savior,+ Eʹhud+ the son of Geʹra, a Benʹja·min·ite+ who was left-handed.+ In time the Israelites sent tribute through him to Egʹlon the king of Moʹab.",
     choiceA: "",
     choiceB: "Ehud",
     choiceC: "",
     choiceD: "",
-    correctAnswer: "B"
+    correctAnswer: "B",
   },
   {
     question: "He was a left-handed judge from the tribe of Benjamin.",
     clueSource: "Judges 3:15",
-    clueSourceContent: "15 Then the Israelites called to Jehovah for help,+ so Jehovah raised up for them a savior,+ Eʹhud+ the son of Geʹra, a Benʹja·min·ite+ who was left-handed.+ In time the Israelites sent tribute through him to Egʹlon the king of Moʹab.",
+    clueSourceContent:
+      "15 Then the Israelites called to Jehovah for help,+ so Jehovah raised up for them a savior,+ Eʹhud+ the son of Geʹra, a Benʹja·min·ite+ who was left-handed.+ In time the Israelites sent tribute through him to Egʹlon the king of Moʹab.",
     choiceA: "",
     choiceB: "",
     choiceC: "Ehud",
     choiceD: "",
-    correctAnswer: "C"
+    correctAnswer: "C",
   },
   {
-    question: "Who killed king Eglon of Moab by plunging his blade into the king's belly?",
+    question:
+      "Who killed king Eglon of Moab by plunging his blade into the king's belly?",
     clueSource: "Judges 3:15-25",
-    clueSourceContent: "15 Then the Israelites called to Jehovah for help,+ so Jehovah raised up for them a savior,+ Eʹhud+ the son of Geʹra, a Benʹja·min·ite+ who was left-handed.+ In time the Israelites sent tribute through him to Egʹlon the king of Moʹab. 16 Meanwhile, Eʹhud made for himself a two-edged sword, a cubit* long, and he strapped it underneath his garment on his right thigh. 17 He then presented the tribute to Egʹlon the king of Moʹab. Now Egʹlon was a very fat man. 18 When Eʹhud finished presenting the tribute, he sent away the people who had carried the tribute. 19 But after reaching the carved images* at Gilʹgal,+ he himself went back and said: “I have a secret message for you, O king.” So the king said: “Silence!” With that all his attendants left him. 20 So Eʹhud came to him as he was sitting alone in his cool roof chamber. Then Eʹhud said: “I have a message from God for you.” So he rose up from his throne.* 21 Then Eʹhud drew the sword from his right thigh with his left hand and plunged it into his belly. 22 The handle went in after the blade, and the fat closed in over the blade, for he did not draw the sword out of his belly, and the fecal matter came out. 23 Eʹhud went out through the porch,* closing the doors of the roof chamber behind him and locking them. 24 After he left, the servants returned and saw that the doors of the roof chamber were locked. So they said: “He must be relieving himself* in the cool interior room.” 25 They kept waiting until they were embarrassed, but when they saw that he was still not opening the doors of the roof chamber, they took the key and opened them and saw their lord fallen to the floor* dead!",
+    clueSourceContent:
+      "15 Then the Israelites called to Jehovah for help,+ so Jehovah raised up for them a savior,+ Eʹhud+ the son of Geʹra, a Benʹja·min·ite+ who was left-handed.+ In time the Israelites sent tribute through him to Egʹlon the king of Moʹab. 16 Meanwhile, Eʹhud made for himself a two-edged sword, a cubit* long, and he strapped it underneath his garment on his right thigh. 17 He then presented the tribute to Egʹlon the king of Moʹab. Now Egʹlon was a very fat man. 18 When Eʹhud finished presenting the tribute, he sent away the people who had carried the tribute. 19 But after reaching the carved images* at Gilʹgal,+ he himself went back and said: “I have a secret message for you, O king.” So the king said: “Silence!” With that all his attendants left him. 20 So Eʹhud came to him as he was sitting alone in his cool roof chamber. Then Eʹhud said: “I have a message from God for you.” So he rose up from his throne.* 21 Then Eʹhud drew the sword from his right thigh with his left hand and plunged it into his belly. 22 The handle went in after the blade, and the fat closed in over the blade, for he did not draw the sword out of his belly, and the fecal matter came out. 23 Eʹhud went out through the porch,* closing the doors of the roof chamber behind him and locking them. 24 After he left, the servants returned and saw that the doors of the roof chamber were locked. So they said: “He must be relieving himself* in the cool interior room.” 25 They kept waiting until they were embarrassed, but when they saw that he was still not opening the doors of the roof chamber, they took the key and opened them and saw their lord fallen to the floor* dead!",
     choiceA: "",
     choiceB: "",
     choiceC: "",
     choiceD: "Ehud",
-    correctAnswer: "D"
+    correctAnswer: "D",
   },
   {
-    question: "This judge escaped to the mountainous region of Ephraim, marshaled an army of Israelites, and struck down 10,000 Moabites.",
+    question:
+      "This judge escaped to the mountainous region of Ephraim, marshaled an army of Israelites, and struck down 10,000 Moabites.",
     clueSource: "Judges 3:26-30",
-    clueSourceContent: "26 Eʹhud escaped while they were lingering, and he passed by the carved images*+ and made it safely to Se·iʹrah. 27 When he arrived, he sounded the horn+ in the mountainous region of Eʹphra·im;+ and the Israelites went down out of the mountainous region, with him at their head. 28 Then he said to them: “Follow me, because Jehovah has given your enemies, the Moʹab·ites, into your hand.” So they followed him and captured the fords of the Jordan against the Moʹab·ites, and they did not allow anyone to cross. 29 At that time they struck down about 10,000 Moʹab·ites,+ all strong and valiant men; not a single one escaped.+ 30 So Moʹab was subdued on that day under Israel’s hand; and the land had rest* for 80 years.+",
+    clueSourceContent:
+      "26 Eʹhud escaped while they were lingering, and he passed by the carved images*+ and made it safely to Se·iʹrah. 27 When he arrived, he sounded the horn+ in the mountainous region of Eʹphra·im;+ and the Israelites went down out of the mountainous region, with him at their head. 28 Then he said to them: “Follow me, because Jehovah has given your enemies, the Moʹab·ites, into your hand.” So they followed him and captured the fords of the Jordan against the Moʹab·ites, and they did not allow anyone to cross. 29 At that time they struck down about 10,000 Moʹab·ites,+ all strong and valiant men; not a single one escaped.+ 30 So Moʹab was subdued on that day under Israel’s hand; and the land had rest* for 80 years.+",
     choiceA: "Ehud",
     choiceB: "",
     choiceC: "",
     choiceD: "",
-    correctAnswer: "A"
+    correctAnswer: "A",
   },
   {
     question: "The judge who struck down 600 Philistines with a cattle goad.",
     clueSource: "Judges 3:31",
-    clueSourceContent: "31 After him was Shamʹgar+ the son of Aʹnath, who struck down 600 Phi·lisʹtine men+ with a cattle goad;+ he too saved Israel.",
+    clueSourceContent:
+      "31 After him was Shamʹgar+ the son of Aʹnath, who struck down 600 Phi·lisʹtine men+ with a cattle goad;+ he too saved Israel.",
     choiceA: "Samson",
     choiceB: "Shamgar",
     choiceC: "",
     choiceD: "",
-    correctAnswer: "B"
+    correctAnswer: "B",
   },
   {
     question: "The judge who was a “son of Anath.”",
     clueSource: "Judges 3:31",
-    clueSourceContent: "31 After him was Shamʹgar+ the son of Aʹnath, who struck down 600 Phi·lisʹtine men+ with a cattle goad;+ he too saved Israel.",
+    clueSourceContent:
+      "31 After him was Shamʹgar+ the son of Aʹnath, who struck down 600 Phi·lisʹtine men+ with a cattle goad;+ he too saved Israel.",
     choiceA: "",
     choiceB: "",
     choiceC: "Shamgar",
     choiceD: "",
-    correctAnswer: "C"
+    correctAnswer: "C",
   },
   {
     question: "The judge who was “the son of Puah”.",
     clueSource: "Judges 10:1",
-    clueSourceContent: "After A·bimʹe·lech, Toʹla the son of Puʹah, the son of Doʹdo, a man of Isʹsa·char, rose up to save Israel.+ He lived in Shaʹmir in the mountainous region of Eʹphra·im.",
+    clueSourceContent:
+      "After A·bimʹe·lech, Toʹla the son of Puʹah, the son of Doʹdo, a man of Isʹsa·char, rose up to save Israel.+ He lived in Shaʹmir in the mountainous region of Eʹphra·im.",
     choiceA: "",
     choiceB: "",
     choiceC: "",
     choiceD: "Tola",
-    correctAnswer: "D"
+    correctAnswer: "D",
   },
   {
     question: "He lived in Shamir in the mountainous region of Ephraim.",
     clueSource: "Judges 10:1",
-    clueSourceContent: "After A·bimʹe·lech, Toʹla the son of Puʹah, the son of Doʹdo, a man of Isʹsa·char, rose up to save Israel.+ He lived in Shaʹmir in the mountainous region of Eʹphra·im.",
+    clueSourceContent:
+      "After A·bimʹe·lech, Toʹla the son of Puʹah, the son of Doʹdo, a man of Isʹsa·char, rose up to save Israel.+ He lived in Shaʹmir in the mountainous region of Eʹphra·im.",
     choiceA: "Tola",
     choiceB: "",
     choiceC: "",
     choiceD: "",
-    correctAnswer: "A"
+    correctAnswer: "A",
   },
   {
-    question: "He judged Israel for 23 years. Then he died and was buried in Shamir.",
+    question:
+      "He judged Israel for 23 years. Then he died and was buried in Shamir.",
     clueSource: "Judges 10:1, 2",
-    clueSourceContent: "After A·bimʹe·lech, Toʹla the son of Puʹah, the son of Doʹdo, a man of Isʹsa·char, rose up to save Israel.+ He lived in Shaʹmir in the mountainous region of Eʹphra·im. 2 He judged Israel for 23 years. Then he died and was buried in Shaʹmir.",
+    clueSourceContent:
+      "After A·bimʹe·lech, Toʹla the son of Puʹah, the son of Doʹdo, a man of Isʹsa·char, rose up to save Israel.+ He lived in Shaʹmir in the mountainous region of Eʹphra·im. 2 He judged Israel for 23 years. Then he died and was buried in Shaʹmir.",
     choiceA: "",
     choiceB: "Tola",
     choiceC: "",
     choiceD: "",
-    correctAnswer: "B"
+    correctAnswer: "B",
   },
   {
     question: "Who was the seventh judge of Israel?",
     clueSource: "Insight on the Scriptures Volume 1, [Jair] p. 1250",
-    clueSourceContent: "The seventh judge of Israel. Since he was a Gileadite of high standing and each of his 30 sons is connected with one of the above-mentioned tent cities of Jair, he was likely a descendant of No. 1 above. Jair judged Israel for 22 years, after which he died and was buried in Kamon.​—Jg 10:3-5.",
+    clueSourceContent:
+      "The seventh judge of Israel. Since he was a Gileadite of high standing and each of his 30 sons is connected with one of the above-mentioned tent cities of Jair, he was likely a descendant of No. 1 above. Jair judged Israel for 22 years, after which he died and was buried in Kamon.​—Jg 10:3-5.",
     choiceA: "",
     choiceB: "",
     choiceC: "Jair",
     choiceD: "",
-    correctAnswer: "C"
+    correctAnswer: "C",
   },
   {
-    question: "“He had 30 sons who rode on 30 donkeys, and they had 30 cities.”",
+    question:
+      "“He had 30 sons who rode on 30 donkeys, and they had 30 cities.”",
     clueSource: "Judges 10:3-5",
-    clueSourceContent: "3 After him Jaʹir the Gilʹe·ad·ite rose up and judged Israel for 22 years. 4 He had 30 sons who rode on 30 donkeys, and they had 30 cities, which to this day are called Havʹvoth-jaʹir;+ they are in the land of Gilʹe·ad. 5 After that Jaʹir died and was buried in Kaʹmon.",
+    clueSourceContent:
+      "3 After him Jaʹir the Gilʹe·ad·ite rose up and judged Israel for 22 years. 4 He had 30 sons who rode on 30 donkeys, and they had 30 cities, which to this day are called Havʹvoth-jaʹir;+ they are in the land of Gilʹe·ad. 5 After that Jaʹir died and was buried in Kaʹmon.",
     choiceA: "",
     choiceB: "",
     choiceC: "",
     choiceD: "Jair",
-    correctAnswer: "D"
+    correctAnswer: "D",
   },
   {
-    question: "He judged Israel for 22 years, after which he died and was buried in Kamon.",
+    question:
+      "He judged Israel for 22 years, after which he died and was buried in Kamon.",
     clueSource: "Judges 10:3-5",
-    clueSourceContent: "3 After him Jaʹir the Gilʹe·ad·ite rose up and judged Israel for 22 years. 4 He had 30 sons who rode on 30 donkeys, and they had 30 cities, which to this day are called Havʹvoth-jaʹir;+ they are in the land of Gilʹe·ad. 5 After that Jaʹir died and was buried in Kaʹmon.",
+    clueSourceContent:
+      "3 After him Jaʹir the Gilʹe·ad·ite rose up and judged Israel for 22 years. 4 He had 30 sons who rode on 30 donkeys, and they had 30 cities, which to this day are called Havʹvoth-jaʹir;+ they are in the land of Gilʹe·ad. 5 After that Jaʹir died and was buried in Kaʹmon.",
     choiceA: "Jair",
     choiceB: "",
     choiceC: "",
     choiceD: "",
-    correctAnswer: "A"
+    correctAnswer: "A",
   },
   {
     question: "Who succeeded Jephthah as judge of Israel?",
     clueSource: "Judges 12:7, 8",
-    clueSourceContent: "7 Jephʹthah judged Israel for six years, after which Jephʹthah the Gilʹe·ad·ite died and was buried in his city in Gilʹe·ad. 8 Ibʹzan from Bethʹle·hem judged Israel after him.",
+    clueSourceContent:
+      "7 Jephʹthah judged Israel for six years, after which Jephʹthah the Gilʹe·ad·ite died and was buried in his city in Gilʹe·ad. 8 Ibʹzan from Bethʹle·hem judged Israel after him.",
     choiceA: "",
     choiceB: "Ibzan",
     choiceC: "",
     choiceD: "",
-    correctAnswer: "B"
+    correctAnswer: "B",
   },
   {
-    question: "He had 30 sons and 30 daughters. He sent his daughters to marry men outside his clan, and he brought in 30 women to marry his sons.",
+    question:
+      "He had 30 sons and 30 daughters. He sent his daughters to marry men outside his clan, and he brought in 30 women to marry his sons.",
     clueSource: "Judges 12:8-10",
-    clueSourceContent: "8 Ibʹzan from Bethʹle·hem judged Israel after him.+ 9 He had 30 sons and 30 daughters. He sent his daughters to marry men outside his clan, and he brought in 30 women to marry his sons. He judged Israel for seven years. 10 Then Ibʹzan died and was buried in Bethʹle·hem.",
+    clueSourceContent:
+      "8 Ibʹzan from Bethʹle·hem judged Israel after him.+ 9 He had 30 sons and 30 daughters. He sent his daughters to marry men outside his clan, and he brought in 30 women to marry his sons. He judged Israel for seven years. 10 Then Ibʹzan died and was buried in Bethʹle·hem.",
     choiceA: "",
     choiceB: "",
     choiceC: "Ibzan",
     choiceD: "",
-    correctAnswer: "C"
+    correctAnswer: "C",
   },
   {
-    question: "After judging for seven years, he died and was buried in his native city of Bethlehem.",
+    question:
+      "After judging for seven years, he died and was buried in his native city of Bethlehem.",
     clueSource: "Judges 12:8-10",
-    clueSourceContent: "8 Ibʹzan from Bethʹle·hem judged Israel after him.+ 9 He had 30 sons and 30 daughters. He sent his daughters to marry men outside his clan, and he brought in 30 women to marry his sons. He judged Israel for seven years. 10 Then Ibʹzan died and was buried in Bethʹle·hem.",
+    clueSourceContent:
+      "8 Ibʹzan from Bethʹle·hem judged Israel after him.+ 9 He had 30 sons and 30 daughters. He sent his daughters to marry men outside his clan, and he brought in 30 women to marry his sons. He judged Israel for seven years. 10 Then Ibʹzan died and was buried in Bethʹle·hem.",
     choiceA: "",
     choiceB: "",
     choiceC: "",
     choiceD: "Ibzan",
-    correctAnswer: "D"
+    correctAnswer: "D",
   },
 
   {
     question: "He was a Zebulunite judge of Israel.",
     clueSource: "Judges 12:11, 12",
-    clueSourceContent: "11 After him Eʹlon the Zebʹu·lun·ite judged Israel; he judged Israel for ten years. 12 Then Eʹlon the Zebʹu·lun·ite died and was buried in Aiʹja·lon in the land of Zebʹu·lun.",
+    clueSourceContent:
+      "11 After him Eʹlon the Zebʹu·lun·ite judged Israel; he judged Israel for ten years. 12 Then Eʹlon the Zebʹu·lun·ite died and was buried in Aiʹja·lon in the land of Zebʹu·lun.",
     choiceA: "Elon",
     choiceB: "",
     choiceC: "",
     choiceD: "",
-    correctAnswer: "A"
+    correctAnswer: "A",
   },
   {
-    question: "After a judgeship of ten years they buried him in Aijalon in the territory of Zebulun.",
+    question:
+      "After a judgeship of ten years they buried him in Aijalon in the territory of Zebulun.",
     clueSource: "Judges 12:11, 12",
-    clueSourceContent: "11 After him Eʹlon the Zebʹu·lun·ite judged Israel; he judged Israel for ten years. 12 Then Eʹlon the Zebʹu·lun·ite died and was buried in Aiʹja·lon in the land of Zebʹu·lun.",
+    clueSourceContent:
+      "11 After him Eʹlon the Zebʹu·lun·ite judged Israel; he judged Israel for ten years. 12 Then Eʹlon the Zebʹu·lun·ite died and was buried in Aiʹja·lon in the land of Zebʹu·lun.",
     choiceA: "",
     choiceB: "Elon",
     choiceC: "",
     choiceD: "",
-    correctAnswer: "B"
+    correctAnswer: "B",
   },
   {
     question: "He was the son of Hillel the Pirathonite of Ephraim.",
     clueSource: "Judges 12:13",
-    clueSourceContent: "13 After him Abʹdon the son of Hilʹlel the Pirʹa·thon·ite judged Israel.",
+    clueSourceContent:
+      "13 After him Abʹdon the son of Hilʹlel the Pirʹa·thon·ite judged Israel.",
     choiceA: "",
     choiceB: "",
     choiceC: "Abdon",
     choiceD: "",
-    correctAnswer: "C"
+    correctAnswer: "C",
   },
   {
     question: "He had 40 sons and 30 grandsons who rode on 70 donkeys.",
     clueSource: "Judges 12:13, 14",
-    clueSourceContent: "13 After him Abʹdon the son of Hilʹlel the Pirʹa·thon·ite judged Israel. 14 He had 40 sons and 30 grandsons who rode on 70 donkeys. He judged Israel for eight years.",
+    clueSourceContent:
+      "13 After him Abʹdon the son of Hilʹlel the Pirʹa·thon·ite judged Israel. 14 He had 40 sons and 30 grandsons who rode on 70 donkeys. He judged Israel for eight years.",
     choiceA: "",
     choiceB: "",
     choiceC: "",
     choiceD: "Abdon",
-    correctAnswer: "D"
+    correctAnswer: "D",
   },
   {
-    question: "He died and was buried in Pirathon in the land of Ephraim in the mountain of the Amalekite.",
+    question:
+      "He died and was buried in Pirathon in the land of Ephraim in the mountain of the Amalekite.",
     clueSource: "Judges 12:15",
-    clueSourceContent: "15 Then Abʹdon the son of Hilʹlel the Pirʹa·thon·ite died and was buried in Pirʹa·thon in the land of Eʹphra·im in the mountain of the A·malʹek·ite.+",
+    clueSourceContent:
+      "15 Then Abʹdon the son of Hilʹlel the Pirʹa·thon·ite died and was buried in Pirʹa·thon in the land of Eʹphra·im in the mountain of the A·malʹek·ite.+",
     choiceA: "Abdon",
     choiceB: "",
     choiceC: "",
     choiceD: "",
-    correctAnswer: "A"
+    correctAnswer: "A",
   },
   {
     question:
@@ -1683,12 +1721,301 @@ const judges = [
   {
     question: "He was the son of Manoah, a Danite from Zorah.",
     clueSource: "Judges 13:21-24",
-    clueSourceContent: "21 Jehovah’s angel did not appear again to Ma·noʹah and his wife. Then Ma·noʹah realized that he was Jehovah’s angel.+ 22 Ma·noʹah then said to his wife: “We are sure to die, because it is God whom we have seen.”+ 23 But his wife said to him: “If Jehovah wanted to put us to death, he would not have accepted a burnt offering+ and a grain offering from our hand, he would not have shown us all these things, and he would not have told us any of these things.” 24 The woman later gave birth to a son and named him Samson;+ and as the boy grew, Jehovah continued to bless him.",
+    clueSourceContent:
+      "21 Jehovah’s angel did not appear again to Ma·noʹah and his wife. Then Ma·noʹah realized that he was Jehovah’s angel.+ 22 Ma·noʹah then said to his wife: “We are sure to die, because it is God whom we have seen.”+ 23 But his wife said to him: “If Jehovah wanted to put us to death, he would not have accepted a burnt offering+ and a grain offering from our hand, he would not have shown us all these things, and he would not have told us any of these things.” 24 The woman later gave birth to a son and named him Samson;+ and as the boy grew, Jehovah continued to bless him.",
     choiceA: "",
     choiceB: "",
     choiceC: "Samson",
     choiceD: "",
-    correctAnswer: "C"
+    correctAnswer: "C",
+  },
+  {
+    question:
+      "When old enough to marry, he requested that his parents get a certain Philistine woman from Timnah for him as a wife.",
+    clueSource: "Judges 13:25-14:4",
+    clueSourceContent:
+      "25 In time Jehovah’s spirit started to impel him+ in Maʹha·neh-dan,+ between Zoʹrah and Eshʹta·ol.+ 14 Then Samson went down to Timʹnah, and in Timʹnah he saw a Phi·lisʹtine woman.* 2 So he went up and told his father and mother: “In Timʹnah a Phi·lisʹtine woman caught my eye, and I want you to get her for me as a wife.” 3 But his father and mother said to him: “Can you not find a woman among your relatives and among all our people?+ Must you go and take a wife from among the uncircumcised Phi·lisʹtines?” But Samson said to his father: “Get her for me, because she is the right one for me.”* 4 His father and mother did not realize that this was from Jehovah, for He was looking for an opportunity against the Phi·lisʹtines, as the Phi·lisʹtines were ruling over Israel at that time.+",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "Samson",
+    correctAnswer: "D",
+  },
+  {
+    question:
+      "Empowered by God’s spirit, he tore a maned young lion in two with his bare hands.",
+    clueSource: "Judges 14:5-7",
+    clueSourceContent:
+      "5 So Samson went down with his father and mother to Timʹnah. When he reached the vineyards of Timʹnah, why look! a lion* came roaring at him. 6 Then Jehovah’s spirit empowered him,+ and he tore it in two, just as someone tears a young goat in two with his bare hands. But he did not tell his father or mother what he had done. 7 Then he went down and spoke to the woman, and she was still the right one in Samson’s eyes.+",
+    choiceA: "Samson",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "On the way home, “he turned aside to look at the dead body of the lion, and there in the lion’s carcass was a swarm of bees and honey.”",
+    clueSource: "Judges 14:8-10",
+    clueSourceContent:
+      "8 Later when he was going back to take her home,+ he turned aside to look at the dead body of the lion, and there in the lion’s carcass was a swarm of bees and honey. 9 So he scraped the honey out into his hands and ate it as he walked along. When he rejoined his father and mother, he gave them some to eat. But he did not tell them that he had scraped the honey out of the carcass of a lion. 10 His father went down to the woman, and Samson held a banquet there, for that was what the young men used to do. ",
+    choiceA: "",
+    choiceB: "Samson",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "B",
+  },
+  {
+    question:
+      "He composed this riddle: “Out of the eater came something to eat, And out of the strong came something sweet.”",
+    clueSource: "Judges 14:12-14",
+    clueSourceContent:
+      "12 Then Samson said to them: “Please let me tell you a riddle. If during the seven days of the banquet you solve it and tell me the answer, I will have to give you 30 linen garments and 30 outfits of clothing. 13 But if you are unable to tell me the answer, you must give me 30 linen garments and 30 outfits of clothing.” They said: “Tell us your riddle; we want to hear it.” 14 So he said to them: “Out of the eater came something to eat, And out of the strong came something sweet.” They were unable to solve the riddle for three days.",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "Samson",
+    choiceD: "",
+    correctAnswer: "C",
+  },
+  {
+    question:
+      "His Philistine wife pressured him on their seven-day banquet to tell her the answer to his riddle.",
+    clueSource: "Judges 14:11-19",
+    clueSourceContent:
+      "11 When they saw him, they brought 30 groomsmen to accompany him. 12 Then Samson said to them: “Please let me tell you a riddle. If during the seven days of the banquet you solve it and tell me the answer, I will have to give you 30 linen garments and 30 outfits of clothing. 13 But if you are unable to tell me the answer, you must give me 30 linen garments and 30 outfits of clothing.” They said: “Tell us your riddle; we want to hear it.” 14 So he said to them: “Out of the eater came something to eat, And out of the strong came something sweet.”+ They were unable to solve the riddle for three days. 15 On the fourth day, they said to Samson’s wife: “Trick your husband+ so that he will tell us the answer to the riddle. Otherwise, we will burn you and your father’s house with fire. Did you invite us here to take our possessions?” 16 So Samson’s wife wept over him and said: “You must hate me; you do not love me.+ You told a riddle to my people, but you have not told the answer to me.” At this he said to her: “Why, I have not told it even to my own father and mother! Should I tell it to you?” 17 But she kept weeping over him the rest of the seven-day banquet. He finally told her on the seventh day, because she had pressured him. Then she told her people the answer to the riddle.+ 18 So on the seventh day before the sun set,* the men of the city said to him: “What is sweeter than honey, And what is stronger than a lion?”+ He replied to them: “If you had not plowed with my young cow,+ You would not have solved my riddle.” 19 Then Jehovah’s spirit empowered him,+ and he went down to Ashʹke·lon+ and struck down 30 of their men and took their clothing and gave the outfits to those who had answered the riddle.+ He was furious as he went back up to his father’s house.",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "Samson",
+    correctAnswer: "D",
+  },
+  {
+    question:
+      "To pay off the promise of 30 linen garments to the Philistines, he struck down 30 of their men and took their clothing.",
+    clueSource: "Judges 14:11-19",
+    clueSourceContent:
+      "11 When they saw him, they brought 30 groomsmen to accompany him. 12 Then Samson said to them: “Please let me tell you a riddle. If during the seven days of the banquet you solve it and tell me the answer, I will have to give you 30 linen garments and 30 outfits of clothing. 13 But if you are unable to tell me the answer, you must give me 30 linen garments and 30 outfits of clothing.” They said: “Tell us your riddle; we want to hear it.” 14 So he said to them: “Out of the eater came something to eat, And out of the strong came something sweet.”+ They were unable to solve the riddle for three days. 15 On the fourth day, they said to Samson’s wife: “Trick your husband+ so that he will tell us the answer to the riddle. Otherwise, we will burn you and your father’s house with fire. Did you invite us here to take our possessions?” 16 So Samson’s wife wept over him and said: “You must hate me; you do not love me.+ You told a riddle to my people, but you have not told the answer to me.” At this he said to her: “Why, I have not told it even to my own father and mother! Should I tell it to you?” 17 But she kept weeping over him the rest of the seven-day banquet. He finally told her on the seventh day, because she had pressured him. Then she told her people the answer to the riddle.+ 18 So on the seventh day before the sun set,* the men of the city said to him: “What is sweeter than honey, And what is stronger than a lion?”+ He replied to them: “If you had not plowed with my young cow,+ You would not have solved my riddle.” 19 Then Jehovah’s spirit empowered him,+ and he went down to Ashʹke·lon+ and struck down 30 of their men and took their clothing and gave the outfits to those who had answered the riddle.+ He was furious as he went back up to his father’s house.",
+    choiceA: "Samson",
+    choiceB: "Jonathan",
+    choiceC: "David",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "Using 300 foxes, he set the grainfields, vineyards, and olive groves of the Philistines on fire.",
+    clueSource: "Judges 14:20-15:8",
+    clueSourceContent:
+      "14:20 Samson’s wife+ was then given to one of his groomsmen who had accompanied him.+ 15:1 After a while, in the days of the wheat harvest, Samson went to visit his wife, bringing a young goat. He said: “I wish to go in to my wife in the bedroom.”* But her father did not allow him to go in. 2 Her father said: “I thought, ‘You must surely hate her.’+ So I gave her to your groomsman.+ Is not her younger sister more attractive than she is? Please, take her instead.” 3 However, Samson said to them: “This time I cannot be blamed by the Phi·lisʹtines for harming them.” 4 So Samson went and caught 300 foxes. Then he took torches, turned the foxes tail to tail, and put one torch between each pair of tails. 5 Then he set fire to the torches and sent the foxes out into the fields of standing grain of the Phi·lisʹtines. He set on fire everything from sheaf to standing grain, as well as the vineyards and the olive groves. 6 The Phi·lisʹtines asked: “Who did this?” They were told: “It was Samson, the son-in-law of the Timʹnite, because he took his wife and gave her to his groomsman.”+ At that the Phi·lisʹtines went up and burned her and her father with fire.+ 7 Then Samson said to them: “If this is how you act, I will not quit until I take revenge on you.”+ 8 Then he struck them down one after the other* with a great slaughter, after which he went down and stayed in a cave* of the crag Eʹtam.",
+    choiceA: "",
+    choiceB: "Samson",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "B",
+  },
+  {
+    question: "He struck down 1,000 men with a fresh jawbone of a male donkey.",
+    clueSource: "Judges 15:14-16",
+    clueSourceContent:
+      "14 When he came to Leʹhi, the Phi·lisʹtines shouted triumphantly at meeting him. Then Jehovah’s spirit empowered him,+ and the ropes on his arms became like linen threads that were scorched with fire, and his fetters melted off his hands.+ 15 He now found a fresh jawbone of a male donkey; he reached out and grabbed it and struck down 1,000 men with it.+ 16 Then Samson said: “With the jawbone of a donkey—one heap, two heaps! With the jawbone of a donkey I struck down 1,000 men.”+",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "Samson",
+    choiceD: "",
+    correctAnswer: "C",
+  },
+  {
+    question:
+      "“God split open a hollow that was in Lehi, and water flowed from it” to relieve this judge's thirst.",
+    clueSource: "Judges 15:16-19",
+    clueSourceContent:
+      "16 Then Samson said: “With the jawbone of a donkey—one heap, two heaps! With the jawbone of a donkey I struck down 1,000 men.”+ 17 When he finished speaking, he threw the jawbone away and called that place Raʹmath-leʹhi.*+ 18 Then he became very thirsty, and he called on Jehovah and said: “It was you who gave this great salvation into the hand of your servant. But now am I to die of thirst and fall into the hands of the uncircumcised?” 19 So God split open a hollow that was in Leʹhi, and water flowed from it.+ When he drank, his spirit* returned and he revived. That is why he named the place En-hak·korʹe,* which is in Leʹhi to this day.",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "Samson",
+    correctAnswer: "D",
+  },
+  {
+    question:
+      "He grabbed the doors of the city gate and carried them on his shoulders up to the top of the mountain that faces Hebron.",
+    clueSource: "Judges 16:1-3",
+    clueSourceContent:
+      "One time Samson went to Gazʹa and saw a prostitute there, and he went in to her. 2 The Gazʹites were told: “Samson has come here.” So they surrounded him and lay in ambush for him all night long in the city gate. They stayed quiet the whole night, saying to themselves: “When daylight comes, we will kill him.” 3 However, Samson kept lying there until midnight. Then he got up at midnight and grabbed the doors of the city gate and the two side posts and pulled them out along with the bar. He put them on his shoulders and carried them up to the top of the mountain that faces Hebʹron.",
+    choiceA: "Samson",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "The Philistines seized him and bored his eyes out then they bounded him with two copper fetters, and he became a grinder of grain in the prison.",
+    clueSource: "Judges 16:20, 21",
+    clueSourceContent:
+      "20 Now she called out: “The Phi·lisʹtines are upon you, Samson!” He woke up from his sleep and said: “I will go out as at other times+ and shake myself free.” But he did not know that Jehovah had left him. 21 So the Phi·lisʹtines seized him and bored his eyes out. Then they brought him down to Gazʹa and bound him with two copper fetters, and he became a grinder of grain in the prison.",
+    choiceA: "",
+    choiceB: "Samson",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "B",
+  },
+  {
+    question: "He had killed more than 3,000 Philistines at his own death.",
+    clueSource: "Judges 16:22-30",
+    clueSourceContent:
+      "22 But the hair of his head started to grow back again after he had been shaved.+ 23 The Phi·lisʹtine lords gathered together to offer a great sacrifice to Daʹgon+ their god and to celebrate, for they were saying: “Our god has given Samson our enemy into our hand!” 24 When the people saw him, they praised their god and said: “Our god has given into our hand our enemy, the one who devastated our land+ and killed so many of us.”+ 25 Because their heart was cheerful, they said: “Call Samson to provide us some amusement.” So they called Samson out of the prison to entertain them; they made him stand between the pillars. 26 Then Samson said to the boy holding him by the hand: “Let me feel the pillars that support the house, so that I can lean against them.” 27 (Incidentally, the house was full of men and women. All the Phi·lisʹtine lords were there, and on the roof there were about 3,000 men and women who were looking on while Samson provided amusement.) 28 Samson+ now called out to Jehovah: “Sovereign Lord Jehovah, remember me, please, and strengthen me,+ please, just this once, O God, and let me take revenge on the Phi·lisʹtines for one of my two eyes.”+ 29 Then Samson braced himself against the two middle pillars that supported the house, and he leaned on them with his right hand on one and his left hand on the other. 30 Samson called out: “Let me* die with the Phi·lisʹtines!” Then he pushed with all his might, and the house fell on the lords and all the people in it.+ So he killed more at his death than he had killed during his life.+",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "Samson",
+    choiceD: "",
+    correctAnswer: "C",
+  },
+  {
+    question:
+      "“He killed more at his death than he had killed during his life.”",
+    clueSource: "Judges 16:29, 30",
+    clueSourceContent:
+      "29 Then Samson braced himself against the two middle pillars that supported the house, and he leaned on them with his right hand on one and his left hand on the other. 30 Samson called out: “Let me* die with the Phi·lisʹtines!” Then he pushed with all his might, and the house fell on the lords and all the people in it.+ So he killed more at his death than he had killed during his life.+",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "Samson",
+    correctAnswer: "D",
+  },
+  {
+    question:
+      "He was buried “between Zorah and Eshtaol in the tomb of Manoah his father.”",
+    clueSource: "Judges 16:30, 31",
+    clueSourceContent:
+      "30 Samson called out: “Let me* die with the Phi·lisʹtines!” Then he pushed with all his might, and the house fell on the lords and all the people in it.+ So he killed more at his death than he had killed during his life.+ 31 Later his brothers and all his father’s family came down to take him back. They brought him up and buried him between Zoʹrah+ and Eshʹta·ol in the tomb of Ma·noʹah+ his father. He had judged Israel for 20 years.+",
+    choiceA: "Samson",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  {
+    question:
+      "The judge that Jehovah used to defeat a Midian army with only 300 men.",
+    clueSource: "Judges 7:7",
+    clueSourceContent:
+      "7 Jehovah now said to Gidʹe·on: “I will save you with the 300 men who lapped the water, and I will give Midʹi·an into your hand. But let all the other people go back home.”",
+    choiceA: "Joshua",
+    choiceB: "Gideon",
+    choiceC: "Samuel",
+    choiceD: "Jephthah",
+    correctAnswer: "B",
+  },
+  {
+    question: "He was the son of Joash of the family of Abi-ezer of the tribe of Manasseh.",
+    clueSource: "Judges 6:11",
+    clueSourceContent: "11 Later Jehovah’s angel came+ and sat under the big tree that was in Ophʹrah, which belonged to Joʹash the Abi-ezʹrite.+ His son Gidʹe·on+ was beating out wheat in the winepress in order to hide it from Midʹi·an.",
+    choiceA: "Gideon",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  {
+    question: "His clan “is the least in Manasseh,” and he is “the most insignificant in my father’s house.”",
+    clueSource: "Judges 6:15",
+    clueSourceContent: "15 Gidʹe·on answered him: “Pardon me, Jehovah. How can I save Israel? Look! My clan* is the least in Ma·nasʹseh, and I am the most insignificant in my father’s house.”",
+    choiceA: "",
+    choiceB: "Gideon",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "B",
+  },
+  {
+    question: "To avoid discovery by the Midianites, he was beating out wheat, not out in the open, but in a winepress.",
+    clueSource: "Judges 6:11",
+    clueSourceContent: "11 Later Jehovah’s angel came+ and sat under the big tree that was in Ophʹrah, which belonged to Joʹash the Abi-ezʹrite.+ His son Gidʹe·on+ was beating out wheat in the winepress in order to hide it from Midʹi·an.",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "Gideon",
+    choiceD: "",
+    correctAnswer: "C",
+  },
+  {
+    question: "He tore down the altar of Baal that belongs to his father and the sacred pole beside it, just as Jehovah has commanded.",
+    clueSource: "Judges 6:25-32",
+    clueSourceContent: "25 That night Jehovah said to him: “Take the young bull that belongs to your father, the second young bull that is seven years old, and tear down the altar of Baʹal that belongs to your father, and cut down the sacred pole* next to it.+ 26 After you build an altar to Jehovah your God on top of this stronghold with the row of stones, take the second young bull and offer it as a burnt offering on the pieces of wood from the sacred pole* that you cut down.” 27 So Gidʹe·on took ten men of his servants and did just as Jehovah told him. But he feared the household of his father and the men of the city too much to do it by day, so he did it at night. 28 When the men of the city got up early the next morning, they saw that the altar of Baʹal had been pulled down and the sacred pole* beside it had been cut down and the second young bull had been offered up on the altar that had been built. 29 They asked one another: “Who did this?” After they investigated, they said: “Gidʹe·on the son of Joʹash did this.” 30 So the men of the city said to Joʹash: “Bring your son out that he may die, because he pulled down the altar of Baʹal and cut down the sacred pole* next to it.” 31 Joʹash+ then said to all those who confronted him: “Do you have to defend Baʹal? Do you have to save him? Whoever defends him should be put to death this morning.+ If he is a god, let him defend himself,+ since someone pulled down his altar.” 32 And he called Gidʹe·on Jer·ub·baʹal* on that day, saying: “Let Baʹal defend himself, for someone has pulled down his altar.”",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "Gideon",
+    correctAnswer: "D",
+  },
+  {
+    question: "His own father called him “Jerubaal,” , saying: “Let Baal defend himself, for someone has pulled down his altar.”",
+    clueSource: "Judges 6:28-32",
+    clueSourceContent: "28 When the men of the city got up early the next morning, they saw that the altar of Baʹal had been pulled down and the sacred pole* beside it had been cut down and the second young bull had been offered up on the altar that had been built. 29 They asked one another: “Who did this?” After they investigated, they said: “Gidʹe·on the son of Joʹash did this.” 30 So the men of the city said to Joʹash: “Bring your son out that he may die, because he pulled down the altar of Baʹal and cut down the sacred pole* next to it.” 31 Joʹash+ then said to all those who confronted him: “Do you have to defend Baʹal? Do you have to save him? Whoever defends him should be put to death this morning.+ If he is a god, let him defend himself,+ since someone pulled down his altar.” 32 And he called Gidʹe·on Jer·ub·baʹal* on that day, saying: “Let Baʹal defend himself, for someone has pulled down his altar.”",
+    choiceA: "Gideon",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A",
+  },
+  {
+    question: "He said that if the wool is wet from the dew but the ground is dry, he will know that Jehovah wants him to save Israel.",
+    clueSource: "Judges 6:33-40",
+    clueSourceContent: "33 All Midʹi·an+ and Amʹa·lek+ and the Easterners joined forces;+ and they crossed over* into the Valley* of Jezʹre·el and camped. 34 Then Jehovah’s spirit came upon* Gidʹe·on+ and he sounded the horn,+ and the Abi-ezʹrites+ rallied behind him. 35 He sent out messengers through all of Ma·nasʹseh, and they too rallied behind him. He also sent out messengers through Ashʹer, Zebʹu·lun, and Naphʹta·li, and they came up to meet him. 36 Then Gidʹe·on said to the true God: “If you are saving Israel by means of me, just as you have promised,+ 37 here I am laying a fleece of wool on the threshing floor. If there is dew on the fleece only but all the ground around it is dry, then I will know that you will save Israel by means of me, just as you have promised.” 38 And that is how it happened. When he rose up early the next day and wrung the fleece, he squeezed off enough dew from the fleece to fill a large banquet bowl with water. 39 However, Gidʹe·on said to the true God: “Do not let your anger burn against me, but let me ask just once more. Let me, please, make just one more test with the fleece. Please let the fleece alone be dry while there is dew all over the ground.” 40 So that is what God did that night; only the fleece was dry, and there was dew all over the ground.",
+    choiceA: "",
+    choiceB: "Gideon",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "B",
+  },
+  {
+    question: "He said that if the wool is dry but the ground is wet from the dew, he will know that Jehovah wants him to save Israel.",
+    clueSource: "Judges 6:33-40",
+    clueSourceContent: "33 All Midʹi·an+ and Amʹa·lek+ and the Easterners joined forces;+ and they crossed over* into the Valley* of Jezʹre·el and camped. 34 Then Jehovah’s spirit came upon* Gidʹe·on+ and he sounded the horn,+ and the Abi-ezʹrites+ rallied behind him. 35 He sent out messengers through all of Ma·nasʹseh, and they too rallied behind him. He also sent out messengers through Ashʹer, Zebʹu·lun, and Naphʹta·li, and they came up to meet him. 36 Then Gidʹe·on said to the true God: “If you are saving Israel by means of me, just as you have promised,+ 37 here I am laying a fleece of wool on the threshing floor. If there is dew on the fleece only but all the ground around it is dry, then I will know that you will save Israel by means of me, just as you have promised.” 38 And that is how it happened. When he rose up early the next day and wrung the fleece, he squeezed off enough dew from the fleece to fill a large banquet bowl with water. 39 However, Gidʹe·on said to the true God: “Do not let your anger burn against me, but let me ask just once more. Let me, please, make just one more test with the fleece. Please let the fleece alone be dry while there is dew all over the ground.” 40 So that is what God did that night; only the fleece was dry, and there was dew all over the ground.",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "Gideon",
+    choiceD: "",
+    correctAnswer: "C",
+  },
+  {
+    question: "32,000 fighting men rallied around him in response to his call.",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  {
+    question: "At Jehovah God’s direction, this judge told that those who were afraid and trembling to go home.",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  {
+    question: "Jehovah instructed him to lead the remaining 10,000 men down to the water to be tested.",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  {
+    question: "He overheard a man relating a dream that Midian and all the camp would be given into his hand. ",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
   },
   {
     question: "",
@@ -1698,7 +2025,7 @@ const judges = [
     choiceB: "",
     choiceC: "",
     choiceD: "",
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "",
@@ -1708,7 +2035,7 @@ const judges = [
     choiceB: "",
     choiceC: "",
     choiceD: "",
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "",
@@ -1718,7 +2045,7 @@ const judges = [
     choiceB: "",
     choiceC: "",
     choiceD: "",
-    correctAnswer: ""
+    correctAnswer: "",
   },
   {
     question: "",
@@ -1728,10 +2055,20 @@ const judges = [
     choiceB: "",
     choiceC: "",
     choiceD: "",
-    correctAnswer: ""
+    correctAnswer: "",
   },
-                    
-]
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "",
+  },
+  
+];
 
 const queens2 = [
   {
@@ -5674,7 +6011,8 @@ const prophetesses = [
   {
     question: "Who was the daughter of Phanuel of the tribe of Asher?",
     clueSource: "Lucas 2:36",
-    clueSourceContent: "36 Now there was a prophetess, Anna the daughter of Phanʹu·el, of Ashʹer’s tribe. This woman was well along in years and had lived with her husband for seven years after they were married.",
+    clueSourceContent:
+      "36 Now there was a prophetess, Anna the daughter of Phanʹu·el, of Ashʹer’s tribe. This woman was well along in years and had lived with her husband for seven years after they were married.",
     choiceA: "Anna",
     choiceB: "Miriam",
     choiceC: "Deborah",
@@ -5684,7 +6022,8 @@ const prophetesses = [
   {
     question: "She had become a widow after just seven years of married life.",
     clueSource: "Lucas 2:36, 37",
-    clueSourceContent: "36 Now there was a prophetess, Anna the daughter of Phanʹu·el, of Ashʹer’s tribe. This woman was well along in years and had lived with her husband for seven years after they were married,* 37 and she was a widow now 84 years old. She was never missing from the temple, rendering sacred service night and day with fasting and supplications.",
+    clueSourceContent:
+      "36 Now there was a prophetess, Anna the daughter of Phanʹu·el, of Ashʹer’s tribe. This woman was well along in years and had lived with her husband for seven years after they were married,* 37 and she was a widow now 84 years old. She was never missing from the temple, rendering sacred service night and day with fasting and supplications.",
     choiceA: "Isaiah's wife",
     choiceB: "Anna",
     choiceC: "Noadiah",
@@ -5692,9 +6031,11 @@ const prophetesses = [
     correctAnswer: "B",
   },
   {
-    question: "At the time of the child Jesus’ presentation at the temple, this prophetess was 84 years old.",
+    question:
+      "At the time of the child Jesus’ presentation at the temple, this prophetess was 84 years old.",
     clueSource: "Lucas 2:36, 37",
-    clueSourceContent: "36 Now there was a prophetess, Anna the daughter of Phanʹu·el, of Ashʹer’s tribe. This woman was well along in years and had lived with her husband for seven years after they were married,* 37 and she was a widow now 84 years old. She was never missing from the temple, rendering sacred service night and day with fasting and supplications.",
+    clueSourceContent:
+      "36 Now there was a prophetess, Anna the daughter of Phanʹu·el, of Ashʹer’s tribe. This woman was well along in years and had lived with her husband for seven years after they were married,* 37 and she was a widow now 84 years old. She was never missing from the temple, rendering sacred service night and day with fasting and supplications.",
     choiceA: "Noadiah",
     choiceB: "Huldah",
     choiceC: "Anna",
@@ -5702,9 +6043,11 @@ const prophetesses = [
     correctAnswer: "C",
   },
   {
-    question: "She had the privilege to see the young child Jesus and bear witness about him.",
+    question:
+      "She had the privilege to see the young child Jesus and bear witness about him.",
     clueSource: "Lucas 2:36-38",
-    clueSourceContent: "36 Now there was a prophetess, Anna the daughter of Phanʹu·el, of Ashʹer’s tribe. This woman was well along in years and had lived with her husband for seven years after they were married,* 37 and she was a widow now 84 years old. She was never missing from the temple, rendering sacred service night and day with fasting and supplications. 38 In that very hour she came near and began giving thanks to God and speaking about the child to all who were waiting for Jerusalem’s deliverance.",
+    clueSourceContent:
+      "36 Now there was a prophetess, Anna the daughter of Phanʹu·el, of Ashʹer’s tribe. This woman was well along in years and had lived with her husband for seven years after they were married,* 37 and she was a widow now 84 years old. She was never missing from the temple, rendering sacred service night and day with fasting and supplications. 38 In that very hour she came near and began giving thanks to God and speaking about the child to all who were waiting for Jerusalem’s deliverance.",
     choiceA: "Huldah",
     choiceB: "Isaiah's wife",
     choiceC: "Deborah",
@@ -5712,9 +6055,11 @@ const prophetesses = [
     correctAnswer: "D",
   },
   {
-    question: "She spoke “about the child [Jesus] to all who were waiting for Jerusalem’s deliverance.”",
+    question:
+      "She spoke “about the child [Jesus] to all who were waiting for Jerusalem’s deliverance.”",
     clueSource: "Lucas 2:36-38",
-    clueSourceContent: "36 Now there was a prophetess, Anna the daughter of Phanʹu·el, of Ashʹer’s tribe. This woman was well along in years and had lived with her husband for seven years after they were married,* 37 and she was a widow now 84 years old. She was never missing from the temple, rendering sacred service night and day with fasting and supplications. 38 In that very hour she came near and began giving thanks to God and speaking about the child to all who were waiting for Jerusalem’s deliverance.",
+    clueSourceContent:
+      "36 Now there was a prophetess, Anna the daughter of Phanʹu·el, of Ashʹer’s tribe. This woman was well along in years and had lived with her husband for seven years after they were married,* 37 and she was a widow now 84 years old. She was never missing from the temple, rendering sacred service night and day with fasting and supplications. 38 In that very hour she came near and began giving thanks to God and speaking about the child to all who were waiting for Jerusalem’s deliverance.",
     choiceA: "Anna",
     choiceB: "Deborah",
     choiceC: "Huldah",
@@ -5734,9 +6079,11 @@ const prophetesses = [
     correctAnswer: "B",
   },
   {
-    question: "During a period of national weakness and apostasy, she served figuratively as “a mother in Israel.”",
+    question:
+      "During a period of national weakness and apostasy, she served figuratively as “a mother in Israel.”",
     clueSource: "Judges 5:6-8",
-    clueSourceContent: "6 In the days of Shamʹgar+ the son of Aʹnath, In the days of Jaʹel,+ the roads were deserted; Travelers kept to the back roads. 7 The villagers in Israel were no more;* They were no more until I, Debʹo·rah,+ rose up, Until I arose as a mother in Israel.+ 8 They chose new gods;+ Then there was war in the gates.+ A shield could not be seen, nor a lance, Among 40,000 in Israel.",
+    clueSourceContent:
+      "6 In the days of Shamʹgar+ the son of Aʹnath, In the days of Jaʹel,+ the roads were deserted; Travelers kept to the back roads. 7 The villagers in Israel were no more;* They were no more until I, Debʹo·rah,+ rose up, Until I arose as a mother in Israel.+ 8 They chose new gods;+ Then there was war in the gates.+ A shield could not be seen, nor a lance, Among 40,000 in Israel.",
     choiceA: "Huldah",
     choiceB: "Anna",
     choiceC: "Deborah",
@@ -5746,7 +6093,8 @@ const prophetesses = [
   {
     question: "She was the wife of Lappidoth.",
     clueSource: "Judges 4:4",
-    clueSourceContent: "4 Now Debʹo·rah, a prophetess,+ the wife of Lapʹpi·doth, was judging Israel at that time.",
+    clueSourceContent:
+      "4 Now Debʹo·rah, a prophetess,+ the wife of Lapʹpi·doth, was judging Israel at that time.",
     choiceA: "Miriam",
     choiceB: "Huldah",
     choiceC: "Anna",
@@ -5754,9 +6102,11 @@ const prophetesses = [
     correctAnswer: "D",
   },
   {
-    question: "She prophesied this: “It will be into the hand of a woman that Jehovah will give Sisera.”",
+    question:
+      "She prophesied this: “It will be into the hand of a woman that Jehovah will give Sisera.”",
     clueSource: "Judges 4:9",
-    clueSourceContent: "9 To this she said: “I will certainly go with you. However, the campaign you are going on will not bring you glory, for it will be into the hand of a woman that Jehovah will give Sisʹe·ra.”+ Then Debʹo·rah got up and went with Baʹrak to Keʹdesh.+",
+    clueSourceContent:
+      "9 To this she said: “I will certainly go with you. However, the campaign you are going on will not bring you glory, for it will be into the hand of a woman that Jehovah will give Sisʹe·ra.”+ Then Debʹo·rah got up and went with Baʹrak to Keʹdesh.+",
     choiceA: "Deborah",
     choiceB: "Jael",
     choiceC: "Huldah",
@@ -5764,9 +6114,11 @@ const prophetesses = [
     correctAnswer: "A",
   },
   {
-    question: "Who was a prophetess residing at Jerusalem during the reign of faithful King Josiah of Judah?",
+    question:
+      "Who was a prophetess residing at Jerusalem during the reign of faithful King Josiah of Judah?",
     clueSource: "Insight on the Scriptures Volume 1, [Huldah] p.1157",
-    clueSourceContent: "(Hulʹdah) [feminine form of Heled, meaning “Duration of Life; System of Things”; or, possibly, “Mole Rat”]. The wife of Shallum; a prophetess residing at Jerusalem during the reign of faithful King Josiah of Judah.",
+    clueSourceContent:
+      "(Hulʹdah) [feminine form of Heled, meaning “Duration of Life; System of Things”; or, possibly, “Mole Rat”]. The wife of Shallum; a prophetess residing at Jerusalem during the reign of faithful King Josiah of Judah.",
     choiceA: "Anna",
     choiceB: "Huldah",
     choiceC: "Noadiah",
@@ -5776,7 +6128,8 @@ const prophetesses = [
   {
     question: "She was the wife of Shallum.",
     clueSource: "2 Kings 22:14",
-    clueSourceContent: "14 So Hil·kiʹah the priest, A·hiʹkam, Achʹbor, Shaʹphan, and A·saiʹah went to Hulʹdah the prophetess.+ She was the wife of Shalʹlum son of Tikʹvah son of Harʹhas, the caretaker of the wardrobe, and she was dwelling in the Second Quarter of Jerusalem; and they spoke to her there.",
+    clueSourceContent:
+      "14 So Hil·kiʹah the priest, A·hiʹkam, Achʹbor, Shaʹphan, and A·saiʹah went to Hulʹdah the prophetess.+ She was the wife of Shalʹlum son of Tikʹvah son of Harʹhas, the caretaker of the wardrobe, and she was dwelling in the Second Quarter of Jerusalem; and they spoke to her there.",
     choiceA: "Isaiah's wife",
     choiceB: "Anna",
     choiceC: "Huldah",
@@ -5784,9 +6137,11 @@ const prophetesses = [
     correctAnswer: "C",
   },
   {
-    question: "She stated that, because king Josiah humbled himself before Jehovah, he won't experience the calamity, but peace.​",
+    question:
+      "She stated that, because king Josiah humbled himself before Jehovah, he won't experience the calamity, but peace.​",
     clueSource: "2 Kings 22:14-20",
-    clueSourceContent: "14 So Hil·kiʹah the priest, A·hiʹkam, Achʹbor, Shaʹphan, and A·saiʹah went to Hulʹdah the prophetess.+ She was the wife of Shalʹlum son of Tikʹvah son of Harʹhas, the caretaker of the wardrobe, and she was dwelling in the Second Quarter of Jerusalem; and they spoke to her there.+ 15 She said to them: “This is what Jehovah the God of Israel says, ‘Tell the man who sent you to me: 16 “This is what Jehovah says, ‘I will bring calamity on this place and its inhabitants, all the words of the book that the king of Judah has read.+ 17 Because they have abandoned me and are making sacrifices smoke to other gods+ in order to offend me with all the work of their hands,+ my rage will be set ablaze against this place and it will not be extinguished.’”+ 18 But to the king of Judah who sent you to inquire of Jehovah, this is what you should say to him, “This is what Jehovah the God of Israel says: ‘Regarding the words that you have heard, 19 because your heart was responsive* and you humbled yourself+ before Jehovah on hearing what I have spoken against this place and its inhabitants—that they would become an object of horror and a curse—and you ripped your garments apart+ and wept before me, I also have heard you, declares Jehovah. 20 That is why I will gather you to your ancestors,* and you will be laid in your grave in peace, and your eyes will not see all the calamity that I will bring on this place.’”’” Then they brought the reply to the king.",
+    clueSourceContent:
+      "14 So Hil·kiʹah the priest, A·hiʹkam, Achʹbor, Shaʹphan, and A·saiʹah went to Hulʹdah the prophetess.+ She was the wife of Shalʹlum son of Tikʹvah son of Harʹhas, the caretaker of the wardrobe, and she was dwelling in the Second Quarter of Jerusalem; and they spoke to her there.+ 15 She said to them: “This is what Jehovah the God of Israel says, ‘Tell the man who sent you to me: 16 “This is what Jehovah says, ‘I will bring calamity on this place and its inhabitants, all the words of the book that the king of Judah has read.+ 17 Because they have abandoned me and are making sacrifices smoke to other gods+ in order to offend me with all the work of their hands,+ my rage will be set ablaze against this place and it will not be extinguished.’”+ 18 But to the king of Judah who sent you to inquire of Jehovah, this is what you should say to him, “This is what Jehovah the God of Israel says: ‘Regarding the words that you have heard, 19 because your heart was responsive* and you humbled yourself+ before Jehovah on hearing what I have spoken against this place and its inhabitants—that they would become an object of horror and a curse—and you ripped your garments apart+ and wept before me, I also have heard you, declares Jehovah. 20 That is why I will gather you to your ancestors,* and you will be laid in your grave in peace, and your eyes will not see all the calamity that I will bring on this place.’”’” Then they brought the reply to the king.",
     choiceA: "Noadiah",
     choiceB: "Anna",
     choiceC: "Isaiah's wife",
@@ -5796,7 +6151,8 @@ const prophetesses = [
   {
     question: "The daughter of Amram and his wife Jochebed.",
     clueSource: "Numbers 26:59",
-    clueSourceContent: "59 And the name of Amʹram’s wife was Jochʹe·bed,+ Leʹvi’s daughter, whom his wife bore to Leʹvi in Egypt. And to Amʹram she bore Aaron and Moses and their sister Mirʹi·am.",
+    clueSourceContent:
+      "59 And the name of Amʹram’s wife was Jochʹe·bed,+ Leʹvi’s daughter, whom his wife bore to Leʹvi in Egypt. And to Amʹram she bore Aaron and Moses and their sister Mirʹi·am.",
     choiceA: "Miriam",
     choiceB: "Deborah",
     choiceC: "Anna",
@@ -5804,9 +6160,11 @@ const prophetesses = [
     correctAnswer: "A",
   },
   {
-    question: "After the triumph over Pharaoh at the Red Sea, this prophetess led the women of Israel in joyful tambourine playing and in dancing. ",
+    question:
+      "After the triumph over Pharaoh at the Red Sea, this prophetess led the women of Israel in joyful tambourine playing and in dancing. ",
     clueSource: "Exodus 15:20, 21",
-    clueSourceContent: "20 Then Mirʹi·am the prophetess, Aaron’s sister, took a tambourine in her hand, and all the women followed her with tambourines and with dances. 21 Mirʹi·am sang in response to the men: “Sing to Jehovah, for he has become highly exalted.+ The horse and its rider he has hurled into the sea.”+",
+    clueSourceContent:
+      "20 Then Mirʹi·am the prophetess, Aaron’s sister, took a tambourine in her hand, and all the women followed her with tambourines and with dances. 21 Mirʹi·am sang in response to the men: “Sing to Jehovah, for he has become highly exalted.+ The horse and its rider he has hurled into the sea.”+",
     choiceA: "Deborah",
     choiceB: "Miriam",
     choiceC: "Huldah",
@@ -5816,7 +6174,8 @@ const prophetesses = [
   {
     question: "She was buried at Kadesh in the Wilderness of Zin.",
     clueSource: "Insight on the Scriptures Volume 2, [Miriam] pp. 414, 415",
-    clueSourceContent: "Miriam died and was buried at Kadesh in the Wilderness of Zin, shortly before Aaron’s death. (Nu 20:1, 28) Centuries later, through his prophet Micah, Jehovah called to remembrance the privilege Miriam enjoyed in association with her brothers when Israel came out of Egypt, saying: “For I brought you up out of the land of Egypt, and from the house of slaves I redeemed you; and I proceeded to send before you Moses, Aaron and Miriam.”​—Mic 6:4.",
+    clueSourceContent:
+      "Miriam died and was buried at Kadesh in the Wilderness of Zin, shortly before Aaron’s death. (Nu 20:1, 28) Centuries later, through his prophet Micah, Jehovah called to remembrance the privilege Miriam enjoyed in association with her brothers when Israel came out of Egypt, saying: “For I brought you up out of the land of Egypt, and from the house of slaves I redeemed you; and I proceeded to send before you Moses, Aaron and Miriam.”​—Mic 6:4.",
     choiceA: "Anna",
     choiceB: "Noadiah",
     choiceC: "Miriam",
@@ -5826,7 +6185,8 @@ const prophetesses = [
   {
     question: "Who was the first woman designated a prophetess in the Bible?",
     clueSource: "Insight on the Scriptures Volume 2, [Prophetess] p. 698",
-    clueSourceContent: "Miriam is the first woman designated a prophetess in the Bible. God evidently conveyed some message or messages through her, perhaps in inspired singing. (Ex 15:20, 21) Thus, she and Aaron are recorded as saying to Moses: “Is it not by us also that [Jehovah] has spoken?” (Nu 12:2) Jehovah himself, through the prophet Micah, spoke of having sent “Moses, Aaron and Miriam” before the Israelites when bringing them up out of Egypt. (Mic 6:4) Though Miriam was privileged to be used as an instrument of divine communication, her relationship as such toward God was inferior to that of her brother Moses. When she failed to keep her proper place, she suffered severe chastisement from God.​—Nu 12:1-15.",
+    clueSourceContent:
+      "Miriam is the first woman designated a prophetess in the Bible. God evidently conveyed some message or messages through her, perhaps in inspired singing. (Ex 15:20, 21) Thus, she and Aaron are recorded as saying to Moses: “Is it not by us also that [Jehovah] has spoken?” (Nu 12:2) Jehovah himself, through the prophet Micah, spoke of having sent “Moses, Aaron and Miriam” before the Israelites when bringing them up out of Egypt. (Mic 6:4) Though Miriam was privileged to be used as an instrument of divine communication, her relationship as such toward God was inferior to that of her brother Moses. When she failed to keep her proper place, she suffered severe chastisement from God.​—Nu 12:1-15.",
     choiceA: "Eve",
     choiceB: "Deborah",
     choiceC: "Isaiah's wife",
@@ -5834,9 +6194,11 @@ const prophetesses = [
     correctAnswer: "D",
   },
   {
-    question: "When this prophetess failed to keep her proper place, she suffered severe chastisement from God, thus, leprosy.​",
+    question:
+      "When this prophetess failed to keep her proper place, she suffered severe chastisement from God, thus, leprosy.​",
     clueSource: "Numbers 12:1-15",
-    clueSourceContent: "Now Mirʹi·am and Aaron began to speak against Moses because of the Cushʹite wife he had married, for he had taken a Cushʹite wife.+ 2 They were saying: “Is it only by Moses that Jehovah has spoken? Has he not also spoken through us?”+ And Jehovah was listening.+ 3 Now the man Moses was by far the meekest of all the men*+ on the face of the earth. 4 Jehovah suddenly said to Moses and Aaron and Mirʹi·am: “Go out, the three of you, to the tent of meeting.” So the three of them went out. 5 And Jehovah came down in the pillar of cloud+ and stood at the entrance of the tent and called Aaron and Mirʹi·am. Both of them went forward. 6 He then said: “Hear my words, please. If there was a prophet of Jehovah among you, I would make myself known to him in a vision,+ and I would speak to him in a dream.+ 7 But it is not that way with my servant Moses! He is being entrusted with all my house.*+ 8 Face-to-face* I speak to him,+ openly, not by riddles; and the appearance of Jehovah is what he sees. Why, then, did you not fear to speak against my servant, against Moses?” 9 So Jehovah’s anger burned against them, and he departed from them. 10 The cloud moved away from over the tent, and look! Mirʹi·am was struck with leprosy as white as snow.+ Then Aaron turned toward Mirʹi·am, and he saw that she was struck with leprosy.+ 11 Immediately Aaron said to Moses: “I beg you, my lord! Please do not hold this sin against us! We have acted foolishly in what we have done. 12 Please, do not let her continue like someone dead, whose flesh is half eaten away at birth!” 13 And Moses began to cry out to Jehovah, saying: “O God, please heal her! Please!”+ 14 Jehovah replied to Moses: “If her father would spit directly in her face, would she not be humiliated for seven days? Let her be quarantined for seven days outside the camp,+ and afterward she may be brought back in.” 15 So Mirʹi·am was quarantined outside the camp for seven days,+ and the people did not break camp until Mirʹi·am was brought back in.",
+    clueSourceContent:
+      "Now Mirʹi·am and Aaron began to speak against Moses because of the Cushʹite wife he had married, for he had taken a Cushʹite wife.+ 2 They were saying: “Is it only by Moses that Jehovah has spoken? Has he not also spoken through us?”+ And Jehovah was listening.+ 3 Now the man Moses was by far the meekest of all the men*+ on the face of the earth. 4 Jehovah suddenly said to Moses and Aaron and Mirʹi·am: “Go out, the three of you, to the tent of meeting.” So the three of them went out. 5 And Jehovah came down in the pillar of cloud+ and stood at the entrance of the tent and called Aaron and Mirʹi·am. Both of them went forward. 6 He then said: “Hear my words, please. If there was a prophet of Jehovah among you, I would make myself known to him in a vision,+ and I would speak to him in a dream.+ 7 But it is not that way with my servant Moses! He is being entrusted with all my house.*+ 8 Face-to-face* I speak to him,+ openly, not by riddles; and the appearance of Jehovah is what he sees. Why, then, did you not fear to speak against my servant, against Moses?” 9 So Jehovah’s anger burned against them, and he departed from them. 10 The cloud moved away from over the tent, and look! Mirʹi·am was struck with leprosy as white as snow.+ Then Aaron turned toward Mirʹi·am, and he saw that she was struck with leprosy.+ 11 Immediately Aaron said to Moses: “I beg you, my lord! Please do not hold this sin against us! We have acted foolishly in what we have done. 12 Please, do not let her continue like someone dead, whose flesh is half eaten away at birth!” 13 And Moses began to cry out to Jehovah, saying: “O God, please heal her! Please!”+ 14 Jehovah replied to Moses: “If her father would spit directly in her face, would she not be humiliated for seven days? Let her be quarantined for seven days outside the camp,+ and afterward she may be brought back in.” 15 So Mirʹi·am was quarantined outside the camp for seven days,+ and the people did not break camp until Mirʹi·am was brought back in.",
     choiceA: "Miriam",
     choiceB: "Deborah",
     choiceC: "Noadiah",
@@ -5844,9 +6206,11 @@ const prophetesses = [
     correctAnswer: "A",
   },
   {
-    question: "She was a prophetess who tried to stop the rebuilding of Jerusalem’s walls by instilling fear in Nehemiah.​",
+    question:
+      "She was a prophetess who tried to stop the rebuilding of Jerusalem’s walls by instilling fear in Nehemiah.​",
     clueSource: "Nehemiah 6:14",
-    clueSourceContent: "14 Do remember, O my God, To·biʹah+ and San·balʹlat and these deeds, and also No·a·diʹah the prophetess and the rest of the prophets who were constantly trying to frighten me.",
+    clueSourceContent:
+      "14 Do remember, O my God, To·biʹah+ and San·balʹlat and these deeds, and also No·a·diʹah the prophetess and the rest of the prophets who were constantly trying to frighten me.",
     choiceA: "Huldah",
     choiceB: "Noadiah",
     choiceC: "Miriam",
@@ -5854,9 +6218,11 @@ const prophetesses = [
     correctAnswer: "B",
   },
   {
-    question: "She was a prophetess that's called by his own husband, who's also a prophet, “the prophetess.”",
+    question:
+      "She was a prophetess that's called by his own husband, who's also a prophet, “the prophetess.”",
     clueSource: "Isaiah 8:3",
-    clueSourceContent: "3 Then I had relations with* the prophetess,* and she became pregnant and in time gave birth to a son.+ Jehovah then said to me: “Name him Maʹher-shalʹal-hash-baz.",
+    clueSourceContent:
+      "3 Then I had relations with* the prophetess,* and she became pregnant and in time gave birth to a son.+ Jehovah then said to me: “Name him Maʹher-shalʹal-hash-baz.",
     choiceA: "Hulda",
     choiceB: "Deborah",
     choiceC: "Isaiah's wife",
@@ -5866,7 +6232,8 @@ const prophetesses = [
   {
     question: "“This man had four unmarried daughters who prophesied.”",
     clueSource: "Acts 21:8, 9",
-    clueSourceContent: "8 The next day we left and came to Caes·a·reʹa, and we entered the house of Philip the evangelizer,+ who was one of the seven men,+ and we stayed with him. 9 This man had four unmarried daughters who prophesied.",
+    clueSourceContent:
+      "8 The next day we left and came to Caes·a·reʹa, and we entered the house of Philip the evangelizer,+ who was one of the seven men,+ and we stayed with him. 9 This man had four unmarried daughters who prophesied.",
     choiceA: "Stephen",
     choiceB: "Paul",
     choiceC: "Aquila",
@@ -5877,206 +6244,245 @@ const prophetesses = [
 
 const islands = [
   {
-    question: "An island off the SouthWest coast of Crete passed by the apostle Paul and Luke on the voyage to Rome in about 58 C.E.",
+    question:
+      "An island off the SouthWest coast of Crete passed by the apostle Paul and Luke on the voyage to Rome in about 58 C.E.",
     clueSource: "Insight on the Scriptures Volume 1, [Cauda] p. 423",
-    clueSourceContent: "(Cauʹda). An island off the SW coast of Crete passed by the apostle Paul and Luke on the voyage to Rome in about 58 C.E. Having lifted anchor at Fair Havens, their ship hugged the S coast of Crete until, likely after rounding Cape Matala, they were caught and driven by a tempestuous wind that could have forced the boat into the quicksands off the shores of North Africa.",
+    clueSourceContent:
+      "(Cauʹda). An island off the SW coast of Crete passed by the apostle Paul and Luke on the voyage to Rome in about 58 C.E. Having lifted anchor at Fair Havens, their ship hugged the S coast of Crete until, likely after rounding Cape Matala, they were caught and driven by a tempestuous wind that could have forced the boat into the quicksands off the shores of North Africa.",
     choiceA: "Cauda",
     choiceB: "Chios",
     choiceC: "Crete",
     choiceD: "Cyprus",
-    correctAnswer: "A"
+    correctAnswer: "A",
   },
   {
-    question: "The apostle Paul and Luke “ran under the shelter of a small island” called what?",
+    question:
+      "The apostle Paul and Luke “ran under the shelter of a small island” called what?",
     clueSource: "Acts 27:13-17",
-    clueSourceContent: "13 When the south wind blew softly, they thought they had achieved their purpose, and they lifted anchor and began sailing along Crete close to the shore. 14 After a short time, however, a violent wind called Eu·ro·aqʹui·lo rushed down on it. 15 As the ship was violently seized and was not able to keep its head against the wind, we gave way to it and were driven along. 16 Then we ran under the shelter of a small island called Cauʹda, and yet we were hardly able to get the skiff at the stern of the ship under control. 17 But after hoisting it aboard, they used supports to undergird the ship, and fearing that they would run aground on the Syrʹtis, they lowered the gear and so were driven along.",
+    clueSourceContent:
+      "13 When the south wind blew softly, they thought they had achieved their purpose, and they lifted anchor and began sailing along Crete close to the shore. 14 After a short time, however, a violent wind called Eu·ro·aqʹui·lo rushed down on it. 15 As the ship was violently seized and was not able to keep its head against the wind, we gave way to it and were driven along. 16 Then we ran under the shelter of a small island called Cauʹda, and yet we were hardly able to get the skiff at the stern of the ship under control. 17 But after hoisting it aboard, they used supports to undergird the ship, and fearing that they would run aground on the Syrʹtis, they lowered the gear and so were driven along.",
     choiceA: "Cyprus",
     choiceB: "Cauda",
     choiceC: "Malta",
     choiceD: "Samos",
-    correctAnswer: "B"
+    correctAnswer: "B",
   },
   {
-    question: "The ship on which Paul was traveling left Mitylene and the next day, “arrived off” what island?",
+    question:
+      "The ship on which Paul was traveling left Mitylene and the next day, “arrived off” what island?",
     clueSource: "Acts 20:14, 15",
-    clueSourceContent: "14 So when he caught up with us in Asʹsos, we took him aboard and went to Mit·y·leʹne. 15 And sailing away from there the next day, we arrived off Chiʹos, but the day after that, we touched at Saʹmos, and on the following day, we arrived at Mi·leʹtus.",
+    clueSourceContent:
+      "14 So when he caught up with us in Asʹsos, we took him aboard and went to Mit·y·leʹne. 15 And sailing away from there the next day, we arrived off Chiʹos, but the day after that, we touched at Saʹmos, and on the following day, we arrived at Mi·leʹtus.",
     choiceA: "Samos",
     choiceB: "Miletus",
     choiceC: "Chios",
     choiceD: "Patmos",
-    correctAnswer: "C"
+    correctAnswer: "C",
   },
   {
-    question: "The fifth-largest island of the Mediterranean, and its inhabitants.",
+    question:
+      "The fifth-largest island of the Mediterranean, and its inhabitants.",
     clueSource: "Insight on the Scriptures Volume 1, [Crete] pp. 547, 548",
-    clueSourceContent: "The fifth-largest island of the Mediterranean, and its inhabitants. The island measures about 250 km (155 mi) long and varies in breadth from 13 to 56 km (8 to 35 mi). Crete lies at the southern end of the Aegean Sea about 100 km (62 mi) SE of Greece. Mountains, some covered with snow during part of the year, run the full length of the narrow island. Near the center of Crete, Mount Ida rises 2,456 m (8,058 ft) above sea level. The N coast has some good harbors, but the southern coastline is more regular and along much of it the mountains drop off steeply to the sea. So, the S coast provides few favorable sites for harbors, as indicated in the account of Paul’s voyage to Rome, considered later.",
+    clueSourceContent:
+      "The fifth-largest island of the Mediterranean, and its inhabitants. The island measures about 250 km (155 mi) long and varies in breadth from 13 to 56 km (8 to 35 mi). Crete lies at the southern end of the Aegean Sea about 100 km (62 mi) SE of Greece. Mountains, some covered with snow during part of the year, run the full length of the narrow island. Near the center of Crete, Mount Ida rises 2,456 m (8,058 ft) above sea level. The N coast has some good harbors, but the southern coastline is more regular and along much of it the mountains drop off steeply to the sea. So, the S coast provides few favorable sites for harbors, as indicated in the account of Paul’s voyage to Rome, considered later.",
     choiceA: "Rhodes",
     choiceB: "Cauda",
     choiceC: "Patmos",
     choiceD: "Crete",
-    correctAnswer: "D"
+    correctAnswer: "D",
   },
   {
-    question: "An island generally accepted to be the “Caphtor” referred to in the Hebrew Scriptures.",
+    question:
+      "An island generally accepted to be the “Caphtor” referred to in the Hebrew Scriptures.",
     clueSource: "Jeremiah 47:4",
-    clueSourceContent: "4 Because the day that is coming will destroy all the Phi·lisʹtines;+ It will cut off from Tyre+ and Siʹdon+ every remaining ally. For Jehovah will destroy the Phi·lisʹtines, Who are the remaining ones from the island of Caphʹtor. [*ft. That is, Crete.]",
+    clueSourceContent:
+      "4 Because the day that is coming will destroy all the Phi·lisʹtines;+ It will cut off from Tyre+ and Siʹdon+ every remaining ally. For Jehovah will destroy the Phi·lisʹtines, Who are the remaining ones from the island of Caphʹtor. [*ft. That is, Crete.]",
     choiceA: "Crete",
     choiceB: "Cauda",
     choiceC: "Cyprus",
     choiceD: "Chios",
-    correctAnswer: "A"
+    correctAnswer: "A",
   },
   {
     question: "The place from which the Philistines migrated to Canaan.",
     clueSource: "Jeremiah 47:4",
-    clueSourceContent: "4 Because the day that is coming will destroy all the Phi·lisʹtines;+ It will cut off from Tyre+ and Siʹdon+ every remaining ally. For Jehovah will destroy the Phi·lisʹtines, Who are the remaining ones from the island of Caphʹtor. [*ft. That is, Crete.]",
+    clueSourceContent:
+      "4 Because the day that is coming will destroy all the Phi·lisʹtines;+ It will cut off from Tyre+ and Siʹdon+ every remaining ally. For Jehovah will destroy the Phi·lisʹtines, Who are the remaining ones from the island of Caphʹtor. [*ft. That is, Crete.]",
     choiceA: "Malta",
     choiceB: "Crete",
     choiceC: "Samothrace",
     choiceD: "Kittim",
-    correctAnswer: "B"
+    correctAnswer: "B",
   },
   {
-    question: "Its early inhabitants were descendants of Mizraim, whose name is Biblically equivalent to Egypt.​",
+    question:
+      "Its early inhabitants were descendants of Mizraim, whose name is Biblically equivalent to Egypt.​",
     clueSource: "Insight on the Scriptures Volume 1, [Crete] p. 548",
-    clueSourceContent: "If the identification of Caphtor with Crete is accepted, as seems reasonable, then the early inhabitants of the island were descendants of Mizraim, whose name is Biblically equivalent to Egypt.​—Ge 10:13, 14.",
+    clueSourceContent:
+      "If the identification of Caphtor with Crete is accepted, as seems reasonable, then the early inhabitants of the island were descendants of Mizraim, whose name is Biblically equivalent to Egypt.​—Ge 10:13, 14.",
     choiceA: "Chios",
     choiceB: "Cauda",
     choiceC: "Crete",
     choiceD: "Malta",
-    correctAnswer: "C"
+    correctAnswer: "C",
   },
   {
-    question: "The apostle Paul, on his way to Rome for trial, passed by this island aboard a grain ship of Alexandria, about the fall of the year 58 C.E.",
+    question:
+      "The apostle Paul, on his way to Rome for trial, passed by this island aboard a grain ship of Alexandria, about the fall of the year 58 C.E.",
     clueSource: "Acts 27:6, 7",
-    clueSourceContent: "6 There the army officer found a ship from Alexandria that was sailing for Italy, and he made us board it. 7 Then after sailing on slowly quite a number of days, we came to Cniʹdus with difficulty. Because the wind did not let us make headway, we sailed under the shelter of Crete off Sal·moʹne.",
+    clueSourceContent:
+      "6 There the army officer found a ship from Alexandria that was sailing for Italy, and he made us board it. 7 Then after sailing on slowly quite a number of days, we came to Cniʹdus with difficulty. Because the wind did not let us make headway, we sailed under the shelter of Crete off Sal·moʹne.",
     choiceA: "Patmos",
     choiceB: "Samothrace",
     choiceC: "Cauda",
     choiceD: "Crete",
-    correctAnswer: "D"
+    correctAnswer: "D",
   },
   {
-    question: "Following his 2 years of imprisonment in Rome, Paul visited this island and engaged in Christian activity there during the final period of his ministry.",
+    question:
+      "Following his 2 years of imprisonment in Rome, Paul visited this island and engaged in Christian activity there during the final period of his ministry.",
     clueSource: "Insight on the Scriptures Volume 1, [Crete] p. 548",
-    clueSourceContent: "The evidence is that, following his two years of imprisonment in Rome, Paul visited Crete and engaged in Christian activity there during the final period of his ministry.",
+    clueSourceContent:
+      "The evidence is that, following his two years of imprisonment in Rome, Paul visited Crete and engaged in Christian activity there during the final period of his ministry.",
     choiceA: "Crete",
     choiceB: "Rhodes",
     choiceC: "Patmos",
     choiceD: "Samos",
-    correctAnswer: "A"
+    correctAnswer: "A",
   },
   {
-    question: "On departing, Paul assigned Titus to remain in what island to correct the things that were defective among the congregations?",
+    question:
+      "On departing, Paul assigned Titus to remain in what island to correct the things that were defective among the congregations?",
     clueSource: "Titus 1:5",
-    clueSourceContent: "5 I left you in Crete so that you would correct the things that were defective* and make appointments of elders in city after city, as I instructed you.",
+    clueSourceContent:
+      "5 I left you in Crete so that you would correct the things that were defective* and make appointments of elders in city after city, as I instructed you.",
     choiceA: "Cyprus",
     choiceB: "Crete",
     choiceC: "Chios",
     choiceD: "Malta",
-    correctAnswer: "B"
+    correctAnswer: "B",
   },
   {
-    question: "A certain prophet of this island said about its inhabitants as “liars, injurious wild beasts, idle gluttons.”",
+    question:
+      "A certain prophet of this island said about its inhabitants as “liars, injurious wild beasts, idle gluttons.”",
     clueSource: "Titus 1:12",
-    clueSourceContent: "12 A certain one of them, their own prophet, said: “Creʹtans are always liars, injurious wild beasts, idle gluttons.”",
+    clueSourceContent:
+      "12 A certain one of them, their own prophet, said: “Creʹtans are always liars, injurious wild beasts, idle gluttons.”",
     choiceA: "Malta",
     choiceB: "Patmos",
     choiceC: "Crete",
     choiceD: "Chios",
-    correctAnswer: "C"
+    correctAnswer: "C",
   },
   {
-    question: "This is the third-largest island of the Mediterranean, coming after Sicily and Sardinia.",
+    question:
+      "This is the third-largest island of the Mediterranean, coming after Sicily and Sardinia.",
     clueSource: "Insight on the Scriptures Volume 1, [Cyprus] p. 564",
-    clueSourceContent: "(Cyʹprus). An island in the NE corner of the Mediterranean Sea, situated about 70 km (43 mi) from the coast of Cilicia in Asia Minor and about 100 km (62 mi) from the Syrian coast. Cyprus is the third-largest island of the Mediterranean, coming after Sicily and Sardinia. The main body of Cyprus is about 160 km (100 mi) long, but a narrow arm of land extends out at the NE corner about another 72 km (45 mi). The island is 97 km (60 mi) across at its broadest point. The Troodos Mountains in the SW have the highest peak, Mount Olympus, rising to 1,951 m (6,401 ft). Another mountain range runs along the northern coast, and between these two ranges lies the central plain. Winter caps the mountain peaks with snow, while summer brings hot, dry weather to the plains. From ancient times the island was famous for its rich copper resources, and the name of the island became synonymous with this metal. (The English word “copper” is derived from the Greek Kyʹpros.)",
+    clueSourceContent:
+      "(Cyʹprus). An island in the NE corner of the Mediterranean Sea, situated about 70 km (43 mi) from the coast of Cilicia in Asia Minor and about 100 km (62 mi) from the Syrian coast. Cyprus is the third-largest island of the Mediterranean, coming after Sicily and Sardinia. The main body of Cyprus is about 160 km (100 mi) long, but a narrow arm of land extends out at the NE corner about another 72 km (45 mi). The island is 97 km (60 mi) across at its broadest point. The Troodos Mountains in the SW have the highest peak, Mount Olympus, rising to 1,951 m (6,401 ft). Another mountain range runs along the northern coast, and between these two ranges lies the central plain. Winter caps the mountain peaks with snow, while summer brings hot, dry weather to the plains. From ancient times the island was famous for its rich copper resources, and the name of the island became synonymous with this metal. (The English word “copper” is derived from the Greek Kyʹpros.)",
     choiceA: "Crete",
     choiceB: "Chios",
     choiceC: "Patmos",
     choiceD: "Cyprus",
-    correctAnswer: "D"
+    correctAnswer: "D",
   },
   {
-    question: "Historical evidence points principally to what island as the “Kittim” of the Hebrew Scriptures.",
+    question:
+      "Historical evidence points principally to what island as the “Kittim” of the Hebrew Scriptures.",
     clueSource: "Insight on the Scriptures Volume 1, [Cyprus] p. 564",
-    clueSourceContent: "Historical evidence points principally to Cyprus as the “Kittim” of the Hebrew Scriptures. (Isa 23:1, 12; Da 11:30) The island was renowned not only for its copper but also for its fine timber, particularly cypress wood, which was apparently exported to Tyre on the Phoenician coast for use in shipbuilding.​—Eze 27:2, 6.",
+    clueSourceContent:
+      "Historical evidence points principally to Cyprus as the “Kittim” of the Hebrew Scriptures. (Isa 23:1, 12; Da 11:30) The island was renowned not only for its copper but also for its fine timber, particularly cypress wood, which was apparently exported to Tyre on the Phoenician coast for use in shipbuilding.​—Eze 27:2, 6.",
     choiceA: "Cyprus",
     choiceB: "Chios",
     choiceC: "Patmos",
     choiceD: "Malta",
-    correctAnswer: "A"
+    correctAnswer: "A",
   },
   {
-    question: "The Levite Joseph, better known as Barnabas, was born in what island?",
+    question:
+      "The Levite Joseph, better known as Barnabas, was born in what island?",
     clueSource: "Acts 4:36",
-    clueSourceContent: "36 So Joseph, who was also called by the apostles Barʹna·bas+ (which means, when translated, “Son of Comfort”), a Levite, a native of Cyʹprus.",
+    clueSourceContent:
+      "36 So Joseph, who was also called by the apostles Barʹna·bas+ (which means, when translated, “Son of Comfort”), a Levite, a native of Cyʹprus.",
     choiceA: "Santorini",
     choiceB: "Cyprus",
     choiceC: "Aegean Islands",
     choiceD: "Malta",
-    correctAnswer: "B"
+    correctAnswer: "B",
   },
   {
-    question: "When Paul and Barnabas were sent out from Antioch on their first missionary tour, their initial territory was in what island?",
+    question:
+      "When Paul and Barnabas were sent out from Antioch on their first missionary tour, their initial territory was in what island?",
     clueSource: "Insight on the Scriptures Volume 1, [",
-    clueSourceContent: "When Paul and Barnabas, accompanied by John Mark, were sent out from Antioch on their first missionary tour (c. 47-48 C.E.), their initial territory was in Barnabas’ home island, Cyprus. Arriving at the important commercial city of Salamis, on the E coast of Cyprus, they found more than one synagogue, indicating a Jewish population of some size. After publishing God’s word here, they traveled across the entire island to Paphos on the W coast, then the Roman provincial capital. Here the encounter with the interested proconsul, Sergius Paulus, and with the opposing sorcerer, Elymas (Bar-Jesus), took place.​—Ac 13:1-12.",
+    clueSourceContent:
+      "When Paul and Barnabas, accompanied by John Mark, were sent out from Antioch on their first missionary tour (c. 47-48 C.E.), their initial territory was in Barnabas’ home island, Cyprus. Arriving at the important commercial city of Salamis, on the E coast of Cyprus, they found more than one synagogue, indicating a Jewish population of some size. After publishing God’s word here, they traveled across the entire island to Paphos on the W coast, then the Roman provincial capital. Here the encounter with the interested proconsul, Sergius Paulus, and with the opposing sorcerer, Elymas (Bar-Jesus), took place.​—Ac 13:1-12.",
     choiceA: "Chios",
     choiceB: "Cauda",
     choiceC: "Cyprus",
     choiceD: "Kittim",
-    correctAnswer: "C"
+    correctAnswer: "C",
   },
   {
-    question: "Mnason, who received Paul in his own home on Jerusalem, was the native of what island?",
+    question:
+      "Mnason, who received Paul in his own home on Jerusalem, was the native of what island?",
     clueSource: "Acts 21:15, 16",
-    clueSourceContent: "15 Now after these days we prepared for the journey and started on our way to Jerusalem. 16 Some of the disciples from Caes·a·reʹa also went with us, taking us to Mnaʹson of Cyʹprus, an early disciple at whose home we were to be guests.",
+    clueSourceContent:
+      "15 Now after these days we prepared for the journey and started on our way to Jerusalem. 16 Some of the disciples from Caes·a·reʹa also went with us, taking us to Mnaʹson of Cyʹprus, an early disciple at whose home we were to be guests.",
     choiceA: "Kittim",
     choiceB: "Cyprus",
     choiceC: "Rhodes",
     choiceD: "Cyprus",
-    correctAnswer: "D"
+    correctAnswer: "D",
   },
   {
-    question: "It was at this island that the apostle Paul experienced shipwreck, and there he remained for 3 months.",
+    question:
+      "It was at this island that the apostle Paul experienced shipwreck, and there he remained for 3 months.",
     clueSource: "Insight on the Scriptures Volume 2, [Malta] p. 302",
-    clueSourceContent: "(Malʹta). An island in the Mediterranean lying about 100 km (60 mi) S of Sicily and having an area of about 246 sq km (95 sq mi). It was at Malta that the apostle Paul was shipwrecked, and there he remained for three months. During this time he healed Publius’ father and others afflicted with sicknesses.​—Ac 28:1, 7-9, 11.",
+    clueSourceContent:
+      "(Malʹta). An island in the Mediterranean lying about 100 km (60 mi) S of Sicily and having an area of about 246 sq km (95 sq mi). It was at Malta that the apostle Paul was shipwrecked, and there he remained for three months. During this time he healed Publius’ father and others afflicted with sicknesses.​—Ac 28:1, 7-9, 11.",
     choiceA: "Malta",
     choiceB: "Kittim",
     choiceC: "Patmos",
     choiceD: "Graham Island",
-    correctAnswer: "A"
+    correctAnswer: "A",
   },
   {
-    question: "In his three-month stay on this island, Paul healed Publius’ father and others afflicted with sicknesses.",
+    question:
+      "In his three-month stay on this island, Paul healed Publius’ father and others afflicted with sicknesses.",
     clueSource: "Insight on the Scriptures Volume 2, [Malta] p. 302",
-    clueSourceContent: "(Malʹta). An island in the Mediterranean lying about 100 km (60 mi) S of Sicily and having an area of about 246 sq km (95 sq mi). It was at Malta that the apostle Paul was shipwrecked, and there he remained for three months. During this time he healed Publius’ father and others afflicted with sicknesses.​—Ac 28:1, 7-9, 11.",
+    clueSourceContent:
+      "(Malʹta). An island in the Mediterranean lying about 100 km (60 mi) S of Sicily and having an area of about 246 sq km (95 sq mi). It was at Malta that the apostle Paul was shipwrecked, and there he remained for three months. During this time he healed Publius’ father and others afflicted with sicknesses.​—Ac 28:1, 7-9, 11.",
     choiceA: "Crete",
     choiceB: "Malta",
     choiceC: "Patmos",
     choiceD: "Cauda",
-    correctAnswer: "B"
+    correctAnswer: "B",
   },
   {
-    question: "Mariners didn't recognize the land as this island even in daylight.",
+    question:
+      "Mariners didn't recognize the land as this island even in daylight.",
     clueSource: "Acts 27:39",
-    clueSourceContent: "39 When daylight came, they could not recognize the land,+ but they saw a bay with a beach and were determined to beach the ship there if they could.",
+    clueSourceContent:
+      "39 When daylight came, they could not recognize the land,+ but they saw a bay with a beach and were determined to beach the ship there if they could.",
     choiceA: "Crete",
     choiceB: "Cauda",
     choiceC: "Malta",
     choiceD: "Samos",
-    correctAnswer: "C"
+    correctAnswer: "C",
   },
   {
-    question: "The people of this island began to view Paul as a god after seeing him not swollen up by the viper.",
+    question:
+      "The people of this island began to view Paul as a god after seeing him not swollen up by the viper.",
     clueSource: "Acts 28:1-6",
-    clueSourceContent: "After we made it to safety, we learned that the island was called Malta.+ 2 And the foreign-speaking people showed us extraordinary kindness. They kindled a fire and received all of us kindly because of the rain that was falling and because of the cold.+ 3 But when Paul collected a bundle of sticks and laid it on the fire, a viper came out because of the heat and fastened itself on his hand. 4 When the foreign-speaking people caught sight of the venomous creature hanging from his hand, they began saying to one another: “Surely this man is a murderer, and although he made it to safety from the sea, Justice did not permit him to keep on living.” 5 However, he shook the creature off into the fire and suffered no harm. 6 But they were expecting him to swell up or suddenly to drop dead. After they waited for a long time and saw that nothing bad happened to him, they changed their mind and began saying he was a god.+",
+    clueSourceContent:
+      "After we made it to safety, we learned that the island was called Malta.+ 2 And the foreign-speaking people showed us extraordinary kindness. They kindled a fire and received all of us kindly because of the rain that was falling and because of the cold.+ 3 But when Paul collected a bundle of sticks and laid it on the fire, a viper came out because of the heat and fastened itself on his hand. 4 When the foreign-speaking people caught sight of the venomous creature hanging from his hand, they began saying to one another: “Surely this man is a murderer, and although he made it to safety from the sea, Justice did not permit him to keep on living.” 5 However, he shook the creature off into the fire and suffered no harm. 6 But they were expecting him to swell up or suddenly to drop dead. After they waited for a long time and saw that nothing bad happened to him, they changed their mind and began saying he was a god.+",
     choiceA: "Crete",
     choiceB: "Kittim",
     choiceC: "Samos",
     choiceD: "Malta",
-    correctAnswer: "D"
+    correctAnswer: "D",
   },
-]
+];
 
 const wars = [
   {
