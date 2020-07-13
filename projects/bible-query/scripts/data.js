@@ -5558,6 +5558,209 @@ const prophetesses = [
   },
 ];
 
+const islands = [
+  {
+    question: "An island off the SouthWest coast of Crete passed by the apostle Paul and Luke on the voyage to Rome in about 58 C.E.",
+    clueSource: "Insight on the Scriptures Volume 1, [Cauda] p. 423",
+    clueSourceContent: "(Cauʹda). An island off the SW coast of Crete passed by the apostle Paul and Luke on the voyage to Rome in about 58 C.E. Having lifted anchor at Fair Havens, their ship hugged the S coast of Crete until, likely after rounding Cape Matala, they were caught and driven by a tempestuous wind that could have forced the boat into the quicksands off the shores of North Africa.",
+    choiceA: "Cauda",
+    choiceB: "Chios",
+    choiceC: "Crete",
+    choiceD: "Cyprus",
+    correctAnswer: "A"
+  },
+  {
+    question: "The apostle Paul and Luke “ran under the shelter of a small island” called what?",
+    clueSource: "Acts 27:13-17",
+    clueSourceContent: "13 When the south wind blew softly, they thought they had achieved their purpose, and they lifted anchor and began sailing along Crete close to the shore. 14 After a short time, however, a violent wind called Eu·ro·aqʹui·lo rushed down on it. 15 As the ship was violently seized and was not able to keep its head against the wind, we gave way to it and were driven along. 16 Then we ran under the shelter of a small island called Cauʹda, and yet we were hardly able to get the skiff at the stern of the ship under control. 17 But after hoisting it aboard, they used supports to undergird the ship, and fearing that they would run aground on the Syrʹtis, they lowered the gear and so were driven along.",
+    choiceA: "Cyprus",
+    choiceB: "Cauda",
+    choiceC: "Malta",
+    choiceD: "Samos",
+    correctAnswer: "B"
+  },
+  {
+    question: "The ship on which Paul was traveling left Mitylene and the next day, “arrived off” what island?",
+    clueSource: "Acts 20:14, 15",
+    clueSourceContent: "14 So when he caught up with us in Asʹsos, we took him aboard and went to Mit·y·leʹne. 15 And sailing away from there the next day, we arrived off Chiʹos, but the day after that, we touched at Saʹmos, and on the following day, we arrived at Mi·leʹtus.",
+    choiceA: "Samos",
+    choiceB: "Miletus",
+    choiceC: "Chios",
+    choiceD: "Patmos",
+    correctAnswer: "C"
+  },
+  {
+    question: "The fifth-largest island of the Mediterranean, and its inhabitants.",
+    clueSource: "Insight on the Scriptures Volume 1, [Crete] pp. 547, 548",
+    clueSourceContent: "The fifth-largest island of the Mediterranean, and its inhabitants. The island measures about 250 km (155 mi) long and varies in breadth from 13 to 56 km (8 to 35 mi). Crete lies at the southern end of the Aegean Sea about 100 km (62 mi) SE of Greece. Mountains, some covered with snow during part of the year, run the full length of the narrow island. Near the center of Crete, Mount Ida rises 2,456 m (8,058 ft) above sea level. The N coast has some good harbors, but the southern coastline is more regular and along much of it the mountains drop off steeply to the sea. So, the S coast provides few favorable sites for harbors, as indicated in the account of Paul’s voyage to Rome, considered later.",
+    choiceA: "Rhodes",
+    choiceB: "Cauda",
+    choiceC: "Patmos",
+    choiceD: "Crete",
+    correctAnswer: "D"
+  },
+  {
+    question: "An island generally accepted to be the “Caphtor” referred to in the Hebrew Scriptures.",
+    clueSource: "Jeremiah 47:4",
+    clueSourceContent: "4 Because the day that is coming will destroy all the Phi·lisʹtines;+ It will cut off from Tyre+ and Siʹdon+ every remaining ally. For Jehovah will destroy the Phi·lisʹtines, Who are the remaining ones from the island of Caphʹtor. [*ft. That is, Crete.]",
+    choiceA: "Crete",
+    choiceB: "Cauda",
+    choiceC: "Cyprus",
+    choiceD: "Chios",
+    correctAnswer: "A"
+  },
+  {
+    question: "The place from which the Philistines migrated to Canaan.",
+    clueSource: "Jeremiah 47:4",
+    clueSourceContent: "4 Because the day that is coming will destroy all the Phi·lisʹtines;+ It will cut off from Tyre+ and Siʹdon+ every remaining ally. For Jehovah will destroy the Phi·lisʹtines, Who are the remaining ones from the island of Caphʹtor. [*ft. That is, Crete.]",
+    choiceA: "Malta",
+    choiceB: "Crete",
+    choiceC: "Samothrace",
+    choiceD: "Kittim",
+    correctAnswer: "B"
+  },
+  {
+    question: "Its early inhabitants were descendants of Mizraim, whose name is Biblically equivalent to Egypt.​",
+    clueSource: "Insight on the Scriptures Volume 1, [Crete] p. 548",
+    clueSourceContent: "If the identification of Caphtor with Crete is accepted, as seems reasonable, then the early inhabitants of the island were descendants of Mizraim, whose name is Biblically equivalent to Egypt.​—Ge 10:13, 14.",
+    choiceA: "Chios",
+    choiceB: "Cauda",
+    choiceC: "Crete",
+    choiceD: "Malta",
+    correctAnswer: "C"
+  },
+  {
+    question: "The apostle Paul, on his way to Rome for trial, passed by this island aboard a grain ship of Alexandria, about the fall of the year 58 C.E.",
+    clueSource: "Acts 27:6, 7",
+    clueSourceContent: "6 There the army officer found a ship from Alexandria that was sailing for Italy, and he made us board it. 7 Then after sailing on slowly quite a number of days, we came to Cniʹdus with difficulty. Because the wind did not let us make headway, we sailed under the shelter of Crete off Sal·moʹne.",
+    choiceA: "Patmos",
+    choiceB: "Samothrace",
+    choiceC: "Cauda",
+    choiceD: "Crete",
+    correctAnswer: "D"
+  },
+  {
+    question: "Following his 2 years of imprisonment in Rome, Paul visited this island and engaged in Christian activity there during the final period of his ministry.",
+    clueSource: "Insight on the Scriptures Volume 1, [Crete] p. 548",
+    clueSourceContent: "The evidence is that, following his two years of imprisonment in Rome, Paul visited Crete and engaged in Christian activity there during the final period of his ministry.",
+    choiceA: "Crete",
+    choiceB: "Rhodes",
+    choiceC: "Patmos",
+    choiceD: "Samos",
+    correctAnswer: "A"
+  },
+  {
+    question: "On departing, Paul assigned Titus to remain in what island to correct the things that were defective among the congregations?",
+    clueSource: "Titus 1:5",
+    clueSourceContent: "5 I left you in Crete so that you would correct the things that were defective* and make appointments of elders in city after city, as I instructed you.",
+    choiceA: "Cyprus",
+    choiceB: "Crete",
+    choiceC: "Chios",
+    choiceD: "Malta",
+    correctAnswer: "B"
+  },
+  {
+    question: "A certain prophet of this island said about its inhabitants as “liars, injurious wild beasts, idle gluttons.”",
+    clueSource: "Titus 1:12",
+    clueSourceContent: "12 A certain one of them, their own prophet, said: “Creʹtans are always liars, injurious wild beasts, idle gluttons.”",
+    choiceA: "Malta",
+    choiceB: "Patmos",
+    choiceC: "Crete",
+    choiceD: "Chios",
+    correctAnswer: "C"
+  },
+  {
+    question: "This is the third-largest island of the Mediterranean, coming after Sicily and Sardinia.",
+    clueSource: "Insight on the Scriptures Volume 1, [Cyprus] p. 564",
+    clueSourceContent: "(Cyʹprus). An island in the NE corner of the Mediterranean Sea, situated about 70 km (43 mi) from the coast of Cilicia in Asia Minor and about 100 km (62 mi) from the Syrian coast. Cyprus is the third-largest island of the Mediterranean, coming after Sicily and Sardinia. The main body of Cyprus is about 160 km (100 mi) long, but a narrow arm of land extends out at the NE corner about another 72 km (45 mi). The island is 97 km (60 mi) across at its broadest point. The Troodos Mountains in the SW have the highest peak, Mount Olympus, rising to 1,951 m (6,401 ft). Another mountain range runs along the northern coast, and between these two ranges lies the central plain. Winter caps the mountain peaks with snow, while summer brings hot, dry weather to the plains. From ancient times the island was famous for its rich copper resources, and the name of the island became synonymous with this metal. (The English word “copper” is derived from the Greek Kyʹpros.)",
+    choiceA: "Crete",
+    choiceB: "Chios",
+    choiceC: "Patmos",
+    choiceD: "Cyprus",
+    correctAnswer: "D"
+  },
+  {
+    question: "Historical evidence points principally to what island as the “Kittim” of the Hebrew Scriptures.",
+    clueSource: "Insight on the Scriptures Volume 1, [Cyprus] p. 564",
+    clueSourceContent: "Historical evidence points principally to Cyprus as the “Kittim” of the Hebrew Scriptures. (Isa 23:1, 12; Da 11:30) The island was renowned not only for its copper but also for its fine timber, particularly cypress wood, which was apparently exported to Tyre on the Phoenician coast for use in shipbuilding.​—Eze 27:2, 6.",
+    choiceA: "Cyprus",
+    choiceB: "Chios",
+    choiceC: "Patmos",
+    choiceD: "Malta",
+    correctAnswer: "A"
+  },
+  {
+    question: "The Levite Joseph, better known as Barnabas, was born in what island?",
+    clueSource: "Acts 4:36",
+    clueSourceContent: "36 So Joseph, who was also called by the apostles Barʹna·bas+ (which means, when translated, “Son of Comfort”), a Levite, a native of Cyʹprus.",
+    choiceA: "Santorini",
+    choiceB: "Cyprus",
+    choiceC: "Aegean Islands",
+    choiceD: "Malta",
+    correctAnswer: "B"
+  },
+  {
+    question: "When Paul and Barnabas were sent out from Antioch on their first missionary tour, their initial territory was in what island?",
+    clueSource: "Insight on the Scriptures Volume 1, [",
+    clueSourceContent: "When Paul and Barnabas, accompanied by John Mark, were sent out from Antioch on their first missionary tour (c. 47-48 C.E.), their initial territory was in Barnabas’ home island, Cyprus. Arriving at the important commercial city of Salamis, on the E coast of Cyprus, they found more than one synagogue, indicating a Jewish population of some size. After publishing God’s word here, they traveled across the entire island to Paphos on the W coast, then the Roman provincial capital. Here the encounter with the interested proconsul, Sergius Paulus, and with the opposing sorcerer, Elymas (Bar-Jesus), took place.​—Ac 13:1-12.",
+    choiceA: "Chios",
+    choiceB: "Cauda",
+    choiceC: "Cyprus",
+    choiceD: "Kittim",
+    correctAnswer: "C"
+  },
+  {
+    question: "Mnason, who received Paul in his own home on Jerusalem, was the native of what island?",
+    clueSource: "Acts 21:15, 16",
+    clueSourceContent: "15 Now after these days we prepared for the journey and started on our way to Jerusalem. 16 Some of the disciples from Caes·a·reʹa also went with us, taking us to Mnaʹson of Cyʹprus, an early disciple at whose home we were to be guests.",
+    choiceA: "Kittim",
+    choiceB: "Cyprus",
+    choiceC: "Rhodes",
+    choiceD: "Cyprus",
+    correctAnswer: "D"
+  },
+  {
+    question: "It was at this island that the apostle Paul experienced shipwreck, and there he remained for 3 months.",
+    clueSource: "Insight on the Scriptures Volume 2, [Malta] p. 302",
+    clueSourceContent: "(Malʹta). An island in the Mediterranean lying about 100 km (60 mi) S of Sicily and having an area of about 246 sq km (95 sq mi). It was at Malta that the apostle Paul was shipwrecked, and there he remained for three months. During this time he healed Publius’ father and others afflicted with sicknesses.​—Ac 28:1, 7-9, 11.",
+    choiceA: "Malta",
+    choiceB: "Kittim",
+    choiceC: "Patmos",
+    choiceD: "Graham Island",
+    correctAnswer: "A"
+  },
+  {
+    question: "In his three-month stay on this island, Paul healed Publius’ father and others afflicted with sicknesses.",
+    clueSource: "Insight on the Scriptures Volume 2, [Malta] p. 302",
+    clueSourceContent: "(Malʹta). An island in the Mediterranean lying about 100 km (60 mi) S of Sicily and having an area of about 246 sq km (95 sq mi). It was at Malta that the apostle Paul was shipwrecked, and there he remained for three months. During this time he healed Publius’ father and others afflicted with sicknesses.​—Ac 28:1, 7-9, 11.",
+    choiceA: "Crete",
+    choiceB: "Malta",
+    choiceC: "Patmos",
+    choiceD: "Cauda",
+    correctAnswer: "B"
+  },
+  {
+    question: "Mariners didn't recognize the land as this island even in daylight.",
+    clueSource: "Acts 27:39",
+    clueSourceContent: "39 When daylight came, they could not recognize the land,+ but they saw a bay with a beach and were determined to beach the ship there if they could.",
+    choiceA: "Crete",
+    choiceB: "Cauda",
+    choiceC: "Malta",
+    choiceD: "Samos",
+    correctAnswer: "C"
+  },
+  {
+    question: "The people of this island began to view Paul as a god after seeing him not swollen up by the viper.",
+    clueSource: "Acts 28:1-6",
+    clueSourceContent: "After we made it to safety, we learned that the island was called Malta.+ 2 And the foreign-speaking people showed us extraordinary kindness. They kindled a fire and received all of us kindly because of the rain that was falling and because of the cold.+ 3 But when Paul collected a bundle of sticks and laid it on the fire, a viper came out because of the heat and fastened itself on his hand. 4 When the foreign-speaking people caught sight of the venomous creature hanging from his hand, they began saying to one another: “Surely this man is a murderer, and although he made it to safety from the sea, Justice did not permit him to keep on living.” 5 However, he shook the creature off into the fire and suffered no harm. 6 But they were expecting him to swell up or suddenly to drop dead. After they waited for a long time and saw that nothing bad happened to him, they changed their mind and began saying he was a god.+",
+    choiceA: "Crete",
+    choiceB: "Kittim",
+    choiceC: "Samos",
+    choiceD: "Malta",
+    correctAnswer: "D"
+  },
+]
+
 const wars = [
   {
     question:
