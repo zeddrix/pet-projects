@@ -1416,6 +1416,323 @@ const queens1 = [
   },
 ];
 
+const judges = [
+  {
+    question: "He was “the son of Kenaz, Caleb’s younger brother.”",
+    clueSource: "Judges 1:13",
+    clueSourceContent: "13 And Othʹni·el+ the son of Keʹnaz,+ Caʹleb’s younger brother, captured it. So he gave him his daughter Achʹsah as a wife.",
+    choiceA: "Othniel",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A"
+  },
+  {
+    question: "This judge's marriage to Achsah the daughter of Caleb came as a result of his victory over the Canaanite stronghold of Debir.",
+    clueSource: "Joshua 15:16-19",
+    clueSourceContent: "16 Caʹleb then said: “To the man who strikes Kirʹi·ath-seʹpher and captures it, I will give my daughter Achʹsah as a wife.” 17 And Othʹni·el+ the son of Keʹnaz,+ Caʹleb’s brother, captured it. So he gave him his daughter Achʹsah+ as a wife. 18 While she was going home, she urged him to ask her father for a field. Then she dismounted from her donkey.* Caʹleb asked her: “What do you want?”+ 19 She said: “Please grant me a blessing, for you have given me a piece of land in the south;* give me also Gulʹloth-maʹim.”* So he gave her Upper Gulʹloth and Lower Gulʹloth.",
+    choiceA: "",
+    choiceB: "Othniel",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "B"
+  },
+  {
+    question: "A descendant was chosen from this family to head a service group of 24,000 during David’s reign.",
+    clueSource: "1 Chronicles 27:15",
+    clueSourceContent: "15 The 12th for the 12th month was Helʹdai the Ne·tophʹa·thite, of Othʹni·el, and 24,000 were in his division.",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "Othniel",
+    choiceD: "",
+    correctAnswer: "C"
+  },
+  {
+    question: "With Jehovah’s spirit upon him, this judge defeated Cushan-rishathaim, “the king of Syria.”",
+    clueSource: "Judges 3:8-11",
+    clueSourceContent: "8 At this Jehovah’s anger blazed against Israel, and he sold them into the hand of Cuʹshan-rish·a·thaʹim the king of Mes·o·po·taʹmi·a.* The Israelites served Cuʹshan-rish·a·thaʹim for eight years. 9 When the Israelites called to Jehovah for help,+ Jehovah raised up a savior to rescue the Israelites,+ Othʹni·el+ the son of Keʹnaz, the younger brother of Caʹleb. 10 The spirit of Jehovah came upon him,+ and he became the judge of Israel. When he went out to battle, Jehovah gave Cuʹshan-rish·a·thaʹim the king of Mes·o·po·taʹmi·a* into his hand so that he prevailed over Cuʹshan-rish·a·thaʹim. 11 After that the land had rest* for 40 years. Then Othʹni·el the son of Keʹnaz died.",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "Othniel",
+    correctAnswer: "D"
+  },
+  {
+    question: "He was the son of Gera of the tribe of Benjamin.",
+    clueSource: "Judges 3:15",
+    clueSourceContent: "15 Then the Israelites called to Jehovah for help,+ so Jehovah raised up for them a savior,+ Eʹhud+ the son of Geʹra, a Benʹja·min·ite+ who was left-handed.+ In time the Israelites sent tribute through him to Egʹlon the king of Moʹab.",
+    choiceA: "Ehud",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A"
+  },
+  {
+    question: "Who was chosen by God to deliver the nation from an 18-year bondage to King Eglon of Moab?",
+    clueSource: "Judges 3:15",
+    clueSourceContent: "15 Then the Israelites called to Jehovah for help,+ so Jehovah raised up for them a savior,+ Eʹhud+ the son of Geʹra, a Benʹja·min·ite+ who was left-handed.+ In time the Israelites sent tribute through him to Egʹlon the king of Moʹab.",
+    choiceA: "",
+    choiceB: "Ehud",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "B"
+  },
+  {
+    question: "He was a left-handed judge from the tribe of Benjamin.",
+    clueSource: "Judges 3:15",
+    clueSourceContent: "15 Then the Israelites called to Jehovah for help,+ so Jehovah raised up for them a savior,+ Eʹhud+ the son of Geʹra, a Benʹja·min·ite+ who was left-handed.+ In time the Israelites sent tribute through him to Egʹlon the king of Moʹab.",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "Ehud",
+    choiceD: "",
+    correctAnswer: "C"
+  },
+  {
+    question: "Who killed king Eglon of Moab by plunging his blade into the king's belly?",
+    clueSource: "Judges 3:15-25",
+    clueSourceContent: "15 Then the Israelites called to Jehovah for help,+ so Jehovah raised up for them a savior,+ Eʹhud+ the son of Geʹra, a Benʹja·min·ite+ who was left-handed.+ In time the Israelites sent tribute through him to Egʹlon the king of Moʹab. 16 Meanwhile, Eʹhud made for himself a two-edged sword, a cubit* long, and he strapped it underneath his garment on his right thigh. 17 He then presented the tribute to Egʹlon the king of Moʹab. Now Egʹlon was a very fat man. 18 When Eʹhud finished presenting the tribute, he sent away the people who had carried the tribute. 19 But after reaching the carved images* at Gilʹgal,+ he himself went back and said: “I have a secret message for you, O king.” So the king said: “Silence!” With that all his attendants left him. 20 So Eʹhud came to him as he was sitting alone in his cool roof chamber. Then Eʹhud said: “I have a message from God for you.” So he rose up from his throne.* 21 Then Eʹhud drew the sword from his right thigh with his left hand and plunged it into his belly. 22 The handle went in after the blade, and the fat closed in over the blade, for he did not draw the sword out of his belly, and the fecal matter came out. 23 Eʹhud went out through the porch,* closing the doors of the roof chamber behind him and locking them. 24 After he left, the servants returned and saw that the doors of the roof chamber were locked. So they said: “He must be relieving himself* in the cool interior room.” 25 They kept waiting until they were embarrassed, but when they saw that he was still not opening the doors of the roof chamber, they took the key and opened them and saw their lord fallen to the floor* dead!",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "Ehud",
+    correctAnswer: "D"
+  },
+  {
+    question: "This judge escaped to the mountainous region of Ephraim, marshaled an army of Israelites, and struck down 10,000 Moabites.",
+    clueSource: "Judges 3:26-30",
+    clueSourceContent: "26 Eʹhud escaped while they were lingering, and he passed by the carved images*+ and made it safely to Se·iʹrah. 27 When he arrived, he sounded the horn+ in the mountainous region of Eʹphra·im;+ and the Israelites went down out of the mountainous region, with him at their head. 28 Then he said to them: “Follow me, because Jehovah has given your enemies, the Moʹab·ites, into your hand.” So they followed him and captured the fords of the Jordan against the Moʹab·ites, and they did not allow anyone to cross. 29 At that time they struck down about 10,000 Moʹab·ites,+ all strong and valiant men; not a single one escaped.+ 30 So Moʹab was subdued on that day under Israel’s hand; and the land had rest* for 80 years.+",
+    choiceA: "Ehud",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A"
+  },
+  {
+    question: "The judge who struck down 600 Philistines with a cattle goad.",
+    clueSource: "Judges 3:31",
+    clueSourceContent: "31 After him was Shamʹgar+ the son of Aʹnath, who struck down 600 Phi·lisʹtine men+ with a cattle goad;+ he too saved Israel.",
+    choiceA: "Samson",
+    choiceB: "Shamgar",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "B"
+  },
+  {
+    question: "The judge who was a “son of Anath.”",
+    clueSource: "Judges 3:31",
+    clueSourceContent: "31 After him was Shamʹgar+ the son of Aʹnath, who struck down 600 Phi·lisʹtine men+ with a cattle goad;+ he too saved Israel.",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "Shamgar",
+    choiceD: "",
+    correctAnswer: "C"
+  },
+  {
+    question: "The judge who was “the son of Puah”.",
+    clueSource: "Judges 10:1",
+    clueSourceContent: "After A·bimʹe·lech, Toʹla the son of Puʹah, the son of Doʹdo, a man of Isʹsa·char, rose up to save Israel.+ He lived in Shaʹmir in the mountainous region of Eʹphra·im.",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "Tola",
+    correctAnswer: "D"
+  },
+  {
+    question: "He lived in Shamir in the mountainous region of Ephraim.",
+    clueSource: "Judges 10:1",
+    clueSourceContent: "After A·bimʹe·lech, Toʹla the son of Puʹah, the son of Doʹdo, a man of Isʹsa·char, rose up to save Israel.+ He lived in Shaʹmir in the mountainous region of Eʹphra·im.",
+    choiceA: "Tola",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A"
+  },
+  {
+    question: "He judged Israel for 23 years. Then he died and was buried in Shamir.",
+    clueSource: "Judges 10:1, 2",
+    clueSourceContent: "After A·bimʹe·lech, Toʹla the son of Puʹah, the son of Doʹdo, a man of Isʹsa·char, rose up to save Israel.+ He lived in Shaʹmir in the mountainous region of Eʹphra·im. 2 He judged Israel for 23 years. Then he died and was buried in Shaʹmir.",
+    choiceA: "",
+    choiceB: "Tola",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "B"
+  },
+  {
+    question: "Who was the seventh judge of Israel?",
+    clueSource: "Insight on the Scriptures Volume 1, [Jair] p. 1250",
+    clueSourceContent: "The seventh judge of Israel. Since he was a Gileadite of high standing and each of his 30 sons is connected with one of the above-mentioned tent cities of Jair, he was likely a descendant of No. 1 above. Jair judged Israel for 22 years, after which he died and was buried in Kamon.​—Jg 10:3-5.",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "Jair",
+    choiceD: "",
+    correctAnswer: "C"
+  },
+  {
+    question: "“He had 30 sons who rode on 30 donkeys, and they had 30 cities.”",
+    clueSource: "Judges 10:3-5",
+    clueSourceContent: "3 After him Jaʹir the Gilʹe·ad·ite rose up and judged Israel for 22 years. 4 He had 30 sons who rode on 30 donkeys, and they had 30 cities, which to this day are called Havʹvoth-jaʹir;+ they are in the land of Gilʹe·ad. 5 After that Jaʹir died and was buried in Kaʹmon.",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "Jair",
+    correctAnswer: "D"
+  },
+  {
+    question: "He judged Israel for 22 years, after which he died and was buried in Kamon.",
+    clueSource: "Judges 10:3-5",
+    clueSourceContent: "3 After him Jaʹir the Gilʹe·ad·ite rose up and judged Israel for 22 years. 4 He had 30 sons who rode on 30 donkeys, and they had 30 cities, which to this day are called Havʹvoth-jaʹir;+ they are in the land of Gilʹe·ad. 5 After that Jaʹir died and was buried in Kaʹmon.",
+    choiceA: "Jair",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A"
+  },
+  {
+    question: "Who succeeded Jephthah as judge of Israel?",
+    clueSource: "Judges 12:7, 8",
+    clueSourceContent: "7 Jephʹthah judged Israel for six years, after which Jephʹthah the Gilʹe·ad·ite died and was buried in his city in Gilʹe·ad. 8 Ibʹzan from Bethʹle·hem judged Israel after him.",
+    choiceA: "",
+    choiceB: "Ibzan",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "B"
+  },
+  {
+    question: "He had 30 sons and 30 daughters. He sent his daughters to marry men outside his clan, and he brought in 30 women to marry his sons.",
+    clueSource: "Judges 12:8-10",
+    clueSourceContent: "8 Ibʹzan from Bethʹle·hem judged Israel after him.+ 9 He had 30 sons and 30 daughters. He sent his daughters to marry men outside his clan, and he brought in 30 women to marry his sons. He judged Israel for seven years. 10 Then Ibʹzan died and was buried in Bethʹle·hem.",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "Ibzan",
+    choiceD: "",
+    correctAnswer: "C"
+  },
+  {
+    question: "After judging for seven years, he died and was buried in his native city of Bethlehem.",
+    clueSource: "Judges 12:8-10",
+    clueSourceContent: "8 Ibʹzan from Bethʹle·hem judged Israel after him.+ 9 He had 30 sons and 30 daughters. He sent his daughters to marry men outside his clan, and he brought in 30 women to marry his sons. He judged Israel for seven years. 10 Then Ibʹzan died and was buried in Bethʹle·hem.",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "Ibzan",
+    correctAnswer: "D"
+  },
+
+  {
+    question: "He was a Zebulunite judge of Israel.",
+    clueSource: "Judges 12:11, 12",
+    clueSourceContent: "11 After him Eʹlon the Zebʹu·lun·ite judged Israel; he judged Israel for ten years. 12 Then Eʹlon the Zebʹu·lun·ite died and was buried in Aiʹja·lon in the land of Zebʹu·lun.",
+    choiceA: "Elon",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A"
+  },
+  {
+    question: "After a judgeship of ten years they buried him in Aijalon in the territory of Zebulun.",
+    clueSource: "Judges 12:11, 12",
+    clueSourceContent: "11 After him Eʹlon the Zebʹu·lun·ite judged Israel; he judged Israel for ten years. 12 Then Eʹlon the Zebʹu·lun·ite died and was buried in Aiʹja·lon in the land of Zebʹu·lun.",
+    choiceA: "",
+    choiceB: "Elon",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "B"
+  },
+  {
+    question: "He was the son of Hillel the Pirathonite of Ephraim.",
+    clueSource: "Judges 12:13",
+    clueSourceContent: "13 After him Abʹdon the son of Hilʹlel the Pirʹa·thon·ite judged Israel.",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "Abdon",
+    choiceD: "",
+    correctAnswer: "C"
+  },
+  {
+    question: "He had 40 sons and 30 grandsons who rode on 70 donkeys.",
+    clueSource: "Judges 12:13, 14",
+    clueSourceContent: "13 After him Abʹdon the son of Hilʹlel the Pirʹa·thon·ite judged Israel. 14 He had 40 sons and 30 grandsons who rode on 70 donkeys. He judged Israel for eight years.",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "Abdon",
+    correctAnswer: "D"
+  },
+  {
+    question: "He died and was buried in Pirathon in the land of Ephraim in the mountain of the Amalekite.",
+    clueSource: "Judges 12:15",
+    clueSourceContent: "15 Then Abʹdon the son of Hilʹlel the Pirʹa·thon·ite died and was buried in Pirʹa·thon in the land of Eʹphra·im in the mountain of the A·malʹek·ite.+",
+    choiceA: "Abdon",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: "A"
+  },
+  {
+    question:
+      "Delilah betrayed this Nazarite judge in exchange for 1,100 silver pieces.",
+    clueSource: "Judges 16:18-20",
+    clueSourceContent:
+      "18 When De·liʹlah saw that he had opened his heart to her, she immediately summoned the Phi·lisʹtine lords, saying: “Come up this time, for he has opened his heart to me.” So the Phi·lisʹtine lords came up to her, bringing the money with them. 19 She made him fall asleep on her knees; then she called the man and had him shave off the seven braids of his head. After that she began to have control over him, for his power was leaving him. 20 Now she called out: “The Phi·lisʹtines are upon you, Samson!” He woke up from his sleep and said: “I will go out as at other timesk and shake myself free.” But he did not know that Jehovah had left him.",
+    choiceA: "Gideon",
+    choiceB: "Samson",
+    choiceC: "Joshua",
+    choiceD: "Barak",
+    correctAnswer: "B",
+  },
+  {
+    question: "He was the son of Manoah, a Danite from Zorah.",
+    clueSource: "Judges 13:21-24",
+    clueSourceContent: "21 Jehovah’s angel did not appear again to Ma·noʹah and his wife. Then Ma·noʹah realized that he was Jehovah’s angel.+ 22 Ma·noʹah then said to his wife: “We are sure to die, because it is God whom we have seen.”+ 23 But his wife said to him: “If Jehovah wanted to put us to death, he would not have accepted a burnt offering+ and a grain offering from our hand, he would not have shown us all these things, and he would not have told us any of these things.” 24 The woman later gave birth to a son and named him Samson;+ and as the boy grew, Jehovah continued to bless him.",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "Samson",
+    choiceD: "",
+    correctAnswer: "C"
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: ""
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: ""
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: ""
+  },
+  {
+    question: "",
+    clueSource: "",
+    clueSourceContent: "",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: ""
+  },
+                    
+]
+
 const queens2 = [
   {
     question: "Who was the daughter of “Jeremiah from Libnah”?",
