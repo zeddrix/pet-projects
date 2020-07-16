@@ -147,7 +147,7 @@ button {
   margin-top: 3rem;
   border-radius: 30px;
   box-shadow: inset 0px 1px 0px grey, 0px 3px 0px 0px lightgrey,
-  0px 12px 0px #999;
+    0px 12px 0px #999;
 }
 
 #back-btn {
@@ -156,7 +156,7 @@ button {
   margin-top: 0.5rem;
   border-radius: 22px;
   box-shadow: inset 0px 1px 0px grey, 0px 3px 0px 0px lightgrey,
-  0px 10px 0px #999;
+    0px 10px 0px #999;
 }
 
 #count-btn:hover,
@@ -167,5 +167,19 @@ button:active {
   cursor: pointer;
   outline: none;
   box-shadow: inset 0px 1px 0px grey, 0px 2px 0px 0px lightgrey,
-  0px 5px 10px #999;
+    0px 5px 10px #999;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: none;
+}
+::-webkit-scrollbar-thumb {
+  background: whitesmoke;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
