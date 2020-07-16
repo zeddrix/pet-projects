@@ -104,7 +104,8 @@ h1 {
 
 .your-text__section,
 .word-density__section,
-.miscellaneous__section {
+.miscellaneous__section,
+.word-count__section {
   border-bottom: 3px solid whitesmoke;
   width: 100vw;
   overflow: auto;
@@ -120,8 +121,6 @@ h1 {
 }
 
 .word-count__section {
-  border-bottom: 3px solid whitesmoke;
-  width: 100vw;
   font-size: 2rem;
 }
 
@@ -177,7 +176,7 @@ button:active {
   background: none;
 }
 ::-webkit-scrollbar-thumb {
-  background: whitesmoke;
+  background: #414141;
   border-radius: 50px;
 }
 ::-webkit-scrollbar-thumb:hover {
