@@ -33,17 +33,28 @@ button {
 	-o-user-drag: none;
 }
 
+html {
+	height: 100%;
+}
+
 body {
+	display: flex;
+  flex-direction: column;
 	margin: 0;
-	height: 100vh;
+	height: 100%;
 	font-size: 1rem;
 	background: #3497be;
-	overflow: auto;
+	overflow-y: auto;
+	overflow-x: hidden;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
 	margin: 0;
+}
+
+#word-counter__page {
+	flex: 1 0 auto;
 }
 
 .word-counter__header {
@@ -135,6 +146,21 @@ h1 {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	margin-bottom: 1rem;
+}
+
+.footer {
+	text-align: center;
+	padding: 0.5rem;
+	background: #1e5b74;
+	color: white;
+}
+
+.home-footer {
+	position: absolute;
+	width: 100vw;
+	bottom: 0;
+	flex-shrink: 0;
 }
 
 /* ---------------BUTTONS--------------- */

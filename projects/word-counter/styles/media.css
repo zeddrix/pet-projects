@@ -43,15 +43,16 @@
 	}
 	.word-count__section,
 	.back-btn__div,
-	footer {
+	.footer {
 		grid-row: span 1;
 	}
-	footer {
+	.footer {
 		grid-column: span 2;
 	}
-
-	/* .word-count__section,
-	.word-density__section {
-		border-left: 3px solid whitesmoke;
-	} */
+	.home-footer {
+		position: relative;
+		width: 100vw;
+		bottom: 0;
+		flex-shrink: 0;
+	}
 }
