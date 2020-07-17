@@ -24,27 +24,29 @@
 	.miscellaneous__section,
 	.word-count__section {
 		height: unset;
-		border: 3px solid whitesmoke;
-		/* border: none; */
 		width: 50vw;
 		overflow: auto;
 	}
+	.your-text__section,
+	.miscellaneous__section {
+		border-right: 3px solid whitesmoke;
+	}
+
 	.your-text__section {
-		grid-row: span 8;
+		grid-row: span 9;
 	}
 	.miscellaneous__section {
-		grid-row: span 4;
-	}
-	.word-count__section,
-	.back-btn__div {
-		grid-row: span 1;
+		grid-row: span 3;
 	}
 	.word-density__section {
 		grid-row: span 10;
 	}
-
+	.word-count__section,
+	.back-btn__div,
 	footer {
 		grid-row: span 1;
+	}
+	footer {
 		grid-column: span 2;
 	}
 
