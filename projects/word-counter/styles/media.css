@@ -11,10 +11,9 @@
 		margin: 1rem 0;
 		font-size: 2rem;
 		padding: 2rem 4rem;
-		box-shadow: inset 0px 1px 0px grey, 0px 10px 0px 0px lightgrey,
-			0px 10px 0px #999;
+		box-shadow: inset 0px 1px 0px grey, 0px 9px 0px #999;
 	}
-/* ----------------WORDS COUNTED PAGE---------------- */
+	/* ----------------WORDS COUNTED PAGE---------------- */
 	.grid {
 		height: 100vh;
 		display: grid;

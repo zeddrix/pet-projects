@@ -1,6 +1,6 @@
 * {
-  box-sizing: border-box;
-  -webkit-tap-highlight-color: transparent;
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: transparent;
 }
 
 h1,
@@ -155,21 +155,19 @@ button {
 }
 
 #count-btn {
-	padding: 1rem 3rem;
+	padding: 1rem 2.5rem;
 	font-size: 2rem;
 	margin-top: 3rem;
-	border-radius: 30px;
-	box-shadow: inset 0px 1px 0px grey, 0px 3px 0px 0px lightgrey,
-		0px 12px 0px #999;
+	border-radius: 20px;
+	box-shadow: inset 0px 1px 0px grey, 0px 10px 0px #999;
 }
 
 #back-btn {
 	padding: 1rem 2rem;
 	font-size: 1rem;
 	margin-top: 0.5rem;
-	border-radius: 22px;
-	box-shadow: inset 0px 1px 0px grey, 0px 3px 0px 0px lightgrey,
-		0px 10px 0px #999;
+	border-radius: 20px;
+	box-shadow: inset 0px 1px 0px grey, 0px 8px 0px #999;
 }
 
 #count-btn:hover,
@@ -180,7 +178,7 @@ button:active {
 	cursor: pointer;
 	outline: none;
 	box-shadow: inset 0px 1px 0px grey, 0px 2px 0px 0px lightgrey,
-		0px 5px 10px #999;
+		0px 2px 5px #999;
 }
 
 ::-webkit-scrollbar {
