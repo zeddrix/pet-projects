@@ -4,15 +4,16 @@
 	}
 	#textarea {
 		max-width: 42rem;
-		height: 28rem;
+		height: 60vh;
 	}
 	#count-btn {
-		margin-top: 1rem;
+		margin: 1rem 0;
 		font-size: 2rem;
 		padding: 2rem 4rem;
 		box-shadow: inset 0px 1px 0px grey, 0px 10px 0px 0px lightgrey,
 			0px 10px 0px #999;
 	}
+
 	.grid {
 		height: 100vh;
 		display: grid;
@@ -31,7 +32,6 @@
 	.miscellaneous__section {
 		border-right: 3px solid whitesmoke;
 	}
-
 	.your-text__section {
 		grid-row: span 9;
 	}

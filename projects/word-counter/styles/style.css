@@ -60,8 +60,7 @@ h1 {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-.input-section {
-	height: 80vh;
+.center {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
@@ -76,6 +75,10 @@ h1 {
 	padding: 1rem;
 	box-shadow: inset 0px 1px 0px grey, 0px 3px 0px 0px lightgrey,
 		-10px 10px 5px black;
+}
+
+#textarea:focus {
+	outline: none;
 }
 
 #textarea,
