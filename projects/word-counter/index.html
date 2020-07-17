@@ -1,58 +1,64 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, user-scalable=no"
-    />
-    <title>Word Counter</title>
-    <link rel="stylesheet" href="styles/style.css" />
-    <link rel="stylesheet" href="styles/media.css" />
-  </head>
-  <body>
-    <div id="word-counter__page">
-      <header class="word-counter__header">
-        <h1 class="word-counter__heading">Word Counter</h1>
-      </header>
-      <section class="input-section">
-        <form action="">
-          <textarea id="textarea" type="text"></textarea>
-          <br />
-        </form>
-        <button id="count-btn">COUNT</button>
-      </section>
-    </div>
+	<head>
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, user-scalable=no"
+		/>
+		<title>Word Counter</title>
+		<link rel="stylesheet" href="styles/style.css" />
+		<link rel="stylesheet" href="styles/media.css" />
+	</head>
+	<body>
+		<div id="word-counter__page">
+			<header class="word-counter__header">
+				<h1 class="word-counter__heading">Word Counter</h1>
+			</header>
+			<section class="input-section">
+				<form action="">
+					<textarea id="textarea" type="text"></textarea>
+					<br />
+				</form>
+				<button id="count-btn">COUNT</button>
+			</section>
+		</div>
 
-    <div id="words-counted__page">
-      <div class="grid">
-        <section class="your-text__section">
-          <h1 class="header">Your Text:</h1>
-          <p id="your-text__body"></p>
-        </section>
-  
-        <section class="word-count__section">
-          <h1 class="header" id="words-counted"></h1>
-        </section>
-  
-        <section class="miscellaneous__section">
-          <h3 class="miscellaneous__item">Most Used Word:</h3>
-          <h3 class="miscellaneous__item">Least Used Word:</h3>
-          <h3 class="miscellaneous__item">Number of Characters:</h3>
-          <h3 class="miscellaneous__item">Number of Letters:</h3>
-          <h3 class="miscellaneous__item">Most Used Letter:</h3>
-          <!-- Character; not Letter -->
-          <h3 class="miscellaneous__item">Least Used Letter:</h3>
-        </section>
-  
-        <section class="word-density__section">
-          <h1 class="header">Word Density:</h1>
-          <div id="word-density__body"></div>
-        </section>
-        <div class="back-btn__div">
-          <button id="back-btn">BACK</button>
-        </div>
-      </div>
-    </div>
-  </body>
-  <script src="app.js"></script>
+		<div id="words-counted__page">
+			<div class="grid">
+				<section class="your-text__section">
+					<h1 class="header">Your Text:</h1>
+					<p id="your-text__body"></p>
+				</section>
+
+				<section class="word-count__section">
+					<h1 class="header" id="words-counted"></h1>
+				</section>
+
+				<section class="word-density__section">
+					<h1 class="header">Word Density:</h1>
+					<div id="word-density__body"></div>
+				</section>
+
+				<section class="miscellaneous__section">
+					<h3 class="miscellaneous__item">Most Used Word:</h3>
+					<h3 class="miscellaneous__item">Least Used Word:</h3>
+					<h3 class="miscellaneous__item">Number of Characters:</h3>
+					<h3 class="miscellaneous__item">Number of Letters:</h3>
+					<h3 class="miscellaneous__item">Most Used Letter:</h3>
+					<!-- Character; not Letter -->
+					<h3 class="miscellaneous__item">Least Used Letter:</h3>
+				</section>
+
+				<div class="back-btn__div">
+					<button id="back-btn">BACK</button>
+				</div>
+				<footer>
+					<p class="copyright">
+						Copyright ©2020 Zeddrix Fabian
+					</p>
+				</footer>
+			</div>
+		</div>
+	</body>
+	<script src="app.js"></script>
 </html>
