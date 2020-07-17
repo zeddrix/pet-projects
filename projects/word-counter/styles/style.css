@@ -1,184 +1,190 @@
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 ::-webkit-scrollbar {
-  width: 5px;
+	width: 5px;
 }
 
 ::-webkit-scrollbar-track {
-  background: none;
+	background: none;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #504d4d;
-  border-radius: 50px;
+	background: #504d4d;
+	border-radius: 50px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+	background: #555;
 }
 
 h1,
 button {
-  user-select: none;
-  -webkit-user-select: none; /* Safari */
-  -khtml-user-select: none; /* Konqueror HTML */
-  -moz-user-select: none; /* Firefox */
-  -ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none;
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
 
-  -webkit-user-drag: none;
-  -khtml-user-drag: none;
-  -moz-user-drag: none;
-  -o-user-drag: none;
+	-webkit-user-drag: none;
+	-khtml-user-drag: none;
+	-moz-user-drag: none;
+	-o-user-drag: none;
 }
 
 body {
-  margin: 0;
-  height: 100vh;
-  font-size: 1rem;
-  background: #3497be;
-  overflow: auto;
-  font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	height: 100%;
+	font-size: 1rem;
+	background: #3497be;
+	overflow: auto;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-  margin: 0;
+	margin: 0;
 }
 
 .word-counter__header {
-  height: 20vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+	height: 20vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .word-counter__heading {
-  color: whitesmoke;
-  font-size: 3rem;
-  font-family: Arial, Helvetica, sans-serif;
+	color: whitesmoke;
+	font-size: 3rem;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .input-section {
-  height: 80vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
 }
 
 #textarea {
-  border: 3px solid black;
-  width: 90vw;
-  height: 40vh;
-  font-size: 1.2rem;
-  padding: 1rem;
-  box-shadow: inset 0px 1px 0px grey, 0px 3px 0px 0px lightgrey,
-    -10px 10px 5px black;
+	border: 3px solid black;
+	width: 90vw;
+	height: 40vh;
+	font-size: 1.2rem;
+	padding: 1rem;
+	box-shadow: inset 0px 1px 0px grey, 0px 3px 0px 0px lightgrey,
+		-10px 10px 5px black;
 }
 
 #textarea,
 .your-text__section,
 .word-density__section {
-  font-size: 1.2rem;
+	font-size: 1.2rem;
 }
 
 /* ----------------WORDS COUNTED PAGE---------------- */
 #words-counted__page {
-  display: none;
+	display: none;
 }
 
 #your-text__body,
 .word-density__table,
 .miscellaneous__item {
-  margin: 0.7rem;
+	margin: 0.7rem;
 }
 
 .header {
-  margin-top: 0.5rem;
-  font-size: 2rem;
-  color: whitesmoke;
+	font-size: 2rem;
+	color: whitesmoke;
   text-align: center;
+  vertical-align: middle;
+}
+
+.header {
+	margin-top: 0.5rem;
 }
 
 .your-text__section,
 .word-density__section,
 .miscellaneous__section,
 .word-count__section {
-  border-bottom: 3px solid whitesmoke;
-  width: 100vw;
-  overflow: auto;
+	border-bottom: 3px solid whitesmoke;
+	width: 100vw;
+	overflow: auto;
 }
 
 .your-text__section,
 .word-density__section {
-  height: 30vh;
+	height: 30vh;
 }
 
 .miscellaneous__section {
-  height: 20vh;
+	height: 20vh;
 }
 
 .word-count__section {
-  font-size: 2rem;
+	font-size: 2rem;
+	height: auto;
+	margin: 0;
 }
 
 .back-btn__div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 /* ---------------BUTTONS--------------- */
 button {
-  background: #f3e410;
-  outline: none;
-  border: none;
-  font-weight: bold;
-  text-shadow: 0 -1px 0px #0000004d;
+	background: #f3e410;
+	outline: none;
+	border: none;
+	font-weight: bold;
+	text-shadow: 0 -1px 0px #0000004d;
 }
 
 #count-btn {
-  padding: 1rem 3rem;
-  font-size: 2rem;
-  margin-top: 3rem;
-  border-radius: 30px;
-  box-shadow: inset 0px 1px 0px grey, 0px 3px 0px 0px lightgrey,
-    0px 12px 0px #999;
+	padding: 1rem 3rem;
+	font-size: 2rem;
+	margin-top: 3rem;
+	border-radius: 30px;
+	box-shadow: inset 0px 1px 0px grey, 0px 3px 0px 0px lightgrey,
+		0px 12px 0px #999;
 }
 
 #back-btn {
-  padding: 1rem 2rem;
-  font-size: 1rem;
-  margin-top: 0.5rem;
-  border-radius: 22px;
-  box-shadow: inset 0px 1px 0px grey, 0px 3px 0px 0px lightgrey,
-    0px 10px 0px #999;
+	padding: 1rem 2rem;
+	font-size: 1rem;
+	margin-top: 0.5rem;
+	border-radius: 22px;
+	box-shadow: inset 0px 1px 0px grey, 0px 3px 0px 0px lightgrey,
+		0px 10px 0px #999;
 }
 
 #count-btn:hover,
 #back-btn:hover,
 button:active {
-  color: #dfe7ea;
-  font-weight: bold;
-  cursor: pointer;
-  outline: none;
-  box-shadow: inset 0px 1px 0px grey, 0px 2px 0px 0px lightgrey,
-    0px 5px 10px #999;
+	color: #dfe7ea;
+	font-weight: bold;
+	cursor: pointer;
+	outline: none;
+	box-shadow: inset 0px 1px 0px grey, 0px 2px 0px 0px lightgrey,
+		0px 5px 10px #999;
 }
 
 ::-webkit-scrollbar {
-  width: 5px;
+	width: 5px;
 }
 ::-webkit-scrollbar-track {
-  background: none;
+	background: none;
 }
 ::-webkit-scrollbar-thumb {
-  background: #414141;
-  border-radius: 50px;
+	background: #414141;
+	border-radius: 50px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+	background: #555;
 }
