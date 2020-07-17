@@ -11,6 +11,7 @@
   -o-user-drag: none;
 
   outline: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 @font-face {
