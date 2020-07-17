@@ -1,3 +1,4 @@
+/* DESKTOP */
 @media only screen and (min-width: 1030px) {
 	.word-counter__heading {
 		font-size: 5rem;
@@ -13,7 +14,7 @@
 		box-shadow: inset 0px 1px 0px grey, 0px 10px 0px 0px lightgrey,
 			0px 10px 0px #999;
 	}
-
+/* ----------------WORDS COUNTED PAGE---------------- */
 	.grid {
 		height: 100vh;
 		display: grid;
