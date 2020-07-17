@@ -143,8 +143,8 @@ button:focus {
 	left: 0;
 	right: 0;
 	text-align: center;
-	box-shadow: inset 0px 1px 0px grey, 0px 3px 0px 0px lightgrey,
-		0px 6px 5px #999;
+	box-shadow: inset 0px 1px 0px grey, 0px 4px 0px 0px lightgrey,
+		0px 5px 5px #999;
 }
 #template-contents__back-btn:hover,
 #template-contents__back-btn:active {
