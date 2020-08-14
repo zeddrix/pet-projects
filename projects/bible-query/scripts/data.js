@@ -9096,8 +9096,8 @@ const meaningOfNames9 = [
       "(Bel·te·shazʹzar) [from Akkadian, meaning “Protect the Life of the King”]. The Babylonian name given to Daniel after he was taken into exile in 617 B.C.E.​—not to be confused with Belshazzar. (Da 1:7) The name is evidently a shortened form of an invocation to Bel and hence was selected, as Nebuchadnezzar said, “according to the name of my god.” (Da 4:8; 5:12) The purpose was evidently to effect Daniel’s naturalization and alienate him from the worship of Jehovah. However, the Babylonians continued to speak of him also by his name Daniel.​—Da 4:18, 19; 5:12, 13; see DANIEL No. 2.",
     choiceA: "Belteshazzar",
     choiceB: "Belshazzar",
-    choiceC: "",
-    choiceD: "",
+    choiceC: "Abner",
+    choiceD: "Nebuchadnezzar",
     correctAnswer: "A",
   },
   {
@@ -9107,8 +9107,8 @@ const meaningOfNames9 = [
       "(El·kaʹnah) [God Has Produced]. The son of Jeroham and the father of Samuel the prophet, as well as of other sons and daughters. Elkanah was a resident of Ramah of the mountainous region of Ephraim. Hence he is called an Ephraimite, although genealogically he was a Levite. (1Sa 1:1; 1Ch 6:27, 33, 34) It was Elkanah’s practice to go from year to year to Shiloh “to prostrate himself and to sacrifice to Jehovah.” He had two wives, Hannah and Peninnah. Although Hannah continued barren, Elkanah loved her and tried to console her for being barren. Later, in answer to Hannah’s prayer, Jehovah blessed them with the birth of Samuel and still later with three sons and two daughters.​—1Sa 1:2, 3, 5, 8, 19; 2:21.",
     choiceA: "Elkanah",
     choiceB: "Cain",
-    choiceC: "",
-    choiceD: "",
+    choiceC: "Adam",
+    choiceD: "El-shaddai",
     correctAnswer: "A",
   },
   {
@@ -9117,9 +9117,9 @@ const meaningOfNames9 = [
     clueSourceContent:
       "(Jephʹthah) [May [God] Open; [God] Has Opened]. A judge of Israel, of the tribe of Manasseh. (Nu 26:29; Jg 11:1) He administered justice over the territory of Gilead for six years perhaps during the priesthood of Eli and the early life of Samuel. (Jg 12:7) Jephthah’s reference to “three hundred years” of Israelite control E of the Jordan would seem to place the start of his six-year judgeship around 1173 B.C.E.​—Jg 11:26.",
     choiceA: "Jephthah",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Obed",
+    choiceC: "Berechiah",
+    choiceD: "Barachiah",
     correctAnswer: "A",
   },
   {
@@ -9129,9 +9129,9 @@ const meaningOfNames9 = [
     clueSourceContent:
       "(Hulʹdah) [feminine form of Heled, meaning “Duration of Life; System of Things”; or, possibly, “Mole Rat”]. The wife of Shallum; a prophetess residing at Jerusalem during the reign of faithful King Josiah of Judah. When Josiah heard the reading of “the very book of the law” found by Hilkiah the high priest during the temple repair work, he sent a delegation to inquire of Jehovah. They went to Huldah, who, in turn, relayed the word of Jehovah, indicating that all the calamities for disobedience recorded in the “book” would befall the apostate nation. Huldah added that Josiah, because of having humbled himself before Jehovah, would not have to look upon the calamity but would be gathered to his forefathers and be taken to his graveyard in peace.​—2Ki 22:8-20; 2Ch 34:14-28.",
     choiceA: "Huldah",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Hamutal",
+    choiceC: "Esther",
+    choiceD: "Hagar",
     correctAnswer: "A",
   },
   {
@@ -9151,9 +9151,9 @@ const meaningOfNames9 = [
     clueSourceContent:
       "(Sheʹchem) [Shoulder [of Land]]. Son of Hivite chieftain Hamor. (Ge 33:19; Jos 24:32) After Jacob settled near the city of Shechem (see No. 4), his daughter Dinah began associating with females of that city. The man Shechem, described as being “the most honorable of the whole house of his father,” saw Dinah and “lay down with her and violated her.” Then he fell in love with Dinah and wanted to marry her. But Jacob’s sons were enraged about the affair and, “with deceit,” said that they could make marriage arrangements only with circumcised men. This was agreeable to Shechem and his father Hamor, and they convinced the Shechemites to get circumcised. However, before the males of Shechem could recover from being circumcised, Jacob’s sons Simeon and Levi attacked the city, killing Hamor, Shechem, and all the other men.​—Ge 34:1-31.",
     choiceA: "Shechem",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Shem",
+    choiceC: "Shemei",
+    choiceD: "Shemaiah",
     correctAnswer: "A",
   },
   {
@@ -9163,9 +9163,9 @@ const meaningOfNames9 = [
     clueSourceContent:
       "(Eʹnoch) [One Trained Up; Inaugurated [that is, dedicated, initiated]]. The son born to Jared at the age of 162; the seventh man in the genealogical line from Adam. In addition to Methuselah, who was born to him when he was 65 years old, Enoch had other sons and daughters. Enoch was one of the “so great a cloud of witnesses” who were outstanding examples of faith in ancient times. “Enoch kept walking with the true God.” (Ge 5:18, 21-24; Heb 11:5; 12:1) As a prophet of Jehovah, he foretold God’s coming with His holy myriads to execute judgment against the ungodly. (Jude 14, 15) Likely persecution was brought against him because of his prophesying. However, God did not permit the opposers to kill Enoch. Instead, Jehovah “took him,” that is, cut short his life at the age of 365, an age far below that of most of his contemporaries. Enoch was “transferred so as not to see death,” which may mean that God put him in a prophetic trance and then terminated Enoch’s life while he was in the trance so that he did not experience the pangs of death. (Ge 5:24; Heb 11:5, 13) However, he was not taken to heaven, in view of Jesus’ clear statement at John 3:13. It appears that, as in the case of Moses’ body, Jehovah disposed of Enoch’s body, for “he was nowhere to be found.”​—De 34:5, 6; Jude 9. Enoch is not the writer of the “Book of Enoch.” This is an uninspired, apocryphal book written many centuries later, probably sometime during the second and first centuries B.C.E.",
     choiceA: "Enoch",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Enosh",
+    choiceC: "Methuselah",
+    choiceD: "Samuel",
     correctAnswer: "A",
   },
   {
@@ -9175,9 +9175,9 @@ const meaningOfNames9 = [
     clueSourceContent:
       "(Jer·e·miʹah) [possibly, Jehovah Exalts; or, Jehovah Loosens [likely from the womb]]. A prophet, the son of Hilkiah, a priest of Anathoth, a city of the priests located in Benjamin’s territory less than 5 km (3 mi) NNE of the Temple Mount in Jerusalem. (Jer 1:1; Jos 21:13, 17, 18) Jeremiah’s father, Hilkiah, was not the high priest of that name, who was of the line of Eleazar. Jeremiah’s father was very likely of the line of Ithamar and possibly descended from Abiathar, the priest whom King Solomon dismissed from priestly service.​—1Ki 2:26, 27.",
     choiceA: "Jeremiah",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Abram",
+    choiceC: "Jehoash",
+    choiceD: "Micah",
     correctAnswer: "A",
   },
   {
@@ -9186,9 +9186,9 @@ const meaningOfNames9 = [
     clueSourceContent:
       "(Na·thanʹa·el) [from Heb., meaning “God Has Given”]. Presumably the name of Bartholomew, hence one of Jesus’ 12 apostles. Bartholomew, meaning “Son of Tolmai,” was a patronymic term (that is, a designation derived from his father). The apostle John uses his given name Nathanael, whereas Matthew, Mark, and Luke call him Bartholomew. When doing so they associate Philip and Bartholomew together, in the same way that John links Philip with Nathanael. (Mt 10:3; Mr 3:18; Lu 6:14; Joh 1:45, 46) It was not uncommon for persons to be known by more than one name. For example, “Simon the son of John” also came to be known as Cephas and Peter. (Joh 1:42) Nor was it exceptional for Nathanael to be called Bartholomew, or the “Son of Tolmai,” as another man was called simply Bartimaeus, or “Son of Timaeus.” (Mr 10:46) The two names, Nathanael and Bartholomew, are used interchangeably by Christian writers of following centuries.",
     choiceA: "Nathanael",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Michael",
+    choiceC: "Hazael",
+    choiceD: "Mishael",
     correctAnswer: "A",
   },
   {
@@ -9197,9 +9197,9 @@ const meaningOfNames9 = [
     clueSourceContent:
       "[Name; Fame]. One of Noah’s three sons; from these “all the earth’s population spread abroad” following the global Flood.​—Ge 6:10; 9:18, 19. Although the three sons are consistently listed as “Shem, Ham and Japheth,” there is some uncertainty as to their relative positions according to age. The fact that Shem is mentioned first is of itself no definite indication that Shem was Noah’s firstborn, since Shem’s own firstborn son (Arpachshad) is listed third in the genealogical records. (Ge 10:22; 1Ch 1:17) In the original Hebrew, Genesis 10:21 allows for more than one possible translation, some translations referring to Shem as “the brother of Japheth the oldest [“elder,” KJ],” while others call him the “elder [“older,” AT] brother of Japheth.” (AS, Dy, RS, JB, Ro) The ancient versions likewise differ​—the Septuagint, the translation by Symmachus, and the Targum of Onkelos present Japheth as the older, while the Samaritan Pentateuch, the Latin Vulgate, and the Syriac versions place Shem as the older brother of Japheth. The weight of evidence found in the rest of the Bible record, however, indicates that Shem likely was Noah’s second son, younger than Japheth.",
     choiceA: "Shem",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Shaphan",
+    choiceC: "Reuben",
+    choiceD: "Shechem",
     correctAnswer: "A",
   },
   {
@@ -9208,9 +9208,9 @@ const meaningOfNames9 = [
     clueSourceContent:
       "(Eʹnosh), Enos (Eʹnos) [Mortal Man]. The son of Seth, born to him at the age of 105. Enosh was 90 years old when he became father to Kenan, and he lived a total of 905 years. (Ge 5:6-11) His name is also listed in the genealogies at 1 Chronicles 1:1 and Luke 3:38. In his day “a start was made of calling on the name of Jehovah.” (Ge 4:26) This was evidently not a calling on Jehovah in faith and pure worship as Abel had done more than 105 years before Enosh’s birth. Some Hebrew scholars contend that the text should read “began profanely,” or “then profanation began.” With reference to Enosh’s day the Jerusalem Targum says: “That was the generation in whose days they began to err, and to make themselves idols, and surnamed their idols by the name of the Word of the Lord.” Men may have applied Jehovah’s name to themselves or to other men through whom they pretended to approach God in worship; or else they applied his name to idol objects.",
     choiceA: "Enosh",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Paul",
+    choiceC: "Nicodemus",
+    choiceD: "Hosea",
     correctAnswer: "A",
   },
   {
@@ -9219,20 +9219,10 @@ const meaningOfNames9 = [
     clueSourceContent:
       "(Jesʹse) [shortened form of Isshiah, meaning “Jehovah Makes Forget”; or, possibly, a shortened form of Abishai]. Father of King David of the tribe of Judah; grandson of Ruth and Boaz and a link in the genealogical line from Abraham to Jesus. (Ru 4:17, 22; Mt 1:5, 6; Lu 3:31, 32) Jesse fathered eight sons, one of whom apparently died before producing any sons of his own, which may account for the omission of his name from the genealogies of Chronicles. (1Sa 16:10, 11; 17:12; 1Ch 2:12-15) The two sisters of David, Abigail and Zeruiah, are nowhere called Jesse’s daughters, but one is called “the daughter of Nahash.” (1Ch 2:16, 17; 2Sa 17:25) It may be that Nahash was the former husband of Jesse’s wife, making her girls half sisters to Jesse’s sons, unless Nahash is another name for Jesse, or even the name of his wife, as some have suggested.",
     choiceA: "Jesse",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Manasseh",
+    choiceC: "Jehoshua",
+    choiceD: "Zubulun",
     correctAnswer: "A",
-  },
-  {
-    question: "",
-    clueSource: "",
-    clueSourceContent: "",
-    choiceA: "",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correctAnswer: "",
   },
   {
     question: "His name means “Rock Badger”.",
@@ -9240,9 +9230,9 @@ const meaningOfNames9 = [
     clueSourceContent:
       "(Shaʹphan) [Rock Badger]. Son of Azaliah and a royal secretary. King Josiah, in 642 B.C.E., sent Shaphan and two other officials to High Priest Hilkiah with instructions for temple repairs. On this occasion Hilkiah turned over to Shaphan “the very book of the law,” likely even the original, that had recently been found in the temple. No sooner had Shaphan read a portion of the Law to Josiah than he and his son Ahikam, along with others, were dispatched by Josiah as a delegation to inquire concerning Jehovah’s purpose for Judah. They went to the prophetess Huldah and reported back to the king Jehovah’s prophecy that destruction would come, but not during Josiah’s reign.​—2Ki 22:3-20; 2Ch 34:8-28.",
     choiceA: "Shaphan",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Shem",
+    choiceC: "Goliath",
+    choiceD: "Asher",
     correctAnswer: "A",
   },
   {
@@ -9251,9 +9241,9 @@ const meaningOfNames9 = [
     clueSourceContent:
       "(Eʹphra·im) [Doubly Fruitful]. Son of Joseph by his wife Asenath, the daughter of Potiphera the priest of On. Ephraim, the younger brother of Manasseh, was born in Egypt before the seven-year famine began. The name Ephraim was given to him by his father “because, to quote [Joseph], ‘God has made me fruitful in the land of my wretchedness.’”​—Ge 41:50-52.",
     choiceA: "Ephraim",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Naphtali",
+    choiceC: "Benjamin",
+    choiceD: "Abraham",
     correctAnswer: "A",
   },
   {
@@ -9262,9 +9252,9 @@ const meaningOfNames9 = [
     clueSourceContent:
       "(Jeʹsus) [Lat. form of the Gr. I·e·sousʹ, which corresponds to the Heb. Ye·shuʹaʽ or Yehoh·shuʹaʽ and means “Jehovah Is Salvation”]. Jewish historian Josephus of the first century C.E. mentions some 12 persons, other than those in the Bible record, bearing that name. It also appears in the Apocryphal writings of the last centuries of the B.C.E. period. It therefore appears that it was not an uncommon name during that period.",
     choiceA: "Jesus",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Hezekiah",
+    choiceC: "Micaiah",
+    choiceD: "Jehoiada",
     correctAnswer: "A",
   },
   {
@@ -9273,9 +9263,9 @@ const meaningOfNames9 = [
     clueSourceContent:
       "(Siʹlas), Silvanus (Sil·vaʹnus) [from Lat., meaning “Forest; Woods”]. A leading member of the first-century Christian congregation in Jerusalem, a prophet, and a companion of Paul on his second missionary journey. He was apparently a Roman citizen. (Ac 15:22, 26, 27, 32, 40; 16:19, 25, 37, 38) Likely the name Silvanus, found in the letters of Paul and Peter, was the Latinized form of the Greek name Silas, used by Luke in Acts.",
     choiceA: "Silas",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Zimri",
+    choiceC: "Omri",
+    choiceD: "Titus",
     correctAnswer: "A",
   },
   {
@@ -9284,9 +9274,9 @@ const meaningOfNames9 = [
     clueSourceContent:
       "(Eʹsau) [Hairy]. The firstborn of Isaac and Rebekah; the twin brother of Jacob and the forefather of the Edomites. He was given the name Esau because of his unusual hairy appearance at birth, but he got the name Edom (meaning “Red”) from the red lentil stew for which he sold his birthright.​—Ge 25:25, 26, 30.",
     choiceA: "Esau",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Ehud",
+    choiceC: "Edom",
+    choiceD: "Elihu",
     correctAnswer: "A",
   },
   {
@@ -9295,9 +9285,9 @@ const meaningOfNames9 = [
     clueSourceContent:
       "(Jethʹro) [from a root meaning “more than enough; overflow”]. Moses’ father-in-law, a Kenite. (Ex 3:1; Jg 1:16) Jethro is also called Reuel. (Nu 10:29) Jethro may have been a title, whereas Reuel was a personal name. However, it was not uncommon for an Arabian chief to have two or even more names, as is attested to by many inscriptions. Jethro is spelled “Jether” in the Masoretic text at Exodus 4:18.",
     choiceA: "Jethro",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Jacob",
+    choiceC: "Israel",
+    choiceD: "Aaron",
     correctAnswer: "A",
   },
 ];
@@ -9309,9 +9299,9 @@ const meaningOfNames10 = [
     clueSourceContent:
       "(Euʹnice) [from a root meaning “conquer”]. A believing Jewess, the daughter of Lois. She was the wife of an unbelieving Greek and the mother of Timothy. (Ac 16:1) It is very likely that the apostle Paul met Eunice at Lystra in Asia Minor on his first missionary tour and that then, as a result of his preaching, she and her mother Lois became Christians. (Ac 14:4-18) The faith of Eunice was “without any hypocrisy.” (2Ti 1:5) Although married to a pagan husband, she was exemplary in teaching her son Timothy “the holy writings” from his “infancy,” and when she became a Christian, she doubtless instructed him accordingly. (2Ti 3:15) Since Eunice’s husband was a Greek, Timothy’s parents had not had him circumcised.​—Ac 16:3.",
     choiceA: "Eunice",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Rahab",
+    choiceC: "Delilah",
+    choiceD: "Lois",
     correctAnswer: "A",
   },
   {
@@ -9320,9 +9310,9 @@ const meaningOfNames10 = [
     clueSourceContent:
       "(Joʹab) [Jehovah Is Father]. The second of three sons of David’s sister or half sister Zeruiah (possibly the daughter of David’s mother by an earlier marriage to Nahash; 2Sa 17:25). Joab was therefore the nephew of David. His brothers were Abishai and Asahel. (2Sa 8:16; 1Ch 2:13-16) In identifying these three men, the mother’s name is recorded rather than the father’s, because she was David’s sister; thus the relationship of David to the three men is made clear.",
     choiceA: "Joab",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Joel",
+    choiceC: "Jahaziel",
+    choiceD: "Jephthah",
     correctAnswer: "A",
   },
   {
@@ -9331,9 +9321,9 @@ const meaningOfNames10 = [
     clueSourceContent:
       "(Simʹe·on) [Hearing]. The second of Jacob’s 12 sons; so named because, as his mother Leah said, “Jehovah has listened, in that I was hated and so he gave me also this one.”​—Ge 29:32, 33; 35:23-26; 48:5; Ex 1:1-4; 1Ch 2:1, 2. When his father Jacob was encamped near Shechem, Simeon, together with his next younger brother Levi, displayed a vengeful anger that was unreasonably harsh and cruel. Arbitrarily, without their father’s knowledge or consent, they set about avenging the honor of their younger sister Dinah by slaughtering the Shechemites, bringing ostracism upon Jacob’s whole family.​—Ge 34:1-31.",
     choiceA: "Simeon",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Abdon",
+    choiceC: "Barak",
+    choiceD: "Othniel",
     correctAnswer: "A",
   },
   {
@@ -9342,9 +9332,9 @@ const meaningOfNames10 = [
     clueSourceContent:
       "[Living One; apparently related to the Heb. verb cha·yahʹ, “live”]. The first woman and the last reported of God’s earthly creative works. Jehovah the Creator knew that it was not good for the man to continue by himself. However, before proceeding to create the woman, God brought various beasts of the earth and flying creatures to the man. Adam named these but found no helper among them. It was then that Jehovah had a deep sleep fall upon Adam, removed a rib from his side, and after having closed up the flesh, built the rib that he had taken from the man into a woman. No doubt knowing by direct revelation from God his Creator and Father how the woman came into existence, Adam was pleased to accept her as his wife, saying: “This is at last bone of my bones and flesh of my flesh,” even as was apparent to his very senses. As his complement Adam called his wife ʼish·shahʹ (woman, or, literally, female man), “because from man this one was taken.” (Ge 2:18-23) Thereupon God pronounced his fatherly blessing upon both of them: “Be fruitful and become many and fill the earth and subdue it.” They were also to have the animal creation in subjection. (Ge 1:28) As a work of God’s hands, the woman was perfectly suited for being a complement to her husband Adam and also being a mother.",
     choiceA: "Eve",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Maacah",
+    choiceC: "Jochebed",
+    choiceD: "Sapphira",
     correctAnswer: "A",
   },
   {
@@ -9354,9 +9344,9 @@ const meaningOfNames10 = [
     clueSourceContent:
       "(Jezʹe·bel) [from Phoenician, possibly meaning “Where Is the Lofty One [that is, the prince]?”]. Wife of Ahab, a king of Israel in the latter half of the tenth century B.C.E. She was a domineering queen who proved to be a strong advocate of Baalism at the expense of Jehovah’s worship. In this she was like her father Ethbaal, the king of Sidon, evidently the one identified by the ancient historian Menander (according to Josephus’ Against Apion, I, 116, 123 [18]) as a priest of Astarte (Ashtoreth) who gained the throne by murdering his own king.​—1Ki 16:30, 31.",
     choiceA: "Jezebel",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Penninah",
+    choiceC: "Ahinoam",
+    choiceD: "Gershom",
     correctAnswer: "A",
   },
   {
@@ -9365,9 +9355,9 @@ const meaningOfNames10 = [
     clueSourceContent:
       "(Steʹphen) [from a root meaning “crown; wreath”]. The first Christian martyr. Though his name is Greek, he was one of the faithful Jewish remnant that accepted and followed the Messiah.​—Ac 7:2. His Appointment to a Special Ministry. Stephen’s name first appears in the Bible record in connection with the appointment of men to special service responsibilities in the Christian congregation at Jerusalem. The account reads: “Now in these days, when the disciples were increasing, a murmuring arose on the part of the Greek-speaking Jews against the Hebrew-speaking Jews, because their widows were being overlooked in the daily distribution.” The apostles saw the need for special attention to this matter, and they instructed the congregation: “So, brothers, search out for yourselves seven certified men from among you, full of spirit and wisdom, that we may appoint them over this necessary business.” These qualified men were then selected and were appointed by the apostles.​—Ac 6:1-6.",
     choiceA: "Stephen",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Chilion",
+    choiceC: "Mordecai",
+    choiceD: "Naboth",
     correctAnswer: "A",
   },
   {
@@ -9376,9 +9366,9 @@ const meaningOfNames10 = [
     clueSourceContent:
       "(E·zeʹki·el) [God Strengthens]. The son of Buzi, a priest. He was among the captives taken to Babylon by Nebuchadnezzar along with Jehoiachin in 617 B.C.E. His first visions of God came to him in “the thirtieth year, in the fourth month, on the fifth day of the month,” in the “fifth year of the exile of King Jehoiachin.” He prophesied to the Jews living by the river Chebar, which some modern scholars believe to be one of the great Babylonian canals. “The thirtieth year” seems to have reference to Ezekiel’s age. He began his duties as a prophet at this time.​—Eze 1:1-3.",
     choiceA: "Ezekiel",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Archippus",
+    choiceC: "Samson",
+    choiceD: "Demas",
     correctAnswer: "A",
   },
   {
@@ -9387,9 +9377,9 @@ const meaningOfNames10 = [
     clueSourceContent:
       "(Ezʹra) [Help]. An Aaronic priest, a descendant of Eleazar and Phinehas, a scholar, an expert copyist and teacher of the Law, skilled in both Hebrew and Aramaic. Ezra had genuine zeal for pure worship and “prepared his heart to consult the law of Jehovah and to do it and to teach in Israel regulation and justice.” (Ezr 7:1-6, 10) In addition to writing the book bearing his name, Ezra apparently wrote the two books of Chronicles, and Jewish tradition credits him with beginning the compiling and cataloging of the books of the Hebrew Scriptures. Moreover, Ezra was an outstanding researcher, citing about 20 sources of information in the two books of Chronicles. Since many of the Jews were scattered far and wide in Ezra’s day, it necessitated the making of many copies of the Hebrew Scriptures, and likely Ezra pioneered this work.",
     choiceA: "Ezra",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Heli",
+    choiceC: "Abel",
+    choiceD: "Caleb",
     correctAnswer: "A",
   },
   {
@@ -9399,9 +9389,9 @@ const meaningOfNames10 = [
     clueSourceContent:
       "(Jo·siʹah) [if related to an Arabic root, May Jehovah Heal; Jehovah Has Healed]. Son of Judean King Amon by Jedidah the daughter of Adaiah. (2Ki 22:1) Josiah had at least two wives, Hamutal and Zebidah. (2Ki 23:31, 34, 36) Of his four sons mentioned in the Bible, only the firstborn, Johanan, did not rule as king over Judah.​—1Ch 3:14, 15.",
     choiceA: "Josiah",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Shemaiah",
+    choiceC: "Barachaiah",
+    choiceD: "Baasha",
     correctAnswer: "A",
   },
   {
@@ -9410,9 +9400,9 @@ const meaningOfNames10 = [
     clueSourceContent:
       "(Juʹdah) [Lauded; [Object of] Laudation]. Jacob’s fourth son by his wife Leah. (Ge 29:35; 1Ch 2:1) After spending about nine years of his life at Haran in Paddan-aram, Judah was taken with all of Jacob’s household to Canaan. (Compare Ge 29:4, 5, 32-35; 30:9-12, 16-28; 31:17, 18, 41.) Subsequently he resided with his father at Succoth and then at Shechem. After his sister Dinah was violated by Hamor’s son, and Simeon and Levi had avenged her by killing all the males of Shechem, Judah evidently shared in plundering the city.​—Ge 33:17, 18; 34:1, 2, 25-29.",
     choiceA: "Judah",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Absalom",
+    choiceC: "Joab",
+    choiceD: "Saul",
     correctAnswer: "A",
   },
   {
@@ -9421,9 +9411,9 @@ const meaningOfNames10 = [
     clueSourceContent:
       "(Jaʹson) [possibly from a root meaning “heal”]. A prominent Christian in Thessalonica who had ‘received Paul and Silas hospitably’ on their first journey into Macedonia. A mob of jealous Jews set about to take Paul and Silas from Jason’s house, but, not finding them there, they took Jason instead and made him the principal defendant in charges of sedition against Caesar. Jason and the others with him were released after giving “sufficient security,” perhaps in the form of bail.​—Ac 17:5-10.",
     choiceA: "Jason",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Luke",
+    choiceC: "Timothy",
+    choiceD: "Paul",
     correctAnswer: "A",
   },
   {
@@ -9432,9 +9422,9 @@ const meaningOfNames10 = [
     clueSourceContent:
       "[Object of Hostility]. A man living in the land of Uz, in what is now Arabia. (Job 1:1) God said concerning Job: “There is no one like him in the earth, a man blameless and upright, fearing God and turning aside from bad.” (Job 1:8) This would indicate that Job lived in Uz at about the time that his distant cousins, the 12 tribes of Israel, were in slavery down in the land of Egypt. By then Joseph the son of Jacob (Israel) had died (1657 B.C.E.) after he had endured much unjust suffering but had kept his blamelessness toward Jehovah God. Moses had not yet risen up as Jehovah’s prophet to lead the 12 tribes of Israel out of Egyptian slavery. Between Joseph’s death and the time when Moses by his conduct showed himself to be blameless and upright, there was no human with integrity like Job’s. It was likely during this period that the conversations involving Job took place between Jehovah and Satan.​—Job 1:6-12; 2:1-7.",
     choiceA: "Job",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Nabal",
+    choiceC: "Judah",
+    choiceD: "Philip",
     correctAnswer: "A",
   },
   {
@@ -9443,9 +9433,9 @@ const meaningOfNames10 = [
     clueSourceContent:
       "(Jochʹe·bed) [possibly, Jehovah Is Glory]. A daughter of Levi who married Amram of the same tribe and became the mother of Miriam, Aaron, and Moses. (Ex 6:20; Nu 26:59) Jochebed was a woman of faith; she trusted in her God Jehovah. In defiance of Pharaoh’s decree she refused to kill her baby, later named Moses, and after three months, when he could no longer be concealed in the house, she placed him in an ark of papyrus and put it among the reeds along the bank of the Nile. Pharaoh’s daughter found the baby and claimed him for herself, but, as it worked out, Moses’ own mother was asked to nurse him. As the child grew, Jochebed, together with her husband, was very diligent to teach her children the principles of pure worship, as is reflected in their later lives.​—Ex 2:1-10.",
     choiceA: "Jochebed",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Jezebel",
+    choiceC: "Jael",
+    choiceD: "None of the above",
     correctAnswer: "A",
   },
   {
@@ -9454,9 +9444,9 @@ const meaningOfNames10 = [
     clueSourceContent:
       "(Joʹel) [Jehovah Is God]. A prophet of Jehovah and writer of the Bible book bearing his name. He was the son of Pethuel.​—Joe 1:1; see JOEL, BOOK OF.",
     choiceA: "Joel",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Josiah",
+    choiceC: "Jahaziel",
+    choiceD: "Joshua",
     correctAnswer: "A",
   },
   {
@@ -9466,9 +9456,9 @@ const meaningOfNames10 = [
     clueSourceContent:
       "[English equivalent of Jehohanan, meaning “Jehovah Has Shown Favor; Jehovah Has Been Gracious”]. John the Baptizer, son of Zechariah and Elizabeth; the forerunner of Jesus. Both of John’s parents were of the priestly house of Aaron. Zechariah was a priest of the division of Abijah.​—Lu 1:5, 6.",
     choiceA: "John",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Jonah",
+    choiceC: "Jonathan",
+    choiceD: "Jason",
     correctAnswer: "A",
   },
   {
@@ -9477,9 +9467,9 @@ const meaningOfNames10 = [
     clueSourceContent:
       "(Joʹnah) [Dove]. “Son of Amittai”; a prophet of Jehovah from Gath-hepher (2Ki 14:25), a border city in the territory of Zebulun. (Jos 19:10, 13) In fulfillment of Jehovah’s word spoken through Jonah, Israel’s King Jeroboam II succeeded in restoring “the boundary of Israel from the entering in of Hamath clear to the sea of the Arabah [the Salt Sea].” (2Ki 14:23-25; compare De 3:17.) So it appears that Jonah served as a prophet to the ten-tribe kingdom sometime during the reign of Jeroboam II. He is evidently the same person Jehovah commissioned to proclaim judgment against Nineveh (Jon 1:1, 2) and, therefore, also the writer of the book bearing his name.",
     choiceA: "Jonah",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Aquila",
+    choiceC: "Elijah",
+    choiceD: "Noah",
     correctAnswer: "A",
   },
   {
@@ -9488,9 +9478,9 @@ const meaningOfNames10 = [
     clueSourceContent:
       "(Jonʹa·than) [Jehovah Has Given]. An English rendering of two Hebrew names, Yoh·na·thanʹ and the longer form Yehoh·na·thanʹ.​—See JEHONATHAN. A Levite who served as priest in connection with false worship at the house of Micah in Ephraim and later with the Danites. The account in Judges chapters 17 and 18 repeatedly refers to a young Levite who, at Judges 18:30, is called “Jonathan the son of Gershom, Moses’ son.” That he was earlier described as “of the family of Judah” may refer simply to the fact that he resided in Bethlehem in the territory of Judah.​—Jg 17:7.",
     choiceA: "Jonathan",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Joseph",
+    choiceC: "Jonah",
+    choiceD: "Josiah",
     correctAnswer: "A",
   },
   {
@@ -9500,9 +9490,9 @@ const meaningOfNames10 = [
     clueSourceContent:
       "(Joʹseph) [shortened form of Josiphiah meaning “May Jah Add (Increase); Jah Has Added (Increased)”]. The first of Jacob’s two sons by his beloved wife Rachel. (Ge 35:24) At his birth, Rachel, because of having been barren, exclaimed: “God has taken away my reproach!” She then called his name Joseph, saying: “Jehovah is adding another son to me,” that is, another son besides Dan and Naphtali, whom Rachel had accepted as her own although they were borne by her maidservant Bilhah. (Ge 30:3-8, 22-24) At this time Jacob was evidently 91 years old.​—Compare Ge 41:46, 47, 53, 54; 45:11; 47:9.",
     choiceA: "Joseph",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Abijah",
+    choiceC: "Abijam",
+    choiceD: "Josiah",
     correctAnswer: "A",
   },
   {
@@ -9511,9 +9501,9 @@ const meaningOfNames10 = [
     clueSourceContent:
       "(Joshʹu·a) [shortened form of Jehoshua, meaning “Jehovah Is Salvation”]. Son of Nun; an Ephraimite who ministered to Moses and was later appointed as his successor. (Ex 33:11; De 34:9; Jos 1:1, 2) The Scriptures portray Joshua as a bold and fearless leader, one who was confident in the certainty of Jehovah’s promises, obedient to divine direction, and determined to serve Jehovah in faithfulness. His original name was Hoshea, but Moses called him Joshua or Jehoshua. (Nu 13:8, 16) The Bible record, however, does not reveal just when Hoshea came to be known as Joshua.",
     choiceA: "Joshua",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Joseph",
+    choiceC: "John",
+    choiceD: "Jonathan",
     correctAnswer: "A",
   },
   {
@@ -9522,9 +9512,9 @@ const meaningOfNames10 = [
     clueSourceContent:
       "(Je·hoʹvah) [the causative form, the imperfect state, of the Heb. verb ha·wahʹ (become); meaning “He Causes to Become”]. The personal name of God. (Isa 42:8; 54:5) Though Scripturally designated by such descriptive titles as “God,” “Sovereign Lord,” “Creator,” “Father,” “the Almighty,” and “the Most High,” his personality and attributes​—who and what he is—​are fully summed up and expressed only in this personal name.​—Ps 83:18. Correct Pronunciation of the Divine Name. “Jehovah” is the best known English pronunciation of the divine name, although “Yahweh” is favored by most Hebrew scholars. The oldest Hebrew manuscripts present the name in the form of four consonants, commonly called the Tetragrammaton (from Greek te·tra-, meaning “four,” and gramʹma, “letter”). These four letters (written from right to left) are יהוה and may be transliterated into English as YHWH (or, JHVH). The Hebrew consonants of the name are therefore known. The question is, Which vowels are to be combined with those consonants? Vowel points did not come into use in Hebrew until the second half of the first millennium C.E. (See HEBREW, II [Hebrew Alphabet and Script].)",
     choiceA: "Jehovah",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Moses",
+    choiceC: "Jonathan",
+    choiceD: "Jesus",
     correctAnswer: "A",
   },
 ];
