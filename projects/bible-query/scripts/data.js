@@ -7475,7 +7475,7 @@ const meaningOfNames1 = [
     choiceA: "Terah",
     choiceB: "Meshach",
     choiceC: "Abednego",
-    choiceD: "Sadrac",
+    choiceD: "Shadrach",
     correctAnswer: "A",
   },
   {
@@ -8872,8 +8872,8 @@ const meaningOfNames8 = [
       "(Boʹaz) [possibly, In Strength]. A landowner of Bethlehem in Judah, “a man mighty in wealth” of about the 14th century B.C.E. (Ru 2:1) Boaz was the son of Salma (Salmon) and Rahab, and he was the father of Obed. (Mt 1:5) He was a link in the family line of the Messiah, the seventh in line of descent from Judah. (1Ch 2:3-11; Lu 3:32, 33) How this very unusual turn of events came about, allowing Boaz to be included in the genealogy of Jesus, is preserved for us in the book of Ruth.",
     choiceA: "Boaz",
     choiceB: "Samson",
-    choiceC: "",
-    choiceD: "",
+    choiceC: "Goliath",
+    choiceD: "Jonathan",
     correctAnswer: "A",
   },
   {
@@ -8882,9 +8882,9 @@ const meaningOfNames8 = [
     clueSourceContent:
       "(E·limʹe·lech) [My God Is King]. A man of Bethlehem who, along with his wife Naomi and their two sons Mahlon and Chilion, left Judah because of a famine in the days of the Judges and took up alien residence in Moab, where he died.​—Ru 1:1-3.",
     choiceA: "Elimelech",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Eli",
+    choiceC: "Ebimelech",
+    choiceD: "Melchizedek",
     correctAnswer: "A",
   },
   {
@@ -8893,9 +8893,9 @@ const meaningOfNames8 = [
     clueSourceContent:
       "(Je·hoiʹa·kim) [possibly, Jehovah Raises Up]. One of the last Judean kings, son of Josiah by Zebidah, and originally called Eliakim. (2Ki 23:34, 36; 1Ch 3:15) Jehoiakim’s bad rule of about 11 years (628-618 B.C.E.) was marked by injustices, oppression, and murder. (2Ch 36:5; Jer 22:17; 52:2) Also, during his reign Judah experienced much harassment from Chaldean, Syrian, Moabite, and Ammonite marauder bands.​—2Ki 24:2.",
     choiceA: "Jehoiakim",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Lazarus",
+    choiceC: "Hezekiah",
+    choiceD: "Jehoahaz",
     correctAnswer: "A",
   },
   {
@@ -8904,9 +8904,9 @@ const meaningOfNames8 = [
     clueSourceContent:
       "(Hophʹni) [from Egyptian, meaning “Tadpole”]. One of High Priest Eli’s sons. Hophni and his brother Phinehas were “good-for-nothing men,” guilty of sacrilegious conduct and gross immorality. (1Sa 1:3; 2:12-17, 22-25) Because of unfaithfulness while serving as priest at Jehovah’s sanctuary, Jehovah judged Hophni worthy of death, which befell him at the time the Philistines captured the sacred Ark.​—1Sa 2:34; 4:4, 11, 17; see PHINEHAS No. 2.",
     choiceA: "Hophni",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Phinehas",
+    choiceC: "Ferb",
+    choiceD: "Tibni",
     correctAnswer: "A",
   },
   {
@@ -8915,9 +8915,9 @@ const meaningOfNames8 = [
     clueSourceContent:
       "(Mirʹi·am) [possibly, Rebellious]. Daughter of Amram and his wife Jochebed, both of the tribe of Levi; sister of Moses and Aaron. (Nu 26:59; 1Ch 6:1-3) Though not specifically named in the account, she was undoubtedly the one termed “his sister” who watched to see what would become of the infant Moses as he lay in an ark placed among the reeds of the river Nile. (Ex 2:3, 4) After Pharaoh’s daughter discovered the babe, “felt compassion” for it, and recognized that it was “one of the children of the Hebrews,” Miriam asked if she should summon a Hebrew woman to nurse the child. Being told to do so by Pharaoh’s daughter, “the maiden went and called the child’s mother” (Jochebed), who was thereafter employed to care for Moses until he grew up.​—Ex 2:5-10.",
     choiceA: "Miriam",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Zebidah",
+    choiceC: "Bath-sheba",
+    choiceD: "Jezebel",
     correctAnswer: "A",
   },
   {
@@ -8926,9 +8926,9 @@ const meaningOfNames8 = [
     clueSourceContent:
       "(Nimʹrod). Son of Cush. (1Ch 1:10) The rabbinic writings derived the name Nimrod from the Hebrew verb ma·radhʹ, meaning “rebel.” Thus, the Babylonian Talmud (Erubin 53a) states: “Why, then, was he called Nimrod? Because he stirred up the whole world to rebel (himrid) against His [God’s] sovereignty.”​—Encyclopedia of Biblical Interpretation, by Menahem M. Kasher, Vol. II, 1955, p. 79.",
     choiceA: "Nimrod",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Aaron",
+    choiceC: "Absalom",
+    choiceD: "Judas",
     correctAnswer: "A",
   },
   {
@@ -8937,9 +8937,9 @@ const meaningOfNames8 = [
     clueSourceContent:
       "(Prisʹca) [Old Woman]; Priscilla (Pris·cilʹla) [Little Old Woman]. The shorter form of the name is found in Paul’s writings, the longer form in Luke’s. Such a variation was common in Roman names. Priscilla was the wife of Aquila, with whom she is always mentioned. The two showed fine Christian works and hospitality not only to individuals but also to the congregation by having congregation meetings in their home in both Rome and Ephesus.",
     choiceA: "Prisca",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Priscilla",
+    choiceC: "Aquila",
+    choiceD: "Eunice",
     correctAnswer: "A",
   },
   {
@@ -8949,8 +8949,8 @@ const meaningOfNames8 = [
       "(Seʹir) [from a root meaning “bristle up,” possibly referring to wooded hills; or, possibly meaning “Bristle Up (Shudder) in Horror”]. A “Horite” whose seven “sons” were sheiks in the land of Seir prior to its being occupied by Esau (Edom). (Ge 36:20, 21, 29, 30; 1Ch 1:38; compare Ge 14:4-6.) Seir may have lived in the mountainous region S of the Dead Sea, and this area was perhaps named after him. Whether the seven “sons” of Seir were immediate offspring or included later descendants is uncertain.​—See ANAH; DISHON.",
     choiceA: "Seir",
     choiceB: "Judas",
-    choiceC: "",
-    choiceD: "",
+    choiceC: "Peter",
+    choiceD: "Canaan",
     correctAnswer: "A",
   },
   {
@@ -8971,9 +8971,9 @@ const meaningOfNames8 = [
     clueSourceContent:
       "(Bezʹal·el) [Under God’s Shadow (Shelter)]. Chief artisan and builder of the tabernacle, “the son of Uri the son of Hur of the tribe of Judah.” (Ex 31:1, 2; 1Ch 2:20) Jehovah himself appointed Bezalel and promised to “fill him with the spirit of God in wisdom and in understanding and in knowledge and in every kind of craftsmanship, for designing devices, for working in gold and silver and copper, and in working of stones to set them and in working of wood to make products of every kind.” (Ex 31:3-5; 35:30-33) These costly materials that Bezalel worked with were supplied by the generous contributions of the “willing-hearted” people, and they proved “more than enough.”​—Ex 35:4-9, 20-29; 36:3-7.",
     choiceA: "Bezalel",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Boaz",
+    choiceC: "Belshazzar",
+    choiceD: "Belteshazzar",
     correctAnswer: "A",
   },
   {
@@ -8984,7 +8984,7 @@ const meaningOfNames8 = [
     choiceA: "Elisha",
     choiceB: "Joshua",
     choiceC: "Jesus",
-    choiceD: "",
+    choiceD: "Isaiah",
     correctAnswer: "A",
   },
   {
@@ -8993,9 +8993,9 @@ const meaningOfNames8 = [
     clueSourceContent:
       "(Jeʹhu) [possibly, Jehovah Is He]. A Benjamite of the city of Anathoth who came as a volunteer to serve with David. David was then at Ziklag as a refugee from King Saul. Jehu was among the mighty men “armed with the bow, using the right hand and using the left hand with stones or with arrows in the bow.”​—1Ch 12:1-3.",
     choiceA: "Jehu",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Job",
+    choiceC: "Judah",
+    choiceD: "Jeremiah",
     correctAnswer: "A",
   },
   {
@@ -9004,9 +9004,9 @@ const meaningOfNames8 = [
     clueSourceContent:
       "(Haʹmor) [He-Ass]. A Hivite chieftain; father of Shechem. It was from the sons of Hamor that Jacob purchased a tract of land where he pitched his tent and then later set up an altar. After Shechem violated Jacob’s daughter Dinah, both Shechem and his father Hamor were killed by Simeon and Levi, in avenging their sister.​—Ge 33:18-20; 34:1, 2, 25, 26.",
     choiceA: "Hamor",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Heli",
+    choiceC: "Balaam",
+    choiceD: "Colt",
     correctAnswer: "A",
   },
   {
@@ -9016,8 +9016,8 @@ const meaningOfNames8 = [
       "(Moʹses) [Drawn Out [that is, saved out of water]]. “Man of the true God,” leader of the nation of Israel, mediator of the Law covenant, prophet, judge, commander, historian, and writer. (Ezr 3:2) Moses was born in 1593 B.C.E., in Egypt, being the son of Amram, the grandson of Kohath, and the great-grandson of Levi. His mother Jochebed was Kohath’s sister. (See, however, JOCHEBED.) Moses was three years younger than his brother Aaron. Miriam their sister was some years older.​—Ex 6:16, 18, 20; 2:7.",
     choiceA: "Moses",
     choiceB: "Noah",
-    choiceC: "",
-    choiceD: "",
+    choiceC: "Jonah",
+    choiceD: "James",
     correctAnswer: "A",
   },
   {
@@ -9027,8 +9027,8 @@ const meaningOfNames8 = [
       "(Noʹah). [Heb., Noʹach, probably, Rest; Consolation]. Son of Lamech and tenth in line from Adam through Seth; born in 2970 B.C.E., 126 years after Adam’s death. When his father Lamech named Noah, he said: “This one will bring us comfort from our work and from the pain of our hands resulting from the ground which Jehovah has cursed.”​—Ge 5:28-31.",
     choiceA: "Noah",
     choiceB: "Moses",
-    choiceC: "",
-    choiceD: "",
+    choiceC: "Micah",
+    choiceD: "Nahum",
     correctAnswer: "A",
   },
   {
@@ -9037,9 +9037,9 @@ const meaningOfNames8 = [
     clueSourceContent:
       "[Appointed; Put; Set]. The son of Adam and Eve born when Adam was 130 years old. Eve named him Seth because, as she said, “God has appointed another seed in place of Abel, because Cain killed him.” Seth may not have been the third child of Adam and Eve. According to Genesis 5:4, Adam had “sons and daughters,” some of whom may have been born before Seth. Seth is worthy of note because Noah, and through him the present-day race of mankind, descended from him, not from the murderous Cain. At the age of 105 years Seth became father to Enosh. Seth died at the age of 912 years (3896-2984 B.C.E.).​—Ge 4:17, 25, 26; 5:3-8; 1Ch 1:1-4; Lu 3:38.",
     choiceA: "Seth",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Iddo",
+    choiceC: "Urijah",
+    choiceD: "Shem",
     correctAnswer: "A",
   },
   {
@@ -9059,9 +9059,9 @@ const meaningOfNames8 = [
     clueSourceContent:
       "(Barʹuch) [Blessed]. The scribal secretary of Jeremiah. Baruch was the son of Neriah and brother of Seraiah, Zedekiah’s quartermaster who read Jeremiah’s scroll alongside the Euphrates.​—Jer 32:12; 51:59-64.",
     choiceA: "Baruch",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Samson",
+    choiceC: "David",
+    choiceD: "Adonijah",
     correctAnswer: "A",
   },
   {
@@ -9070,9 +9070,9 @@ const meaningOfNames8 = [
     clueSourceContent:
       "(E·lizʹa·beth) [Gr., E·lei·saʹbet from Heb., ʼE·li·sheʹvaʽ, meaning “My God Is Plenty; God of Plenty”]. The God-fearing wife of the priest Zechariah and the mother of John the Baptizer. Elizabeth herself was of the priestly family of Aaron the Levite. Both she and her husband were well along in years when the angel Gabriel appeared to Zechariah in the Holy of the temple and announced that Elizabeth would give birth to a son who was to be called John. Upon becoming pregnant, Elizabeth kept herself secluded for five months. In the sixth month of her pregnancy she was visited by her relative Mary. On that occasion the unborn John leaped in his mother’s womb, and Elizabeth, filled with holy spirit, blessed Mary and the fruit of her womb, calling her “the mother of my Lord.”​—Lu 1:5-7, 11-13, 24, 39-43.",
     choiceA: "Elizabeth",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Sarah",
+    choiceC: "Eve",
+    choiceD: "Rachel",
     correctAnswer: "A",
   },
 ];
