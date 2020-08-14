@@ -8195,9 +8195,9 @@ const meaningOfNames5 = [
     clueSourceContent:
       "(Bar·tholʹo·mew) [Son of Tolmai]. One of Jesus’ 12 apostles, generally thought to be Nathanael. A comparison of the Gospel accounts shows that Matthew and Luke link Bartholomew and Philip together in the same way that John associates the name Nathanael with Philip. (Mt 10:3; Lu 6:14; Joh 1:45, 46) For details on this apostle’s activity, see NATHANAEL.",
     choiceA: "Bartholomew",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Bartolmai",
+    choiceC: "Bartolomew",
+    choiceD: "Barttholomew",
     correctAnswer: "A",
   },
   {
@@ -8206,9 +8206,9 @@ const meaningOfNames5 = [
     clueSourceContent:
       "(Diʹnah) [Judged [that is, acquitted; vindicated]]. Daughter of Jacob by Leah. Dinah may have been about six years of age when Jacob returned to Canaan and settled at Succoth, she having been born at Haran when her father was residing there.​—Ge 30:21, 22, 25; 31:41.",
     choiceA: "Dinah",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Martha",
+    choiceC: "Jael",
+    choiceD: "Bath-sheba",
     correctAnswer: "A",
   },
   {
@@ -8217,9 +8217,9 @@ const meaningOfNames5 = [
     clueSourceContent:
       "(E·liʹa·kim) [My God Raises Up]. Son of Hilkiah; chief administrator of the affairs of the house of Hezekiah the king of Judah at the time the Assyrian king Sennacherib invaded Judah in 732 B.C.E.",
     choiceA: "Eliakim",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Lazarus",
+    choiceC: "Daniel",
+    choiceD: "Abner",
     correctAnswer: "A",
   },
   {
@@ -8228,9 +8228,9 @@ const meaningOfNames5 = [
     clueSourceContent:
       "(Jahʹzi·el) [God Divides]. An alternate spelling of Jahzeel (Ge 46:24), who was the first-listed son of Naphtali.​—1Ch 7:13.",
     choiceA: "Jahziel",
-    choiceB: "DONT USE JAHZEEL",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Shimei",
+    choiceC: "Moses",
+    choiceD: "Mordecai",
     correctAnswer: "A",
   },
   {
@@ -8239,9 +8239,9 @@ const meaningOfNames5 = [
     clueSourceContent:
       "(Gidʹdel) [Made Great]. An ancestor of a family of Nethinim temple slaves who were among those who returned with Zerubbabel from Babylonian exile in 537 B.C.E.​—Ezr 2:1, 2, 43, 47; Ne 7:49.",
     choiceA: "Giddel",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Joseph",
+    choiceC: "David",
+    choiceD: "Gehazi",
     correctAnswer: "A",
   },
   {
@@ -8250,9 +8250,9 @@ const meaningOfNames5 = [
     clueSourceContent:
       "(Ha·dasʹsah) [Myrtle]. The cousin of Mordecai who replaced Persian Queen Vashti; better known by her Persian name Esther.​—Es 2:7; see ESTHER.",
     choiceA: "Hadassah",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Leah",
+    choiceC: "Mary",
+    choiceD: "Zilpha",
     correctAnswer: "A",
   },
   {
@@ -8262,9 +8262,9 @@ const meaningOfNames5 = [
     clueSourceContent:
       "(Isʹra·el) [Contender (Perseverer) With God; or, God Contends]. The name God gave to Jacob when he was about 97 years old. It was during the night that Jacob crossed the torrent valley of Jabbok on his way to meet his brother Esau that he began struggling with what turned out to be an angel. Because of Jacob’s perseverance in the struggle, his name was changed to Israel as a token of God’s blessing. In commemoration of these events, Jacob named the place Peniel or Penuel. (Ge 32:22-31; see JACOB No. 1.) Later, at Bethel the change in name was confirmed by God, and from then on to the end of his life Jacob was frequently called Israel. (Ge 35:10, 15; 50:2; 1Ch 1:34) Many of the more than 2,500 occurrences of the name Israel, however, are in reference to Jacob’s descendants as a nation.​—Ex 5:1, 2.",
     choiceA: "Israel",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Jacob",
+    choiceC: "Esau",
+    choiceD: "Edom",
     correctAnswer: "A",
   },
   {
@@ -8273,9 +8273,9 @@ const meaningOfNames5 = [
     clueSourceContent:
       "(Leʹvi) [Adherence; Joined]. Jacob’s third son by his wife Leah, born in Paddan-aram. (Ge 35:23, 26) At his birth Leah said: “Now this time my husband will join himself to me, because I have borne him three sons.” The boy was therefore called Levi, the meaning of this name evidently being linked with Leah’s hope for a new bond of affection between her and Jacob. (Ge 29:34) Levi became the father of Gershon (Gershom), Kohath, and Merari, founders of the three principal divisions of the Levites.​—Ge 46:11; 1Ch 6:1, 16.",
     choiceA: "Levi",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Uriah",
+    choiceC: "Judah",
+    choiceD: "Naphtali",
     correctAnswer: "A",
   },
   {
@@ -8284,9 +8284,9 @@ const meaningOfNames5 = [
     clueSourceContent:
       "(Me·thuʹse·lah) [possibly, Man of the Missile]. Son of the faithful prophet Enoch; father of Lamech and grandfather of Noah. (Ge 5:21-29; 1Ch 1:1-4; Jude 14, 15) A descendant of Adam through Seth, Methuselah was of the eighth human generation. (Lu 3:37, 38) He enjoyed a life span of 969 years, the longest of Bible record, and one that has become proverbial for longevity. He died in 2370 B.C.E., the year in which the Flood began. But the Scriptures say that Methuselah “died,” not that he perished in the Deluge as a result of divine execution.​—Ge 5:27; see LIFE SPAN.",
     choiceA: "Methuselah",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Saul",
+    choiceC: "Zephaniah",
+    choiceD: "Mahlon",
     correctAnswer: "A",
   },
   {
@@ -8295,9 +8295,9 @@ const meaningOfNames5 = [
     clueSourceContent:
       "(Naphʹta·li) [My Wrestlings]. The second son born to Jacob by Rachel’s maidservant Bilhah in Paddan-aram. (Ge 35:25, 26; Ex 1:1, 4; 1Ch 2:1, 2) Since Bilhah had substituted for her mistress Rachel, Naphtali, like his older full brother Dan, was considered by barren Rachel as her own son. Although her sister Leah by then already had four sons (Ge 29:32-35), Rachel was elated over her success in getting a second son through her maidservant and exclaimed: “With strenuous wrestlings I have wrestled with my sister. I have also come off winner!” The name given to this son, Naphtali (meaning “My Wrestlings”), appropriately expressed Rachel’s feelings at the time of his birth.​—Ge 30:2-8.",
     choiceA: "Naphtali",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Jacob",
+    choiceC: "Israel",
+    choiceD: "Gideon",
     correctAnswer: "A",
   },
   {
@@ -8306,9 +8306,9 @@ const meaningOfNames5 = [
     clueSourceContent:
       "(Phi·leʹmon) [Loving]. A Christian slave owner associated with the congregation at Colossae. His house in this city of southwestern Asia Minor served as a meeting place for the congregation there. Philemon proved himself to be a source of refreshment to fellow Christians and an example in faith and love. The apostle Paul regarded him as a beloved fellow worker. (Phm 1, 2, 5-7; compare Col 4:9 with Phm 10-12.) Paul’s desire to lodge with Philemon reflects favorably on this man’s hospitality.​—Phm 22; compare Ac 16:14, 15.",
     choiceA: "Philemon",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Timothy",
+    choiceC: "David",
+    choiceD: "Noah",
     correctAnswer: "A",
   },
   {
@@ -8317,9 +8317,9 @@ const meaningOfNames5 = [
     clueSourceContent:
       "(Reuʹben) [See, a Son!]. The firstborn of Jacob’s 12 sons. His mother was Jacob’s less favored wife, Leah, who named her boy Reuben, “because,” to quote her, “Jehovah has looked upon my wretchedness, in that now my husband will begin to love me.” (Ge 29:30-32; 35:23; 46:8; Ex 1:1, 2; 1Ch 2:1) As a result of Jehovah’s continued favor on his mother, Reuben and his five full brothers (Simeon, Levi, Judah, Issachar, and Zebulun) constituted half of the original tribal heads of Israel; the other six (Joseph, Benjamin, Dan, Naphtali, Gad, and Asher) were Reuben’s half brothers.​—Ge 35:23-26.",
     choiceA: "Reuben",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Judah",
+    choiceC: "Simeon",
+    choiceD: "Simon",
     correctAnswer: "A",
   },
   {
@@ -8328,10 +8328,9 @@ const meaningOfNames5 = [
     clueSourceContent:
       "(Sarʹah) [Princess], Sarai (Sarʹai) [possibly, Contentious]. Half sister and wife of Abraham and mother of Isaac. (Ge 11:29; 20:12; Isa 51:2) Her original name was Sarai. (Ge 17:15) She was ten years younger than Abraham (Ge 17:17) and married him while they were living in the Chaldean city of Ur. (Ge 11:28, 29) She continued barren until her reproductive powers were miraculously revived after she had already stopped menstruating.​—Ge 18:11; Ro 4:19; Heb 11:11.",
     choiceA: "Sarai",
-    choiceA: "",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Naomi",
+    choiceC: "Sarah",
+    choiceD: "Mara",
     correctAnswer: "A",
   },
   {
@@ -8340,9 +8339,9 @@ const meaningOfNames5 = [
     clueSourceContent:
       "(Ze·rubʹba·bel) [from Akkadian, meaning “Seed (Offspring) of Babel”]. First governor of the repatriated Jews (Hag 2:21); a descendant of King David and an ancestor of Jesus Christ; likely the actual son of Pedaiah but legally reckoned as the son of Shealtiel. (1Ch 3:19; Mt 1:12, 13; Lu 3:27; see GENEALOGY OF JESUS CHRIST [Problems in Matthew’s Genealogy of Jesus].) The genealogical listing of 1 Chronicles (3:19, 20) names seven sons of Zerubbabel (Meshullam, Hananiah, Hashubah, Ohel, Berechiah, Hasadiah, Jushab-hesed) and one daughter (Shelomith). Zerubbabel’s official or Babylonian name appears to have been Sheshbazzar.​—Ezr 1:8, 11; 5:14, 16; compare Ezr 3:8.",
     choiceA: "Zerubbabel",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Zerabbabel",
+    choiceC: "Zerubabel",
+    choiceD: "Zerababel",
     correctAnswer: "A",
   },
   {
@@ -8363,9 +8362,9 @@ const meaningOfNames5 = [
     clueSourceContent:
       "(Bath-sheʹba) [Daughter of Plenty; possibly, Daughter [Born on] the Seventh [Day]]. Daughter of Eliam (Ammiel, 1Ch 3:5); possibly a granddaughter of Ahithophel. (2Sa 11:3; 23:34) First the wife of Uriah the Hittite, one of David’s mighty men; later married to David after being involved in one of the blackest episodes of David’s life.​—2Sa 23:39.",
     choiceA: "Bath-sheba",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Eve",
+    choiceC: "Hagar",
+    choiceD: "The wife of Lot",
     correctAnswer: "A",
   },
   {
@@ -8374,9 +8373,9 @@ const meaningOfNames5 = [
     clueSourceContent:
       "(Dorʹcas) [Gazelle]. A Christian woman in the Joppa congregation abounding in “good deeds and gifts of mercy,” evidently including the making of inner and outer garments for needy widows. (Ac 9:36, 39) “Dorcas” corresponds to the Aramaic “Tabitha,” both names meaning “Gazelle.” Possibly Dorcas was known by both names, as it was not uncommon then for Jews, especially those living in a seaport such as Joppa with its mixed population of Jews and Gentiles, to have a Hebrew name as well as a Greek or Latin name. Or, Luke may have translated the name for the benefit of Gentile readers. Dorcas is the only woman mentioned in the Scriptures as having the feminine form of the word “disciple” applied to her. This, however, does not mean that she held a special position in the congregation, for all Christians were actually disciples of Jesus Christ. (Mt 28:19, 20) Though her death in 36 C.E. caused much weeping among the widows who had apparently benefited greatly from her kindnesses, the fact that no mention is made of sorrow on the part of a husband suggests that Dorcas was unmarried at the time.",
     choiceA: "Dorcas",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Abigail",
+    choiceC: "Rachel",
+    choiceD: "Vashti",
     correctAnswer: "A",
   },
   {
@@ -8385,9 +8384,9 @@ const meaningOfNames5 = [
     clueSourceContent:
       "(Egʹlon) [Little Calf]. A king of Moab in the days of the Judges, who oppressed Israel for 18 years, “because they did what was bad in Jehovah’s eyes.” (Jg 3:12-25) Eglon was head of the confederacy of Moab, Ammon, and Amalek in their assault upon Israel. His downfall came when left-handed Ehud, after presenting the customary tribute, said: “I have a secret word for you, O king.” In the privacy of his cool chamber atop the flat roof of his palace, Eglon, after dismissing his attendants, rose up from his throne to receive what Ehud said was “a word of God.” Thereupon Ehud thrust into Eglon’s very fat belly a double-edged sword so that “the handle kept going in also after the blade,” and “the fecal matter began to come out.” Concerning Judges 3:22, Clarke’s Commentary says: “Either the contents of the bowels issued through the wound, or he had an evacuation in the natural way through the fright and anguish.”",
     choiceA: "Eglon",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Amos",
+    choiceC: "Ehud",
+    choiceD: "Shimei",
     correctAnswer: "A",
   },
   {
@@ -8397,9 +8396,9 @@ const meaningOfNames5 = [
     clueSourceContent:
       "[English equivalent of Jacob, meaning, “One Seizing the Heel; Supplanter”]. Son of Zebedee; brother of John and one of the 12 apostles of Jesus Christ. (Mt 10:2) His mother, it seems, was Salome, as may be noted by comparing two accounts of the same event. One mentions “the mother of the sons of Zebedee,” the other calls her “Salome.” (Mt 27:55, 56; Mr 15:40, 41; see SALOME No. 1.) A further comparison of John 19:25 perhaps points to Salome as the fleshly sister of Mary, Jesus’ mother. If so, James was a first cousin of Jesus.",
     choiceA: "James",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "John",
+    choiceC: "Jack",
+    choiceD: "Joab",
     correctAnswer: "A",
   },
 ];
@@ -8424,8 +8423,8 @@ const meaningOfNames6 = [
       "(Bel·shazʹzar) [from Akkadian, meaning “Protect His Life”; or, possibly, “[May] Bel Protect the King”]. The firstborn son of Nabonidus, and coregent of Nabonidus in the last years of the Babylonian Empire. He is mentioned in the Bible account only by the prophet Daniel, and for long his position as “king of Babylon” was denied by Bible critics. (Da 5:1, 9; 7:1; 8:1) However, archaeological evidence in the form of ancient texts has since demonstrated the historicity of the Bible account.",
     choiceA: "Belshazzar",
     choiceB: "Belteshazzar",
-    choiceC: "",
-    choiceD: "",
+    choiceC: "Belshazar",
+    choiceD: "Belteshazar",
     correctAnswer: "A",
   },
   {
@@ -8434,9 +8433,9 @@ const meaningOfNames6 = [
     clueSourceContent:
       "(Di·otʹre·phes) [Fed by Zeus]. A man mentioned by the apostle John in his letter to Gaius. In addition to being ambitious, proud, disrespectful of apostolic authority, rebellious, and inhospitable, Diotrephes tried to hinder those desiring to show hospitality to the brothers and to expel these from the congregation.​—3Jo 9, 10.",
     choiceA: "Diotrephes",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Ahasuerus",
+    choiceC: "Darius",
+    choiceD: "Cyrus",
     correctAnswer: "A",
   },
   {
@@ -8445,9 +8444,9 @@ const meaningOfNames6 = [
     clueSourceContent:
       "(E·liʹab) [My God Is Father]. The firstborn of King David’s father Jesse. (1Sa 17:13; 1Ch 2:13) Eliab’s appearance and the height of his stature so impressed Samuel that he concluded this one was God’s choice for the kingship. Jehovah, though, had rejected Eliab and selected David.​—1Sa 16:6-12. Eliab, Abinadab, and Shammah, the three oldest sons of Jesse, were in Saul’s army at the time the Philistine champion Goliath directed his challenge to the men of Israel. Shortly before Goliath again came up from the battle lines of the Philistines to taunt Israel, David, having been sent by his father, arrived on the scene with provisions of food for his three brothers. Angered greatly by David’s making inquiry among the Israelite warriors about the reward to be received by the one striking down Goliath, Eliab lashed out against David, suggesting that he was negligent in caring for his shepherding duties and accusing him of being presumptuous and having a bad heart. (This account about David’s errand and Eliab’s anger is omitted by the Vatican Manuscript No. 1209.)​—1Sa 17:13, 17, 26-28. Much later David’s son Jerimoth, it seems, married Abihail the daughter of Eliab.​—2Ch 11:18.",
     choiceA: "Eliab",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Elijah",
+    choiceC: "Elisha",
+    choiceD: "Elihu",
     correctAnswer: "A",
   },
   {
@@ -8456,9 +8455,9 @@ const meaningOfNames6 = [
     clueSourceContent:
       "(Jaʹpheth) [May He Grant Ample Space]. A son of Noah; brother of Shem and of Ham. Although usually listed last, Japheth appears to have been the eldest of the three sons, as the Hebrew text of Genesis 10:21 refers to “Japheth the oldest” (“elder,” KJ; Da; Yg; Le; AS, ftn). Some translators, however, understand the Hebrew text here to refer instead to Shem as “the elder brother of Japheth.” (RS; also AT, JB, NE) Considering Japheth to be Noah’s eldest son would place the time of his birth at 2470 B.C.E.​—Ge 5:32.",
     choiceA: "Japheth",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Adam",
+    choiceC: "Ham",
+    choiceD: "Shem",
     correctAnswer: "A",
   },
   {
@@ -8467,9 +8466,9 @@ const meaningOfNames6 = [
     clueSourceContent:
       "(Ha·muʹtal) [possibly, Father-in-Law Is Dew]. Daughter of “Jeremiah from Libnah”; wife of King Josiah and mother of Jehoahaz and Mattaniah (Zedekiah), both of whom reigned as kings over Judah.​—2Ki 23:30, 31; 24:17, 18; Jer 52:1.",
     choiceA: "Hamutal",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Tahpenes",
+    choiceC: "Maacah",
+    choiceD: "Candace",
     correctAnswer: "A",
   },
   {
@@ -8478,9 +8477,9 @@ const meaningOfNames6 = [
     clueSourceContent:
       "(Isʹsa·char) [He Is Wages [that is, a man of wages]]. The ninth son of Jacob and the fifth of Leah’s seven children born in Paddan-aram. Leah viewed this son as Jehovah’s reward or wages paid for her having allowed a maidservant to bear sons by her husband during a period when she was barren.​—Ge 29:32–30:21; 35:23, 26; 1Ch 2:1.",
     choiceA: "Issachar",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Josiah",
+    choiceC: "Judas",
+    choiceD: "Naphtali",
     correctAnswer: "A",
   },
   {
@@ -8489,9 +8488,9 @@ const meaningOfNames6 = [
     clueSourceContent:
       "(Lapʹpi·doth) [possibly, Torches; Lightning Flashes]. The husband of the Israelite prophetess Deborah.​—Jg 4:4.",
     choiceA: "Lappidoth",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Gideon",
+    choiceC: "Samson",
+    choiceD: "Terah",
     correctAnswer: "A",
   },
   {
@@ -8500,9 +8499,9 @@ const meaningOfNames6 = [
     clueSourceContent:
       "(Mi·caiʹah) [Who Is Like Jehovah?]. Son of Imlah and a prophet of Jehovah to the northern kingdom of Israel during King Ahab’s reign. (1Ki 22:8) While King Jehoshaphat of Judah was visiting Ahab, the Israelite king invited him to join in a military campaign against the Syrians to regain possession of Ramoth-gilead. Jehoshaphat accepted, but asked that the word of Jehovah be sought. So Ahab summoned 400 prophets and asked them: “Shall I go against Ramoth-gilead in war, or shall I refrain?” They answered in the affirmative, saying that Jehovah would give the city into the king’s hand. However, Jehoshaphat wanted more assurance, whereupon Ahab reluctantly sent for Micaiah, the prophet who had always prophesied bad for him. The dispatched messenger urged Micaiah to speak words to Ahab like those of one of the other prophets. At first Micaiah did so, but Ahab placed him under oath to speak “truth in the name of Jehovah.” At that, Micaiah said: “I certainly see all the Israelites scattered on the mountains, like sheep that have no shepherd.”​—1Ki 22:1-17; 2Ch 18:1-16.",
     choiceA: "Micaiah",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Jonah",
+    choiceC: "Hezekiah",
+    choiceD: "Malachi",
     correctAnswer: "A",
   },
   {
@@ -8511,9 +8510,9 @@ const meaningOfNames6 = [
     clueSourceContent:
       "(Naʹthan) [[God] Has Given]. A prophet of Jehovah during David’s reign; possibly of the tribe of Levi. When the king revealed to Nathan his desire to build a temple for Jehovah’s worship, the prophet replied: “Everything that is in your heart​—go, do.” (2Sa 7:1-3; 1Ch 17:1, 2) However, that night Jehovah informed Nathan that instead of David’s building a temple, Jehovah would build for David a lasting house, and that later on David’s descendant would build the house of Jehovah. Thus through Nathan, Jehovah announced to David a covenant for a kingdom “to time indefinite” in David’s line.​—2Sa 7:4-17; 1Ch 17:3-15.",
     choiceA: "Nathan",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Samuel",
+    choiceC: "Isaac",
+    choiceD: "Zadok",
     correctAnswer: "A",
   },
   {
@@ -8522,9 +8521,9 @@ const meaningOfNames6 = [
     clueSourceContent:
       "(Philʹip) [meaning, “Fond of Horses; Horse-Loving”]. One of the earliest disciples among the 12 apostles of Jesus Christ. In the Gospel accounts of Matthew, Mark, and Luke, Philip is mentioned by name solely in the lists of the apostles. (Mt 10:3; Mr 3:18; Lu 6:14) John’s account alone gives some detailed information about him.",
     choiceA: "Philip",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Jehu",
+    choiceC: "Sennacherib",
+    choiceD: "Manasseh",
     correctAnswer: "A",
   },
   {
@@ -8533,9 +8532,9 @@ const meaningOfNames6 = [
     clueSourceContent:
       "[Resister]. In many places in the Hebrew Scriptures, the word sa·tanʹ appears without the definite article. Used in this way, it applies in its first appearance to the angel that stood in the road to resist Balaam as he set out with the objective of cursing the Israelites. (Nu 22:22, 32) In other instances it refers to individuals as resisters of other men. (1Sa 29:4; 2Sa 19:21, 22; 1Ki 5:4; 11:14, 23, 25) But it is used with the definite article ha to refer to Satan the Devil, the chief Adversary of God. (Job 1:6, ftn; 2:1-7; Zec 3:1, 2) In the Greek Scriptures the word sa·ta·nasʹ applies to Satan the Devil in nearly all of its occurrences and is usually accompanied by the definite article ho.",
     choiceA: "Satan",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Sennacherib",
+    choiceC: "Ahab",
+    choiceD: "Nimrod",
     correctAnswer: "A",
   },
   {
@@ -8544,9 +8543,9 @@ const meaningOfNames6 = [
     clueSourceContent:
       "(Zip·poʹrah) [Bird; or, possibly, Small Bird]. The wife of Moses. Zipporah met Moses at a well, when she and her six sisters were watering their father’s flocks. When certain shepherds came on the scene and, as was their custom, attempted to drive the girls away, Moses helped the girls out, even watering the flocks himself. For this kindness he was invited to the home of Zipporah, and eventually her priestly father Jethro gave her in marriage to Moses. (Ex 2:16-21) Zipporah bore two sons to Moses​—Gershom and Eliezer.​—Ex 2:22; 18:3, 4.",
     choiceA: "Zipporah",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Noah",
+    choiceC: "Jonathan",
+    choiceD: "Elijah",
     correctAnswer: "A",
   },
   {
@@ -8566,9 +8565,9 @@ const meaningOfNames6 = [
     clueSourceContent:
       "(Benʹja·min) [Son of the Right Hand]. Jacob’s 12th son and the full brother of Joseph. Benjamin appears to be the only son born to Jacob in the land of Canaan, the other sons being born in Paddan-aram. (Ge 29:31–30:25; 31:18) Rachel gave birth to Benjamin, her second son, while on the way from Bethel to Ephrath (Bethlehem), achieving the difficult childbirth at the cost of her life. While dying, she called this son Ben-oni, meaning “Son of My Mourning”; but her bereaved husband thereafter named him Benjamin, meaning “Son of the Right Hand.”​—Ge 35:16-19; 48:7.",
     choiceA: "Benjamin",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Jesus",
+    choiceC: "Manasseh",
+    choiceD: "Joseph",
     correctAnswer: "A",
   },
   {
@@ -8577,9 +8576,9 @@ const meaningOfNames6 = [
     clueSourceContent:
       "(E·li·eʹzer) [My God Is Helper]. A man of Damascus and the apparent heir of childless Abraham. Abraham referred to him as “a son of my household.” (Ge 15:2, 3) Archaeological discoveries, such as the tablets from Nuzi, shed light on why Abraham considered Eliezer his heir. Often childless couples adopted a son who would then care for them in old age and arrange for their burial at death, thereupon inheriting the property. It was stipulated, however, that, in the event a son was born to them after the adoption, the real son would become the principal heir.",
     choiceA: "Eliezer",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Paul",
+    choiceC: "Daniel",
+    choiceD: "Eleazar",
     correctAnswer: "A",
   },
   {
@@ -8588,9 +8587,9 @@ const meaningOfNames6 = [
     clueSourceContent:
       "(Je·hoshʹa·phat) [Jehovah Is Judge]. Son of Judean King Asa by Azubah the daughter of Shilhi. At the age of 35 Jehoshaphat succeeded his father to the throne and ruled for 25 years, from 936 B.C.E. (1Ki 22:42; 2Ch 20:31) His reign was contemporaneous with that of Israelite Kings Ahab, Ahaziah, and Jehoram. (1Ki 22:41, 51; 2Ki 3:1, 2; 2Ch 17:3, 4) It was marked by stability, prosperity, glory, and relative peace with neighboring lands. Jehoshaphat received presents from his subjects and tribute from the Philistines and Arabs.​—2Ch 17:5, 10, 11.",
     choiceA: "Jehoshaphat",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Jehoahaz",
+    choiceC: "Jehoash",
+    choiceD: "Jehoram",
     correctAnswer: "A",
   },
   {
@@ -8599,9 +8598,9 @@ const meaningOfNames6 = [
     clueSourceContent:
       "(Hez·e·kiʹah) [Jehovah Strengthens]. King of Judah, 745-717 B.C.E. He apparently became king when his father Ahaz died, in “the third year of Hoshea” king of Israel (perhaps meaning Hoshea’s third year as tributary king under Tiglath-pileser III), counting his reign officially from Nisan of the following year (745 B.C.E.). (2Ki 18:1) Prophets contemporary with Hezekiah’s reign were Isaiah, Hosea, and Micah. (Isa 1:1; Ho 1:1; Mic 1:1) Hezekiah was outstanding as a king who “kept sticking to Jehovah,” doing what was right in Jehovah’s eyes and following his commandments. From the beginning of his reign he proved himself zealous for the promotion of true worship, not only in Judah but in all the territory of Israel. In following the ways of Jehovah as David his forefather had done, it could be said of Hezekiah that “after him there proved to be no one like him among all the kings of Judah, even those who had happened to be prior to him.” For this “Jehovah proved to be with him.”​—2Ki 18:3-7.",
     choiceA: "Hezekiah",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Josiah",
+    choiceC: "Jehoshaphat",
+    choiceD: "Nehemiah",
     correctAnswer: "A",
   },
   {
@@ -8610,9 +8609,9 @@ const meaningOfNames6 = [
     clueSourceContent:
       "(Ish-boʹsheth) [meaning “Man of Shame”]. Evidently the youngest of Saul’s sons, his successor to the throne. From the genealogical listings it appears that his name was also Eshbaal, meaning “Man of Baal.” (1Ch 8:33; 9:39) However, elsewhere, as in Second Samuel, he is called Ish-bosheth, a name in which “baal” is replaced by “bosheth.” (2Sa 2:10) This Hebrew word boʹsheth is found at Jeremiah 3:24 and is rendered “shameful thing.” (AS, AT, JP, NW, Ro, RS) In two other occurrences baʹʽal and boʹsheth are found parallel and in apposition, in which the one explains and identifies the other. (Jer 11:13; Ho 9:10) There are also other instances where individuals similarly had “bosheth” or a form of it substituted for “baal” in their names, as, for example, “Jerubbesheth” for “Jerubbaal” (2Sa 11:21; Jg 6:32) and “Mephibosheth” for “Merib-baal,” the latter being a nephew of Ish-bosheth.​—2Sa 4:4; 1Ch 8:34; 9:40.",
     choiceA: "Ish-bosheth",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Nabal",
+    choiceC: "Mephibosheth",
+    choiceD: "Sisera",
     correctAnswer: "A",
   },
   {
@@ -8621,9 +8620,9 @@ const meaningOfNames6 = [
     clueSourceContent:
       "(Miʹcha·el) [Who Is Like God?]. The only holy angel other than Gabriel named in the Bible, and the only one called “archangel.” (Jude 9) The first occurrence of the name is in the tenth chapter of Daniel, where Michael is described as “one of the foremost princes”; he came to the aid of a lesser angel who was opposed by “the prince of the royal realm of Persia.” Michael was called “the prince of [Daniel’s] people,” “the great prince who is standing in behalf of the sons of [Daniel’s] people.” (Da 10:13, 20, 21; 12:1) This points to Michael as the angel who led the Israelites through the wilderness. (Ex 23:20, 21, 23; 32:34; 33:2) Lending support to this conclusion is the fact that “Michael the archangel had a difference with the Devil and was disputing about Moses’ body.”​—Jude 9.",
     choiceA: "Michael",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Micaiah",
+    choiceC: "Malachi",
+    choiceD: "Lemuel",
     correctAnswer: "A",
   },
 ];
