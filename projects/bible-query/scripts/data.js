@@ -8647,8 +8647,8 @@ const meaningOfNames7 = [
       "(Bo·a·nerʹges) [Sons of Thunder]. A Semitic expression found, with its translation, only at Mark 3:17. Jesus gave it as a surname to the sons of Zebedee, James and John, likely reflecting the fiery enthusiasm of these two apostles. (Lu 9:54) Unlike Simon’s new name Peter, Boanerges does not appear to have been commonly used.",
     choiceA: "Boanerges",
     choiceB: "Baptist",
-    choiceC: "",
-    choiceD: "",
+    choiceC: "Zebedee",
+    choiceD: "Barnabas",
     correctAnswer: "A",
   },
   {
@@ -8657,9 +8657,9 @@ const meaningOfNames7 = [
     clueSourceContent:
       "(E·liʹhu) [My God Is He]. “The son of Barachel the Buzite of the family of Ram.” As a descendant of Buz, Elihu was evidently a distant relative of Abraham. (Job 32:1, 2, 6; Ge 22:20, 21) Likely Elihu listened carefully to the entire debate between Job and his three would-be comforters. But, out of due respect for their age, he remained silent until all had finished speaking. Though modern critics have labeled Elihu as loquacious, saying that his speeches were long-winded, the statements of Elihu were not those of an impertinent young man. He fully appreciated that wisdom was not the exclusive possession of those advanced in years, but that God’s spirit made one truly wise. Elihu, therefore, leaned heavily on God’s spirit. He was thus able to discern correctly that Job had failed to appreciate that the vindication of Jehovah God is far more important than the vindication of any man and that Job’s three friends had actually pronounced God wicked.​—Job 32:2-9, 18.",
     choiceA: "Elihu",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Heli",
+    choiceC: "Matthias",
+    choiceD: "Thomas",
     correctAnswer: "A",
   },
   {
@@ -8668,9 +8668,9 @@ const meaningOfNames7 = [
     clueSourceContent:
       "(Je·hoʹa·haz) [May Jehovah Take Hold; Jehovah Has Taken Hold]. Son and successor of King Jehu as king of Israel. For 17 years Jehoahaz reigned, from 876 to about 860 B.C.E. (2Ki 10:35; 13:1) When he succeeded his father to the throne, much of the realm was controlled by Syrian King Hazael of Damascus, who had seized from Jehu all of Israel’s territory E of the Jordan River. (2Ki 10:32-34) And because Jehoahaz did what was bad in Jehovah’s eyes, God allowed Hazael to continue to oppress Israel all the days of Jehoahaz, reducing his fighting force to a mere 50 horsemen, 10 chariots, and 10,000 foot soldiers. Finally, Jehoahaz sought Jehovah’s favor, and because of the covenant with Abraham, Isaac, and Jacob, Jehovah did not allow Syria to bring Israel completely to ruin. (2Ki 13:2-7, 22, 23) Upon his death Jehoahaz was buried in Samaria and was succeeded on the throne by his son Jehoash.​—2Ki 13:8, 9; 2Ch 25:17. Certain translations, as well as the Masoretic text, spell the name Joahaz in 2 Kings 14:1.​—See JOAHAZ No. 1.",
     choiceA: "Jehoahaz",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Jacob",
+    choiceC: "Jehoab",
+    choiceD: "Jehoash",
     correctAnswer: "A",
   },
   {
@@ -8679,20 +8679,20 @@ const meaningOfNames7 = [
     clueSourceContent:
       "(Heʹli) [from Heb., meaning “High (Exalted)”]. Evidently the father of Mary and maternal grandfather of Jesus Christ. (Lu 3:23) Joseph’s being called the “son of Heli” is understood to mean that he was the son-in-law of Heli. While not listing her, Luke evidently traces the natural descent of Jesus’ mother Mary from David.​—Lu 3:31; see GENEALOGY OF JESUS CHRIST.",
     choiceA: "Heli",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Abram",
+    choiceC: "Elihu",
+    choiceD: "Abijah",
     correctAnswer: "A",
   },
   {
-    question: "His name probably means “Who Is Like God?”.",
+    question: "Her name probably means “Who Is Like God?”.",
     clueSource: "Insight on the Scriptures Volume 2, [Michal] p. 394",
     clueSourceContent:
       "(Miʹchal) [probably, Who Is Like God?]. King Saul’s younger daughter who became the wife of David. Saul had offered his older daughter Merab to David as a wife but gave her to another man. Michal, however, “was in love with David,” and Saul offered her to David if he could produce the foreskins of a hundred Philistines, Saul thinking that David would meet death in attempting to kill that many enemy warriors. David accepted the challenge, presented Saul with 200 Philistine foreskins, and was given Michal as a wife. But, thereafter, “Saul felt still more fear because of David” and became his lasting foe. (1Sa 14:49; 18:17-29) Later, when Saul’s hatred for David reached a peak, Michal helped David escape the king’s wrath. During David’s long absence, Saul gave her in marriage to Palti the son of Laish from Gallim.​—1Sa 19:11-17; 25:44.",
     choiceA: "Michal",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Michelle",
+    choiceC: "Huldah",
+    choiceD: "Noadiah",
     correctAnswer: "A",
   },
   {
@@ -8712,9 +8712,9 @@ const meaningOfNames7 = [
     clueSourceContent:
       "(Prisʹca) [Old Woman]; Priscilla (Pris·cilʹla) [Little Old Woman]. The shorter form of the name is found in Paul’s writings, the longer form in Luke’s. Such a variation was common in Roman names. Priscilla was the wife of Aquila, with whom she is always mentioned. The two showed fine Christian works and hospitality not only to individuals but also to the congregation by having congregation meetings in their home in both Rome and Ephesus.",
     choiceA: "Priscilla",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Deborah",
+    choiceC: "Prisca",
+    choiceD: "Isaiah's wife",
     correctAnswer: "A",
   },
   {
@@ -8723,9 +8723,9 @@ const meaningOfNames7 = [
     clueSourceContent:
       "[Asked [of God]; Inquired [of God]]. A Benjamite descended from Jeiel (presumably also called Abiel) through Ner and Kish (1Ch 8:29-33; 9:35-39; see ABIEL No. 1); the first divinely selected king of Israel. (1Sa 9:15, 16; 10:1) Saul came from a wealthy family. A handsome man, standing head and shoulders taller than all others of his nation, he possessed great physical strength and agility. (1Sa 9:1, 2; 2Sa 1:23) The name of his wife was Ahinoam. Saul fathered at least seven sons, Jonathan, Ishvi, Malchi-shua, Abinadab, Ish-bosheth (Eshbaal), Armoni, and Mephibosheth, as well as two daughters, Merab and Michal. Abner, evidently King Saul’s uncle (see ABNER), served as chief of the Israelite army.​—1Sa 14:49, 50; 2Sa 2:8; 21:8; 1Ch 8:33.",
     choiceA: "Saul",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Samuel",
+    choiceC: "Samson",
+    choiceD: "John",
     correctAnswer: "A",
   },
   {
@@ -8734,9 +8734,9 @@ const meaningOfNames7 = [
     clueSourceContent:
       "(Zaʹdok) [from a root meaning “be righteous”]. A priest prominently associated with King David. Zadok was a descendant of Aaron through the high-priestly line of Eleazar. (1Ch 6:3-8, 50-53) He is also called a seer. (2Sa 15:27) Zadok, as a young man mighty in valor, was one of the tribal chiefs who threw in his support for David’s kingship. (1Ch 12:27, 28) From that time on he was loyal to David.​—2Sa 8:15, 17; 20:25; 1Ch 18:16.",
     choiceA: "Zadok",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Zechariah",
+    choiceC: "Shemaiah",
+    choiceD: "Thyatira",
     correctAnswer: "A",
   },
   {
@@ -8756,9 +8756,9 @@ const meaningOfNames7 = [
     clueSourceContent:
       "(Bar·zilʹlai) [Of Iron]. A wealthy Gileadite, “a very great man,” of the town of Rogelim. Barzillai was one of three who assisted David and his army with supplies of food and bedding during Absalom’s rebellion. (2Sa 17:27-29) When David returned to Jerusalem, Barzillai escorted the party to the Jordan, but because of his age (“I am eighty years old today”), he declined David’s offer to become part of the royal court, sending Chimham in his place. In saying farewell, David kissed and blessed him. (2Sa 19:31-40) Shortly before dying, David remembered Barzillai and requested Solomon to show kindness toward his sons by arranging for them to ‘be among those eating at his table.’​—1Ki 2:7.",
     choiceA: "Barzillai",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Tony",
+    choiceC: "Stark",
+    choiceD: "Ananias",
     correctAnswer: "A",
   },
   {
@@ -8767,9 +8767,9 @@ const meaningOfNames7 = [
     clueSourceContent:
       "(E·liʹjah) [My God Is Jehovah]. One of the foremost prophets of Israel. Evidently his home was in Tishbeh, thought by some to be a village in the land of Gilead, E of the Jordan River. (1Ki 17:1) He started his long career as prophet in Israel during the reign of King Ahab, who began to rule about 940 B.C.E., and continued during the reign of Ahab’s son Ahaziah (began c. 919 B.C.E.). (1Ki 22:51) The last time he is mentioned as serving as a prophet (this time for Judah) is toward the end of the eight-year reign of King Jehoram of Judah, which rule started in 913 B.C.E.​—2Ch 21:12-15; 2Ki 8:16.",
     choiceA: "Elijah",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Joshua",
+    choiceC: "Daniel",
+    choiceD: "Japheth",
     correctAnswer: "A",
   },
   {
@@ -8778,9 +8778,9 @@ const meaningOfNames7 = [
     clueSourceContent:
       "(Je·hoiʹa·da) [May Jehovah Know]. High priest in the time of Jehoram, Ahaziah, Athaliah, and Jehoash. Jehoiada was married to King Jehoram’s daughter Jehosheba, also called Jehoshabeath (the only recorded instance of a high priest marrying into the royal family). Jehoiada was noted especially for overthrowing Athaliah and elevating true worship in Judah. After Athaliah’s ruling son Ahaziah was slain, she proceeded to kill off all the remaining royal offspring and placed herself on the throne. However, Jehosheba, herself a sister of Ahaziah though not necessarily Athaliah’s daughter, took Ahaziah’s infant son Jehoash away and kept him hidden for six years. In the seventh year, Jehoiada secured the support of the Levites, the chiefs of the Carian bodyguard and of the runners, as well as the heads of the paternal houses of Israel. He then produced Jehoash, whom they proclaimed as king. Jehoiada next ordered Athaliah taken outside the temple grounds and slain.​—2Ki 11:1-16; 2Ch 22:10–23:15.",
     choiceA: "Jehoiada",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Amos",
+    choiceC: "Azariah",
+    choiceD: "Aaron",
     correctAnswer: "A",
   },
   {
@@ -8789,9 +8789,9 @@ const meaningOfNames7 = [
     clueSourceContent:
       "(Hiʹram) [possibly a shortened form of Ahiram, meaning “My Brother Is High (Exalted)”]. In the Masoretic text alternate spellings are found in certain passages: “Hirom” (1Ki 5:10, 18; 7:40a) and “Huram” (2Ch 2:3). King of Tyre, and friendly contemporary of Kings David and Solomon in the 11th century B.C.E. After David conquered the stronghold of Zion and set about to build a palace on the site, Hiram sent messengers to arrange a trade treaty between himself and David. Hiram then supplied David with cedar timber from the western slopes of Lebanon as well as craftsmen skilled in working with wood and stone.​—2Sa 5:11; 1Ch 14:1.",
     choiceA: "Hiram",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Heli",
+    choiceC: "Abram",
+    choiceD: "Dan",
     correctAnswer: "A",
   },
   {
@@ -8801,9 +8801,9 @@ const meaningOfNames7 = [
     clueSourceContent:
       "(Mahʹlon) [possibly from a root meaning “grow weak; fall sick”]. Son of Elimelech and Naomi. During a famine in the days of the Judges, he moved with his parents from Bethlehem in Judah to Moab. There Mahlon married the Moabitess Ruth, but he died childless. (Ru 1:1-5; 4:10) Ruth returned to Judah with her mother-in-law and, complying with the law of levirate marriage, married Boaz. (Ru 4:9, 10; De 25:5, 6) The resulting family line produced David and led to Jesus Christ.​—Ru 4:22; Mt 1:5, 6, 16.",
     choiceA: "Mahlon",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Chilion",
+    choiceC: "Malcom",
+    choiceD: "Elimelech",
     correctAnswer: "A",
   },
   {
@@ -8812,9 +8812,9 @@ const meaningOfNames7 = [
     clueSourceContent:
       "(Ne·he·miʹah) [Jah Comforts]. Son of Hacaliah and brother of Hanani; cupbearer to Persian King Artaxerxes (Longimanus) and, later, governor of the Jews, rebuilder of Jerusalem’s wall, and writer of the Bible book bearing his name.​—Ne 1:1, 2, 11; 2:1; 5:14, 16.",
     choiceA: "Nehemiah",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Ezra",
+    choiceC: "Zephaniah",
+    choiceD: "Zechariah",
     correctAnswer: "A",
   },
   {
@@ -8823,9 +8823,9 @@ const meaningOfNames7 = [
     clueSourceContent:
       "(Phoeʹbe) [Pure; Bright; Radiant]. A Christian sister of the first-century congregation in Cenchreae. Paul, in his letter to the Christians at Rome, ‘recommends’ this sister to them and calls on them to render her any needed assistance as one who “proved to be a defender of many, yes, of me myself.” (Ro 16:1, 2) It may be that Phoebe delivered Paul’s letter in Rome or else accompanied the one who did.",
     choiceA: "Phoebe",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Lydia",
+    choiceC: "Martha",
+    choiceD: "Lois",
     correctAnswer: "A",
   },
   {
@@ -8835,9 +8835,9 @@ const meaningOfNames7 = [
     clueSourceContent:
       "(Sen·nachʹer·ib) [from Akkadian, meaning “Sin [the moon-god] Has Restored the Brothers to Me”]. Son of Sargon II; king of Assyria. He inherited from his father an empire of great strength but was obliged to spend most of his reign subduing revolts, particularly as regards the city of Babylon.",
     choiceA: "Sennacherib",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Shimei",
+    choiceC: "Simeon",
+    choiceD: "Stephen",
     correctAnswer: "A",
   },
   {
@@ -8846,9 +8846,9 @@ const meaningOfNames7 = [
     clueSourceContent:
       "(Zilʹlah) [Shadow; Shelter]. One of the two wives of Lamech, the first polygamist of Bible record. She was the mother of Tubal-cain and of his sister Naamah. Lamech composed a poem for his wives Adah and Zillah.​—Ge 4:19-24.",
     choiceA: "Zillah",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
+    choiceB: "Boaz",
+    choiceC: "Ishmael",
+    choiceD: "Gad",
     correctAnswer: "A",
   },
 ];
