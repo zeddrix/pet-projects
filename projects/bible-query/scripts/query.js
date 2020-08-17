@@ -3,15 +3,6 @@ let count = 0;
 let Timer;
 let qIndex = 0;
 let score = 0;
-let arrayOfNums = [];
-
-while (arrayOfNums.length < 20) {
-  let r = Math.floor(Math.random() * 20);
-  if (arrayOfNums.indexOf(r) === -1) arrayOfNums.push(r);
-}
-console.log(arrayOfNums);
-
-const randomizeQuestions = arrayOfNums.forEach((item) => rivers[item].question);
 
 const confirmRetryQuery = () => {
   closeModal();
@@ -27,17 +18,17 @@ const confirmRetryQuery = () => {
 };
 
 // --------Attempt to show all levels. UNDONE--------
-const arrayLength = levelsLabels.length;
-const levelsNumberContainer = document.querySelector(".levels__number-container");
+// const arrayLength = levelsLabels.length;
+// const levelsNumberContainer = document.querySelector(".levels__number-container");
 
-for (let l = 0; l < arrayLength; l++) {
-  const levelsButton = document.createElement("div");
-  levelsButton.innerText = levelsLabels[l].levelNumber;
-  levelsButton.classList.add(".level-number");
-  levelsButton.classList.add(levels[l].name);
-  levelsButton.addEventListener("click", () => changeColor(levelsLabels[l].colorValue));
-  levelsNumberContainer.append(levelsButton);
-}
+// for (let l = 0; l < arrayLength; l++) {
+//   const levelsButton = document.createElement("div");
+//   levelsButton.innerText = levelsLabels[l].levelNumber;
+//   levelsButton.classList.add(".level-number");
+//   levelsButton.classList.add(levels[l].name);
+//   levelsButton.addEventListener("click", () => changeColor(levelsLabels[l].colorValue));
+//   levelsNumberContainer.append(levelsButton);
+// }
 // --------Attempt to show all levels. UNDONE--------
 
 const startQuery = () => {
@@ -66,6 +57,19 @@ const renderQuestion = () => {
   C.innerHTML = q.choiceC;
   D.innerHTML = q.choiceD;
 };
+
+let randomizedChoices = men1[6].choices;
+const RenderRandomizedChoices = () => {
+  let i, j, k;
+  for (i = randomizedChoices.length - 1; i > 0; i--) {
+    j = Math.floor(Math.random() * i)
+    k = randomizedChoices[i]
+    randomizedChoices[i] = randomizedChoices[j]
+    randomizedChoices[j] = k
+  }
+  console.log(randomizedChoices);
+}
+RenderRandomizedChoices();
 
 const lastQuestion = rivers.length - 1;
 const renderProgress = () => {
@@ -148,16 +152,16 @@ const scorePhrase1 = () => {
     scorePercent == 100
       ? "Well done!"
       : scorePercent >= 90
-      ? "Excellent!"
-      : scorePercent >= 51
-      ? "Nice!"
-      : scorePercent >= 50
-      ? "Good!"
-      : scorePercent >= 30
-      ? "Okay!"
-      : scorePercent >= 15
-      ? "Don't give up!"
-      : "Don't give up!";
+        ? "Excellent!"
+        : scorePercent >= 51
+          ? "Nice!"
+          : scorePercent >= 50
+            ? "Good!"
+            : scorePercent >= 30
+              ? "Okay!"
+              : scorePercent >= 15
+                ? "Don't give up!"
+                : "Don't give up!";
 
   const finalScorePhrase1Div = document.getElementById("final-score__phrase-1");
   finalScorePhrase1Div.innerHTML = fsp1;
@@ -170,16 +174,16 @@ const scoreStarAndPercentage = () => {
     scorePercent == 100
       ? "img/three-stars.png"
       : scorePercent >= 90
-      ? "img/two-and-a-half-stars.png"
-      : scorePercent >= 70
-      ? "img/two-stars.png"
-      : scorePercent >= 50
-      ? "img/one-and-a-half-star.png"
-      : scorePercent >= 30
-      ? "img/one-star.png"
-      : scorePercent >= 15
-      ? "img/one-half-star.png"
-      : "img/zero-star.png";
+        ? "img/two-and-a-half-stars.png"
+        : scorePercent >= 70
+          ? "img/two-stars.png"
+          : scorePercent >= 50
+            ? "img/one-and-a-half-star.png"
+            : scorePercent >= 30
+              ? "img/one-star.png"
+              : scorePercent >= 15
+                ? "img/one-half-star.png"
+                : "img/zero-star.png";
 
   const finalScoreImg = document.getElementById("final-score__img");
   const imgSrc = document.createAttribute("src");
@@ -199,14 +203,14 @@ const scorePhrase2 = () => {
     scorePercent == 100
       ? "You got all the questions right!"
       : scorePercent >= 90
-      ? "You almost perfected this level!"
-      : scorePercent >= 51
-      ? "Keep it up!"
-      : scorePercent == 50
-      ? "You got half the questions right!"
-      : scorePercent >= 30
-      ? "That's okay. Play again and crush this level!"
-      : "Play again and crush this level!";
+        ? "You almost perfected this level!"
+        : scorePercent >= 51
+          ? "Keep it up!"
+          : scorePercent == 50
+            ? "You got half the questions right!"
+            : scorePercent >= 30
+              ? "That's okay. Play again and crush this level!"
+              : "Play again and crush this level!";
 
   const scorePhrase2 = document.getElementById("final-score__phrase-2");
   scorePhrase2.innerHTML = fsp2;
