@@ -1,38 +1,32 @@
-const levels = [
+const levelsLabels = [
   {
     levelNumber: 1,
     levelCategory: "Men",
-    leveldifficulty: "basic",
-    stars: 0,
+    levelDifficulty: "basic",
   },
   {
     levelNumber: 2,
     levelCategory: "Women",
-    leveldifficulty: "basic",
-    stars: 0,
+    levelDifficulty: "basic",
   },
   {
     levelNumber: 3,
     levelCategory: "Men II",
-    leveldifficulty: "basic",
-    stars: 0,
+    levelDifficulty: "basic",
   },
   {
     levelNumber: 4,
     levelCategory: "Kings",
-    leveldifficulty: "basic",
-    stars: 0,
+    levelDifficulty: "basic",
   },
   {
     levelNumber: 5,
     levelCategory: "Men III",
-    leveldifficulty: "basic",
-    stars: 0,
+    levelDifficulty: "basic",
   },
   {
     levelNumber: 6,
     levelCategory: "Queens",
-    leveldifficulty: "basic",
-    stars: 0,
+    levelDifficulty: "basic",
   },
 ];

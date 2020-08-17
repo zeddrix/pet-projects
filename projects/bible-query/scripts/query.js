@@ -26,6 +26,20 @@ const confirmRetryQuery = () => {
   }
 };
 
+// --------Attempt to show all levels. UNDONE--------
+const arrayLength = levelsLabels.length;
+const levelsNumberContainer = document.querySelector(".levels__number-container");
+
+for (let l = 0; l < arrayLength; l++) {
+  const levelsButton = document.createElement("div");
+  levelsButton.innerText = levelsLabels[l].levelNumber;
+  levelsButton.classList.add(".level-number");
+  levelsButton.classList.add(levels[l].name);
+  levelsButton.addEventListener("click", () => changeColor(levelsLabels[l].colorValue));
+  levelsNumberContainer.append(levelsButton);
+}
+// --------Attempt to show all levels. UNDONE--------
+
 const startQuery = () => {
   query();
   renderQuestion();
