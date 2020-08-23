@@ -31,51 +31,60 @@ const confirmRetryQuery = () => {
 // }
 // --------Attempt to show all levels. UNDONE--------
 
+const renderRandomizedQuestions = () => {
+  const questionDiv = document.getElementById("query__question");
+  const clueSourceDiv = document.getElementById("clue__source");
+  const clueSourceContentDiv = document.getElementById("clue__source-content");
+
+  let RQ = men1; // RQ = randomizedQuestions
+  for (i = RQ.length - 1; i > 0; i--) {
+    j = Math.floor(Math.random() * i);
+    k = RQ[i];
+    RQ[i] = RQ[j];
+    RQ[j] = k;
+  }
+  let q = RQ[currentQuestion];
+  questionDiv.innerHTML = q.question;
+  clueSourceDiv.innerHTML = q.clueSource;
+  clueSourceContentDiv.innerHTML = q.clueSourceContent;
+  console.log(RQ);
+
+  let RC = q.choices; // RC = randomizedChoices
+  const renderRandomizedChoices = () => {
+    let i, j, k;
+    for (i = RC.length - 1; i > 0; i--) {
+      j = Math.floor(Math.random() * i);
+      k = RC[i];
+      RC[i] = RC[j];
+      RC[j] = k;
+    }
+    const A = document.getElementById("choice-A");
+    const B = document.getElementById("choice-B");
+    const C = document.getElementById("choice-C");
+    const D = document.getElementById("choice-D");
+    A.innerHTML = RC[0];
+    B.innerHTML = RC[1];
+    C.innerHTML = RC[2];
+    D.innerHTML = RC[3];
+
+    console.log(RC);
+  };
+  renderRandomizedChoices();
+};
+
 const startQuery = () => {
   query();
-  renderQuestion();
+  renderRandomizedQuestions();
   renderProgress();
   renderCounter();
   Timer = setInterval(renderCounter, 1000);
 };
 
-const renderQuestion = () => {
-  const question = document.getElementById("query__question");
-  const clueSource = document.getElementById("clue__source");
-  const clueSourceContent = document.getElementById("clue__source-content");
-  const A = document.getElementById("choice-A");
-  const B = document.getElementById("choice-B");
-  const C = document.getElementById("choice-C");
-  const D = document.getElementById("choice-D");
-  let q = rivers[currentQuestion];
-
-  question.innerHTML = q.question;
-  clueSource.innerHTML = q.clueSource;
-  clueSourceContent.innerHTML = q.clueSourceContent;
-  A.innerHTML = q.choiceA;
-  B.innerHTML = q.choiceB;
-  C.innerHTML = q.choiceC;
-  D.innerHTML = q.choiceD;
-};
-
-let randomizedChoices = men1[6].choices;
-const RenderRandomizedChoices = () => {
-  let i, j, k;
-  for (i = randomizedChoices.length - 1; i > 0; i--) {
-    j = Math.floor(Math.random() * i)
-    k = randomizedChoices[i]
-    randomizedChoices[i] = randomizedChoices[j]
-    randomizedChoices[j] = k
-  }
-  console.log(randomizedChoices);
-}
-RenderRandomizedChoices();
-
 const lastQuestion = rivers.length - 1;
 const renderProgress = () => {
   const queryProgress = document.getElementById("query__progress");
   for (qIndex; qIndex <= lastQuestion; qIndex++) {
-    queryProgress.innerHTML += `<div class='query__all-progress' id="${qIndex}"></div>`;
+    queryProgress.innerHTML += `<div class="query__all-progress" id="${qIndex}"></div>`;
   }
 };
 
@@ -118,7 +127,7 @@ const renderCounter = () => {
     answerIsWrong();
     if (currentQuestion < lastQuestion) {
       currentQuestion++;
-      renderQuestion();
+      renderRandomizedQuestions();
     } else {
       clearInterval(Timer);
       finalScore();
@@ -136,8 +145,8 @@ const checkAnswer = (answer) => {
   count = 0;
   if (currentQuestion < lastQuestion) {
     currentQuestion++;
-    renderQuestion();
-    // setTimeout(renderQuestion, 3000);
+    renderRandomizedQuestions();
+    // setTimeout(renderRandomizedQuestions, 3000);
     // highlightCorrectAnswer();
   } else {
     clearInterval(Timer);
@@ -152,16 +161,16 @@ const scorePhrase1 = () => {
     scorePercent == 100
       ? "Well done!"
       : scorePercent >= 90
-        ? "Excellent!"
-        : scorePercent >= 51
-          ? "Nice!"
-          : scorePercent >= 50
-            ? "Good!"
-            : scorePercent >= 30
-              ? "Okay!"
-              : scorePercent >= 15
-                ? "Don't give up!"
-                : "Don't give up!";
+      ? "Excellent!"
+      : scorePercent >= 51
+      ? "Nice!"
+      : scorePercent >= 50
+      ? "Good!"
+      : scorePercent >= 30
+      ? "Okay!"
+      : scorePercent >= 15
+      ? "Don't give up!"
+      : "Don't give up!";
 
   const finalScorePhrase1Div = document.getElementById("final-score__phrase-1");
   finalScorePhrase1Div.innerHTML = fsp1;
@@ -174,16 +183,16 @@ const scoreStarAndPercentage = () => {
     scorePercent == 100
       ? "img/three-stars.png"
       : scorePercent >= 90
-        ? "img/two-and-a-half-stars.png"
-        : scorePercent >= 70
-          ? "img/two-stars.png"
-          : scorePercent >= 50
-            ? "img/one-and-a-half-star.png"
-            : scorePercent >= 30
-              ? "img/one-star.png"
-              : scorePercent >= 15
-                ? "img/one-half-star.png"
-                : "img/zero-star.png";
+      ? "img/two-and-a-half-stars.png"
+      : scorePercent >= 70
+      ? "img/two-stars.png"
+      : scorePercent >= 50
+      ? "img/one-and-a-half-star.png"
+      : scorePercent >= 30
+      ? "img/one-star.png"
+      : scorePercent >= 15
+      ? "img/one-half-star.png"
+      : "img/zero-star.png";
 
   const finalScoreImg = document.getElementById("final-score__img");
   const imgSrc = document.createAttribute("src");
@@ -203,14 +212,14 @@ const scorePhrase2 = () => {
     scorePercent == 100
       ? "You got all the questions right!"
       : scorePercent >= 90
-        ? "You almost perfected this level!"
-        : scorePercent >= 51
-          ? "Keep it up!"
-          : scorePercent == 50
-            ? "You got half the questions right!"
-            : scorePercent >= 30
-              ? "That's okay. Play again and crush this level!"
-              : "Play again and crush this level!";
+      ? "You almost perfected this level!"
+      : scorePercent >= 51
+      ? "Keep it up!"
+      : scorePercent == 50
+      ? "You got half the questions right!"
+      : scorePercent >= 30
+      ? "That's okay. Play again and crush this level!"
+      : "Play again and crush this level!";
 
   const scorePhrase2 = document.getElementById("final-score__phrase-2");
   scorePhrase2.innerHTML = fsp2;
