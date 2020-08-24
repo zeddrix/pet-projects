@@ -5,7 +5,7 @@ const men1 = [
     clueSourceContent:
       "45  So it is written: “The first man Adam became a living person.” The last Adam became a life-giving spirit.",
     choices: ["Aman", "Adam", "Abraham", "Noah"],
-    answer: "B",
+    answer: "Adam",
   },
   {
     question: "Who was the first victim of a murder?",
@@ -13,15 +13,15 @@ const men1 = [
     clueSourceContent:
       "3 After some time, Cain brought some fruits of the land as an offering to Jehovah. 4  But Abel brought some firstlings of his flock, including their fat. While Jehovah looked with favor on Abel and on his offering, 5  he did not look with any favor on Cain and on his offering. So Cain grew hot with anger and was dejected. 6  Then Jehovah said to Cain: “Why are you so angry and dejected? 7  If you turn to doing good, will you not be restored to favor? But if you do not turn to doing good, sin is crouching at the door, and its craving is to dominate you; but will you get the mastery over it?” 8  After that Cain said to his brother Abel: “Let us go over into the field.” So while they were in the field, Cain assaulted his brother Abel and killed him.",
     choices: ["Adam", "Cain", "Abel", "Enoch"],
-    answer: "C",
+    answer: "Abel",
   },
   {
-    question: "Who was the first human to commit murder?",
+    question: "Who was the first man to commit murder?",
     clueSource: "Genesis 4:3-8",
     clueSourceContent:
       "3 After some time, Cain brought some fruits of the land as an offering to Jehovah. 4  But Abel brought some firstlings of his flock, including their fat. While Jehovah looked with favor on Abel and on his offering, 5  he did not look with any favor on Cain and on his offering. So Cain grew hot with anger and was dejected. 6  Then Jehovah said to Cain: “Why are you so angry and dejected? 7  If you turn to doing good, will you not be restored to favor? But if you do not turn to doing good, sin is crouching at the door, and its craving is to dominate you; but will you get the mastery over it?” 8  After that Cain said to his brother Abel: “Let us go over into the field.” So while they were in the field, Cain assaulted his brother Abel and killed him.",
     choices: ["Lamech", "Nimrod", "A Nephilim", "Cain"],
-    answer: "D",
+    answer: "Cain",
   },
   {
     question: "Who built the ark and survived the Flood with his whole family?",
@@ -29,7 +29,7 @@ const men1 = [
     clueSourceContent:
       "23 So He wiped every living thing from the surface of the earth, including man, animals, creeping animals, and the flying creatures of the sky. They were all wiped off the earth; only Noah and those with him in the ark survived.",
     choices: ["Moses", "Goliath", "Abraham", "Noah"],
-    answer: "D",
+    answer: "Noah",
   },
   {
     question:
@@ -38,7 +38,7 @@ const men1 = [
     clueSourceContent:
       "8 By faith Abraham, when he was called, obeyed by going out to a place he was to receive as an inheritance; he went out, although not knowing where he was going.",
     choices: ["Abraham", "Isaac", "Jacob", "Joseph"],
-    answer: "A",
+    answer: "Abraham",
   },
   {
     question: "Who was the firstborn of Abraham?",
@@ -46,7 +46,7 @@ const men1 = [
     clueSourceContent:
       "Now Aʹbram’s wife Sarʹai had borne him no children, but she had an Egyptian servant whose name was Haʹgar. 2 So Sarʹai said to Aʹbram: “Please now! Jehovah has prevented me from bearing children. Please, have relations with my servant. Perhaps I can have children by means of her.” So Aʹbram listened to what Sarʹai said. 3 After Aʹbram had lived for ten years in the land of Caʹnaan, Aʹbram’s wife Sarʹai took her Egyptian servant Haʹgar and gave her to her husband Aʹbram as his wife. 4 So he had relations with Haʹgar, and she became pregnant. When she realized that she was pregnant, she began to despise her mistress.",
     choices: ["Jacob", "Ishmael", "Isaac", "Esau"],
-    answer: "B",
+    answer: "Ishmael",
   },
   {
     question:
@@ -55,7 +55,7 @@ const men1 = [
     clueSourceContent:
       "26 But Lot’s wife, who was behind him, began to look back, and she became a pillar of salt.",
     choices: ["Abraham", "Lot", "Isaac", "Moses"],
-    answer: "B",
+    answer: "Lot",
   },
   {
     question:
@@ -64,7 +64,7 @@ const men1 = [
     clueSourceContent:
       "30 Now Isaac had just finished blessing Jacob, and Jacob had barely left the presence of his father Isaac when his brother Eʹsau came back from his hunting. 31 He too prepared a tasty dish and brought it to his father, and he said to his father: “Let my father get up and eat some of his son’s game, in order that you may bless me.” 32 At this his father Isaac said to him: “Who are you?” to which he said: “I am your son, your firstborn, Eʹsau.” 33 And Isaac began to tremble violently, so he said: “Who was it, then, who hunted for game and brought it to me? I already ate it before you arrived, and I blessed him—and he will surely be blessed!”",
     choices: ["Abraham", "Joseph", "Isaac", "Jacob"],
-    answer: "C",
+    answer: "Isaac",
   },
   {
     question:
@@ -73,7 +73,7 @@ const men1 = [
     clueSourceContent:
       "27 As the boys got bigger, Eʹsau became a skilled hunter, a man of the field, but Jacob was a blameless man, dwelling in tents. 28 And Isaac loved Eʹsau because it meant game in his mouth, whereas Re·bekʹah loved Jacob. 29 On one occasion Jacob was boiling some stew when Eʹsau returned from the field exhausted. 30 So Eʹsau said to Jacob: “Quick, please, give me some of the red stew that you have there, for I am exhausted!” That is why his name was Eʹdom. 31 To this Jacob said: “First sell me your right as firstborn!” 32 And Eʹsau continued: “Here I am about to die! What use is a birthright to me?” 33 And Jacob added: “Swear to me first!” So he swore to him and sold his right as firstborn to Jacob. 34 Then Jacob gave Eʹsau bread and lentil stew, and he ate and drank, and he got up and went away. Thus Eʹsau despised the birthright.",
     choices: ["Isaac", "Jacob", "Joseph", "Esau"],
-    answer: "D",
+    answer: "Esau",
   },
   {
     question:
@@ -82,7 +82,7 @@ const men1 = [
     clueSourceContent:
       "24  Finally Jacob was left by himself. Then a man began to wrestle with him until the dawn broke. 25  When he saw that he had not prevailed over him, he touched the socket of his hip; and the socket of Jacob’s hip was dislocated during his wrestling with him. 26  After that he said: “Let me go, for the dawn is breaking.” To this he said: “I am not going to let you go until you bless me.” 27  So he said to him: “What is your name?” to which he said: “Jacob.” 28  Then he said: “Your name will no longer be Jacob but Israel, for you have contended with God and with men and you have at last prevailed.” 29  In turn Jacob inquired: “Tell me, please, your name.” However, he said: “Why is it that you ask my name?” With that he blessed him there. 30  So Jacob named the place Pe·niʹel, for he said, “I have seen God face-to-face, yet my life was preserved.”",
     choices: ["Jacob", "Abraham", "Isaac", "Esau"],
-    answer: "A",
+    answer: "Jacob",
   },
   {
     question: "Who was sold by his own brothers as a slave in Egypt?",
@@ -90,7 +90,7 @@ const men1 = [
     clueSourceContent:
       "25 Then they sat down to eat. When they looked up, there was a caravan of Ishʹma·el·ites coming from Gilʹe·ad. Their camels were carrying labdanum gum, balsam, and resinous bark, and they were on their way down to Egypt. 26 At this Judah said to his brothers: “What profit would there be if we killed our brother and covered over his blood? 27 Come, now, let us sell him to the Ishʹma·el·ites, and do not let our hand be upon him. After all, he is our brother, our flesh.” So they listened to their brother. 28 And when the Midʹi·an·ite merchants were passing by, they lifted Joseph up out of the waterpit and sold him to the Ishʹma·el·ites for 20 pieces of silver. These men took Joseph into Egypt.",
     choices: ["Reuben", "Judah", "Joseph", "Benjamin"],
-    answer: "C",
+    answer: "Joseph",
   },
   {
     question:
@@ -99,7 +99,7 @@ const men1 = [
     clueSourceContent:
       "10 After Job had prayed for his companions, Jehovah removed Job’s tribulation and restored his prosperity. Jehovah gave him double what he had before.",
     choices: ["Abraham", "Joseph", "Moses", "Job"],
-    answer: "D",
+    answer: "Job",
   },
   {
     question: "Jehovah God used this man to divide the waters of the Red Sea.",
@@ -107,7 +107,7 @@ const men1 = [
     clueSourceContent:
       "21  Moses now stretched out his hand over the sea; and Jehovah drove the sea back with a strong east wind all night long, turning the sea basin into dry ground, and the waters divided. 22  So the Israelites went through the midst of the sea on dry ground, while the waters formed a wall on their right hand and on their left. 23  The Egyptians pursued them, and all Pharʹaoh’s horses, his war chariots, and his cavalrymen began going after them into the midst of the sea. 24  During the morning watch, Jehovah looked at the camp of the Egyptians from within the pillar of fire and cloud, and he threw the camp of the Egyptians into confusion. 25  He kept taking wheels off their chariots so that they were driving them with difficulty, and the Egyptians were saying: “Let us flee from any contact with Israel, because Jehovah is fighting for them against the Egyptians.” 26  Then Jehovah said to Moses: “Stretch out your hand over the sea so that the waters may come back over the Egyptians, their war chariots, and their cavalrymen.” 27  Moses at once stretched out his hand over the sea, and as morning approached, the sea returned to its normal condition. As the Egyptians fled from it, Jehovah shook the Egyptians off into the midst of the sea. 28  The returning waters covered the war chariots and the cavalrymen and all of Pharʹaoh’s army who had gone into the sea after them. Not so much as one among them was allowed to survive.",
     choices: ["Moses", "Noah", "Abraham", "Aaron"],
-    answer: "A",
+    answer: "Moses",
   },
   {
     question:
@@ -116,7 +116,7 @@ const men1 = [
     clueSourceContent:
       "13 But he said: “Pardon me, Jehovah, please send anyone whom you want to send.”  14 Then Jehovah’s anger blazed against Moses, and he said: “What about your brother Aaron the Levite? I know that he can speak very well. And he is now on his way here to meet you. When he sees you, his heart will rejoice.  15 So you must speak to him and put the words in his mouth, and I will be with you and him as you speak, and I will teach you men what to do.  16 He will speak for you to the people, and he will be your spokesman, and you will serve as God to him.",
     choices: ["Noah", "Aaron", "Joseph", "Abraham"],
-    answer: "B",
+    answer: "Aaron",
   },
   {
     question:
@@ -125,7 +125,7 @@ const men1 = [
     clueSourceContent:
       "28 Finally Jehovah caused the donkey to speak, and it said to Baʹlaam: “What have I done to you to make you beat me these three times?”",
     choices: ["Baal", "Balak", "Balaam", "Barak"],
-    answer: "C",
+    answer: "Balaam",
   },
   {
     question: "Who served at the tabernacle since his youth?",
@@ -133,7 +133,7 @@ const men1 = [
     clueSourceContent:
       "20 Within a year Hanʹnah became pregnant and gave birth to a son and named him Samuel, because, as she said, “it is from Jehovah that I have asked him.” 21 In time El·kaʹnah went up with all his household to offer the yearly sacrifice to Jehovah and to present his vow offering.  22 But Hanʹnah did not go up, for she said to her husband: “As soon as the boy is weaned, I will bring him; then he will appear before Jehovah and remain there from then on.”  23 El·kaʹnah her husband then said to her: “Do what you think is best. Stay at home until you wean him. May Jehovah carry out what you have said.” So the woman stayed at home and nursed her son until she weaned him. 24 As soon as she had weaned him, she took him up to Shiʹloh, along with a three-year-old bull, one eʹphah of flour, and a large jar of wine, and she came to the house of Jehovah in Shiʹloh and brought the young boy with her.  25 Then they slaughtered the bull and brought the boy to Eʹli.  26 With that she said: “Pardon me, my lord! As surely as you live, my lord, I am the woman who was standing with you in this place to pray to Jehovah.  27 It was for this boy that I prayed, and Jehovah granted my petition that I asked of him.  28 I, in turn, now lend him to Jehovah. For all his days, he is lent to Jehovah.”And he bowed down there to Jehovah.",
     choices: ["Eleazer", "Aaron", "Eli", "Samuel"],
-    answer: "D",
+    answer: "Samuel",
   },
   {
     question: "Who bravely fought and killed Goliath?",
@@ -141,7 +141,7 @@ const men1 = [
     clueSourceContent:
       "40 He then took his staff in his hand and chose five smooth stones from the streambed and placed them in the pouch of his shepherd’s bag, and his sling was in his hand. And he began approaching the Phi·lisʹtine. 41  The Phi·lisʹtine came closer and closer to David, and his shield-bearer was ahead of him. 42  When the Phi·lisʹtine looked and saw David, he sneered at him in contempt because he was just a ruddy and handsome boy. 43  So the Phi·lisʹtine said to David: “Am I a dog, so that you are coming against me with sticks?” With that the Phi·lisʹtine cursed David by his gods. 44  The Phi·lisʹtine said to David: “Just come to me, and I will give your flesh to the birds of the heavens and to the beasts of the field.” 45  David replied to the Phi·lisʹtine: “You are coming against me with sword and spear and javelin, but I am coming against you in the name of Jehovah of armies, the God of the battle line of Israel, whom you have taunted.  46  This very day Jehovah will surrender you into my hand, and I will strike you down and cut off your head; and on this day I will give the corpses of the camp of the Phi·lisʹtines to the birds of the heavens and to the wild beasts of the earth; and people of all the earth will know that there is a God in Israel. 47  And all those gathered here will know that it is not with the sword or the spear that Jehovah saves, for the battle belongs to Jehovah, and he will give all of you into our hand.” 48  Then the Phi·lisʹtine rose and drew steadily closer to meet David, but David ran quickly toward the battle line to meet the Phi·lisʹtine. 49  David thrust his hand into his bag and took a stone from there and slung it. He struck the Phi·lisʹtine in the forehead, and the stone sank into his forehead and he fell facedown on the ground. 50  So David prevailed over the Phi·lisʹtine with a sling and a stone; he struck down the Phi·lisʹtine and put him to death, though there was no sword in David’s hand. 51  David continued running and stood over him. Then he took hold of the Phi·lisʹtine’s sword and pulled it out of its sheath and made sure that he was dead by cutting off his head with it. When the Phi·lisʹtines saw that their mighty one had died, they fled.",
     choices: ["David", "Jonathan", "Saul", "Abner"],
-    answer: "A",
+    answer: "David",
   },
   {
     question: "He was the closest friend to David.",
@@ -149,7 +149,7 @@ const men1 = [
     clueSourceContent:
       "As soon as David had finished speaking to Saul, Jonʹa·than and David became bound together in close friendship, and Jonʹa·than began to love him as himself.  2 From that day, Saul kept David with him, and he did not allow him to return to his father’s house.  3 And Jonʹa·than and David made a covenant, because he loved him as himself.  4 Jonʹa·than took off the sleeveless coat that he wore and gave it to David, along with his gear, his sword, his bow, and his belt.  5 David began going out and was successful wherever Saul would send him. So Saul put him in charge of the fighting men, and this pleased all the people and the servants of Saul.",
     choices: ["Jesse", "Jonathan", "Saul", "Abner"],
-    answer: "B",
+    answer: "Jonathan",
   },
   {
     question:
@@ -158,7 +158,7 @@ const men1 = [
     clueSourceContent:
       "16  So the king gave the order, and they brought Daniel and threw him into the pit of lions. The king said to Daniel: “Your God whom you are continually serving will rescue you.” 17  Then a stone was brought and placed over the entrance of the pit, and the king sealed it with his signet ring and with the signet ring of his nobles, so that nothing could be changed with regard to Daniel. 18  The king then went to his palace. He passed the night fasting and refused any entertainment, and he could not sleep. 19  Finally at the first light of dawn, the king got up and hurried to the lions’ pit. 20  As he got near the pit, he called out to Daniel with a sad voice. The king asked Daniel: “O Daniel, servant of the living God, has your God whom you are continually serving been able to rescue you from the lions?” 21  Daniel immediately said to the king: “O king, may you live on forever. 22  My God sent his angel and shut the mouth of the lions, and they have not harmed me, for I was found innocent before him; nor have I done any wrong to you, O king.” 23  The king was overjoyed, and he commanded that Daniel be lifted up out of the pit. When Daniel was lifted up out of the pit, he was completely unharmed, because he had trusted in his God.",
     choices: ["Jonah", "Meshach", "Daniel", "Abednego"],
-    answer: "C",
+    answer: "Daniel",
   },
   {
     question:
@@ -167,7 +167,7 @@ const men1 = [
     clueSourceContent:
       "Neb·u·chad·nezʹzar the king made an image of gold that was 60 cubits high and 6 cubits wide. He set it up on the plain of Duʹra in the province of Babylon.  2 Then King Neb·u·chad·nezʹzar sent word to assemble the satraps, prefects, governors, advisers, treasurers, judges, magistrates, and all the administrators of the provinces to come to the inauguration of the image that King Neb·u·chad·nezʹzar had set up. 3 So the satraps, prefects, governors, advisers, treasurers, judges, magistrates, and all the administrators of the provinces assembled for the inauguration of the image that King Neb·u·chad·nezʹzar had set up. And they stood in front of the image that Neb·u·chad·nezʹzar had set up.  4 The herald loudly proclaimed: “You are commanded, O peoples, nations, and language groups,  5 that when you hear the sound of the horn, pipe, zither, triangular harp, stringed instrument, bagpipe, and all the other musical instruments, you must fall down and worship the image of gold that King Neb·u·chad·nezʹzar has set up.  6 Whoever does not fall down and worship will immediately be thrown into the burning fiery furnace.”  7 So when all the peoples heard the sound of the horn, pipe, zither, triangular harp, stringed instrument, and all the other musical instruments, all the peoples, nations, and language groups fell down and worshipped the image of gold that King Neb·u·chad·nezʹzar had set up. 8 Now at that time some of the Chal·deʹans came forward and accused the Jews.  9 They said to King Neb·u·chad·nezʹzar: “O king, may you live on forever.  10 You, O king, gave the command that every man who hears the sound of the horn, pipe, zither, triangular harp, stringed instrument, bagpipe, and all the other musical instruments should fall down and worship the image of gold;  11 and that whoever would not fall down and worship should be thrown into the burning fiery furnace.  12 But there are certain Jews whom you appointed to administer the province of Babylon: Shaʹdrach, Meʹshach, and A·bedʹne·go. These men have paid no regard to you, O king. They are not serving your gods, and they refuse to worship the image of gold that you have set up.” 13 Then Neb·u·chad·nezʹzar, in a furious rage, ordered Shaʹdrach, Meʹshach, and A·bedʹne·go to be brought in. So these men were brought in before the king.  14 Neb·u·chad·nezʹzar said to them: “Is it really true, Shaʹdrach, Meʹshach, and A·bedʹne·go, that you are not serving my gods and that you refuse to worship the image of gold that I have set up?  15 Now when you hear the sound of the horn, the pipe, the zither, the triangular harp, the stringed instrument, the bagpipe, and all the other musical instruments, if you are ready to fall down and worship the image that I have made, fine. But if you refuse to worship, you will immediately be thrown into the burning fiery furnace. And who is the god who can rescue you out of my hands?” 16 Shaʹdrach, Meʹshach, and A·bedʹne·go answered the king: “O Neb·u·chad·nezʹzar, we have no need to answer you in this matter.  17 If it must be, our God whom we serve is able to rescue us from the burning fiery furnace, O king, and to rescue us from your hand.  18 But even if he does not, let it be known to you, O king, that we will not serve your gods or worship the image of gold that you have set up.” 19 Then Neb·u·chad·nezʹzar became so furious with Shaʹdrach, Meʹshach, and A·bedʹne·go that the expression of his face changed toward them, and he gave orders to heat the furnace seven times hotter than usual.  20 He ordered some of the mighty men from his army to bind Shaʹdrach, Meʹshach, and A·bedʹne·go and to throw them into the burning fiery furnace. 21 So these men were tied up while still wearing their cloaks, garments, caps, and all their other clothing, and they were thrown into the burning fiery furnace.  22 Because the king’s command was so harsh and the furnace was exceptionally hot, the men who took up Shaʹdrach, Meʹshach, and A·bedʹne·go were the ones killed by the flames of the fire.  23 But these three men, Shaʹdrach, Meʹshach, and A·bedʹne·go, fell bound into the burning fiery furnace. 24 King Neb·u·chad·nezʹzar then became frightened and quickly rose up and said to his high officials: “Did we not tie up three men and throw them into the fire?” They answered the king: “Yes, O king.”  25 He said: “Look! I see four men walking about free in the midst of the fire, and they are unharmed, and the fourth one looks like a son of the gods.” 26 Neb·u·chad·nezʹzar approached the door of the burning fiery furnace and said: “Shaʹdrach, Meʹshach, and A·bedʹne·go, you servants of the Most High God, step out and come here!” Shaʹdrach, Meʹshach, and A·bedʹne·go stepped out from the midst of the fire.  27 And the satraps, prefects, governors, and the high officials of the king who were assembled there saw that the fire had had no effect on the bodies of these men; not a hair of their heads had been singed, their cloaks looked no different, and there was not even the smell of fire on them. 28 Neb·u·chad·nezʹzar then declared: “Praised be the God of Shaʹdrach, Meʹshach, and A·bedʹne·go, who sent his angel and rescued his servants. They trusted in him and went against the command of the king and were willing to die rather than serve or worship any god except their own God.  29 I am therefore issuing an order that any people, nation, or language group that says anything against the God of Shaʹdrach, Meʹshach, and A·bedʹne·go should be dismembered, and their houses should be turned into public latrines; for there is no other god who is able to rescue like this one.” 30 The king then promoted Shaʹdrach, Meʹshach, and A·bedʹne·go in the province of Babylon.",
     choices: ["The 3 Kings", "The 3 Idiots", "The 3 Wisemen", "The 3 Hebrews"],
-    answer: "D",
+    answer: "The 3 Hebrews",
   },
 ];
 
