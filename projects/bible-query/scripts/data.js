@@ -4,7 +4,7 @@ const men1 = [
     clueSource: "1 Chorinthians 15:45",
     clueSourceContent:
       "45  So it is written: “The first man Adam became a living person.” The last Adam became a life-giving spirit.",
-    choices: ["Aman", "Adam", "Abraham", "Noah"],
+    choices: ["Jesus", "Adam", "Abraham", "Noah"],
     answer: "Adam",
   },
   {
@@ -50,7 +50,7 @@ const men1 = [
   },
   {
     question:
-      "His wife began to look back at the city and became a pillar of salt.",
+      "His wife began to look back at the city of Sodom and Gomorrah, and then became a pillar of salt.",
     clueSource: "Genesis 19:26",
     clueSourceContent:
       "26 But Lot’s wife, who was behind him, began to look back, and she became a pillar of salt.",
@@ -94,7 +94,7 @@ const men1 = [
   },
   {
     question:
-      "After losing everything he had, “Jehovah gave him double what he had before” in the end for his faithfulness.",
+      "After losing everything he had, “Jehovah gave him double what he had before” for being faithful 'til the end.",
     clueSource: "Job 42:10",
     clueSourceContent:
       "10 After Job had prayed for his companions, Jehovah removed Job’s tribulation and restored his prosperity. Jehovah gave him double what he had before.",
@@ -124,7 +124,7 @@ const men1 = [
     clueSource: "Numbers 22:28",
     clueSourceContent:
       "28 Finally Jehovah caused the donkey to speak, and it said to Baʹlaam: “What have I done to you to make you beat me these three times?”",
-    choices: ["Baal", "Balak", "Balaam", "Barak"],
+    choices: ["Shrek", "Balak", "Balaam", "Barak"],
     answer: "Balaam",
   },
   {

@@ -93,6 +93,7 @@ img {
   outline: none;
 }
 a {
+  cursor: pointer;
   text-decoration: none;
   color: #51dcf5;
 }

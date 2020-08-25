@@ -7,7 +7,7 @@ let score = 0;
 const confirmRetryQuery = () => {
   closeModal();
   currentQuestion = 0;
-  q = rivers[0];
+  q = men1[0];
   count = 0;
   qIndex = 0;
   score = 0;
@@ -31,7 +31,7 @@ const confirmRetryQuery = () => {
 // }
 // --------Attempt to show all levels. UNDONE--------
 
-const renderRandomizedQuestions = () => {
+const renderRandomQuestions = () => {
   const questionDiv = document.getElementById("query__question");
   const clueSourceDiv = document.getElementById("clue__source");
   const clueSourceContentDiv = document.getElementById("clue__source-content");
@@ -47,10 +47,10 @@ const renderRandomizedQuestions = () => {
   questionDiv.innerHTML = q.question;
   clueSourceDiv.innerHTML = q.clueSource;
   clueSourceContentDiv.innerHTML = q.clueSourceContent;
-  console.log(RQ);
+  // console.log(RQ);
 
   let RC = q.choices; // RC = randomizedChoices
-  const renderRandomizedChoices = () => {
+  const renderRandomChoices = () => {
     let i, j, k;
     for (i = RC.length - 1; i > 0; i--) {
       j = Math.floor(Math.random() * i);
@@ -67,20 +67,20 @@ const renderRandomizedQuestions = () => {
     C.innerHTML = RC[2];
     D.innerHTML = RC[3];
 
-    console.log(RC);
+    // console.log(RC);
   };
-  renderRandomizedChoices();
+  renderRandomChoices();
 };
 
 const startQuery = () => {
   query();
-  renderRandomizedQuestions();
+  renderRandomQuestions();
   renderProgress();
   renderCounter();
-  Timer = setInterval(renderCounter, 1000);
+  // Timer = setInterval(renderCounter, 1000);  NO TIMER!
 };
 
-const lastQuestion = rivers.length - 1;
+const lastQuestion = men1.length - 1;
 const renderProgress = () => {
   const queryProgress = document.getElementById("query__progress");
   for (qIndex; qIndex <= lastQuestion; qIndex++) {
@@ -109,7 +109,7 @@ const highlightCorrectAnswer = () => {
   });
 };
 
-highlightCorrectAnswer();
+// highlightCorrectAnswer(); NO HIGHLIGHT!
 
 const renderCounter = () => {
   const timeGauge = document.getElementById("query__time");
@@ -127,7 +127,7 @@ const renderCounter = () => {
     answerIsWrong();
     if (currentQuestion < lastQuestion) {
       currentQuestion++;
-      renderRandomizedQuestions();
+      renderRandomQuestions();
     } else {
       clearInterval(Timer);
       finalScore();
@@ -135,8 +135,12 @@ const renderCounter = () => {
   }
 };
 
-const checkAnswer = (answer) => {
-  if (answer == rivers[currentQuestion].correctAnswer) {
+const checkAnswer = (target) => {
+  const choiceTextValue = document.querySelector(".query__choice").textContent;
+  console.log('CORRECT ANSWER:', men1[currentQuestion].answer);
+  console.log("USER'S CHOICE:", choiceTextValue);
+  console.log('checkAnswer', target.innerText);
+  if (choiceTextValue == men1[currentQuestion].answer) {
     score++;
     answerIsCorrect();
   } else {
@@ -145,8 +149,8 @@ const checkAnswer = (answer) => {
   count = 0;
   if (currentQuestion < lastQuestion) {
     currentQuestion++;
-    renderRandomizedQuestions();
-    // setTimeout(renderRandomizedQuestions, 3000);
+    renderRandomQuestions();
+    // setTimeout(renderRandomQuestions, 3000);
     // highlightCorrectAnswer();
   } else {
     clearInterval(Timer);
@@ -155,44 +159,44 @@ const checkAnswer = (answer) => {
 };
 
 const scorePhrase1 = () => {
-  const scorePercent = Math.round((100 * score) / rivers.length);
+  const scorePercent = Math.round((100 * score) / men1.length);
 
   let fsp1 =
     scorePercent == 100
       ? "Well done!"
       : scorePercent >= 90
-      ? "Excellent!"
-      : scorePercent >= 51
-      ? "Nice!"
-      : scorePercent >= 50
-      ? "Good!"
-      : scorePercent >= 30
-      ? "Okay!"
-      : scorePercent >= 15
-      ? "Don't give up!"
-      : "Don't give up!";
+        ? "Excellent!"
+        : scorePercent >= 51
+          ? "Nice!"
+          : scorePercent >= 50
+            ? "Good!"
+            : scorePercent >= 30
+              ? "Okay!"
+              : scorePercent >= 15
+                ? "Don't give up!"
+                : "Don't give up!";
 
   const finalScorePhrase1Div = document.getElementById("final-score__phrase-1");
   finalScorePhrase1Div.innerHTML = fsp1;
 };
 
 const scoreStarAndPercentage = () => {
-  const scorePercent = Math.round((100 * score) / rivers.length);
+  const scorePercent = Math.round((100 * score) / men1.length);
 
   let img =
     scorePercent == 100
       ? "img/three-stars.png"
       : scorePercent >= 90
-      ? "img/two-and-a-half-stars.png"
-      : scorePercent >= 70
-      ? "img/two-stars.png"
-      : scorePercent >= 50
-      ? "img/one-and-a-half-star.png"
-      : scorePercent >= 30
-      ? "img/one-star.png"
-      : scorePercent >= 15
-      ? "img/one-half-star.png"
-      : "img/zero-star.png";
+        ? "img/two-and-a-half-stars.png"
+        : scorePercent >= 70
+          ? "img/two-stars.png"
+          : scorePercent >= 50
+            ? "img/one-and-a-half-star.png"
+            : scorePercent >= 30
+              ? "img/one-star.png"
+              : scorePercent >= 15
+                ? "img/one-half-star.png"
+                : "img/zero-star.png";
 
   const finalScoreImg = document.getElementById("final-score__img");
   const imgSrc = document.createAttribute("src");
@@ -206,20 +210,20 @@ const scoreStarAndPercentage = () => {
 };
 
 const scorePhrase2 = () => {
-  const scorePercent = Math.round((100 * score) / rivers.length);
+  const scorePercent = Math.round((100 * score) / men1.length);
 
   let fsp2 =
     scorePercent == 100
       ? "You got all the questions right!"
       : scorePercent >= 90
-      ? "You almost perfected this level!"
-      : scorePercent >= 51
-      ? "Keep it up!"
-      : scorePercent == 50
-      ? "You got half the questions right!"
-      : scorePercent >= 30
-      ? "That's okay. Play again and crush this level!"
-      : "Play again and crush this level!";
+        ? "You almost perfected this level!"
+        : scorePercent >= 51
+          ? "Keep it up!"
+          : scorePercent == 50
+            ? "You got half the questions right!"
+            : scorePercent >= 30
+              ? "That's okay. Play again and crush this level!"
+              : "Play again and crush this level!";
 
   const scorePhrase2 = document.getElementById("final-score__phrase-2");
   scorePhrase2.innerHTML = fsp2;

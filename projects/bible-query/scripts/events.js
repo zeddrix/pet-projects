@@ -1,4 +1,4 @@
-window.addEventListener("click", (event) => {
+document.addEventListener("click", (event) => {
   if (event.target.matches(".levels")) {
     levels();
   } else if (event.target.matches(".settings")) {
@@ -21,14 +21,9 @@ window.addEventListener("click", (event) => {
     showResetGameModal();
   } else if (event.target.matches("#query__clue-btn")) {
     showClueModal();
-  } else if (event.target.matches("#choice-A")) {
-    checkAnswer("A");
-  } else if (event.target.matches("#choice-B")) {
-    checkAnswer("B");
-  } else if (event.target.matches("#choice-C")) {
-    checkAnswer("C");
-  } else if (event.target.matches("#choice-D")) {
-    checkAnswer("D");
+  } else if (event.target.classList.contains('query__choice')) {
+    // console.log("query__choice clicked!");
+    checkAnswer(event.target);
   } else if (event.target.matches("#query__menu-btns__levels")) {
     showLevelsModal();
   } else if (event.target.matches("#query__menu-btns__retry")) {
