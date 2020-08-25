@@ -5,6 +5,7 @@ let qIndex = 0;
 let score = 0;
 
 const confirmRetryQuery = () => {
+  renderRandomQuestions();
   closeModal();
   currentQuestion = 0;
   q = men1[0];
@@ -108,7 +109,6 @@ const highlightCorrectAnswer = () => {
     });
   });
 };
-
 // highlightCorrectAnswer(); NO HIGHLIGHT!
 
 const renderCounter = () => {
