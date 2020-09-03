@@ -135,6 +135,10 @@ const renderCounter = () => {
   }
 };
 
+const selectedChoice = (target) => {
+  
+}
+
 const checkAnswer = (target) => {
   const choiceTextValue = document.querySelector(".query__choice").textContent;
   console.log('CORRECT ANSWER:', men1[currentQuestion].answer);

@@ -24,6 +24,9 @@ document.addEventListener("click", (event) => {
   } else if (event.target.classList.contains('query__choice')) {
     // console.log("query__choice clicked!");
     checkAnswer(event.target);
+    selectedChoice(event.target);
+  } else if (event.target.matches("#query__check-answer-btn")) {
+    checkAnswer();
   } else if (event.target.matches("#query__menu-btns__levels")) {
     showLevelsModal();
   } else if (event.target.matches("#query__menu-btns__retry")) {
