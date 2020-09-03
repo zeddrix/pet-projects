@@ -135,8 +135,23 @@ const renderCounter = () => {
   }
 };
 
-const selectedChoice = (target) => {
+const highlightSelectedChoice = (event) => {
+  const choiceContent = event.target.textContent;
+  console.log(choiceContent, "clicked!");
   
+  const selectedChoice = event.target;
+  const allChoices = document.querySelectorAll(".query__choice");
+  
+  // allChoices.forEach(choice => {
+  //   choice.classList.remove("selected-choice");
+  // });
+
+  for (let i = 0; i < allChoices.length; i++) {
+    const choice = allChoices[i];
+    choice.classList.remove("selected-choice");
+  }
+
+  selectedChoice.classList.add("selected-choice");
 }
 
 const checkAnswer = (target) => {
