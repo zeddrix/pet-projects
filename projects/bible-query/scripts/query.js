@@ -118,7 +118,8 @@ const renderCounter = () => {
   }
 };
 
-let selectedChoiceText;
+let selectedChoiceTextContent;
+const checkButton = document.querySelector("#query__check-answer-btn");
 
 const highlightSelectedChoice = (event) => {
   const selectedChoice = event.target;
@@ -128,15 +129,8 @@ const highlightSelectedChoice = (event) => {
   selectedChoice.classList.add("selected-choice");
   console.log("SELECTED CHOICE:", selectedChoice);
   selectedChoiceTextContent = selectedChoice.textContent;
-};
 
-const removeHighlightOnSelectedChoice = () => {
-  const allChoices = document.querySelectorAll(".query__choice");
-  for (let i = 0; i < allChoices.length; i++) {
-    // FOREACH ALTERNATIVE
-    const choice = allChoices[i]; // allChoices.forEach(choice => {
-    choice.classList.remove("selected-choice"); //   choice.classList.remove("selected-choice");
-  } // });
+  checkButton.removeAttribute("disabled");
 };
 
 const checkAnswer = () => {
@@ -161,6 +155,21 @@ const checkAnswer = () => {
   }
 };
 
+const removeHighlightOnSelectedChoice = () => {
+  const allChoices = document.querySelectorAll(".query__choice");
+  for (let i = 0; i < allChoices.length; i++) {
+    const choice = allChoices[i];
+    choice.classList.remove("selected-choice");
+  }
+  selectedChoiceTextContent = undefined;
+  checkButton.setAttribute("disabled", "");
+
+  // FOREACH ALTERNATIVE
+  // allChoices.forEach(choice => {
+  //   choice.classList.remove("selected-choice");
+  // });
+};
+
 const restartQuery = () => {
   renderRandomQuestions();
   closeModal();
@@ -169,7 +178,7 @@ const restartQuery = () => {
   count = 0;
   qIndex = 0;
   score = 0;
-  const allProgress = document.getElementsByClassName("query__all-progress");
+  const allProgress = document.querySelectorAll(".query__all-progress");
   for (let p = 0; p < allProgress.length; p++) {
     allProgress[p].style.backgroundColor = "#FFFFFF00";
   }
