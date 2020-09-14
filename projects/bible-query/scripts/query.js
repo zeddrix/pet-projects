@@ -122,16 +122,21 @@ let selectedChoiceText;
 
 const highlightSelectedChoice = (event) => {
   const selectedChoice = event.target;
-  const allChoices = document.querySelectorAll(".query__choice");
 
-  for (let i = 0; i < allChoices.length; i++) { // FOREACH ALTERNATIVE
-    const choice = allChoices[i];               // allChoices.forEach(choice => {
-    choice.classList.remove("selected-choice"); //   choice.classList.remove("selected-choice");
-  }                                             // });
+  removeHighlightOnSelectedChoice();
 
   selectedChoice.classList.add("selected-choice");
   console.log("SELECTED CHOICE:", selectedChoice);
   selectedChoiceTextContent = selectedChoice.textContent;
+};
+
+const removeHighlightOnSelectedChoice = () => {
+  const allChoices = document.querySelectorAll(".query__choice");
+  for (let i = 0; i < allChoices.length; i++) {
+    // FOREACH ALTERNATIVE
+    const choice = allChoices[i]; // allChoices.forEach(choice => {
+    choice.classList.remove("selected-choice"); //   choice.classList.remove("selected-choice");
+  } // });
 };
 
 const checkAnswer = () => {
@@ -146,6 +151,7 @@ const checkAnswer = () => {
   count = 0;
   if (currentQuestion < lastQuestion) {
     currentQuestion++;
+    removeHighlightOnSelectedChoice();
     renderRandomQuestions();
     // setTimeout(renderRandomQuestions, 3000);
     // highlightCorrectAnswer();
