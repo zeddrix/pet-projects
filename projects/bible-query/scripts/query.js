@@ -4,20 +4,6 @@ let Timer;
 let qIndex = 0;
 let score = 0;
 
-const confirmRetryQuery = () => {
-  renderRandomQuestions();
-  closeModal();
-  currentQuestion = 0;
-  q = men1[0];
-  count = 0;
-  qIndex = 0;
-  score = 0;
-  const allProgress = document.getElementsByClassName("query__all-progress");
-  for (let p = 0; p < allProgress.length; p++) {
-    allProgress[p].style.backgroundColor = "#FFFFFF00";
-  }
-};
-
 // --------Attempt to show all levels. UNDONE--------
 // const arrayLength = levelsLabels.length;
 // const levelsNumberContainer = document.querySelector(".levels__number-container");
@@ -31,6 +17,14 @@ const confirmRetryQuery = () => {
 //   levelsNumberContainer.append(levelsButton);
 // }
 // --------Attempt to show all levels. UNDONE--------
+
+const startQuery = () => {
+  query();
+  renderRandomQuestions();
+  renderProgress();
+  renderCounter();
+  // Timer = setInterval(renderCounter, 1000);  NO TIMER!
+};
 
 const renderRandomQuestions = () => {
   const questionDiv = document.getElementById("query__question");
@@ -48,7 +42,6 @@ const renderRandomQuestions = () => {
   questionDiv.innerHTML = q.question;
   clueSourceDiv.innerHTML = q.clueSource;
   clueSourceContentDiv.innerHTML = q.clueSourceContent;
-  // console.log(RQ);
 
   let RC = q.choices; // RC = randomizedChoices
   const renderRandomChoices = () => {
@@ -67,18 +60,8 @@ const renderRandomQuestions = () => {
     B.innerHTML = RC[1];
     C.innerHTML = RC[2];
     D.innerHTML = RC[3];
-
-    // console.log(RC);
   };
   renderRandomChoices();
-};
-
-const startQuery = () => {
-  query();
-  renderRandomQuestions();
-  renderProgress();
-  renderCounter();
-  // Timer = setInterval(renderCounter, 1000);  NO TIMER!
 };
 
 const lastQuestion = men1.length - 1;
@@ -114,8 +97,8 @@ const highlightCorrectAnswer = () => {
 const renderCounter = () => {
   const timeGauge = document.getElementById("query__time");
   const queryCounter = document.getElementById("query__counter");
-  const questionTime = 10; // 10s
-  let gaugeWidth = 98; // percent
+  const questionTime = 10;
+  let gaugeWidth = 98;
   const gaugeUnit = gaugeWidth / questionTime;
 
   if (count <= questionTime) {
@@ -135,31 +118,26 @@ const renderCounter = () => {
   }
 };
 
+let selectedChoiceText;
+
 const highlightSelectedChoice = (event) => {
-  const choiceContent = event.target.textContent;
-  console.log(choiceContent, "clicked!");
-  
   const selectedChoice = event.target;
   const allChoices = document.querySelectorAll(".query__choice");
-  
-  // allChoices.forEach(choice => {
-  //   choice.classList.remove("selected-choice");
-  // });
 
-  for (let i = 0; i < allChoices.length; i++) {
-    const choice = allChoices[i];
-    choice.classList.remove("selected-choice");
-  }
+  for (let i = 0; i < allChoices.length; i++) { // FOREACH ALTERNATIVE
+    const choice = allChoices[i];               // allChoices.forEach(choice => {
+    choice.classList.remove("selected-choice"); //   choice.classList.remove("selected-choice");
+  }                                             // });
 
   selectedChoice.classList.add("selected-choice");
-}
+  console.log("SELECTED CHOICE:", selectedChoice);
+  selectedChoiceTextContent = selectedChoice.textContent;
+};
 
-const checkAnswer = (target) => {
-  const choiceTextValue = document.querySelector(".query__choice").textContent;
-  console.log('CORRECT ANSWER:', men1[currentQuestion].answer);
-  console.log("USER'S CHOICE:", choiceTextValue);
-  console.log('checkAnswer', target.innerText);
-  if (choiceTextValue == men1[currentQuestion].answer) {
+const checkAnswer = () => {
+  console.log("CORRECT ANSWER:", men1[currentQuestion].answer);
+  console.log("USER'S CHOICE:", selectedChoiceTextContent);
+  if (selectedChoiceTextContent == men1[currentQuestion].answer) {
     score++;
     answerIsCorrect();
   } else {
@@ -177,6 +155,20 @@ const checkAnswer = (target) => {
   }
 };
 
+const restartQuery = () => {
+  renderRandomQuestions();
+  closeModal();
+  currentQuestion = 0;
+  q = men1[0];
+  count = 0;
+  qIndex = 0;
+  score = 0;
+  const allProgress = document.getElementsByClassName("query__all-progress");
+  for (let p = 0; p < allProgress.length; p++) {
+    allProgress[p].style.backgroundColor = "#FFFFFF00";
+  }
+};
+
 const scorePhrase1 = () => {
   const scorePercent = Math.round((100 * score) / men1.length);
 
@@ -184,16 +176,16 @@ const scorePhrase1 = () => {
     scorePercent == 100
       ? "Well done!"
       : scorePercent >= 90
-        ? "Excellent!"
-        : scorePercent >= 51
-          ? "Nice!"
-          : scorePercent >= 50
-            ? "Good!"
-            : scorePercent >= 30
-              ? "Okay!"
-              : scorePercent >= 15
-                ? "Don't give up!"
-                : "Don't give up!";
+      ? "Excellent!"
+      : scorePercent >= 51
+      ? "Nice!"
+      : scorePercent >= 50
+      ? "Good!"
+      : scorePercent >= 30
+      ? "Okay!"
+      : scorePercent >= 15
+      ? "Don't give up!"
+      : "Don't give up!";
 
   const finalScorePhrase1Div = document.getElementById("final-score__phrase-1");
   finalScorePhrase1Div.innerHTML = fsp1;
@@ -206,16 +198,16 @@ const scoreStarAndPercentage = () => {
     scorePercent == 100
       ? "img/three-stars.png"
       : scorePercent >= 90
-        ? "img/two-and-a-half-stars.png"
-        : scorePercent >= 70
-          ? "img/two-stars.png"
-          : scorePercent >= 50
-            ? "img/one-and-a-half-star.png"
-            : scorePercent >= 30
-              ? "img/one-star.png"
-              : scorePercent >= 15
-                ? "img/one-half-star.png"
-                : "img/zero-star.png";
+      ? "img/two-and-a-half-stars.png"
+      : scorePercent >= 70
+      ? "img/two-stars.png"
+      : scorePercent >= 50
+      ? "img/one-and-a-half-star.png"
+      : scorePercent >= 30
+      ? "img/one-star.png"
+      : scorePercent >= 15
+      ? "img/one-half-star.png"
+      : "img/zero-star.png";
 
   const finalScoreImg = document.getElementById("final-score__img");
   const imgSrc = document.createAttribute("src");
@@ -235,14 +227,14 @@ const scorePhrase2 = () => {
     scorePercent == 100
       ? "You got all the questions right!"
       : scorePercent >= 90
-        ? "You almost perfected this level!"
-        : scorePercent >= 51
-          ? "Keep it up!"
-          : scorePercent == 50
-            ? "You got half the questions right!"
-            : scorePercent >= 30
-              ? "That's okay. Play again and crush this level!"
-              : "Play again and crush this level!";
+      ? "You almost perfected this level!"
+      : scorePercent >= 51
+      ? "Keep it up!"
+      : scorePercent == 50
+      ? "You got half the questions right!"
+      : scorePercent >= 30
+      ? "That's okay. Play again and crush this level!"
+      : "Play again and crush this level!";
 
   const scorePhrase2 = document.getElementById("final-score__phrase-2");
   scorePhrase2.innerHTML = fsp2;
@@ -254,14 +246,6 @@ const finalScore = () => {
   scorePhrase1();
   scorePhrase2();
 };
-
-// // STARTING CODE FOR SHOWING ALL LEVELS
-// const showAllLevels = ['-------------------', 'men1', 'women1', 'men2', 'kings1', 'men3', 'rivers', 'rivers', '-------------------'];
-// showAllLevels.forEach(function (levelCategories, levelNumber) {
-//   const levelString = "level ";
-//   const showEachLevel = levelString + levelNumber + " - " + levelCategories;
-//   console.log(showEachLevel);
-// });
 
 // for (let c = 0; c < arrayLength; c++) {
 // const button = document.createElement("button");

@@ -24,7 +24,7 @@ document.addEventListener("click", (event) => {
   } else if (event.target.classList.contains("query__choice")) {
     highlightSelectedChoice(event);
   } else if (event.target.matches("#query__check-answer-btn")) {
-    checkAnswer();
+    checkAnswer(event);
   } else if (event.target.matches("#query__menu-btns__levels")) {
     showLevelsModal();
   } else if (event.target.matches("#query__menu-btns__retry")) {
@@ -32,7 +32,7 @@ document.addEventListener("click", (event) => {
   } else if (event.target.matches("#query__menu-btns__quit")) {
     showQuitQueryModal();
   } else if (event.target.matches("#retry-query__yes")) {
-    confirmRetryQuery();
+    restartQuery();
   } else {
     closeModal();
     console.log(
