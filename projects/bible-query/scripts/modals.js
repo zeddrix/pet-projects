@@ -1,11 +1,11 @@
-const resetGameModal = document.getElementById("reset-game-modal");
-const friendsModal = document.getElementById("friends-modal");
-const quitModal = document.getElementById("quit-modal");
-const levelsModal = document.getElementById("levels-modal");
-const clueModal = document.getElementById("clue-modal");
-const retryQueryModal = document.getElementById("retry-query-modal");
-const quitQueryModal = document.getElementById("quit-query-modal");
-const backdrop = document.getElementById("backdrop");
+const resetGameModal = document.querySelector("#reset-game-modal");
+const friendsModal = document.querySelector("#friends-modal");
+const quitModal = document.querySelector("#quit-modal");
+const levelsModal = document.querySelector("#levels-modal");
+const clueModal = document.querySelector("#clue-modal");
+const retryQueryModal = document.querySelector("#retry-query-modal");
+const quitQueryModal = document.querySelector("#quit-query-modal");
+const backdrop = document.querySelector("#backdrop");
 
 const showResetGameModal = () => {
   resetGameModal.style.display = "block";

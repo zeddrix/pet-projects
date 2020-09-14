@@ -27,9 +27,9 @@ const startQuery = () => {
 };
 
 const renderRandomQuestions = () => {
-  const questionDiv = document.getElementById("query__question");
-  const clueSourceDiv = document.getElementById("clue__source");
-  const clueSourceContentDiv = document.getElementById("clue__source-content");
+  const questionDiv = document.querySelector("#query__question");
+  const clueSourceDiv = document.querySelector("#clue__source");
+  const clueSourceContentDiv = document.querySelector("#clue__source-content");
 
   let RQ = men1; // RQ = randomizedQuestions
   for (i = RQ.length - 1; i > 0; i--) {
@@ -52,10 +52,10 @@ const renderRandomQuestions = () => {
       RC[i] = RC[j];
       RC[j] = k;
     }
-    const A = document.getElementById("choice-A");
-    const B = document.getElementById("choice-B");
-    const C = document.getElementById("choice-C");
-    const D = document.getElementById("choice-D");
+    const A = document.querySelector("#choice-A");
+    const B = document.querySelector("#choice-B");
+    const C = document.querySelector("#choice-C");
+    const D = document.querySelector("#choice-D");
     A.innerHTML = RC[0];
     B.innerHTML = RC[1];
     C.innerHTML = RC[2];
@@ -66,7 +66,7 @@ const renderRandomQuestions = () => {
 
 const lastQuestion = men1.length - 1;
 const renderProgress = () => {
-  const queryProgress = document.getElementById("query__progress");
+  const queryProgress = document.querySelector("#query__progress");
   for (qIndex; qIndex <= lastQuestion; qIndex++) {
     queryProgress.innerHTML += `<div class="query__all-progress" id="${qIndex}"></div>`;
   }
@@ -95,8 +95,8 @@ const highlightCorrectAnswer = () => {
 // highlightCorrectAnswer(); NO HIGHLIGHT!
 
 const renderCounter = () => {
-  const timeGauge = document.getElementById("query__time");
-  const queryCounter = document.getElementById("query__counter");
+  const timeGauge = document.querySelector("#query__time");
+  const queryCounter = document.querySelector("#query__counter");
   const questionTime = 10;
   let gaugeWidth = 98;
   const gaugeUnit = gaugeWidth / questionTime;
@@ -202,7 +202,7 @@ const scorePhrase1 = () => {
       ? "Don't give up!"
       : "Don't give up!";
 
-  const finalScorePhrase1Div = document.getElementById("final-score__phrase-1");
+  const finalScorePhrase1Div = document.querySelector("#final-score__phrase-1");
   finalScorePhrase1Div.innerHTML = fsp1;
 };
 
@@ -224,13 +224,13 @@ const scoreStarAndPercentage = () => {
       ? "img/one-half-star.png"
       : "img/zero-star.png";
 
-  const finalScoreImg = document.getElementById("final-score__img");
+  const finalScoreImg = document.querySelector("#final-score__img");
   const imgSrc = document.createAttribute("src");
   imgSrc.value = img;
   finalScoreImg.setAttributeNode(imgSrc);
 
-  const finalScorePercentage = document.getElementById(
-    "final-score__percentage"
+  const finalScorePercentage = document.querySelector(
+    "#final-score__percentage"
   );
   finalScorePercentage.innerHTML = `${scorePercent}%`;
 };
@@ -251,7 +251,7 @@ const scorePhrase2 = () => {
       ? "That's okay. Play again and crush this level!"
       : "Play again and crush this level!";
 
-  const scorePhrase2 = document.getElementById("final-score__phrase-2");
+  const scorePhrase2 = document.querySelector("#final-score__phrase-2");
   scorePhrase2.innerHTML = fsp2;
 };
 const finalScore = () => {

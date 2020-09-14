@@ -1,10 +1,10 @@
-const homepageBlock = document.getElementById("homepage__block");
-const levelsBlock = document.getElementById("levels__block");
-const finalScoreBlock = document.getElementById("final-score");
-const settingsBlock = document.getElementById("settings__block");
-const rulesBlock = document.getElementById("rules__block");
-const aboutBlock = document.getElementById("about__block");
-const queryBlock = document.getElementById("query");
+const homepageBlock = document.querySelector("#homepage__block");
+const levelsBlock = document.querySelector("#levels__block");
+const finalScoreBlock = document.querySelector("#final-score");
+const settingsBlock = document.querySelector("#settings__block");
+const rulesBlock = document.querySelector("#rules__block");
+const aboutBlock = document.querySelector("#about__block");
+const queryBlock = document.querySelector("#query");
 
 const homepage = () => {
   homepageBlock.style.display = "block";
