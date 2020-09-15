@@ -26,42 +26,51 @@ const startQuery = () => {
   // Timer = setInterval(renderCounter, 1000);  NO TIMER!
 };
 
+let RQ = men1; // RQ = randomizedQuestions
+for (i = RQ.length - 1; i > 0; i--) {
+  j = Math.floor(Math.random() * i);
+  k = RQ[i];
+  RQ[i] = RQ[j];
+  RQ[j] = k;
+}
+
+let q;
+let RC;
+
+const randomizeChoices = () => {
+  RC = q.choices; // RC = randomizedChoices
+  let i, j, k;
+  for (i = RC.length - 1; i > 0; i--) {
+    j = Math.floor(Math.random() * i);
+    k = RC[i];
+    RC[i] = RC[j];
+    RC[j] = k;
+  }
+};
+
 const renderRandomQuestions = () => {
   const questionDiv = document.querySelector("#query__question");
   const clueSourceDiv = document.querySelector("#clue__source");
   const clueSourceContentDiv = document.querySelector("#clue__source-content");
 
-  let RQ = men1; // RQ = randomizedQuestions
-  for (i = RQ.length - 1; i > 0; i--) {
-    j = Math.floor(Math.random() * i);
-    k = RQ[i];
-    RQ[i] = RQ[j];
-    RQ[j] = k;
-  }
-  let q = RQ[currentQuestion];
+  q = RQ[currentQuestion];
   questionDiv.innerHTML = q.question;
   clueSourceDiv.innerHTML = q.clueSource;
   clueSourceContentDiv.innerHTML = q.clueSourceContent;
 
-  let RC = q.choices; // RC = randomizedChoices
-  const renderRandomChoices = () => {
-    let i, j, k;
-    for (i = RC.length - 1; i > 0; i--) {
-      j = Math.floor(Math.random() * i);
-      k = RC[i];
-      RC[i] = RC[j];
-      RC[j] = k;
-    }
-    const A = document.querySelector("#choice-A");
-    const B = document.querySelector("#choice-B");
-    const C = document.querySelector("#choice-C");
-    const D = document.querySelector("#choice-D");
-    A.innerHTML = RC[0];
-    B.innerHTML = RC[1];
-    C.innerHTML = RC[2];
-    D.innerHTML = RC[3];
-  };
   renderRandomChoices();
+};
+
+const renderRandomChoices = () => {
+  randomizeChoices();
+  const A = document.querySelector("#choice-A");
+  const B = document.querySelector("#choice-B");
+  const C = document.querySelector("#choice-C");
+  const D = document.querySelector("#choice-D");
+  A.innerHTML = RC[0];
+  B.innerHTML = RC[1];
+  C.innerHTML = RC[2];
+  D.innerHTML = RC[3];
 };
 
 const lastQuestion = men1.length - 1;
@@ -171,6 +180,7 @@ const removeHighlightOnSelectedChoice = () => {
 };
 
 const restartQuery = () => {
+  // startQuery();
   renderRandomQuestions();
   closeModal();
   currentQuestion = 0;
