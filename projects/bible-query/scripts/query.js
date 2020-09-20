@@ -26,6 +26,20 @@ const startQuery = () => {
   renderProgress();
   renderCounter();
   // Timer = setInterval(renderCounter, 1000);  NO TIMER!
+  restartQuery();
+};
+
+const restartQuery = () => {
+  currentQuestion = 0;
+  closeModal();
+  q = RQ[0];
+  count = 0;
+  pIndex = 0;
+  score = 0;
+  const allProgress = document.querySelectorAll(".query__all-progress");
+  for (let p = 0; p < allProgress.length; p++) {
+    allProgress[p].style.backgroundColor = "#FFFFFF00";
+  }
 };
 
 let RQ; // RQ = randomizedQuestions
@@ -51,6 +65,7 @@ const renderRandomQuestions = () => {
   clueSourceContentDiv.innerHTML = q.clueSourceContent;
   
   renderRandomChoices();
+  console.log(RQ);
 };
 
 let RC;
@@ -78,11 +93,13 @@ const renderRandomChoices = () => {
 };
 
 const lastQuestion = men1.length - 1;
+console.log("LASTQUESTION VAR VALUE: ", lastQuestion);
 const renderProgress = () => {
   const queryProgress = document.querySelector("#query__progress");
   for (pIndex; pIndex <= lastQuestion; pIndex++) {
     queryProgress.innerHTML += `<div class="query__all-progress" id="${pIndex}"></div>`;
   }
+  console.log("PINDEX", pIndex);
 };
 
 const renderCounter = () => {
@@ -182,20 +199,6 @@ const answerIsWrong = () => {
 //   });
 // };
 // highlightCorrectAnswer();
-
-const restartQuery = () => {
-  currentQuestion = 0;
-  startQuery();
-  closeModal();
-  q = RQ[0];
-  count = 0;
-  pIndex = 0;
-  score = 0;
-  const allProgress = document.querySelectorAll(".query__all-progress");
-  for (let p = 0; p < allProgress.length; p++) {
-    allProgress[p].style.backgroundColor = "#FFFFFF00";
-  }
-};
 
 const scorePhrase1 = () => {
   const scorePercent = Math.round((100 * score) / men1.length);

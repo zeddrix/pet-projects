@@ -41,7 +41,7 @@
           <h1 class="page__heading">SELECT A LEVEL</h1>
           <h3 id="stars">Stars: 0</h3>
           <div class="levels__number-container"> <!--Attempt to show all levels in this container. UNDONE-->
-            <div class="levels__number">1</div>
+            <div class="levels__number start-query">1</div>
           </div>
           <div class="menu-btns">
             <img src="img/back-sm-btn.jpg" class="go-to-homepage menu-btn" />
@@ -241,14 +241,14 @@
             <img
               id="query__menu-btns__retry"
               src="img/retry-sm-btn.jpg"
-              class="menu-btn restart-query"
+              class="menu-btn"
             />
-            <!-- <img
+            <img
               id="query__menu-btns__quit"
               src="img/quit-sm-btn.jpg"
               class="menu-btn"
             />
-          </div> -->
+          <!-- </div> -->
           <button id="query__check-answer-btn" disabled>Check</button>
         </div>
         <!-- After the query -->
@@ -259,9 +259,9 @@
           <p id="final-score__phrase-2"></p>
           <div class="menu-btns">
             <img class="levels menu-btn" src="img/levels-sm-btn.jpg" />
-            <img class="menu-btn restart-query" src="img/play-again-sm-btn.jpg" />
+            <img class="menu-btn start-query" src="img/play-again-sm-btn.jpg" />
             <img class="menu-btn" src="img/next-level-sm-btn.jpg" />
-            <img class="go-to-homepage menu-btn" src="img/quit-sm-btn.jpg" />
+            <img class="go-to-homepage menu-btn start-query" src="img/quit-sm-btn.jpg" />
           </div>
         </div>
         <!-- ----------------------------MODALS---------------------------- -->
@@ -317,7 +317,7 @@
               you want to go to the levels section?
             </p>
             <div class="modal__btns">
-              <img src="img/yes-sm-btn.jpg" class="levels modal__btn" />
+              <img src="img/yes-sm-btn.jpg" class="levels modal__btn start-query" />
               <img src="img/no-sm-btn.jpg" class="modal_close modal__btn" />
             </div>
           </div>
@@ -332,7 +332,7 @@
               <img
                 src="img/yes-sm-btn.jpg"
                 id="retry-query__yes"
-                class="modal__btn"
+                class="modal__btn start-query"
               />
               <img src="img/no-sm-btn.jpg" class="modal_close modal__btn" />
             </div>
@@ -345,7 +345,7 @@
               you want to quit and go to the homepage?
             </p>
             <div class="modal__btns">
-              <img src="img/yes-sm-btn.jpg" class="go-to-homepage modal__btn" />
+              <img src="img/yes-sm-btn.jpg" class="go-to-homepage modal__btn start-query" />
               <img src="img/no-sm-btn.jpg" class="modal_close modal__btn" />
             </div>
           </div>

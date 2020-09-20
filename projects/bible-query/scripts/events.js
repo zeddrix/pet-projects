@@ -15,7 +15,7 @@ document.addEventListener("click", (event) => {
     showFriendsModal();
   } else if (event.target.matches("#main-btn__quit")) {
     showQuitModal();
-  } else if (event.target.matches(".levels__number")) {
+  } else if (event.target.matches(".start-query")) {
     startQuery();
   } else if (event.target.matches("#reset-game__btn")) {
     showResetGameModal();
@@ -31,14 +31,19 @@ document.addEventListener("click", (event) => {
     showRetryQueryModal();
   } else if (event.target.matches("#query__menu-btns__quit")) {
     showQuitQueryModal();
-  } else if (event.target.matches("#retry-query__yes")) {
-    restartQuery();
-  } else if (event.target.matches(".restart-query")) {
-    restartQuery();
   } else {
     closeModal();
     console.log(
       "You haven't clicked on any button. You're just clicking everywhere."
     );
   }
+});
+
+//TEMPORARY EVENTLISTENER
+document.addEventListener("keypress", (event) => {
+  if (event.keyCode === 13) {
+    checkAnswer();
+  }
+  //PROBLEM
+  //checks answer even if the check btn is disabled
 });
