@@ -1,7 +1,7 @@
 let currentQuestion = 0;
 let count = 0;
 let Timer;
-let qIndex = 0;
+let pIndex = 0;
 let score = 0;
 
 // --------Attempt to show all levels. UNDONE--------
@@ -20,23 +20,40 @@ let score = 0;
 
 const startQuery = () => {
   query();
+  randomizeQuestions();
   renderRandomQuestions();
+  removeHighlightOnSelectedChoice();
   renderProgress();
   renderCounter();
   // Timer = setInterval(renderCounter, 1000);  NO TIMER!
 };
 
-let RQ = men1; // RQ = randomizedQuestions
-for (i = RQ.length - 1; i > 0; i--) {
-  j = Math.floor(Math.random() * i);
-  k = RQ[i];
-  RQ[i] = RQ[j];
-  RQ[j] = k;
-}
+let RQ; // RQ = randomizedQuestions
+const randomizeQuestions = () => {
+  RQ = men1;
+  for (i = RQ.length - 1; i > 0; i--) {
+    j = Math.floor(Math.random() * i);
+    k = RQ[i];
+    RQ[i] = RQ[j];
+    RQ[j] = k;
+  }
+};
 
 let q;
-let RC;
+const renderRandomQuestions = () => {
+  const questionDiv = document.querySelector("#query__question");
+  const clueSourceDiv = document.querySelector("#clue__source");
+  const clueSourceContentDiv = document.querySelector("#clue__source-content");
+  
+  q = RQ[currentQuestion];
+  questionDiv.innerHTML = q.question;
+  clueSourceDiv.innerHTML = q.clueSource;
+  clueSourceContentDiv.innerHTML = q.clueSourceContent;
+  
+  renderRandomChoices();
+};
 
+let RC;
 const randomizeChoices = () => {
   RC = q.choices; // RC = randomizedChoices
   let i, j, k;
@@ -46,19 +63,6 @@ const randomizeChoices = () => {
     RC[i] = RC[j];
     RC[j] = k;
   }
-};
-
-const renderRandomQuestions = () => {
-  const questionDiv = document.querySelector("#query__question");
-  const clueSourceDiv = document.querySelector("#clue__source");
-  const clueSourceContentDiv = document.querySelector("#clue__source-content");
-
-  q = RQ[currentQuestion];
-  questionDiv.innerHTML = q.question;
-  clueSourceDiv.innerHTML = q.clueSource;
-  clueSourceContentDiv.innerHTML = q.clueSourceContent;
-
-  renderRandomChoices();
 };
 
 const renderRandomChoices = () => {
@@ -76,32 +80,10 @@ const renderRandomChoices = () => {
 const lastQuestion = men1.length - 1;
 const renderProgress = () => {
   const queryProgress = document.querySelector("#query__progress");
-  for (qIndex; qIndex <= lastQuestion; qIndex++) {
-    queryProgress.innerHTML += `<div class="query__all-progress" id="${qIndex}"></div>`;
+  for (pIndex; pIndex <= lastQuestion; pIndex++) {
+    queryProgress.innerHTML += `<div class="query__all-progress" id="${pIndex}"></div>`;
   }
 };
-
-const answerIsCorrect = () => {
-  document.getElementById(currentQuestion).style.backgroundColor = "green";
-};
-
-const answerIsWrong = () => {
-  document.getElementById(currentQuestion).style.backgroundColor = "red";
-};
-
-const highlightCorrectAnswer = () => {
-  document.querySelectorAll(".query__choice").forEach((p) => {
-    p.addEventListener("click", () => {
-      p.classList.add("active");
-
-      setTimeout(() => {
-        p.classList.remove("active");
-      }, 400 * 3);
-      // 400 * 3 = animation-duration * animation-iteration-count
-    });
-  });
-};
-// highlightCorrectAnswer(); NO HIGHLIGHT!
 
 const renderCounter = () => {
   const timeGauge = document.querySelector("#query__time");
@@ -145,7 +127,7 @@ const highlightSelectedChoice = (event) => {
 const checkAnswer = () => {
   console.log("CORRECT ANSWER:", men1[currentQuestion].answer);
   console.log("USER'S CHOICE:", selectedChoiceTextContent);
-  if (selectedChoiceTextContent == men1[currentQuestion].answer) {
+  if (selectedChoiceTextContent == RQ[currentQuestion].answer) {
     score++;
     answerIsCorrect();
   } else {
@@ -179,14 +161,35 @@ const removeHighlightOnSelectedChoice = () => {
   // });
 };
 
+const answerIsCorrect = () => {
+  document.getElementById(currentQuestion).style.backgroundColor = "green";
+};
+
+const answerIsWrong = () => {
+  document.getElementById(currentQuestion).style.backgroundColor = "red";
+};
+
+// const highlightCorrectAnswer = () => {
+//   document.querySelectorAll(".query__choice").forEach((p) => {
+//     p.addEventListener("click", () => {
+//       p.classList.add("active");
+
+//       setTimeout(() => {
+//         p.classList.remove("active");
+//       }, 400 * 3);
+//       400 * 3 = animation-duration * animation-iteration-count
+//     });
+//   });
+// };
+// highlightCorrectAnswer();
+
 const restartQuery = () => {
-  // startQuery();
-  renderRandomQuestions();
-  closeModal();
   currentQuestion = 0;
-  q = men1[0];
+  startQuery();
+  closeModal();
+  q = RQ[0];
   count = 0;
-  qIndex = 0;
+  pIndex = 0;
   score = 0;
   const allProgress = document.querySelectorAll(".query__all-progress");
   for (let p = 0; p < allProgress.length; p++) {

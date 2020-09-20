@@ -33,6 +33,8 @@ document.addEventListener("click", (event) => {
     showQuitQueryModal();
   } else if (event.target.matches("#retry-query__yes")) {
     restartQuery();
+  } else if (event.target.matches(".restart-query")) {
+    restartQuery();
   } else {
     closeModal();
     console.log(
