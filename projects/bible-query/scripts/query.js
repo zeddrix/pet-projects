@@ -36,9 +36,9 @@ const restartQuery = () => {
   count = 0;
   pIndex = 0;
   score = 0;
-  const allProgress = document.querySelectorAll(".query__all-progress");
-  for (let p = 0; p < allProgress.length; p++) {
-    allProgress[p].style.backgroundColor = "#FFFFFF00";
+  const progressCircle = document.querySelectorAll(".progress-circle");
+  for (let p = 0; p < progressCircle.length; p++) {
+    progressCircle[p].style.background = "#FFFFFF00";
   }
 };
 
@@ -58,14 +58,14 @@ const renderRandomQuestions = () => {
   const questionDiv = document.querySelector("#query__question");
   const clueSourceDiv = document.querySelector("#clue__source");
   const clueSourceContentDiv = document.querySelector("#clue__source-content");
-  
+
   q = RQ[currentQuestion];
   questionDiv.innerHTML = q.question;
   clueSourceDiv.innerHTML = q.clueSource;
   clueSourceContentDiv.innerHTML = q.clueSourceContent;
-  
+
   renderRandomChoices();
-  console.log(RQ);
+  // console.log(RQ);
 };
 
 let RC;
@@ -93,13 +93,15 @@ const renderRandomChoices = () => {
 };
 
 const lastQuestion = men1.length - 1;
-console.log("LASTQUESTION VAR VALUE: ", lastQuestion);
+
 const renderProgress = () => {
-  const queryProgress = document.querySelector("#query__progress");
-  for (pIndex; pIndex <= lastQuestion; pIndex++) {
-    queryProgress.innerHTML += `<div class="query__all-progress" id="${pIndex}"></div>`;
+  const queryProgressContainer = document.querySelector("#query__progress-container");
+
+  if (queryProgressContainer.innerHTML == "") {
+    for (pIndex; pIndex <= lastQuestion; pIndex++) {
+      queryProgressContainer.innerHTML += `<div class="progress-circle" id="${pIndex}"></div>`;
+    }
   }
-  console.log("PINDEX", pIndex);
 };
 
 const renderCounter = () => {
@@ -135,15 +137,15 @@ const highlightSelectedChoice = (event) => {
   removeHighlightOnSelectedChoice();
 
   selectedChoice.classList.add("selected-choice");
-  console.log("SELECTED CHOICE:", selectedChoice);
+  // console.log("SELECTED CHOICE:", selectedChoice);
   selectedChoiceTextContent = selectedChoice.textContent;
 
   checkButton.removeAttribute("disabled");
 };
 
 const checkAnswer = () => {
-  console.log("CORRECT ANSWER:", men1[currentQuestion].answer);
-  console.log("USER'S CHOICE:", selectedChoiceTextContent);
+  // console.log("CORRECT ANSWER:", men1[currentQuestion].answer);
+  // console.log("USER'S CHOICE:", selectedChoiceTextContent);
   if (selectedChoiceTextContent == RQ[currentQuestion].answer) {
     score++;
     answerIsCorrect();
@@ -207,16 +209,16 @@ const scorePhrase1 = () => {
     scorePercent == 100
       ? "Well done!"
       : scorePercent >= 90
-      ? "Excellent!"
-      : scorePercent >= 51
-      ? "Nice!"
-      : scorePercent >= 50
-      ? "Good!"
-      : scorePercent >= 30
-      ? "Okay!"
-      : scorePercent >= 15
-      ? "Don't give up!"
-      : "Don't give up!";
+        ? "Excellent!"
+        : scorePercent >= 51
+          ? "Nice!"
+          : scorePercent >= 50
+            ? "Good!"
+            : scorePercent >= 30
+              ? "Okay!"
+              : scorePercent >= 15
+                ? "Don't give up!"
+                : "Don't give up!";
 
   const finalScorePhrase1Div = document.querySelector("#final-score__phrase-1");
   finalScorePhrase1Div.innerHTML = fsp1;
@@ -229,16 +231,16 @@ const scoreStarAndPercentage = () => {
     scorePercent == 100
       ? "img/three-stars.png"
       : scorePercent >= 90
-      ? "img/two-and-a-half-stars.png"
-      : scorePercent >= 70
-      ? "img/two-stars.png"
-      : scorePercent >= 50
-      ? "img/one-and-a-half-star.png"
-      : scorePercent >= 30
-      ? "img/one-star.png"
-      : scorePercent >= 15
-      ? "img/one-half-star.png"
-      : "img/zero-star.png";
+        ? "img/two-and-a-half-stars.png"
+        : scorePercent >= 70
+          ? "img/two-stars.png"
+          : scorePercent >= 50
+            ? "img/one-and-a-half-star.png"
+            : scorePercent >= 30
+              ? "img/one-star.png"
+              : scorePercent >= 15
+                ? "img/one-half-star.png"
+                : "img/zero-star.png";
 
   const finalScoreImg = document.querySelector("#final-score__img");
   const imgSrc = document.createAttribute("src");
@@ -258,14 +260,14 @@ const scorePhrase2 = () => {
     scorePercent == 100
       ? "You got all the questions right!"
       : scorePercent >= 90
-      ? "You almost perfected this level!"
-      : scorePercent >= 51
-      ? "Keep it up!"
-      : scorePercent == 50
-      ? "You got half the questions right!"
-      : scorePercent >= 30
-      ? "That's okay. Play again and crush this level!"
-      : "Play again and crush this level!";
+        ? "You almost perfected this level!"
+        : scorePercent >= 51
+          ? "Keep it up!"
+          : scorePercent == 50
+            ? "You got half the questions right!"
+            : scorePercent >= 30
+              ? "That's okay. Play again and crush this level!"
+              : "Play again and crush this level!";
 
   const scorePhrase2 = document.querySelector("#final-score__phrase-2");
   scorePhrase2.innerHTML = fsp2;
