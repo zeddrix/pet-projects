@@ -131,8 +131,8 @@ const renderCounter = () => {
 let selectedChoiceTextContent;
 const checkButton = document.querySelector("#query__check-answer-btn");
 
-const highlightSelectedChoice = (event) => {
-  const selectedChoice = event.target;
+const highlightSelectedChoice = (e) => {
+  const selectedChoice = e.target;
 
   removeHighlightOnSelectedChoice();
 

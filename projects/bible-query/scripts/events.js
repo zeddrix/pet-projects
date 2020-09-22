@@ -1,35 +1,35 @@
-document.addEventListener("click", (event) => {
-  if (event.target.matches(".levels")) {
+document.addEventListener("click", (e) => {
+  if (e.target.matches(".levels")) {
     levels();
-  } else if (event.target.matches(".settings")) {
+  } else if (e.target.matches(".settings")) {
     settings();
-  } else if (event.target.matches(".modal_close")) {
+  } else if (e.target.matches(".modal_close")) {
     closeModal();
-  } else if (event.target.matches(".go-to-homepage")) {
+  } else if (e.target.matches(".go-to-homepage")) {
     homepage();
-  } else if (event.target.matches(".rules")) {
+  } else if (e.target.matches(".rules")) {
     rules();
-  } else if (event.target.matches("#main-btn__about")) {
+  } else if (e.target.matches("#main-btn__about")) {
     about();
-  } else if (event.target.matches("#main-btn__friends")) {
+  } else if (e.target.matches("#main-btn__friends")) {
     showFriendsModal();
-  } else if (event.target.matches("#main-btn__quit")) {
+  } else if (e.target.matches("#main-btn__quit")) {
     showQuitModal();
-  } else if (event.target.matches(".start-query")) {
+  } else if (e.target.matches(".start-query")) {
     startQuery();
-  } else if (event.target.matches("#reset-game__btn")) {
+  } else if (e.target.matches("#reset-game__btn")) {
     showResetGameModal();
-  } else if (event.target.matches("#query__clue-btn")) {
+  } else if (e.target.matches("#query__clue-btn")) {
     showClueModal();
-  } else if (event.target.classList.contains("query__choice")) {
-    highlightSelectedChoice(event);
-  } else if (event.target.matches("#query__check-answer-btn")) {
-    checkAnswer(event);
-  } else if (event.target.matches("#query__menu-btns__levels")) {
+  } else if (e.target.classList.contains("query__choice")) {
+    highlightSelectedChoice(e);
+  } else if (e.target.matches("#query__check-answer-btn")) {
+    checkAnswer(e);
+  } else if (e.target.matches("#query__menu-btns__levels")) {
     showLevelsModal();
-  } else if (event.target.matches("#query__menu-btns__retry")) {
+  } else if (e.target.matches("#query__menu-btns__retry")) {
     showRetryQueryModal();
-  } else if (event.target.matches("#query__menu-btns__quit")) {
+  } else if (e.target.matches("#query__menu-btns__quit")) {
     showQuitQueryModal();
   } else {
     closeModal();
@@ -40,8 +40,8 @@ document.addEventListener("click", (event) => {
 });
 
 //TEMPORARY EVENTLISTENER
-document.addEventListener("keypress", (event) => {
-  if (event.keyCode === 13) {
+document.addEventListener("keypress", (e) => {
+  if (e.keyCode === 13) {
     checkAnswer();
   }
   //PROBLEM
