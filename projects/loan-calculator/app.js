@@ -1,8 +1,14 @@
+const loading = document.querySelector("#loading");
+const results = document.querySelector("#results");
+
 const clearError = () => {
   document.querySelector(".alert").remove();
 };
 
 const showError = (error) => {
+  loading.style.display = "none";
+  results.style.display = "none";
+
   const errorDiv = document.createElement("div");
   const card = document.querySelector(".card");
   const heading = document.querySelector(".heading");
@@ -33,13 +39,20 @@ const calculateResults = (e) => {
     monthlyPayment.value = monthly.toFixed(2);
     totalPayment.value = (monthly * calculatedPayments).toFixed(2);
     totalInterest.value = (monthly * calculatedPayments - principal).toFixed(2);
+
+    results.style.display = "block";
+    document.querySelector("#loading").style.display = "none";
   } else {
     showError("Please check your numbers");
   }
-
-  e.preventDefault();
 };
 
-document
-  .querySelector("#loan-form")
-  .addEventListener("submit", calculateResults);
+const loanForm = document.querySelector("#loan-form");
+loanForm.addEventListener("submit", (e) => {
+  results.style.display = "none";
+  loading.style.display = "block";
+
+  setTimeout(calculateResults, 500);
+
+  e.preventDefault();
+});
