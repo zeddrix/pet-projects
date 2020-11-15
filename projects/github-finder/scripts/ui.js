@@ -13,16 +13,16 @@ class UI {
                <a href="${user.html_url}" target="_blank_" class="btn btn-primary btn-block mb-4">View Profile</a>
             </div>
             <div class="col-md-9">
-               <span class="badge badge-primary">Public Repos: ${user.public_repos}</span>
-               <span class="badge badge-secondary">Public Repos: ${user.public_gists}</span>
-               <span class="badge badge-success">Public Repos: ${user.followers}</span>
-               <span class="badge badge-info">Public Repos: ${user.following}</span>
+               <span class="badge badge-primary"><strong>Public Repos: </strong>${user.public_repos}</span>
+               <span class="badge badge-secondary"><strong>Public Gists: </strong>${user.public_gists}</span>
+               <span class="badge badge-success"><strong>Followers: </strong>${user.followers}</span>
+               <span class="badge badge-info"><strong>Following: </strong>${user.following}</span>
                <br><br>
                <ul class="list-group">
-                  <li class="list-group-item">Company: ${user.company}</li>
-                  <li class="list-group-item">Website/Blog: ${user.blog}</li>
-                  <li class="list-group-item">Location: ${user.location}</li>
-                  <li class="list-group-item">Member Since: ${user.created_at}</li>
+                  <li class="list-group-item"><strong>Company: </strong>${user.company}</li>
+                  <li class="list-group-item"><strong>Website/Blog: </strong><a href="${user.blog}" target="_blank_">${user.blog}</li></a>
+                  <li class="list-group-item"><strong>Location: </strong>${user.location}</li>
+                  <li class="list-group-item"><strong>Member Since: </strong>${user.created_at}</li>
                </ul>
             </div>
          </div>
@@ -45,7 +45,7 @@ class UI {
             <div class="col-md-6">
                <span class="badge badge-primary">Stars: ${repo.stargazers_count}</span>
                <span class="badge badge-secondary">Watchers: ${repo.watchers_count}</span>
-               <span class="badge badge-success">Forks: ${repo.forms_count}</span>
+               <span class="badge badge-success">Forks: ${repo.forks_count}</span>
             </div>
          </div>
       </div>
