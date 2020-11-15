@@ -6,6 +6,12 @@ const clearError = () => {
 };
 
 const showError = (error) => {
+  const currentAlert = document.querySelector(".alert");
+
+  if (currentAlert) {
+    currentAlert.remove();
+  }
+
   loading.style.display = "none";
   results.style.display = "none";
 
