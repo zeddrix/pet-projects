@@ -36,7 +36,7 @@ class UI {
 
     const div = document.createElement("div");
     div.className = className;
-    div.appendChild(document.createTextNode(message));
+    div.textContent = message;
     const container = document.querySelector("#posts-container");
     const posts = document.querySelector("#all-posts");
     container.insertBefore(div, posts);
@@ -62,6 +62,39 @@ class UI {
     this.titleInput.value = data.title;
     this.bodyInput.value = data.body;
     this.idInput.value = data.id;
+
+    this.changeFormState("edit");
+  }
+
+  clearIdInput() {
+    this.idInput.value = "";
+  }
+
+  changeFormState(type) {
+    if (type === "edit") {
+      this.postSubmit.textContent = "Update Post";
+      this.postSubmit.classList.remove("btn-primary");
+      this.postSubmit.classList.add("btn-warning");
+
+      const button = document.createElement("button");
+      button.className = "post-cancel btn btn-light btn-block";
+      button.textContent = "Cancel Edit";
+
+      const cardForm = document.querySelector(".card-form");
+      const formEnd = document.querySelector(".form-end");
+      cardForm.insertBefore(button, formEnd);
+      cardForm;
+    } else {
+      this.postSubmit.textContent = "Post It";
+      this.postSubmit.classList.remove("btn-warning");
+      this.postSubmit.classList.add("btn-primary");
+
+      if (document.querySelector(".post-cancel")) {
+        document.querySelector(".post-cancel").remove();
+      }
+      this.clearIdInput();
+      this.clearFields();
+    }
   }
 }
 

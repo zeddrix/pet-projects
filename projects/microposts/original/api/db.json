@@ -14,6 +14,16 @@
       "title": "Post One",
       "body": "This was supposed to be post one.",
       "id": 4
+    },
+    {
+      "title": "Post Four",
+      "body": "This is post four",
+      "id": 5
+    },
+    {
+      "title": "Yeah",
+      "body": "Yeah yeah yeah",
+      "id": 6
     }
   ]
 }

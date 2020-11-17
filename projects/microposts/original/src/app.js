@@ -23,19 +23,23 @@ const submitPost = () => {
   const title = document.querySelector("#title").value;
   const body = document.querySelector("#body").value;
 
-  const data = {
-    title,
-    body,
-  };
+  if (title === "" || body === "") {
+    ui.showAlert("Please fill in all fields", "alert alert-danger");
+  } else {
+    const data = {
+      title,
+      body,
+    };
 
-  http
-    .post("http://localhost:3000/posts", data)
-    .then((data) => {
-      ui.showAlert("Post added", "alert alert-success");
-      ui.clearFields();
-      getPosts();
-    })
-    .catch((err) => console.log(err));
+    http
+      .post("http://localhost:3000/posts", data)
+      .then((data) => {
+        ui.showAlert("Post added", "alert alert-success");
+        ui.clearFields();
+        getPosts();
+      })
+      .catch((err) => console.log(err));
+  }
 };
 
 const deletePost = (e) => {
@@ -74,7 +78,16 @@ const enableEdit = (e) => {
   e.preventDefault();
 };
 
+const cancelEdit = (e) => {
+  if (e.target.classList.contains("post-cancel")) {
+    ui.changeFormState("add");
+  }
+
+  e.preventDefault();
+};
+
 document.addEventListener("DOMContentLoaded", getPosts);
 document.querySelector(".post-submit").addEventListener("click", submitPost);
 document.querySelector("#all-posts").addEventListener("click", deletePost);
 document.querySelector("#all-posts").addEventListener("click", enableEdit);
+document.querySelector(".card-form").addEventListener("click", cancelEdit);
