@@ -30,6 +30,33 @@ class UI {
       this.allPosts.innerHTML = output;
     });
   }
+
+  showAlert(message, className) {
+    this.clearAlert();
+
+    const div = document.createElement("div");
+    div.className = className;
+    div.appendChild(document.createTextNode(message));
+    const container = document.querySelector("#posts-container");
+    const posts = document.querySelector("#all-posts");
+    container.insertBefore(div, posts);
+
+    setTimeout(() => {
+      this.clearAlert();
+    }, 3000);
+  }
+
+  clearAlert() {
+    const currentAlert = document.querySelector(".alert");
+    if (currentAlert) {
+      currentAlert.remove();
+    }
+  }
+
+  clearFields() {
+    this.titleInput.value = "";
+    this.bodyInput.value = "";
+  }
 }
 
 export const ui = new UI();
