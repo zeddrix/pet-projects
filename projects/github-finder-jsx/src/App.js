@@ -11,16 +11,16 @@ class App extends Component {
     loading: false,
   };
 
-  // NOTE: Remove this function if you want to have a clean initial page
-  async componentDidMount() {
-    this.setState({ loading: true });
+  // NOTE: Uncomment this function to see some users on initial page
+  // async componentDidMount() {
+  //   this.setState({ loading: true });
 
-    const res = await axios.get(
-      `https://api.github.com/users?client_id=${process.env.REACT_APP_GITHUB_CLIENT_ID}&client_secret=${process.env.REACT_APP_GITHUB_CLIENT_SECRET}`
-    );
+  //   const res = await axios.get(
+  //     `https://api.github.com/users?client_id=${process.env.REACT_APP_GITHUB_CLIENT_ID}&client_secret=${process.env.REACT_APP_GITHUB_CLIENT_SECRET}`
+  //   );
 
-    this.setState({ users: res.data, loading: false });
-  }
+  //   this.setState({ users: res.data, loading: false });
+  // }
 
   searchUsers = async (text) => {
     this.setState({ loading: true });
@@ -32,12 +32,18 @@ class App extends Component {
     console.log(text);
   };
 
+  clearUsers = () => this.setState({ users: [], loading: false });
+
   render() {
     return (
       <div className='App'>
         <Navbar />
         <div className='container'>
-          <Search searchUsers={this.searchUsers} />
+          <Search
+            searchUsers={this.searchUsers}
+            clearUsers={this.clearUsers}
+            showClear={this.state.users.length > 0 ? true : false}
+          />
           <Users loading={this.state.loading} users={this.state.users} />
         </div>
       </div>
