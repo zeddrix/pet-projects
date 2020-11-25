@@ -19,13 +19,7 @@ class App extends Component {
   };
 
   // NOTE: Uncomment this function to see some users on initial page
-  // async componentDidMount() {
-  //   this.setState({ loading: true });
-  //   const res = await axios.get(
-  //     `https://api.github.com/users?client_id=${process.env.REACT_APP_GITHUB_CLIENT_ID}&client_secret=${process.env.REACT_APP_GITHUB_CLIENT_SECRET}`
-  //   );
-  //   this.setState({ users: res.data, loading: false });
-  // }
+  // async componentDidMount(){this.setState({loading:!0});const res=await axios.get(`https://api.github.com/users?client_id=${process.env.REACT_APP_GITHUB_CLIENT_ID}&client_secret=${process.env.REACT_APP_GITHUB_CLIENT_SECRET}`);this.setState({users:res.data,loading:!1})}
 
   searchUsers = async (text) => {
     this.setState({ loading: true });
