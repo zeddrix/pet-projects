@@ -8,8 +8,6 @@ import {
   CLEAR_USERS,
   GET_USER,
   GET_REPOS,
-  SET_ALERT,
-  REMOVE_ALERT,
 } from '../types';
 
 const GithubState = (props) => {
