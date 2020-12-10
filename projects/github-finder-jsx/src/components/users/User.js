@@ -41,8 +41,8 @@ const User = ({ match }) => {
       {hireable ? (
         <i className='fas fa-check text-success' />
       ) : (
-        <i className='fas fa-times-circle text-danger' />
-      )}
+          <i className='fas fa-times-circle text-danger' />
+        )}
       <div className='card grid-2'>
         <div className='all-center'>
           <img
@@ -61,7 +61,7 @@ const User = ({ match }) => {
               <p>{bio}</p>
             </Fragment>
           )}
-          <a href={html_url} target='_blank' className='btn btn-dark my-1'>
+          <a href={html_url} target='_blank' rel="noreferrer" className='btn btn-dark my-1'>
             Visit GitHub Profile
           </a>
           <ul>
