@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 const slugify = require('slugify');
+const asyncHandler = require('../middleware/async');
 const geocoder = require('../utils/geocoder');
 
 const BootcampSchema = new mongoose.Schema(
@@ -129,6 +130,13 @@ BootcampSchema.pre('save', async function (next) {
 
 	// Do not save address in DB
 	this.address = undefined;
+	next();
+});
+
+// Cascade delete courses when a bootcamp is deleted
+BootcampSchema.pre('remove', async function (next) {
+	console.log(`Courses being removed from bootcamp ${this._id}`);
+	await this.model('Course').deleteMany({ bootcamp: this._id });
 	next();
 });
 
