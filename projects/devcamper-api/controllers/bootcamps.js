@@ -29,7 +29,7 @@ exports.getBootcamps = asyncHandler(
 		);
 
 		// Find resource
-		query = Bootcamp.find(JSON.parse(queryStr));
+		query = Bootcamp.find(JSON.parse(queryStr)).populate('courses');
 
 		// Select Fields
 		if (req.query.select) {
