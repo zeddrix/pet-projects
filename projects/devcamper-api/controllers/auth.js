@@ -5,7 +5,6 @@ const User = require('../models/User');
 // @desc      Register user
 // @route     POST /api/v1/auth/register
 // @access    Public
-
 exports.register = asyncHandler(async (req, res, next) => {
 	const { name, email, password, role } = req.body;
 
@@ -23,7 +22,6 @@ exports.register = asyncHandler(async (req, res, next) => {
 // @desc      Register user
 // @route     POST /api/v1/auth/login
 // @access    Public
-
 exports.login = asyncHandler(async (req, res, next) => {
 	const { email, password } = req.body;
 
@@ -70,3 +68,15 @@ const sendTokenResponse = (user, statusCode, res) => {
 		.cookie('token', token, options)
 		.json({ success: true, token });
 };
+
+// @desc      Get current logged in user
+// @route     POST /api/v1/auth/me
+// @access    Private
+exports.getMe = asyncHandler(async (req, res, next) => {
+	const user = await User.findById(req.user.id);
+
+	res.status(200).json({
+		success: true,
+		data: user,
+	});
+});
