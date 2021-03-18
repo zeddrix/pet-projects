@@ -22,4 +22,23 @@ npm run dev
 npm start
 ```
 
-- Version 1.0.0
+## Database Seeder
+
+To seed the database with users, bootcamps, courses and reviews with data from the "\_data" folder, run
+
+```
+# Destroy all data
+node seeder -d
+
+# Import all data
+node seeder -i
+```
+
+## Demo
+
+The API is live at [devcamper.io](https://devcamper.io)
+
+Extensive documentation with examples [here](https://documenter.getpostman.com/view/8923145/SVtVVTzd?version=latest)
+
+- Version: 1.0.0
+- Author: Zeddrix Fabian
