@@ -4,10 +4,10 @@ const {
 	login,
 	logout,
 	getMe,
-	forgotPassword,
-	resetPassword,
 	updateDetails,
 	updatePassword,
+	forgotPassword,
+	resetPassword,
 } = require('../controllers/auth');
 
 const router = express.Router();

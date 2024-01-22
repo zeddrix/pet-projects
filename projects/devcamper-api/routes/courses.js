@@ -1,7 +1,7 @@
 const express = require('express');
 const {
-	getCourses,
 	getCourse,
+	getCourses,
 	addCourse,
 	updateCourse,
 	deleteCourse,
@@ -24,7 +24,6 @@ router
 		getCourses
 	)
 	.post(protect, authorize('publisher', 'admin'), addCourse);
-
 router
 	.route('/:id')
 	.get(getCourse)

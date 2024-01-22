@@ -49,7 +49,7 @@ app.use(mongoSanitize());
 // Set security headers
 app.use(helmet());
 
-// Prevent XSS attacks
+// Provide XSS attacks
 app.use(xss());
 
 // Rate limiting
@@ -57,7 +57,6 @@ const limiter = rateLimit({
 	windowMs: 10 * 60 * 1000, // 10 mins
 	max: 100,
 });
-
 app.use(limiter);
 
 // Prevent http param pollution
@@ -78,18 +77,18 @@ app.use('/api/v1/reviews', reviews);
 
 app.use(errorHandler);
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 4000;
 
 const server = app.listen(
 	PORT,
 	console.log(
-		`Server running in ${process.env.NODE_ENV} mode on port ${PORT}`.blue.bold
+		`Server running in ${process.env.NODE_ENV} mode on port ${PORT}`.yellow.bold
 	)
 );
 
 // Handle unhandled promise rejections
 process.on('unhandledRejection', (err, promise) => {
 	console.log(`Error: ${err.message}`.red);
-	//Close server & exit process
+	// Close server & exit process
 	server.close(() => process.exit(1));
 });

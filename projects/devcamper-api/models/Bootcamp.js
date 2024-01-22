@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
 const slugify = require('slugify');
-const asyncHandler = require('../middleware/async');
 const geocoder = require('../utils/geocoder');
 
 const BootcampSchema = new mongoose.Schema(
@@ -16,7 +15,7 @@ const BootcampSchema = new mongoose.Schema(
 		description: {
 			type: String,
 			required: [true, 'Please add a description'],
-			maxlength: [500, 'Description can not be more than 500 characters'],
+			maxlength: [500, 'Description cannot be more than 500 characters'],
 		},
 		website: {
 			type: String,
@@ -115,7 +114,6 @@ const BootcampSchema = new mongoose.Schema(
 // Create bootcamp slug from the name
 BootcampSchema.pre('save', function (next) {
 	this.slug = slugify(this.name, { lower: true });
-	// console.log(`Slugify ran for ${this.name}. Slug: ${this.slug}`);
 	next();
 });
 
@@ -135,12 +133,14 @@ BootcampSchema.pre('save', async function (next) {
 
 	// Do not save address in DB
 	this.address = undefined;
+
 	next();
 });
 
 // Cascade delete courses when a bootcamp is deleted
 BootcampSchema.pre('remove', async function (next) {
 	console.log(`Courses being removed from bootcamp ${this._id}`);
+
 	await this.model('Course').deleteMany({ bootcamp: this._id });
 	next();
 });
@@ -150,7 +150,7 @@ BootcampSchema.virtual('courses', {
 	ref: 'Course',
 	localField: '_id',
 	foreignField: 'bootcamp',
-	justOne: false,
+	justOnce: false,
 });
 
 module.exports = mongoose.model('Bootcamp', BootcampSchema);

@@ -4,25 +4,27 @@ const advancedResults = (model, populate) => async (req, res, next) => {
 	// Copy req.query
 	const reqQuery = { ...req.query };
 
-	// Fields to exclude
+	// Field to exclude
 	const removeFields = ['select', 'sort', 'page', 'limit'];
 
 	// Loop over removeFields and delete them from reqQuery
 	removeFields.forEach((param) => delete reqQuery[param]);
 
+	console.log(reqQuery);
+
 	// Create query string
 	let queryStr = JSON.stringify(reqQuery);
 
-	// Create operators
+	// Create operators ($gt, $gte, etc)
 	queryStr = queryStr.replace(
 		/\b(gt|gte|lt|lte|in)\b/g,
 		(match) => `$${match}`
 	);
 
-	// Find resource
+	// Finding resource
 	query = model.find(JSON.parse(queryStr));
 
-	// Select Fields
+	// Select fields
 	if (req.query.select) {
 		const fields = req.query.select.split(',').join(' ');
 		query = query.select(fields);
@@ -49,7 +51,7 @@ const advancedResults = (model, populate) => async (req, res, next) => {
 		query = query.populate(populate);
 	}
 
-	// Execute query
+	// Executing query
 	const results = await query;
 
 	// Pagination result

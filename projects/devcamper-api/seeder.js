@@ -38,14 +38,14 @@ const reviews = JSON.parse(
 );
 
 // Import into DB
-// Command: node seeder -i
 const importData = async () => {
 	try {
 		await Bootcamp.create(bootcamps);
 		await Course.create(courses);
 		await User.create(users);
 		await Review.create(reviews);
-		console.log('Data imported...'.green.inverse);
+
+		console.log('Data Imported...'.green.inverse);
 		process.exit();
 	} catch (err) {
 		console.error(err);
@@ -53,14 +53,14 @@ const importData = async () => {
 };
 
 // Delete data
-// Command: node seeder -d
 const deleteData = async () => {
 	try {
 		await Bootcamp.deleteMany();
 		await Course.deleteMany();
 		await User.deleteMany();
 		await Review.deleteMany();
-		console.log('Data destroyed...'.red.inverse);
+
+		console.log('Data Destroyed...'.red.inverse);
 		process.exit();
 	} catch (err) {
 		console.error(err);
