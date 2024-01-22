@@ -58,7 +58,7 @@ def scorpion():
 WHAT DO YOU DO?
 
 * WALK on them.
-* RUN in them.
+* RUN from them.
 * Use the BOAT.""")
 
     scorpions = input(">>> ")
@@ -85,11 +85,11 @@ WHAT DO YOU DO?
 
 def where_boat():
     print("\n \n")
-    print("""Boat? What boat? Where was that boat?""")
+    print("""Boat? What boat? Where was that boat located?""")
 
     where = input(">>> ")
 
-    if "lake" in where or "LAKE" in where:
+    if "lake" in where or "LAKE" in where or "left" in where or "LEFT" in where:
         print("------------------")
         print("GOOD MEMORY!")
         print("------------------")
@@ -123,14 +123,15 @@ def the_boat():
 
     elif "torch" in boat or "TORCH" in boat:
         print("------------------------------------------------------")
-        print("""They avoided you at first but eventualy, you RAN OUT of wood. 
-the scorpions stung you and you fell unconscious and laid eggs in your brain.""")
+        print("""They avoided you at first but eventually, you RAN OUT of wood. 
+            the scorpions stung you, you fell unconscious, then they came inside your nose and ears 
+            and laid eggs on your brain.""")
         print("------------------------------------------------------")
         restarter()
 
     elif "BONFIRE" in boat or "bonfire" in boat:
         print("------------------------------------------------------")
-        print("Sure! The scorpions will HELP you ease your pain. Good night! AGAIN!")
+        print("Sure! The scorpions will HELP you with ending your life quicker. Tsk tsk.. AGAIN!")
         print("------------------------------------------------------")
         the_boat()
 
@@ -168,9 +169,20 @@ def the_bear():
         print("------------------------------------------------------")
         print("WELCOME TO THE CLUB OF BEARS!")
         print("idiot...")
+        print("------------------------------------------------------")
         restarter()
+
     elif "punch" in bear or "PUNCH" in bear:
+        print("------------------------------------------------------")
         print("ARE YOU CRAZY?")
+        print("------------------------------------------------------")
+        restarter()
+
+    elif "eat" in bear or "EAT" in bear:
+
+        print("------------------------------------------------------")
+        print("AND YOU THINK THEY'LL EAT THE BOAT AND NOT YOU IF YOU DO THAT???")
+        print("------------------------------------------------------")
         restarter()
 
     else:
@@ -241,7 +253,7 @@ def the_pirate():
     print("""You found a pirates's ship, anchored by the shore, with the name: \'BLACK PEARL.\' 
 \"Great! Now do we get to meet the great Captain Jack Sparrow?\"
 
-Anyhow, you've got no other choice to get inside it but through the canon holes.
+Anyhow, you've got no other choice to get inside it but through the holes of the ship designated for the ship's canons.
 
 You got inside.
 HOW WOULD YOU LOOK FOR THE PINK PANTHER?
@@ -376,8 +388,9 @@ def way_out():
 
 def go_paddle():
     print("\n \n")
-    print("""GOOD FOR YOU! You got the treasure and you're now in a canoe.
-But wait! The pirates saw you and started FIRING canons on you.
+    print("""GOOD FOR YOU! Surprisingly, YOU GOT THE TREASURE!!! and you're now in a canoe.
+          You can finally make for your escape!!!
+But don't celebrate just yet mate! The pirates saw you and started FIRING canons on you.
 WHAT DO YOU NOW?
 
 * DIVE into the water.
@@ -414,21 +427,25 @@ def treasure_chest():
     print("\n \n")
     print("""You outrun them and got on dry land. You realized that the chest's key was left back on the BLACK PEARL!
 
-WHAT DO YOU DO? Choose your words wisely.""")
+    WHAT DO YOU DO? This will be your last question to acquire the pink panther! So choose your words wisely.""")
 
     key = input(">>> ")
 
-    if "break" in key or "BREAK" in key or "smash" in key or "SMASH" in key:
+    if "smash" in key or "SMASH" in key:
         print("\n \n")
-        print("Great thinking! YOU GOT THE PINK PANTHER!")
 
-        print("-------------------------------------------------------------------------------------------------------------------")
-        print("-------------------------------------------------------------------------------------------------------------------")
-        print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>GAME OVER.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<")
-        print("-------------------------------------------------------------------------------------------------------------------")
-        print("-------------------------------------------------------------------------------------------------------------------")
+        print("Great thinking! YOU GOT THE PINK PANTHER!")
+        print(" ")
+        print("********************************************************************************************")
+        print("********************************************************************************************")
+        print("********************************************************************************************")
+        print("****************************************GAME OVER*******************************************")
+        print("********************************************************************************************")
+        print("********************************************************************************************")
+        print("********************************************************************************************")
+        print(" ")
         print("\n But how are gonna get back home?")
-        print("\n PART II COMING SOON.")
+        print("\n PART II COMING SOON..")
 
     elif "open" in key or "OPEN" in key:
         print("------------------------------------------------------")
@@ -437,7 +454,7 @@ WHAT DO YOU DO? Choose your words wisely.""")
         treasure_chest()
     elif "destroy" in key or "DESTROY" in key:
         print("------------------------------------------------------")
-        print("With what? TRY AGAIN!")
+        print("With what?? TRY AGAIN!")
         print("------------------------------------------------------")
         treasure_chest()
 
@@ -512,12 +529,25 @@ YES or NO""")
 
 
 def name():
-    print("What's your name?")
+    print("Before we start, kindly FULL SCREEN your terminal.")
+    print("After you do, tell us your name, player!")
 
-    player = input(">>> ")
-    print("--------------------------------")
-    print(f"WELCOME TO THE GAME {player}!")
-    print("CAPS LOCK ON!")
+    player = input("Name: ")
+    print(" ")
+    print("********************************************************************************************")
+    print("********************************************************************************************")
+    print("********************************************************************************************")
+    print("***********************************DIAMOND IN BLACK PEARL***********************************")
+    print("********************************************************************************************")
+    print("********************************************************************************************")
+    print("********************************************************************************************")
+    print(" ")
+    print(f"Welcome to the the game {player}!")
+    print("Here are some rules to this game:")
+    print("1. Read the everything carefully!")
+    print("2. USE THE CAPS LOCKED KEYWORDS for all of your answers!")
+    print("3. USE YOUR IMAGINATION AS YOU PLAY THIS GAME :))")
+    print("4. Enjoy!! ;)")
     print("--------------------------------")
     start()
 
