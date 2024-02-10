@@ -11,3 +11,10 @@ Run these
     (.venv) % python3 manage.py startapp blog
     (.venv) % python3 manage.py migrate
 ```
+
+## Migrations
+Run this everytime you make changes in your `models.py` file **to update the database**:
+```bash
+    (.venv) > python manage.py makemigrations <app name>
+    (.venv) > python manage.py migrate
+```
