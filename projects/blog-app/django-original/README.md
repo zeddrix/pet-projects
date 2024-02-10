@@ -18,3 +18,11 @@ Run this everytime you make changes in your `models.py` file **to update the dat
     (.venv) > python manage.py makemigrations <app name>
     (.venv) > python manage.py migrate
 ```
+
+## Start server
+`python3 manage.py runserver`
+
+## Admin
+**Credentials:**
+* **username:** zeddrix
+* **password:** django123
