@@ -8,7 +8,7 @@ export const posts: BlogPost[] = [
       "A couple of weeks ago, I was learning Python on zeddrix.com. And I am telling you, I really learned a lot!",
     author: "Zeddrix Fabian",
     datePosted: "March 14, 2020",
-    image: "/images/blog-django.svg",
+    image: "/images/blog-django.jpg",
     body: "A couple of weeks ago, I was learning Python on zeddrix.com. And I am telling you, I really learned a lot! I was even able to create my own game using Python alone! But, after getting a hang of Python, I tried out learning its well-known framework, Django. And right now, as I type here on this blog post, I am currently working on a Django project. To be specific, a portfolio website. And I really thank you for reading this on your own time. Also, I am happy that you are because I really worked so hard to finish this portfolio website! By the way, I am also taking Zedd's course to learn Django on zeddrix.com. Please, I'll be glad for you to read all my other blog posts. I really hope you like this portfolio website! And again, thank you!",
   },
   {
@@ -28,7 +28,7 @@ export const posts: BlogPost[] = [
       "Welcome to my third post! I am still learning Django and enjoying every step of building this portfolio.",
     author: "Zeddrix Fabian",
     datePosted: "March 5, 2020",
-    image: "/images/blog-laptop.jpg",
+    image: "/images/blog-laptop.webp",
     body: "Welcome to my third post! I am still learning Django and enjoying every step of building this portfolio. Writing these entries helps me remember what I figured out each week—from templates and static files to organizing my blog posts. If you are following along on zeddrix.com, keep going! The more you build, the more comfortable everything feels. Thanks for reading another update from my Django journey.",
   },
 ];

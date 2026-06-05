@@ -4,7 +4,7 @@
   import { navItems, siteName } from "$lib/data/site";
 
   function navHref(href: string): string {
-    return href.startsWith("http") ? href : `${base}${href}`;
+    return `${base}${href}`;
   }
 
   function isActive(matchPrefix: string | undefined): boolean {
@@ -44,15 +44,23 @@
       <ul class="navbar-nav ms-auto">
         {#each navItems as item (item.label)}
           <li class="nav-item">
-            <a
-              class="nav-link{isActive(item.matchPrefix) ? ' active' : ''}"
-              href={navHref(item.href)}
-              {...item.external
-                ? { target: "_blank", rel: "noopener noreferrer" }
-                : {}}
-            >
-              {item.label}
-            </a>
+            {#if item.external}
+              <a
+                class="nav-link"
+                href={item.href}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {item.label}
+              </a>
+            {:else}
+              <a
+                class="nav-link{isActive(item.matchPrefix) ? ' active' : ''}"
+                href={navHref(item.href)}
+              >
+                {item.label}
+              </a>
+            {/if}
           </li>
         {/each}
       </ul>
