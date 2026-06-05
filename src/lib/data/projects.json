@@ -1,0 +1,80 @@
+[
+  {
+    "slug": "github-finder-jsx",
+    "title": "GitHub Finder (JSX)",
+    "description": "Search GitHub users with a React JSX interface.",
+    "sourceUrl": "https://github.com/zeddrix/pet-projects/tree/main/projects/github-finder-jsx",
+    "sortOrder": 1
+  },
+  {
+    "slug": "loan-calculator",
+    "title": "Loan Calculator",
+    "description": "Calculate loan payments and amortization schedules.",
+    "sourceUrl": "https://github.com/zeddrix/pet-projects/tree/main/projects/loan-calculator",
+    "sortOrder": 2
+  },
+  {
+    "slug": "weather-widget",
+    "title": "Weather Widget",
+    "description": "Display current weather conditions in a compact widget.",
+    "sourceUrl": "https://github.com/zeddrix/pet-projects/tree/main/projects/weather-widget",
+    "sortOrder": 3
+  },
+  {
+    "slug": "tracalorie",
+    "title": "Tracalorie",
+    "description": "Track daily calorie intake and meals.",
+    "sourceUrl": "https://github.com/zeddrix/pet-projects/tree/main/projects/tracalorie",
+    "sortOrder": 4
+  },
+  {
+    "slug": "word-counter",
+    "title": "Word Counter",
+    "description": "Count words, characters, and reading time for text.",
+    "sourceUrl": "https://github.com/zeddrix/pet-projects/tree/main/projects/word-counter",
+    "sortOrder": 5
+  },
+  {
+    "slug": "tasklist",
+    "title": "Task List",
+    "description": "Manage tasks with a simple to-do list app.",
+    "sourceUrl": "https://github.com/zeddrix/pet-projects/tree/main/projects/tasklist",
+    "sortOrder": 6
+  },
+  {
+    "slug": "github-finder",
+    "title": "GitHub Finder",
+    "description": "Search GitHub users with a vanilla JavaScript interface.",
+    "sourceUrl": "https://github.com/zeddrix/pet-projects/tree/main/projects/github-finder",
+    "deprecated": true,
+    "sortOrder": 7
+  },
+  {
+    "slug": "booklist",
+    "title": "Book List",
+    "description": "Browse and manage a personal book collection.",
+    "sourceUrl": "https://github.com/zeddrix/pet-projects/tree/main/projects/booklist",
+    "sortOrder": 8
+  },
+  {
+    "slug": "jw-guitar-templates",
+    "title": "JW Guitar Templates",
+    "description": "Guitar chord and template reference tool.",
+    "sourceUrl": "https://github.com/zeddrix/pet-projects/tree/main/projects/jw-guitar-templates",
+    "sortOrder": 9
+  },
+  {
+    "slug": "animate",
+    "title": "Animate",
+    "description": "CSS and JavaScript animation experiments.",
+    "sourceUrl": "https://github.com/zeddrix/pet-projects/tree/main/projects/animate",
+    "sortOrder": 10
+  },
+  {
+    "slug": "robot-friend",
+    "title": "Robot Friend",
+    "description": "Interactive robot companion demo.",
+    "sourceUrl": "https://github.com/zeddrix/pet-projects/tree/main/projects/robot-friend",
+    "sortOrder": 11
+  }
+]

@@ -1,3 +1,5 @@
+<!-- Archived from https://github.com/zeddrix/animate on 2026-06-05T04:13:51.062Z. Monorepo snapshot; upstream may differ. -->
+
 ### This is a repository that compiles the 78 different keyframes of CSS animations you can use in your projects.
 
 # How to Use

@@ -1,3 +1,5 @@
+<!-- Archived from https://github.com/zeddrix/jw-guitar-templates on 2026-06-05T04:13:50.344Z. Monorepo snapshot; upstream may differ. -->
+
 <img width="1438" height="899" alt="image" src="https://github.com/user-attachments/assets/c20819a2-0cdd-461f-81cd-f9cf3b2fa7d1" />
 
 <img width="1438" height="899" alt="image" src="https://github.com/user-attachments/assets/a0023344-0deb-4985-815d-19715056fb73" />

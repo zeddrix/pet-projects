@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.json",
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.svelte",
+    "tests/**/*.ts",
+    "*.config.ts",
+    "eslint.config.js",
+    "scripts/sync-projects.mjs"
+  ],
+  "exclude": [
+    "projects/**",
+    "static/projects/**",
+    "build/**",
+    "node_modules/**"
+  ]
+}
