@@ -3,9 +3,7 @@ const email = "zeddrix.fabian@gmail.com";
 const externalLinks = {
   github: "https://github.com/zeddrix",
   portfolio: "https://zeddrix.github.io/portfolio/",
-  djangoOriginal: "https://github.com/zeddrix/pet-projects/tree/main/projects/blog-app/django-original",
-  petProjectsRepo: "https://github.com/zeddrix/pet-projects",
-  petProjectsPlayground: "https://zeddrix.github.io/pet-projects/"
+  djangoOriginal: "https://github.com/zeddrix/pet-projects/tree/main/projects/blog-app/django-original"
 };
 const navItems = [
   { label: "About", href: "/about", matchPrefix: "/about" },

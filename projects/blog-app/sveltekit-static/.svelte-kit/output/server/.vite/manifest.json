@@ -153,7 +153,7 @@
       "_site.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout.DA42SQ6O.css"
+      "_app/immutable/assets/_layout.hO5E0XKp.css"
     ]
   },
   "src/routes/+layout.ts": {
@@ -232,7 +232,6 @@
     "isEntry": true,
     "imports": [
       "_index.js",
-      "_site.js",
       "_SiteFooter.js"
     ]
   }

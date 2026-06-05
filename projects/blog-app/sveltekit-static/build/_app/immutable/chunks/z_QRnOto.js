@@ -1,0 +1,1 @@
+import{a as f,f as l,s as i}from"./DyO6QDcf.js";import{f as p}from"./C8_Y20vK.js";import{t as c,c as e,r}from"./D_dT1I5l.js";var v=l('<footer class="py-4 mt-5 text-center text-muted border-top"><div class="container"><small> </small></div></footer>');function u(s){var t=v(),o=e(t),a=e(o),m=e(a,!0);r(a),r(o),r(t),c(()=>i(m,p)),f(s,t)}export{u as S};
