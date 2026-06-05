@@ -61,4 +61,53 @@ test.describe("playground navigation", () => {
     await expect(activeItem).toHaveAttribute("data-active", "true");
     await expect(activeItem).toHaveAttribute("aria-current", "page");
   });
+
+  test("Given sidebar list, when user opens blog-app, then iframe src targets blog-app preview", async ({
+    page,
+  }) => {
+    await page
+      .locator('[data-testid="project-list-item"][data-slug="blog-app"]')
+      .click();
+    await expect(page).toHaveURL(/\/project\/blog-app$/);
+    await expect(page.getByTestId("playground-title")).toContainText(
+      "Blog App",
+    );
+    await expect(page.getByTestId("playground-frame")).toHaveAttribute(
+      "src",
+      /blog-app\/$/,
+    );
+  });
+
+  test("Given sidebar list, when user opens microposts, then iframe src targets microposts preview", async ({
+    page,
+  }) => {
+    await page
+      .locator('[data-testid="project-list-item"][data-slug="microposts"]')
+      .click();
+    await expect(page).toHaveURL(/\/project\/microposts$/);
+    await expect(page.getByTestId("playground-title")).toContainText(
+      "Microposts",
+    );
+    await expect(page.getByTestId("playground-frame")).toHaveAttribute(
+      "src",
+      /microposts\/$/,
+    );
+  });
+
+  test("Given sidebar list, when user opens devcamper-api, then readme pane is shown instead of iframe", async ({
+    page,
+  }) => {
+    await page
+      .locator('[data-testid="project-list-item"][data-slug="devcamper-api"]')
+      .click();
+    await expect(page).toHaveURL(/\/project\/devcamper-api$/);
+    await expect(page.getByTestId("playground-title")).toContainText(
+      "DevCamper API",
+    );
+    await expect(page.getByTestId("playground-readme")).toBeVisible();
+    await expect(page.getByTestId("playground-frame")).toHaveCount(0);
+    await expect(page.getByTestId("playground-readme")).toContainText(
+      "DevCamper API",
+    );
+  });
 });

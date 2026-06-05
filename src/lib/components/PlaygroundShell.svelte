@@ -7,6 +7,7 @@
   import { DESKTOP_MEDIA_QUERY } from "$lib/constants/sidebar";
   import Sidebar from "./Sidebar.svelte";
   import PlaygroundFrame from "./PlaygroundFrame.svelte";
+  import PlaygroundReadme from "./PlaygroundReadme.svelte";
   import type { Project } from "$lib/types/project";
 
   interface Props {
@@ -128,7 +129,11 @@
 
     <div class="flex min-h-0 flex-1 flex-col">
       {#if project}
-        <PlaygroundFrame {project} />
+        {#if project.displayMode === "readme"}
+          <PlaygroundReadme {project} />
+        {:else}
+          <PlaygroundFrame {project} />
+        {/if}
       {:else}
         <div
           data-testid="not-found-message"

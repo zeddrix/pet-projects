@@ -76,5 +76,27 @@
     "description": "Interactive robot companion demo.",
     "sourceUrl": "https://github.com/zeddrix/pet-projects/tree/main/projects/robot-friend",
     "sortOrder": 11
+  },
+  {
+    "slug": "blog-app",
+    "title": "Blog App",
+    "description": "Django blog archive with a static SvelteKit preview for GitHub Pages.",
+    "sourceUrl": "https://github.com/zeddrix/pet-projects/tree/main/projects/blog-app",
+    "sortOrder": 12
+  },
+  {
+    "slug": "microposts",
+    "title": "Microposts",
+    "description": "Webpack microposts CRUD demo with an in-browser mock API for static hosting.",
+    "sourceUrl": "https://github.com/zeddrix/pet-projects/tree/main/projects/microposts",
+    "sortOrder": 13
+  },
+  {
+    "slug": "devcamper-api",
+    "title": "DevCamper API",
+    "description": "Express and MongoDB bootcamp directory API — backend reference with README preview.",
+    "sourceUrl": "https://github.com/zeddrix/pet-projects/tree/main/projects/devcamper-api",
+    "displayMode": "readme",
+    "sortOrder": 14
   }
 ]

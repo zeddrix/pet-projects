@@ -25,8 +25,8 @@ describe("projects manifest", () => {
     expect(project.deprecated).toBeUndefined();
   });
 
-  it("returns 11 sorted projects", () => {
-    expect(getSortedProjects()).toHaveLength(11);
+  it("returns 14 sorted projects", () => {
+    expect(getSortedProjects()).toHaveLength(14);
   });
 
   it("marks github-finder as deprecated", () => {
@@ -37,7 +37,7 @@ describe("projects manifest", () => {
 
   it("exposes slugs for prerender entries", () => {
     const slugs = getProjectSlugs();
-    expect(slugs).toHaveLength(11);
+    expect(slugs).toHaveLength(14);
     expect(slugs).toContain("loan-calculator");
   });
 
@@ -47,5 +47,11 @@ describe("projects manifest", () => {
         `https://github.com/zeddrix/pet-projects/tree/main/projects/${project.slug}`,
       );
     }
+  });
+
+  it("marks devcamper-api as readme display mode", () => {
+    const project = getProjectBySlug("devcamper-api");
+
+    expect(project?.displayMode).toBe("readme");
   });
 });

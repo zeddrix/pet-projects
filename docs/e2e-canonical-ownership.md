@@ -10,6 +10,8 @@
 | Sidebar toggle hide/show          | `playground-sidebar-toggle.e2e.test.ts` |
 | Sidebar persistence after reload  | `playground-sidebar-toggle.e2e.test.ts` |
 | Navigate between catalog entries  | `playground-navigation.e2e.test.ts`     |
+| blog-app / microposts iframe src  | `playground-navigation.e2e.test.ts`     |
+| devcamper-api README pane         | `playground-navigation.e2e.test.ts`     |
 | Deprecated badge on github-finder | `playground-navigation.e2e.test.ts`     |
 | Active list item state            | `playground-navigation.e2e.test.ts`     |
 | Unknown slug in-shell 404         | `playground-unknown-slug.e2e.test.ts`   |

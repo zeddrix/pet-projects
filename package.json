@@ -44,5 +44,9 @@
     "typescript": "^5.7.3",
     "vite": "^6.0.0",
     "vitest": "^3.0.0"
+  },
+  "dependencies": {
+    "isomorphic-dompurify": "^3.15.0",
+    "marked": "^18.0.5"
   }
 }
