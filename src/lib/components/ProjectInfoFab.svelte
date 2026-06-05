@@ -55,6 +55,7 @@
     box-shadow:
       0 4px 6px -1px rgb(0 0 0 / 0.1),
       0 2px 4px -2px rgb(0 0 0 / 0.1);
+    animation: project-info-bounce 3s ease-in-out infinite;
     transition:
       background-color 200ms ease,
       color 200ms ease,
@@ -63,7 +64,6 @@
 
   .project-info-fab__icon {
     display: flex;
-    animation: project-info-float 3s ease-in-out infinite;
   }
 
   .project-info-fab:hover {
@@ -79,24 +79,22 @@
     outline-offset: 2px;
   }
 
-  @keyframes project-info-float {
+  @keyframes project-info-bounce {
     0%,
+    4%,
     100% {
       transform: translateY(0);
     }
 
-    50% {
-      transform: translateY(-6px);
+    2% {
+      transform: translateY(-8px);
     }
   }
 
   @media (prefers-reduced-motion: reduce) {
     .project-info-fab {
-      transition: none;
-    }
-
-    .project-info-fab__icon {
       animation: none;
+      transition: none;
     }
   }
 </style>

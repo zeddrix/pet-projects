@@ -1,18 +1,14 @@
 <script lang="ts">
   import { getSortedProjects } from "$lib/data/projects";
-  import type { ProjectInfoLayout } from "$lib/types/project";
   import ProjectListItem from "./ProjectListItem.svelte";
-  import ProjectInfoLayoutPicker from "./ProjectInfoLayoutPicker.svelte";
+  import SidebarAboutButton from "./SidebarAboutButton.svelte";
 
   interface Props {
     visible: boolean;
-    projectInfoLayout: ProjectInfoLayout;
-    onlayoutselect: (layout: ProjectInfoLayout) => void;
     onprojectselect?: () => void;
   }
 
-  let { visible, projectInfoLayout, onlayoutselect, onprojectselect }: Props =
-    $props();
+  let { visible, onprojectselect }: Props = $props();
 
   const projects = getSortedProjects();
 </script>
@@ -33,8 +29,10 @@
     >
       Playground
     </h1>
-    <p class="mt-1 text-sm text-zinc-500">Pre-AI pet projects</p>
-    <ProjectInfoLayoutPicker layout={projectInfoLayout} {onlayoutselect} />
+    <div class="mt-1 flex items-center gap-2">
+      <p class="text-sm text-zinc-500">Pre-AI pet projects</p>
+      <SidebarAboutButton />
+    </div>
   </header>
 
   <nav

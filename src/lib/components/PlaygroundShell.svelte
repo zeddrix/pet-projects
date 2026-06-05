@@ -4,57 +4,38 @@
     resolveSidebarVisible,
     writeSidebarVisible,
   } from "$lib/stores/sidebar-visible";
-  import { DEFAULT_PROJECT_INFO_LAYOUT } from "$lib/constants/project-info-layout";
-  import { resolveProjectInfoLayout } from "$lib/stores/project-info-layout";
   import { DESKTOP_MEDIA_QUERY } from "$lib/constants/sidebar";
-  import type { ProjectInfoLayout } from "$lib/types/project";
   import Sidebar from "./Sidebar.svelte";
   import PlaygroundFrame from "./PlaygroundFrame.svelte";
   import PlaygroundReadme from "./PlaygroundReadme.svelte";
   import ProjectInfoFab from "./ProjectInfoFab.svelte";
-  import ProjectInfoPanel from "./ProjectInfoPanel.svelte";
   import ProjectInfoModal from "./ProjectInfoModal.svelte";
-  import ProjectInfoInline from "./ProjectInfoInline.svelte";
   import type { Project } from "$lib/types/project";
 
   interface Props {
     project: Project | null;
+    demoEntry?: string | null;
   }
 
-  let { project }: Props = $props();
+  let { project, demoEntry = null }: Props = $props();
 
   let sidebarVisible = $state(true);
-  let projectInfoLayout = $state<ProjectInfoLayout>(
-    DEFAULT_PROJECT_INFO_LAYOUT,
-  );
   let projectInfoOpen = $state(false);
   let shellHydrated = $state(false);
-  let userPickedLayout = false;
 
-  const infoPanelState = {
+  const projectInfoState = {
     open: false,
-    layout: DEFAULT_PROJECT_INFO_LAYOUT as ProjectInfoLayout,
   };
 
   $effect(() => {
-    infoPanelState.open = projectInfoOpen;
-    infoPanelState.layout = projectInfoLayout;
+    projectInfoState.open = projectInfoOpen;
   });
 
   onMount(() => {
     sidebarVisible = resolveSidebarVisible();
-    if (!userPickedLayout) {
-      projectInfoLayout = resolveProjectInfoLayout();
-    }
 
     const handleDocumentKeydown = (event: KeyboardEvent) => {
-      if (event.key !== "Escape" || !infoPanelState.open) {
-        return;
-      }
-      if (
-        infoPanelState.layout === "panel" ||
-        infoPanelState.layout === "modal"
-      ) {
+      if (event.key === "Escape" && projectInfoState.open) {
         projectInfoOpen = false;
       }
     };
@@ -83,11 +64,6 @@
     setSidebarVisible(false);
   }
 
-  function handleLayoutSelect(layout: ProjectInfoLayout) {
-    userPickedLayout = true;
-    projectInfoLayout = layout;
-  }
-
   function closeProjectInfo() {
     projectInfoOpen = false;
   }
@@ -95,15 +71,11 @@
   const toggleLabel = $derived(
     sidebarVisible ? "Hide sidebar" : "Show sidebar",
   );
-  const inlineExpanded = $derived(
-    projectInfoLayout === "inline" && projectInfoOpen,
-  );
 </script>
 
 <div
   data-testid="playground-shell"
   data-sidebar-visible={sidebarVisible ? "true" : "false"}
-  data-project-info-layout={projectInfoLayout}
   data-project-info-open={projectInfoOpen ? "true" : "false"}
   data-shell-hydrated={shellHydrated ? "true" : "false"}
   class="relative flex h-[100dvh] overflow-hidden bg-zinc-50 font-sans text-zinc-900"
@@ -112,12 +84,7 @@
     class="relative z-40 w-0 shrink-0 overflow-visible transition-[width] duration-300 ease-in-out motion-reduce:transition-none
       {sidebarVisible ? 'md:w-72' : ''}"
   >
-    <Sidebar
-      visible={sidebarVisible}
-      {projectInfoLayout}
-      onlayoutselect={handleLayoutSelect}
-      onprojectselect={handleProjectSelect}
-    />
+    <Sidebar visible={sidebarVisible} onprojectselect={handleProjectSelect} />
 
     {#if sidebarVisible}
       <button
@@ -189,31 +156,19 @@
       {/if}
     </header>
 
-    {#if project && projectInfoLayout === "inline"}
-      <ProjectInfoInline {project} expanded={inlineExpanded} />
-    {/if}
-
     <div class="relative flex min-h-0 flex-1 flex-col">
       {#if project}
         {#if project.displayMode === "readme"}
           <PlaygroundReadme {project} />
         {:else}
-          <PlaygroundFrame {project} />
+          <PlaygroundFrame {project} {demoEntry} />
         {/if}
 
-        {#if projectInfoLayout === "panel"}
-          <ProjectInfoPanel
-            {project}
-            open={projectInfoOpen}
-            onpanelclose={closeProjectInfo}
-          />
-        {:else if projectInfoLayout === "modal"}
-          <ProjectInfoModal
-            {project}
-            open={projectInfoOpen}
-            onmodalclose={closeProjectInfo}
-          />
-        {/if}
+        <ProjectInfoModal
+          {project}
+          open={projectInfoOpen}
+          onmodalclose={closeProjectInfo}
+        />
       {:else}
         <div
           data-testid="not-found-message"

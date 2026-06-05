@@ -4,14 +4,15 @@
 
   interface Props {
     project: Project;
+    demoEntry?: string | null;
   }
 
-  let { project }: Props = $props();
+  let { project, demoEntry = null }: Props = $props();
 
-  const src = $derived(playgroundFrameSrc(project.slug));
+  const src = $derived(playgroundFrameSrc(project.slug, demoEntry));
 </script>
 
-{#key project.slug}
+{#key `${project.slug}:${demoEntry ?? ""}`}
   <iframe
     data-testid="playground-frame"
     title="{project.title} demo"

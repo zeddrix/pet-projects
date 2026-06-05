@@ -26,4 +26,16 @@ describe("buildPlaygroundFrameSrc", () => {
       "/pet-projects/projects/weather-widget/",
     );
   });
+
+  it("builds iframe src with demo entry", () => {
+    expect(buildPlaygroundFrameSrc("", "blog-app", "projects.html")).toBe(
+      "/projects/blog-app/projects.html",
+    );
+  });
+
+  it("builds iframe src with demo entry and GitHub Pages base", () => {
+    expect(
+      buildPlaygroundFrameSrc("/pet-projects", "blog-app", "projects.html"),
+    ).toBe("/pet-projects/projects/blog-app/projects.html");
+  });
 });

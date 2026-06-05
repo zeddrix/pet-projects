@@ -8,7 +8,14 @@ export function buildAppPath(base: string, path: string): string {
 }
 
 /** Pure helper for building pet demo iframe src (absolute path). */
-export function buildPlaygroundFrameSrc(base: string, slug: string): string {
+export function buildPlaygroundFrameSrc(
+  base: string,
+  slug: string,
+  demoEntry?: string | null,
+): string {
   const normalizedBase = base.endsWith("/") ? base.slice(0, -1) : base;
+  if (demoEntry) {
+    return `${normalizedBase}/projects/${slug}/${demoEntry}`;
+  }
   return `${normalizedBase}/projects/${slug}/`;
 }

@@ -1,7 +1,5 @@
 export type ProjectDisplayMode = "iframe" | "readme";
 
-export type ProjectInfoLayout = "panel" | "modal" | "inline";
-
 export interface ProjectVersion {
   id: "original" | "preview" | "source";
   label: string;
