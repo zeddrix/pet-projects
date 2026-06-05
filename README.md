@@ -1,8 +1,57 @@
 # pet-projects
 
-A static-first playground hub for pre-2024 pet demos. The SvelteKit **wrapper** provides a sidebar catalog and fullscreen iframe preview. Legacy demos live as static bundles under `projects/<slug>/` and are **not** rewritten as Svelte components.
+A personal archive and live playground for eleven small web demos built in 2020, before modern AI-assisted tooling was common. Each demo is a self-contained static app (vanilla JavaScript or early React). A SvelteKit **wrapper** catalogs them in a sidebar and previews the originals in iframes — nothing was rewritten as Svelte components.
 
-**Live URL:** `https://zeddrix.github.io/pet-projects/`
+**Live playground:** https://zeddrix.github.io/pet-projects/
+
+### Tech stack
+
+**Playground wrapper**
+
+![SvelteKit](https://img.shields.io/badge/SvelteKit-FF3E00?logo=svelte&logoColor=white)
+![Svelte](https://img.shields.io/badge/Svelte_5-FF3E00?logo=svelte&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)
+![Vitest](https://img.shields.io/badge/Vitest-6E9F18?logo=vitest&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?logo=playwright&logoColor=white)
+![ESLint](https://img.shields.io/badge/ESLint-4B32C3?logo=eslint&logoColor=white)
+![Prettier](https://img.shields.io/badge/Prettier-F7B93E?logo=prettier&logoColor=black)
+![pnpm](https://img.shields.io/badge/pnpm-F69220?logo=pnpm&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
+![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?logo=githubpages&logoColor=white)
+
+**Pet demos (shared across projects)**
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React_17-61DAFB?logo=react&logoColor=black)
+![Bootstrap](https://img.shields.io/badge/Bootstrap_4-7952B3?logo=bootstrap&logoColor=white)
+![Materialize CSS](https://img.shields.io/badge/Materialize_CSS-EE6E73?logo=materialdesign&logoColor=white)
+![Fetch API](https://img.shields.io/badge/Fetch_API-Browser-4CAF50)
+![localStorage](https://img.shields.io/badge/localStorage-Browser_API-4CAF50)
+![GitHub API](https://img.shields.io/badge/GitHub_REST_API-181717?logo=github&logoColor=white)
+![OpenWeatherMap](https://img.shields.io/badge/OpenWeatherMap_API-FF6B35)
+![Animate.css](https://img.shields.io/badge/Animate.css-3.7.2-8A2BE2)
+
+### Projects in this archive
+
+| Project                                              | Developed     | Stack highlight                            | Preview                                                                    |
+| ---------------------------------------------------- | ------------- | ------------------------------------------ | -------------------------------------------------------------------------- |
+| [GitHub Finder (JSX)](projects/github-finder-jsx/)   | November 2020 | React, CRA, Context API, Axios             | [Open](https://zeddrix.github.io/pet-projects/project/github-finder-jsx)   |
+| [Loan Calculator](projects/loan-calculator/)         | November 2020 | Vanilla JS, Bootstrap                      | [Open](https://zeddrix.github.io/pet-projects/project/loan-calculator)     |
+| [Weather Widget](projects/weather-widget/)           | November 2020 | ES6 classes, Fetch, OpenWeatherMap         | [Open](https://zeddrix.github.io/pet-projects/project/weather-widget)      |
+| [Tracalorie](projects/tracalorie/)                   | November 2020 | Vanilla JS, Materialize, localStorage      | [Open](https://zeddrix.github.io/pet-projects/project/tracalorie)          |
+| [Word Counter](projects/word-counter/)               | June 2020     | Vanilla JS, BEM CSS                        | [Open](https://zeddrix.github.io/pet-projects/project/word-counter)        |
+| [Task List](projects/tasklist/)                      | November 2020 | Vanilla JS, Materialize, localStorage      | [Open](https://zeddrix.github.io/pet-projects/project/tasklist)            |
+| [GitHub Finder](projects/github-finder/)             | November 2020 | Vanilla JS, Fetch, GitHub API (deprecated) | [Open](https://zeddrix.github.io/pet-projects/project/github-finder)       |
+| [Book List](projects/booklist/)                      | November 2020 | ES6 classes, Skeleton CSS                  | [Open](https://zeddrix.github.io/pet-projects/project/booklist)            |
+| [JW Guitar Templates](projects/jw-guitar-templates/) | March 2020    | Vanilla JS, custom fonts                   | [Open](https://zeddrix.github.io/pet-projects/project/jw-guitar-templates) |
+| [Animate](projects/animate/)                         | January 2020  | Animate.css, Bootstrap                     | [Open](https://zeddrix.github.io/pet-projects/project/animate)             |
+| [Robot Friend](projects/robot-friend/)               | February 2020 | HTML + CSS only                            | [Open](https://zeddrix.github.io/pet-projects/project/robot-friend)        |
+
+Each project folder includes a portfolio-style README with purpose, tech badges, and the month/year of its first commit.
 
 ## Isolation boundary
 
