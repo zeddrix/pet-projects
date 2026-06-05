@@ -19,8 +19,9 @@
 | Mobile backdrop close             | `playground-mobile-drawer.e2e.test.ts`       |
 | BASE_PATH iframe src segment      | `playground-base-path.e2e.test.ts`           |
 | Direct deep link to project route | `playground-deep-link.e2e.test.ts`           |
-| Project info FAB and layout modes | `playground-project-info.e2e.test.ts`        |
+| Project info FAB modal            | `playground-project-info.e2e.test.ts`        |
 | Shell modernization smoke         | `playground-shell-modernization.e2e.test.ts` |
+| Sidebar about → blog-app projects | `playground-sidebar-about.e2e.test.ts`       |
 
 ## Ownership rules
 
