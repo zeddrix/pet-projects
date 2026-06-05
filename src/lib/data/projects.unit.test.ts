@@ -54,4 +54,16 @@ describe("projects manifest", () => {
 
     expect(project?.displayMode).toBe("readme");
   });
+
+  it("includes developedAt for every project", () => {
+    for (const project of getSortedProjects()) {
+      expect(project.developedAt.length).toBeGreaterThan(0);
+    }
+  });
+
+  it("includes tech stack for loan-calculator", () => {
+    const project = getProjectBySlug("loan-calculator");
+
+    expect(project?.techStack).toContain("Vanilla JS");
+  });
 });

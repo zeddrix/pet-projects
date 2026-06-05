@@ -4,6 +4,29 @@
     "title": "GitHub Finder (JSX)",
     "description": "Search GitHub users with a React JSX interface.",
     "sourceUrl": "https://github.com/zeddrix/pet-projects/tree/main/projects/github-finder-jsx",
+    "developedAt": "November 2020",
+    "versions": [
+      {
+        "id": "original",
+        "label": "React source (git history)",
+        "techStack": [
+          "React 17",
+          "Create React App",
+          "Context API",
+          "Axios",
+          "React Router"
+        ],
+        "folderPath": ".",
+        "note": "Original src/ is preserved in commit history."
+      },
+      {
+        "id": "preview",
+        "label": "Production CRA build",
+        "techStack": ["Create React App", "HashRouter", "Static build"],
+        "folderPath": "."
+      }
+    ],
+    "dualVersionReason": "The playground serves a pre-built Create React App bundle for static hosting. The original React source lives in git history for reference.",
     "sortOrder": 1
   },
   {
@@ -11,6 +34,8 @@
     "title": "Loan Calculator",
     "description": "Calculate loan payments and amortization schedules.",
     "sourceUrl": "https://github.com/zeddrix/pet-projects/tree/main/projects/loan-calculator",
+    "developedAt": "November 2020",
+    "techStack": ["Vanilla JS", "Bootstrap", "HTML5"],
     "sortOrder": 2
   },
   {
@@ -18,6 +43,8 @@
     "title": "Weather Widget",
     "description": "Display current weather conditions in a compact widget.",
     "sourceUrl": "https://github.com/zeddrix/pet-projects/tree/main/projects/weather-widget",
+    "developedAt": "November 2020",
+    "techStack": ["ES6 classes", "Fetch API", "OpenWeatherMap"],
     "sortOrder": 3
   },
   {
@@ -25,6 +52,8 @@
     "title": "Tracalorie",
     "description": "Track daily calorie intake and meals.",
     "sourceUrl": "https://github.com/zeddrix/pet-projects/tree/main/projects/tracalorie",
+    "developedAt": "November 2020",
+    "techStack": ["Vanilla JS", "Materialize CSS", "localStorage"],
     "sortOrder": 4
   },
   {
@@ -32,6 +61,8 @@
     "title": "Word Counter",
     "description": "Count words, characters, and reading time for text.",
     "sourceUrl": "https://github.com/zeddrix/pet-projects/tree/main/projects/word-counter",
+    "developedAt": "June 2020",
+    "techStack": ["Vanilla JS", "BEM CSS"],
     "sortOrder": 5
   },
   {
@@ -39,6 +70,8 @@
     "title": "Task List",
     "description": "Manage tasks with a simple to-do list app.",
     "sourceUrl": "https://github.com/zeddrix/pet-projects/tree/main/projects/tasklist",
+    "developedAt": "November 2020",
+    "techStack": ["Vanilla JS", "Materialize CSS", "localStorage"],
     "sortOrder": 6
   },
   {
@@ -46,6 +79,8 @@
     "title": "GitHub Finder",
     "description": "Search GitHub users with a vanilla JavaScript interface.",
     "sourceUrl": "https://github.com/zeddrix/pet-projects/tree/main/projects/github-finder",
+    "developedAt": "November 2020",
+    "techStack": ["Vanilla JS", "Fetch API", "GitHub API"],
     "deprecated": true,
     "sortOrder": 7
   },
@@ -54,6 +89,8 @@
     "title": "Book List",
     "description": "Browse and manage a personal book collection.",
     "sourceUrl": "https://github.com/zeddrix/pet-projects/tree/main/projects/booklist",
+    "developedAt": "November 2020",
+    "techStack": ["ES6 classes", "Skeleton CSS"],
     "sortOrder": 8
   },
   {
@@ -61,6 +98,8 @@
     "title": "JW Guitar Templates",
     "description": "Guitar chord and template reference tool.",
     "sourceUrl": "https://github.com/zeddrix/pet-projects/tree/main/projects/jw-guitar-templates",
+    "developedAt": "March 2020",
+    "techStack": ["Vanilla JS", "Custom fonts"],
     "sortOrder": 9
   },
   {
@@ -68,6 +107,8 @@
     "title": "Animate",
     "description": "CSS and JavaScript animation experiments.",
     "sourceUrl": "https://github.com/zeddrix/pet-projects/tree/main/projects/animate",
+    "developedAt": "January 2020",
+    "techStack": ["Animate.css", "Bootstrap"],
     "sortOrder": 10
   },
   {
@@ -75,6 +116,8 @@
     "title": "Robot Friend",
     "description": "Interactive robot companion demo.",
     "sourceUrl": "https://github.com/zeddrix/pet-projects/tree/main/projects/robot-friend",
+    "developedAt": "February 2020",
+    "techStack": ["HTML", "CSS"],
     "sortOrder": 11
   },
   {
@@ -82,6 +125,22 @@
     "title": "Blog App",
     "description": "Django blog archive with a static SvelteKit preview for GitHub Pages.",
     "sourceUrl": "https://github.com/zeddrix/pet-projects/tree/main/projects/blog-app",
+    "developedAt": "February 2024",
+    "versions": [
+      {
+        "id": "original",
+        "label": "Original Django app",
+        "techStack": ["Django 4", "Python 3"],
+        "folderPath": "django-original"
+      },
+      {
+        "id": "preview",
+        "label": "Static SvelteKit preview",
+        "techStack": ["SvelteKit", "Static adapter"],
+        "folderPath": "sveltekit-static"
+      }
+    ],
+    "dualVersionReason": "GitHub Pages is static-only and cannot run Django. A SvelteKit static build mimics the blog layout for in-browser preview.",
     "sortOrder": 12
   },
   {
@@ -89,6 +148,22 @@
     "title": "Microposts",
     "description": "Webpack microposts CRUD demo with an in-browser mock API for static hosting.",
     "sourceUrl": "https://github.com/zeddrix/pet-projects/tree/main/projects/microposts",
+    "developedAt": "November 2020",
+    "versions": [
+      {
+        "id": "original",
+        "label": "Original webpack app",
+        "techStack": ["Webpack 4", "Babel", "Bootstrap"],
+        "folderPath": "original"
+      },
+      {
+        "id": "preview",
+        "label": "Static preview with mock API",
+        "techStack": ["Webpack", "Mock API", "localStorage"],
+        "folderPath": "updated-static"
+      }
+    ],
+    "dualVersionReason": "The original app needs json-server as a backend. The static preview uses an in-browser mock API so CRUD works on GitHub Pages.",
     "sortOrder": 13
   },
   {
@@ -96,6 +171,9 @@
     "title": "DevCamper API",
     "description": "Express and MongoDB bootcamp directory API — backend reference with README preview.",
     "sourceUrl": "https://github.com/zeddrix/pet-projects/tree/main/projects/devcamper-api",
+    "developedAt": "2019–2020",
+    "techStack": ["Node.js", "Express", "MongoDB"],
+    "dualVersionReason": "This is a backend-only API and cannot run on GitHub Pages. The playground shows the README instead of an iframe.",
     "displayMode": "readme",
     "sortOrder": 14
   }
