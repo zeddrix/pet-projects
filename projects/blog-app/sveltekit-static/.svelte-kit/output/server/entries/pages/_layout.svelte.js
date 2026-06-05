@@ -1,4 +1,4 @@
-import { a as attr, e as escape_html, b as ensure_array_like, c as attributes, s as stringify, h as head } from "../../chunks/index.js";
+import { a as attr, e as escape_html, b as ensure_array_like, c as attr_class, s as stringify, h as head } from "../../chunks/index.js";
 import { b as base } from "../../chunks/server.js";
 import "../../chunks/url.js";
 import "@sveltejs/kit/internal/server";
@@ -8,7 +8,7 @@ import { n as navItems, s as siteName } from "../../chunks/site.js";
 function SiteNavbar($$renderer, $$props) {
   $$renderer.component(($$renderer2) => {
     function navHref(href) {
-      return href.startsWith("http") ? href : `${base}${href}`;
+      return `${base}${href}`;
     }
     function isActive(matchPrefix) {
       if (!matchPrefix) {
@@ -23,11 +23,15 @@ function SiteNavbar($$renderer, $$props) {
     const each_array = ensure_array_like(navItems);
     for (let $$index = 0, $$length = each_array.length; $$index < $$length; $$index++) {
       let item = each_array[$$index];
-      $$renderer2.push(`<li class="nav-item"><a${attributes({
-        class: `nav-link${isActive(item.matchPrefix) ? " active" : ""}`,
-        href: navHref(item.href),
-        ...item.external ? { target: "_blank", rel: "noopener noreferrer" } : {}
-      })}>${escape_html(item.label)}</a></li>`);
+      $$renderer2.push(`<li class="nav-item">`);
+      if (item.external) {
+        $$renderer2.push("<!--[0-->");
+        $$renderer2.push(`<a class="nav-link"${attr("href", item.href)} target="_blank" rel="noopener noreferrer">${escape_html(item.label)}</a>`);
+      } else {
+        $$renderer2.push("<!--[-1-->");
+        $$renderer2.push(`<a${attr_class(`nav-link${isActive(item.matchPrefix) ? " active" : ""}`)}${attr("href", navHref(item.href))}>${escape_html(item.label)}</a>`);
+      }
+      $$renderer2.push(`<!--]--></li>`);
     }
     $$renderer2.push(`<!--]--></ul></div></div></nav>`);
   });

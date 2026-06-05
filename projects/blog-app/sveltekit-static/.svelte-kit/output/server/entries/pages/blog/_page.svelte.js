@@ -1,4 +1,4 @@
-import { d as attr_class, a as attr, s as stringify, e as escape_html, h as head, b as ensure_array_like } from "../../../chunks/index.js";
+import { c as attr_class, a as attr, s as stringify, e as escape_html, h as head, b as ensure_array_like } from "../../../chunks/index.js";
 import { p as posts } from "../../../chunks/posts.js";
 import { b as base } from "../../../chunks/server.js";
 import "../../../chunks/url.js";

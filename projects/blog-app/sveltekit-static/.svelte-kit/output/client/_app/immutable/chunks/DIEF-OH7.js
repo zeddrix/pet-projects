@@ -1,0 +1,1 @@
+import{a as f,f as l,s as i}from"./C414fiGm.js";import{f as p}from"./6w3JEWG6.js";import{t as c,c as e,r}from"./DXr7aD6c.js";var v=l('<footer class="py-4 mt-5 text-center text-muted border-top"><div class="container"><small> </small></div></footer>');function u(s){var t=v(),o=e(t),a=e(o),m=e(a,!0);r(a),r(o),r(t),c(()=>i(m,p)),f(s,t)}export{u as S};

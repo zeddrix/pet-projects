@@ -45,6 +45,6 @@ declare module "$app/types" {
 		};
 		Pathname(): "/" | "/about" | "/blog" | `/blog/${string}` & {} | `/blog/${string}/` & {} | "/projects";
 		ResolvedPathname(): `${"" | `/${string}`}${ReturnType<AppTypes['Pathname']>}`;
-		Asset(): "/images/about/original-wireframe.png" | "/images/blog-django.jpg" | "/images/blog-django.svg" | "/images/blog-laptop.jpg" | "/images/blog-pizza.jpg" | "/images/hobby-chinese.jpg" | "/images/hobby-coding.jpg" | "/images/hobby-guitar.jpg" | string & {};
+		Asset(): "/.DS_Store" | "/images/.DS_Store" | "/images/about/original-wireframe.png" | "/images/blog-django.jpg" | "/images/blog-laptop.jpg" | "/images/blog-laptop.webp" | "/images/blog-pizza.jpg" | "/images/hobby-chinese.jpg" | "/images/hobby-coding.jpg" | "/images/hobby-guitar.jpg" | string & {};
 	}
 }
