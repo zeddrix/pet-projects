@@ -11,11 +11,42 @@
       "_internal2.js"
     ]
   },
+  "_SiteFooter.js": {
+    "file": "chunks/SiteFooter.js",
+    "name": "SiteFooter",
+    "imports": [
+      "_index.js",
+      "_site.js"
+    ]
+  },
   "_exports.js": {
     "file": "chunks/exports.js",
     "name": "exports",
     "imports": [
+      "_index.js",
       "_root.js"
+    ]
+  },
+  "_false.js": {
+    "file": "chunks/false.js",
+    "name": "false"
+  },
+  "_index.js": {
+    "file": "chunks/index.js",
+    "name": "index",
+    "imports": [
+      "_render-context.js"
+    ]
+  },
+  "_index2.js": {
+    "file": "chunks/index2.js",
+    "name": "index",
+    "imports": [
+      "_index.js",
+      "_url.js",
+      "_root.js",
+      "_utils2.js",
+      "_exports.js"
     ]
   },
   "_internal.js": {
@@ -43,12 +74,17 @@
     "file": "chunks/root.js",
     "name": "root",
     "imports": [
-      "_render-context.js"
+      "_index.js",
+      "_false.js"
     ]
   },
   "_server.js": {
     "file": "chunks/server.js",
     "name": "server"
+  },
+  "_site.js": {
+    "file": "chunks/site.js",
+    "name": "site"
   },
   "_url.js": {
     "file": "chunks/url.js",
@@ -73,7 +109,7 @@
     "isEntry": true,
     "imports": [
       "_utils.js",
-      "_render-context.js",
+      "_false.js",
       "_server.js",
       "_internal.js"
     ]
@@ -84,10 +120,8 @@
     "src": "node_modules/@sveltejs/kit/src/runtime/components/svelte-5/error.svelte",
     "isEntry": true,
     "imports": [
-      "_root.js",
-      "_url.js",
-      "_utils2.js",
-      "_exports.js"
+      "_index.js",
+      "_index2.js"
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
@@ -97,7 +131,7 @@
     "isEntry": true,
     "imports": [
       "_utils.js",
-      "_render-context.js",
+      "_false.js",
       "_server.js",
       "_url.js",
       "_utils2.js",
@@ -111,9 +145,15 @@
     "src": "src/routes/+layout.svelte",
     "isEntry": true,
     "imports": [
-      "_root.js",
+      "_index.js",
       "_server.js",
-      "_url.js"
+      "_url.js",
+      "_root.js",
+      "_index2.js",
+      "_site.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout.DA42SQ6O.css"
     ]
   },
   "src/routes/+layout.ts": {
@@ -128,30 +168,72 @@
     "src": "src/routes/+page.svelte",
     "isEntry": true,
     "imports": [
-      "_root.js",
+      "_index.js",
+      "_site.js",
       "_server.js",
       "_url.js",
-      "_posts.js"
+      "_root.js"
     ]
   },
-  "src/routes/post/[id]/+page.svelte": {
-    "file": "entries/pages/post/_id_/_page.svelte.js",
-    "name": "entries/pages/post/_id_/_page.svelte",
-    "src": "src/routes/post/[id]/+page.svelte",
+  "src/routes/about/+page.svelte": {
+    "file": "entries/pages/about/_page.svelte.js",
+    "name": "entries/pages/about/_page.svelte",
+    "src": "src/routes/about/+page.svelte",
     "isEntry": true,
     "imports": [
-      "_root.js",
+      "_index.js",
+      "_site.js",
+      "_SiteFooter.js",
       "_server.js",
-      "_url.js"
+      "_url.js",
+      "_root.js"
     ]
   },
-  "src/routes/post/[id]/+page.ts": {
-    "file": "entries/pages/post/_id_/_page.ts.js",
-    "name": "entries/pages/post/_id_/_page.ts",
-    "src": "src/routes/post/[id]/+page.ts",
+  "src/routes/blog/+page.svelte": {
+    "file": "entries/pages/blog/_page.svelte.js",
+    "name": "entries/pages/blog/_page.svelte",
+    "src": "src/routes/blog/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_posts.js",
+      "_server.js",
+      "_url.js",
+      "_root.js",
+      "_SiteFooter.js"
+    ]
+  },
+  "src/routes/blog/[id]/+page.svelte": {
+    "file": "entries/pages/blog/_id_/_page.svelte.js",
+    "name": "entries/pages/blog/_id_/_page.svelte",
+    "src": "src/routes/blog/[id]/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_server.js",
+      "_url.js",
+      "_root.js",
+      "_SiteFooter.js"
+    ]
+  },
+  "src/routes/blog/[id]/+page.ts": {
+    "file": "entries/pages/blog/_id_/_page.ts.js",
+    "name": "entries/pages/blog/_id_/_page.ts",
+    "src": "src/routes/blog/[id]/+page.ts",
     "isEntry": true,
     "imports": [
       "_posts.js"
+    ]
+  },
+  "src/routes/projects/+page.svelte": {
+    "file": "entries/pages/projects/_page.svelte.js",
+    "name": "entries/pages/projects/_page.svelte",
+    "src": "src/routes/projects/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_site.js",
+      "_SiteFooter.js"
     ]
   }
 }

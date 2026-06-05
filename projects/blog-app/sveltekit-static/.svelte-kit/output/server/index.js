@@ -1,5 +1,5 @@
 import { E as ENDPOINT_METHODS, P as PAGE_METHODS, i as negotiate, m as method_not_allowed, h as handle_error_and_jsonify, j as get_status, k as is_form_content_type, l as normalize_error, o as create_replacer, q as get_global_name, r as serialize_uses, t as clarify_devalue_error, v as get_node_type, n as noop, w as escape_html, S as SVELTE_KIT_ASSETS, c as create_remote_key, x as static_error_page, y as redirect_response, p as parse_remote_arg, s as stringify, z as deserialize_binary_form, A as split_remote_key, B as once, C as has_prerendered_path, D as get_set_cookies, T as TRAILING_SLASH_PARAM, I as INVALIDATED_PARAM, F as handle_fatal_error, G as format_server_error } from "./chunks/utils.js";
-import { D as DEV } from "./chunks/render-context.js";
+import { D as DEV } from "./chunks/false.js";
 import { json, text, isRedirect, error } from "@sveltejs/kit";
 import { Redirect, SvelteKitError, ActionFailure, HttpError } from "@sveltejs/kit/internal";
 import { with_request_store, merge_tracing, try_get_request_store } from "@sveltejs/kit/internal/server";

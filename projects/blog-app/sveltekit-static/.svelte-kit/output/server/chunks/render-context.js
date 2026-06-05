@@ -1,4 +1,3 @@
-const DEV = false;
 function experimental_async_required(name) {
   {
     throw new Error(`https://svelte.dev/e/experimental_async_required`);
@@ -58,7 +57,6 @@ function get_render_context() {
 }
 let als = null;
 export {
-  DEV as D,
   await_invalid as a,
   invalid_csp as b,
   experimental_async_required as e,

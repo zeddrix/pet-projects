@@ -29,17 +29,22 @@ declare module "$app/types" {
 	type MatcherParam<M> = M extends (param : string) => param is (infer U extends string) ? U : string;
 
 	export interface AppTypes {
-		RouteId(): "/" | "/post" | "/post/[id]";
+		RouteId(): "/" | "/about" | "/blog" | "/blog/[id]" | "/post" | "/post/[id]" | "/projects";
 		RouteParams(): {
+			"/blog/[id]": { id: string };
 			"/post/[id]": { id: string }
 		};
 		LayoutParams(): {
 			"/": { id?: string | undefined };
+			"/about": Record<string, never>;
+			"/blog": { id?: string | undefined };
+			"/blog/[id]": { id: string };
 			"/post": { id?: string | undefined };
-			"/post/[id]": { id: string }
+			"/post/[id]": { id: string };
+			"/projects": Record<string, never>
 		};
-		Pathname(): "/" | `/post/${string}` & {} | `/post/${string}/` & {};
+		Pathname(): "/" | "/about" | "/blog" | `/blog/${string}` & {} | `/blog/${string}/` & {} | "/projects";
 		ResolvedPathname(): `${"" | `/${string}`}${ReturnType<AppTypes['Pathname']>}`;
-		Asset(): string & {};
+		Asset(): "/images/about/original-wireframe.png" | "/images/blog-django.jpg" | "/images/blog-django.svg" | "/images/blog-laptop.jpg" | "/images/blog-pizza.jpg" | "/images/hobby-chinese.jpg" | "/images/hobby-coding.jpg" | "/images/hobby-guitar.jpg" | string & {};
 	}
 }

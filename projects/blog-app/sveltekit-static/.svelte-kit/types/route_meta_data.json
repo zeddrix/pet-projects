@@ -3,8 +3,17 @@
 		"src/routes/+layout.ts",
 		"src/routes/+layout.ts"
 	],
-	"/post/[id]": [
-		"src/routes/post/[id]/+page.ts",
+	"/about": [
+		"src/routes/+layout.ts"
+	],
+	"/blog": [
+		"src/routes/+layout.ts"
+	],
+	"/blog/[id]": [
+		"src/routes/blog/[id]/+page.ts",
+		"src/routes/+layout.ts"
+	],
+	"/projects": [
 		"src/routes/+layout.ts"
 	]
 }
