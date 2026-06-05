@@ -1,0 +1,196 @@
+* {
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: transparent;
+}
+
+h1,
+button {
+	user-select: none;
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+
+	-webkit-user-drag: none;
+	-khtml-user-drag: none;
+	-moz-user-drag: none;
+	-o-user-drag: none;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	height: 100%;
+	font-size: 1rem;
+	background: #3497be;
+	overflow-y: auto;
+	overflow-x: hidden;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	margin: 0;
+}
+
+/* #word-counter__page {
+	flex: 1 0 auto;
+} */
+
+.word-counter__header {
+	height: 20vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.word-counter__heading {
+	color: whitesmoke;
+	font-size: 3rem;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.center {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+#textarea {
+	border: 3px solid black;
+	width: 90vw;
+	height: 40vh;
+	font-size: 1.2rem;
+	padding: 1rem;
+	box-shadow: inset 0px 1px 0px grey, 0px 3px 0px 0px lightgrey,
+		-10px 10px 5px black;
+}
+
+#textarea:focus {
+	outline: none;
+}
+
+#textarea,
+.your-text__section,
+.word-density__section {
+	font-size: 1.2rem;
+}
+
+.home-footer {
+	position: absolute;
+	width: 100vw;
+	bottom: 0;
+	flex-shrink: 0;
+}
+
+/* ----------------WORDS COUNTED PAGE---------------- */
+#words-counted__page {
+	display: none;
+}
+
+#your-text__body,
+.word-density__table,
+.miscellaneous__item {
+	margin: 0.7rem;
+}
+
+.header {
+	font-size: 2rem;
+	color: whitesmoke;
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 0.5rem;
+}
+
+.your-text__section,
+.word-density__section,
+.miscellaneous__section,
+.word-count__section {
+	border-bottom: 3px solid whitesmoke;
+	width: 100vw;
+	overflow: auto;
+}
+
+.your-text__section,
+.word-density__section {
+	height: 30vh;
+}
+
+.miscellaneous__section {
+	height: 20vh;
+}
+
+.word-count__section {
+	font-size: 2rem;
+	height: auto;
+	margin: 0;
+}
+
+.back-btn__div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 1rem;
+}
+
+.footer {
+	text-align: center;
+	padding: 0.5rem;
+	background: #1e5b74;
+	color: white;
+}
+
+/* ---------------BUTTONS--------------- */
+button {
+	background: #f3e410;
+	outline: none;
+	border: none;
+	font-weight: bold;
+	text-shadow: 0 -1px 0px #0000004d;
+}
+
+#count-btn {
+	padding: 1rem 2.5rem;
+	font-size: 2rem;
+	margin-top: 3rem;
+	border-radius: 20px;
+	box-shadow: inset 0px 1px 0px grey, 0px 10px 0px #999;
+}
+
+#back-btn {
+	padding: 1rem 2rem;
+	font-size: 1rem;
+	margin-top: 0.5rem;
+	border-radius: 20px;
+	box-shadow: inset 0px 1px 0px grey, 0px 8px 0px #999;
+}
+
+#count-btn:hover,
+#back-btn:hover,
+button:active {
+	color: #dfe7ea;
+	font-weight: bold;
+	cursor: pointer;
+	outline: none;
+	box-shadow: inset 0px 1px 0px grey, 0px 2px 0px 0px lightgrey,
+		0px 2px 5px #999;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+}
+::-webkit-scrollbar-track {
+	background: none;
+}
+::-webkit-scrollbar-thumb {
+	background: #414141;
+	border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
