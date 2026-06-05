@@ -20,6 +20,15 @@ const config = {
     paths: {
       base,
     },
+    prerender: {
+      handleHttpError: ({ path, message }) => {
+        if (path.includes("/projects/")) {
+          return;
+        }
+
+        throw new Error(message);
+      },
+    },
   },
 };
 
