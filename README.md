@@ -1,6 +1,6 @@
 # pet-projects
 
-A personal archive and live playground for eleven small web demos built in 2020, before modern AI-assisted tooling was common. Each demo is a self-contained static app (vanilla JavaScript or early React). A SvelteKit **wrapper** catalogs them in a sidebar and previews the originals in iframes — nothing was rewritten as Svelte components.
+A personal archive and live playground for fourteen web demos — eleven small static frontends from 2020 plus three archived full-stack projects (blog-app, microposts, devcamper-api). A SvelteKit **wrapper** catalogs them in a sidebar; static demos preview in iframes and devcamper-api shows its README in the main pane.
 
 **Live playground:** https://zeddrix.github.io/pet-projects/
 
@@ -50,6 +50,9 @@ A personal archive and live playground for eleven small web demos built in 2020,
 | [JW Guitar Templates](projects/jw-guitar-templates/) | March 2020    | Vanilla JS, custom fonts                   | [Open](https://zeddrix.github.io/pet-projects/project/jw-guitar-templates) |
 | [Animate](projects/animate/)                         | January 2020  | Animate.css, Bootstrap                     | [Open](https://zeddrix.github.io/pet-projects/project/animate)             |
 | [Robot Friend](projects/robot-friend/)               | February 2020 | HTML + CSS only                            | [Open](https://zeddrix.github.io/pet-projects/project/robot-friend)        |
+| [Blog App](projects/blog-app/)                       | February 2024 | Django archive + SvelteKit static preview  | [Open](https://zeddrix.github.io/pet-projects/project/blog-app)            |
+| [Microposts](projects/microposts/)                   | November 2020 | Webpack + mock API static CRUD             | [Open](https://zeddrix.github.io/pet-projects/project/microposts)          |
+| [DevCamper API](projects/devcamper-api/)             | 2019–2020     | Express + MongoDB (README preview)         | [Open](https://zeddrix.github.io/pet-projects/project/devcamper-api)       |
 
 Each project folder includes a portfolio-style README with purpose, tech badges, and the month/year of its first commit.
 

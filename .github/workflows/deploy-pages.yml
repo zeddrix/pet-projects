@@ -45,6 +45,11 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: Build archive static previews
+        run: |
+          node scripts/build-blog-app-static.mjs
+          node scripts/build-microposts-static.mjs
+
       - name: Install Playwright browsers
         run: pnpm exec playwright install --with-deps chromium
 

@@ -20,12 +20,14 @@ Each `projects/<slug>/README.md` includes:
 
 ## Adding a demo
 
-1. Copy or build static artifacts into `projects/<slug>/` with `index.html` as the entry.
+1. Copy or build static artifacts into `projects/<slug>/` with `index.html` as the entry, **or** use a composite folder with `preview.json` pointing at a build subpath (see `blog-app/` and `microposts/`).
 2. Add a portfolio README at `projects/<slug>/README.md`.
 3. Register the slug in `src/lib/data/projects.json`.
 4. Run `pnpm sync-projects` from the repo root (copy-only; no transforms).
 
-The SvelteKit shell serves synced files from `static/projects/<slug>/` at `{base}/projects/<slug>/`.
+Composite archives may include `original/` or `django-original/` subfolders with merged git history; only the preview subpath is synced to `static/projects/<slug>/`.
+
+The SvelteKit shell serves synced files from `static/projects/<slug>/` at `{base}/projects/<slug>/`. Projects with `displayMode: "readme"` render markdown in the main pane instead of an iframe.
 
 ## Import history
 
