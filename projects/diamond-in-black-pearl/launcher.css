@@ -108,3 +108,12 @@ body {
   padding: 0.15rem 0.4rem;
   border-radius: 4px;
 }
+
+.launcher__footer a {
+  color: #d4a853;
+  text-decoration: none;
+}
+
+.launcher__footer a:hover code {
+  text-decoration: underline;
+}

@@ -34,6 +34,7 @@ export function renderChoices(container, scene, onChoice) {
     const button = document.createElement("button");
     button.type = "button";
     button.className = "choice-btn";
+    button.dataset.testid = `dibp-choice-${choice.submit}`;
     if (scene.secrets?.includes(choice)) {
       button.classList.add("choice-btn--secret");
     }

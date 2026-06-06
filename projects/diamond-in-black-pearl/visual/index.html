@@ -10,8 +10,25 @@
     <div class="game-shell" data-testid="dibp-visual">
       <header class="game-shell__bar">
         <a class="game-shell__back" href="../index.html">&larr; Modes</a>
-        <h1 class="game-shell__title" id="scene-title">Visual Adventure</h1>
+        <h1
+          class="game-shell__title"
+          id="scene-title"
+          data-testid="dibp-scene-title"
+        >
+          Visual Adventure
+        </h1>
         <div class="game-shell__status">
+          <button
+            type="button"
+            id="sound-toggle"
+            class="game-shell__sound"
+            data-testid="dibp-sound-toggle"
+            aria-pressed="false"
+            aria-label="Toggle ambient sound"
+            title="Ambient sound"
+          >
+            &#128264;
+          </button>
           <span
             class="game-shell__inventory"
             id="inventory"
@@ -30,8 +47,22 @@
       </header>
 
       <div class="game-shell__loader" id="loader" data-testid="dibp-visual-loader">
-        <p>Loading adventure…</p>
+        <p id="boot-status" data-testid="dibp-boot-status">Tap Start to play</p>
+        <button
+          type="button"
+          id="start-button"
+          class="game-shell__start"
+          data-testid="dibp-start-button"
+        >
+          Start Adventure
+        </button>
       </div>
+
+      <span
+        data-testid="dibp-game-ready"
+        class="visually-hidden"
+        role="status"
+      ></span>
 
       <main class="game-layout" id="game-layout" hidden>
         <figure class="scene-art">
@@ -54,6 +85,27 @@
             <div class="map-panel__frame" id="adventure-map"></div>
           </section>
         </div>
+
+        <section
+          class="name-panel"
+          id="name-panel"
+          data-testid="dibp-name-form"
+          hidden
+        >
+          <h2 class="panel-heading">Your Name</h2>
+          <p class="name-panel__hint">Tell us your name, player!</p>
+          <form id="name-form" class="name-panel__form">
+            <input
+              id="name-input"
+              type="text"
+              data-testid="dibp-name-input"
+              autocomplete="name"
+              placeholder="Enter your name…"
+              required
+            />
+            <button type="submit" data-testid="dibp-name-submit">Continue</button>
+          </form>
+        </section>
 
         <section class="choices-panel" aria-label="Choices">
           <div class="choices-panel__buttons" id="choice-buttons"></div>

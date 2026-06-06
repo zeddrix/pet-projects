@@ -4,6 +4,8 @@
     "art": "../assets/scenes/intro.jpg",
     "artAlt": "Jungle path at dawn, mysterious adventure ahead",
     "mapNode": "start",
+    "ambient": "jungle",
+    "namePrompt": "Tell us your name, player!",
     "choices": []
   },
   "jungle_fork": {
@@ -11,6 +13,7 @@
     "art": "../assets/scenes/jungle_fork.jpg",
     "artAlt": "Fork in the jungle: dry road and a lake with a boat",
     "mapNode": "jungle",
+    "ambient": "jungle",
     "choices": [
       { "label": "Take the dry road (RIGHT)", "submit": "RIGHT" },
       { "label": "Go to the lake (LEFT)", "submit": "LEFT" }
@@ -22,6 +25,7 @@
     "art": "../assets/scenes/crocodile_lake.jpg",
     "artAlt": "Dangerous lake with crocodile eyes in the water",
     "mapNode": "lake",
+    "ambient": "jungle",
     "choices": [
       { "label": "Go BACK", "submit": "BACK" },
       { "label": "Let them EAT your head", "submit": "EAT" }
@@ -32,6 +36,7 @@
     "art": "../assets/scenes/scorpion_road.jpg",
     "artAlt": "Dry road swarming with scorpions",
     "mapNode": "road",
+    "ambient": "jungle",
     "choices": [
       { "label": "WALK on them", "submit": "WALK" },
       { "label": "RUN from them", "submit": "RUN" },
@@ -43,6 +48,7 @@
     "art": "../assets/scenes/boat_memory.jpg",
     "artAlt": "Empty lake shore with a lone boat",
     "mapNode": "lake",
+    "ambient": "jungle",
     "choices": [
       { "label": "At the LAKE (LEFT)", "submit": "LAKE" },
       { "label": "On the LEFT side", "submit": "LEFT" }
@@ -53,6 +59,7 @@
     "art": "../assets/scenes/boat_choice.jpg",
     "artAlt": "A wooden boat awaiting a creative decision",
     "mapNode": "road",
+    "ambient": "jungle",
     "choices": [
       { "label": "Use it as BOOTS", "submit": "BOOTS" },
       { "label": "PUSH and SLIDE on the road", "submit": "PUSH" },
@@ -65,6 +72,7 @@
     "art": "../assets/scenes/bear_encounter.jpg",
     "artAlt": "A grizzly bear blocking the end of the road",
     "mapNode": "bear",
+    "ambient": "jungle",
     "choices": [
       { "label": "BEFRIEND the bear", "submit": "BEFRIEND" },
       { "label": "PUNCH him in the face", "submit": "PUNCH" },
@@ -77,6 +85,7 @@
     "art": "../assets/scenes/basket.jpg",
     "artAlt": "A wooden basket on the forest floor",
     "mapNode": "bear",
+    "ambient": "jungle",
     "choices": [
       { "label": "KICK it away", "submit": "KICK" },
       { "label": "OPEN it", "submit": "OPEN" },
@@ -88,6 +97,7 @@
     "art": "../assets/scenes/treasure_map.jpg",
     "artAlt": "Unrolled treasure map with a skull marker",
     "mapNode": "map",
+    "ambient": "jungle",
     "choices": [
       { "label": "FOLLOW the map", "submit": "FOLLOW" },
       { "label": "CHASE the bear for directions", "submit": "CHASE" }
@@ -99,6 +109,7 @@
     "artAlt": "Pirate ship Black Pearl anchored by the shore",
     "mapNode": "ship",
     "checkpoint": true,
+    "ambient": "ship",
     "choices": [
       { "label": "ASK a pirate where treasure is HIDDEN", "submit": "ASK" },
       { "label": "LOOK for a pirate DRESS", "submit": "LOOK" }
@@ -109,6 +120,7 @@
     "art": "../assets/scenes/ask_captain.jpg",
     "artAlt": "Ominous captain silhouette aboard the ship",
     "mapNode": "ship",
+    "ambient": "ship",
     "choices": [
       { "label": "YES — do what he said", "submit": "YES" },
       { "label": "NO — go back", "submit": "NO" }
@@ -119,6 +131,7 @@
     "art": "../assets/scenes/tall_pirate.jpg",
     "artAlt": "Deck confrontation with a tall pirate and pink statue",
     "mapNode": "ship",
+    "ambient": "ship",
     "choices": [
       { "label": "PUNCH him in the face", "submit": "PUNCH" },
       { "label": "Tell him your NAME", "submit": "NAME" },
@@ -131,6 +144,7 @@
     "artAlt": "Treasure chest stowed below deck",
     "mapNode": "ship",
     "inventory": "chest",
+    "ambient": "ship",
     "choices": [
       { "label": "Ask the CAPTAIN", "submit": "CAPTAIN" },
       { "label": "Ask YOURSELF how you got in", "submit": "YOURSELF" }
@@ -141,6 +155,7 @@
     "art": "../assets/scenes/canon_memory.jpg",
     "artAlt": "Cannon portholes on the ship hull",
     "mapNode": "ship",
+    "ambient": "ship",
     "choices": [{ "label": "Through the CANON holes", "submit": "CANON" }]
   },
   "canoe_chase": {
@@ -148,6 +163,7 @@
     "art": "../assets/scenes/canoe_chase.jpg",
     "artAlt": "Canoe fleeing cannon fire from the pirate ship",
     "mapNode": "sea",
+    "ambient": "sea",
     "choices": [
       { "label": "DIVE into the water", "submit": "DIVE" },
       { "label": "FIRE back", "submit": "FIRE" },
@@ -159,6 +175,7 @@
     "art": "../assets/scenes/chest_finale.jpg",
     "artAlt": "Locked treasure chest on the beach, key missing",
     "mapNode": "beach",
+    "ambient": "sea",
     "choices": [
       { "label": "SMASH the chest open", "submit": "SMASH" },
       { "label": "Try to OPEN it", "submit": "OPEN" },
@@ -171,8 +188,20 @@
     "art": "../assets/scenes/death.jpg",
     "artAlt": "Comedic game over scene with swirling stars",
     "mapNode": "death",
+    "ambient": "none",
     "choices": [
       { "label": "YES — try again", "submit": "YES" },
+      { "label": "NO — quit", "submit": "NO" }
+    ]
+  },
+  "checkpoint_death": {
+    "title": "Checkpoint — You Died",
+    "art": "../assets/scenes/death.jpg",
+    "artAlt": "Comedic game over at a checkpoint",
+    "mapNode": "death",
+    "ambient": "none",
+    "choices": [
+      { "label": "YES — return to checkpoint", "submit": "YES" },
       { "label": "NO — quit", "submit": "NO" }
     ]
   },
@@ -181,6 +210,7 @@
     "art": "../assets/scenes/victory.jpg",
     "artAlt": "Open chest revealing a pink panther jewel",
     "mapNode": "victory",
+    "ambient": "none",
     "choices": []
   }
 }

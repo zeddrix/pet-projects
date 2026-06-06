@@ -51,12 +51,96 @@ body {
   font-size: 1.25rem;
 }
 
+.game-shell__loader[hidden] {
+  display: none !important;
+}
+
 .game-shell__loader {
   flex: 1;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 1rem;
   padding: 2rem;
+}
+
+.game-shell__start {
+  padding: 0.65rem 1.5rem;
+  border: 1px solid #d4a853;
+  background: transparent;
+  color: #d4a853;
+  font: inherit;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.game-shell__start:hover:not(:disabled) {
+  background: rgba(212, 168, 83, 0.15);
+}
+
+.game-shell__start:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.game-shell__sound {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 1.25rem;
+  padding: 0.15rem;
+  border-radius: 4px;
+  opacity: 0.75;
+}
+
+.game-shell__sound[aria-pressed="true"] {
+  opacity: 1;
+}
+
+.game-shell__sound:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.name-panel {
+  padding: 0 1rem 1rem;
+}
+
+.name-panel__hint {
+  margin: 0 0 0.75rem;
+  opacity: 0.9;
+}
+
+.name-panel__form {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.name-panel__form input {
+  flex: 1;
+  min-width: 160px;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid rgba(212, 168, 83, 0.4);
+  border-radius: 6px;
+  background: rgba(0, 0, 0, 0.25);
+  color: inherit;
+  font: inherit;
+}
+
+.name-panel__form button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #d4a853;
+  background: rgba(212, 168, 83, 0.15);
+  color: #d4a853;
+  font: inherit;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.game-layout[hidden] {
+  display: none !important;
 }
 
 .game-layout {
