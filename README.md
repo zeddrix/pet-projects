@@ -1,6 +1,6 @@
 # pet-projects
 
-A personal archive and live playground for fifteen web demos — twelve small static frontends from 2020 plus three archived full-stack projects (blog-app, microposts, devcamper-api). A SvelteKit **wrapper** catalogs them in a sidebar; static demos preview in iframes and devcamper-api shows its README in the main pane.
+A personal archive and live playground for **sixteen** web demos. A SvelteKit **wrapper** catalogs them in a sidebar; static demos preview in iframes and devcamper-api shows its README in the main pane.
 
 **Live playground:** https://zeddrix.github.io/pet-projects/
 
