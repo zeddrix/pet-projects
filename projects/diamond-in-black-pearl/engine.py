@@ -27,6 +27,11 @@ def _read(prompt: str = ">>> ") -> str:
     return _io.read(prompt)
 
 
+def _matches(text: str, *tokens: str) -> bool:
+    normalized = text.upper()
+    return any(token.upper() in normalized for token in tokens)
+
+
 def run_game(io: GameIO) -> None:
     global _io
     _io = io
@@ -46,13 +51,13 @@ Which one will you take?
 
     road = _read(">>> ")
 
-    if "right" in road or "RIGHT" in road:
+    if _matches(road, "right"):
         scorpion()
 
-    elif "left" in road or "LEFT" in road:
+    elif _matches(road, "left"):
         crocodile()
 
-    elif "BLACK PEARL" in road:
+    elif _matches(road, "BLACK PEARL"):
         the_pirate()
 
     else:
@@ -73,14 +78,14 @@ WHAT DO YOU DO?
 
     crocodiles = _read(">>> ")
 
-    if "back" in crocodiles or "BACK" in crocodiles:
+    if _matches(crocodiles, "back"):
         _write("------------------------------------------------------------------------")
         _write("Welcome back!")
         _write("------------------------------------------------------------------------")
 
         start()
 
-    elif "EAT" in crocodiles or "eat" in crocodiles:
+    elif _matches(crocodiles, "EAT"):
         restarter()
     else:
         no_idea()
@@ -101,18 +106,18 @@ WHAT DO YOU DO?
 
     scorpions = _read(">>> ")
 
-    if "walk" in scorpions or "WALK" in scorpions:
+    if _matches(scorpions, "walk"):
         _write("------------------------------------------------------------------------")
         _write("Wow! You're quite brave! But the scorpions stung you and you fell unconscious and laid eggs in your brain.")
         restarter()
 
-    elif "run" in scorpions or "RUN" in scorpions:
+    elif _matches(scorpions, "run"):
         _write("------------------------------------------------------")
         _write("""Wow! You're quite brave! Your energy drained and these scorpions were all over this road. 
         The scorpions stung you and you fell unconscious and laid eggs in your brain!""")
         restarter()
 
-    elif "BOAT" in scorpions or "boat" in scorpions:
+    elif _matches(scorpions, "BOAT"):
         where_boat()
     else:
         no_idea()
@@ -128,7 +133,7 @@ def where_boat():
 
     where = _read(">>> ")
 
-    if "lake" in where or "LAKE" in where or "left" in where or "LEFT" in where:
+    if _matches(where, "lake", "left"):
         _write("------------------")
         _write("GOOD MEMORY!")
         _write("------------------")
@@ -154,14 +159,14 @@ def the_boat():
 
     boat = _read(">>> ")
 
-    if "boots" in boat or "BOOTS" in boat:
+    if _matches(boat, "boots"):
         _write("------------------------------------------------------")
         _write("Are you CRAZY? AGAIN!")
         _write("------------------------------------------------------")
 
         the_boat()
 
-    elif "torch" in boat or "TORCH" in boat:
+    elif _matches(boat, "torch"):
         _write("------------------------------------------------------")
         _write("""They avoided you at first but eventually, you RAN OUT of wood. 
             the scorpions stung you, you fell unconscious, then they came inside your nose and ears 
@@ -169,13 +174,13 @@ def the_boat():
         _write("------------------------------------------------------")
         restarter()
 
-    elif "BONFIRE" in boat or "bonfire" in boat:
+    elif _matches(boat, "BONFIRE"):
         _write("------------------------------------------------------")
         _write("Sure! The scorpions will HELP you with ending your life quicker. Tsk tsk.. AGAIN!")
         _write("------------------------------------------------------")
         the_boat()
 
-    elif "PUSH" in boat or "push" in boat:
+    elif _matches(boat, "PUSH"):
         _write("------------------------------------------------------")
         _write("Good job!")
         _write("------------------------------------------------------")
@@ -200,26 +205,26 @@ def the_bear():
 
     bear = _read(">>> ")
 
-    if "dead" in bear or "DEAD" in bear:
+    if _matches(bear, "dead"):
         _write("------------------------------------------------------")
         _write("The BEAR walked away. Woah! How did you know that?")
         _write("------------------------------------------------------")
         the_basket()
 
-    elif "befriend" in bear or "BEFRIEND" in bear:
+    elif _matches(bear, "befriend"):
         _write("------------------------------------------------------")
         _write("WELCOME TO THE CLUB OF BEARS!")
         _write("idiot...")
         _write("------------------------------------------------------")
         restarter()
 
-    elif "punch" in bear or "PUNCH" in bear:
+    elif _matches(bear, "punch"):
         _write("------------------------------------------------------")
         _write("ARE YOU CRAZY?")
         _write("------------------------------------------------------")
         restarter()
 
-    elif "eat" in bear or "EAT" in bear:
+    elif _matches(bear, "eat"):
 
         _write("------------------------------------------------------")
         _write("AND YOU THINK THEY'LL EAT THE BOAT AND NOT YOU IF YOU DO THAT???")
@@ -246,9 +251,9 @@ WHAT DO YOU DO?
 
     basket = _read(">>> ")
 
-    if "open" in basket or "OPEN" in basket:
+    if _matches(basket, "open"):
         the_map()
-    elif "kick" in basket or "KICK" in basket or "carry" in basket or "CARRY" in basket:
+    elif _matches(basket, "kick", "carry"):
         _write("------------------------------------------------------")
         _write("ARE YOU CRAZY? Why would you do that?")
         _write("------------------------------------------------------")
@@ -272,14 +277,14 @@ WOULD YOU:
 
     dmap = _read(">>> ")
 
-    if "chase" in dmap or "CHASE" in dmap or "ASK" in dmap or "ask" in dmap:
+    if _matches(dmap, "chase", "ASK"):
         _write("------------------------------------------------------")
         _write("GREAT JOB! You are now one of the BEAR GANG!")
         _write("idiot...")
         _write("------------------------------------------------------")
         restarter()
 
-    elif "follow" in dmap or "FOLLOW" in dmap:
+    elif _matches(dmap, "follow"):
         the_pirate()
 
     else:
@@ -307,13 +312,13 @@ HOW WOULD YOU LOOK FOR THE PINK PANTHER?
 
     pirate = _read(">>> ")
 
-    if "ask" in pirate or "ASK" in pirate:
+    if _matches(pirate, "ask"):
         _write("------------------------------------------------------")
         _write("He told you to go to the CAPTAIN of the ship and ask where the PINK PANTHER is.")
 
         ask_captain()
 
-    elif "LOOK" in pirate or "look" in pirate:
+    elif _matches(pirate, "LOOK"):
         tall_pirate()
 
     else:
@@ -329,14 +334,14 @@ def ask_captain():
 
     ask = _read(">>> ")
 
-    if "YES" in ask or "yes" in ask:
+    if _matches(ask, "YES"):
         _write("------------------------------------------------------")
         _write("""Very well.
 You went to the CAPTAIN and did what the pirate TOLD you to ask. The Captain LAUGHED OUT LOUD and CHOPPED your head off.
 idiot...""")
         check_point()
 
-    elif "no" in ask or "NO" in ask:
+    elif _matches(ask, "no"):
         _write("\n\n------------------------------------------------------")
         _write("Alright. You've returned to the . . .")
         the_pirate()
@@ -362,7 +367,7 @@ WHAT DO YOU DO NOW?
 
     PIRATE = _read(">>> ")
 
-    if "punch" in PIRATE or "PUNCH" in PIRATE:
+    if _matches(PIRATE, "punch"):
         _write("------------------------------------------------------------------------")
         _write("""He has a WELL-BUILT Body.
 He knocked you out and brought you to the CAPTAIN.
@@ -371,13 +376,13 @@ Where's your SIX-PACKS now?""")
 
         check_point()
 
-    elif "RUN" in PIRATE or "run" in PIRATE:
+    elif _matches(PIRATE, "RUN"):
         _write("------------------------------------------------------------------------")
         _write("""You can outrun him because you are smaller than him.
 But of course that would make a noise. The crew heard you and brought you to the captain.""")
         check_point()
 
-    elif "name" in PIRATE or "NAME" in PIRATE:
+    elif _matches(PIRATE, "name"):
         the_treasure()
     else:
         no_idea()
@@ -398,14 +403,14 @@ But how are you gonna get OUT?
 
     treasure = _read(">>> ")
 
-    if "captain" in treasure or "CAPTAIN" in treasure:
+    if _matches(treasure, "captain"):
         _write("------------------------------------------------------------------------")
         _write("""You just STOLE from a man and asked HIM how to get HIS property out of HIS house?!
 What do you think he'll do to ye? Make you walk the plank? Abandon you on a deserted island?
 Or perhaps bury you in that island alive? Well me, I dunno. . .""")
         check_point()
 
-    elif "yourself" in treasure or "YOURSELF" in treasure:
+    elif _matches(treasure, "yourself"):
         way_out()
 
     else:
@@ -421,7 +426,7 @@ def way_out():
 
     canon = _read(">>> ")
 
-    if "canon" in canon or "CANON" in canon:
+    if _matches(canon, "canon"):
         _write("------------------------------------------------------")
         _write("GOOD MEMORY!")
         _write("------------------------------------------------------")
@@ -448,21 +453,21 @@ WHAT DO YOU NOW?
 
     paddle = _read(">>> ")
 
-    if "dive" in paddle or "DIVE" in paddle:
+    if _matches(paddle, "dive"):
         _write("------------------------------------------------------------------------")
         _write("""You got AWAY! GREAT JOB! But you left the TREASURE on the canoe. 
 You came back and was hit by the pirates.""")
         _write("------------------------------------------------------------------------")
         check_point()
 
-    elif "fire" in paddle or "FIRE" in paddle:
+    elif _matches(paddle, "fire"):
         _write("------------------------------------------------------------------------")
         _write(
             """ARE YOU CRAZY? You're in a canoe! What will you fire back? Your paddles?""")
         _write("------------------------------------------------------------------------")
         go_paddle()
 
-    elif "paddle" in paddle or "PADDLE" in paddle:
+    elif _matches(paddle, "paddle"):
         _write("Great paddling!")
         treasure_chest()
 
@@ -481,7 +486,7 @@ def treasure_chest():
 
     key = _read(">>> ")
 
-    if "smash" in key or "SMASH" in key:
+    if _matches(key, "smash"):
         _write("\n \n")
 
         _scene("victory")
@@ -498,30 +503,30 @@ def treasure_chest():
         _write("\n But how are gonna get back home?")
         _write("\n PART II COMING SOON..")
 
-    elif "open" in key or "OPEN" in key:
+    elif _matches(key, "open"):
         _write("------------------------------------------------------")
         _write("You don't have a key.")
         _write("------------------------------------------------------")
         treasure_chest()
-    elif "destroy" in key or "DESTROY" in key:
+    elif _matches(key, "destroy"):
         _write("------------------------------------------------------")
         _write("With what?? TRY AGAIN!")
         _write("------------------------------------------------------")
         treasure_chest()
 
-    elif "wreck" in key or "WRECK" in key:
+    elif _matches(key, "wreck"):
         _write("------------------------------------------------------")
         _write("With your hands wreck-it-ralph? TRY AGAIN!")
         _write("------------------------------------------------------")
         treasure_chest()
 
-    elif "throw" in key or "THROW" in key:
+    elif _matches(key, "throw"):
         _write("------------------------------------------------------")
         _write("You just got the chest and now you wanna get rid of it? TRY AGAIN!")
         _write("------------------------------------------------------")
         treasure_chest()
 
-    elif "back" in key or "BACK" in key:
+    elif _matches(key, "back"):
         back()
 
     else:
@@ -537,13 +542,13 @@ def back():
 
     go_back = _read(">>> ")
 
-    if "yes" in go_back or "YES" in go_back:
+    if _matches(go_back, "yes"):
         _write("\n ------------------------------------------------------")
         _write("\n They caught you and killed ya.")
         _write("------------------------------------------------------ \n")
         check_point()
 
-    elif "no" in go_back or "NO" in go_back:
+    elif _matches(go_back, "no"):
         _write("\n------------------------------------------------------")
         _write("\n GOOD! Think again.")
         _write("------------------------------------------------------")
@@ -571,12 +576,12 @@ def restarter():
 YES or NO""")
     restart = _read(">>> ")
 
-    if "yes" in restart or "YES" in restart:
+    if _matches(restart, "yes"):
         _write("------------------------------------------------------------------------")
         _write("\nWELCOME BACK!")
         name()
 
-    if "no" in restart or "NO" in restart:
+    if _matches(restart, "no"):
         _write("------------------------------------------------------------------------")
         _write("BYE!")
 
@@ -615,13 +620,13 @@ def check_point():
 YES or NO""")
     restart = _read(">>> ")
 
-    if "yes" in restart or "YES" in restart:
+    if _matches(restart, "yes"):
         _write("------------------------------------------------------------------------")
         _write("\nWELCOME BACK!")
         _write("------------------------------------------------------------------------")
         the_pirate()
 
-    if "no" in restart or "NO" in restart:
+    if _matches(restart, "no"):
         _write("------------------------------------------------------------------------")
         _write("BYE!")
 

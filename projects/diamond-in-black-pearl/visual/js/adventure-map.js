@@ -9,6 +9,10 @@ export async function loadMap(container) {
 /** @type {Set<string>} */
 const visited = new Set();
 
+export function resetVisitedMap() {
+  visited.clear();
+}
+
 /** @param {HTMLElement} container */
 /** @param {string} nodeId */
 /** @param {boolean} [isCheckpoint] */

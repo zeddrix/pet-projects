@@ -8,6 +8,7 @@
 /** @param {HTMLImageElement} img */
 /** @param {SceneDef} scene */
 export function renderSceneArt(img, scene) {
+  img.dataset.testid = "dibp-scene-art";
   img.classList.add("is-fading");
   window.setTimeout(() => {
     img.src = scene.art;

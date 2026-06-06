@@ -9,23 +9,11 @@ way_out, go_paddle, treasure_chest, back, restarter, check_point.
 from __future__ import annotations
 
 import pytest
+import json
+from pathlib import Path
 
-WIN_PATH_INPUTS = [
-    "Hero",
-    "RIGHT",
-    "BOAT",
-    "LAKE",
-    "PUSH",
-    "DEAD",
-    "OPEN",
-    "FOLLOW",
-    "LOOK",
-    "NAME",
-    "YOURSELF",
-    "CANON",
-    "PADDLE",
-    "SMASH",
-]
+FIXTURE_PATH = Path(__file__).resolve().parent / "fixtures" / "win-path.json"
+WIN_PATH_INPUTS = json.loads(FIXTURE_PATH.read_text(encoding="utf-8"))["terminalInputs"]
 
 # Reaches death scene then quits (works from jungle fork onward).
 DEATH_QUIT = ["LEFT", "EAT", "NO"]

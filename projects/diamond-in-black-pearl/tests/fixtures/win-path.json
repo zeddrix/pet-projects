@@ -1,0 +1,33 @@
+{
+  "visualChoices": [
+    "RIGHT",
+    "BOAT",
+    "LAKE",
+    "PUSH",
+    "DEAD",
+    "OPEN",
+    "FOLLOW",
+    "LOOK",
+    "NAME",
+    "YOURSELF",
+    "CANON",
+    "PADDLE",
+    "SMASH"
+  ],
+  "terminalInputs": [
+    "Hero",
+    "RIGHT",
+    "BOAT",
+    "LAKE",
+    "PUSH",
+    "DEAD",
+    "OPEN",
+    "FOLLOW",
+    "LOOK",
+    "NAME",
+    "YOURSELF",
+    "CANON",
+    "PADDLE",
+    "SMASH"
+  ]
+}

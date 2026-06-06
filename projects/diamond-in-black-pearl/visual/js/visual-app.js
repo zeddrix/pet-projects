@@ -1,9 +1,11 @@
 import { AmbientAudio } from "./ambient-audio.js";
 import { GameClient } from "../../shared/js/game-client.js";
+import { bootDibpGame } from "../../shared/js/dibp-boot.js";
 import {
   highlightMapNode,
   loadMap,
   markCheckpoint,
+  resetVisitedMap,
 } from "./adventure-map.js";
 import {
   appendNarrative,
@@ -135,6 +137,7 @@ function handleSceneChange(sceneId) {
 
   if (sceneId === "intro" && previousScene === "death") {
     clearDibpProgress();
+    resetVisitedMap();
   }
 
   if (sceneId === "intro") {
@@ -208,31 +211,6 @@ document.addEventListener("dibp-game-ready", () => {
 
 startButton.addEventListener("click", async () => {
   startButton.disabled = true;
-  updateBootStatus("Loading Python…");
-
-  const scenesResponse = await fetch("../scenes.json");
-  scenes = await scenesResponse.json();
-  await loadMap(adventureMap);
-
-  const savedInventory = localStorage.getItem("dibp-inventory") === "true";
-  const savedCheckpoint = localStorage.getItem("dibp-checkpoint") === "true";
-  if (savedInventory) {
-    hasInventory = true;
-    setInventoryVisible(inventory, true);
-  }
-  if (savedCheckpoint) {
-    hasCheckpoint = true;
-    setCheckpointVisible(checkpointBadge, true);
-  }
-
-  ambientAudio = new AmbientAudio(soundToggle);
-
-  const workerUrl = new URL(
-    "../../shared/js/pyodide-worker.js",
-    import.meta.url,
-  );
-  const engineUrl = new URL("../../engine.py", import.meta.url).href;
-  const pyodideBaseUrl = new URL("../../vendor/pyodide/", import.meta.url).href;
 
   gameClient = new GameClient({
     write: (text) => {
@@ -243,5 +221,27 @@ startButton.addEventListener("click", async () => {
     onBootStatus: updateBootStatus,
   });
 
-  gameClient.start(workerUrl.href, engineUrl, pyodideBaseUrl);
+  await bootDibpGame({
+    onBootStart: () => updateBootStatus("Loading Python…"),
+    gameClient,
+    moduleUrl: import.meta.url,
+    beforeStart: async () => {
+      const scenesResponse = await fetch("../scenes.json");
+      scenes = await scenesResponse.json();
+      await loadMap(adventureMap);
+
+      const savedInventory = localStorage.getItem("dibp-inventory") === "true";
+      const savedCheckpoint = localStorage.getItem("dibp-checkpoint") === "true";
+      if (savedInventory) {
+        hasInventory = true;
+        setInventoryVisible(inventory, true);
+      }
+      if (savedCheckpoint) {
+        hasCheckpoint = true;
+        setCheckpointVisible(checkpointBadge, true);
+      }
+
+      ambientAudio = new AmbientAudio(soundToggle);
+    },
+  });
 });

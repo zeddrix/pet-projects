@@ -109,6 +109,7 @@ export class AmbientAudio {
     this.#fadeVolume(fading, 0, 600);
     window.setTimeout(() => {
       fading.pause();
+      fading.remove();
     }, 650);
   }
 

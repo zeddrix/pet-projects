@@ -1,4 +1,5 @@
 import { GameClient } from "../../shared/js/game-client.js";
+import { bootDibpGame } from "../../shared/js/dibp-boot.js";
 
 const loader = document.getElementById("loader");
 const bootStatus = document.getElementById("boot-status");
@@ -28,12 +29,11 @@ let pendingResolve = null;
 /** @type {GameClient | null} */
 let gameClient = null;
 
-/** @type {string} */
-let lastBootStatus = bootStatus.textContent ?? "";
+/** @type {Record<string, { title: string }>} */
+let scenes = {};
 
 /** @param {string} status */
 function updateBootStatus(status) {
-  lastBootStatus = status;
   bootStatus.textContent = status;
   bootStatus.dataset.stage = status;
 }
@@ -55,15 +55,8 @@ function readInput() {
 
 /** @param {string} sceneId */
 function handleScene(sceneId) {
-  const labels = {
-    intro: "Welcome",
-    jungle_fork: "Uncharted Jungle",
-    death: "You Died",
-    checkpoint_death: "Checkpoint — You Died",
-    victory: "Victory!",
-  };
   sceneTitle.textContent =
-    labels[sceneId] ?? sceneId.replaceAll("_", " ");
+    scenes[sceneId]?.title ?? sceneId.replaceAll("_", " ");
 }
 
 form.addEventListener("submit", (event) => {
@@ -76,8 +69,6 @@ form.addEventListener("submit", (event) => {
     const resolve = pendingResolve;
     pendingResolve = null;
     resolve(line);
-  } else {
-    gameClient?.submitInput(line);
   }
 });
 
@@ -86,16 +77,8 @@ document.addEventListener("dibp-game-ready", () => {
   screen.hidden = false;
 });
 
-startButton.addEventListener("click", () => {
+startButton.addEventListener("click", async () => {
   startButton.disabled = true;
-  updateBootStatus("Loading Python…");
-
-  const workerUrl = new URL(
-    "../../shared/js/pyodide-worker.js",
-    import.meta.url,
-  );
-  const engineUrl = new URL("../../engine.py", import.meta.url).href;
-  const pyodideBaseUrl = new URL("../../vendor/pyodide/", import.meta.url).href;
 
   gameClient = new GameClient({
     write: appendOutput,
@@ -104,5 +87,13 @@ startButton.addEventListener("click", () => {
     onBootStatus: updateBootStatus,
   });
 
-  gameClient.start(workerUrl.href, engineUrl, pyodideBaseUrl);
+  await bootDibpGame({
+    onBootStart: () => updateBootStatus("Loading Python…"),
+    gameClient,
+    moduleUrl: import.meta.url,
+    beforeStart: async () => {
+      const scenesResponse = await fetch("../scenes.json");
+      scenes = await scenesResponse.json();
+    },
+  });
 });
