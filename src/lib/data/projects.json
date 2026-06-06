@@ -210,7 +210,7 @@
       {
         "id": "source",
         "label": "Visual adventure (Pyodide)",
-        "techStack": ["Pyodide", "AI-generated PNG art", "Vanilla JS"],
+        "techStack": ["Pyodide", "AI-generated JPEG art", "Vanilla JS"],
         "folderPath": "visual"
       }
     ],

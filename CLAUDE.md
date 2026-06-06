@@ -23,10 +23,13 @@ Follow these (shell/wrapper scope only):
 - [docs/e2e-journey-coverage-matrix.md](docs/e2e-journey-coverage-matrix.md)
 - [docs/e2e-canonical-ownership.md](docs/e2e-canonical-ownership.md)
 
+**Exception — Diamond in Black Pearl:** game engine and demo UI tests live outside wrapper vitest/playwright defaults. See [docs/dibp-testing-rules.md](docs/dibp-testing-rules.md). Commands: `pnpm test:dibp-engine`, `pnpm test:dibp-e2e`.
+
 ## Commands
 
 ```bash
 pnpm sync-projects && pnpm quality && pnpm test:unit && pnpm test:e2e
+pnpm test:dibp-engine && pnpm test:dibp-e2e
 BASE_PATH=/pet-projects pnpm build:pages
 ```
 

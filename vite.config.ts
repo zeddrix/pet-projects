@@ -7,9 +7,21 @@ function projectDirectoryIndex(): Plugin {
     configureServer(server) {
       server.middlewares.use((req, _res, next) => {
         const url = req.url ?? "";
-        if (/\/projects\/[^/?]+\/$/.test(url.split("?")[0] ?? "")) {
-          req.url = `${url.replace(/\/$/, "")}/index.html`;
+        const pathOnly = url.split("?")[0] ?? "";
+        const query = url.includes("?") ? url.slice(url.indexOf("?")) : "";
+
+        if (!pathOnly.endsWith("/")) {
+          next();
+          return;
         }
+
+        const isProjectRoot = /\/projects\/[^/?]+\/$/.test(pathOnly);
+        const isProjectNested = /\/projects\/[^/?]+\/.+\/$/.test(pathOnly);
+
+        if (isProjectRoot || isProjectNested) {
+          req.url = `${pathOnly.replace(/\/$/, "")}/index.html${query}`;
+        }
+
         next();
       });
     },

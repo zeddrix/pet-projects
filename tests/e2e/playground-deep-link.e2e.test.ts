@@ -44,7 +44,7 @@ test.describe("playground deep link", () => {
     await expect(page).toHaveURL(/\/project\/diamond-in-black-pearl/);
     await expect(page.getByTestId("playground-frame")).toHaveAttribute(
       "src",
-      /diamond-in-black-pearl\/visual\/$/,
+      /diamond-in-black-pearl\/visual\/index\.html$/,
     );
     await expect(page.getByTestId("playground-title")).toContainText(
       "Diamond in Black Pearl",

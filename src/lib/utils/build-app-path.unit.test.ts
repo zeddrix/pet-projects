@@ -38,4 +38,14 @@ describe("buildPlaygroundFrameSrc", () => {
       buildPlaygroundFrameSrc("/pet-projects", "blog-app", "projects.html"),
     ).toBe("/pet-projects/projects/blog-app/projects.html");
   });
+
+  it("appends index.html for demo entry directories", () => {
+    expect(
+      buildPlaygroundFrameSrc(
+        "/pet-projects",
+        "diamond-in-black-pearl",
+        "visual/",
+      ),
+    ).toBe("/pet-projects/projects/diamond-in-black-pearl/visual/index.html");
+  });
 });
