@@ -1,0 +1,180 @@
+import { expect, test } from "@playwright/test";
+import {
+  clearDibpStorage,
+  clickChoice,
+  dibpPath,
+  expectSceneTitle,
+  startGame,
+  submitName,
+  typeTerminalLine,
+  waitForGameReady,
+} from "./helpers/dibp-page";
+
+const WIN_TERMINAL_INPUTS = [
+  "Hero",
+  "RIGHT",
+  "BOAT",
+  "LAKE",
+  "PUSH",
+  "DEAD",
+  "OPEN",
+  "FOLLOW",
+  "LOOK",
+  "NAME",
+  "YOURSELF",
+  "CANON",
+  "PADDLE",
+  "SMASH",
+];
+
+test.describe("DIBP visual journeys", () => {
+  test.beforeEach(async ({ page }) => {
+    await clearDibpStorage(page);
+  });
+
+  test("Given visual demo loaded, when player wins via choices, then victory scene appears", async ({
+    page,
+  }) => {
+    await page.goto(dibpPath("visual/index.html"));
+    await startGame(page);
+    await waitForGameReady(page);
+    await submitName(page, "Hero");
+    await clickChoice(page, "RIGHT");
+    await clickChoice(page, "BOAT");
+    await clickChoice(page, "LAKE");
+    await clickChoice(page, "PUSH");
+    await clickChoice(page, "DEAD");
+    await clickChoice(page, "OPEN");
+    await clickChoice(page, "FOLLOW");
+    await clickChoice(page, "LOOK");
+    await clickChoice(page, "NAME");
+    await clickChoice(page, "YOURSELF");
+    await clickChoice(page, "CANON");
+    await clickChoice(page, "PADDLE");
+    await clickChoice(page, "SMASH");
+    await expectSceneTitle(page, "Victory");
+    await expect(page.getByTestId("dibp-scene-title")).toContainText("Victory");
+    await expect(page.locator("#narrative-log")).toContainText("GAME OVER");
+  });
+
+  test("Given jungle fork, when player goes LEFT then BACK, then jungle fork returns", async ({
+    page,
+  }) => {
+    await page.goto(dibpPath("visual/index.html"));
+    await startGame(page);
+    await waitForGameReady(page);
+    await submitName(page, "Hero");
+    await clickChoice(page, "LEFT");
+    await expectSceneTitle(page, "Deadly Lake");
+    await clickChoice(page, "BACK");
+    await expectSceneTitle(page, "Uncharted Jungle");
+  });
+
+  test("Given scorpion road, when player walks, then death and intro restart", async ({
+    page,
+  }) => {
+    await page.goto(dibpPath("visual/index.html"));
+    await startGame(page);
+    await waitForGameReady(page);
+    await submitName(page, "Hero");
+    await clickChoice(page, "RIGHT");
+    await clickChoice(page, "WALK");
+    await expectSceneTitle(page, "You Died");
+    await clickChoice(page, "YES");
+    await expect(page.getByTestId("dibp-name-form")).toBeVisible();
+    await expectSceneTitle(page, "Welcome");
+  });
+
+  test("Given checkpoint death, when player restarts YES, then pirate checkpoint returns", async ({
+    page,
+  }) => {
+    await page.goto(dibpPath("visual/index.html"));
+    await startGame(page);
+    await waitForGameReady(page);
+    await submitName(page, "Hero");
+    await clickChoice(page, "BLACK PEARL");
+    await clickChoice(page, "LOOK");
+    await clickChoice(page, "PUNCH");
+    await expectSceneTitle(page, "Checkpoint");
+    await clickChoice(page, "YES");
+    await expectSceneTitle(page, "Black Pearl");
+  });
+
+  test("Given sound toggle, when user enables it, then aria-pressed becomes true", async ({
+    page,
+  }) => {
+    await page.goto(dibpPath("visual/index.html"));
+    await startGame(page);
+    await waitForGameReady(page);
+    const toggle = page.getByTestId("dibp-sound-toggle");
+    await expect(toggle).toHaveAttribute("aria-pressed", "false");
+    await toggle.click();
+    await expect(toggle).toHaveAttribute("aria-pressed", "true");
+    await submitName(page, "Hero");
+    await clickChoice(page, "RIGHT");
+    await expect(
+      page.locator('[data-testid="dibp-ambient-audio"]'),
+    ).toHaveCount(1, { timeout: 10_000 });
+  });
+
+  test("Given jungle secret, when player whispers Black Pearl, then ship checkpoint appears", async ({
+    page,
+  }) => {
+    await page.goto(dibpPath("visual/index.html"));
+    await startGame(page);
+    await waitForGameReady(page);
+    await submitName(page, "Hero");
+    await clickChoice(page, "BLACK PEARL");
+    await expectSceneTitle(page, "Black Pearl");
+  });
+});
+
+test.describe("DIBP terminal journeys", () => {
+  test.beforeEach(async ({ page }) => {
+    await clearDibpStorage(page);
+  });
+
+  test("Given terminal demo, when player types win path, then output shows victory", async ({
+    page,
+  }) => {
+    await page.goto(dibpPath("terminal/index.html"));
+    await startGame(page);
+    await waitForGameReady(page);
+    for (const line of WIN_TERMINAL_INPUTS) {
+      await typeTerminalLine(page, line);
+    }
+    await expect(page.locator("#terminal-output")).toContainText("GAME OVER");
+    await expect(page.locator("#terminal-output")).toContainText(
+      "PINK PANTHER",
+    );
+  });
+
+  test("Given terminal demo, when player types invalid input, then no-idea message appears", async ({
+    page,
+  }) => {
+    await page.goto(dibpPath("terminal/index.html"));
+    await startGame(page);
+    await waitForGameReady(page);
+    await typeTerminalLine(page, "Hero");
+    await typeTerminalLine(page, "MAYBE");
+    await expect(page.locator("#terminal-output")).toContainText(
+      "NO IDEA WHAT YOU'RE SAYING",
+    );
+  });
+
+  test("Given terminal death, when player restarts YES, then welcome and name prompt return", async ({
+    page,
+  }) => {
+    await page.goto(dibpPath("terminal/index.html"));
+    await startGame(page);
+    await waitForGameReady(page);
+    await typeTerminalLine(page, "Hero");
+    await typeTerminalLine(page, "LEFT");
+    await typeTerminalLine(page, "EAT");
+    await typeTerminalLine(page, "YES");
+    await expect(page.locator("#terminal-output")).toContainText(
+      "WELCOME BACK",
+    );
+    await expect(page.locator("#terminal-output")).toContainText("Name:");
+  });
+});
