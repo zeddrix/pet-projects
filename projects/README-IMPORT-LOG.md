@@ -14,7 +14,15 @@ Generated: 2026-06-05T04:53:15.181Z
 | jw-guitar-templates | zeddrix/jw-guitar-templates | master | static |
 | animate | zeddrix/animate | master | static |
 | robot-friend | zeddrix/robot-friend | master | static |
+| bible-query | zeddrix/bible-query | master | static |
 | github-finder-jsx | zeddrix/github-finder-jsx | main | docker-build (HashRouter) |
+
+## bible-query history verification
+
+```bash
+git log --oneline -- projects/bible-query | tail -5
+git rev-list --count HEAD -- projects/bible-query
+```
 
 ## github-finder-jsx rebuild
 

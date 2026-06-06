@@ -15,3 +15,4 @@ Generated: 2026-06-05T04:13:51.781Z
 | jw-guitar-templates | ok | master | jw-guitar-templates | projects/jw-guitar-templates/README.md |
 | animate | ok | master | animate | projects/animate/README.md |
 | robot-friend | missing | — | robot-friend | README.md not found on main or master |
+| bible-query | ok | master | bible-query | projects/bible-query/README.md |
