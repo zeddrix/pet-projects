@@ -1,3 +1,5 @@
+import { readFileSync } from "node:fs";
+import { resolve } from "node:path";
 import { expect, test } from "@playwright/test";
 import {
   clearDibpStorage,
@@ -10,22 +12,18 @@ import {
   waitForGameReady,
 } from "./helpers/dibp-page";
 
-const WIN_TERMINAL_INPUTS = [
-  "Hero",
-  "RIGHT",
-  "BOAT",
-  "LAKE",
-  "PUSH",
-  "DEAD",
-  "OPEN",
-  "FOLLOW",
-  "LOOK",
-  "NAME",
-  "YOURSELF",
-  "CANON",
-  "PADDLE",
-  "SMASH",
-];
+const winPathFixture = JSON.parse(
+  readFileSync(
+    resolve(
+      import.meta.dirname,
+      "../../projects/diamond-in-black-pearl/tests/fixtures/win-path.json",
+    ),
+    "utf8",
+  ),
+) as { visualChoices: string[]; terminalInputs: string[] };
+
+const WIN_TERMINAL_INPUTS = winPathFixture.terminalInputs;
+const WIN_VISUAL_CHOICES = winPathFixture.visualChoices;
 
 test.describe("DIBP visual journeys", () => {
   test.beforeEach(async ({ page }) => {
@@ -39,19 +37,9 @@ test.describe("DIBP visual journeys", () => {
     await startGame(page);
     await waitForGameReady(page);
     await submitName(page, "Hero");
-    await clickChoice(page, "RIGHT");
-    await clickChoice(page, "BOAT");
-    await clickChoice(page, "LAKE");
-    await clickChoice(page, "PUSH");
-    await clickChoice(page, "DEAD");
-    await clickChoice(page, "OPEN");
-    await clickChoice(page, "FOLLOW");
-    await clickChoice(page, "LOOK");
-    await clickChoice(page, "NAME");
-    await clickChoice(page, "YOURSELF");
-    await clickChoice(page, "CANON");
-    await clickChoice(page, "PADDLE");
-    await clickChoice(page, "SMASH");
+    for (const choice of WIN_VISUAL_CHOICES) {
+      await clickChoice(page, choice);
+    }
     await expectSceneTitle(page, "Victory");
     await expect(page.getByTestId("dibp-scene-title")).toContainText("Victory");
     await expect(page.locator("#narrative-log")).toContainText("GAME OVER");
@@ -126,6 +114,26 @@ test.describe("DIBP visual journeys", () => {
     await submitName(page, "Hero");
     await clickChoice(page, "BLACK PEARL");
     await expectSceneTitle(page, "Black Pearl");
+  });
+
+  test("Given jungle fork after death restart, when map renders, then visited nodes reset", async ({
+    page,
+  }) => {
+    await page.goto(dibpPath("visual/index.html"));
+    await startGame(page);
+    await waitForGameReady(page);
+    await submitName(page, "Hero");
+    await clickChoice(page, "RIGHT");
+    await expect(
+      page.locator('[data-node="road"].map-node--visited'),
+    ).toBeVisible();
+    await clickChoice(page, "WALK");
+    await expectSceneTitle(page, "You Died");
+    await clickChoice(page, "YES");
+    await expectSceneTitle(page, "Welcome");
+    await expect(
+      page.locator('[data-node="road"].map-node--visited'),
+    ).toHaveCount(0);
   });
 });
 

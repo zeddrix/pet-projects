@@ -1,4 +1,4 @@
-import { expect, type Page } from "@playwright/test";
+import { expect, type FrameLocator, type Page } from "@playwright/test";
 import { pagesPath } from "../../e2e/fixtures/pages-env";
 
 export const DIBP_BASE = pagesPath("/projects/diamond-in-black-pearl");
@@ -6,6 +6,21 @@ export const DIBP_BASE = pagesPath("/projects/diamond-in-black-pearl");
 export function dibpPath(subpath: string): string {
   const normalized = subpath.startsWith("/") ? subpath.slice(1) : subpath;
   return `${DIBP_BASE}/${normalized}`;
+}
+
+export function playgroundFrame(page: Page): FrameLocator {
+  return page.frameLocator('[data-testid="playground-frame"]');
+}
+
+export async function startGameInPlaygroundIframe(
+  page: Page,
+): Promise<FrameLocator> {
+  const frame = playgroundFrame(page);
+  await frame.getByTestId("dibp-start-button").click();
+  await expect(frame.getByTestId("dibp-game-ready")).toHaveText("ready", {
+    timeout: 120_000,
+  });
+  return frame;
 }
 
 export async function clearDibpStorage(page: Page): Promise<void> {

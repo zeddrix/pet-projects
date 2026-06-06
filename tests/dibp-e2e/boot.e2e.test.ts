@@ -4,6 +4,7 @@ import {
   clearDibpStorage,
   dibpPath,
   startGame,
+  startGameInPlaygroundIframe,
   waitForGameReady,
 } from "./helpers/dibp-page";
 
@@ -31,6 +32,10 @@ test.describe("DIBP boot", () => {
     await expect(page.getByTestId("dibp-visual-loader")).toBeHidden();
     await expect(page.getByTestId("dibp-scene-title")).toContainText("Welcome");
     await expect(page.getByTestId("dibp-name-form")).toBeVisible();
+    await expect(page.getByTestId("dibp-scene-art")).toHaveAttribute(
+      "src",
+      /\.webp$/,
+    );
   });
 
   test("Given playground iframe on terminal demo, when user starts game, then frame shows ready signals", async ({
@@ -47,12 +52,39 @@ test.describe("DIBP boot", () => {
       "src",
       /terminal\/index\.html/,
     );
-    const frame = page.frameLocator('[data-testid="playground-frame"]');
-    await frame.getByTestId("dibp-start-button").click();
-    await expect(frame.getByTestId("dibp-game-ready")).toHaveText("ready", {
-      timeout: 120_000,
-    });
+    const frame = await startGameInPlaygroundIframe(page);
     await expect(frame.getByTestId("dibp-terminal-input")).toBeEnabled();
+  });
+
+  test("Given playground visual iframe, when user starts game, then scene art loads as webp", async ({
+    page,
+  }) => {
+    await page.goto(pagesPath("/project/diamond-in-black-pearl?demo=visual/"));
+    await expect(page.getByTestId("playground-frame")).toHaveAttribute(
+      "src",
+      /visual\/index\.html/,
+    );
+    const frame = await startGameInPlaygroundIframe(page);
+    await expect(frame.getByTestId("dibp-scene-art")).toHaveAttribute(
+      "src",
+      /\.webp$/,
+    );
+    await expect(frame.getByTestId("dibp-scene-title")).toContainText(
+      "Welcome",
+    );
+  });
+
+  test("Given playground visual iframe booted, when user clicks first choice, then scene title updates", async ({
+    page,
+  }) => {
+    await page.goto(pagesPath("/project/diamond-in-black-pearl?demo=visual/"));
+    const frame = await startGameInPlaygroundIframe(page);
+    await frame.getByTestId("dibp-name-input").fill("Hero");
+    await frame.getByTestId("dibp-name-submit").click();
+    await frame.getByTestId("dibp-choice-RIGHT").click();
+    await expect(frame.getByTestId("dibp-scene-title")).toContainText(
+      "Scorpion",
+    );
   });
 
   test("Given terminal loading, when user starts game, then boot status advances beyond tap start", async ({

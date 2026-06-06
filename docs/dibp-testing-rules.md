@@ -22,9 +22,10 @@ Wrapper E2E (`tests/e2e/**`) remains shell-only per [e2e-testing-rules.md](e2e-t
 
 ## Canonical ownership
 
-| Behavior                        | File                                                         |
-| ------------------------------- | ------------------------------------------------------------ |
-| Boot terminal / visual / iframe | `tests/dibp-e2e/boot.e2e.test.ts`                            |
-| Launcher GitHub link            | `tests/dibp-e2e/launcher.e2e.test.ts`                        |
-| Engine branches                 | `projects/diamond-in-black-pearl/tests/test_engine_paths.py` |
-| Visual + terminal journeys      | `tests/dibp-e2e/game-journeys.e2e.test.ts`                   |
+| Behavior                                | File                                                         |
+| --------------------------------------- | ------------------------------------------------------------ |
+| Boot terminal / visual / iframe pet DOM | `tests/dibp-e2e/boot.e2e.test.ts`                            |
+| Playground launcher → visual iframe     | `tests/dibp-e2e/launcher.e2e.test.ts`                        |
+| Launcher GitHub link                    | `tests/dibp-e2e/launcher.e2e.test.ts`                        |
+| Engine branches                         | `projects/diamond-in-black-pearl/tests/test_engine_paths.py` |
+| Visual + terminal journeys              | `tests/dibp-e2e/game-journeys.e2e.test.ts`                   |

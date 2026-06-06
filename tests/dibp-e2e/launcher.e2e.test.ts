@@ -1,5 +1,10 @@
 import { expect, test } from "@playwright/test";
-import { clearDibpStorage, dibpPath } from "./helpers/dibp-page";
+import { pagesPath } from "../e2e/fixtures/pages-env";
+import {
+  clearDibpStorage,
+  dibpPath,
+  startGameInPlaygroundIframe,
+} from "./helpers/dibp-page";
 
 const ORIGINAL_SOURCE_URL =
   "https://github.com/zeddrix/pet-projects/blob/main/projects/diamond-in-black-pearl/original/game.py";
@@ -27,6 +32,26 @@ test.describe("DIBP launcher", () => {
     await expect(page.getByTestId("dibp-launcher")).toContainText("python");
     await expect(page.getByTestId("dibp-original-source-link")).toContainText(
       "original/game.py",
+    );
+  });
+
+  test("Given playground launcher, when user opens visual mode and starts, then visual shell becomes ready", async ({
+    page,
+  }) => {
+    await page.goto(
+      pagesPath("/project/diamond-in-black-pearl?demo=index.html"),
+    );
+    await expect(page.getByTestId("playground-frame")).toHaveAttribute(
+      "src",
+      /diamond-in-black-pearl\/index\.html/,
+    );
+    const launcherFrame = page.frameLocator('[data-testid="playground-frame"]');
+    await launcherFrame.getByTestId("dibp-mode-visual").click();
+    await expect(launcherFrame.getByTestId("dibp-start-button")).toBeVisible();
+    const visualFrame = await startGameInPlaygroundIframe(page);
+    await expect(visualFrame.getByTestId("dibp-visual-loader")).toBeHidden();
+    await expect(visualFrame.getByTestId("dibp-scene-title")).toContainText(
+      "Welcome",
     );
   });
 });
