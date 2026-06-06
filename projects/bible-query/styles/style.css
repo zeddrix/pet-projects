@@ -57,7 +57,7 @@ body {
 }
 
 .background {
-  background: url(../img/background.jpg);
+  background: url(../img/background.webp);
   background-size: cover;
 }
 .container {

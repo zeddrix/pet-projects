@@ -19,6 +19,19 @@ This folder preserves the full git history from the former standalone repo [zedd
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 ![Custom fonts](https://img.shields.io/badge/Custom_fonts-Typography-555)
 
+### Image assets
+
+UI images live under `img/` as **WebP** files, resized to roughly **2×** their on-screen max width for sharp display in the 420px-wide layout.
+
+To re-encode after replacing source artwork, run from the repo root:
+
+```bash
+pnpm optimize:bible-query-images
+pnpm sync-projects
+```
+
+The script reads JPEG/PNG sources, writes sibling `.webp` files, and removes the originals. Commit the updated `img/*.webp` and reference paths in `index.html`, `styles/style.css`, and `scripts/query.js`.
+
 ---
 
 Part of the [pet-projects](https://github.com/zeddrix/pet-projects) monorepo.

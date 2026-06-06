@@ -229,18 +229,18 @@ const scoreStarAndPercentage = () => {
 
   let img =
     scorePercent == 100
-      ? "img/three-stars.png"
+      ? "img/three-stars.webp"
       : scorePercent >= 90
-        ? "img/two-and-a-half-stars.png"
+        ? "img/two-and-a-half-stars.webp"
         : scorePercent >= 70
-          ? "img/two-stars.png"
+          ? "img/two-stars.webp"
           : scorePercent >= 50
-            ? "img/one-and-a-half-star.png"
+            ? "img/one-and-a-half-star.webp"
             : scorePercent >= 30
-              ? "img/one-star.png"
+              ? "img/one-star.webp"
               : scorePercent >= 15
-                ? "img/one-half-star.png"
-                : "img/zero-star.png";
+                ? "img/one-half-star.webp"
+                : "img/zero-star.webp";
 
   const finalScoreImg = document.querySelector("#final-score__img");
   const imgSrc = document.createAttribute("src");
