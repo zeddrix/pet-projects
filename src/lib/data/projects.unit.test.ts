@@ -25,8 +25,8 @@ describe("projects manifest", () => {
     expect(project.deprecated).toBeUndefined();
   });
 
-  it("returns 14 sorted projects", () => {
-    expect(getSortedProjects()).toHaveLength(14);
+  it("returns 15 sorted projects", () => {
+    expect(getSortedProjects()).toHaveLength(15);
   });
 
   it("marks github-finder as deprecated", () => {
@@ -37,8 +37,9 @@ describe("projects manifest", () => {
 
   it("exposes slugs for prerender entries", () => {
     const slugs = getProjectSlugs();
-    expect(slugs).toHaveLength(14);
+    expect(slugs).toHaveLength(15);
     expect(slugs).toContain("loan-calculator");
+    expect(slugs).toContain("bible-query");
   });
 
   it("points sourceUrl at monorepo project folders", () => {
@@ -65,5 +66,15 @@ describe("projects manifest", () => {
     const project = getProjectBySlug("loan-calculator");
 
     expect(project?.techStack).toContain("Vanilla JS");
+  });
+
+  it("includes archive metadata for bible-query", () => {
+    const project = getProjectBySlug("bible-query");
+
+    expect(project?.developedAt).toBe("May 2020");
+    expect(project?.techStack).toContain("Vanilla JS");
+    expect(project?.techStack).toContain("Custom fonts");
+    expect(project?.dualVersionReason).toContain("git history");
+    expect(project?.dualVersionReason).toContain("zeddrix/bible-query");
   });
 });

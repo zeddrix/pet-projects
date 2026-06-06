@@ -100,7 +100,7 @@
     "sourceUrl": "https://github.com/zeddrix/pet-projects/tree/main/projects/jw-guitar-templates",
     "developedAt": "March 2020",
     "techStack": ["Vanilla JS", "Custom fonts"],
-    "sortOrder": 9
+    "sortOrder": 11
   },
   {
     "slug": "animate",
@@ -109,7 +109,7 @@
     "sourceUrl": "https://github.com/zeddrix/pet-projects/tree/main/projects/animate",
     "developedAt": "January 2020",
     "techStack": ["Animate.css", "Bootstrap"],
-    "sortOrder": 10
+    "sortOrder": 9
   },
   {
     "slug": "robot-friend",
@@ -118,7 +118,17 @@
     "sourceUrl": "https://github.com/zeddrix/pet-projects/tree/main/projects/robot-friend",
     "developedAt": "February 2020",
     "techStack": ["HTML", "CSS"],
-    "sortOrder": 11
+    "sortOrder": 10
+  },
+  {
+    "slug": "bible-query",
+    "title": "Bible Query",
+    "description": "Test your Biblical knowledge in this trivia game.",
+    "sourceUrl": "https://github.com/zeddrix/pet-projects/tree/main/projects/bible-query",
+    "developedAt": "May 2020",
+    "techStack": ["Vanilla JS", "HTML5", "CSS3", "Custom fonts"],
+    "dualVersionReason": "This folder preserves the full git history from the former standalone repo zeddrix/bible-query. The playground serves the static demo in an iframe.",
+    "sortOrder": 12
   },
   {
     "slug": "blog-app",
@@ -141,7 +151,7 @@
       }
     ],
     "dualVersionReason": "GitHub Pages is static-only and cannot run Django. A SvelteKit static build mimics the blog layout for in-browser preview.",
-    "sortOrder": 12
+    "sortOrder": 13
   },
   {
     "slug": "microposts",
@@ -164,7 +174,7 @@
       }
     ],
     "dualVersionReason": "The original app needs json-server as a backend. The static preview uses an in-browser mock API so CRUD works on GitHub Pages.",
-    "sortOrder": 13
+    "sortOrder": 14
   },
   {
     "slug": "devcamper-api",
@@ -175,6 +185,6 @@
     "techStack": ["Node.js", "Express", "MongoDB"],
     "dualVersionReason": "This is a backend-only API and cannot run on GitHub Pages. The playground shows the README instead of an iframe.",
     "displayMode": "readme",
-    "sortOrder": 14
+    "sortOrder": 15
   }
 ]

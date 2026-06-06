@@ -73,6 +73,26 @@ test.describe("playground project info", () => {
     );
   });
 
+  test("Given bible-query selected, when user opens info modal, then created date, tech stack, and archive note appear", async ({
+    page,
+  }) => {
+    await page
+      .locator('[data-testid="project-list-item"][data-slug="bible-query"]')
+      .click();
+    await page.getByTestId("project-info-fab").click();
+    const surface = page.getByTestId("project-info-surface");
+    await expect(surface).toBeVisible();
+    await expect(surface).toContainText("Bible Query");
+    await expect(surface).toContainText("May 2020");
+    await expect(surface).toContainText("Vanilla JS");
+    await expect(surface).toContainText("Custom fonts");
+    await expect(surface).toContainText("git history");
+    await expect(surface).toContainText("zeddrix/bible-query");
+    await expect(
+      surface.locator('a[href*="pet-projects/tree/main/projects/bible-query"]'),
+    ).toBeVisible();
+  });
+
   test("Given unknown project slug, when page loads, then info FAB is hidden and not-found message shows", async ({
     page,
   }) => {
