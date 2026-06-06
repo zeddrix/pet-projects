@@ -15,6 +15,7 @@ Generated: 2026-06-05T04:53:15.181Z
 | animate | zeddrix/animate | master | static |
 | robot-friend | zeddrix/robot-friend | master | static |
 | bible-query | zeddrix/bible-query | master | static |
+| diamond-in-black-pearl | zeddrix/diamond-in-black-pearl | master | static (Pyodide terminal + visual) |
 | github-finder-jsx | zeddrix/github-finder-jsx | main | docker-build (HashRouter) |
 
 ## bible-query history verification
