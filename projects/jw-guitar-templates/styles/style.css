@@ -155,7 +155,7 @@ button:focus {
 /* -----------TEMPLATE PAGE----------- */
 #template {
 	display: none;
-	background: url(../JWGuitar.jpg) no-repeat center center fixed;
+	background: url(../JWGuitar.webp) no-repeat center center fixed;
 	height: 100vh;
 	width: 100vw;
 	background-size: cover;

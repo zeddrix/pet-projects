@@ -32,6 +32,21 @@ test.describe("playground deep link", () => {
     );
   });
 
+  test("Given direct /project/jw-guitar-templates URL, when loaded, then iframe targets jw-guitar demo", async ({
+    page,
+  }) => {
+    await page.goto(pagesPath("/project/jw-guitar-templates"));
+
+    await expect(page).toHaveURL(/\/project\/jw-guitar-templates$/);
+    await expect(page.getByTestId("playground-frame")).toHaveAttribute(
+      "src",
+      /jw-guitar-templates\/$/,
+    );
+    await expect(page.getByTestId("playground-title")).toContainText(
+      "JW Guitar Templates",
+    );
+  });
+
   test("Given direct diamond-in-black-pearl visual demo URL, when loaded, then iframe targets visual mode", async ({
     page,
   }) => {

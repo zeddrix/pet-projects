@@ -21,6 +21,7 @@
 | BASE_PATH iframe src segment                                            | `playground-base-path.e2e.test.ts`                                         |
 | Direct deep link to project route                                       | `playground-deep-link.e2e.test.ts`                                         |
 | bible-query deep link iframe src                                        | `playground-deep-link.e2e.test.ts`                                         |
+| jw-guitar-templates deep link iframe src                                | `playground-deep-link.e2e.test.ts`                                         |
 | diamond-in-black-pearl visual deep link                                 | `playground-deep-link.e2e.test.ts`                                         |
 | Project info FAB modal                                                  | `playground-project-info.e2e.test.ts`                                      |
 | diamond-in-black-pearl navigation + info modal                          | `playground-navigation.e2e.test.ts`, `playground-project-info.e2e.test.ts` |
