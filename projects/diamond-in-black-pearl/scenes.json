@@ -1,0 +1,186 @@
+{
+  "intro": {
+    "title": "Welcome",
+    "art": "../assets/scenes/intro.jpg",
+    "artAlt": "Jungle path at dawn, mysterious adventure ahead",
+    "mapNode": "start",
+    "choices": []
+  },
+  "jungle_fork": {
+    "title": "Uncharted Jungle",
+    "art": "../assets/scenes/jungle_fork.jpg",
+    "artAlt": "Fork in the jungle: dry road and a lake with a boat",
+    "mapNode": "jungle",
+    "choices": [
+      { "label": "Take the dry road (RIGHT)", "submit": "RIGHT" },
+      { "label": "Go to the lake (LEFT)", "submit": "LEFT" }
+    ],
+    "secrets": [{ "label": "Whisper Black Pearl…", "submit": "BLACK PEARL" }]
+  },
+  "crocodile_lake": {
+    "title": "Deadly Lake",
+    "art": "../assets/scenes/crocodile_lake.jpg",
+    "artAlt": "Dangerous lake with crocodile eyes in the water",
+    "mapNode": "lake",
+    "choices": [
+      { "label": "Go BACK", "submit": "BACK" },
+      { "label": "Let them EAT your head", "submit": "EAT" }
+    ]
+  },
+  "scorpion_road": {
+    "title": "Scorpion Road",
+    "art": "../assets/scenes/scorpion_road.jpg",
+    "artAlt": "Dry road swarming with scorpions",
+    "mapNode": "road",
+    "choices": [
+      { "label": "WALK on them", "submit": "WALK" },
+      { "label": "RUN from them", "submit": "RUN" },
+      { "label": "Use the BOAT", "submit": "BOAT" }
+    ]
+  },
+  "boat_memory": {
+    "title": "Where Was the Boat?",
+    "art": "../assets/scenes/boat_memory.jpg",
+    "artAlt": "Empty lake shore with a lone boat",
+    "mapNode": "lake",
+    "choices": [
+      { "label": "At the LAKE (LEFT)", "submit": "LAKE" },
+      { "label": "On the LEFT side", "submit": "LEFT" }
+    ]
+  },
+  "boat_choice": {
+    "title": "What to Do With the Boat",
+    "art": "../assets/scenes/boat_choice.jpg",
+    "artAlt": "A wooden boat awaiting a creative decision",
+    "mapNode": "road",
+    "choices": [
+      { "label": "Use it as BOOTS", "submit": "BOOTS" },
+      { "label": "PUSH and SLIDE on the road", "submit": "PUSH" },
+      { "label": "Make a TORCH", "submit": "TORCH" },
+      { "label": "Make a BONFIRE", "submit": "BONFIRE" }
+    ]
+  },
+  "bear_encounter": {
+    "title": "Grizzly Bear",
+    "art": "../assets/scenes/bear_encounter.jpg",
+    "artAlt": "A grizzly bear blocking the end of the road",
+    "mapNode": "bear",
+    "choices": [
+      { "label": "BEFRIEND the bear", "submit": "BEFRIEND" },
+      { "label": "PUNCH him in the face", "submit": "PUNCH" },
+      { "label": "Play DEAD", "submit": "DEAD" },
+      { "label": "Make him EAT your boat", "submit": "EAT" }
+    ]
+  },
+  "basket": {
+    "title": "Wooden Basket",
+    "art": "../assets/scenes/basket.jpg",
+    "artAlt": "A wooden basket on the forest floor",
+    "mapNode": "bear",
+    "choices": [
+      { "label": "KICK it away", "submit": "KICK" },
+      { "label": "OPEN it", "submit": "OPEN" },
+      { "label": "CARRY it", "submit": "CARRY" }
+    ]
+  },
+  "treasure_map": {
+    "title": "Treasure Map",
+    "art": "../assets/scenes/treasure_map.jpg",
+    "artAlt": "Unrolled treasure map with a skull marker",
+    "mapNode": "map",
+    "choices": [
+      { "label": "FOLLOW the map", "submit": "FOLLOW" },
+      { "label": "CHASE the bear for directions", "submit": "CHASE" }
+    ]
+  },
+  "black_pearl_checkpoint": {
+    "title": "Black Pearl — Checkpoint",
+    "art": "../assets/scenes/black_pearl_checkpoint.jpg",
+    "artAlt": "Pirate ship Black Pearl anchored by the shore",
+    "mapNode": "ship",
+    "checkpoint": true,
+    "choices": [
+      { "label": "ASK a pirate where treasure is HIDDEN", "submit": "ASK" },
+      { "label": "LOOK for a pirate DRESS", "submit": "LOOK" }
+    ]
+  },
+  "ask_captain": {
+    "title": "Ask the Captain?",
+    "art": "../assets/scenes/ask_captain.jpg",
+    "artAlt": "Ominous captain silhouette aboard the ship",
+    "mapNode": "ship",
+    "choices": [
+      { "label": "YES — do what he said", "submit": "YES" },
+      { "label": "NO — go back", "submit": "NO" }
+    ]
+  },
+  "tall_pirate": {
+    "title": "Tall Pirate on Deck",
+    "art": "../assets/scenes/tall_pirate.jpg",
+    "artAlt": "Deck confrontation with a tall pirate and pink statue",
+    "mapNode": "ship",
+    "choices": [
+      { "label": "PUNCH him in the face", "submit": "PUNCH" },
+      { "label": "Tell him your NAME", "submit": "NAME" },
+      { "label": "RUN for your life", "submit": "RUN" }
+    ]
+  },
+  "treasure_escape": {
+    "title": "Treasure Chest Below Deck",
+    "art": "../assets/scenes/treasure_escape.jpg",
+    "artAlt": "Treasure chest stowed below deck",
+    "mapNode": "ship",
+    "inventory": "chest",
+    "choices": [
+      { "label": "Ask the CAPTAIN", "submit": "CAPTAIN" },
+      { "label": "Ask YOURSELF how you got in", "submit": "YOURSELF" }
+    ]
+  },
+  "canon_memory": {
+    "title": "How Did You Get In?",
+    "art": "../assets/scenes/canon_memory.jpg",
+    "artAlt": "Cannon portholes on the ship hull",
+    "mapNode": "ship",
+    "choices": [{ "label": "Through the CANON holes", "submit": "CANON" }]
+  },
+  "canoe_chase": {
+    "title": "Canoe Escape",
+    "art": "../assets/scenes/canoe_chase.jpg",
+    "artAlt": "Canoe fleeing cannon fire from the pirate ship",
+    "mapNode": "sea",
+    "choices": [
+      { "label": "DIVE into the water", "submit": "DIVE" },
+      { "label": "FIRE back", "submit": "FIRE" },
+      { "label": "PADDLE as fast as you can", "submit": "PADDLE" }
+    ]
+  },
+  "chest_finale": {
+    "title": "Treasure on the Beach",
+    "art": "../assets/scenes/chest_finale.jpg",
+    "artAlt": "Locked treasure chest on the beach, key missing",
+    "mapNode": "beach",
+    "choices": [
+      { "label": "SMASH the chest open", "submit": "SMASH" },
+      { "label": "Try to OPEN it", "submit": "OPEN" },
+      { "label": "DESTROY it", "submit": "DESTROY" },
+      { "label": "Go BACK to the ship", "submit": "BACK" }
+    ]
+  },
+  "death": {
+    "title": "You Died",
+    "art": "../assets/scenes/death.jpg",
+    "artAlt": "Comedic game over scene with swirling stars",
+    "mapNode": "death",
+    "choices": [
+      { "label": "YES — try again", "submit": "YES" },
+      { "label": "NO — quit", "submit": "NO" }
+    ]
+  },
+  "victory": {
+    "title": "Victory!",
+    "art": "../assets/scenes/victory.jpg",
+    "artAlt": "Open chest revealing a pink panther jewel",
+    "mapNode": "victory",
+    "choices": []
+  }
+}
