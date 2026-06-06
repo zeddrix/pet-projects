@@ -1,14 +1,24 @@
 <script lang="ts">
-  import { browser } from "$app/environment";
-  import { page } from "$app/stores";
+  import { afterNavigate } from "$app/navigation";
+  import { onMount } from "svelte";
   import PlaygroundShell from "$lib/components/PlaygroundShell.svelte";
   import type { PageData } from "./$types";
 
   let { data }: { data: PageData } = $props();
 
-  const demoEntry = $derived(
-    browser ? $page.url.searchParams.get("demo") : null,
-  );
+  let demoEntry = $state<string | null>(null);
+
+  function readDemoFromUrl() {
+    demoEntry = new URL(window.location.href).searchParams.get("demo");
+  }
+
+  onMount(() => {
+    readDemoFromUrl();
+  });
+
+  afterNavigate(() => {
+    readDemoFromUrl();
+  });
 </script>
 
 <PlaygroundShell project={data.project} {demoEntry} />
