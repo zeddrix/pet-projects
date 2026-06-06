@@ -17,6 +17,7 @@
     data-testid="playground-frame"
     title="{project.title} demo"
     {src}
+    loading="lazy"
     sandbox="allow-scripts allow-same-origin allow-forms allow-popups"
     allow="fullscreen"
     class="playground-frame h-full w-full min-h-0 flex-1 border-0"

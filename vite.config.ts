@@ -34,7 +34,11 @@ export default defineConfig({
     port: 7213,
   },
   test: {
-    include: ["src/**/*.unit.test.ts", "src/**/*.integration.test.ts"],
+    include: [
+      "src/**/*.unit.test.ts",
+      "src/**/*.integration.test.ts",
+      "scripts/**/*.unit.test.ts",
+    ],
     environment: "jsdom",
   },
 });

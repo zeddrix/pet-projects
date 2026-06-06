@@ -254,6 +254,23 @@ test.describe("playground navigation", () => {
     );
   });
 
+  test("Given user navigates loan-calculator to bible-query, when bible-query selected, then iframe src updates and frame stays visible", async ({
+    page,
+  }) => {
+    await projectListItem(page, "loan-calculator").click();
+    await expect(page.getByTestId("playground-frame")).toHaveAttribute(
+      "src",
+      /loan-calculator\/$/,
+    );
+    await projectListItem(page, "bible-query").click();
+    await expect(page).toHaveURL(/\/project\/bible-query$/);
+    await expect(page.getByTestId("playground-frame")).toHaveAttribute(
+      "src",
+      /bible-query\/$/,
+    );
+    await expect(page.getByTestId("playground-frame")).toBeVisible();
+  });
+
   test("Given sidebar list, when user opens devcamper-api, then readme pane is shown instead of iframe", async ({
     page,
   }) => {
