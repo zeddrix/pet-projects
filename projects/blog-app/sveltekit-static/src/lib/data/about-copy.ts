@@ -17,7 +17,7 @@ export const aboutSections: AboutSection[] = [
   },
   {
     wireframe: {
-      src: "/images/about/original-wireframe.png",
+      src: "/images/about/original-wireframe.webp",
       alt: "Hand-drawn 2020 wireframe sketch of Zedd Fabian's portfolio About page and blog layout",
       caption:
         "This is where the idea originated from hehe. I worked hard on drawing this you know :).",

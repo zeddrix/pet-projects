@@ -6,19 +6,19 @@ export interface Hobby {
 
 export const hobbies: Hobby[] = [
   {
-    image: "/images/hobby-chinese.jpg",
+    image: "/images/hobby-chinese.webp",
     alt: "Chinese characters calligraphy",
     description:
       "I am currently learning Mandarin Chinese. I love this language!",
   },
   {
-    image: "/images/hobby-guitar.jpg",
+    image: "/images/hobby-guitar.webp",
     alt: "Hands playing acoustic guitar",
     description:
       "I love playing guitar! I play a lot of songs: Original Songs from jw.org and also Kingdom Songs. I even groped some guitar tabs for these Kingdom Songs.",
   },
   {
-    image: "/images/hobby-coding.jpg",
+    image: "/images/hobby-coding.webp",
     alt: "Hands typing on a laptop keyboard",
     description:
       "Coding is one of my many hobbies. In fact, it is my profession.",
