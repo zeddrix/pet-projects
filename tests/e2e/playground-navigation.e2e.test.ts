@@ -1,18 +1,30 @@
-import { expect, test, type Locator } from "@playwright/test";
+import { expect, test } from "@playwright/test";
 import { PAGES_DEFAULT_PROJECT_PATH } from "./fixtures/pages-env";
 
 function projectListItem(page: import("@playwright/test").Page, slug: string) {
   return page.locator(`[data-testid="project-list-item"][data-slug="${slug}"]`);
 }
 
-async function backgroundLuminance(locator: Locator): Promise<number> {
+async function backgroundMatchesPrimary(
+  locator: ReturnType<typeof projectListItem>,
+): Promise<boolean> {
   return locator.evaluate((element) => {
+    const primary = element.getAttribute("data-sidebar-primary");
+    if (!primary || !primary.startsWith("#")) {
+      return false;
+    }
+    const hex = primary.slice(1);
+    const expectedR = Number.parseInt(hex.slice(0, 2), 16);
+    const expectedG = Number.parseInt(hex.slice(2, 4), 16);
+    const expectedB = Number.parseInt(hex.slice(4, 6), 16);
     const rgb = getComputedStyle(element).backgroundColor.match(/\d+/g);
     if (!rgb || rgb.length < 3) {
-      return 0;
+      return false;
     }
-    const [r, g, b] = rgb.map(Number);
-    return 0.2126 * r + 0.7152 * g + 0.0722 * b;
+    const [actualR, actualG, actualB] = rgb.map(Number);
+    return (
+      actualR === expectedR && actualG === expectedG && actualB === expectedB
+    );
   });
 }
 
@@ -68,7 +80,7 @@ test.describe("playground navigation", () => {
     );
   });
 
-  test("Given playground loaded, when user selects word-counter, then theme tokens and navigation update", async ({
+  test("Given playground loaded, when user selects word-counter, then theme tokens navigation and arrow update", async ({
     page,
   }) => {
     await projectListItem(page, "word-counter").click();
@@ -84,9 +96,14 @@ test.describe("playground navigation", () => {
     await expect(activeItem).toHaveAttribute("data-active", "true");
     await expect(activeItem).toHaveAttribute("data-sidebar-primary", "#3497be");
     await expect(activeItem).toHaveAttribute("data-sidebar-accent", "#f3e410");
+    await expect(page.getByTestId("sidebar-active-arrow")).toBeVisible();
+    await expect(page.getByTestId("sidebar-active-arrow")).toHaveAttribute(
+      "data-arrow-mode",
+      "attached",
+    );
   });
 
-  test("Given word-counter active, when user selects loan-calculator, then active theme applies and inactive item uses lighter tint", async ({
+  test("Given word-counter then loan-calculator selected, when both items viewed, then each uses full primary background and only active item has arrow", async ({
     page,
   }) => {
     await projectListItem(page, "word-counter").click();
@@ -109,9 +126,35 @@ test.describe("playground navigation", () => {
       "#3497be",
     );
 
-    const inactiveLuminance = await backgroundLuminance(wordCounterItem);
-    const activeLuminance = await backgroundLuminance(loanItem);
-    expect(inactiveLuminance).toBeGreaterThan(activeLuminance);
+    expect(await backgroundMatchesPrimary(loanItem)).toBe(true);
+    expect(await backgroundMatchesPrimary(wordCounterItem)).toBe(true);
+    await expect(page.getByTestId("sidebar-active-arrow")).toBeVisible();
+  });
+
+  test("Given loan-calculator active with arrow, when user clicks weather-widget, then arrow stays attached to new active item", async ({
+    page,
+  }) => {
+    await projectListItem(page, "loan-calculator").click();
+    await expect(page.getByTestId("sidebar-active-arrow")).toHaveAttribute(
+      "data-arrow-mode",
+      "attached",
+    );
+
+    await projectListItem(page, "weather-widget").click();
+    await expect(page).toHaveURL(/\/project\/weather-widget$/);
+    await expect(projectListItem(page, "weather-widget")).toHaveAttribute(
+      "data-active",
+      "true",
+    );
+    await expect(projectListItem(page, "loan-calculator")).toHaveAttribute(
+      "data-active",
+      "false",
+    );
+    await expect(page.getByTestId("sidebar-active-arrow")).toBeVisible();
+    await expect(page.getByTestId("sidebar-active-arrow")).toHaveAttribute(
+      "data-arrow-mode",
+      "attached",
+    );
   });
 
   test("Given loan-calculator active, when user hovers weather-widget then clicks it, then URL updates only after click", async ({
@@ -130,6 +173,34 @@ test.describe("playground navigation", () => {
     await expect(weatherItem).toHaveAttribute(
       "data-sidebar-primary",
       "#007bff",
+    );
+  });
+
+  test("Given devcamper-api selected at list bottom, when user scrolls list up then back down, then arrow pins and re-attaches", async ({
+    page,
+  }) => {
+    await projectListItem(page, "devcamper-api").click();
+    await expect(page).toHaveURL(/\/project\/devcamper-api$/);
+    await expect(page.getByTestId("sidebar-active-arrow")).toHaveAttribute(
+      "data-arrow-mode",
+      "attached",
+    );
+
+    const projectList = page.getByTestId("project-list");
+    await projectList.evaluate((element) => {
+      element.scrollTop = 0;
+    });
+    await expect(page.getByTestId("sidebar-active-arrow")).toHaveAttribute(
+      "data-arrow-mode",
+      "pinned-bottom",
+    );
+
+    await projectList.evaluate((element) => {
+      element.scrollTop = element.scrollHeight - element.clientHeight;
+    });
+    await expect(page.getByTestId("sidebar-active-arrow")).toHaveAttribute(
+      "data-arrow-mode",
+      "attached",
     );
   });
 
