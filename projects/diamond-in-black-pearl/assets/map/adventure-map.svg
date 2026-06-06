@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280" role="img" aria-label="Adventure map">
+  <defs>
+    <style>
+      .map-node { fill: #2d4a3e; stroke: #d4a853; stroke-width: 2; }
+      .map-node--visited { fill: #3a6b5a; }
+      .map-node--current { fill: #e056a0; stroke-width: 3; }
+      .map-node--checkpoint { stroke: #d4a853; stroke-dasharray: 4 2; }
+      .map-node--checkpoint-active { stroke: #e056a0; stroke-width: 3; }
+      .map-line { stroke: #6b8f7a; stroke-width: 2; fill: none; opacity: 0.6; }
+      .map-label { fill: #f5f0e6; font-family: Georgia, serif; font-size: 9px; text-anchor: middle; }
+    </style>
+  </defs>
+  <path class="map-line" d="M 60 140 L 120 100" />
+  <path class="map-line" d="M 60 140 L 120 180" />
+  <path class="map-line" d="M 120 100 L 180 100" />
+  <path class="map-line" d="M 180 100 L 240 80" />
+  <path class="map-line" d="M 240 80 L 300 60" />
+  <path class="map-line" d="M 300 60 L 340 120" />
+  <path class="map-line" d="M 340 120 L 340 200" />
+  <path class="map-line" d="M 340 200 L 280 240" />
+  <circle id="node-start" class="map-node" cx="60" cy="140" r="14" data-node="start" />
+  <text class="map-label" x="60" y="165">Start</text>
+  <circle id="node-jungle" class="map-node" cx="120" cy="100" r="12" data-node="jungle" />
+  <text class="map-label" x="120" y="125">Jungle</text>
+  <circle id="node-lake" class="map-node" cx="120" cy="180" r="12" data-node="lake" />
+  <text class="map-label" x="120" y="205">Lake</text>
+  <circle id="node-road" class="map-node" cx="180" cy="100" r="12" data-node="road" />
+  <text class="map-label" x="180" y="125">Road</text>
+  <circle id="node-bear" class="map-node" cx="240" cy="80" r="12" data-node="bear" />
+  <text class="map-label" x="240" y="105">Bear</text>
+  <circle id="node-map" class="map-node" cx="300" cy="60" r="12" data-node="map" />
+  <text class="map-label" x="300" y="85">Map</text>
+  <circle id="node-ship" class="map-node map-node--checkpoint" cx="340" cy="120" r="14" data-node="ship" />
+  <text class="map-label" x="340" y="145">Ship</text>
+  <circle id="node-sea" class="map-node" cx="340" cy="200" r="12" data-node="sea" />
+  <text class="map-label" x="340" y="225">Sea</text>
+  <circle id="node-beach" class="map-node" cx="280" cy="240" r="12" data-node="beach" />
+  <text class="map-label" x="280" y="265">Beach</text>
+</svg>
