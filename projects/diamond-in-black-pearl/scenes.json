@@ -1,7 +1,7 @@
 {
   "intro": {
     "title": "Welcome",
-    "art": "../assets/scenes/intro.jpg",
+    "art": "../assets/scenes/intro.webp",
     "artAlt": "Jungle path at dawn, mysterious adventure ahead",
     "mapNode": "start",
     "ambient": "jungle",
@@ -10,7 +10,7 @@
   },
   "jungle_fork": {
     "title": "Uncharted Jungle",
-    "art": "../assets/scenes/jungle_fork.jpg",
+    "art": "../assets/scenes/jungle_fork.webp",
     "artAlt": "Fork in the jungle: dry road and a lake with a boat",
     "mapNode": "jungle",
     "ambient": "jungle",
@@ -22,7 +22,7 @@
   },
   "crocodile_lake": {
     "title": "Deadly Lake",
-    "art": "../assets/scenes/crocodile_lake.jpg",
+    "art": "../assets/scenes/crocodile_lake.webp",
     "artAlt": "Dangerous lake with crocodile eyes in the water",
     "mapNode": "lake",
     "ambient": "jungle",
@@ -33,7 +33,7 @@
   },
   "scorpion_road": {
     "title": "Scorpion Road",
-    "art": "../assets/scenes/scorpion_road.jpg",
+    "art": "../assets/scenes/scorpion_road.webp",
     "artAlt": "Dry road swarming with scorpions",
     "mapNode": "road",
     "ambient": "jungle",
@@ -45,7 +45,7 @@
   },
   "boat_memory": {
     "title": "Where Was the Boat?",
-    "art": "../assets/scenes/boat_memory.jpg",
+    "art": "../assets/scenes/boat_memory.webp",
     "artAlt": "Empty lake shore with a lone boat",
     "mapNode": "lake",
     "ambient": "jungle",
@@ -56,7 +56,7 @@
   },
   "boat_choice": {
     "title": "What to Do With the Boat",
-    "art": "../assets/scenes/boat_choice.jpg",
+    "art": "../assets/scenes/boat_choice.webp",
     "artAlt": "A wooden boat awaiting a creative decision",
     "mapNode": "road",
     "ambient": "jungle",
@@ -69,7 +69,7 @@
   },
   "bear_encounter": {
     "title": "Grizzly Bear",
-    "art": "../assets/scenes/bear_encounter.jpg",
+    "art": "../assets/scenes/bear_encounter.webp",
     "artAlt": "A grizzly bear blocking the end of the road",
     "mapNode": "bear",
     "ambient": "jungle",
@@ -82,7 +82,7 @@
   },
   "basket": {
     "title": "Wooden Basket",
-    "art": "../assets/scenes/basket.jpg",
+    "art": "../assets/scenes/basket.webp",
     "artAlt": "A wooden basket on the forest floor",
     "mapNode": "bear",
     "ambient": "jungle",
@@ -94,7 +94,7 @@
   },
   "treasure_map": {
     "title": "Treasure Map",
-    "art": "../assets/scenes/treasure_map.jpg",
+    "art": "../assets/scenes/treasure_map.webp",
     "artAlt": "Unrolled treasure map with a skull marker",
     "mapNode": "map",
     "ambient": "jungle",
@@ -105,7 +105,7 @@
   },
   "black_pearl_checkpoint": {
     "title": "Black Pearl — Checkpoint",
-    "art": "../assets/scenes/black_pearl_checkpoint.jpg",
+    "art": "../assets/scenes/black_pearl_checkpoint.webp",
     "artAlt": "Pirate ship Black Pearl anchored by the shore",
     "mapNode": "ship",
     "checkpoint": true,
@@ -117,7 +117,7 @@
   },
   "ask_captain": {
     "title": "Ask the Captain?",
-    "art": "../assets/scenes/ask_captain.jpg",
+    "art": "../assets/scenes/ask_captain.webp",
     "artAlt": "Ominous captain silhouette aboard the ship",
     "mapNode": "ship",
     "ambient": "ship",
@@ -128,7 +128,7 @@
   },
   "tall_pirate": {
     "title": "Tall Pirate on Deck",
-    "art": "../assets/scenes/tall_pirate.jpg",
+    "art": "../assets/scenes/tall_pirate.webp",
     "artAlt": "Deck confrontation with a tall pirate and pink statue",
     "mapNode": "ship",
     "ambient": "ship",
@@ -140,7 +140,7 @@
   },
   "treasure_escape": {
     "title": "Treasure Chest Below Deck",
-    "art": "../assets/scenes/treasure_escape.jpg",
+    "art": "../assets/scenes/treasure_escape.webp",
     "artAlt": "Treasure chest stowed below deck",
     "mapNode": "ship",
     "inventory": "chest",
@@ -152,7 +152,7 @@
   },
   "canon_memory": {
     "title": "How Did You Get In?",
-    "art": "../assets/scenes/canon_memory.jpg",
+    "art": "../assets/scenes/canon_memory.webp",
     "artAlt": "Cannon portholes on the ship hull",
     "mapNode": "ship",
     "ambient": "ship",
@@ -160,7 +160,7 @@
   },
   "canoe_chase": {
     "title": "Canoe Escape",
-    "art": "../assets/scenes/canoe_chase.jpg",
+    "art": "../assets/scenes/canoe_chase.webp",
     "artAlt": "Canoe fleeing cannon fire from the pirate ship",
     "mapNode": "sea",
     "ambient": "sea",
@@ -172,7 +172,7 @@
   },
   "chest_finale": {
     "title": "Treasure on the Beach",
-    "art": "../assets/scenes/chest_finale.jpg",
+    "art": "../assets/scenes/chest_finale.webp",
     "artAlt": "Locked treasure chest on the beach, key missing",
     "mapNode": "beach",
     "ambient": "sea",
@@ -185,7 +185,7 @@
   },
   "death": {
     "title": "You Died",
-    "art": "../assets/scenes/death.jpg",
+    "art": "../assets/scenes/death.webp",
     "artAlt": "Comedic game over scene with swirling stars",
     "mapNode": "death",
     "ambient": "none",
@@ -196,7 +196,7 @@
   },
   "checkpoint_death": {
     "title": "Checkpoint — You Died",
-    "art": "../assets/scenes/death.jpg",
+    "art": "../assets/scenes/death.webp",
     "artAlt": "Comedic game over at a checkpoint",
     "mapNode": "death",
     "ambient": "none",
@@ -207,7 +207,7 @@
   },
   "victory": {
     "title": "Victory!",
-    "art": "../assets/scenes/victory.jpg",
+    "art": "../assets/scenes/victory.webp",
     "artAlt": "Open chest revealing a pink panther jewel",
     "mapNode": "victory",
     "ambient": "none",
