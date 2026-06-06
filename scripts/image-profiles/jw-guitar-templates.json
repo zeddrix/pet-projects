@@ -1,0 +1,7 @@
+{
+  "slug": "jw-guitar-templates",
+  "root": "projects/jw-guitar-templates",
+  "defaultMaxWidth": 1920,
+  "defaultQuality": 82,
+  "rules": [{ "basename": "JWGuitar.jpg", "maxWidth": 1920 }]
+}

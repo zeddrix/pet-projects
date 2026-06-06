@@ -1,0 +1,7 @@
+{
+  "slug": "devcamper-api",
+  "root": "projects/devcamper-api/public/uploads",
+  "defaultMaxWidth": 800,
+  "defaultQuality": 82,
+  "rules": []
+}

@@ -1,0 +1,7 @@
+{
+  "slug": "github-finder-jsx",
+  "root": "projects/github-finder-jsx/src/components/layout",
+  "defaultMaxWidth": 128,
+  "defaultQuality": 82,
+  "rules": [{ "basename": "spinner.gif", "maxWidth": 128, "hasAlpha": true }]
+}

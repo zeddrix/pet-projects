@@ -1,0 +1,7 @@
+{
+  "slug": "loan-calculator",
+  "root": "projects/loan-calculator/img",
+  "defaultMaxWidth": 128,
+  "defaultQuality": 82,
+  "rules": [{ "basename": "loading.gif", "maxWidth": 128, "hasAlpha": true }]
+}

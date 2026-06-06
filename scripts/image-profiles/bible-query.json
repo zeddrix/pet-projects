@@ -1,0 +1,24 @@
+{
+  "slug": "bible-query",
+  "root": "projects/bible-query/img",
+  "defaultMaxWidth": 760,
+  "defaultQuality": 82,
+  "defaultAlphaQuality": 90,
+  "rules": [
+    {
+      "pathPrefix": "btn-logos/",
+      "maxWidth": 256,
+      "square": true,
+      "hasAlpha": true
+    },
+    { "basename": "background.jpg", "maxWidth": 840 },
+    { "basename": "background.jpeg", "maxWidth": 840 },
+    { "basename": "levels-stars.jpg", "maxWidth": 760 },
+    { "basename": "levels-stars.jpeg", "maxWidth": 760 },
+    { "basenamePattern": "star", "maxWidth": 760, "hasAlpha": true },
+    { "basenamePattern": "-sm-", "maxWidth": 220 },
+    { "basenamePattern": "-sm.", "maxWidth": 220 },
+    { "basenamePattern": "-btn.jpg", "maxWidth": 660 },
+    { "basenamePattern": "-btn.jpeg", "maxWidth": 660 }
+  ]
+}

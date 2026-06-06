@@ -6,7 +6,8 @@
     "tests/**/*.ts",
     "*.config.ts",
     "eslint.config.js",
-    "scripts/sync-projects.mjs"
+    "scripts/**/*.mjs",
+    "scripts/**/*.unit.test.ts"
   ],
   "exclude": [
     "projects/**",

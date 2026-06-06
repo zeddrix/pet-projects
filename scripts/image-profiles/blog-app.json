@@ -1,0 +1,11 @@
+{
+  "slug": "blog-app",
+  "root": "projects/blog-app/sveltekit-static/static/images",
+  "defaultMaxWidth": 1200,
+  "defaultQuality": 82,
+  "defaultAlphaQuality": 90,
+  "rules": [
+    { "basenamePattern": "hobby-", "maxWidth": 800 },
+    { "basename": "original-wireframe.png", "maxWidth": 1200, "hasAlpha": true }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "slug": "diamond-in-black-pearl",
+  "root": "projects/diamond-in-black-pearl/assets/scenes",
+  "exclude": ["00-style-reference.jpg"],
+  "defaultMaxWidth": 1280,
+  "defaultQuality": 82,
+  "rules": []
+}

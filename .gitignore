@@ -30,6 +30,9 @@ vite.config.ts.timestamp-*
 # Synced pet artifacts (source of truth is projects/)
 static/projects/
 
+# Image / Pyodide optimization backups (local rollback only)
+scripts/image-backups/
+
 # DIBP pytest virtualenv
 .venv-dibp/
 
