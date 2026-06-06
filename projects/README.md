@@ -22,8 +22,17 @@ Each `projects/<slug>/README.md` includes:
 
 1. Copy or build static artifacts into `projects/<slug>/` with `index.html` as the entry, **or** use a composite folder with `preview.json` pointing at a build subpath (see `blog-app/` and `microposts/`).
 2. Add a portfolio README at `projects/<slug>/README.md`.
-3. Register the slug in `src/lib/data/projects.json`.
-4. Run `pnpm sync-projects` from the repo root (copy-only; no transforms).
+3. Register the slug in `src/lib/data/projects.json` with **project info modal metadata** (not just sidebar title/description):
+   - **Always:** `developedAt`, `techStack` or `versions[]`, `sourceUrl`, `sortOrder`
+   - **Archived standalone import** (merged git history): add `dualVersionReason` noting the former repo and how the playground previews it (see `bible-query`, `devcamper-api`)
+   - **Composite original + preview:** add `versions[]` + `dualVersionReason` (see `blog-app`, `microposts`)
+   - **Readme-only backend:** add `displayMode: "readme"` + `dualVersionReason`
+4. Update wrapper tests for the new slug:
+   - `src/lib/data/projects.unit.test.ts` (count + metadata assertions)
+   - `tests/e2e/playground-project-info.e2e.test.ts` (info FAB modal content)
+5. Run `pnpm sync-projects` from the repo root (copy-only; no transforms).
+
+The playground **info modal does not read this README** — it renders fields from `projects.json` only. See [CLAUDE.md](../CLAUDE.md) **Adding a catalog entry** for the full rule.
 
 Composite archives may include `original/` or `django-original/` subfolders with merged git history; only the preview subpath is synced to `static/projects/<slug>/`.
 

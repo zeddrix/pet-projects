@@ -1,6 +1,6 @@
 # pet-projects
 
-A personal archive and live playground for fourteen web demos — eleven small static frontends from 2020 plus three archived full-stack projects (blog-app, microposts, devcamper-api). A SvelteKit **wrapper** catalogs them in a sidebar; static demos preview in iframes and devcamper-api shows its README in the main pane.
+A personal archive and live playground for fifteen web demos — twelve small static frontends from 2020 plus three archived full-stack projects (blog-app, microposts, devcamper-api). A SvelteKit **wrapper** catalogs them in a sidebar; static demos preview in iframes and devcamper-api shows its README in the main pane.
 
 **Live playground:** https://zeddrix.github.io/pet-projects/
 
@@ -48,6 +48,7 @@ A personal archive and live playground for fourteen web demos — eleven small s
 | [GitHub Finder](projects/github-finder/)             | November 2020 | Vanilla JS, Fetch, GitHub API (deprecated) | [Open](https://zeddrix.github.io/pet-projects/project/github-finder)       |
 | [Book List](projects/booklist/)                      | November 2020 | ES6 classes, Skeleton CSS                  | [Open](https://zeddrix.github.io/pet-projects/project/booklist)            |
 | [JW Guitar Templates](projects/jw-guitar-templates/) | March 2020    | Vanilla JS, custom fonts                   | [Open](https://zeddrix.github.io/pet-projects/project/jw-guitar-templates) |
+| [Bible Query](projects/bible-query/)                 | May 2020      | Vanilla JS, HTML5, custom fonts            | [Open](https://zeddrix.github.io/pet-projects/project/bible-query)         |
 | [Animate](projects/animate/)                         | January 2020  | Animate.css, Bootstrap                     | [Open](https://zeddrix.github.io/pet-projects/project/animate)             |
 | [Robot Friend](projects/robot-friend/)               | February 2020 | HTML + CSS only                            | [Open](https://zeddrix.github.io/pet-projects/project/robot-friend)        |
 | [Blog App](projects/blog-app/)                       | February 2024 | Django archive + SvelteKit static preview  | [Open](https://zeddrix.github.io/pet-projects/project/blog-app)            |
@@ -98,11 +99,18 @@ Open `http://localhost:4173/pet-projects/`.
 ## Adding a pet demo
 
 1. Place static build artifacts in `projects/<slug>/` with `index.html` as entry.
-2. Add an entry to [`src/lib/data/projects.json`](src/lib/data/projects.json).
-3. Run `pnpm sync-projects`.
-4. Verify in dev: sidebar entry appears and iframe loads.
+2. Add a portfolio README at `projects/<slug>/README.md`.
+3. Add a catalog entry to [`src/lib/data/projects.json`](src/lib/data/projects.json) including **info modal metadata**:
+   - `developedAt`, `techStack` or `versions[]`, `sortOrder`, monorepo `sourceUrl`
+   - `dualVersionReason` when importing archived repos or when preview differs from original source (see `bible-query`, `blog-app`, `devcamper-api`)
+   - `displayMode: "readme"` for backend-only projects
+4. Update [`src/lib/data/projects.unit.test.ts`](src/lib/data/projects.unit.test.ts) and add an info-modal scenario in [`tests/e2e/playground-project-info.e2e.test.ts`](tests/e2e/playground-project-info.e2e.test.ts).
+5. Run `pnpm sync-projects`.
+6. Verify in dev: sidebar entry appears, iframe loads, and the **info FAB** shows created date, tech stack, and any archive note.
 
 Do **not** add `package.json`, ESLint, or tests inside `projects/<slug>/`.
+
+Agent rule: [CLAUDE.md](CLAUDE.md) **Adding a catalog entry** — apply on every new slug.
 
 ## Deploy to GitHub Pages
 
@@ -123,6 +131,7 @@ For each slug on the live Pages URL:
 
 - [ ] iframe loads (no blank frame)
 - [ ] Primary interaction works
+- [ ] Info FAB modal shows `developedAt`, tech stack, and archive note when applicable
 - [ ] No 404s for assets in Network tab
 - [ ] If broken: legacy app may use absolute `/` paths — rebuild with relative base or document as known issue
 
