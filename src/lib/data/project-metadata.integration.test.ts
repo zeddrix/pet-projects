@@ -1,7 +1,12 @@
 import { describe, expect, it } from "vitest";
 import { getProjectBySlug, getSortedProjects } from "./projects";
 
-const DUAL_VERSION_SLUGS = ["blog-app", "microposts", "github-finder-jsx"];
+const DUAL_VERSION_SLUGS = [
+  "blog-app",
+  "microposts",
+  "github-finder-jsx",
+  "diamond-in-black-pearl",
+];
 
 describe("project metadata integration", () => {
   it("requires developedAt for every catalog entry", () => {

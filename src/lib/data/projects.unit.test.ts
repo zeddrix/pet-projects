@@ -25,8 +25,8 @@ describe("projects manifest", () => {
     expect(project.deprecated).toBeUndefined();
   });
 
-  it("returns 15 sorted projects", () => {
-    expect(getSortedProjects()).toHaveLength(15);
+  it("returns 16 sorted projects", () => {
+    expect(getSortedProjects()).toHaveLength(16);
   });
 
   it("marks github-finder as deprecated", () => {
@@ -37,7 +37,8 @@ describe("projects manifest", () => {
 
   it("exposes slugs for prerender entries", () => {
     const slugs = getProjectSlugs();
-    expect(slugs).toHaveLength(15);
+    expect(slugs).toHaveLength(16);
+    expect(slugs).toContain("diamond-in-black-pearl");
     expect(slugs).toContain("loan-calculator");
     expect(slugs).toContain("bible-query");
   });
@@ -76,5 +77,19 @@ describe("projects manifest", () => {
     expect(project?.techStack).toContain("Custom fonts");
     expect(project?.dualVersionReason).toContain("git history");
     expect(project?.dualVersionReason).toContain("zeddrix/bible-query");
+  });
+
+  it("includes archive metadata for diamond-in-black-pearl", () => {
+    const project = getProjectBySlug("diamond-in-black-pearl");
+
+    expect(project?.developedAt).toBe("June 2020");
+    expect(project?.versions?.length).toBeGreaterThanOrEqual(3);
+    expect(project?.dualVersionReason).toContain("git history");
+    expect(project?.dualVersionReason).toContain(
+      "zeddrix/diamond-in-black-pearl",
+    );
+    expect(project?.dualVersionReason).toContain(
+      "original/game.py is untouched",
+    );
   });
 });

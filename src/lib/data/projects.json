@@ -186,5 +186,35 @@
     "dualVersionReason": "This is a backend-only API and cannot run on GitHub Pages. The playground shows the README instead of an iframe.",
     "displayMode": "readme",
     "sortOrder": 15
+  },
+  {
+    "slug": "diamond-in-black-pearl",
+    "title": "Diamond in Black Pearl",
+    "description": "Pink Panther meets Pirates — CLI text adventure with browser terminal and illustrated modes.",
+    "sourceUrl": "https://github.com/zeddrix/pet-projects/tree/main/projects/diamond-in-black-pearl",
+    "developedAt": "June 2020",
+    "versions": [
+      {
+        "id": "original",
+        "label": "Python CLI game (untouched)",
+        "techStack": ["Python 3"],
+        "folderPath": "original",
+        "note": "Preserved from standalone repo with full git history. Run: python game.py"
+      },
+      {
+        "id": "preview",
+        "label": "Browser terminal (Pyodide)",
+        "techStack": ["Pyodide", "Python 3", "Vanilla JS"],
+        "folderPath": "terminal"
+      },
+      {
+        "id": "source",
+        "label": "Visual adventure (Pyodide)",
+        "techStack": ["Pyodide", "AI-generated PNG art", "Vanilla JS"],
+        "folderPath": "visual"
+      }
+    ],
+    "dualVersionReason": "This folder preserves the full git history from the former standalone repo zeddrix/diamond-in-black-pearl. original/game.py is untouched. GitHub Pages runs a derived engine.py in-browser via Pyodide for terminal and illustrated modes.",
+    "sortOrder": 16
   }
 ]
