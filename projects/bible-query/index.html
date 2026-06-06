@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BIBLE QUERY</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/media.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
+  </head>
+  <body>
+    <div id="backdrop"></div>
+    <div class="outer-container background">
+      <div class="container background">
+        <div id="homepage__block">
+          <h1 class="bible-query__title">BIBLE QUERY</h1>
+          <div class="main-btns">
+            <img class="main-btn levels" src="img/play-btn.jpg" />
+            <img class="main-btn settings" src="img/settings-btn.jpg" />
+            <img class="main-btn rules" src="img/rules-btn.jpg" />
+            <img
+              class="main-btn"
+              id="main-btn__about"
+              src="img/about-btn.jpg"
+            />
+            <img
+              class="main-btn"
+              id="main-btn__friends"
+              src="img/friends-btn.jpg"
+            />
+            <img class="main-btn" id="main-btn__quit" src="img/quit-btn.jpg" />
+          </div>
+        </div>
+        <!-- Upon clicking PLAY -->
+        <div id="levels__block" style="display: none;">
+          <h1 class="page__heading">SELECT A LEVEL</h1>
+          <h3 id="stars">Stars: 0</h3>
+          <div class="levels__number-container"> <!--Attempt to show all levels in this container. UNDONE-->
+            <div class="levels__number start-query">1</div>
+          </div>
+          <div class="menu-btns">
+            <img src="img/back-sm-btn.jpg" class="go-to-homepage menu-btn" />
+            <img src="img/settings-sm-btn.jpg" class="settings menu-btn" />
+          </div>
+        </div>
+        <!-- Upon clicking on SETTINGS -->
+        <div id="settings__block" style="display: none;">
+          <h1 class="page__heading">GAME SETTINGS</h1>
+          <br />
+          <div class="settings__content">
+            <input type="checkbox" value="Music" />
+            <label for="Music">Music</label>
+            <br />
+            <input type="checkbox" value="Sound Effects" />
+            <label for="Sound Effects">Sound Effects</label>
+            <br />
+            <input type="checkbox" value="Enable Time Limit" />
+            <label for="Enable Time Limit">Enable Time Limit</label>
+            <p>
+              (Learn more about Time Limit on the game's
+              <a class="rules">Rules</a>).
+            </p>
+          </div>
+          <div class="menu-btns">
+            <img
+              src="img/reset-game-btn.jpg"
+              id="reset-game__btn"
+              class="menu-btn"
+            />
+            <img src="img/back-sm-btn.jpg" class="go-to-homepage menu-btn" />
+          </div>
+        </div>
+        <!-- Upon clicking on RULES -->
+        <div id="rules__block" style="display: none;">
+          <h1 class="page__heading">GAME RULES</h1>
+          <h2 class="page__sub-heading">Clues</h2>
+          <p>
+            You can only get 3 clues for each level. After you've used all 3,
+            you would be answering the next questions without any clue, of
+            course. So use it wisely.
+          </p>
+          <h2 class="page__sub-heading">Time Limit</h2>
+          <p>
+            You can enable and disable this option on the
+            <a class="settings">Settings</a>. When enabled, you have exactly 10
+            seconds to answer each question. Once the time is up without you
+            answering the current question, it will proceed to the next
+            question. Consequently, you won't earn a point for this.
+          </p>
+          <h2 class="page__sub-heading">Stars</h2>
+          <p>
+            These are the number of stars required to unlock each level:
+          </p>
+          <!-- <img class="rules-table__img" src="img/levels-stars.jpg" /> -->
+          <div class="menu-btns">
+            <img src="img/back-sm-btn.jpg" class="go-to-homepage menu-btn" />
+          </div>
+        </div>
+        <!-- Upon clicking on ABOUT -->
+        <div id="about__block" style="display: none;">
+          <h1 class="page__heading">ABOUT</h1>
+          <h2 class="page__sub-heading">About Bible query</h2>
+          <p>
+            This is just a simple Bible game that we can play with our friends
+            and families. If you're one of Jehovah's Witnesses, you can play
+            this game on your next
+            <a
+              href="https://www.jw.org/en/library/books/jehovahs-will/jehovahs-witnesses-family-worship/"
+              target="_blank"
+            >
+              family worship</a
+            >!
+          </p>
+          <p>
+            The Bible verses that served as clues in this game are all from the
+            <i
+              ><a
+                href="https://www.jw.org/en/library/bible/study-bible/books/"
+                target="_blank"
+              >
+                New World Translation of the Holy Scriptures</a
+              ></i
+            >. While the other clues are from some Bible-based publications also
+            published by
+            <a
+              href="https://wol.jw.org/en/wol/d/r1/lp-e/1200276161"
+              target="_blank"
+            >
+              The Watch Tower Bible and Tract Society of Pennsylvania</a
+            >. For example, some of these clues are from the book
+            <i
+              ><a
+                href="https://www.jw.org/en/library/books/Insight-on-the-Scriptures/"
+                target="_blank"
+              >
+                Insight on the Scriptures</a
+              ></i
+            >.
+          </p>
+          <p>
+            These Bible-based publications can be downloaded for free on
+            Jehovah’s Witnesses' official website on:
+            <a href="https://www.jw.org/en/" target="_blank"> www.jw.org/en</a>.
+          </p>
+          <p>
+            Note that the sources of the clues used are not abbreviated. For
+            example, instead of having "it-2 853-854", this game used "Insight
+            on the Scriptures, Volume 2 pp. 853-854," for the sake of our
+            non-Witness players. Note, though, that the abbreviation "nwt" is an
+            exception. It just means
+            <i
+              ><a
+                href="https://www.jw.org/en/library/bible/study-bible/books/"
+                target="_blank"
+              >
+                New World Translation of the Holy Scriptures</a
+              ></i
+            >.
+          </p>
+          <p>
+            To know the rules of the game, please go to
+            <a class="rules">Rules</a>.
+          </p>
+          <h2 class="page__sub-heading">About the Developer</h2>
+          <p>
+            My name is Zedd, but I'm not the
+            <a
+              href="https://www.thetoptens.com/best-zedd-songs/"
+              target="_blank"
+            >
+              DJ Zedd</a
+            >⁠—I like his music, though. Anyway, I was baptized as one of
+            <a href="https://www.jw.org/en/jehovahs-witnesses/" target="_blank">
+              Jehovah’s Witnesses</a
+            >
+            on February 21, 2016. I started
+            <a
+              href="https://www.jw.org/en/library/books/jehovahs-will/jw-pioneer/"
+              target="_blank"
+            >
+              regular pioneering</a
+            >
+            last March 2020. I'd like to volunteer in
+            <a
+              href="https://www.jw.org/en/library/books/jehovahs-will/what-is-bethel/"
+              target="_blank"
+            >
+              Bethel
+            </a>
+            someday.
+          </p>
+          <p>
+            After going in a private school for 8 years and in a public school
+            for 2 years, last 2019, I started
+            <a href="https://zeddrix.com/" target="_blank"> homeschooling</a>
+            as a grade 11 student.
+          </p>
+          <p>
+            Besides of being a developer, I also blog. My blogs are all about
+            the things I'm learning in my independent homeschooling. I promise
+            that you'll know me better after you've read the
+            <a href="https://zeddrix.com/about-zedd/" target="_blank"
+              >ABOUT ZEDD</a
+            >
+            page at:
+            <a href="https://zeddrix.com/" target="_blank">zeddrix.com</a>.
+          </p>
+          <p>
+            Thanks a lot for reading this ABOUT page! Enjoy playing
+            <b>Bible Query</b>!
+          </p>
+          <div class="centered-sm-btns">
+            <img src="img/back-sm-btn.jpg" class="go-to-homepage menu-btn" />
+          </div>
+        </div>
+        <!-- Upon selecting a query level -->
+        <div id="query" style="display: none;">
+          <p id="query__level-theme">level theme here</p>
+          <div class="query__question-section">
+            <p id="query__question"></p>
+            <p id="query__clue-btn">?</p>
+          </div>
+          <div id="query__counter" style="display: none;"></div>
+          <div id="query__time"></div>
+          <p class="query__choice" id="choice-A"></p>
+          <p class="query__choice" id="choice-B"></p>
+          <p class="query__choice" id="choice-C"></p>
+          <p class="query__choice" id="choice-D"></p>
+          <div id="query__progress-container"></div>
+          <!-- <div class="menu-btns"> -->
+            <!-- <img
+              id="query__menu-btns__levels"
+              src="img/levels-sm-btn.jpg"
+              class="menu-btn"
+            /> -->
+            <img
+              id="query__menu-btns__retry"
+              src="img/retry-sm-btn.jpg"
+              class="menu-btn"
+            />
+            <img
+              id="query__menu-btns__quit"
+              src="img/quit-sm-btn.jpg"
+              class="menu-btn"
+            />
+          <!-- </div> -->
+          <button id="query__check-answer-btn" disabled>Check</button>
+        </div>
+        <!-- After the query -->
+        <div id="final-score" style="display: none;">
+          <h1 id="final-score__phrase-1"></h1>
+          <img id="final-score__img" />
+          <p id="final-score__percentage"></p>
+          <p id="final-score__phrase-2"></p>
+          <div class="menu-btns">
+            <img class="levels menu-btn" src="img/levels-sm-btn.jpg" />
+            <img class="menu-btn start-query" src="img/play-again-sm-btn.jpg" />
+            <img class="menu-btn" src="img/next-level-sm-btn.jpg" />
+            <img class="go-to-homepage menu-btn start-query" src="img/quit-sm-btn.jpg" />
+          </div>
+        </div>
+        <!-- ----------------------------MODALS---------------------------- -->
+        <!-- TELL YOUR FRIENDS -->
+        <div id="friends-modal" class="modal">
+          <div class="modal__effect">
+            <p class="modal__content">
+              You are now temporarily leaving the game to send a recommendation
+              using your preferred messaging application.
+            </p>
+            <img src="img/okay-sm-btn.jpg" class="modal_close modal__btn" />
+          </div>
+        </div>
+        <!-- QUIT -->
+        <div id="quit-modal" class="modal">
+          <div class="modal__effect">
+            <p class="modal__content">Are you sure you want to quit?</p>
+            <div class="modal__btns">
+              <img src="img/yes-sm-btn.jpg" class="modal_close modal__btn" />
+              <img src="img/no-sm-btn.jpg" class="modal_close modal__btn" />
+            </div>
+          </div>
+        </div>
+        <!-- RESET GAME -->
+        <div id="reset-game-modal" class="modal">
+          <div class="reset-game-modal__effect">
+            <p class="reset-game-modal__content">
+              This means clearing all the data of the game! Are you sure you
+              want to continue this procedure?
+            </p>
+            <div class="modal__btns">
+              <img src="img/yes-sm-btn.jpg" class="modal_close modal__btn" />
+              <img src="img/no-sm-btn.jpg" class="modal_close modal__btn" />
+            </div>
+          </div>
+        </div>
+        <!-- CLUE MODAL -->
+        <div id="clue-modal" class="modal">
+          <div class="modal__effect">
+            <h2 id="clue__source"></h2>
+            <hr class="clue__horizontal-line" />
+            <p id="clue__source-content"></p>
+            <div class="modal__btns">
+              <img src="img/okay-sm-btn.jpg" class="modal_close modal__btn" />
+            </div>
+          </div>
+        </div>
+        <!-- DURING QUERY MODALS -->
+        <div id="levels-modal" class="modal">
+          <div class="modal__effect">
+            <p class="modal__content">
+              You'll lose the progress you've made in this level. Are you sure
+              you want to go to the levels section?
+            </p>
+            <div class="modal__btns">
+              <img src="img/yes-sm-btn.jpg" class="levels modal__btn start-query" />
+              <img src="img/no-sm-btn.jpg" class="modal_close modal__btn" />
+            </div>
+          </div>
+        </div>
+        <div id="retry-query-modal" class="modal">
+          <div class="modal__effect">
+            <p class="modal__content">
+              You'll lose the progress you've made in this level. Are you sure
+              you want to start over?
+            </p>
+            <div class="modal__btns">
+              <img
+                src="img/yes-sm-btn.jpg"
+                id="retry-query__yes"
+                class="modal__btn start-query"
+              />
+              <img src="img/no-sm-btn.jpg" class="modal_close modal__btn" />
+            </div>
+          </div>
+        </div>
+        <div id="quit-query-modal" class="modal">
+          <div class="modal__effect">
+            <p class="modal__content">
+              You'll lose the progress you've made in this level. Are you sure
+              you want to quit and go to the homepage?
+            </p>
+            <div class="modal__btns">
+              <img src="img/yes-sm-btn.jpg" class="go-to-homepage modal__btn start-query" />
+              <img src="img/no-sm-btn.jpg" class="modal_close modal__btn" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- container -->
+    </div>
+    <!-- outer-container -->
+  </body>
+  <script src="scripts/block.js"></script>
+  <script src="scripts/data.js"></script>
+  <script src="scripts/levels.js"></script>
+  <script src="scripts/query.js"></script>
+  <script src="scripts/modals.js"></script>
+  <script src="scripts/events.js"></script>
+</html>
