@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diamond in Black Pearl — Visual Adventure</title>
+    <link rel="stylesheet" href="css/game.css" />
+  </head>
+  <body>
+    <div class="game-shell" data-testid="dibp-visual">
+      <header class="game-shell__bar">
+        <a class="game-shell__back" href="../index.html">&larr; Modes</a>
+        <h1 class="game-shell__title" id="scene-title">Visual Adventure</h1>
+        <div class="game-shell__status">
+          <span
+            class="game-shell__inventory"
+            id="inventory"
+            hidden
+            title="Treasure chest acquired"
+            >&#128176;</span
+          >
+          <span
+            class="game-shell__checkpoint"
+            id="checkpoint-badge"
+            hidden
+            title="Checkpoint"
+            >&#9873;</span
+          >
+        </div>
+      </header>
+
+      <div class="game-shell__loader" id="loader" data-testid="dibp-visual-loader">
+        <p>Loading adventure…</p>
+      </div>
+
+      <main class="game-layout" id="game-layout" hidden>
+        <figure class="scene-art">
+          <img
+            id="scene-image"
+            src="../assets/scenes/intro.jpg"
+            alt="Adventure scene"
+            class="scene-art__img"
+          />
+        </figure>
+
+        <div class="game-panels">
+          <section class="narrative-panel" aria-label="Story log">
+            <h2 class="panel-heading">Story</h2>
+            <pre class="narrative-panel__log" id="narrative-log"></pre>
+          </section>
+
+          <section class="map-panel" aria-label="Adventure map">
+            <h2 class="panel-heading">Map</h2>
+            <div class="map-panel__frame" id="adventure-map"></div>
+          </section>
+        </div>
+
+        <section class="choices-panel" aria-label="Choices">
+          <div class="choices-panel__buttons" id="choice-buttons"></div>
+          <details class="choices-panel__typed" id="typed-drawer">
+            <summary>Type a custom answer</summary>
+            <form id="typed-form" class="choices-panel__typed-form">
+              <input
+                id="typed-input"
+                type="text"
+                autocomplete="off"
+                autocapitalize="characters"
+                placeholder="TYPE CAPS KEYWORDS…"
+              />
+              <button type="submit">Submit</button>
+            </form>
+          </details>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="js/visual-app.js"></script>
+  </body>
+</html>

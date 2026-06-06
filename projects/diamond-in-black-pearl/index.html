@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diamond in Black Pearl — Choose Mode</title>
+    <link rel="stylesheet" href="launcher.css" />
+  </head>
+  <body>
+    <main class="launcher" data-testid="dibp-launcher">
+      <header class="launcher__header">
+        <h1>Diamond in Black Pearl</h1>
+        <p class="launcher__tagline">
+          Pink Panther meets Pirates — a text adventure born in the terminal.
+        </p>
+      </header>
+
+      <div class="launcher__cards">
+        <a
+          class="launcher__card"
+          href="terminal/index.html"
+          data-testid="dibp-mode-terminal"
+        >
+          <h2>Terminal Mode</h2>
+          <p>
+            Play in a faux terminal. Type CAPS keywords like the original CLI
+            game.
+          </p>
+          <span class="launcher__cta">Enter terminal</span>
+        </a>
+
+        <a
+          class="launcher__card launcher__card--visual"
+          href="visual/index.html"
+          data-testid="dibp-mode-visual"
+        >
+          <h2>Visual Adventure</h2>
+          <p>
+            Storybook illustrations, adventure map, and choice buttons — same
+            Python game logic.
+          </p>
+          <span class="launcher__cta">Start adventure</span>
+        </a>
+      </div>
+
+      <footer class="launcher__footer">
+        <p>
+          Original CLI:
+          <code>python original/game.py</code>
+          — preserved untouched in this folder.
+        </p>
+      </footer>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diamond in Black Pearl — Terminal</title>
+    <link rel="stylesheet" href="css/terminal.css" />
+  </head>
+  <body>
+    <div class="terminal-shell" data-testid="dibp-terminal">
+      <header class="terminal-shell__bar">
+        <a class="terminal-shell__back" href="../index.html">&larr; Modes</a>
+        <span class="terminal-shell__title">Terminal Mode</span>
+      </header>
+
+      <p class="terminal-shell__mobile-banner" data-testid="dibp-mobile-banner">
+        On mobile? Try
+        <a href="../visual/index.html">Visual Adventure</a> for a better
+        experience.
+      </p>
+
+      <div
+        class="terminal-shell__loader"
+        id="loader"
+        data-testid="dibp-terminal-loader"
+      >
+        <p>Booting Python runtime…</p>
+        <div class="terminal-shell__loader-bar" aria-hidden="true"></div>
+      </div>
+
+      <div class="terminal-screen" id="terminal-screen" hidden>
+        <pre
+          class="terminal-screen__output"
+          id="terminal-output"
+          aria-live="polite"
+        ></pre>
+        <form class="terminal-screen__form" id="terminal-form">
+          <label class="visually-hidden" for="terminal-input">Command</label>
+          <input
+            id="terminal-input"
+            class="terminal-screen__input"
+            type="text"
+            autocomplete="off"
+            autocapitalize="characters"
+            spellcheck="false"
+            disabled
+          />
+        </form>
+      </div>
+    </div>
+
+    <script type="module" src="js/terminal-app.js"></script>
+  </body>
+</html>
