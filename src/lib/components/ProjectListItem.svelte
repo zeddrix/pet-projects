@@ -17,7 +17,7 @@
   );
   const theme = $derived(getProjectSidebarTheme(project.slug));
   const itemStyle = $derived(
-    `--sidebar-primary: ${theme.primary}; --sidebar-accent: ${theme.accent}; --sidebar-primary-dark: ${theme.primaryDark};`,
+    `--sidebar-primary: ${theme.primary}; --sidebar-accent: ${theme.accent};`,
   );
 </script>
 
@@ -30,7 +30,7 @@
   data-sidebar-accent={theme.accent}
   aria-current={isActive ? "page" : undefined}
   style={itemStyle}
-  class="project-list-item block rounded-lg px-3 py-2 transition-all duration-200 ease-out motion-reduce:transition-none"
+  class="project-list-item block rounded-lg px-3 py-2"
   onclick={onselect}
 >
   <div class="flex items-start justify-between gap-2">
@@ -51,22 +51,6 @@
 
 <style>
   .project-list-item {
-    background: color-mix(in srgb, var(--sidebar-primary) 12%, white);
-    border-left: 2px solid transparent;
-    color: var(--sidebar-primary-dark);
-  }
-
-  .project-list-item:hover:not([data-active="true"]) {
-    background: color-mix(in srgb, var(--sidebar-primary) 20%, white);
-    border-left-color: color-mix(
-      in srgb,
-      var(--sidebar-accent) 55%,
-      transparent
-    );
-    box-shadow: 0 1px 2px rgb(0 0 0 / 0.05);
-  }
-
-  .project-list-item[data-active="true"] {
     background: var(--sidebar-primary);
     border-left: 3px solid var(--sidebar-accent);
     color: white;
@@ -79,19 +63,10 @@
   }
 
   .project-list-item__description {
-    color: color-mix(in srgb, var(--sidebar-primary-dark) 72%, white);
-  }
-
-  .project-list-item[data-active="true"] .project-list-item__description {
     color: rgb(255 255 255 / 0.82);
   }
 
   .deprecated-badge {
-    background: rgb(254 243 199);
-    color: rgb(146 64 14);
-  }
-
-  .project-list-item[data-active="true"] .deprecated-badge {
     background: rgb(255 255 255 / 0.2);
     color: white;
   }
