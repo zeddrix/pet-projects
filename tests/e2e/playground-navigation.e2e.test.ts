@@ -1,5 +1,20 @@
-import { expect, test } from "@playwright/test";
+import { expect, test, type Locator } from "@playwright/test";
 import { PAGES_DEFAULT_PROJECT_PATH } from "./fixtures/pages-env";
+
+function projectListItem(page: import("@playwright/test").Page, slug: string) {
+  return page.locator(`[data-testid="project-list-item"][data-slug="${slug}"]`);
+}
+
+async function backgroundLuminance(locator: Locator): Promise<number> {
+  return locator.evaluate((element) => {
+    const rgb = getComputedStyle(element).backgroundColor.match(/\d+/g);
+    if (!rgb || rgb.length < 3) {
+      return 0;
+    }
+    const [r, g, b] = rgb.map(Number);
+    return 0.2126 * r + 0.7152 * g + 0.0722 * b;
+  });
+}
 
 test.describe("playground navigation", () => {
   test.beforeEach(async ({ page }) => {
@@ -10,9 +25,7 @@ test.describe("playground navigation", () => {
   test("Given app open, when user clicks two different sidebar items, then iframe src and title update", async ({
     page,
   }) => {
-    await page
-      .locator('[data-testid="project-list-item"][data-slug="loan-calculator"]')
-      .click();
+    await projectListItem(page, "loan-calculator").click();
     await expect(page).toHaveURL(/\/project\/loan-calculator$/);
     await expect(page.getByTestId("playground-title")).toContainText(
       "Loan Calculator",
@@ -21,10 +34,12 @@ test.describe("playground navigation", () => {
       "src",
       /loan-calculator\/$/,
     );
+    await expect(projectListItem(page, "loan-calculator")).toHaveAttribute(
+      "data-sidebar-primary",
+      "#343a40",
+    );
 
-    await page
-      .locator('[data-testid="project-list-item"][data-slug="weather-widget"]')
-      .click();
+    await projectListItem(page, "weather-widget").click();
     await expect(page).toHaveURL(/\/project\/weather-widget$/);
     await expect(page.getByTestId("playground-title")).toContainText(
       "Weather Widget",
@@ -32,6 +47,10 @@ test.describe("playground navigation", () => {
     await expect(page.getByTestId("playground-frame")).toHaveAttribute(
       "src",
       /weather-widget\/$/,
+    );
+    await expect(projectListItem(page, "weather-widget")).toHaveAttribute(
+      "data-sidebar-primary",
+      "#007bff",
     );
   });
 
@@ -49,17 +68,69 @@ test.describe("playground navigation", () => {
     );
   });
 
-  test("Given active project, when list item selected, then active state updates", async ({
+  test("Given playground loaded, when user selects word-counter, then theme tokens and navigation update", async ({
     page,
   }) => {
-    await page
-      .locator('[data-testid="project-list-item"][data-slug="tracalorie"]')
-      .click();
-    const activeItem = page.locator(
-      '[data-testid="project-list-item"][data-slug="tracalorie"]',
+    await projectListItem(page, "word-counter").click();
+    const activeItem = projectListItem(page, "word-counter");
+    await expect(page).toHaveURL(/\/project\/word-counter$/);
+    await expect(page.getByTestId("playground-title")).toContainText(
+      "Word Counter",
+    );
+    await expect(page.getByTestId("playground-frame")).toHaveAttribute(
+      "src",
+      /word-counter\/$/,
     );
     await expect(activeItem).toHaveAttribute("data-active", "true");
-    await expect(activeItem).toHaveAttribute("aria-current", "page");
+    await expect(activeItem).toHaveAttribute("data-sidebar-primary", "#3497be");
+    await expect(activeItem).toHaveAttribute("data-sidebar-accent", "#f3e410");
+  });
+
+  test("Given word-counter active, when user selects loan-calculator, then active theme applies and inactive item uses lighter tint", async ({
+    page,
+  }) => {
+    await projectListItem(page, "word-counter").click();
+    await expect(projectListItem(page, "word-counter")).toHaveAttribute(
+      "data-active",
+      "true",
+    );
+
+    await projectListItem(page, "loan-calculator").click();
+    const loanItem = projectListItem(page, "loan-calculator");
+    const wordCounterItem = projectListItem(page, "word-counter");
+
+    await expect(page).toHaveURL(/\/project\/loan-calculator$/);
+    await expect(loanItem).toHaveAttribute("data-active", "true");
+    await expect(loanItem).toHaveAttribute("aria-current", "page");
+    await expect(loanItem).toHaveAttribute("data-sidebar-primary", "#343a40");
+    await expect(wordCounterItem).toHaveAttribute("data-active", "false");
+    await expect(wordCounterItem).toHaveAttribute(
+      "data-sidebar-primary",
+      "#3497be",
+    );
+
+    const inactiveLuminance = await backgroundLuminance(wordCounterItem);
+    const activeLuminance = await backgroundLuminance(loanItem);
+    expect(inactiveLuminance).toBeGreaterThan(activeLuminance);
+  });
+
+  test("Given loan-calculator active, when user hovers weather-widget then clicks it, then URL updates only after click", async ({
+    page,
+  }) => {
+    await projectListItem(page, "loan-calculator").click();
+    await expect(page).toHaveURL(/\/project\/loan-calculator$/);
+
+    const weatherItem = projectListItem(page, "weather-widget");
+    await weatherItem.hover();
+    await expect(page).toHaveURL(/\/project\/loan-calculator$/);
+
+    await weatherItem.click();
+    await expect(page).toHaveURL(/\/project\/weather-widget$/);
+    await expect(weatherItem).toHaveAttribute("data-active", "true");
+    await expect(weatherItem).toHaveAttribute(
+      "data-sidebar-primary",
+      "#007bff",
+    );
   });
 
   test("Given sidebar list, when user opens blog-app, then iframe src targets blog-app preview", async ({

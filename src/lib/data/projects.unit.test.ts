@@ -5,6 +5,10 @@ import {
   getProjectSlugs,
   getSortedProjects,
 } from "./projects";
+import {
+  getProjectSidebarTheme,
+  isFallbackSidebarTheme,
+} from "./project-sidebar-themes";
 
 describe("projects manifest", () => {
   it("returns project for known slug", () => {
@@ -60,6 +64,14 @@ describe("projects manifest", () => {
   it("includes developedAt for every project", () => {
     for (const project of getSortedProjects()) {
       expect(project.developedAt.length).toBeGreaterThan(0);
+    }
+  });
+
+  it("resolves a non-fallback sidebar theme for every manifest slug", () => {
+    for (const slug of getProjectSlugs()) {
+      const theme = getProjectSidebarTheme(slug);
+
+      expect(isFallbackSidebarTheme(theme)).toBe(false);
     }
   });
 

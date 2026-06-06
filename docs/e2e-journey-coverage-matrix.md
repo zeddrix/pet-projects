@@ -17,6 +17,7 @@
 | PG-09 | project-info-fab-modal          | `tests/e2e/playground-project-info.e2e.test.ts`        | covered |
 | PG-10 | shell-modernization-smoke       | `tests/e2e/playground-shell-modernization.e2e.test.ts` | covered |
 | PG-11 | sidebar-about-blog-app-projects | `tests/e2e/playground-sidebar-about.e2e.test.ts`       | covered |
+| PG-12 | sidebar-project-themes          | `tests/e2e/playground-navigation.e2e.test.ts`          | covered |
 
 ## Out of scope
 
