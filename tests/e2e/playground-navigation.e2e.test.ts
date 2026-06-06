@@ -94,6 +94,24 @@ test.describe("playground navigation", () => {
     );
   });
 
+  test("Given sidebar list, when user opens diamond-in-black-pearl, then iframe src targets launcher", async ({
+    page,
+  }) => {
+    await page
+      .locator(
+        '[data-testid="project-list-item"][data-slug="diamond-in-black-pearl"]',
+      )
+      .click();
+    await expect(page).toHaveURL(/\/project\/diamond-in-black-pearl$/);
+    await expect(page.getByTestId("playground-title")).toContainText(
+      "Diamond in Black Pearl",
+    );
+    await expect(page.getByTestId("playground-frame")).toHaveAttribute(
+      "src",
+      /diamond-in-black-pearl\/$/,
+    );
+  });
+
   test("Given sidebar list, when user opens devcamper-api, then readme pane is shown instead of iframe", async ({
     page,
   }) => {

@@ -4,28 +4,29 @@
 
 ## Golden-path ownership
 
-| Behavior                          | Canonical file                          |
-| --------------------------------- | --------------------------------------- |
-| `/` redirect to default project   | `playground-default-load.e2e.test.ts`   |
-| Sidebar toggle hide/show          | `playground-sidebar-toggle.e2e.test.ts` |
-| Sidebar persistence after reload  | `playground-sidebar-toggle.e2e.test.ts` |
-| Navigate between catalog entries  | `playground-navigation.e2e.test.ts`     |
-| blog-app / microposts iframe src  | `playground-navigation.e2e.test.ts`     |
-| devcamper-api README pane         | `playground-navigation.e2e.test.ts`     |
-| Deprecated badge on github-finder | `playground-navigation.e2e.test.ts`     |
-| Active list item state            | `playground-navigation.e2e.test.ts`     |
-| Unknown slug in-shell 404         | `playground-unknown-slug.e2e.test.ts`   |
-| Mobile drawer open/select/close   | `playground-mobile-drawer.e2e.test.ts`  |
-| Mobile backdrop close             | `playground-mobile-drawer.e2e.test.ts`  |
-| BASE_PATH iframe src segment      | `playground-base-path.e2e.test.ts`      |
-| Direct deep link to project route | `playground-deep-link.e2e.test.ts`      |
-| Project info FAB modal            | `playground-project-info.e2e.test.ts`   |
+| Behavior                                       | Canonical file                                                             |
+| ---------------------------------------------- | -------------------------------------------------------------------------- |
+| `/` redirect to default project                | `playground-default-load.e2e.test.ts`                                      |
+| Sidebar toggle hide/show                       | `playground-sidebar-toggle.e2e.test.ts`                                    |
+| Sidebar persistence after reload               | `playground-sidebar-toggle.e2e.test.ts`                                    |
+| Navigate between catalog entries               | `playground-navigation.e2e.test.ts`                                        |
+| blog-app / microposts iframe src               | `playground-navigation.e2e.test.ts`                                        |
+| devcamper-api README pane                      | `playground-navigation.e2e.test.ts`                                        |
+| Deprecated badge on github-finder              | `playground-navigation.e2e.test.ts`                                        |
+| Active list item state                         | `playground-navigation.e2e.test.ts`                                        |
+| Unknown slug in-shell 404                      | `playground-unknown-slug.e2e.test.ts`                                      |
+| Mobile drawer open/select/close                | `playground-mobile-drawer.e2e.test.ts`                                     |
+| Mobile backdrop close                          | `playground-mobile-drawer.e2e.test.ts`                                     |
+| BASE_PATH iframe src segment                   | `playground-base-path.e2e.test.ts`                                         |
+| Direct deep link to project route              | `playground-deep-link.e2e.test.ts`                                         |
+| bible-query deep link iframe src               | `playground-deep-link.e2e.test.ts`                                         |
+| diamond-in-black-pearl visual deep link        | `playground-deep-link.e2e.test.ts`                                         |
+| Project info FAB modal                         | `playground-project-info.e2e.test.ts`                                      |
+| diamond-in-black-pearl navigation + info modal | `playground-navigation.e2e.test.ts`, `playground-project-info.e2e.test.ts` |
+| Shell modernization smoke                      | `playground-shell-modernization.e2e.test.ts`                               |
+| Sidebar about → blog-app projects              | `playground-sidebar-about.e2e.test.ts`                                     |
 
 When adding a new catalog slug, extend `playground-project-info.e2e.test.ts` with an info-modal scenario (select slug → open FAB → assert `developedAt`, tech stack or version labels, and `dualVersionReason` when present). See [CLAUDE.md](../CLAUDE.md) **Adding a catalog entry**.
-| Shell modernization smoke | `playground-shell-modernization.e2e.test.ts` |
-| Sidebar about → blog-app projects | `playground-sidebar-about.e2e.test.ts` |
-
-## Ownership rules
 
 - Golden-path shell assertions belong in the files above.
 - Do not duplicate the same URL navigation + same outcome in multiple files.

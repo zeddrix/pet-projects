@@ -31,4 +31,23 @@ test.describe("playground deep link", () => {
       "Bible Query",
     );
   });
+
+  test("Given direct diamond-in-black-pearl visual demo URL, when loaded, then iframe targets visual mode", async ({
+    page,
+  }) => {
+    await page.goto(pagesPath("/project/diamond-in-black-pearl?demo=visual/"));
+    await expect(page.getByTestId("playground-shell")).toHaveAttribute(
+      "data-shell-hydrated",
+      "true",
+    );
+
+    await expect(page).toHaveURL(/\/project\/diamond-in-black-pearl/);
+    await expect(page.getByTestId("playground-frame")).toHaveAttribute(
+      "src",
+      /diamond-in-black-pearl\/visual\/$/,
+    );
+    await expect(page.getByTestId("playground-title")).toContainText(
+      "Diamond in Black Pearl",
+    );
+  });
 });

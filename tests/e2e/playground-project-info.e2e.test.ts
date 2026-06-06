@@ -93,6 +93,29 @@ test.describe("playground project info", () => {
     ).toBeVisible();
   });
 
+  test("Given diamond-in-black-pearl selected, when user opens info modal, then triple-version metadata and archive note appear", async ({
+    page,
+  }) => {
+    await page
+      .locator(
+        '[data-testid="project-list-item"][data-slug="diamond-in-black-pearl"]',
+      )
+      .click();
+    await page.getByTestId("project-info-fab").click();
+    const surface = page.getByTestId("project-info-surface");
+    await expect(surface).toBeVisible();
+    await expect(surface).toContainText("Diamond in Black Pearl");
+    await expect(surface).toContainText("June 2020");
+    await expect(surface).toContainText("Python CLI game");
+    await expect(surface).toContainText("Browser terminal");
+    await expect(surface).toContainText("Visual adventure");
+    await expect(surface).toContainText("git history");
+    await expect(surface).toContainText("zeddrix/diamond-in-black-pearl");
+    await expect(surface.locator('a[href*="original"]')).toBeVisible();
+    await expect(surface.locator('a[href*="terminal"]')).toBeVisible();
+    await expect(surface.locator('a[href*="visual"]')).toBeVisible();
+  });
+
   test("Given unknown project slug, when page loads, then info FAB is hidden and not-found message shows", async ({
     page,
   }) => {
