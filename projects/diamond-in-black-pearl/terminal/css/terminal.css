@@ -74,6 +74,10 @@ body {
   }
 }
 
+.terminal-shell__loader[hidden] {
+  display: none !important;
+}
+
 .terminal-shell__loader {
   flex: 1;
   display: flex;
@@ -82,6 +86,25 @@ body {
   justify-content: center;
   gap: 1rem;
   padding: 2rem;
+}
+
+.terminal-shell__start {
+  padding: 0.65rem 1.25rem;
+  border: 1px solid #33ff66;
+  background: transparent;
+  color: #33ff66;
+  font: inherit;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.terminal-shell__start:hover:not(:disabled) {
+  background: rgba(51, 255, 102, 0.12);
+}
+
+.terminal-shell__start:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
 }
 
 .terminal-shell__loader-bar {
@@ -109,6 +132,10 @@ body {
   100% {
     transform: translateX(350%);
   }
+}
+
+.terminal-screen[hidden] {
+  display: none !important;
 }
 
 .terminal-screen {

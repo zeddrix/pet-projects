@@ -10,7 +10,9 @@
     <div class="terminal-shell" data-testid="dibp-terminal">
       <header class="terminal-shell__bar">
         <a class="terminal-shell__back" href="../index.html">&larr; Modes</a>
-        <span class="terminal-shell__title">Terminal Mode</span>
+        <span class="terminal-shell__title" id="terminal-scene-title"
+          >Terminal Mode</span
+        >
       </header>
 
       <p class="terminal-shell__mobile-banner" data-testid="dibp-mobile-banner">
@@ -24,9 +26,23 @@
         id="loader"
         data-testid="dibp-terminal-loader"
       >
-        <p>Booting Python runtime…</p>
+        <p id="boot-status" data-testid="dibp-boot-status">Tap Start to play</p>
+        <button
+          type="button"
+          id="start-button"
+          class="terminal-shell__start"
+          data-testid="dibp-start-button"
+        >
+          Start Game
+        </button>
         <div class="terminal-shell__loader-bar" aria-hidden="true"></div>
       </div>
+
+      <span
+        data-testid="dibp-game-ready"
+        class="visually-hidden"
+        role="status"
+      ></span>
 
       <div class="terminal-screen" id="terminal-screen" hidden>
         <pre
@@ -40,6 +56,7 @@
             id="terminal-input"
             class="terminal-screen__input"
             type="text"
+            data-testid="dibp-terminal-input"
             autocomplete="off"
             autocapitalize="characters"
             spellcheck="false"

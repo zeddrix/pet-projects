@@ -29,3 +29,13 @@ vite.config.ts.timestamp-*
 
 # Synced pet artifacts (source of truth is projects/)
 static/projects/
+
+# DIBP pytest virtualenv
+.venv-dibp/
+
+# DIBP Pyodide vendor (synced by scripts/sync-dibp-pyodide.mjs)
+projects/diamond-in-black-pearl/vendor/pyodide/
+
+# Python bytecode
+**/__pycache__/
+.pytest_cache/

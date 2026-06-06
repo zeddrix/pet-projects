@@ -1,3 +1,4 @@
+import { spawnSync } from "node:child_process";
 import {
   cpSync,
   existsSync,
@@ -93,3 +94,14 @@ for (const entry of entries) {
 }
 
 console.log(`Synced ${syncedCount} project folder(s)`);
+
+const syncPyodideScript = join(root, "scripts", "sync-dibp-pyodide.mjs");
+if (existsSync(syncPyodideScript)) {
+  const result = spawnSync(process.execPath, [syncPyodideScript], {
+    stdio: "inherit",
+    cwd: root,
+  });
+  if (result.status !== 0) {
+    process.exit(result.status ?? 1);
+  }
+}
