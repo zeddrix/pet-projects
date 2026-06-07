@@ -49,6 +49,7 @@ jobs:
         run: |
           node scripts/build-blog-app-static.mjs
           node scripts/build-microposts-static.mjs
+          node scripts/build-github-finder-jsx-static.mjs
 
       - name: Install Playwright browsers
         run: pnpm exec playwright install --with-deps chromium
