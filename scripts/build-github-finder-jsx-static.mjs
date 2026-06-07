@@ -38,6 +38,7 @@ execSync("npm run build", {
   env: {
     ...process.env,
     SKIP_PREFLIGHT_CHECK: "true",
+    CI: "false",
   },
 });
 

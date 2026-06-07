@@ -62,6 +62,7 @@ jobs:
         run: node scripts/build-github-finder-jsx-static.mjs
         env:
           SKIP_PREFLIGHT_CHECK: "true"
+          CI: "false"
 
       - name: Restore Node 22 for wrapper toolchain
         uses: actions/setup-node@v4

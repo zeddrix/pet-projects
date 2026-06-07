@@ -155,7 +155,7 @@ pnpm sync-projects
 
 Or via pnpm when already on Node 16: `pnpm build:github-finder-jsx-static`.
 
-CI runs a dedicated **setup-node 16** step before this script, then restores Node 22 for the wrapper toolchain. The script exits with an actionable error on Node 20/22 — CRA 4 cannot build on modern Node.
+CI runs a dedicated **setup-node 16** step before this script, then restores Node 22 for the wrapper toolchain. The script exits with an actionable error on Node 20/22 — CRA 4 cannot build on modern Node. GitHub Actions sets `CI=true` by default, which makes CRA treat lint warnings as errors; the build script sets `CI=false` for the inner CRA run.
 
 Spinner ships as `static/media/spinner.*.webp` via webpack — no manual chunk patching.
 
