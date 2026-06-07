@@ -13,7 +13,7 @@ import { pipeline } from "node:stream/promises";
 export const PYODIDE_VERSION = "0.26.4";
 export const CDN_BASE = `https://cdn.jsdelivr.net/pyodide/v${PYODIDE_VERSION}/full/`;
 
-/** Files required for stdlib-only Pyodide boot (lock file omitted). */
+/** Files required for stdlib-only Pyodide boot (includes lock file for v0.26.4). */
 export const PYODIDE_FILES = [
   "pyodide.js",
   "pyodide.asm.js",

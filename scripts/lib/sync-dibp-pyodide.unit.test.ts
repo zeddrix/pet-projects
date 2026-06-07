@@ -9,7 +9,7 @@ import {
 const root = resolve(import.meta.dirname, "../..");
 
 describe("sync-dibp-pyodide manifest", () => {
-  it("lists only stdlib runtime files without lock json", () => {
+  it("lists stdlib runtime files including required lock json", () => {
     expect(PYODIDE_FILES).toEqual([
       "pyodide.js",
       "pyodide.asm.js",

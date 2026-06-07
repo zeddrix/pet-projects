@@ -38,9 +38,7 @@ test.describe("DIBP launcher", () => {
   test("Given playground launcher, when user opens visual mode and starts, then visual shell becomes ready", async ({
     page,
   }) => {
-    await page.goto(
-      pagesPath("/project/diamond-in-black-pearl?demo=index.html"),
-    );
+    await page.goto(pagesPath("/project/diamond-in-black-pearl"));
     await expect(page.getByTestId("playground-frame")).toHaveAttribute(
       "src",
       /diamond-in-black-pearl\/index\.html/,
@@ -50,6 +48,7 @@ test.describe("DIBP launcher", () => {
     await expect(launcherFrame.getByTestId("dibp-start-button")).toBeVisible();
     const visualFrame = await startGameInPlaygroundIframe(page);
     await expect(visualFrame.getByTestId("dibp-visual-loader")).toBeHidden();
+    await expect(visualFrame.getByTestId("dibp-boot-status")).toBeHidden();
     await expect(visualFrame.getByTestId("dibp-scene-title")).toContainText(
       "Welcome",
     );

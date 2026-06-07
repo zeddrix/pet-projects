@@ -42,6 +42,10 @@ test.describe("DIBP visual journeys", () => {
     }
     await expectSceneTitle(page, "Victory");
     await expect(page.getByTestId("dibp-scene-title")).toContainText("Victory");
+    await expect(page.getByTestId("dibp-scene-art")).toHaveAttribute(
+      "src",
+      /\.webp$/,
+    );
     await expect(page.locator("#narrative-log")).toContainText("GAME OVER");
   });
 
