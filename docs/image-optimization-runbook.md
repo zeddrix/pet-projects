@@ -43,7 +43,20 @@ pnpm test:e2e
 pnpm test:dibp-engine
 pnpm test:dibp-e2e
 BASE_PATH=/pet-projects pnpm build:pages
+pnpm audit:raster
+pnpm verify:live-deploy   # after live deploy
 ```
+
+### Local E2E stability
+
+Playwright reuses an already-running dev server on port 7213/7214 when not in CI. Run file-by-file without port churn:
+
+```bash
+pnpm dev --host 127.0.0.1 --port 7213   # terminal 1
+PLAYWRIGHT_FORCE_WEBSERVER=0 pnpm exec playwright test tests/e2e/playground-navigation.e2e.test.ts
+```
+
+Set `PLAYWRIGHT_FORCE_WEBSERVER=1` to force a fresh server (CI behaviour).
 
 ## Rollback
 
@@ -56,15 +69,42 @@ BASE_PATH=/pet-projects pnpm build:pages
 
 ## GitHub Pages cache
 
-GitHub Pages does **not** support custom `_headers` or `Cache-Control` for user sites. WebP migration busts caches via new filenames (`.webp` vs `.jpg`).
+GitHub Pages does **not** support custom `_headers` or `Cache-Control` for user sites.
 
-## Post-deploy manual checklist
+**What busts stale images automatically**
+
+- WebP migration changed filenames (`.jpg` → `.webp`), so browsers fetch new assets.
+- GitHub Finder JSX CRA rebuilds change hashed chunk names under `static/js/` and `static/media/`.
+
+**If a visitor still sees an old image after deploy**
+
+1. Hard refresh: `Cmd+Shift+R` (Mac) or `Ctrl+Shift+R` (Windows/Linux).
+2. Or open the demo in a private/incognito window.
+3. Confirm the asset URL in DevTools → Network ends in `.webp`, not `.jpg`.
+
+There is no repo-level cache header workaround on Project Pages; filename changes are the reliable strategy.
+
+## Post-deploy verification
+
+Automated (run after CI deploy finishes):
+
+```bash
+pnpm verify:live-deploy
+```
+
+Manual spot-check (same five journeys):
 
 1. [jw-guitar-templates](https://zeddrix.github.io/pet-projects/project/jw-guitar-templates) — background image loads
 2. [diamond-in-black-pearl visual](https://zeddrix.github.io/pet-projects/project/diamond-in-black-pearl?demo=visual/) — scene art + one choice
 3. [blog-app](https://zeddrix.github.io/pet-projects/project/blog-app) — hobby cards on home
-4. Default GitHub Finder spinner
+4. Default GitHub Finder spinner while searching
 5. [loan-calculator](https://zeddrix.github.io/pet-projects/project/loan-calculator) — loading indicator
+
+Raster cleanup audit (no unexpected JPG/GIF left):
+
+```bash
+pnpm audit:raster
+```
 
 ## Byte totals (2026-06-06 verification)
 
@@ -98,9 +138,20 @@ du -sh static/projects/diamond-in-black-pearl
 | Custom Pyodide WASM rebuild                                    | **Deferred** — ~12–13 MB WASM floor; lock file required for boot                       |
 | CSS-only spinner replacement                                   | **Deferred** — GIFs converted to WebP instead                                          |
 
-### github-finder-jsx workaround
+### github-finder-jsx CRA rebuild
 
-The inner Create React App build is broken in this environment. After optimizing `spinner.gif` → `spinner.webp`, the committed production bundle under `projects/github-finder-jsx/static/js/main.*.chunk.js` was **patched** to reference `./static/spinner.webp`. Re-run CRA build and drop the patch when the inner toolchain is repaired.
+Rebuild the committed static bundle (Node 16 + CRA 4; root ESLint is ignored via `SKIP_PREFLIGHT_CHECK`):
+
+```bash
+pnpm build:github-finder-jsx-static
+pnpm sync-projects
+```
+
+CI runs this before sync on every Pages deploy. Spinner ships as `static/media/spinner.*.webp` via webpack — no manual chunk patching.
+
+## Sync hygiene
+
+Global segments excluded from **every** slug on sync: `node_modules`, `.git`, `build`, `.svelte-kit`, and `.DS_Store`. Slug-specific excludes live in `scripts/sync-excludes.json` (e.g. DIBP style-reference art).
 
 ## Pyodide WASM floor
 
