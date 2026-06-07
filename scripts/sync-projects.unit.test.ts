@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest";
 import { existsSync, mkdirSync, rmSync, writeFileSync } from "node:fs";
 import { join, resolve } from "node:path";
 import {
+  GLOBAL_SYNC_EXCLUDE_SEGMENTS,
   loadSyncExcludes,
   shouldExcludeSyncPath,
   syncProjects,
@@ -34,6 +35,62 @@ describe("sync-projects excludes", () => {
         excludes,
       ),
     ).toBe(false);
+    expect(
+      shouldExcludeSyncPath("demo-slug", "node_modules/react/index.js", {}),
+    ).toBe(true);
+  });
+
+  it("excludes node_modules from sync output", () => {
+    rmSync(tempRoot, { recursive: true, force: true });
+    mkdirSync(join(tempRoot, "projects", "demo-slug"), { recursive: true });
+    writeFileSync(join(tempRoot, "projects", "demo-slug", "index.html"), "ok");
+    mkdirSync(join(tempRoot, "projects", "demo-slug", "node_modules", "pkg"), {
+      recursive: true,
+    });
+    writeFileSync(
+      join(
+        tempRoot,
+        "projects",
+        "demo-slug",
+        "node_modules",
+        "pkg",
+        "index.js",
+      ),
+      "secret",
+    );
+    mkdirSync(join(tempRoot, "scripts"), { recursive: true });
+    writeFileSync(
+      join(tempRoot, "scripts", "sync-excludes.json"),
+      JSON.stringify({}),
+    );
+
+    syncProjects({ rootDir: tempRoot });
+
+    expect(
+      existsSync(
+        join(
+          tempRoot,
+          "static",
+          "projects",
+          "demo-slug",
+          "node_modules",
+          "pkg",
+          "index.js",
+        ),
+      ),
+    ).toBe(false);
+    expect(
+      existsSync(
+        join(tempRoot, "static", "projects", "demo-slug", "index.html"),
+      ),
+    ).toBe(true);
+
+    rmSync(tempRoot, { recursive: true, force: true });
+  });
+
+  it("documents global sync exclude segments", () => {
+    expect(GLOBAL_SYNC_EXCLUDE_SEGMENTS.has("node_modules")).toBe(true);
+    expect(GLOBAL_SYNC_EXCLUDE_SEGMENTS.has("build")).toBe(true);
   });
 
   it("does not copy excluded files into static/projects", () => {

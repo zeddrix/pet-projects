@@ -12,6 +12,14 @@ import { pathToFileURL } from "node:url";
 
 const root = resolve(import.meta.dirname, "..");
 
+/** Path segments never copied to static/projects (all slugs). */
+export const GLOBAL_SYNC_EXCLUDE_SEGMENTS = new Set([
+  "node_modules",
+  ".git",
+  "build",
+  ".svelte-kit",
+]);
+
 /** @param {string} rootDir @returns {Record<string, string[]>} */
 export function loadSyncExcludes(rootDir) {
   const excludesPath = join(rootDir, "scripts", "sync-excludes.json");
@@ -23,6 +31,13 @@ export function loadSyncExcludes(rootDir) {
 
 /** @param {string} slug @param {string} relativePath @param {Record<string, string[]>} excludes */
 export function shouldExcludeSyncPath(slug, relativePath, excludes) {
+  const segments = relativePath.split("/");
+  if (segments.some((segment) => GLOBAL_SYNC_EXCLUDE_SEGMENTS.has(segment))) {
+    return true;
+  }
+  if (segments.some((segment) => segment === ".DS_Store")) {
+    return true;
+  }
   const patterns = excludes[slug] ?? [];
   return patterns.some(
     (pattern) =>
@@ -79,12 +94,12 @@ export function syncProjects(options = {}) {
     for (const entry of readdirSync(dir, { withFileTypes: true })) {
       const fullPath = join(dir, entry.name);
       const relPath = relative(join(projectsTarget, slug), fullPath);
-      if (entry.isDirectory()) {
-        removeExcludedFilesForRoot(fullPath, slug);
+      if (shouldExcludeSyncPath(slug, relPath, excludes)) {
+        rmSync(fullPath, { recursive: true, force: true });
         continue;
       }
-      if (shouldExcludeSyncPath(slug, relPath, excludes)) {
-        rmSync(fullPath, { force: true });
+      if (entry.isDirectory()) {
+        removeExcludedFilesForRoot(fullPath, slug);
       }
     }
   }
