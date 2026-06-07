@@ -81,7 +81,9 @@ const checks = [
       if (!spinnerEntry) {
         return false;
       }
-      const spinnerPath = manifest.files[spinnerEntry].replace(/^\./, "");
+      const spinnerPath = manifest.files[spinnerEntry]
+        .replace(/^\.\//, "")
+        .replace(/^\//, "");
       const asset = await fetchOk(`/projects/github-finder-jsx/${spinnerPath}`);
       return (
         asset.response.ok &&
