@@ -1,12 +1,10 @@
 import { defineConfig, devices } from "@playwright/test";
 import {
-  PAGES_BASE_PATH,
-  PAGES_SITE_URL,
-} from "./tests/e2e/fixtures/pages-env";
-
-const dibpPort = 7214;
-const dibpHost = `http://127.0.0.1:${dibpPort}`;
-const dibpAppURL = `${dibpHost}${PAGES_BASE_PATH}`;
+  dibpHost,
+  dibpPort,
+  dibpWebServerUrl,
+  sharedWebServerOptions,
+} from "./playwright.shared";
 
 export default defineConfig({
   testDir: "tests/dibp-e2e",
@@ -24,12 +22,7 @@ export default defineConfig({
   },
   webServer: {
     command: `pnpm dev --host 127.0.0.1 --port ${dibpPort}`,
-    url: dibpAppURL,
-    reuseExistingServer: !process.env.CI,
-    timeout: 120_000,
-    env: {
-      BASE_PATH: PAGES_BASE_PATH,
-      PUBLIC_SITE_URL: PAGES_SITE_URL,
-    },
+    url: dibpWebServerUrl,
+    ...sharedWebServerOptions,
   },
 });

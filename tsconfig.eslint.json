@@ -5,6 +5,7 @@
     "src/**/*.svelte",
     "tests/**/*.ts",
     "*.config.ts",
+    "playwright.shared.ts",
     "eslint.config.js",
     "scripts/**/*.mjs",
     "scripts/**/*.unit.test.ts"
