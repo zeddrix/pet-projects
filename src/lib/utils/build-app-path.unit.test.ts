@@ -17,13 +17,13 @@ describe("buildAppPath", () => {
 describe("buildPlaygroundFrameSrc", () => {
   it("builds iframe src without base path", () => {
     expect(buildPlaygroundFrameSrc("", "loan-calculator")).toBe(
-      "/projects/loan-calculator/",
+      "/projects/loan-calculator/index.html",
     );
   });
 
   it("builds iframe src with GitHub Pages base", () => {
     expect(buildPlaygroundFrameSrc("/pet-projects", "weather-widget")).toBe(
-      "/pet-projects/projects/weather-widget/",
+      "/pet-projects/projects/weather-widget/index.html",
     );
   });
 

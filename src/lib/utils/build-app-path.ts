@@ -20,5 +20,5 @@ export function buildPlaygroundFrameSrc(
       : demoEntry;
     return `${normalizedBase}/projects/${slug}/${normalizedEntry}`;
   }
-  return `${normalizedBase}/projects/${slug}/`;
+  return `${normalizedBase}/projects/${slug}/index.html`;
 }

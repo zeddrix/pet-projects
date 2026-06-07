@@ -1,5 +1,8 @@
 import { expect, test } from "@playwright/test";
-import { PAGES_DEFAULT_PROJECT_PATH } from "./fixtures/pages-env";
+import {
+  PAGES_DEFAULT_PROJECT_PATH,
+  demoIframeSrcPattern,
+} from "./fixtures/pages-env";
 
 function projectListItem(page: import("@playwright/test").Page, slug: string) {
   return page.locator(`[data-testid="project-list-item"][data-slug="${slug}"]`);
@@ -44,7 +47,7 @@ test.describe("playground navigation", () => {
     );
     await expect(page.getByTestId("playground-frame")).toHaveAttribute(
       "src",
-      /loan-calculator\/$/,
+      demoIframeSrcPattern("loan-calculator"),
     );
     await expect(projectListItem(page, "loan-calculator")).toHaveAttribute(
       "data-sidebar-primary",
@@ -58,7 +61,7 @@ test.describe("playground navigation", () => {
     );
     await expect(page.getByTestId("playground-frame")).toHaveAttribute(
       "src",
-      /weather-widget\/$/,
+      demoIframeSrcPattern("weather-widget"),
     );
     await expect(projectListItem(page, "weather-widget")).toHaveAttribute(
       "data-sidebar-primary",
@@ -76,7 +79,7 @@ test.describe("playground navigation", () => {
     await expect(page.getByTestId("deprecated-badge")).toBeVisible();
     await expect(page.getByTestId("playground-frame")).toHaveAttribute(
       "src",
-      /github-finder\/$/,
+      demoIframeSrcPattern("github-finder"),
     );
   });
 
@@ -91,7 +94,7 @@ test.describe("playground navigation", () => {
     );
     await expect(page.getByTestId("playground-frame")).toHaveAttribute(
       "src",
-      /word-counter\/$/,
+      demoIframeSrcPattern("word-counter"),
     );
     await expect(activeItem).toHaveAttribute("data-active", "true");
     await expect(activeItem).toHaveAttribute("data-sidebar-primary", "#3497be");
@@ -216,7 +219,7 @@ test.describe("playground navigation", () => {
     );
     await expect(page.getByTestId("playground-frame")).toHaveAttribute(
       "src",
-      /blog-app\/$/,
+      demoIframeSrcPattern("blog-app"),
     );
   });
 
@@ -232,7 +235,7 @@ test.describe("playground navigation", () => {
     );
     await expect(page.getByTestId("playground-frame")).toHaveAttribute(
       "src",
-      /microposts\/$/,
+      demoIframeSrcPattern("microposts"),
     );
   });
 
@@ -250,7 +253,7 @@ test.describe("playground navigation", () => {
     );
     await expect(page.getByTestId("playground-frame")).toHaveAttribute(
       "src",
-      /diamond-in-black-pearl\/$/,
+      demoIframeSrcPattern("diamond-in-black-pearl"),
     );
   });
 
@@ -260,13 +263,13 @@ test.describe("playground navigation", () => {
     await projectListItem(page, "loan-calculator").click();
     await expect(page.getByTestId("playground-frame")).toHaveAttribute(
       "src",
-      /loan-calculator\/$/,
+      demoIframeSrcPattern("loan-calculator"),
     );
     await projectListItem(page, "bible-query").click();
     await expect(page).toHaveURL(/\/project\/bible-query$/);
     await expect(page.getByTestId("playground-frame")).toHaveAttribute(
       "src",
-      /bible-query\/$/,
+      demoIframeSrcPattern("bible-query"),
     );
     await expect(page.getByTestId("playground-frame")).toBeVisible();
   });

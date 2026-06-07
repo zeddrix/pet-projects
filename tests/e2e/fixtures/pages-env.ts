@@ -19,3 +19,8 @@ export const PAGES_HOME_PATH = pagesPath("/");
 export const PAGES_DEFAULT_PROJECT_PATH = pagesPath(
   "/project/github-finder-jsx",
 );
+
+/** Shell iframe src for a synced pet demo root (index.html entry). */
+export function demoIframeSrcPattern(slug: string): RegExp {
+  return new RegExp(`${slug}/index\\.html$`);
+}

@@ -2,6 +2,7 @@ import { expect, test } from "@playwright/test";
 import {
   PAGES_DEFAULT_PROJECT_PATH,
   PAGES_HOME_PATH,
+  demoIframeSrcPattern,
 } from "./fixtures/pages-env";
 
 test.describe("playground default load", () => {
@@ -20,9 +21,11 @@ test.describe("playground default load", () => {
     const iframe = page.getByTestId("playground-frame");
     await expect(iframe).toBeVisible();
     const iframeSrc = await iframe.getAttribute("src");
-    expect(iframeSrc).toMatch(/projects\/github-finder-jsx\/$/);
+    expect(iframeSrc).toMatch(demoIframeSrcPattern("github-finder-jsx"));
     const resolvedSrc = new URL(iframeSrc ?? "", page.url()).pathname;
-    expect(resolvedSrc).toContain("/pet-projects/projects/github-finder-jsx/");
+    expect(resolvedSrc).toContain(
+      "/pet-projects/projects/github-finder-jsx/index.html",
+    );
 
     await expect(page.getByTestId("playground-title")).toContainText(
       "GitHub Finder (JSX)",

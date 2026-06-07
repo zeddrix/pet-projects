@@ -1,5 +1,5 @@
 import { expect, test } from "@playwright/test";
-import { pagesPath } from "./fixtures/pages-env";
+import { demoIframeSrcPattern, pagesPath } from "./fixtures/pages-env";
 
 test.describe("playground deep link", () => {
   test("Given direct /project/loan-calculator URL, when loaded, then iframe targets loan-calculator demo", async ({
@@ -10,7 +10,7 @@ test.describe("playground deep link", () => {
     await expect(page).toHaveURL(/\/project\/loan-calculator$/);
     await expect(page.getByTestId("playground-frame")).toHaveAttribute(
       "src",
-      /loan-calculator\/$/,
+      demoIframeSrcPattern("loan-calculator"),
     );
     await expect(page.getByTestId("playground-title")).toContainText(
       "Loan Calculator",
@@ -25,7 +25,7 @@ test.describe("playground deep link", () => {
     await expect(page).toHaveURL(/\/project\/bible-query$/);
     await expect(page.getByTestId("playground-frame")).toHaveAttribute(
       "src",
-      /bible-query\/$/,
+      demoIframeSrcPattern("bible-query"),
     );
     await expect(page.getByTestId("playground-title")).toContainText(
       "Bible Query",
@@ -40,7 +40,7 @@ test.describe("playground deep link", () => {
     await expect(page).toHaveURL(/\/project\/jw-guitar-templates$/);
     await expect(page.getByTestId("playground-frame")).toHaveAttribute(
       "src",
-      /jw-guitar-templates\/$/,
+      demoIframeSrcPattern("jw-guitar-templates"),
     );
     await expect(page.getByTestId("playground-title")).toContainText(
       "JW Guitar Templates",
