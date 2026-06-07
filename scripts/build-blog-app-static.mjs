@@ -1,10 +1,11 @@
 import { existsSync } from "node:fs";
 import { execSync } from "node:child_process";
 import { join, resolve } from "node:path";
+import { resolveBlogAppBasePath } from "./lib/archive-build-env.mjs";
 
 const root = resolve(import.meta.dirname, "..");
 const appDir = join(root, "projects/blog-app/sveltekit-static");
-const basePath = process.env.BASE_PATH ?? "/pet-projects/projects/blog-app";
+const basePath = resolveBlogAppBasePath();
 
 if (!existsSync(appDir)) {
   console.error(`Missing blog app source at ${appDir}`);

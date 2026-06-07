@@ -4,14 +4,24 @@
  * Usage: node scripts/verify-live-deploy.mjs
  *        LIVE_SITE_URL=https://example.github.io/repo node scripts/verify-live-deploy.mjs
  */
+import {
+  joinSitePath,
+  normalizeManifestAssetPath,
+  parsePositiveInt,
+  withRetries,
+} from "./lib/live-verify.mjs";
+
 const siteBase =
   process.env.LIVE_SITE_URL ?? "https://zeddrix.github.io/pet-projects";
+
+const checkRetries = parsePositiveInt(process.env.LIVE_VERIFY_RETRIES, 1);
+const checkDelayMs = parsePositiveInt(process.env.LIVE_VERIFY_DELAY_MS, 0);
 
 /**
  * @param {string} path
  */
 async function fetchOk(path) {
-  const url = `${siteBase}${path}`;
+  const url = joinSitePath(siteBase, path);
   const response = await fetch(url, { redirect: "follow" });
   const contentType = response.headers.get("content-type") ?? "";
   const isText =
@@ -22,6 +32,39 @@ async function fetchOk(path) {
     ? await response.text()
     : Buffer.from(await response.arrayBuffer());
   return { url, response, contentType, body };
+}
+
+/**
+ * @param {string} name
+ * @param {() => Promise<boolean>} run
+ */
+async function runCheck(name, run) {
+  let attempts = 0;
+
+  const ok = await withRetries(
+    async () => {
+      attempts += 1;
+      return run();
+    },
+    (result) => result === true,
+    {
+      retries: checkRetries,
+      delayMs: checkDelayMs,
+      onRetry: (attempt) => {
+        process.stderr.write(
+          `  retry ${attempt}/${checkRetries - 1} for ${name}…\n`,
+        );
+      },
+    },
+  );
+
+  if (ok) {
+    process.stdout.write(`✓ ${name}\n`);
+    return false;
+  }
+
+  process.stderr.write(`✗ ${name} (${attempts} attempt(s))\n`);
+  return true;
 }
 
 /** @type {{ name: string, run: () => Promise<boolean> }[]} */
@@ -81,9 +124,9 @@ const checks = [
       if (!spinnerEntry) {
         return false;
       }
-      const spinnerPath = manifest.files[spinnerEntry]
-        .replace(/^\.\//, "")
-        .replace(/^\//, "");
+      const spinnerPath = normalizeManifestAssetPath(
+        manifest.files[spinnerEntry],
+      );
       const asset = await fetchOk(`/projects/github-finder-jsx/${spinnerPath}`);
       return (
         asset.response.ok &&
@@ -120,12 +163,9 @@ let failed = 0;
 
 for (const check of checks) {
   try {
-    const ok = await check.run();
-    if (ok) {
-      process.stdout.write(`✓ ${check.name}\n`);
-    } else {
+    const checkFailed = await runCheck(check.name, check.run);
+    if (checkFailed) {
       failed += 1;
-      process.stderr.write(`✗ ${check.name}\n`);
     }
   } catch (error) {
     failed += 1;

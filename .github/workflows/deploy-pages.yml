@@ -12,7 +12,7 @@ permissions:
 
 concurrency:
   group: "pages"
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -45,11 +45,29 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Build archive static previews
-        run: |
-          node scripts/build-blog-app-static.mjs
-          node scripts/build-microposts-static.mjs
-          node scripts/build-github-finder-jsx-static.mjs
+      - name: Build blog-app static preview
+        run: node scripts/build-blog-app-static.mjs
+
+      - name: Build microposts static preview
+        run: node scripts/build-microposts-static.mjs
+
+      - name: Setup Node 16 for github-finder-jsx CRA
+        uses: actions/setup-node@v4
+        with:
+          node-version: "16"
+          cache: "npm"
+          cache-dependency-path: projects/github-finder-jsx/package-lock.json
+
+      - name: Build github-finder-jsx static preview
+        run: node scripts/build-github-finder-jsx-static.mjs
+        env:
+          SKIP_PREFLIGHT_CHECK: "true"
+
+      - name: Restore Node 22 for wrapper toolchain
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "pnpm"
 
       - name: Install Playwright browsers
         run: pnpm exec playwright install --with-deps chromium
@@ -110,3 +128,5 @@ jobs:
         run: node scripts/verify-live-deploy.mjs
         env:
           LIVE_SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
+          LIVE_VERIFY_RETRIES: "6"
+          LIVE_VERIFY_DELAY_MS: "15000"

@@ -92,6 +92,12 @@ Automated (run after CI deploy finishes):
 pnpm verify:live-deploy
 ```
 
+CI `verify-live` job sets `LIVE_VERIFY_RETRIES=6` and `LIVE_VERIFY_DELAY_MS=15000` to tolerate GitHub Pages CDN propagation lag. Override locally:
+
+```bash
+LIVE_VERIFY_RETRIES=6 LIVE_VERIFY_DELAY_MS=15000 pnpm verify:live-deploy
+```
+
 Manual spot-check (same five journeys):
 
 1. [jw-guitar-templates](https://zeddrix.github.io/pet-projects/project/jw-guitar-templates) — background image loads
@@ -140,14 +146,36 @@ du -sh static/projects/diamond-in-black-pearl
 
 ### github-finder-jsx CRA rebuild
 
-Rebuild the committed static bundle (Node 16 + CRA 4; root ESLint is ignored via `SKIP_PREFLIGHT_CHECK`):
+Rebuild the committed static bundle (**Node 16** + CRA 4; root ESLint is ignored via `SKIP_PREFLIGHT_CHECK`):
 
 ```bash
-pnpm build:github-finder-jsx-static
+npx -y node@16.20.2 scripts/build-github-finder-jsx-static.mjs
 pnpm sync-projects
 ```
 
-CI runs this before sync on every Pages deploy. Spinner ships as `static/media/spinner.*.webp` via webpack — no manual chunk patching.
+Or via pnpm when already on Node 16: `pnpm build:github-finder-jsx-static`.
+
+CI runs a dedicated **setup-node 16** step before this script, then restores Node 22 for the wrapper toolchain. The script exits with an actionable error on Node 20/22 — CRA 4 cannot build on modern Node.
+
+Spinner ships as `static/media/spinner.*.webp` via webpack — no manual chunk patching.
+
+### blog-app static preview base path
+
+Wrapper CI sets `BASE_PATH=/pet-projects`. The blog-app build script derives the inner SvelteKit base as `/pet-projects/projects/blog-app` (via `resolveBlogAppBasePath` in `scripts/lib/archive-build-env.mjs`). Do **not** pass wrapper `BASE_PATH` directly to the inner build — that breaks asset URLs on Pages.
+
+After optimizing blog-app images:
+
+```bash
+BASE_PATH=/pet-projects node scripts/build-blog-app-static.mjs
+grep -F 'assets: "/pet-projects/projects/blog-app"' projects/blog-app/sveltekit-static/build/index.html
+pnpm sync-projects
+```
+
+### GitHub Pages deploy workflow
+
+- **Concurrency:** `cancel-in-progress: false` — rapid pushes queue instead of cancelling in-flight deploys.
+- **Archive builds:** blog-app and microposts on Node 22; github-finder-jsx on Node 16; then sync, tests, and `build:pages`.
+- **Node 20 action deprecation:** optional repo env `FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true` when ready; low priority.
 
 ## Sync hygiene
 
