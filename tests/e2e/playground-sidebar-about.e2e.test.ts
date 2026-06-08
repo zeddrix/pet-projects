@@ -1,5 +1,5 @@
 import { expect, test } from "@playwright/test";
-import { PAGES_DEFAULT_PROJECT_PATH, pagesPath } from "./fixtures/pages-env";
+import { PAGES_DEFAULT_PROJECT_PATH } from "./fixtures/pages-env";
 
 test.describe("playground sidebar about", () => {
   test.beforeEach(async ({ page }) => {
