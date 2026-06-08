@@ -6,7 +6,8 @@
 
 | Behavior                                                                | Canonical file                                                             |
 | ----------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| `/` redirect to default project                                         | `playground-default-load.e2e.test.ts`                                      |
+| `/` landing page with author name and project index                     | `playground-default-load.e2e.test.ts`                                      |
+| Document title, meta description, canonical, sitemap, robots            | `playground-seo.e2e.test.ts`                                               |
 | Sidebar toggle hide/show                                                | `playground-sidebar-toggle.e2e.test.ts`                                    |
 | Sidebar persistence after reload                                        | `playground-sidebar-toggle.e2e.test.ts`                                    |
 | Navigate between catalog entries                                        | `playground-navigation.e2e.test.ts`                                        |

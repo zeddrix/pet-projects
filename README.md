@@ -2,7 +2,18 @@
 
 A personal archive and live playground for **sixteen** web demos. A SvelteKit **wrapper** catalogs them in a sidebar; static demos preview in iframes and devcamper-api shows its README in the main pane.
 
-**Live playground:** https://zeddrix.github.io/pet-projects/
+### About the author
+
+**Zeddrix Fabian** — developer and curator of this pre-AI web demo archive.
+
+|                 |                                         |
+| --------------- | --------------------------------------- |
+| **Live site**   | https://zeddrix.github.io/pet-projects/ |
+| **GitHub**      | https://github.com/zeddrix              |
+| **Source repo** | https://github.com/zeddrix/pet-projects |
+| **Portfolio**   | https://zeddrix.github.io/portfolio/    |
+
+After deploy, complete the [off-site SEO checklist](docs/offsite-seo-checklist.md) (Search Console, GitHub profile, cross-links).
 
 ### Tech stack
 
