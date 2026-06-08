@@ -47,6 +47,21 @@ test.describe("playground deep link", () => {
     );
   });
 
+  test("Given direct /project/github-finder-jsx URL, when loaded, then iframe targets jsx demo", async ({
+    page,
+  }) => {
+    await page.goto(pagesPath("/project/github-finder-jsx"));
+
+    await expect(page).toHaveURL(/\/project\/github-finder-jsx$/);
+    await expect(page.getByTestId("playground-frame")).toHaveAttribute(
+      "src",
+      demoIframeSrcPattern("github-finder-jsx"),
+    );
+    await expect(page.getByTestId("playground-title")).toContainText(
+      "GitHub Finder (JSX)",
+    );
+  });
+
   test("Given direct diamond-in-black-pearl visual demo URL, when loaded, then iframe targets visual mode", async ({
     page,
   }) => {

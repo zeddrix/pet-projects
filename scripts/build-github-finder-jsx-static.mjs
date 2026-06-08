@@ -37,6 +37,7 @@ execSync("npm run build", {
   stdio: "inherit",
   env: {
     ...process.env,
+    PUBLIC_URL: ".",
     SKIP_PREFLIGHT_CHECK: "true",
     CI: "false",
   },
