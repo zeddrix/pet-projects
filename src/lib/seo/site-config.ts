@@ -5,7 +5,7 @@ export const SITE_NAME = "Pet Projects Playground";
 export const SITE_TAGLINE = "Pre-AI web demos — live archive by Zeddrix Fabian";
 
 export const SITE_DESCRIPTION =
-  "Personal archive and live playground for sixteen pre-AI web demos by Zeddrix Fabian. Browse interactive previews, explore source on GitHub, and revisit project history from 2019–2024.";
+  "Personal archive and live playground for sixteen pre-AI web demos by Zeddrix Fabian. Browse interactive previews, explore source on GitHub, and revisit project history from 2018-2021.";
 
 export const GITHUB_PROFILE = "https://github.com/zeddrix";
 
