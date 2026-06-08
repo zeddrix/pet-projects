@@ -1,4 +1,5 @@
 import { expect, test } from "@playwright/test";
+import { expectHorizontallyCentered } from "./fixtures/pane-layout";
 import { PAGES_DEFAULT_PROJECT_PATH } from "./fixtures/pages-env";
 
 test.describe("playground sidebar about", () => {
@@ -36,5 +37,18 @@ test.describe("playground sidebar about", () => {
       "true",
     );
     await expect(page.getByText("What you will find")).toBeVisible();
+  });
+
+  test("Given playground open, when user opens about pane, then about content is centered in main view", async ({
+    page,
+  }) => {
+    await page.getByTestId("sidebar-about-button").click();
+    await expect(page).toHaveURL(/\/pet-projects\/?\?view=about$/);
+    await expect(page.getByTestId("about-pane-content")).toBeVisible();
+
+    await expectHorizontallyCentered(
+      page.getByTestId("home-landing"),
+      page.getByTestId("about-pane-content"),
+    );
   });
 });

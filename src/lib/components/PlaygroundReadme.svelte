@@ -47,7 +47,12 @@
     {#if errorMessage}
       <p class="text-sm text-red-700">{errorMessage}</p>
     {:else if html}
-      <article class="readme-content max-w-3xl">{@html html}</article>
+      <article
+        data-testid="readme-pane-content"
+        class="readme-content mx-auto w-full max-w-3xl"
+      >
+        {@html html}
+      </article>
     {:else}
       <p class="text-sm text-slate-500">Loading README…</p>
     {/if}

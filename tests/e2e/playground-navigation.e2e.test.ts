@@ -1,4 +1,5 @@
 import { expect, test } from "@playwright/test";
+import { expectHorizontallyCentered } from "./fixtures/pane-layout";
 import {
   PAGES_DEFAULT_PROJECT_PATH,
   demoIframeSrcPattern,
@@ -292,6 +293,11 @@ test.describe("playground navigation", () => {
     await expect(page.getByTestId("playground-frame")).toHaveCount(0);
     await expect(page.getByTestId("playground-readme")).toContainText(
       "DevCamper API",
+    );
+
+    await expectHorizontallyCentered(
+      page.getByTestId("playground-readme"),
+      page.getByTestId("readme-pane-content"),
     );
   });
 });

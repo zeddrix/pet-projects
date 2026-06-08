@@ -32,7 +32,7 @@
   data-testid="home-landing"
   class="playground-about-pane flex-1 overflow-y-auto px-6 py-5 text-zinc-800 {className}"
 >
-  <article class="max-w-3xl">
+  <article data-testid="about-pane-content" class="mx-auto w-full max-w-3xl">
     <header>
       <p class="text-sm font-medium uppercase tracking-wide text-indigo-600">
         {SITE_TAGLINE}
