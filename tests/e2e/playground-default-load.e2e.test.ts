@@ -6,33 +6,28 @@ import {
 } from "./fixtures/pages-env";
 
 test.describe("playground default load", () => {
-  test("Given app open at /, when page settles, then landing shows author and project index", async ({
+  test("Given app open at /, when page settles, then shell shows default demo and SEO content in DOM", async ({
     page,
   }) => {
     await page.goto(PAGES_HOME_PATH);
 
     await expect(page).toHaveURL(new RegExp(`/pet-projects/?$`));
-    await expect(page.getByTestId("home-landing")).toBeVisible();
-    await expect(
-      page.getByRole("heading", { level: 1, name: "Zeddrix Fabian" }),
-    ).toBeVisible();
-    await expect(page.getByTestId("home-project-index")).toBeVisible();
-    await expect(page.getByTestId("home-project-link")).toHaveCount(16);
-  });
-
-  test("Given landing open playground CTA, when clicked, then shell loads default project", async ({
-    page,
-  }) => {
-    await page.goto(PAGES_HOME_PATH);
-    await page.getByTestId("home-open-playground").click();
-
-    await expect(page).toHaveURL(new RegExp(`/project/github-finder-jsx$`));
     await expect(page.getByTestId("playground-shell")).toBeVisible();
+    await expect(page.getByTestId("playground-frame")).toBeVisible();
 
-    const iframe = page.getByTestId("playground-frame");
-    await expect(iframe).toBeVisible();
-    const iframeSrc = await iframe.getAttribute("src");
+    const iframeSrc = await page
+      .getByTestId("playground-frame")
+      .getAttribute("src");
     expect(iframeSrc).toMatch(demoIframeSrcPattern("github-finder-jsx"));
+
+    await expect(page.getByTestId("home-landing")).toBeAttached();
+    await expect(
+      page.getByRole("heading", { name: "Zeddrix Fabian" }),
+    ).toBeAttached();
+    await expect(page.getByTestId("home-project-link")).toHaveCount(16);
+    await expect(page.getByTestId("playground-title")).toContainText(
+      "GitHub Finder (JSX)",
+    );
   });
 
   test("Given direct default project URL, when loaded, then shell and iframe are ready", async ({

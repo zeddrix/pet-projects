@@ -6,7 +6,7 @@ import {
 } from "./fixtures/pages-env";
 
 test.describe("playground SEO metadata", () => {
-  test("Given home landing, when loaded, then document head includes author SEO tags", async ({
+  test("Given home route, when loaded, then document head includes author SEO tags", async ({
     page,
   }) => {
     await page.goto(PAGES_HOME_PATH);
@@ -24,12 +24,16 @@ test.describe("playground SEO metadata", () => {
       "content",
       /Zeddrix Fabian \| Pet Projects Playground/,
     );
+
+    await expect(
+      page.getByRole("heading", { name: "Zeddrix Fabian" }),
+    ).toBeAttached();
   });
 
-  test("Given project route, when user opens loan calculator, then head tags match project", async ({
+  test("Given about view, when user follows project index link, then head tags match project", async ({
     page,
   }) => {
-    await page.goto(pagesPath("/"));
+    await page.goto(pagesPath("/?view=about"));
     await page
       .locator('[data-testid="home-project-link"][data-slug="loan-calculator"]')
       .click();

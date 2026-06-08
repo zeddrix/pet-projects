@@ -1,5 +1,5 @@
 import { expect, test } from "@playwright/test";
-import { PAGES_DEFAULT_PROJECT_PATH } from "./fixtures/pages-env";
+import { PAGES_DEFAULT_PROJECT_PATH, pagesPath } from "./fixtures/pages-env";
 
 test.describe("playground sidebar about", () => {
   test.beforeEach(async ({ page }) => {
@@ -11,31 +11,30 @@ test.describe("playground sidebar about", () => {
     );
   });
 
-  test("Given playground open, when user clicks sidebar about button, then blog-app projects demo loads in iframe", async ({
+  test("Given playground open, when user clicks sidebar about button, then wrapper about pane loads", async ({
     page,
   }) => {
     await page.getByTestId("sidebar-about-button").click();
-    await expect(page).toHaveURL(/\/project\/blog-app\?demo=projects\.html$/);
+    await expect(page).toHaveURL(/\/pet-projects\/?\?view=about$/);
     await expect(page.getByTestId("playground-title")).toContainText(
-      "Blog App",
+      "About this monorepo",
     );
-    await expect(page.getByTestId("playground-frame")).toHaveAttribute(
-      "src",
-      /blog-app\/projects\.html$/,
-    );
+    await expect(
+      page.getByRole("heading", { name: "Zeddrix Fabian" }),
+    ).toBeVisible();
+    await expect(page.getByTestId("playground-frame")).toHaveCount(0);
+    await expect(page.getByText("What is pet-projects?")).toBeVisible();
   });
 
-  test("Given about navigation complete, when user opens project info FAB, then modal still works", async ({
+  test("Given playground open, when user clicks sidebar about item, then about pane is active", async ({
     page,
   }) => {
-    await page.getByTestId("sidebar-about-button").click();
-    await expect(page).toHaveURL(/\/project\/blog-app/);
-    await page.getByTestId("project-info-fab").click();
-    await expect(page.getByTestId("project-info-modal")).toBeVisible();
-    await expect(page.getByTestId("project-info-surface")).toContainText(
-      "Blog App",
+    await page.getByTestId("sidebar-about-item").click();
+    await expect(page).toHaveURL(/\/pet-projects\/?\?view=about$/);
+    await expect(page.getByTestId("sidebar-about-item")).toHaveAttribute(
+      "data-active",
+      "true",
     );
-    await page.getByTestId("project-info-close").click();
-    await expect(page.getByTestId("project-info-modal")).toHaveCount(0);
+    await expect(page.getByText("What you will find")).toBeVisible();
   });
 });

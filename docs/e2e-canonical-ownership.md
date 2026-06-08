@@ -6,7 +6,7 @@
 
 | Behavior                                                                | Canonical file                                                             |
 | ----------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| `/` landing page with author name and project index                     | `playground-default-load.e2e.test.ts`                                      |
+| `/` playground-first shell with SEO content and default demo iframe     | `playground-default-load.e2e.test.ts`                                      |
 | Document title, meta description, canonical, sitemap, robots            | `playground-seo.e2e.test.ts`                                               |
 | Sidebar toggle hide/show                                                | `playground-sidebar-toggle.e2e.test.ts`                                    |
 | Sidebar persistence after reload                                        | `playground-sidebar-toggle.e2e.test.ts`                                    |
@@ -27,7 +27,7 @@
 | Project info FAB modal                                                  | `playground-project-info.e2e.test.ts`                                      |
 | diamond-in-black-pearl navigation + info modal                          | `playground-navigation.e2e.test.ts`, `playground-project-info.e2e.test.ts` |
 | Shell modernization smoke                                               | `playground-shell-modernization.e2e.test.ts`                               |
-| Sidebar about → blog-app projects                                       | `playground-sidebar-about.e2e.test.ts`                                     |
+| Sidebar about → wrapper about pane at `/?view=about`                    | `playground-sidebar-about.e2e.test.ts`                                     |
 
 When adding a new catalog slug, extend `playground-project-info.e2e.test.ts` with an info-modal scenario (select slug → open FAB → assert `developedAt`, tech stack or version labels, and `dualVersionReason` when present). See [CLAUDE.md](../CLAUDE.md) **Adding a catalog entry**.
 

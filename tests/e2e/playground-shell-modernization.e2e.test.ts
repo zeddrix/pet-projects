@@ -15,6 +15,7 @@ test.describe("playground shell modernization", () => {
     page,
   }) => {
     await expect(page.getByTestId("sidebar-about-button")).toBeVisible();
+    await expect(page.getByTestId("sidebar-about-item")).toBeVisible();
     await expect(page.getByText("Pre-AI pet projects")).toBeVisible();
     await expect(page.getByTestId("project-info-layout-picker")).toHaveCount(0);
     await expect(page.getByText("Project details layout")).toHaveCount(0);
