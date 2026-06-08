@@ -12,7 +12,7 @@
 | Navigate between catalog entries                                        | `playground-navigation.e2e.test.ts`                                        |
 | blog-app / microposts iframe src                                        | `playground-navigation.e2e.test.ts`                                        |
 | devcamper-api README pane                                               | `playground-navigation.e2e.test.ts`                                        |
-| Deprecated badge on github-finder                                       | `playground-navigation.e2e.test.ts`                                        |
+| Deprecated badge removed from github-finder                             | `playground-navigation.e2e.test.ts`                                        |
 | Active list item state                                                  | `playground-navigation.e2e.test.ts`                                        |
 | Per-project sidebar theme tokens + unified colors + sticky active arrow | `playground-navigation.e2e.test.ts`                                        |
 | Unknown slug in-shell 404                                               | `playground-unknown-slug.e2e.test.ts`                                      |

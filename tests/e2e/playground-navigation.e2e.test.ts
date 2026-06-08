@@ -69,17 +69,21 @@ test.describe("playground navigation", () => {
     );
   });
 
-  test("Given sidebar list, when user opens deprecated project, then deprecated badge is visible", async ({
+  test("Given sidebar list, when user opens github-finder, then no deprecated badge and iframe loads", async ({
     page,
   }) => {
-    await page
-      .locator('[data-testid="project-list-item"][data-slug="github-finder"]')
-      .click();
+    await projectListItem(page, "loan-calculator").click();
+    await expect(page).toHaveURL(/\/project\/loan-calculator$/);
+
+    await projectListItem(page, "github-finder").click();
     await expect(page).toHaveURL(/\/project\/github-finder$/);
-    await expect(page.getByTestId("deprecated-badge")).toBeVisible();
+    await expect(page.getByTestId("deprecated-badge")).toHaveCount(0);
     await expect(page.getByTestId("playground-frame")).toHaveAttribute(
       "src",
       demoIframeSrcPattern("github-finder"),
+    );
+    await expect(page.getByTestId("playground-title")).toContainText(
+      "GitHub Finder",
     );
   });
 

@@ -81,7 +81,6 @@
     "sourceUrl": "https://github.com/zeddrix/pet-projects/tree/main/projects/github-finder",
     "developedAt": "November 2020",
     "techStack": ["Vanilla JS", "Fetch API", "GitHub API"],
-    "deprecated": true,
     "sortOrder": 7
   },
   {

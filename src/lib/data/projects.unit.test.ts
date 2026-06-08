@@ -33,10 +33,10 @@ describe("projects manifest", () => {
     expect(getSortedProjects()).toHaveLength(16);
   });
 
-  it("marks github-finder as deprecated", () => {
+  it("does not mark github-finder as deprecated", () => {
     const project = getProjectBySlug("github-finder");
 
-    expect(project?.deprecated).toBe(true);
+    expect(project?.deprecated).toBeUndefined();
   });
 
   it("exposes slugs for prerender entries", () => {
