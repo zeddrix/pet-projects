@@ -6,14 +6,17 @@
 
   interface Props {
     project: Project;
+    activeSlug?: string | null;
     onselect?: () => void;
   }
 
-  let { project, onselect }: Props = $props();
+  let { project, activeSlug, onselect }: Props = $props();
 
   const href = $derived(appPath(`/project/${project.slug}`));
   const isActive = $derived(
-    $page.url.pathname.endsWith(`/project/${project.slug}`),
+    activeSlug !== undefined
+      ? activeSlug === project.slug
+      : $page.url.pathname.endsWith(`/project/${project.slug}`),
   );
   const theme = $derived(getProjectSidebarTheme(project.slug));
   const itemStyle = $derived(

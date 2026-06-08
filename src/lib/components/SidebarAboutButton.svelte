@@ -1,19 +1,14 @@
 <script lang="ts">
-  import {
-    PLAYGROUND_ABOUT_DEMO_ENTRY,
-    PLAYGROUND_ABOUT_PROJECT_SLUG,
-  } from "$lib/constants/playground-about";
+  import { PLAYGROUND_ABOUT_VIEW_PARAM } from "$lib/constants/playground-about";
   import { appPath } from "$lib/utils/app-path";
 
-  const aboutHref = appPath(
-    `/project/${PLAYGROUND_ABOUT_PROJECT_SLUG}?demo=${PLAYGROUND_ABOUT_DEMO_ENTRY}`,
-  );
+  const aboutHref = appPath(`/?view=${PLAYGROUND_ABOUT_VIEW_PARAM}`);
 </script>
 
 <a
   href={aboutHref}
   data-testid="sidebar-about-button"
-  aria-label="About this playground"
+  aria-label="About this monorepo"
   class="sidebar-about-button"
 >
   <svg

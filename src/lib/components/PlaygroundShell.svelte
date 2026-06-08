@@ -6,6 +6,7 @@
   } from "$lib/stores/sidebar-visible";
   import { DESKTOP_MEDIA_QUERY } from "$lib/constants/sidebar";
   import Sidebar from "./Sidebar.svelte";
+  import PlaygroundAboutPane from "./PlaygroundAboutPane.svelte";
   import PlaygroundFrame from "./PlaygroundFrame.svelte";
   import PlaygroundReadme from "./PlaygroundReadme.svelte";
   import ProjectInfoFab from "./ProjectInfoFab.svelte";
@@ -15,9 +16,20 @@
   interface Props {
     project: Project | null;
     demoEntry?: string | null;
+    aboutProjects?: Project[];
+    showAboutPane?: boolean;
+    homeRoute?: boolean;
   }
 
-  let { project, demoEntry = null }: Props = $props();
+  let {
+    project,
+    demoEntry = null,
+    aboutProjects = [],
+    showAboutPane = false,
+    homeRoute = false,
+  }: Props = $props();
+
+  const aboutPaneClass = $derived(showAboutPane ? "" : "sr-only");
 
   let sidebarVisible = $state(true);
   let projectInfoOpen = $state(false);
@@ -133,7 +145,16 @@
       data-testid="playground-top-bar"
       class="relative z-50 flex shrink-0 items-center gap-4 border-b border-zinc-200/80 bg-white/90 px-4 py-3 backdrop-blur-md"
     >
-      {#if project}
+      {#if homeRoute && showAboutPane}
+        <div class="min-w-0 flex-1">
+          <h2
+            data-testid="playground-title"
+            class="truncate text-lg font-semibold text-zinc-900"
+          >
+            About this monorepo
+          </h2>
+        </div>
+      {:else if project}
         <div class="min-w-0 flex-1">
           <h2
             data-testid="playground-title"
@@ -157,7 +178,22 @@
     </header>
 
     <div class="relative flex min-h-0 flex-1 flex-col">
-      {#if project}
+      {#if homeRoute}
+        <PlaygroundAboutPane projects={aboutProjects} class={aboutPaneClass} />
+        {#if !showAboutPane && project}
+          {#if project.displayMode === "readme"}
+            <PlaygroundReadme {project} />
+          {:else}
+            <PlaygroundFrame {project} {demoEntry} />
+          {/if}
+
+          <ProjectInfoModal
+            {project}
+            open={projectInfoOpen}
+            onmodalclose={closeProjectInfo}
+          />
+        {/if}
+      {:else if project}
         {#if project.displayMode === "readme"}
           <PlaygroundReadme {project} />
         {:else}
@@ -182,7 +218,7 @@
       {/if}
     </div>
 
-    {#if project}
+    {#if project && !(homeRoute && showAboutPane)}
       <ProjectInfoFab
         open={projectInfoOpen}
         onfabclick={() => {

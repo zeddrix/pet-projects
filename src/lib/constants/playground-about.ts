@@ -1,2 +1,9 @@
-export const PLAYGROUND_ABOUT_PROJECT_SLUG = "blog-app";
-export const PLAYGROUND_ABOUT_DEMO_ENTRY = "projects.html";
+export const PLAYGROUND_ABOUT_VIEW_PARAM = "about";
+
+export function playgroundAboutHref(basePath: string): string {
+  const normalizedBase = basePath.endsWith("/")
+    ? basePath.slice(0, -1)
+    : basePath;
+  const prefix = normalizedBase === "" ? "" : normalizedBase;
+  return `${prefix}/?view=${PLAYGROUND_ABOUT_VIEW_PARAM}`;
+}

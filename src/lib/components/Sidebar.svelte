@@ -1,6 +1,8 @@
 <script lang="ts">
+  import { base } from "$app/paths";
   import { page } from "$app/stores";
-  import { getSortedProjects } from "$lib/data/projects";
+  import { PLAYGROUND_ABOUT_VIEW_PARAM } from "$lib/constants/playground-about";
+  import { getDefaultProject, getSortedProjects } from "$lib/data/projects";
   import { getProjectSidebarTheme } from "$lib/data/project-sidebar-themes";
   import {
     computeSidebarActiveArrowPlacement,
@@ -12,6 +14,7 @@
   import { AUTHOR_NAME } from "$lib/seo/site-config";
   import ProjectListItem from "./ProjectListItem.svelte";
   import SidebarAboutButton from "./SidebarAboutButton.svelte";
+  import SidebarAboutItem from "./SidebarAboutItem.svelte";
   import SidebarActiveArrow from "./SidebarActiveArrow.svelte";
 
   interface Props {
@@ -22,16 +25,42 @@
   let { visible, onprojectselect }: Props = $props();
 
   const projects = getSortedProjects();
+  const defaultProjectSlug = getDefaultProject().slug;
 
   let projectListElement = $state<HTMLElement | null>(null);
   let arrowTopPx = $state(0);
   let arrowMode = $state<SidebarActiveArrowMode>("attached");
   let arrowVisible = $state(false);
 
+  const isAboutActive = $derived.by(() => {
+    const pathname = $page.url.pathname;
+    const normalizedPath = pathname.replace(/\/$/, "") || "/";
+    const normalizedHome = (base || "/").replace(/\/$/, "") || "/";
+    const isHome = normalizedPath === normalizedHome;
+    return (
+      isHome &&
+      $page.url.searchParams.get("view") === PLAYGROUND_ABOUT_VIEW_PARAM
+    );
+  });
+
   const activeSlug = $derived.by(() => {
+    if (isAboutActive) {
+      return null;
+    }
+
     const pathname = $page.url.pathname;
     const match = pathname.match(/\/project\/([^/]+)$/);
-    return match?.[1] ?? null;
+    if (match?.[1]) {
+      return match[1];
+    }
+
+    const normalizedPath = pathname.replace(/\/$/, "") || "/";
+    const normalizedHome = (base || "/").replace(/\/$/, "") || "/";
+    if (normalizedPath === normalizedHome) {
+      return defaultProjectSlug;
+    }
+
+    return null;
   });
 
   const activeTheme = $derived(
@@ -158,9 +187,16 @@
       aria-label="Pet projects"
     >
       <ul class="space-y-1">
+        <li>
+          <SidebarAboutItem onselect={onprojectselect} />
+        </li>
         {#each projects as project (project.slug)}
           <li>
-            <ProjectListItem {project} onselect={onprojectselect} />
+            <ProjectListItem
+              {project}
+              {activeSlug}
+              onselect={onprojectselect}
+            />
           </li>
         {/each}
       </ul>
@@ -179,7 +215,7 @@
   <footer class="shrink-0 space-y-2 border-t border-zinc-200 px-4 py-3">
     <a
       data-testid="sidebar-author-link"
-      href={appPath("/")}
+      href={appPath(`/?view=${PLAYGROUND_ABOUT_VIEW_PARAM}`)}
       class="block text-sm font-medium text-zinc-700 transition-colors duration-200 hover:text-zinc-900 hover:underline"
     >
       {AUTHOR_NAME}
