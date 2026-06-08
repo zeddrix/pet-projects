@@ -13,6 +13,7 @@ import {
   renderSceneArt,
   renderTitle,
   setCheckpointVisible,
+  setChoicesEnabled,
   setInventoryVisible,
 } from "./scene-renderer.js";
 
@@ -70,6 +71,9 @@ let scenes = {};
 let pendingResolve = null;
 
 /** @type {boolean} */
+let inputEnabled = false;
+
+/** @type {boolean} */
 let awaitingName = false;
 
 /** @type {boolean} */
@@ -106,12 +110,19 @@ function clearDibpProgress() {
 }
 
 /** @param {string} line */
-function submitAnswer(line) {
-  if (pendingResolve) {
-    const resolve = pendingResolve;
-    pendingResolve = null;
-    resolve(line);
+/** @param {string} [label] */
+function submitAnswer(line, label) {
+  if (!pendingResolve) {
+    return;
   }
+  if (label) {
+    appendNarrative(narrativeLog, `${label}\n`);
+  }
+  inputEnabled = false;
+  setChoicesEnabled(choiceButtons, false);
+  const resolve = pendingResolve;
+  pendingResolve = null;
+  resolve(line);
 }
 
 /** @returns {Promise<string>} */
@@ -123,6 +134,9 @@ function readInput() {
       nameInput.value = savedName;
     }
     nameInput.focus();
+  } else {
+    inputEnabled = true;
+    setChoicesEnabled(choiceButtons, true);
   }
 
   return new Promise((resolve) => {
@@ -149,13 +163,15 @@ function handleSceneChange(sceneId) {
     namePanel.hidden = true;
   }
 
+  inputEnabled = false;
+
   const scene = scenes[sceneId];
   renderTitle(sceneTitle, scene);
   if (scene) {
     renderSceneArt(sceneImage, scene);
     highlightMapNode(adventureMap, scene.mapNode, Boolean(scene.checkpoint));
     if (!awaitingName) {
-      renderChoices(choiceButtons, scene, submitAnswer);
+      renderChoices(choiceButtons, scene, submitAnswer, false);
     }
     ambientAudio?.setAmbient(scene.ambient ?? "none");
   }

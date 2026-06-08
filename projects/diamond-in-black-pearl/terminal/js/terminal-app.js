@@ -2,6 +2,9 @@ import { GameClient } from "../../shared/js/game-client.js";
 import { bootDibpGame } from "../../shared/js/dibp-boot.js";
 
 const loader = document.getElementById("loader");
+const loaderBar = document.querySelector(
+  '[data-testid="dibp-terminal-loader-bar"]',
+);
 const bootStatus = document.getElementById("boot-status");
 const startButton = document.getElementById("start-button");
 const screen = document.getElementById("terminal-screen");
@@ -79,6 +82,9 @@ document.addEventListener("dibp-game-ready", () => {
 
 startButton.addEventListener("click", async () => {
   startButton.disabled = true;
+  if (loaderBar instanceof HTMLElement) {
+    loaderBar.hidden = false;
+  }
 
   gameClient = new GameClient({
     write: appendOutput,

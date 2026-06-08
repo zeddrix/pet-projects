@@ -107,6 +107,10 @@ body {
   cursor: not-allowed;
 }
 
+.terminal-shell__loader-bar[hidden] {
+  display: none !important;
+}
+
 .terminal-shell__loader-bar {
   width: min(320px, 80vw);
   height: 4px;

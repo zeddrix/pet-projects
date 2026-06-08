@@ -183,6 +183,17 @@
       { "label": "Go BACK to the ship", "submit": "BACK" }
     ]
   },
+  "back_confirm": {
+    "title": "Return to the Ship?",
+    "art": "../assets/scenes/chest_finale.webp",
+    "artAlt": "Locked treasure chest on the beach, key missing",
+    "mapNode": "beach",
+    "ambient": "sea",
+    "choices": [
+      { "label": "YES — go back", "submit": "YES" },
+      { "label": "NO — stay here", "submit": "NO" }
+    ]
+  },
   "death": {
     "title": "You Died",
     "art": "../assets/scenes/death.webp",

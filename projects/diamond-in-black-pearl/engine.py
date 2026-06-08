@@ -535,7 +535,7 @@ def treasure_chest():
 
 
 def back():
-    _scene("chest_finale")
+    _scene("back_confirm")
     _write("------------------------------------------------------")
     _write("Are you sure? You wanna go back?")
     _write("------------------------------------------------------")

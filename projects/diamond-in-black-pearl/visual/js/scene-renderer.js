@@ -20,30 +20,39 @@ export function renderSceneArt(img, scene) {
 /**
  * @param {HTMLElement} container
  * @param {SceneDef | undefined} scene
- * @param {(submit: string) => void} onChoice
+ * @param {(submit: string, label: string) => void} onChoice
+ * @param {boolean} [inputEnabled]
  */
-export function renderChoices(container, scene, onChoice) {
+export function renderChoices(container, scene, onChoice, inputEnabled = false) {
   container.replaceChildren();
 
   if (!scene) {
     return;
   }
 
-  const allChoices = [...(scene.choices ?? []), ...(scene.secrets ?? [])];
-
-  for (const choice of allChoices) {
+  for (const choice of scene.choices ?? []) {
     const button = document.createElement("button");
     button.type = "button";
     button.className = "choice-btn";
     button.dataset.testid = `dibp-choice-${choice.submit}`;
-    if (scene.secrets?.includes(choice)) {
-      button.classList.add("choice-btn--secret");
-    }
     button.textContent = choice.label;
+    button.disabled = !inputEnabled;
     button.addEventListener("click", () => {
-      onChoice(choice.submit);
+      if (!button.disabled) {
+        onChoice(choice.submit, choice.label);
+      }
     });
     container.appendChild(button);
+  }
+}
+
+/** @param {HTMLElement} container */
+/** @param {boolean} enabled */
+export function setChoicesEnabled(container, enabled) {
+  for (const button of container.querySelectorAll("button")) {
+    if (button instanceof HTMLButtonElement) {
+      button.disabled = !enabled;
+    }
   }
 }
 

@@ -103,7 +103,7 @@ export class GameClient {
     this.#readyMarked = true;
     const marker = document.querySelector('[data-testid="dibp-game-ready"]');
     if (marker instanceof HTMLElement) {
-      marker.textContent = "ready";
+      marker.dataset.ready = "true";
     }
     document.dispatchEvent(new CustomEvent("dibp-game-ready"));
   }
