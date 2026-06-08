@@ -5,6 +5,7 @@
  *        LIVE_SITE_URL=https://example.github.io/repo node scripts/verify-live-deploy.mjs
  */
 import {
+  isTextContentType,
   joinSitePath,
   normalizeManifestAssetPath,
   parsePositiveInt,
@@ -24,10 +25,7 @@ async function fetchOk(path) {
   const url = joinSitePath(siteBase, path);
   const response = await fetch(url, { redirect: "follow" });
   const contentType = response.headers.get("content-type") ?? "";
-  const isText =
-    contentType.includes("text/html") ||
-    contentType.includes("application/json") ||
-    contentType.includes("text/plain");
+  const isText = isTextContentType(contentType);
   const body = isText
     ? await response.text()
     : Buffer.from(await response.arrayBuffer());

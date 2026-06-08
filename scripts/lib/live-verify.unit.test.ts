@@ -1,11 +1,22 @@
 import { describe, expect, it, vi } from "vitest";
 import {
+  isTextContentType,
   joinSitePath,
   normalizeManifestAssetPath,
   parsePositiveInt,
   sleep,
   withRetries,
 } from "./live-verify.mjs";
+
+describe("isTextContentType", () => {
+  it("treats application/xml as text for sitemap checks", () => {
+    expect(isTextContentType("application/xml; charset=utf-8")).toBe(true);
+  });
+
+  it("treats text/plain as text for robots checks", () => {
+    expect(isTextContentType("text/plain; charset=utf-8")).toBe(true);
+  });
+});
 
 describe("normalizeManifestAssetPath", () => {
   it("strips leading ./ from CRA manifest paths", () => {

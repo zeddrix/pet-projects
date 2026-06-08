@@ -1,4 +1,20 @@
 /**
+ * Whether a response Content-Type should be read as text in live deploy checks.
+ *
+ * @param {string} contentType
+ * @returns {boolean}
+ */
+export function isTextContentType(contentType) {
+  return (
+    contentType.includes("text/html") ||
+    contentType.includes("application/json") ||
+    contentType.includes("application/xml") ||
+    contentType.includes("text/xml") ||
+    contentType.includes("text/plain")
+  );
+}
+
+/**
  * Normalize CRA asset-manifest file paths for URL joining.
  *
  * @param {string} manifestPath
