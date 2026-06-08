@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181b"/>
+      <stop offset="100%" stop-color="#3f3f46"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <text x="80" y="250" font-family="sans-serif" font-size="72" font-weight="600" fill="#fafafa">Zeddrix Fabian</text>
+  <text x="80" y="330" font-family="sans-serif" font-size="40" font-weight="500" fill="#a1a1aa">Pet Projects Playground</text>
+  <text x="80" y="410" font-family="sans-serif" font-size="28" fill="#d4d4d8">Pre-AI web demos and live archive</text>
+</svg>

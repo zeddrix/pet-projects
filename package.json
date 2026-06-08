@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
-    "build:pages": "BASE_PATH=${BASE_PATH:-/pet-projects} pnpm build && cp build/index.html build/404.html",
+    "generate:seo-assets": "node scripts/generate-seo-assets.mjs",
+    "build:pages": "BASE_PATH=${BASE_PATH:-/pet-projects} PUBLIC_SITE_URL=${PUBLIC_SITE_URL:-https://zeddrix.github.io/pet-projects} pnpm build && cp build/index.html build/404.html",
     "preview": "vite preview",
     "prepare": "svelte-kit sync || echo ''",
     "sync-projects": "node scripts/sync-projects.mjs",
@@ -25,7 +26,7 @@
     "pretest:dibp-e2e": "pnpm sync-projects",
     "test:dibp-engine": "node scripts/run-dibp-pytest.mjs",
     "test:dibp-e2e": "playwright test -c playwright.dibp.config.ts",
-    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check": "PUBLIC_SITE_URL=${PUBLIC_SITE_URL:-https://zeddrix.github.io/pet-projects} svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "lint": "eslint . --max-warnings=0",
