@@ -4,6 +4,7 @@ import {
   dibpPort,
   dibpWebServerUrl,
   sharedWebServerOptions,
+  viteDevCommand,
 } from "./playwright.shared";
 
 export default defineConfig({
@@ -21,7 +22,7 @@ export default defineConfig({
     trace: "off",
   },
   webServer: {
-    command: `pnpm dev --host 127.0.0.1 --port ${dibpPort}`,
+    command: viteDevCommand(dibpPort),
     url: dibpWebServerUrl,
     ...sharedWebServerOptions,
   },

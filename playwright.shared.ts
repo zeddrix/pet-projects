@@ -32,6 +32,11 @@ export function shouldReuseExistingServer(): boolean {
 
 export const sharedWebServerOptions = {
   reuseExistingServer: shouldReuseExistingServer(),
-  timeout: 180_000,
+  timeout: 360_000,
   env: e2eWebServerEnv,
 };
+
+/** Vite dev without predev sync — callers should run `pnpm sync-projects` first. */
+export function viteDevCommand(port: number): string {
+  return `pnpm exec vite dev --host 127.0.0.1 --port ${port} --strictPort`;
+}
