@@ -157,6 +157,42 @@ const checks = [
       );
     },
   },
+  {
+    name: "SEO home landing",
+    run: async () => {
+      const { response, body } = await fetchOk("/");
+      return (
+        response.ok &&
+        typeof body === "string" &&
+        body.includes("Zeddrix Fabian") &&
+        body.includes('rel="canonical"')
+      );
+    },
+  },
+  {
+    name: "SEO sitemap.xml",
+    run: async () => {
+      const { response, body } = await fetchOk("/sitemap.xml");
+      return (
+        response.ok &&
+        typeof body === "string" &&
+        body.includes("<urlset") &&
+        body.includes("/project/loan-calculator")
+      );
+    },
+  },
+  {
+    name: "SEO robots.txt",
+    run: async () => {
+      const { response, body } = await fetchOk("/robots.txt");
+      return (
+        response.ok &&
+        typeof body === "string" &&
+        body.includes("Sitemap:") &&
+        body.includes("/sitemap.xml")
+      );
+    },
+  },
 ];
 
 let failed = 0;
