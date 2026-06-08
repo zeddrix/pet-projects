@@ -1,9 +1,10 @@
-import { redirect } from "@sveltejs/kit";
-import { getDefaultProject } from "$lib/data/projects";
-import { appPath } from "$lib/utils/app-path";
+import { getSortedProjects } from "$lib/data/projects";
 import type { PageLoad } from "./$types";
 
+export const prerender = true;
+
 export const load: PageLoad = () => {
-  const project = getDefaultProject();
-  throw redirect(307, appPath(`/project/${project.slug}`));
+  return {
+    projects: getSortedProjects(),
+  };
 };
