@@ -17,9 +17,11 @@ export async function startGameInPlaygroundIframe(
 ): Promise<FrameLocator> {
   const frame = playgroundFrame(page);
   await frame.getByTestId("dibp-start-button").click();
-  await expect(frame.getByTestId("dibp-game-ready")).toHaveText("ready", {
-    timeout: 120_000,
-  });
+  await expect(frame.getByTestId("dibp-game-ready")).toHaveAttribute(
+    "data-ready",
+    "true",
+    { timeout: 120_000 },
+  );
   return frame;
 }
 
@@ -38,18 +40,54 @@ export async function startGame(page: Page): Promise<void> {
 }
 
 export async function waitForGameReady(page: Page): Promise<void> {
-  await expect(page.getByTestId("dibp-game-ready")).toHaveText("ready", {
-    timeout: 120_000,
-  });
+  await expect(page.getByTestId("dibp-game-ready")).toHaveAttribute(
+    "data-ready",
+    "true",
+    { timeout: 120_000 },
+  );
+}
+
+/** Asserts the readiness marker is screen-reader only (no visible "ready" text). */
+export async function expectReadyMarkerHidden(page: Page): Promise<void> {
+  const marker = page.getByTestId("dibp-game-ready");
+  await expect(marker).toHaveAttribute("data-ready", "true");
+  await expect(marker).toHaveText("");
+  await expect(marker).toHaveClass(/visually-hidden/);
 }
 
 export async function clickChoice(page: Page, submit: string): Promise<void> {
-  await page.getByTestId(`dibp-choice-${submit}`).click();
+  const button = page.getByTestId(`dibp-choice-${submit}`);
+  await expect(button).toBeVisible();
+  await expect(button).toBeEnabled();
+  await button.click();
+}
+
+export async function navigateChoices(
+  page: Page,
+  choices: string[],
+): Promise<void> {
+  for (const choice of choices) {
+    await clickChoice(page, choice);
+  }
 }
 
 export async function submitName(page: Page, name: string): Promise<void> {
   await page.getByTestId("dibp-name-input").fill(name);
   await page.getByTestId("dibp-name-submit").click();
+}
+
+export async function submitTypedAnswer(
+  page: Page,
+  text: string,
+): Promise<void> {
+  await page.locator("#typed-drawer").click();
+  await page.getByTestId("dibp-typed-input").fill(text);
+  await page.locator("#typed-form button[type='submit']").click();
+}
+
+export async function reachBlackPearlCheckpoint(page: Page): Promise<void> {
+  await submitTypedAnswer(page, "BLACK PEARL");
+  await expectSceneTitle(page, "Black Pearl");
 }
 
 export async function typeTerminalLine(
@@ -68,4 +106,21 @@ export async function expectSceneTitle(
   await expect(page.getByTestId("dibp-scene-title")).toContainText(
     titleFragment,
   );
+}
+
+export async function expectNarrative(
+  page: Page,
+  textFragment: string,
+): Promise<void> {
+  await expect(page.locator("#narrative-log")).toContainText(textFragment);
+}
+
+export async function startVisualGameWithName(
+  page: Page,
+  name = "Hero",
+): Promise<void> {
+  await page.goto(dibpPath("visual/index.html"));
+  await startGame(page);
+  await waitForGameReady(page);
+  await submitName(page, name);
 }

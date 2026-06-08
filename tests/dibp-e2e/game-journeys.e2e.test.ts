@@ -6,8 +6,10 @@ import {
   clickChoice,
   dibpPath,
   expectSceneTitle,
+  reachBlackPearlCheckpoint,
   startGame,
   submitName,
+  submitTypedAnswer,
   typeTerminalLine,
   waitForGameReady,
 } from "./helpers/dibp-page";
@@ -84,7 +86,7 @@ test.describe("DIBP visual journeys", () => {
     await startGame(page);
     await waitForGameReady(page);
     await submitName(page, "Hero");
-    await clickChoice(page, "BLACK PEARL");
+    await reachBlackPearlCheckpoint(page);
     await clickChoice(page, "LOOK");
     await clickChoice(page, "PUNCH");
     await expectSceneTitle(page, "Checkpoint");
@@ -109,14 +111,14 @@ test.describe("DIBP visual journeys", () => {
     ).toHaveCount(1, { timeout: 10_000 });
   });
 
-  test("Given jungle secret, when player whispers Black Pearl, then ship checkpoint appears", async ({
+  test("Given jungle fork, when player types Black Pearl, then ship checkpoint appears", async ({
     page,
   }) => {
     await page.goto(dibpPath("visual/index.html"));
     await startGame(page);
     await waitForGameReady(page);
     await submitName(page, "Hero");
-    await clickChoice(page, "BLACK PEARL");
+    await submitTypedAnswer(page, "BLACK PEARL");
     await expectSceneTitle(page, "Black Pearl");
   });
 

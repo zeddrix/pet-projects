@@ -3,6 +3,7 @@ import { pagesPath } from "../e2e/fixtures/pages-env";
 import {
   clearDibpStorage,
   dibpPath,
+  expectReadyMarkerHidden,
   startGame,
   startGameInPlaygroundIframe,
   waitForGameReady,
@@ -29,6 +30,7 @@ test.describe("DIBP boot", () => {
     await page.goto(dibpPath("visual/index.html"));
     await startGame(page);
     await waitForGameReady(page);
+    await expectReadyMarkerHidden(page);
     await expect(page.getByTestId("dibp-visual-loader")).toBeHidden();
     await expect(page.getByTestId("dibp-scene-title")).toContainText("Welcome");
     await expect(page.getByTestId("dibp-name-form")).toBeVisible();
@@ -85,6 +87,24 @@ test.describe("DIBP boot", () => {
     await expect(frame.getByTestId("dibp-scene-title")).toContainText(
       "Scorpion",
     );
+  });
+
+  test("Given terminal idle, when user has not started, then loader bar is hidden", async ({
+    page,
+  }) => {
+    await page.goto(dibpPath("terminal/index.html"));
+    await expect(page.getByTestId("dibp-start-button")).toBeVisible();
+    await expect(page.getByTestId("dibp-terminal-loader-bar")).toBeHidden();
+  });
+
+  test("Given terminal idle, when user clicks start, then loader bar appears during boot", async ({
+    page,
+  }) => {
+    await page.goto(dibpPath("terminal/index.html"));
+    await startGame(page);
+    await expect(page.getByTestId("dibp-terminal-loader-bar")).toBeVisible();
+    await waitForGameReady(page);
+    await expect(page.getByTestId("dibp-terminal-loader")).toBeHidden();
   });
 
   test("Given terminal loading, when user starts game, then boot status advances beyond tap start", async ({

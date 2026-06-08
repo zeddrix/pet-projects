@@ -212,6 +212,7 @@ def test_treasure_chest_destroy_loops(run_game):
 
 def test_back_yes_checkpoint(run_game):
     io = run_game(WIN_PATH_INPUTS[:13] + ["BACK", "YES", "NO"])
+    assert "back_confirm" in io.scenes
     assert "checkpoint_death" in io.scenes
 
 
