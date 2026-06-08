@@ -8,6 +8,8 @@
     SIDEBAR_ACTIVE_ARROW_HEIGHT_PX,
     type SidebarActiveArrowMode,
   } from "$lib/utils/sidebar-active-arrow";
+  import { appPath } from "$lib/utils/app-path";
+  import { AUTHOR_NAME } from "$lib/seo/site-config";
   import ProjectListItem from "./ProjectListItem.svelte";
   import SidebarAboutButton from "./SidebarAboutButton.svelte";
   import SidebarActiveArrow from "./SidebarActiveArrow.svelte";
@@ -174,13 +176,20 @@
     {/if}
   </div>
 
-  <footer class="shrink-0 border-t border-zinc-200 px-4 py-3">
+  <footer class="shrink-0 space-y-2 border-t border-zinc-200 px-4 py-3">
+    <a
+      data-testid="sidebar-author-link"
+      href={appPath("/")}
+      class="block text-sm font-medium text-zinc-700 transition-colors duration-200 hover:text-zinc-900 hover:underline"
+    >
+      {AUTHOR_NAME}
+    </a>
     <a
       data-testid="sidebar-repo-link"
       href="https://github.com/zeddrix/pet-projects"
       target="_blank"
       rel="noopener noreferrer"
-      class="text-sm font-medium text-zinc-600 transition-colors duration-200 hover:text-zinc-900 hover:underline"
+      class="block text-sm font-medium text-zinc-600 transition-colors duration-200 hover:text-zinc-900 hover:underline"
     >
       View on GitHub
     </a>
