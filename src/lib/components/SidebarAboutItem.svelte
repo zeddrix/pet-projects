@@ -1,34 +1,22 @@
 <script lang="ts">
-  import { page } from "$app/stores";
-  import { base } from "$app/paths";
   import { PLAYGROUND_ABOUT_VIEW_PARAM } from "$lib/constants/playground-about";
   import { appPath } from "$lib/utils/app-path";
 
   interface Props {
+    active?: boolean;
     onselect?: () => void;
   }
 
-  let { onselect }: Props = $props();
+  let { active = false, onselect }: Props = $props();
 
-  const href = $derived(appPath(`/?view=${PLAYGROUND_ABOUT_VIEW_PARAM}`));
-
-  const isActive = $derived.by(() => {
-    const pathname = $page.url.pathname;
-    const normalizedPath = pathname.replace(/\/$/, "") || "/";
-    const normalizedHome = (base || "/").replace(/\/$/, "") || "/";
-    const isHome = normalizedPath === normalizedHome;
-    return (
-      isHome &&
-      $page.url.searchParams.get("view") === PLAYGROUND_ABOUT_VIEW_PARAM
-    );
-  });
+  const href = appPath(`/?view=${PLAYGROUND_ABOUT_VIEW_PARAM}`);
 </script>
 
 <a
   {href}
   data-testid="sidebar-about-item"
-  data-active={isActive ? "true" : "false"}
-  aria-current={isActive ? "page" : undefined}
+  data-active={active ? "true" : "false"}
+  aria-current={active ? "page" : undefined}
   class="sidebar-about-item block rounded-lg border border-zinc-200 bg-white px-3 py-2 text-zinc-900 shadow-sm"
   onclick={onselect}
 >

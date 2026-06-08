@@ -96,7 +96,11 @@
     class="relative z-40 w-0 shrink-0 overflow-visible transition-[width] duration-300 ease-in-out motion-reduce:transition-none
       {sidebarVisible ? 'md:w-72' : ''}"
   >
-    <Sidebar visible={sidebarVisible} onprojectselect={handleProjectSelect} />
+    <Sidebar
+      visible={sidebarVisible}
+      onprojectselect={handleProjectSelect}
+      aboutViewActive={homeRoute && showAboutPane}
+    />
 
     {#if sidebarVisible}
       <button

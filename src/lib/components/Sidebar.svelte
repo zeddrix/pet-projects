@@ -19,10 +19,11 @@
 
   interface Props {
     visible: boolean;
+    aboutViewActive?: boolean;
     onprojectselect?: () => void;
   }
 
-  let { visible, onprojectselect }: Props = $props();
+  let { visible, aboutViewActive = false, onprojectselect }: Props = $props();
 
   const projects = getSortedProjects();
   const defaultProjectSlug = getDefaultProject().slug;
@@ -188,7 +189,7 @@
     >
       <ul class="space-y-1">
         <li>
-          <SidebarAboutItem onselect={onprojectselect} />
+          <SidebarAboutItem active={isAboutActive} onselect={onprojectselect} />
         </li>
         {#each projects as project (project.slug)}
           <li>
