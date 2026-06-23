@@ -2,6 +2,7 @@ import { existsSync } from "node:fs";
 import { execSync } from "node:child_process";
 import { join, resolve } from "node:path";
 import { resolveJustcolorBasePath } from "./lib/archive-build-env.mjs";
+import { assertJustcolorNpmAuditClean } from "./lib/justcolor-npm-audit.mjs";
 
 const root = resolve(import.meta.dirname, "..");
 const appDir = join(root, "projects/justcolor");
@@ -14,6 +15,7 @@ if (!existsSync(appDir)) {
 
 console.log(`Building justcolor static preview with BASE_PATH=${basePath}`);
 execSync("npm ci", { cwd: appDir, stdio: "inherit" });
+assertJustcolorNpmAuditClean(appDir);
 execSync("npm run build", {
   cwd: appDir,
   stdio: "inherit",

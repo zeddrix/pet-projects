@@ -1,0 +1,16 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /projects/justcolor
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
+    groups:
+      svelte-toolchain:
+        patterns:
+          - "svelte*"
+          - "@sveltejs/*"
+          - "vite"
+          - "vitest"
+          - "esbuild"
+          - "rollup"
