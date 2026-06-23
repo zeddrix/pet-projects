@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest";
 import { getProjectBySlug, getSortedProjects } from "./projects";
 
 const DUAL_VERSION_SLUGS = [
+  "justcolor",
   "blog-app",
   "microposts",
   "github-finder-jsx",

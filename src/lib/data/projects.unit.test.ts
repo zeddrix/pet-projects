@@ -25,12 +25,12 @@ describe("projects manifest", () => {
   it("returns first non-deprecated project as default", () => {
     const project = getDefaultProject();
 
-    expect(project.slug).toBe("github-finder-jsx");
+    expect(project.slug).toBe("justcolor");
     expect(project.deprecated).toBeUndefined();
   });
 
-  it("returns 16 sorted projects", () => {
-    expect(getSortedProjects()).toHaveLength(16);
+  it("returns 17 sorted projects", () => {
+    expect(getSortedProjects()).toHaveLength(17);
   });
 
   it("does not mark github-finder as deprecated", () => {
@@ -41,10 +41,11 @@ describe("projects manifest", () => {
 
   it("exposes slugs for prerender entries", () => {
     const slugs = getProjectSlugs();
-    expect(slugs).toHaveLength(16);
+    expect(slugs).toHaveLength(17);
     expect(slugs).toContain("diamond-in-black-pearl");
     expect(slugs).toContain("loan-calculator");
     expect(slugs).toContain("bible-query");
+    expect(slugs).toContain("justcolor");
   });
 
   it("points sourceUrl at monorepo project folders", () => {
@@ -79,6 +80,15 @@ describe("projects manifest", () => {
     const project = getProjectBySlug("loan-calculator");
 
     expect(project?.techStack).toContain("Vanilla JS");
+  });
+
+  it("includes archive metadata for justcolor", () => {
+    const project = getProjectBySlug("justcolor");
+
+    expect(project?.developedAt).toBe("April 2020");
+    expect(project?.versions?.length).toBeGreaterThanOrEqual(2);
+    expect(project?.dualVersionReason).toContain("git history");
+    expect(project?.dualVersionReason).toContain("zeddrix/justcolor");
   });
 
   it("includes archive metadata for bible-query", () => {

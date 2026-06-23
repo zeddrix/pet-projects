@@ -7,6 +7,11 @@ export const FALLBACK_SIDEBAR_THEME: ProjectSidebarTheme = {
 };
 
 const projectSidebarThemes: Record<string, ProjectSidebarTheme> = {
+  justcolor: {
+    primary: "#800080",
+    accent: "#ffa500",
+    primaryDark: "#4d004d",
+  },
   "github-finder-jsx": {
     primary: "#333333",
     accent: "#dc3545",

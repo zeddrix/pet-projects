@@ -1,5 +1,29 @@
 [
   {
+    "slug": "justcolor",
+    "title": "JustColor!",
+    "description": "Tap color buttons to learn color names and build a custom palette.",
+    "sourceUrl": "https://github.com/zeddrix/pet-projects/tree/main/projects/justcolor",
+    "developedAt": "April 2020",
+    "versions": [
+      {
+        "id": "original",
+        "label": "SvelteKit source (git history)",
+        "techStack": ["SvelteKit 2", "Svelte 4", "SMUI", "TypeScript", "Vite"],
+        "folderPath": ".",
+        "note": "Full history merged from zeddrix/justcolor."
+      },
+      {
+        "id": "preview",
+        "label": "Static adapter build",
+        "techStack": ["SvelteKit", "adapter-static", "SMUI"],
+        "folderPath": "build"
+      }
+    ],
+    "dualVersionReason": "This folder preserves the full git history from the former standalone repo zeddrix/justcolor. The playground serves the static SvelteKit build in an iframe.",
+    "sortOrder": 1
+  },
+  {
     "slug": "github-finder-jsx",
     "title": "GitHub Finder (JSX)",
     "description": "Search GitHub users with a React JSX interface.",
@@ -27,7 +51,7 @@
       }
     ],
     "dualVersionReason": "The playground serves a pre-built Create React App bundle for static hosting. The original React source lives in git history for reference.",
-    "sortOrder": 1
+    "sortOrder": 2
   },
   {
     "slug": "loan-calculator",
@@ -36,7 +60,7 @@
     "sourceUrl": "https://github.com/zeddrix/pet-projects/tree/main/projects/loan-calculator",
     "developedAt": "November 2020",
     "techStack": ["Vanilla JS", "Bootstrap", "HTML5"],
-    "sortOrder": 2
+    "sortOrder": 3
   },
   {
     "slug": "weather-widget",
@@ -45,7 +69,7 @@
     "sourceUrl": "https://github.com/zeddrix/pet-projects/tree/main/projects/weather-widget",
     "developedAt": "November 2020",
     "techStack": ["ES6 classes", "Fetch API", "OpenWeatherMap"],
-    "sortOrder": 3
+    "sortOrder": 4
   },
   {
     "slug": "tracalorie",
@@ -54,7 +78,7 @@
     "sourceUrl": "https://github.com/zeddrix/pet-projects/tree/main/projects/tracalorie",
     "developedAt": "November 2020",
     "techStack": ["Vanilla JS", "Materialize CSS", "localStorage"],
-    "sortOrder": 4
+    "sortOrder": 5
   },
   {
     "slug": "word-counter",
@@ -63,7 +87,7 @@
     "sourceUrl": "https://github.com/zeddrix/pet-projects/tree/main/projects/word-counter",
     "developedAt": "June 2020",
     "techStack": ["Vanilla JS", "BEM CSS"],
-    "sortOrder": 5
+    "sortOrder": 6
   },
   {
     "slug": "tasklist",
@@ -72,7 +96,7 @@
     "sourceUrl": "https://github.com/zeddrix/pet-projects/tree/main/projects/tasklist",
     "developedAt": "November 2020",
     "techStack": ["Vanilla JS", "Materialize CSS", "localStorage"],
-    "sortOrder": 6
+    "sortOrder": 7
   },
   {
     "slug": "github-finder",
@@ -81,7 +105,7 @@
     "sourceUrl": "https://github.com/zeddrix/pet-projects/tree/main/projects/github-finder",
     "developedAt": "November 2020",
     "techStack": ["Vanilla JS", "Fetch API", "GitHub API"],
-    "sortOrder": 7
+    "sortOrder": 8
   },
   {
     "slug": "booklist",
@@ -90,7 +114,7 @@
     "sourceUrl": "https://github.com/zeddrix/pet-projects/tree/main/projects/booklist",
     "developedAt": "November 2020",
     "techStack": ["ES6 classes", "Skeleton CSS"],
-    "sortOrder": 8
+    "sortOrder": 9
   },
   {
     "slug": "jw-guitar-templates",
@@ -99,7 +123,7 @@
     "sourceUrl": "https://github.com/zeddrix/pet-projects/tree/main/projects/jw-guitar-templates",
     "developedAt": "March 2020",
     "techStack": ["Vanilla JS", "Custom fonts"],
-    "sortOrder": 11
+    "sortOrder": 12
   },
   {
     "slug": "animate",
@@ -108,7 +132,7 @@
     "sourceUrl": "https://github.com/zeddrix/pet-projects/tree/main/projects/animate",
     "developedAt": "January 2020",
     "techStack": ["Animate.css", "Bootstrap"],
-    "sortOrder": 9
+    "sortOrder": 10
   },
   {
     "slug": "robot-friend",
@@ -117,7 +141,7 @@
     "sourceUrl": "https://github.com/zeddrix/pet-projects/tree/main/projects/robot-friend",
     "developedAt": "February 2020",
     "techStack": ["HTML", "CSS"],
-    "sortOrder": 10
+    "sortOrder": 11
   },
   {
     "slug": "bible-query",
@@ -127,7 +151,7 @@
     "developedAt": "May 2020",
     "techStack": ["Vanilla JS", "HTML5", "CSS3", "Custom fonts"],
     "dualVersionReason": "This folder preserves the full git history from the former standalone repo zeddrix/bible-query. The playground serves the static demo in an iframe.",
-    "sortOrder": 12
+    "sortOrder": 13
   },
   {
     "slug": "blog-app",
@@ -150,7 +174,7 @@
       }
     ],
     "dualVersionReason": "GitHub Pages is static-only and cannot run Django. A SvelteKit static build mimics the blog layout for in-browser preview.",
-    "sortOrder": 13
+    "sortOrder": 14
   },
   {
     "slug": "microposts",
@@ -173,7 +197,7 @@
       }
     ],
     "dualVersionReason": "The original app needs json-server as a backend. The static preview uses an in-browser mock API so CRUD works on GitHub Pages.",
-    "sortOrder": 14
+    "sortOrder": 15
   },
   {
     "slug": "devcamper-api",
@@ -184,7 +208,7 @@
     "techStack": ["Node.js", "Express", "MongoDB"],
     "dualVersionReason": "This is a backend-only API and cannot run on GitHub Pages. The playground shows the README instead of an iframe.",
     "displayMode": "readme",
-    "sortOrder": 15
+    "sortOrder": 16
   },
   {
     "slug": "diamond-in-black-pearl",
@@ -214,6 +238,6 @@
       }
     ],
     "dualVersionReason": "This folder preserves the full git history from the former standalone repo zeddrix/diamond-in-black-pearl. original/game.py is untouched. GitHub Pages runs a derived engine.py in-browser via Pyodide for terminal and illustrated modes.",
-    "sortOrder": 16
+    "sortOrder": 17
   }
 ]
