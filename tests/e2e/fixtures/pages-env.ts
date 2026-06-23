@@ -16,9 +16,7 @@ export function pagesPath(path: string): string {
 export const PAGES_HOME_PATH = pagesPath("/");
 
 /** Default project route for the first non-deprecated project. */
-export const PAGES_DEFAULT_PROJECT_PATH = pagesPath(
-  "/project/github-finder-jsx",
-);
+export const PAGES_DEFAULT_PROJECT_PATH = pagesPath("/project/justcolor");
 
 /** Shell iframe src for a synced pet demo root (index.html entry). */
 export function demoIframeSrcPattern(slug: string): RegExp {

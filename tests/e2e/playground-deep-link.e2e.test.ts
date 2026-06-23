@@ -2,6 +2,21 @@ import { expect, test } from "@playwright/test";
 import { demoIframeSrcPattern, pagesPath } from "./fixtures/pages-env";
 
 test.describe("playground deep link", () => {
+  test("Given direct /project/justcolor URL, when loaded, then iframe targets justcolor demo", async ({
+    page,
+  }) => {
+    await page.goto(pagesPath("/project/justcolor"));
+
+    await expect(page).toHaveURL(/\/project\/justcolor$/);
+    await expect(page.getByTestId("playground-frame")).toHaveAttribute(
+      "src",
+      demoIframeSrcPattern("justcolor"),
+    );
+    await expect(page.getByTestId("playground-title")).toContainText(
+      "JustColor!",
+    );
+  });
+
   test("Given direct /project/loan-calculator URL, when loaded, then iframe targets loan-calculator demo", async ({
     page,
   }) => {

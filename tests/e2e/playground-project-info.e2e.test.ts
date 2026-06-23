@@ -17,7 +17,7 @@ test.describe("playground project info", () => {
     await page.getByTestId("project-info-fab").click();
     const modal = page.getByTestId("project-info-modal");
     await expect(modal).toBeVisible();
-    await expect(modal).toContainText("November 2020");
+    await expect(modal).toContainText("April 2020");
     await expect(page.getByTestId("project-info-panel")).toHaveCount(0);
     await expect(page.getByTestId("project-info-inline")).toHaveCount(0);
     await page.getByTestId("project-info-close").click();
@@ -71,6 +71,25 @@ test.describe("playground project info", () => {
     await expect(page.getByTestId("project-info-surface")).toContainText(
       "OpenWeatherMap",
     );
+  });
+
+  test("Given justcolor selected, when user opens info modal, then created date, version labels, tech stack, and archive note appear", async ({
+    page,
+  }) => {
+    await page
+      .locator('[data-testid="project-list-item"][data-slug="justcolor"]')
+      .click();
+    await page.getByTestId("project-info-fab").click();
+    const surface = page.getByTestId("project-info-surface");
+    await expect(surface).toBeVisible();
+    await expect(surface).toContainText("JustColor!");
+    await expect(surface).toContainText("April 2020");
+    await expect(surface).toContainText("SvelteKit");
+    await expect(surface).toContainText("git history");
+    await expect(surface).toContainText("zeddrix/justcolor");
+    await expect(
+      surface.getByRole("link", { name: "View in monorepo" }),
+    ).toBeVisible();
   });
 
   test("Given bible-query selected, when user opens info modal, then created date, tech stack, and archive note appear", async ({

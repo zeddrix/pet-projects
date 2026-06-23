@@ -18,15 +18,15 @@ test.describe("playground default load", () => {
     const iframeSrc = await page
       .getByTestId("playground-frame")
       .getAttribute("src");
-    expect(iframeSrc).toMatch(demoIframeSrcPattern("github-finder-jsx"));
+    expect(iframeSrc).toMatch(demoIframeSrcPattern("justcolor"));
 
     await expect(page.getByTestId("home-landing")).toBeAttached();
     await expect(
       page.getByRole("heading", { name: "Zeddrix Fabian" }),
     ).toBeAttached();
-    await expect(page.getByTestId("home-project-link")).toHaveCount(16);
+    await expect(page.getByTestId("home-project-link")).toHaveCount(17);
     await expect(page.getByTestId("playground-title")).toContainText(
-      "GitHub Finder (JSX)",
+      "JustColor!",
     );
   });
 
@@ -38,7 +38,7 @@ test.describe("playground default load", () => {
     await expect(page.getByTestId("playground-shell")).toBeVisible();
     await expect(page.getByTestId("playground-frame")).toHaveAttribute(
       "src",
-      /github-finder-jsx/,
+      /justcolor/,
     );
     await expect(page.getByTestId("project-list")).toBeVisible();
   });
