@@ -17,6 +17,14 @@ Generated: 2026-06-05T04:53:15.181Z
 | bible-query | zeddrix/bible-query | master | static |
 | diamond-in-black-pearl | zeddrix/diamond-in-black-pearl | master | static (Pyodide terminal + visual) |
 | github-finder-jsx | zeddrix/github-finder-jsx | main | docker-build (HashRouter) |
+| justcolor | zeddrix/justcolor | master | sveltekit-static (filter-repo archive) |
+
+## justcolor history verification
+
+```bash
+git log --oneline -- projects/justcolor | tail -5
+git rev-list --count HEAD -- projects/justcolor
+```
 
 ## bible-query history verification
 
