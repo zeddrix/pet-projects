@@ -51,6 +51,9 @@ jobs:
       - name: Build microposts static preview
         run: node scripts/build-microposts-static.mjs
 
+      - name: Build justcolor static preview
+        run: node scripts/build-justcolor-static.mjs
+
       - name: Setup Node 16 for github-finder-jsx CRA
         uses: actions/setup-node@v4
         with:

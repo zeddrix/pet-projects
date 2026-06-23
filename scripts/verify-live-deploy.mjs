@@ -145,13 +145,26 @@ const checks = [
     },
   },
   {
-    name: "Playground shell loads",
+    name: "JustColor static preview",
     run: async () => {
-      const { response, body } = await fetchOk("/project/github-finder-jsx");
+      const { response, body } = await fetchOk(
+        "/projects/justcolor/index.html",
+      );
       return (
         response.ok &&
         typeof body === "string" &&
-        (body.includes("playground-shell") || body.includes("GitHub Finder"))
+        body.includes("<!doctype html>")
+      );
+    },
+  },
+  {
+    name: "Playground shell loads",
+    run: async () => {
+      const { response, body } = await fetchOk("/project/justcolor");
+      return (
+        response.ok &&
+        typeof body === "string" &&
+        (body.includes("playground-shell") || body.includes("JustColor"))
       );
     },
   },
