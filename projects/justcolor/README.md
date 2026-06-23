@@ -1,27 +1,35 @@
-## Developing
+# JustColor!
 
-Once you've created a project and installed dependencies with `npm install`, start a development server:
+> Tap color buttons to learn color names and build a custom palette.
+
+|                  |                                                                                                          |
+| ---------------- | -------------------------------------------------------------------------------------------------------- |
+| **Developed**    | April 2020                                                                                               |
+| **Type**         | SvelteKit static preview                                                                                 |
+| **Live preview** | [pet-projects playground](https://zeddrix.github.io/pet-projects/project/justcolor)                    |
+
+A color-learning web app for teaching color names. Tap preset color buttons to change the page background, add custom colors, and manage your palette with SMUI dialogs.
+
+This folder preserves the full git history from the former standalone repo [zeddrix/justcolor](https://github.com/zeddrix/justcolor).
+
+### Tech stack
+
+![SvelteKit](https://img.shields.io/badge/SvelteKit-FF3E00?logo=svelte&logoColor=white)
+![Svelte](https://img.shields.io/badge/Svelte-4-FF3E00?logo=svelte&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![SMUI](https://img.shields.io/badge/SMUI-Material-6200EE)
+
+### Rebuild static preview
+
+From the monorepo root:
 
 ```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+node scripts/build-justcolor-static.mjs
+pnpm sync-projects
 ```
 
-## Building
+The playground iframe serves `build/` (see `preview.json`).
 
-Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. In my case, I used the `@sveltejs/adapter-static` for the Github Pages environment. Then:
+---
 
-```bash
-npm run build
-```
-
-> You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
-
-## Deploying
-Everything is already set and taken care of by the _deploy_ command found in the __package.json__ file. So all you have to do to have changes appear on site is:
-
-```bash
-npm run deploy
-```
+Part of the [pet-projects](https://github.com/zeddrix/pet-projects) monorepo.

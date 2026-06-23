@@ -4,6 +4,7 @@ import {
   isCra4NodeVersion,
   parseNodeMajor,
   resolveBlogAppBasePath,
+  resolveJustcolorBasePath,
 } from "./archive-build-env.mjs";
 
 describe("resolveBlogAppBasePath", () => {
@@ -30,6 +31,14 @@ describe("resolveBlogAppBasePath", () => {
 
   it("defaults wrapper base when BASE_PATH is unset", () => {
     expect(resolveBlogAppBasePath({})).toBe("/pet-projects/projects/blog-app");
+  });
+});
+
+describe("resolveJustcolorBasePath", () => {
+  it("derives inner base from wrapper BASE_PATH", () => {
+    expect(resolveJustcolorBasePath({ BASE_PATH: "/pet-projects" })).toBe(
+      "/pet-projects/projects/justcolor",
+    );
   });
 });
 

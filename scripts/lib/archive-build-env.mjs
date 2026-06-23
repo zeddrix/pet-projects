@@ -16,6 +16,21 @@ export function resolveBlogAppBasePath(env = process.env) {
 }
 
 /**
+ * Resolve SvelteKit base path for justcolor static preview builds.
+ *
+ * @param {NodeJS.ProcessEnv} [env]
+ * @returns {string}
+ */
+export function resolveJustcolorBasePath(env = process.env) {
+  if (env.JUSTCOLOR_BASE_PATH) {
+    return env.JUSTCOLOR_BASE_PATH.replace(/\/$/, "");
+  }
+
+  const wrapperBase = (env.BASE_PATH ?? "/pet-projects").replace(/\/$/, "");
+  return `${wrapperBase}/projects/justcolor`;
+}
+
+/**
  * CRA 4 (react-scripts@4) requires Node 16.
  *
  * @param {string} [nodeVersion]

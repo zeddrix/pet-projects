@@ -18,6 +18,7 @@
     "backup:dibp-pyodide": "node scripts/backup-dibp-pyodide.mjs",
     "optimize:svg": "node scripts/optimize-svg.mjs",
     "build:github-finder-jsx-static": "node scripts/build-github-finder-jsx-static.mjs",
+    "build:justcolor-static": "node scripts/build-justcolor-static.mjs",
     "audit:raster": "node scripts/audit-raster-assets.mjs",
     "verify:live-deploy": "node scripts/verify-live-deploy.mjs",
     "predev": "pnpm sync-projects",
